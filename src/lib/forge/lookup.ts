@@ -41,14 +41,16 @@ export function journalFor(kind: string | null, tier: number) {
 export function searchItems(
   query: string,
   group: string,
-  filter?: { station?: string; line?: string },
+  filter?: { station?: string; line?: string; tier?: number },
 ): CraftItem[] {
   const q = query.trim().toLowerCase()
   let list = items
   if (group !== "all") list = list.filter((item) => item.group === group)
   if (filter?.station) list = list.filter((item) => item.station === filter.station)
   if (filter?.line) list = list.filter((item) => gearLine(item) === filter.line)
-  const needsLine = (group === "weapon" || group === "armor") && !filter?.station && !filter?.line
+  if (filter?.tier) list = list.filter((item) => item.tier === filter.tier)
+  const narrowed = Boolean(filter?.station || filter?.line || filter?.tier)
+  const needsLine = (group === "weapon" || group === "armor" || group === "offhand" || group === "tool" || group === "gather") && !narrowed
   if (!q && (group === "all" || needsLine)) return []
   const hits: CraftItem[] = []
   for (const item of list) {

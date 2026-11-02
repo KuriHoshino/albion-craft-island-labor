@@ -5,6 +5,7 @@ import { enchantsOf, getItem, journalFor, marketId, matName, matWeight, variantO
 import { CRAFT_CITIES, HO_BIOMES, MARKETS, biomeById, biomeFavors, specialtyBonus } from "@/lib/forge/rules"
 import { moneySide, readQuote, useForge, type Line, type PriceBook } from "@/lib/forge/store"
 import { Num, Select, Toggle, exact, fieldClass, pct, silver } from "./fields"
+import { HourlyChart } from "./Hourly"
 import { ItemPicker } from "./Picker"
 
 function lookup(
@@ -446,6 +447,13 @@ export function Bench() {
               ]}
             />
           </div>
+          <HourlyChart
+            server={state.server}
+            itemId={productId}
+            itemName={`${item.name} .${variant.enchant}`}
+            quality={state.quality}
+            refreshKey={state.priceAt}
+          />
           <div className="mt-4 flex flex-col gap-2">
             <PriceRow
               role="Item price"

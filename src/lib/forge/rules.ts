@@ -311,19 +311,88 @@ export const ARMOR_LINE: Record<string, { label: string; station: (typeof FORGE_
   },
 }
 
-export function gearLine(item: { group: string; category: string }): string | null {
+export const OFFHAND_LINE: Record<string, { label: string }> = {
+  shield: { label: "Shields" },
+  torch: { label: "Torches" },
+  tome: { label: "Tomes" },
+}
+
+export const TOOL_LINE: Record<string, { label: string }> = {
+  axe: { label: "Axes" },
+  pick: { label: "Pickaxes" },
+  sickle: { label: "Sickles" },
+  knife: { label: "Skinning Knives" },
+  hammer: { label: "Stone Hammers" },
+  fishingrod: { label: "Fishing Rods" },
+  siegehammer: { label: "Demolition Hammers" },
+}
+
+export const GATHER_LINE: Record<string, { label: string }> = {
+  fiber: { label: "Harvester" },
+  wood: { label: "Lumberjack" },
+  ore: { label: "Miner" },
+  hide: { label: "Skinner" },
+  rock: { label: "Quarrier" },
+  fish: { label: "Fisherman" },
+}
+
+const OFFHAND_STEM: Record<string, string> = {
+  OFF_SHIELD: "shield",
+  OFF_SHIELD_AVALON: "shield",
+  OFF_SHIELD_CRYSTAL: "shield",
+  OFF_SHIELD_HELL: "shield",
+  OFF_SPIKEDSHIELD_MORGANA: "shield",
+  OFF_TOWERSHIELD_UNDEAD: "shield",
+  OFF_TORCH: "torch",
+  OFF_TORCH_CRYSTAL: "torch",
+  OFF_LAMP_UNDEAD: "torch",
+  OFF_CENSER_AVALON: "torch",
+  OFF_HORN_KEEPER: "torch",
+  OFF_JESTERCANE_HELL: "torch",
+  OFF_TALISMAN_AVALON: "torch",
+  OFF_BOOK: "tome",
+  OFF_ORB_MORGANA: "tome",
+  OFF_DEMONSKULL_HELL: "tome",
+  OFF_TOTEM_KEEPER: "tome",
+  OFF_TOME_CRYSTAL: "tome",
+}
+
+function itemStem(id: string): string {
+  return id.split("@")[0].replace(/^T\d+_/, "")
+}
+
+export function gearLine(item: { id?: string; group: string; category: string }): string | null {
   if (item.group === "weapon") return WEAPON_LINE[item.category] ? item.category : null
-  if (item.group !== "armor") return null
-  for (const [id, line] of Object.entries(ARMOR_LINE)) {
-    if (line.categories.includes(item.category)) return id
+  if (item.group === "armor") {
+    for (const [id, line] of Object.entries(ARMOR_LINE)) {
+      if (line.categories.includes(item.category)) return id
+    }
+    return null
+  }
+  if (!item.id) return null
+  if (item.group === "offhand") return OFFHAND_STEM[itemStem(item.id)] ?? null
+  if (item.group === "gather") {
+    const kind = item.id.match(/GATHERER_([A-Z]+)/)?.[1].toLowerCase()
+    return kind && GATHER_LINE[kind] ? kind : null
+  }
+  if (item.group === "tool") {
+    const kind = item.id.match(/_TOOL_([A-Z]+)/)?.[1].toLowerCase()
+    return kind && TOOL_LINE[kind] ? kind : null
   }
   return null
 }
 
-export function gearLineLabel(item: { group: string; category: string }): string | null {
+export function gearLineLabel(item: { id?: string; group: string; category: string }): string | null {
   const id = gearLine(item)
   if (!id) return null
-  return WEAPON_LINE[id]?.label ?? ARMOR_LINE[id]?.label ?? null
+  return (
+    WEAPON_LINE[id]?.label ??
+    ARMOR_LINE[id]?.label ??
+    OFFHAND_LINE[id]?.label ??
+    TOOL_LINE[id]?.label ??
+    GATHER_LINE[id]?.label ??
+    null
+  )
 }
 
 export const SETUP_FEE = 0.025

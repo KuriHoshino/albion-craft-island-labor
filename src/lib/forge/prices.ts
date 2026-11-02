@@ -67,3 +67,75 @@ export const fetchMarketPrices = createServerFn({ method: "POST" })
     }
     return { quotes, fetchedAt: Date.now() }
   })
+
+export type HourPoint = { time: string; price: number; count: number }
+export type HourSeries = { city: string; points: HourPoint[] }
+export type CityQuote = { sell: number; buy: number }
+
+const HourInput = z.object({
+  server: z.enum(["asia", "europe", "americas"]),
+  itemId: z.string().regex(/^[A-Z0-9_@]+$/),
+  locations: z.array(z.enum(MARKETS)).min(1).max(MARKETS.length),
+  quality: z.number().int().min(1).max(5),
+})
+
+type ChartRow = {
+  location: string
+  data?: {
+    timestamps?: string[]
+    prices_avg?: number[]
+    item_count?: number[]
+  }
+}
+
+async function readJson(url: string): Promise<{ status: number; body: unknown }> {
+  const res = await fetch(url, {
+    headers: { Accept: "application/json", "Accept-Encoding": "gzip, deflate, br" },
+    signal: AbortSignal.timeout(20000),
+  })
+  if (res.status === 429) return { status: 429, body: null }
+  if (!res.ok) {
+    const text = await res.text()
+    throw new Error(text.slice(0, 180) || `Market data ${res.status}`)
+  }
+  return { status: res.status, body: await res.json() }
+}
+
+export const fetchHourlyPrices = createServerFn({ method: "POST" })
+  .validator((input: unknown) => HourInput.parse(input))
+  .handler(async ({ data }) => {
+    const loc = [...new Set(data.locations)].map((name) => encodeURIComponent(name)).join(",")
+    const host = HOST[data.server]
+    const chartUrl = `${host}/api/v2/stats/charts/${data.itemId}.json?locations=${loc}&qualities=${data.quality}&time-scale=1`
+    const priceUrl = `${host}/api/v2/stats/prices/${data.itemId}.json?locations=${loc}&qualities=${data.quality}`
+    const [chartRes, priceRes] = await Promise.all([readJson(chartUrl), readJson(priceUrl)])
+    if (chartRes.status === 429 && priceRes.status === 429) {
+      throw new Error("The data project is busy. Wait a moment, then refresh.")
+    }
+    const series: HourSeries[] = []
+    if (chartRes.status === 200) {
+      for (const row of chartRes.body as ChartRow[]) {
+        const times = row.data?.timestamps ?? []
+        const prices = row.data?.prices_avg ?? []
+        const counts = row.data?.item_count ?? []
+        const points: HourPoint[] = []
+        for (let i = 0; i < times.length; i++) {
+          const price = prices[i] ?? 0
+          if (!times[i] || price <= 0) continue
+          points.push({ time: times[i], price, count: counts[i] ?? 0 })
+        }
+        if (points.length) series.push({ city: row.location, points })
+      }
+    }
+    const quotes: Record<string, CityQuote> = {}
+    if (priceRes.status === 200) {
+      for (const row of priceRes.body as RawRow[]) {
+        if (!row.city) continue
+        quotes[row.city] = {
+          sell: row.sell_price_min || 0,
+          buy: row.buy_price_max || 0,
+        }
+      }
+    }
+    return { series, quotes, fetchedAt: Date.now() }
+  })
