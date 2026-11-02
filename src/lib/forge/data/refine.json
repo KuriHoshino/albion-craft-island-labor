@@ -1,0 +1,3017 @@
+[
+  {
+    "id": "T2_PLANKS",
+    "name": "Birch Planks",
+    "tier": 2,
+    "category": "wood",
+    "group": "refine",
+    "station": "Lumbermill",
+    "study": false,
+    "weight": 0.23,
+    "journal": "WOOD",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 18,
+        "output": 1,
+        "silver": 0,
+        "value": 4,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T2_WOOD",
+            "qty": 1,
+            "ret": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T2_METALBAR",
+    "name": "Copper Bar",
+    "tier": 2,
+    "category": "ore",
+    "group": "refine",
+    "station": "Smelter",
+    "study": false,
+    "weight": 0.23,
+    "journal": "ORE",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 18,
+        "output": 1,
+        "silver": 0,
+        "value": 4,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T2_ORE",
+            "qty": 1,
+            "ret": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T2_STONEBLOCK",
+    "name": "Rough Stone",
+    "tier": 2,
+    "category": "rock",
+    "group": "refine",
+    "station": "Stonemason",
+    "study": false,
+    "weight": 0.23,
+    "journal": "STONE",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 18,
+        "output": 1,
+        "silver": 0,
+        "value": 4,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T2_ROCK",
+            "qty": 1,
+            "ret": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T2_CLOTH",
+    "name": "Simple Cloth",
+    "tier": 2,
+    "category": "fiber",
+    "group": "refine",
+    "station": "Weaver",
+    "study": false,
+    "weight": 0.23,
+    "journal": "FIBER",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 18,
+        "output": 1,
+        "silver": 0,
+        "value": 4,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T2_FIBER",
+            "qty": 1,
+            "ret": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T2_LEATHER",
+    "name": "Stiff Leather",
+    "tier": 2,
+    "category": "hide",
+    "group": "refine",
+    "station": "Tanner",
+    "study": false,
+    "weight": 0.23,
+    "journal": "HIDE",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 18,
+        "output": 1,
+        "silver": 0,
+        "value": 4,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T2_HIDE",
+            "qty": 1,
+            "ret": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T3_METALBAR",
+    "name": "Bronze Bar",
+    "tier": 3,
+    "category": "ore",
+    "group": "refine",
+    "station": "Smelter",
+    "study": false,
+    "weight": 0.34,
+    "journal": "ORE",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 31,
+        "output": 1,
+        "silver": 0,
+        "value": 8,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T3_ORE",
+            "qty": 2,
+            "ret": true
+          },
+          {
+            "id": "T2_METALBAR",
+            "qty": 1,
+            "ret": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T3_PLANKS",
+    "name": "Chestnut Planks",
+    "tier": 3,
+    "category": "wood",
+    "group": "refine",
+    "station": "Lumbermill",
+    "study": false,
+    "weight": 0.34,
+    "journal": "WOOD",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 31,
+        "output": 1,
+        "silver": 0,
+        "value": 8,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T3_WOOD",
+            "qty": 2,
+            "ret": true
+          },
+          {
+            "id": "T2_PLANKS",
+            "qty": 1,
+            "ret": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T3_STONEBLOCK",
+    "name": "Limestone Block",
+    "tier": 3,
+    "category": "rock",
+    "group": "refine",
+    "station": "Stonemason",
+    "study": false,
+    "weight": 0.34,
+    "journal": "STONE",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 31,
+        "output": 1,
+        "silver": 0,
+        "value": 8,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T3_ROCK",
+            "qty": 2,
+            "ret": true
+          },
+          {
+            "id": "T2_STONEBLOCK",
+            "qty": 1,
+            "ret": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T3_CLOTH",
+    "name": "Neat Cloth",
+    "tier": 3,
+    "category": "fiber",
+    "group": "refine",
+    "station": "Weaver",
+    "study": false,
+    "weight": 0.34,
+    "journal": "FIBER",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 31,
+        "output": 1,
+        "silver": 0,
+        "value": 8,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T3_FIBER",
+            "qty": 2,
+            "ret": true
+          },
+          {
+            "id": "T2_CLOTH",
+            "qty": 1,
+            "ret": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T3_LEATHER",
+    "name": "Thick Leather",
+    "tier": 3,
+    "category": "hide",
+    "group": "refine",
+    "station": "Tanner",
+    "study": false,
+    "weight": 0.34,
+    "journal": "HIDE",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 31,
+        "output": 1,
+        "silver": 0,
+        "value": 8,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T3_HIDE",
+            "qty": 2,
+            "ret": true
+          },
+          {
+            "id": "T2_LEATHER",
+            "qty": 1,
+            "ret": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T4_CLOTH",
+    "name": "Fine Cloth",
+    "tier": 4,
+    "category": "fiber",
+    "group": "refine",
+    "station": "Weaver",
+    "study": false,
+    "weight": 0.51,
+    "journal": "FIBER",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 54,
+        "output": 1,
+        "silver": 0,
+        "value": 16,
+        "fame": 22.5,
+        "mats": [
+          {
+            "id": "T4_FIBER",
+            "qty": 2,
+            "ret": true
+          },
+          {
+            "id": "T3_CLOTH",
+            "qty": 1,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 94,
+        "output": 1,
+        "silver": 0,
+        "value": 32,
+        "fame": 45,
+        "mats": [
+          {
+            "id": "T4_FIBER@1",
+            "qty": 2,
+            "ret": true
+          },
+          {
+            "id": "T3_CLOTH",
+            "qty": 1,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 164,
+        "output": 1,
+        "silver": 0,
+        "value": 64,
+        "fame": 90,
+        "mats": [
+          {
+            "id": "T4_FIBER@2",
+            "qty": 2,
+            "ret": true
+          },
+          {
+            "id": "T3_CLOTH",
+            "qty": 1,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 287,
+        "output": 1,
+        "silver": 0,
+        "value": 128,
+        "fame": 180,
+        "mats": [
+          {
+            "id": "T4_FIBER@3",
+            "qty": 2,
+            "ret": true
+          },
+          {
+            "id": "T3_CLOTH",
+            "qty": 1,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 503,
+        "output": 1,
+        "silver": 0,
+        "value": 256,
+        "fame": 360,
+        "mats": [
+          {
+            "id": "T4_FIBER@4",
+            "qty": 2,
+            "ret": true
+          },
+          {
+            "id": "T3_CLOTH",
+            "qty": 1,
+            "ret": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T4_PLANKS",
+    "name": "Pine Planks",
+    "tier": 4,
+    "category": "wood",
+    "group": "refine",
+    "station": "Lumbermill",
+    "study": false,
+    "weight": 0.51,
+    "journal": "WOOD",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 54,
+        "output": 1,
+        "silver": 0,
+        "value": 16,
+        "fame": 22.5,
+        "mats": [
+          {
+            "id": "T4_WOOD",
+            "qty": 2,
+            "ret": true
+          },
+          {
+            "id": "T3_PLANKS",
+            "qty": 1,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 94,
+        "output": 1,
+        "silver": 0,
+        "value": 32,
+        "fame": 45,
+        "mats": [
+          {
+            "id": "T4_WOOD@1",
+            "qty": 2,
+            "ret": true
+          },
+          {
+            "id": "T3_PLANKS",
+            "qty": 1,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 164,
+        "output": 1,
+        "silver": 0,
+        "value": 64,
+        "fame": 90,
+        "mats": [
+          {
+            "id": "T4_WOOD@2",
+            "qty": 2,
+            "ret": true
+          },
+          {
+            "id": "T3_PLANKS",
+            "qty": 1,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 287,
+        "output": 1,
+        "silver": 0,
+        "value": 128,
+        "fame": 180,
+        "mats": [
+          {
+            "id": "T4_WOOD@3",
+            "qty": 2,
+            "ret": true
+          },
+          {
+            "id": "T3_PLANKS",
+            "qty": 1,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 503,
+        "output": 1,
+        "silver": 0,
+        "value": 256,
+        "fame": 360,
+        "mats": [
+          {
+            "id": "T4_WOOD@4",
+            "qty": 2,
+            "ret": true
+          },
+          {
+            "id": "T3_PLANKS",
+            "qty": 1,
+            "ret": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T4_STONEBLOCK",
+    "name": "Sandstone Block",
+    "tier": 4,
+    "category": "rock",
+    "group": "refine",
+    "station": "Stonemason",
+    "study": false,
+    "weight": 0.51,
+    "journal": "STONE",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 54,
+        "output": 1,
+        "silver": 0,
+        "value": 16,
+        "fame": 22.5,
+        "mats": [
+          {
+            "id": "T4_ROCK",
+            "qty": 2,
+            "ret": true
+          },
+          {
+            "id": "T3_STONEBLOCK",
+            "qty": 1,
+            "ret": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T4_STONEBLOCK#alt",
+    "name": "Sandstone Block · transmute",
+    "tier": 4,
+    "category": "rock",
+    "group": "refine",
+    "station": "Stonemason",
+    "study": false,
+    "weight": 0.51,
+    "journal": "STONE",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 54,
+        "output": 2,
+        "silver": 0,
+        "value": 16,
+        "fame": 22.5,
+        "mats": [
+          {
+            "id": "T4_ROCK@1",
+            "qty": 2,
+            "ret": true
+          },
+          {
+            "id": "T3_STONEBLOCK",
+            "qty": 2,
+            "ret": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T4_METALBAR",
+    "name": "Steel Bar",
+    "tier": 4,
+    "category": "ore",
+    "group": "refine",
+    "station": "Smelter",
+    "study": false,
+    "weight": 0.51,
+    "journal": "ORE",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 54,
+        "output": 1,
+        "silver": 0,
+        "value": 16,
+        "fame": 22.5,
+        "mats": [
+          {
+            "id": "T4_ORE",
+            "qty": 2,
+            "ret": true
+          },
+          {
+            "id": "T3_METALBAR",
+            "qty": 1,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 94,
+        "output": 1,
+        "silver": 0,
+        "value": 32,
+        "fame": 45,
+        "mats": [
+          {
+            "id": "T4_ORE@1",
+            "qty": 2,
+            "ret": true
+          },
+          {
+            "id": "T3_METALBAR",
+            "qty": 1,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 164,
+        "output": 1,
+        "silver": 0,
+        "value": 64,
+        "fame": 90,
+        "mats": [
+          {
+            "id": "T4_ORE@2",
+            "qty": 2,
+            "ret": true
+          },
+          {
+            "id": "T3_METALBAR",
+            "qty": 1,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 287,
+        "output": 1,
+        "silver": 0,
+        "value": 128,
+        "fame": 180,
+        "mats": [
+          {
+            "id": "T4_ORE@3",
+            "qty": 2,
+            "ret": true
+          },
+          {
+            "id": "T3_METALBAR",
+            "qty": 1,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 503,
+        "output": 1,
+        "silver": 0,
+        "value": 256,
+        "fame": 360,
+        "mats": [
+          {
+            "id": "T4_ORE@4",
+            "qty": 2,
+            "ret": true
+          },
+          {
+            "id": "T3_METALBAR",
+            "qty": 1,
+            "ret": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T4_LEATHER",
+    "name": "Worked Leather",
+    "tier": 4,
+    "category": "hide",
+    "group": "refine",
+    "station": "Tanner",
+    "study": false,
+    "weight": 0.51,
+    "journal": "HIDE",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 54,
+        "output": 1,
+        "silver": 0,
+        "value": 16,
+        "fame": 22.5,
+        "mats": [
+          {
+            "id": "T4_HIDE",
+            "qty": 2,
+            "ret": true
+          },
+          {
+            "id": "T3_LEATHER",
+            "qty": 1,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 94,
+        "output": 1,
+        "silver": 0,
+        "value": 32,
+        "fame": 45,
+        "mats": [
+          {
+            "id": "T4_HIDE@1",
+            "qty": 2,
+            "ret": true
+          },
+          {
+            "id": "T3_LEATHER",
+            "qty": 1,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 164,
+        "output": 1,
+        "silver": 0,
+        "value": 64,
+        "fame": 90,
+        "mats": [
+          {
+            "id": "T4_HIDE@2",
+            "qty": 2,
+            "ret": true
+          },
+          {
+            "id": "T3_LEATHER",
+            "qty": 1,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 287,
+        "output": 1,
+        "silver": 0,
+        "value": 128,
+        "fame": 180,
+        "mats": [
+          {
+            "id": "T4_HIDE@3",
+            "qty": 2,
+            "ret": true
+          },
+          {
+            "id": "T3_LEATHER",
+            "qty": 1,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 503,
+        "output": 1,
+        "silver": 0,
+        "value": 256,
+        "fame": 360,
+        "mats": [
+          {
+            "id": "T4_HIDE@4",
+            "qty": 2,
+            "ret": true
+          },
+          {
+            "id": "T3_LEATHER",
+            "qty": 1,
+            "ret": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T5_PLANKS",
+    "name": "Cedar Planks",
+    "tier": 5,
+    "category": "wood",
+    "group": "refine",
+    "station": "Lumbermill",
+    "study": false,
+    "weight": 0.76,
+    "journal": "WOOD",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 94,
+        "output": 1,
+        "silver": 0,
+        "value": 32,
+        "fame": 90,
+        "mats": [
+          {
+            "id": "T5_WOOD",
+            "qty": 3,
+            "ret": true
+          },
+          {
+            "id": "T4_PLANKS",
+            "qty": 1,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 164,
+        "output": 1,
+        "silver": 0,
+        "value": 64,
+        "fame": 180,
+        "mats": [
+          {
+            "id": "T5_WOOD@1",
+            "qty": 3,
+            "ret": true
+          },
+          {
+            "id": "T4_PLANKS@1",
+            "qty": 1,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 287,
+        "output": 1,
+        "silver": 0,
+        "value": 128,
+        "fame": 360,
+        "mats": [
+          {
+            "id": "T5_WOOD@2",
+            "qty": 3,
+            "ret": true
+          },
+          {
+            "id": "T4_PLANKS@2",
+            "qty": 1,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 503,
+        "output": 1,
+        "silver": 0,
+        "value": 256,
+        "fame": 720,
+        "mats": [
+          {
+            "id": "T5_WOOD@3",
+            "qty": 3,
+            "ret": true
+          },
+          {
+            "id": "T4_PLANKS@3",
+            "qty": 1,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 880,
+        "output": 1,
+        "silver": 0,
+        "value": 512,
+        "fame": 1440,
+        "mats": [
+          {
+            "id": "T5_WOOD@4",
+            "qty": 3,
+            "ret": true
+          },
+          {
+            "id": "T4_PLANKS@4",
+            "qty": 1,
+            "ret": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T5_LEATHER",
+    "name": "Cured Leather",
+    "tier": 5,
+    "category": "hide",
+    "group": "refine",
+    "station": "Tanner",
+    "study": false,
+    "weight": 0.76,
+    "journal": "HIDE",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 94,
+        "output": 1,
+        "silver": 0,
+        "value": 32,
+        "fame": 90,
+        "mats": [
+          {
+            "id": "T5_HIDE",
+            "qty": 3,
+            "ret": true
+          },
+          {
+            "id": "T4_LEATHER",
+            "qty": 1,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 164,
+        "output": 1,
+        "silver": 0,
+        "value": 64,
+        "fame": 180,
+        "mats": [
+          {
+            "id": "T5_HIDE@1",
+            "qty": 3,
+            "ret": true
+          },
+          {
+            "id": "T4_LEATHER@1",
+            "qty": 1,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 287,
+        "output": 1,
+        "silver": 0,
+        "value": 128,
+        "fame": 360,
+        "mats": [
+          {
+            "id": "T5_HIDE@2",
+            "qty": 3,
+            "ret": true
+          },
+          {
+            "id": "T4_LEATHER@2",
+            "qty": 1,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 503,
+        "output": 1,
+        "silver": 0,
+        "value": 256,
+        "fame": 720,
+        "mats": [
+          {
+            "id": "T5_HIDE@3",
+            "qty": 3,
+            "ret": true
+          },
+          {
+            "id": "T4_LEATHER@3",
+            "qty": 1,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 880,
+        "output": 1,
+        "silver": 0,
+        "value": 512,
+        "fame": 1440,
+        "mats": [
+          {
+            "id": "T5_HIDE@4",
+            "qty": 3,
+            "ret": true
+          },
+          {
+            "id": "T4_LEATHER@4",
+            "qty": 1,
+            "ret": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T5_CLOTH",
+    "name": "Ornate Cloth",
+    "tier": 5,
+    "category": "fiber",
+    "group": "refine",
+    "station": "Weaver",
+    "study": false,
+    "weight": 0.76,
+    "journal": "FIBER",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 94,
+        "output": 1,
+        "silver": 0,
+        "value": 32,
+        "fame": 90,
+        "mats": [
+          {
+            "id": "T5_FIBER",
+            "qty": 3,
+            "ret": true
+          },
+          {
+            "id": "T4_CLOTH",
+            "qty": 1,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 164,
+        "output": 1,
+        "silver": 0,
+        "value": 64,
+        "fame": 180,
+        "mats": [
+          {
+            "id": "T5_FIBER@1",
+            "qty": 3,
+            "ret": true
+          },
+          {
+            "id": "T4_CLOTH@1",
+            "qty": 1,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 287,
+        "output": 1,
+        "silver": 0,
+        "value": 128,
+        "fame": 360,
+        "mats": [
+          {
+            "id": "T5_FIBER@2",
+            "qty": 3,
+            "ret": true
+          },
+          {
+            "id": "T4_CLOTH@2",
+            "qty": 1,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 503,
+        "output": 1,
+        "silver": 0,
+        "value": 256,
+        "fame": 720,
+        "mats": [
+          {
+            "id": "T5_FIBER@3",
+            "qty": 3,
+            "ret": true
+          },
+          {
+            "id": "T4_CLOTH@3",
+            "qty": 1,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 880,
+        "output": 1,
+        "silver": 0,
+        "value": 512,
+        "fame": 1440,
+        "mats": [
+          {
+            "id": "T5_FIBER@4",
+            "qty": 3,
+            "ret": true
+          },
+          {
+            "id": "T4_CLOTH@4",
+            "qty": 1,
+            "ret": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T5_METALBAR",
+    "name": "Titanium Bar",
+    "tier": 5,
+    "category": "ore",
+    "group": "refine",
+    "station": "Smelter",
+    "study": false,
+    "weight": 0.76,
+    "journal": "ORE",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 94,
+        "output": 1,
+        "silver": 0,
+        "value": 32,
+        "fame": 90,
+        "mats": [
+          {
+            "id": "T5_ORE",
+            "qty": 3,
+            "ret": true
+          },
+          {
+            "id": "T4_METALBAR",
+            "qty": 1,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 164,
+        "output": 1,
+        "silver": 0,
+        "value": 64,
+        "fame": 180,
+        "mats": [
+          {
+            "id": "T5_ORE@1",
+            "qty": 3,
+            "ret": true
+          },
+          {
+            "id": "T4_METALBAR@1",
+            "qty": 1,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 287,
+        "output": 1,
+        "silver": 0,
+        "value": 128,
+        "fame": 360,
+        "mats": [
+          {
+            "id": "T5_ORE@2",
+            "qty": 3,
+            "ret": true
+          },
+          {
+            "id": "T4_METALBAR@2",
+            "qty": 1,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 503,
+        "output": 1,
+        "silver": 0,
+        "value": 256,
+        "fame": 720,
+        "mats": [
+          {
+            "id": "T5_ORE@3",
+            "qty": 3,
+            "ret": true
+          },
+          {
+            "id": "T4_METALBAR@3",
+            "qty": 1,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 880,
+        "output": 1,
+        "silver": 0,
+        "value": 512,
+        "fame": 1440,
+        "mats": [
+          {
+            "id": "T5_ORE@4",
+            "qty": 3,
+            "ret": true
+          },
+          {
+            "id": "T4_METALBAR@4",
+            "qty": 1,
+            "ret": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T5_STONEBLOCK",
+    "name": "Travertine Block",
+    "tier": 5,
+    "category": "rock",
+    "group": "refine",
+    "station": "Stonemason",
+    "study": false,
+    "weight": 0.76,
+    "journal": "STONE",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 94,
+        "output": 1,
+        "silver": 0,
+        "value": 32,
+        "fame": 90,
+        "mats": [
+          {
+            "id": "T5_ROCK",
+            "qty": 3,
+            "ret": true
+          },
+          {
+            "id": "T4_STONEBLOCK",
+            "qty": 1,
+            "ret": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T5_STONEBLOCK#alt",
+    "name": "Travertine Block · transmute",
+    "tier": 5,
+    "category": "rock",
+    "group": "refine",
+    "station": "Stonemason",
+    "study": false,
+    "weight": 0.76,
+    "journal": "STONE",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 94,
+        "output": 2,
+        "silver": 0,
+        "value": 32,
+        "fame": 90,
+        "mats": [
+          {
+            "id": "T5_ROCK@1",
+            "qty": 3,
+            "ret": true
+          },
+          {
+            "id": "T4_STONEBLOCK",
+            "qty": 2,
+            "ret": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T6_PLANKS",
+    "name": "Bloodoak Planks",
+    "tier": 6,
+    "category": "wood",
+    "group": "refine",
+    "station": "Lumbermill",
+    "study": false,
+    "weight": 1.14,
+    "journal": "WOOD",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 164,
+        "output": 1,
+        "silver": 0,
+        "value": 64,
+        "fame": 270,
+        "mats": [
+          {
+            "id": "T6_WOOD",
+            "qty": 4,
+            "ret": true
+          },
+          {
+            "id": "T5_PLANKS",
+            "qty": 1,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 287,
+        "output": 1,
+        "silver": 0,
+        "value": 128,
+        "fame": 540,
+        "mats": [
+          {
+            "id": "T6_WOOD@1",
+            "qty": 4,
+            "ret": true
+          },
+          {
+            "id": "T5_PLANKS@1",
+            "qty": 1,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 503,
+        "output": 1,
+        "silver": 0,
+        "value": 256,
+        "fame": 1080,
+        "mats": [
+          {
+            "id": "T6_WOOD@2",
+            "qty": 4,
+            "ret": true
+          },
+          {
+            "id": "T5_PLANKS@2",
+            "qty": 1,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 880,
+        "output": 1,
+        "silver": 0,
+        "value": 512,
+        "fame": 2160,
+        "mats": [
+          {
+            "id": "T6_WOOD@3",
+            "qty": 4,
+            "ret": true
+          },
+          {
+            "id": "T5_PLANKS@3",
+            "qty": 1,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 1539,
+        "output": 1,
+        "silver": 0,
+        "value": 1024,
+        "fame": 4320,
+        "mats": [
+          {
+            "id": "T6_WOOD@4",
+            "qty": 4,
+            "ret": true
+          },
+          {
+            "id": "T5_PLANKS@4",
+            "qty": 1,
+            "ret": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T6_STONEBLOCK",
+    "name": "Granite Block",
+    "tier": 6,
+    "category": "rock",
+    "group": "refine",
+    "station": "Stonemason",
+    "study": false,
+    "weight": 1.14,
+    "journal": "STONE",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 164,
+        "output": 1,
+        "silver": 0,
+        "value": 64,
+        "fame": 270,
+        "mats": [
+          {
+            "id": "T6_ROCK",
+            "qty": 4,
+            "ret": true
+          },
+          {
+            "id": "T5_STONEBLOCK",
+            "qty": 1,
+            "ret": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T6_STONEBLOCK#alt",
+    "name": "Granite Block · transmute",
+    "tier": 6,
+    "category": "rock",
+    "group": "refine",
+    "station": "Stonemason",
+    "study": false,
+    "weight": 1.14,
+    "journal": "STONE",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 164,
+        "output": 2,
+        "silver": 0,
+        "value": 64,
+        "fame": 270,
+        "mats": [
+          {
+            "id": "T6_ROCK@1",
+            "qty": 4,
+            "ret": true
+          },
+          {
+            "id": "T5_STONEBLOCK",
+            "qty": 2,
+            "ret": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T6_LEATHER",
+    "name": "Hardened Leather",
+    "tier": 6,
+    "category": "hide",
+    "group": "refine",
+    "station": "Tanner",
+    "study": false,
+    "weight": 1.14,
+    "journal": "HIDE",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 164,
+        "output": 1,
+        "silver": 0,
+        "value": 64,
+        "fame": 270,
+        "mats": [
+          {
+            "id": "T6_HIDE",
+            "qty": 4,
+            "ret": true
+          },
+          {
+            "id": "T5_LEATHER",
+            "qty": 1,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 287,
+        "output": 1,
+        "silver": 0,
+        "value": 128,
+        "fame": 540,
+        "mats": [
+          {
+            "id": "T6_HIDE@1",
+            "qty": 4,
+            "ret": true
+          },
+          {
+            "id": "T5_LEATHER@1",
+            "qty": 1,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 503,
+        "output": 1,
+        "silver": 0,
+        "value": 256,
+        "fame": 1080,
+        "mats": [
+          {
+            "id": "T6_HIDE@2",
+            "qty": 4,
+            "ret": true
+          },
+          {
+            "id": "T5_LEATHER@2",
+            "qty": 1,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 880,
+        "output": 1,
+        "silver": 0,
+        "value": 512,
+        "fame": 2160,
+        "mats": [
+          {
+            "id": "T6_HIDE@3",
+            "qty": 4,
+            "ret": true
+          },
+          {
+            "id": "T5_LEATHER@3",
+            "qty": 1,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 1539,
+        "output": 1,
+        "silver": 0,
+        "value": 1024,
+        "fame": 4320,
+        "mats": [
+          {
+            "id": "T6_HIDE@4",
+            "qty": 4,
+            "ret": true
+          },
+          {
+            "id": "T5_LEATHER@4",
+            "qty": 1,
+            "ret": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T6_CLOTH",
+    "name": "Lavish Cloth",
+    "tier": 6,
+    "category": "fiber",
+    "group": "refine",
+    "station": "Weaver",
+    "study": false,
+    "weight": 1.14,
+    "journal": "FIBER",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 164,
+        "output": 1,
+        "silver": 0,
+        "value": 64,
+        "fame": 270,
+        "mats": [
+          {
+            "id": "T6_FIBER",
+            "qty": 4,
+            "ret": true
+          },
+          {
+            "id": "T5_CLOTH",
+            "qty": 1,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 287,
+        "output": 1,
+        "silver": 0,
+        "value": 128,
+        "fame": 540,
+        "mats": [
+          {
+            "id": "T6_FIBER@1",
+            "qty": 4,
+            "ret": true
+          },
+          {
+            "id": "T5_CLOTH@1",
+            "qty": 1,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 503,
+        "output": 1,
+        "silver": 0,
+        "value": 256,
+        "fame": 1080,
+        "mats": [
+          {
+            "id": "T6_FIBER@2",
+            "qty": 4,
+            "ret": true
+          },
+          {
+            "id": "T5_CLOTH@2",
+            "qty": 1,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 880,
+        "output": 1,
+        "silver": 0,
+        "value": 512,
+        "fame": 2160,
+        "mats": [
+          {
+            "id": "T6_FIBER@3",
+            "qty": 4,
+            "ret": true
+          },
+          {
+            "id": "T5_CLOTH@3",
+            "qty": 1,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 1539,
+        "output": 1,
+        "silver": 0,
+        "value": 1024,
+        "fame": 4320,
+        "mats": [
+          {
+            "id": "T6_FIBER@4",
+            "qty": 4,
+            "ret": true
+          },
+          {
+            "id": "T5_CLOTH@4",
+            "qty": 1,
+            "ret": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T6_METALBAR",
+    "name": "Runite Bar",
+    "tier": 6,
+    "category": "ore",
+    "group": "refine",
+    "station": "Smelter",
+    "study": false,
+    "weight": 1.14,
+    "journal": "ORE",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 164,
+        "output": 1,
+        "silver": 0,
+        "value": 64,
+        "fame": 270,
+        "mats": [
+          {
+            "id": "T6_ORE",
+            "qty": 4,
+            "ret": true
+          },
+          {
+            "id": "T5_METALBAR",
+            "qty": 1,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 287,
+        "output": 1,
+        "silver": 0,
+        "value": 128,
+        "fame": 540,
+        "mats": [
+          {
+            "id": "T6_ORE@1",
+            "qty": 4,
+            "ret": true
+          },
+          {
+            "id": "T5_METALBAR@1",
+            "qty": 1,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 503,
+        "output": 1,
+        "silver": 0,
+        "value": 256,
+        "fame": 1080,
+        "mats": [
+          {
+            "id": "T6_ORE@2",
+            "qty": 4,
+            "ret": true
+          },
+          {
+            "id": "T5_METALBAR@2",
+            "qty": 1,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 880,
+        "output": 1,
+        "silver": 0,
+        "value": 512,
+        "fame": 2160,
+        "mats": [
+          {
+            "id": "T6_ORE@3",
+            "qty": 4,
+            "ret": true
+          },
+          {
+            "id": "T5_METALBAR@3",
+            "qty": 1,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 1539,
+        "output": 1,
+        "silver": 0,
+        "value": 1024,
+        "fame": 4320,
+        "mats": [
+          {
+            "id": "T6_ORE@4",
+            "qty": 4,
+            "ret": true
+          },
+          {
+            "id": "T5_METALBAR@4",
+            "qty": 1,
+            "ret": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T7_PLANKS",
+    "name": "Ashenbark Planks",
+    "tier": 7,
+    "category": "wood",
+    "group": "refine",
+    "station": "Lumbermill",
+    "study": false,
+    "weight": 1.71,
+    "journal": "WOOD",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 287,
+        "output": 1,
+        "silver": 0,
+        "value": 128,
+        "fame": 645,
+        "mats": [
+          {
+            "id": "T7_WOOD",
+            "qty": 5,
+            "ret": true
+          },
+          {
+            "id": "T6_PLANKS",
+            "qty": 1,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 503,
+        "output": 1,
+        "silver": 0,
+        "value": 256,
+        "fame": 1290,
+        "mats": [
+          {
+            "id": "T7_WOOD@1",
+            "qty": 5,
+            "ret": true
+          },
+          {
+            "id": "T6_PLANKS@1",
+            "qty": 1,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 880,
+        "output": 1,
+        "silver": 0,
+        "value": 512,
+        "fame": 2580,
+        "mats": [
+          {
+            "id": "T7_WOOD@2",
+            "qty": 5,
+            "ret": true
+          },
+          {
+            "id": "T6_PLANKS@2",
+            "qty": 1,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 1539,
+        "output": 1,
+        "silver": 0,
+        "value": 1024,
+        "fame": 5160,
+        "mats": [
+          {
+            "id": "T7_WOOD@3",
+            "qty": 5,
+            "ret": true
+          },
+          {
+            "id": "T6_PLANKS@3",
+            "qty": 1,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 2694,
+        "output": 1,
+        "silver": 0,
+        "value": 2048,
+        "fame": 10320,
+        "mats": [
+          {
+            "id": "T7_WOOD@4",
+            "qty": 5,
+            "ret": true
+          },
+          {
+            "id": "T6_PLANKS@4",
+            "qty": 1,
+            "ret": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T7_METALBAR",
+    "name": "Meteorite Bar",
+    "tier": 7,
+    "category": "ore",
+    "group": "refine",
+    "station": "Smelter",
+    "study": false,
+    "weight": 1.71,
+    "journal": "ORE",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 287,
+        "output": 1,
+        "silver": 0,
+        "value": 128,
+        "fame": 645,
+        "mats": [
+          {
+            "id": "T7_ORE",
+            "qty": 5,
+            "ret": true
+          },
+          {
+            "id": "T6_METALBAR",
+            "qty": 1,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 503,
+        "output": 1,
+        "silver": 0,
+        "value": 256,
+        "fame": 1290,
+        "mats": [
+          {
+            "id": "T7_ORE@1",
+            "qty": 5,
+            "ret": true
+          },
+          {
+            "id": "T6_METALBAR@1",
+            "qty": 1,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 880,
+        "output": 1,
+        "silver": 0,
+        "value": 512,
+        "fame": 2580,
+        "mats": [
+          {
+            "id": "T7_ORE@2",
+            "qty": 5,
+            "ret": true
+          },
+          {
+            "id": "T6_METALBAR@2",
+            "qty": 1,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 1539,
+        "output": 1,
+        "silver": 0,
+        "value": 1024,
+        "fame": 5160,
+        "mats": [
+          {
+            "id": "T7_ORE@3",
+            "qty": 5,
+            "ret": true
+          },
+          {
+            "id": "T6_METALBAR@3",
+            "qty": 1,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 2694,
+        "output": 1,
+        "silver": 0,
+        "value": 2048,
+        "fame": 10320,
+        "mats": [
+          {
+            "id": "T7_ORE@4",
+            "qty": 5,
+            "ret": true
+          },
+          {
+            "id": "T6_METALBAR@4",
+            "qty": 1,
+            "ret": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T7_CLOTH",
+    "name": "Opulent Cloth",
+    "tier": 7,
+    "category": "fiber",
+    "group": "refine",
+    "station": "Weaver",
+    "study": false,
+    "weight": 1.71,
+    "journal": "FIBER",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 287,
+        "output": 1,
+        "silver": 0,
+        "value": 128,
+        "fame": 645,
+        "mats": [
+          {
+            "id": "T7_FIBER",
+            "qty": 5,
+            "ret": true
+          },
+          {
+            "id": "T6_CLOTH",
+            "qty": 1,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 503,
+        "output": 1,
+        "silver": 0,
+        "value": 256,
+        "fame": 1290,
+        "mats": [
+          {
+            "id": "T7_FIBER@1",
+            "qty": 5,
+            "ret": true
+          },
+          {
+            "id": "T6_CLOTH@1",
+            "qty": 1,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 880,
+        "output": 1,
+        "silver": 0,
+        "value": 512,
+        "fame": 2580,
+        "mats": [
+          {
+            "id": "T7_FIBER@2",
+            "qty": 5,
+            "ret": true
+          },
+          {
+            "id": "T6_CLOTH@2",
+            "qty": 1,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 1539,
+        "output": 1,
+        "silver": 0,
+        "value": 1024,
+        "fame": 5160,
+        "mats": [
+          {
+            "id": "T7_FIBER@3",
+            "qty": 5,
+            "ret": true
+          },
+          {
+            "id": "T6_CLOTH@3",
+            "qty": 1,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 2694,
+        "output": 1,
+        "silver": 0,
+        "value": 2048,
+        "fame": 10320,
+        "mats": [
+          {
+            "id": "T7_FIBER@4",
+            "qty": 5,
+            "ret": true
+          },
+          {
+            "id": "T6_CLOTH@4",
+            "qty": 1,
+            "ret": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T7_LEATHER",
+    "name": "Reinforced Leather",
+    "tier": 7,
+    "category": "hide",
+    "group": "refine",
+    "station": "Tanner",
+    "study": false,
+    "weight": 1.71,
+    "journal": "HIDE",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 287,
+        "output": 1,
+        "silver": 0,
+        "value": 128,
+        "fame": 645,
+        "mats": [
+          {
+            "id": "T7_HIDE",
+            "qty": 5,
+            "ret": true
+          },
+          {
+            "id": "T6_LEATHER",
+            "qty": 1,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 503,
+        "output": 1,
+        "silver": 0,
+        "value": 256,
+        "fame": 1290,
+        "mats": [
+          {
+            "id": "T7_HIDE@1",
+            "qty": 5,
+            "ret": true
+          },
+          {
+            "id": "T6_LEATHER@1",
+            "qty": 1,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 880,
+        "output": 1,
+        "silver": 0,
+        "value": 512,
+        "fame": 2580,
+        "mats": [
+          {
+            "id": "T7_HIDE@2",
+            "qty": 5,
+            "ret": true
+          },
+          {
+            "id": "T6_LEATHER@2",
+            "qty": 1,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 1539,
+        "output": 1,
+        "silver": 0,
+        "value": 1024,
+        "fame": 5160,
+        "mats": [
+          {
+            "id": "T7_HIDE@3",
+            "qty": 5,
+            "ret": true
+          },
+          {
+            "id": "T6_LEATHER@3",
+            "qty": 1,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 2694,
+        "output": 1,
+        "silver": 0,
+        "value": 2048,
+        "fame": 10320,
+        "mats": [
+          {
+            "id": "T7_HIDE@4",
+            "qty": 5,
+            "ret": true
+          },
+          {
+            "id": "T6_LEATHER@4",
+            "qty": 1,
+            "ret": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T7_STONEBLOCK",
+    "name": "Slate Block",
+    "tier": 7,
+    "category": "rock",
+    "group": "refine",
+    "station": "Stonemason",
+    "study": false,
+    "weight": 1.71,
+    "journal": "STONE",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 287,
+        "output": 1,
+        "silver": 0,
+        "value": 128,
+        "fame": 645,
+        "mats": [
+          {
+            "id": "T7_ROCK",
+            "qty": 5,
+            "ret": true
+          },
+          {
+            "id": "T6_STONEBLOCK",
+            "qty": 1,
+            "ret": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T7_STONEBLOCK#alt",
+    "name": "Slate Block · transmute",
+    "tier": 7,
+    "category": "rock",
+    "group": "refine",
+    "station": "Stonemason",
+    "study": false,
+    "weight": 1.71,
+    "journal": "STONE",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 287,
+        "output": 2,
+        "silver": 0,
+        "value": 128,
+        "fame": 645,
+        "mats": [
+          {
+            "id": "T7_ROCK@1",
+            "qty": 5,
+            "ret": true
+          },
+          {
+            "id": "T6_STONEBLOCK",
+            "qty": 2,
+            "ret": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T8_METALBAR",
+    "name": "Adamantium Bar",
+    "tier": 8,
+    "category": "ore",
+    "group": "refine",
+    "station": "Smelter",
+    "study": false,
+    "weight": 2.56,
+    "journal": "ORE",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 503,
+        "output": 1,
+        "silver": 0,
+        "value": 256,
+        "fame": 1395,
+        "mats": [
+          {
+            "id": "T8_ORE",
+            "qty": 5,
+            "ret": true
+          },
+          {
+            "id": "T7_METALBAR",
+            "qty": 1,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 880,
+        "output": 1,
+        "silver": 0,
+        "value": 512,
+        "fame": 2790,
+        "mats": [
+          {
+            "id": "T8_ORE@1",
+            "qty": 5,
+            "ret": true
+          },
+          {
+            "id": "T7_METALBAR@1",
+            "qty": 1,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 1539,
+        "output": 1,
+        "silver": 0,
+        "value": 1024,
+        "fame": 5580,
+        "mats": [
+          {
+            "id": "T8_ORE@2",
+            "qty": 5,
+            "ret": true
+          },
+          {
+            "id": "T7_METALBAR@2",
+            "qty": 1,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 2694,
+        "output": 1,
+        "silver": 0,
+        "value": 2048,
+        "fame": 11160,
+        "mats": [
+          {
+            "id": "T8_ORE@3",
+            "qty": 5,
+            "ret": true
+          },
+          {
+            "id": "T7_METALBAR@3",
+            "qty": 1,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 4714,
+        "output": 1,
+        "silver": 0,
+        "value": 4096,
+        "fame": 22320,
+        "mats": [
+          {
+            "id": "T8_ORE@4",
+            "qty": 5,
+            "ret": true
+          },
+          {
+            "id": "T7_METALBAR@4",
+            "qty": 1,
+            "ret": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T8_CLOTH",
+    "name": "Baroque Cloth",
+    "tier": 8,
+    "category": "fiber",
+    "group": "refine",
+    "station": "Weaver",
+    "study": false,
+    "weight": 2.56,
+    "journal": "FIBER",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 503,
+        "output": 1,
+        "silver": 0,
+        "value": 256,
+        "fame": 1395,
+        "mats": [
+          {
+            "id": "T8_FIBER",
+            "qty": 5,
+            "ret": true
+          },
+          {
+            "id": "T7_CLOTH",
+            "qty": 1,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 880,
+        "output": 1,
+        "silver": 0,
+        "value": 512,
+        "fame": 2790,
+        "mats": [
+          {
+            "id": "T8_FIBER@1",
+            "qty": 5,
+            "ret": true
+          },
+          {
+            "id": "T7_CLOTH@1",
+            "qty": 1,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 1539,
+        "output": 1,
+        "silver": 0,
+        "value": 1024,
+        "fame": 5580,
+        "mats": [
+          {
+            "id": "T8_FIBER@2",
+            "qty": 5,
+            "ret": true
+          },
+          {
+            "id": "T7_CLOTH@2",
+            "qty": 1,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 2694,
+        "output": 1,
+        "silver": 0,
+        "value": 2048,
+        "fame": 11160,
+        "mats": [
+          {
+            "id": "T8_FIBER@3",
+            "qty": 5,
+            "ret": true
+          },
+          {
+            "id": "T7_CLOTH@3",
+            "qty": 1,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 4714,
+        "output": 1,
+        "silver": 0,
+        "value": 4096,
+        "fame": 22320,
+        "mats": [
+          {
+            "id": "T8_FIBER@4",
+            "qty": 5,
+            "ret": true
+          },
+          {
+            "id": "T7_CLOTH@4",
+            "qty": 1,
+            "ret": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T8_STONEBLOCK",
+    "name": "Basalt Block",
+    "tier": 8,
+    "category": "rock",
+    "group": "refine",
+    "station": "Stonemason",
+    "study": false,
+    "weight": 2.56,
+    "journal": "STONE",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 503,
+        "output": 1,
+        "silver": 0,
+        "value": 256,
+        "fame": 1395,
+        "mats": [
+          {
+            "id": "T8_ROCK",
+            "qty": 5,
+            "ret": true
+          },
+          {
+            "id": "T7_STONEBLOCK",
+            "qty": 1,
+            "ret": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T8_STONEBLOCK#alt",
+    "name": "Basalt Block · transmute",
+    "tier": 8,
+    "category": "rock",
+    "group": "refine",
+    "station": "Stonemason",
+    "study": false,
+    "weight": 2.56,
+    "journal": "STONE",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 503,
+        "output": 2,
+        "silver": 0,
+        "value": 256,
+        "fame": 1395,
+        "mats": [
+          {
+            "id": "T8_ROCK@1",
+            "qty": 5,
+            "ret": true
+          },
+          {
+            "id": "T7_STONEBLOCK",
+            "qty": 2,
+            "ret": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T8_LEATHER",
+    "name": "Fortified Leather",
+    "tier": 8,
+    "category": "hide",
+    "group": "refine",
+    "station": "Tanner",
+    "study": false,
+    "weight": 2.56,
+    "journal": "HIDE",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 503,
+        "output": 1,
+        "silver": 0,
+        "value": 256,
+        "fame": 1395,
+        "mats": [
+          {
+            "id": "T8_HIDE",
+            "qty": 5,
+            "ret": true
+          },
+          {
+            "id": "T7_LEATHER",
+            "qty": 1,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 880,
+        "output": 1,
+        "silver": 0,
+        "value": 512,
+        "fame": 2790,
+        "mats": [
+          {
+            "id": "T8_HIDE@1",
+            "qty": 5,
+            "ret": true
+          },
+          {
+            "id": "T7_LEATHER@1",
+            "qty": 1,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 1539,
+        "output": 1,
+        "silver": 0,
+        "value": 1024,
+        "fame": 5580,
+        "mats": [
+          {
+            "id": "T8_HIDE@2",
+            "qty": 5,
+            "ret": true
+          },
+          {
+            "id": "T7_LEATHER@2",
+            "qty": 1,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 2694,
+        "output": 1,
+        "silver": 0,
+        "value": 2048,
+        "fame": 11160,
+        "mats": [
+          {
+            "id": "T8_HIDE@3",
+            "qty": 5,
+            "ret": true
+          },
+          {
+            "id": "T7_LEATHER@3",
+            "qty": 1,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 4714,
+        "output": 1,
+        "silver": 0,
+        "value": 4096,
+        "fame": 22320,
+        "mats": [
+          {
+            "id": "T8_HIDE@4",
+            "qty": 5,
+            "ret": true
+          },
+          {
+            "id": "T7_LEATHER@4",
+            "qty": 1,
+            "ret": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T8_PLANKS",
+    "name": "Whitewood Planks",
+    "tier": 8,
+    "category": "wood",
+    "group": "refine",
+    "station": "Lumbermill",
+    "study": false,
+    "weight": 2.56,
+    "journal": "WOOD",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 503,
+        "output": 1,
+        "silver": 0,
+        "value": 256,
+        "fame": 1395,
+        "mats": [
+          {
+            "id": "T8_WOOD",
+            "qty": 5,
+            "ret": true
+          },
+          {
+            "id": "T7_PLANKS",
+            "qty": 1,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 880,
+        "output": 1,
+        "silver": 0,
+        "value": 512,
+        "fame": 2790,
+        "mats": [
+          {
+            "id": "T8_WOOD@1",
+            "qty": 5,
+            "ret": true
+          },
+          {
+            "id": "T7_PLANKS@1",
+            "qty": 1,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 1539,
+        "output": 1,
+        "silver": 0,
+        "value": 1024,
+        "fame": 5580,
+        "mats": [
+          {
+            "id": "T8_WOOD@2",
+            "qty": 5,
+            "ret": true
+          },
+          {
+            "id": "T7_PLANKS@2",
+            "qty": 1,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 2694,
+        "output": 1,
+        "silver": 0,
+        "value": 2048,
+        "fame": 11160,
+        "mats": [
+          {
+            "id": "T8_WOOD@3",
+            "qty": 5,
+            "ret": true
+          },
+          {
+            "id": "T7_PLANKS@3",
+            "qty": 1,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 4714,
+        "output": 1,
+        "silver": 0,
+        "value": 4096,
+        "fame": 22320,
+        "mats": [
+          {
+            "id": "T8_WOOD@4",
+            "qty": 5,
+            "ret": true
+          },
+          {
+            "id": "T7_PLANKS@4",
+            "qty": 1,
+            "ret": true
+          }
+        ]
+      }
+    ]
+  }
+]

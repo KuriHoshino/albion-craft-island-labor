@@ -1,0 +1,1634 @@
+[
+  {
+    "id": "T2_2H_TOOL_AXE",
+    "name": "Novice's Axe",
+    "tier": 2,
+    "category": "tools",
+    "group": "tool",
+    "station": "Toolmaker",
+    "study": true,
+    "weight": 0.75,
+    "journal": "TOOLMAKER",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 140,
+        "output": 1,
+        "silver": 0,
+        "value": 32,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T2_PLANKS",
+            "qty": 6,
+            "ret": true
+          },
+          {
+            "id": "T2_METALBAR",
+            "qty": 2,
+            "ret": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T2_2H_TOOL_SIEGEHAMMER",
+    "name": "Novice's Demolition Hammer",
+    "tier": 2,
+    "category": "tools",
+    "group": "tool",
+    "station": "Toolmaker",
+    "study": true,
+    "weight": 0.75,
+    "journal": "TOOLMAKER",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 280,
+        "output": 1,
+        "silver": 0,
+        "value": 96,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T2_PLANKS",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T2_STONEBLOCK",
+            "qty": 12,
+            "ret": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T2_2H_TOOL_PICK",
+    "name": "Novice's Pickaxe",
+    "tier": 2,
+    "category": "tools",
+    "group": "tool",
+    "station": "Toolmaker",
+    "study": true,
+    "weight": 0.75,
+    "journal": "TOOLMAKER",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 140,
+        "output": 1,
+        "silver": 0,
+        "value": 32,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T2_PLANKS",
+            "qty": 6,
+            "ret": true
+          },
+          {
+            "id": "T2_METALBAR",
+            "qty": 2,
+            "ret": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T2_2H_TOOL_SICKLE",
+    "name": "Novice's Sickle",
+    "tier": 2,
+    "category": "tools",
+    "group": "tool",
+    "station": "Toolmaker",
+    "study": true,
+    "weight": 0.75,
+    "journal": "TOOLMAKER",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 140,
+        "output": 1,
+        "silver": 0,
+        "value": 32,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T2_PLANKS",
+            "qty": 6,
+            "ret": true
+          },
+          {
+            "id": "T2_METALBAR",
+            "qty": 2,
+            "ret": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T2_2H_TOOL_KNIFE",
+    "name": "Novice's Skinning Knife",
+    "tier": 2,
+    "category": "tools",
+    "group": "tool",
+    "station": "Toolmaker",
+    "study": true,
+    "weight": 0.75,
+    "journal": "TOOLMAKER",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 140,
+        "output": 1,
+        "silver": 0,
+        "value": 32,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T2_PLANKS",
+            "qty": 6,
+            "ret": true
+          },
+          {
+            "id": "T2_METALBAR",
+            "qty": 2,
+            "ret": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T2_2H_TOOL_HAMMER",
+    "name": "Novice's Stone Hammer",
+    "tier": 2,
+    "category": "tools",
+    "group": "tool",
+    "station": "Toolmaker",
+    "study": true,
+    "weight": 0.75,
+    "journal": "TOOLMAKER",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 140,
+        "output": 1,
+        "silver": 0,
+        "value": 32,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T2_PLANKS",
+            "qty": 6,
+            "ret": true
+          },
+          {
+            "id": "T2_METALBAR",
+            "qty": 2,
+            "ret": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T3_2H_TOOL_AXE",
+    "name": "Journeyman's Axe",
+    "tier": 3,
+    "category": "tools",
+    "group": "tool",
+    "station": "Toolmaker",
+    "study": true,
+    "weight": 1.13,
+    "journal": "TOOLMAKER",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 245,
+        "output": 1,
+        "silver": 0,
+        "value": 64,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T3_PLANKS",
+            "qty": 6,
+            "ret": true
+          },
+          {
+            "id": "T3_METALBAR",
+            "qty": 2,
+            "ret": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T3_2H_TOOL_SIEGEHAMMER",
+    "name": "Journeyman's Demolition Hammer",
+    "tier": 3,
+    "category": "tools",
+    "group": "tool",
+    "station": "Toolmaker",
+    "study": true,
+    "weight": 1.13,
+    "journal": "TOOLMAKER",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 490,
+        "output": 1,
+        "silver": 0,
+        "value": 128,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T3_PLANKS",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T3_STONEBLOCK",
+            "qty": 8,
+            "ret": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T3_2H_TOOL_FISHINGROD",
+    "name": "Journeyman's Fishing Rod",
+    "tier": 3,
+    "category": "tools",
+    "group": "tool",
+    "station": "Toolmaker",
+    "study": true,
+    "weight": 1.13,
+    "journal": "TOOLMAKER",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 245,
+        "output": 1,
+        "silver": 0,
+        "value": 64,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T3_PLANKS",
+            "qty": 6,
+            "ret": true
+          },
+          {
+            "id": "T3_CLOTH",
+            "qty": 2,
+            "ret": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T3_2H_TOOL_PICK",
+    "name": "Journeyman's Pickaxe",
+    "tier": 3,
+    "category": "tools",
+    "group": "tool",
+    "station": "Toolmaker",
+    "study": true,
+    "weight": 1.13,
+    "journal": "TOOLMAKER",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 245,
+        "output": 1,
+        "silver": 0,
+        "value": 64,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T3_PLANKS",
+            "qty": 6,
+            "ret": true
+          },
+          {
+            "id": "T3_METALBAR",
+            "qty": 2,
+            "ret": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T3_2H_TOOL_SICKLE",
+    "name": "Journeyman's Sickle",
+    "tier": 3,
+    "category": "tools",
+    "group": "tool",
+    "station": "Toolmaker",
+    "study": true,
+    "weight": 1.13,
+    "journal": "TOOLMAKER",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 245,
+        "output": 1,
+        "silver": 0,
+        "value": 64,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T3_PLANKS",
+            "qty": 6,
+            "ret": true
+          },
+          {
+            "id": "T3_METALBAR",
+            "qty": 2,
+            "ret": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T3_2H_TOOL_KNIFE",
+    "name": "Journeyman's Skinning Knife",
+    "tier": 3,
+    "category": "tools",
+    "group": "tool",
+    "station": "Toolmaker",
+    "study": true,
+    "weight": 1.13,
+    "journal": "TOOLMAKER",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 245,
+        "output": 1,
+        "silver": 0,
+        "value": 64,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T3_PLANKS",
+            "qty": 6,
+            "ret": true
+          },
+          {
+            "id": "T3_METALBAR",
+            "qty": 2,
+            "ret": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T3_2H_TOOL_HAMMER",
+    "name": "Journeyman's Stone Hammer",
+    "tier": 3,
+    "category": "tools",
+    "group": "tool",
+    "station": "Toolmaker",
+    "study": true,
+    "weight": 1.13,
+    "journal": "TOOLMAKER",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 245,
+        "output": 1,
+        "silver": 0,
+        "value": 64,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T3_PLANKS",
+            "qty": 6,
+            "ret": true
+          },
+          {
+            "id": "T3_METALBAR",
+            "qty": 2,
+            "ret": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T4_2H_TOOL_AXE",
+    "name": "Adept's Axe",
+    "tier": 4,
+    "category": "tools",
+    "group": "tool",
+    "station": "Toolmaker",
+    "study": true,
+    "weight": 1.69,
+    "journal": "TOOLMAKER",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 429,
+        "output": 1,
+        "silver": 0,
+        "value": 128,
+        "fame": 180,
+        "mats": [
+          {
+            "id": "T4_PLANKS",
+            "qty": 6,
+            "ret": true
+          },
+          {
+            "id": "T4_METALBAR",
+            "qty": 2,
+            "ret": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T4_2H_TOOL_SIEGEHAMMER",
+    "name": "Adept's Demolition Hammer",
+    "tier": 4,
+    "category": "tools",
+    "group": "tool",
+    "station": "Toolmaker",
+    "study": true,
+    "weight": 1.69,
+    "journal": "TOOLMAKER",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 858,
+        "output": 1,
+        "silver": 0,
+        "value": 256,
+        "fame": 360,
+        "mats": [
+          {
+            "id": "T4_PLANKS",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T4_STONEBLOCK",
+            "qty": 8,
+            "ret": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T4_2H_TOOL_FISHINGROD",
+    "name": "Adept's Fishing Rod",
+    "tier": 4,
+    "category": "tools",
+    "group": "tool",
+    "station": "Toolmaker",
+    "study": true,
+    "weight": 1.69,
+    "journal": "TOOLMAKER",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 429,
+        "output": 1,
+        "silver": 0,
+        "value": 128,
+        "fame": 180,
+        "mats": [
+          {
+            "id": "T4_PLANKS",
+            "qty": 6,
+            "ret": true
+          },
+          {
+            "id": "T4_CLOTH",
+            "qty": 2,
+            "ret": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T4_2H_TOOL_PICK",
+    "name": "Adept's Pickaxe",
+    "tier": 4,
+    "category": "tools",
+    "group": "tool",
+    "station": "Toolmaker",
+    "study": true,
+    "weight": 1.69,
+    "journal": "TOOLMAKER",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 429,
+        "output": 1,
+        "silver": 0,
+        "value": 128,
+        "fame": 180,
+        "mats": [
+          {
+            "id": "T4_PLANKS",
+            "qty": 6,
+            "ret": true
+          },
+          {
+            "id": "T4_METALBAR",
+            "qty": 2,
+            "ret": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T4_2H_TOOL_SICKLE",
+    "name": "Adept's Sickle",
+    "tier": 4,
+    "category": "tools",
+    "group": "tool",
+    "station": "Toolmaker",
+    "study": true,
+    "weight": 1.69,
+    "journal": "TOOLMAKER",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 429,
+        "output": 1,
+        "silver": 0,
+        "value": 128,
+        "fame": 180,
+        "mats": [
+          {
+            "id": "T4_PLANKS",
+            "qty": 6,
+            "ret": true
+          },
+          {
+            "id": "T4_METALBAR",
+            "qty": 2,
+            "ret": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T4_2H_TOOL_KNIFE",
+    "name": "Adept's Skinning Knife",
+    "tier": 4,
+    "category": "tools",
+    "group": "tool",
+    "station": "Toolmaker",
+    "study": true,
+    "weight": 1.69,
+    "journal": "TOOLMAKER",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 429,
+        "output": 1,
+        "silver": 0,
+        "value": 128,
+        "fame": 180,
+        "mats": [
+          {
+            "id": "T4_PLANKS",
+            "qty": 6,
+            "ret": true
+          },
+          {
+            "id": "T4_METALBAR",
+            "qty": 2,
+            "ret": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T4_2H_TOOL_HAMMER",
+    "name": "Adept's Stone Hammer",
+    "tier": 4,
+    "category": "tools",
+    "group": "tool",
+    "station": "Toolmaker",
+    "study": true,
+    "weight": 1.69,
+    "journal": "TOOLMAKER",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 429,
+        "output": 1,
+        "silver": 0,
+        "value": 128,
+        "fame": 180,
+        "mats": [
+          {
+            "id": "T4_PLANKS",
+            "qty": 6,
+            "ret": true
+          },
+          {
+            "id": "T4_METALBAR",
+            "qty": 2,
+            "ret": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T5_2H_TOOL_AXE",
+    "name": "Expert's Axe",
+    "tier": 5,
+    "category": "tools",
+    "group": "tool",
+    "station": "Toolmaker",
+    "study": true,
+    "weight": 2.53,
+    "journal": "TOOLMAKER",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 750,
+        "output": 1,
+        "silver": 0,
+        "value": 256,
+        "fame": 720,
+        "mats": [
+          {
+            "id": "T5_PLANKS",
+            "qty": 6,
+            "ret": true
+          },
+          {
+            "id": "T5_METALBAR",
+            "qty": 2,
+            "ret": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T5_2H_TOOL_SIEGEHAMMER",
+    "name": "Expert's Demolition Hammer",
+    "tier": 5,
+    "category": "tools",
+    "group": "tool",
+    "station": "Toolmaker",
+    "study": true,
+    "weight": 2.53,
+    "journal": "TOOLMAKER",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 1501,
+        "output": 1,
+        "silver": 0,
+        "value": 512,
+        "fame": 1440,
+        "mats": [
+          {
+            "id": "T5_PLANKS",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T5_STONEBLOCK",
+            "qty": 8,
+            "ret": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T5_2H_TOOL_FISHINGROD",
+    "name": "Expert's Fishing Rod",
+    "tier": 5,
+    "category": "tools",
+    "group": "tool",
+    "station": "Toolmaker",
+    "study": true,
+    "weight": 2.53,
+    "journal": "TOOLMAKER",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 750,
+        "output": 1,
+        "silver": 0,
+        "value": 256,
+        "fame": 720,
+        "mats": [
+          {
+            "id": "T5_PLANKS",
+            "qty": 6,
+            "ret": true
+          },
+          {
+            "id": "T5_CLOTH",
+            "qty": 2,
+            "ret": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T5_2H_TOOL_PICK",
+    "name": "Expert's Pickaxe",
+    "tier": 5,
+    "category": "tools",
+    "group": "tool",
+    "station": "Toolmaker",
+    "study": true,
+    "weight": 2.53,
+    "journal": "TOOLMAKER",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 750,
+        "output": 1,
+        "silver": 0,
+        "value": 256,
+        "fame": 720,
+        "mats": [
+          {
+            "id": "T5_PLANKS",
+            "qty": 6,
+            "ret": true
+          },
+          {
+            "id": "T5_METALBAR",
+            "qty": 2,
+            "ret": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T5_2H_TOOL_SICKLE",
+    "name": "Expert's Sickle",
+    "tier": 5,
+    "category": "tools",
+    "group": "tool",
+    "station": "Toolmaker",
+    "study": true,
+    "weight": 2.53,
+    "journal": "TOOLMAKER",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 750,
+        "output": 1,
+        "silver": 0,
+        "value": 256,
+        "fame": 720,
+        "mats": [
+          {
+            "id": "T5_PLANKS",
+            "qty": 6,
+            "ret": true
+          },
+          {
+            "id": "T5_METALBAR",
+            "qty": 2,
+            "ret": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T5_2H_TOOL_KNIFE",
+    "name": "Expert's Skinning Knife",
+    "tier": 5,
+    "category": "tools",
+    "group": "tool",
+    "station": "Toolmaker",
+    "study": true,
+    "weight": 2.53,
+    "journal": "TOOLMAKER",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 750,
+        "output": 1,
+        "silver": 0,
+        "value": 256,
+        "fame": 720,
+        "mats": [
+          {
+            "id": "T5_PLANKS",
+            "qty": 6,
+            "ret": true
+          },
+          {
+            "id": "T5_METALBAR",
+            "qty": 2,
+            "ret": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T5_2H_TOOL_HAMMER",
+    "name": "Expert's Stone Hammer",
+    "tier": 5,
+    "category": "tools",
+    "group": "tool",
+    "station": "Toolmaker",
+    "study": true,
+    "weight": 2.53,
+    "journal": "TOOLMAKER",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 750,
+        "output": 1,
+        "silver": 0,
+        "value": 256,
+        "fame": 720,
+        "mats": [
+          {
+            "id": "T5_PLANKS",
+            "qty": 6,
+            "ret": true
+          },
+          {
+            "id": "T5_METALBAR",
+            "qty": 2,
+            "ret": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T6_2H_TOOL_AXE",
+    "name": "Master's Axe",
+    "tier": 6,
+    "category": "tools",
+    "group": "tool",
+    "station": "Toolmaker",
+    "study": true,
+    "weight": 3.8,
+    "journal": "TOOLMAKER",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 1313,
+        "output": 1,
+        "silver": 0,
+        "value": 512,
+        "fame": 2160,
+        "mats": [
+          {
+            "id": "T6_PLANKS",
+            "qty": 6,
+            "ret": true
+          },
+          {
+            "id": "T6_METALBAR",
+            "qty": 2,
+            "ret": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T6_2H_TOOL_SIEGEHAMMER",
+    "name": "Master's Demolition Hammer",
+    "tier": 6,
+    "category": "tools",
+    "group": "tool",
+    "station": "Toolmaker",
+    "study": true,
+    "weight": 3.8,
+    "journal": "TOOLMAKER",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 2626,
+        "output": 1,
+        "silver": 0,
+        "value": 1024,
+        "fame": 4320,
+        "mats": [
+          {
+            "id": "T6_PLANKS",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T6_STONEBLOCK",
+            "qty": 8,
+            "ret": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T6_2H_TOOL_FISHINGROD",
+    "name": "Master's Fishing Rod",
+    "tier": 6,
+    "category": "tools",
+    "group": "tool",
+    "station": "Toolmaker",
+    "study": true,
+    "weight": 3.8,
+    "journal": "TOOLMAKER",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 1313,
+        "output": 1,
+        "silver": 0,
+        "value": 512,
+        "fame": 2160,
+        "mats": [
+          {
+            "id": "T6_PLANKS",
+            "qty": 6,
+            "ret": true
+          },
+          {
+            "id": "T6_CLOTH",
+            "qty": 2,
+            "ret": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T6_2H_TOOL_PICK",
+    "name": "Master's Pickaxe",
+    "tier": 6,
+    "category": "tools",
+    "group": "tool",
+    "station": "Toolmaker",
+    "study": true,
+    "weight": 3.8,
+    "journal": "TOOLMAKER",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 1313,
+        "output": 1,
+        "silver": 0,
+        "value": 512,
+        "fame": 2160,
+        "mats": [
+          {
+            "id": "T6_PLANKS",
+            "qty": 6,
+            "ret": true
+          },
+          {
+            "id": "T6_METALBAR",
+            "qty": 2,
+            "ret": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T6_2H_TOOL_SICKLE",
+    "name": "Master's Sickle",
+    "tier": 6,
+    "category": "tools",
+    "group": "tool",
+    "station": "Toolmaker",
+    "study": true,
+    "weight": 3.8,
+    "journal": "TOOLMAKER",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 1313,
+        "output": 1,
+        "silver": 0,
+        "value": 512,
+        "fame": 2160,
+        "mats": [
+          {
+            "id": "T6_PLANKS",
+            "qty": 6,
+            "ret": true
+          },
+          {
+            "id": "T6_METALBAR",
+            "qty": 2,
+            "ret": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T6_2H_TOOL_KNIFE",
+    "name": "Master's Skinning Knife",
+    "tier": 6,
+    "category": "tools",
+    "group": "tool",
+    "station": "Toolmaker",
+    "study": true,
+    "weight": 3.8,
+    "journal": "TOOLMAKER",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 1313,
+        "output": 1,
+        "silver": 0,
+        "value": 512,
+        "fame": 2160,
+        "mats": [
+          {
+            "id": "T6_PLANKS",
+            "qty": 6,
+            "ret": true
+          },
+          {
+            "id": "T6_METALBAR",
+            "qty": 2,
+            "ret": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T6_2H_TOOL_HAMMER",
+    "name": "Master's Stone Hammer",
+    "tier": 6,
+    "category": "tools",
+    "group": "tool",
+    "station": "Toolmaker",
+    "study": true,
+    "weight": 3.8,
+    "journal": "TOOLMAKER",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 1313,
+        "output": 1,
+        "silver": 0,
+        "value": 512,
+        "fame": 2160,
+        "mats": [
+          {
+            "id": "T6_PLANKS",
+            "qty": 6,
+            "ret": true
+          },
+          {
+            "id": "T6_METALBAR",
+            "qty": 2,
+            "ret": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T7_2H_TOOL_AXE",
+    "name": "Grandmaster's Axe",
+    "tier": 7,
+    "category": "tools",
+    "group": "tool",
+    "station": "Toolmaker",
+    "study": true,
+    "weight": 5.7,
+    "journal": "TOOLMAKER",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 2298,
+        "output": 1,
+        "silver": 0,
+        "value": 1024,
+        "fame": 5160,
+        "mats": [
+          {
+            "id": "T7_PLANKS",
+            "qty": 6,
+            "ret": true
+          },
+          {
+            "id": "T7_METALBAR",
+            "qty": 2,
+            "ret": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T7_2H_TOOL_SIEGEHAMMER",
+    "name": "Grandmaster's Demolition Hammer",
+    "tier": 7,
+    "category": "tools",
+    "group": "tool",
+    "station": "Toolmaker",
+    "study": true,
+    "weight": 5.7,
+    "journal": "TOOLMAKER",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 4596,
+        "output": 1,
+        "silver": 0,
+        "value": 2048,
+        "fame": 10320,
+        "mats": [
+          {
+            "id": "T7_PLANKS",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T7_STONEBLOCK",
+            "qty": 8,
+            "ret": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T7_2H_TOOL_FISHINGROD",
+    "name": "Grandmaster's Fishing Rod",
+    "tier": 7,
+    "category": "tools",
+    "group": "tool",
+    "station": "Toolmaker",
+    "study": true,
+    "weight": 5.7,
+    "journal": "TOOLMAKER",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 2298,
+        "output": 1,
+        "silver": 0,
+        "value": 1024,
+        "fame": 5160,
+        "mats": [
+          {
+            "id": "T7_PLANKS",
+            "qty": 6,
+            "ret": true
+          },
+          {
+            "id": "T7_CLOTH",
+            "qty": 2,
+            "ret": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T7_2H_TOOL_PICK",
+    "name": "Grandmaster's Pickaxe",
+    "tier": 7,
+    "category": "tools",
+    "group": "tool",
+    "station": "Toolmaker",
+    "study": true,
+    "weight": 5.7,
+    "journal": "TOOLMAKER",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 2298,
+        "output": 1,
+        "silver": 0,
+        "value": 1024,
+        "fame": 5160,
+        "mats": [
+          {
+            "id": "T7_PLANKS",
+            "qty": 6,
+            "ret": true
+          },
+          {
+            "id": "T7_METALBAR",
+            "qty": 2,
+            "ret": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T7_2H_TOOL_SICKLE",
+    "name": "Grandmaster's Sickle",
+    "tier": 7,
+    "category": "tools",
+    "group": "tool",
+    "station": "Toolmaker",
+    "study": true,
+    "weight": 5.7,
+    "journal": "TOOLMAKER",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 2298,
+        "output": 1,
+        "silver": 0,
+        "value": 1024,
+        "fame": 5160,
+        "mats": [
+          {
+            "id": "T7_PLANKS",
+            "qty": 6,
+            "ret": true
+          },
+          {
+            "id": "T7_METALBAR",
+            "qty": 2,
+            "ret": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T7_2H_TOOL_KNIFE",
+    "name": "Grandmaster's Skinning Knife",
+    "tier": 7,
+    "category": "tools",
+    "group": "tool",
+    "station": "Toolmaker",
+    "study": true,
+    "weight": 5.7,
+    "journal": "TOOLMAKER",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 2298,
+        "output": 1,
+        "silver": 0,
+        "value": 1024,
+        "fame": 5160,
+        "mats": [
+          {
+            "id": "T7_PLANKS",
+            "qty": 6,
+            "ret": true
+          },
+          {
+            "id": "T7_METALBAR",
+            "qty": 2,
+            "ret": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T7_2H_TOOL_HAMMER",
+    "name": "Grandmaster's Stone Hammer",
+    "tier": 7,
+    "category": "tools",
+    "group": "tool",
+    "station": "Toolmaker",
+    "study": true,
+    "weight": 5.7,
+    "journal": "TOOLMAKER",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 2298,
+        "output": 1,
+        "silver": 0,
+        "value": 1024,
+        "fame": 5160,
+        "mats": [
+          {
+            "id": "T7_PLANKS",
+            "qty": 6,
+            "ret": true
+          },
+          {
+            "id": "T7_METALBAR",
+            "qty": 2,
+            "ret": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T8_2H_TOOL_AXE",
+    "name": "Elder's Axe",
+    "tier": 8,
+    "category": "tools",
+    "group": "tool",
+    "station": "Toolmaker",
+    "study": true,
+    "weight": 8.54,
+    "journal": "TOOLMAKER",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 4021,
+        "output": 1,
+        "silver": 0,
+        "value": 2048,
+        "fame": 11160,
+        "mats": [
+          {
+            "id": "T8_PLANKS",
+            "qty": 6,
+            "ret": true
+          },
+          {
+            "id": "T8_METALBAR",
+            "qty": 2,
+            "ret": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T8_2H_TOOL_SIEGEHAMMER",
+    "name": "Elder's Demolition Hammer",
+    "tier": 8,
+    "category": "tools",
+    "group": "tool",
+    "station": "Toolmaker",
+    "study": true,
+    "weight": 8.54,
+    "journal": "TOOLMAKER",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 8042,
+        "output": 1,
+        "silver": 0,
+        "value": 4096,
+        "fame": 22320,
+        "mats": [
+          {
+            "id": "T8_PLANKS",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T8_STONEBLOCK",
+            "qty": 8,
+            "ret": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T8_2H_TOOL_FISHINGROD",
+    "name": "Elder's Fishing Rod",
+    "tier": 8,
+    "category": "tools",
+    "group": "tool",
+    "station": "Toolmaker",
+    "study": true,
+    "weight": 8.54,
+    "journal": "TOOLMAKER",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 4021,
+        "output": 1,
+        "silver": 0,
+        "value": 2048,
+        "fame": 11160,
+        "mats": [
+          {
+            "id": "T8_PLANKS",
+            "qty": 6,
+            "ret": true
+          },
+          {
+            "id": "T8_CLOTH",
+            "qty": 2,
+            "ret": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T8_2H_TOOL_PICK",
+    "name": "Elder's Pickaxe",
+    "tier": 8,
+    "category": "tools",
+    "group": "tool",
+    "station": "Toolmaker",
+    "study": true,
+    "weight": 8.54,
+    "journal": "TOOLMAKER",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 4021,
+        "output": 1,
+        "silver": 0,
+        "value": 2048,
+        "fame": 11160,
+        "mats": [
+          {
+            "id": "T8_PLANKS",
+            "qty": 6,
+            "ret": true
+          },
+          {
+            "id": "T8_METALBAR",
+            "qty": 2,
+            "ret": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T8_2H_TOOL_SICKLE",
+    "name": "Elder's Sickle",
+    "tier": 8,
+    "category": "tools",
+    "group": "tool",
+    "station": "Toolmaker",
+    "study": true,
+    "weight": 8.54,
+    "journal": "TOOLMAKER",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 4021,
+        "output": 1,
+        "silver": 0,
+        "value": 2048,
+        "fame": 11160,
+        "mats": [
+          {
+            "id": "T8_PLANKS",
+            "qty": 6,
+            "ret": true
+          },
+          {
+            "id": "T8_METALBAR",
+            "qty": 2,
+            "ret": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T8_2H_TOOL_KNIFE",
+    "name": "Elder's Skinning Knife",
+    "tier": 8,
+    "category": "tools",
+    "group": "tool",
+    "station": "Toolmaker",
+    "study": true,
+    "weight": 8.54,
+    "journal": "TOOLMAKER",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 4021,
+        "output": 1,
+        "silver": 0,
+        "value": 2048,
+        "fame": 11160,
+        "mats": [
+          {
+            "id": "T8_PLANKS",
+            "qty": 6,
+            "ret": true
+          },
+          {
+            "id": "T8_METALBAR",
+            "qty": 2,
+            "ret": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T8_2H_TOOL_HAMMER",
+    "name": "Elder's Stone Hammer",
+    "tier": 8,
+    "category": "tools",
+    "group": "tool",
+    "station": "Toolmaker",
+    "study": true,
+    "weight": 8.54,
+    "journal": "TOOLMAKER",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 4021,
+        "output": 1,
+        "silver": 0,
+        "value": 2048,
+        "fame": 11160,
+        "mats": [
+          {
+            "id": "T8_PLANKS",
+            "qty": 6,
+            "ret": true
+          },
+          {
+            "id": "T8_METALBAR",
+            "qty": 2,
+            "ret": true
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,7070 @@
+{
+  "T2_BAG": {
+    "name": "Novice's Bag",
+    "weight": 1.5
+  },
+  "T2_CLOTH": {
+    "name": "Simple Cloth",
+    "weight": 0.23
+  },
+  "T2_LEATHER": {
+    "name": "Stiff Leather",
+    "weight": 0.23
+  },
+  "T2_CAPE": {
+    "name": "Novice's Cape",
+    "weight": 0.8
+  },
+  "T3_BAG": {
+    "name": "Journeyman's Bag",
+    "weight": 2.3
+  },
+  "T3_CLOTH": {
+    "name": "Neat Cloth",
+    "weight": 0.34
+  },
+  "T3_LEATHER": {
+    "name": "Thick Leather",
+    "weight": 0.34
+  },
+  "T3_CAPE": {
+    "name": "Journeyman's Cape",
+    "weight": 1.1
+  },
+  "T4_BAG": {
+    "name": "Adept's Bag",
+    "weight": 3.4
+  },
+  "T4_CLOTH": {
+    "name": "Fine Cloth",
+    "weight": 0.51
+  },
+  "T4_LEATHER": {
+    "name": "Worked Leather",
+    "weight": 0.51
+  },
+  "T4_BAG@1": {
+    "name": "Adept's Bag .1",
+    "weight": 3.4
+  },
+  "T4_CLOTH@1": {
+    "name": "Fine Cloth .1",
+    "weight": 0.51
+  },
+  "T4_LEATHER@1": {
+    "name": "Worked Leather .1",
+    "weight": 0.51
+  },
+  "T4_RUNE": {
+    "name": "Adept's Rune",
+    "weight": 0.05
+  },
+  "T4_BAG@2": {
+    "name": "Adept's Bag .2",
+    "weight": 3.4
+  },
+  "T4_CLOTH@2": {
+    "name": "Fine Cloth .2",
+    "weight": 0.51
+  },
+  "T4_LEATHER@2": {
+    "name": "Worked Leather .2",
+    "weight": 0.51
+  },
+  "T4_SOUL": {
+    "name": "Adept's Soul",
+    "weight": 0.05
+  },
+  "T4_BAG@3": {
+    "name": "Adept's Bag .3",
+    "weight": 3.4
+  },
+  "T4_CLOTH@3": {
+    "name": "Fine Cloth .3",
+    "weight": 0.51
+  },
+  "T4_LEATHER@3": {
+    "name": "Worked Leather .3",
+    "weight": 0.51
+  },
+  "T4_RELIC": {
+    "name": "Adept's Relic",
+    "weight": 0.05
+  },
+  "T4_BAG@4": {
+    "name": "Adept's Bag .4",
+    "weight": 3.4
+  },
+  "T4_CLOTH@4": {
+    "name": "Fine Cloth .4",
+    "weight": 0.51
+  },
+  "T4_LEATHER@4": {
+    "name": "Worked Leather .4",
+    "weight": 0.51
+  },
+  "T4_BAG_INSIGHT": {
+    "name": "Adept's Bag · Insight",
+    "weight": 3.4
+  },
+  "T4_SKILLBOOK_STANDARD": {
+    "name": "Adept's Skillbook Standard",
+    "weight": 0.09
+  },
+  "T4_BAG_INSIGHT@1": {
+    "name": "Adept's Bag · Insight .1",
+    "weight": 3.4
+  },
+  "T4_BAG_INSIGHT@2": {
+    "name": "Adept's Bag · Insight .2",
+    "weight": 3.4
+  },
+  "T4_BAG_INSIGHT@3": {
+    "name": "Adept's Bag · Insight .3",
+    "weight": 3.4
+  },
+  "T4_BAG_INSIGHT@4": {
+    "name": "Adept's Bag · Insight .4",
+    "weight": 3.4
+  },
+  "T4_CAPE": {
+    "name": "Adept's Cape",
+    "weight": 1.7
+  },
+  "T4_CAPE@1": {
+    "name": "Adept's Cape .1",
+    "weight": 1.7
+  },
+  "T4_CAPE@2": {
+    "name": "Adept's Cape .2",
+    "weight": 1.7
+  },
+  "T4_CAPE@3": {
+    "name": "Adept's Cape .3",
+    "weight": 1.7
+  },
+  "T4_CAPE@4": {
+    "name": "Adept's Cape .4",
+    "weight": 1.7
+  },
+  "T5_BAG": {
+    "name": "Expert's Bag",
+    "weight": 5.1
+  },
+  "T5_CLOTH": {
+    "name": "Ornate Cloth",
+    "weight": 0.76
+  },
+  "T5_LEATHER": {
+    "name": "Cured Leather",
+    "weight": 0.76
+  },
+  "T5_BAG@1": {
+    "name": "Expert's Bag .1",
+    "weight": 5.1
+  },
+  "T5_CLOTH@1": {
+    "name": "Ornate Cloth .1",
+    "weight": 0.76
+  },
+  "T5_LEATHER@1": {
+    "name": "Cured Leather .1",
+    "weight": 0.76
+  },
+  "T5_RUNE": {
+    "name": "Expert's Rune",
+    "weight": 0.25
+  },
+  "T5_BAG@2": {
+    "name": "Expert's Bag .2",
+    "weight": 5.1
+  },
+  "T5_CLOTH@2": {
+    "name": "Ornate Cloth .2",
+    "weight": 0.76
+  },
+  "T5_LEATHER@2": {
+    "name": "Cured Leather .2",
+    "weight": 0.76
+  },
+  "T5_SOUL": {
+    "name": "Expert's Soul",
+    "weight": 0.25
+  },
+  "T5_BAG@3": {
+    "name": "Expert's Bag .3",
+    "weight": 5.1
+  },
+  "T5_CLOTH@3": {
+    "name": "Ornate Cloth .3",
+    "weight": 0.76
+  },
+  "T5_LEATHER@3": {
+    "name": "Cured Leather .3",
+    "weight": 0.76
+  },
+  "T5_RELIC": {
+    "name": "Expert's Relic",
+    "weight": 0.25
+  },
+  "T5_BAG@4": {
+    "name": "Expert's Bag .4",
+    "weight": 5.1
+  },
+  "T5_CLOTH@4": {
+    "name": "Ornate Cloth .4",
+    "weight": 0.76
+  },
+  "T5_LEATHER@4": {
+    "name": "Cured Leather .4",
+    "weight": 0.76
+  },
+  "T5_BAG_INSIGHT": {
+    "name": "Expert's Bag · Insight",
+    "weight": 5.1
+  },
+  "T5_BAG_INSIGHT@1": {
+    "name": "Expert's Bag · Insight .1",
+    "weight": 5.1
+  },
+  "T5_BAG_INSIGHT@2": {
+    "name": "Expert's Bag · Insight .2",
+    "weight": 5.1
+  },
+  "T5_BAG_INSIGHT@3": {
+    "name": "Expert's Bag · Insight .3",
+    "weight": 5.1
+  },
+  "T5_BAG_INSIGHT@4": {
+    "name": "Expert's Bag · Insight .4",
+    "weight": 5.1
+  },
+  "T5_CAPE": {
+    "name": "Expert's Cape",
+    "weight": 2.5
+  },
+  "T5_CAPE@1": {
+    "name": "Expert's Cape .1",
+    "weight": 2.5
+  },
+  "T5_CAPE@2": {
+    "name": "Expert's Cape .2",
+    "weight": 2.5
+  },
+  "T5_CAPE@3": {
+    "name": "Expert's Cape .3",
+    "weight": 2.5
+  },
+  "T5_CAPE@4": {
+    "name": "Expert's Cape .4",
+    "weight": 2.5
+  },
+  "T6_BAG": {
+    "name": "Master's Bag",
+    "weight": 7.6
+  },
+  "T6_CLOTH": {
+    "name": "Lavish Cloth",
+    "weight": 1.14
+  },
+  "T6_LEATHER": {
+    "name": "Hardened Leather",
+    "weight": 1.14
+  },
+  "T6_BAG@1": {
+    "name": "Master's Bag .1",
+    "weight": 7.6
+  },
+  "T6_CLOTH@1": {
+    "name": "Lavish Cloth .1",
+    "weight": 1.14
+  },
+  "T6_LEATHER@1": {
+    "name": "Hardened Leather .1",
+    "weight": 1.14
+  },
+  "T6_RUNE": {
+    "name": "Master's Rune",
+    "weight": 0.38
+  },
+  "T6_BAG@2": {
+    "name": "Master's Bag .2",
+    "weight": 7.6
+  },
+  "T6_CLOTH@2": {
+    "name": "Lavish Cloth .2",
+    "weight": 1.14
+  },
+  "T6_LEATHER@2": {
+    "name": "Hardened Leather .2",
+    "weight": 1.14
+  },
+  "T6_SOUL": {
+    "name": "Master's Soul",
+    "weight": 0.38
+  },
+  "T6_BAG@3": {
+    "name": "Master's Bag .3",
+    "weight": 7.6
+  },
+  "T6_CLOTH@3": {
+    "name": "Lavish Cloth .3",
+    "weight": 1.14
+  },
+  "T6_LEATHER@3": {
+    "name": "Hardened Leather .3",
+    "weight": 1.14
+  },
+  "T6_RELIC": {
+    "name": "Master's Relic",
+    "weight": 0.38
+  },
+  "T6_BAG@4": {
+    "name": "Master's Bag .4",
+    "weight": 7.6
+  },
+  "T6_CLOTH@4": {
+    "name": "Lavish Cloth .4",
+    "weight": 1.14
+  },
+  "T6_LEATHER@4": {
+    "name": "Hardened Leather .4",
+    "weight": 1.14
+  },
+  "T6_BAG_INSIGHT": {
+    "name": "Master's Bag · Insight",
+    "weight": 7.6
+  },
+  "T6_BAG_INSIGHT@1": {
+    "name": "Master's Bag · Insight .1",
+    "weight": 7.6
+  },
+  "T6_BAG_INSIGHT@2": {
+    "name": "Master's Bag · Insight .2",
+    "weight": 7.6
+  },
+  "T6_BAG_INSIGHT@3": {
+    "name": "Master's Bag · Insight .3",
+    "weight": 7.6
+  },
+  "T6_BAG_INSIGHT@4": {
+    "name": "Master's Bag · Insight .4",
+    "weight": 7.6
+  },
+  "T6_CAPE": {
+    "name": "Master's Cape",
+    "weight": 3.8
+  },
+  "T6_CAPE@1": {
+    "name": "Master's Cape .1",
+    "weight": 3.8
+  },
+  "T6_CAPE@2": {
+    "name": "Master's Cape .2",
+    "weight": 3.8
+  },
+  "T6_CAPE@3": {
+    "name": "Master's Cape .3",
+    "weight": 3.8
+  },
+  "T6_CAPE@4": {
+    "name": "Master's Cape .4",
+    "weight": 3.8
+  },
+  "T7_BAG": {
+    "name": "Grandmaster's Bag",
+    "weight": 11.4
+  },
+  "T7_CLOTH": {
+    "name": "Opulent Cloth",
+    "weight": 1.71
+  },
+  "T7_LEATHER": {
+    "name": "Reinforced Leather",
+    "weight": 1.71
+  },
+  "T7_BAG@1": {
+    "name": "Grandmaster's Bag .1",
+    "weight": 11.4
+  },
+  "T7_CLOTH@1": {
+    "name": "Opulent Cloth .1",
+    "weight": 1.71
+  },
+  "T7_LEATHER@1": {
+    "name": "Reinforced Leather .1",
+    "weight": 1.71
+  },
+  "T7_RUNE": {
+    "name": "Grandmaster's Rune",
+    "weight": 0.5
+  },
+  "T7_BAG@2": {
+    "name": "Grandmaster's Bag .2",
+    "weight": 11.4
+  },
+  "T7_CLOTH@2": {
+    "name": "Opulent Cloth .2",
+    "weight": 1.71
+  },
+  "T7_LEATHER@2": {
+    "name": "Reinforced Leather .2",
+    "weight": 1.71
+  },
+  "T7_SOUL": {
+    "name": "Grandmaster's Soul",
+    "weight": 0.5
+  },
+  "T7_BAG@3": {
+    "name": "Grandmaster's Bag .3",
+    "weight": 11.4
+  },
+  "T7_CLOTH@3": {
+    "name": "Opulent Cloth .3",
+    "weight": 1.71
+  },
+  "T7_LEATHER@3": {
+    "name": "Reinforced Leather .3",
+    "weight": 1.71
+  },
+  "T7_RELIC": {
+    "name": "Grandmaster's Relic",
+    "weight": 0.5
+  },
+  "T7_BAG@4": {
+    "name": "Grandmaster's Bag .4",
+    "weight": 11.4
+  },
+  "T7_CLOTH@4": {
+    "name": "Opulent Cloth .4",
+    "weight": 1.71
+  },
+  "T7_LEATHER@4": {
+    "name": "Reinforced Leather .4",
+    "weight": 1.71
+  },
+  "T7_BAG_INSIGHT": {
+    "name": "Grandmaster's Bag · Insight",
+    "weight": 11.4
+  },
+  "T7_BAG_INSIGHT@1": {
+    "name": "Grandmaster's Bag · Insight .1",
+    "weight": 11.4
+  },
+  "T7_BAG_INSIGHT@2": {
+    "name": "Grandmaster's Bag · Insight .2",
+    "weight": 11.4
+  },
+  "T7_BAG_INSIGHT@3": {
+    "name": "Grandmaster's Bag · Insight .3",
+    "weight": 11.4
+  },
+  "T7_BAG_INSIGHT@4": {
+    "name": "Grandmaster's Bag · Insight .4",
+    "weight": 11.4
+  },
+  "T7_CAPE": {
+    "name": "Grandmaster's Cape",
+    "weight": 5.7
+  },
+  "T7_CAPE@1": {
+    "name": "Grandmaster's Cape .1",
+    "weight": 5.7
+  },
+  "T7_CAPE@2": {
+    "name": "Grandmaster's Cape .2",
+    "weight": 5.7
+  },
+  "T7_CAPE@3": {
+    "name": "Grandmaster's Cape .3",
+    "weight": 5.7
+  },
+  "T7_CAPE@4": {
+    "name": "Grandmaster's Cape .4",
+    "weight": 5.7
+  },
+  "T8_BAG": {
+    "name": "Elder's Bag",
+    "weight": 17.1
+  },
+  "T8_CLOTH": {
+    "name": "Baroque Cloth",
+    "weight": 2.56
+  },
+  "T8_LEATHER": {
+    "name": "Fortified Leather",
+    "weight": 2.56
+  },
+  "T8_BAG@1": {
+    "name": "Elder's Bag .1",
+    "weight": 17.1
+  },
+  "T8_CLOTH@1": {
+    "name": "Baroque Cloth .1",
+    "weight": 2.56
+  },
+  "T8_LEATHER@1": {
+    "name": "Fortified Leather .1",
+    "weight": 2.56
+  },
+  "T8_RUNE": {
+    "name": "Elder's Rune",
+    "weight": 1
+  },
+  "T8_BAG@2": {
+    "name": "Elder's Bag .2",
+    "weight": 17.1
+  },
+  "T8_CLOTH@2": {
+    "name": "Baroque Cloth .2",
+    "weight": 2.56
+  },
+  "T8_LEATHER@2": {
+    "name": "Fortified Leather .2",
+    "weight": 2.56
+  },
+  "T8_SOUL": {
+    "name": "Elder's Soul",
+    "weight": 1
+  },
+  "T8_BAG@3": {
+    "name": "Elder's Bag .3",
+    "weight": 17.1
+  },
+  "T8_CLOTH@3": {
+    "name": "Baroque Cloth .3",
+    "weight": 2.56
+  },
+  "T8_LEATHER@3": {
+    "name": "Fortified Leather .3",
+    "weight": 2.56
+  },
+  "T8_RELIC": {
+    "name": "Elder's Relic",
+    "weight": 1
+  },
+  "T8_BAG@4": {
+    "name": "Elder's Bag .4",
+    "weight": 17.1
+  },
+  "T8_CLOTH@4": {
+    "name": "Baroque Cloth .4",
+    "weight": 2.56
+  },
+  "T8_LEATHER@4": {
+    "name": "Fortified Leather .4",
+    "weight": 2.56
+  },
+  "T8_BAG_INSIGHT": {
+    "name": "Elder's Bag · Insight",
+    "weight": 17.1
+  },
+  "T8_BAG_INSIGHT@1": {
+    "name": "Elder's Bag · Insight .1",
+    "weight": 17.1
+  },
+  "T8_BAG_INSIGHT@2": {
+    "name": "Elder's Bag · Insight .2",
+    "weight": 17.1
+  },
+  "T8_BAG_INSIGHT@3": {
+    "name": "Elder's Bag · Insight .3",
+    "weight": 17.1
+  },
+  "T8_BAG_INSIGHT@4": {
+    "name": "Elder's Bag · Insight .4",
+    "weight": 17.1
+  },
+  "T8_CAPE": {
+    "name": "Elder's Cape",
+    "weight": 8.5
+  },
+  "T8_CAPE@1": {
+    "name": "Elder's Cape .1",
+    "weight": 8.5
+  },
+  "T8_CAPE@2": {
+    "name": "Elder's Cape .2",
+    "weight": 8.5
+  },
+  "T8_CAPE@3": {
+    "name": "Elder's Cape .3",
+    "weight": 8.5
+  },
+  "T8_CAPE@4": {
+    "name": "Elder's Cape .4",
+    "weight": 8.5
+  },
+  "T2_HEAD_LEATHER_SET1": {
+    "name": "Novice's Mercenary Hood",
+    "weight": 0.8
+  },
+  "T2_ARMOR_LEATHER_SET1": {
+    "name": "Novice's Mercenary Jacket",
+    "weight": 1.5
+  },
+  "T2_SHOES_LEATHER_SET1": {
+    "name": "Novice's Mercenary Shoes",
+    "weight": 0.8
+  },
+  "T2_HEAD_CLOTH_SET1": {
+    "name": "Novice's Scholar Cowl",
+    "weight": 0.8
+  },
+  "T2_ARMOR_CLOTH_SET1": {
+    "name": "Novice's Scholar Robe",
+    "weight": 1.5
+  },
+  "T2_SHOES_CLOTH_SET1": {
+    "name": "Novice's Scholar Sandals",
+    "weight": 0.8
+  },
+  "T2_ARMOR_PLATE_SET1": {
+    "name": "Novice's Soldier Armor",
+    "weight": 1.5
+  },
+  "T2_METALBAR": {
+    "name": "Copper Bar",
+    "weight": 0.23
+  },
+  "T2_SHOES_PLATE_SET1": {
+    "name": "Novice's Soldier Boots",
+    "weight": 0.8
+  },
+  "T2_HEAD_PLATE_SET1": {
+    "name": "Novice's Soldier Helmet",
+    "weight": 0.8
+  },
+  "T3_HEAD_LEATHER_SET1": {
+    "name": "Journeyman's Mercenary Hood",
+    "weight": 1.1
+  },
+  "T3_ARMOR_LEATHER_SET1": {
+    "name": "Journeyman's Mercenary Jacket",
+    "weight": 2.3
+  },
+  "T3_SHOES_LEATHER_SET1": {
+    "name": "Journeyman's Mercenary Shoes",
+    "weight": 1.1
+  },
+  "T3_HEAD_CLOTH_SET1": {
+    "name": "Journeyman's Scholar Cowl",
+    "weight": 1.1
+  },
+  "T3_ARMOR_CLOTH_SET1": {
+    "name": "Journeyman's Scholar Robe",
+    "weight": 2.3
+  },
+  "T3_SHOES_CLOTH_SET1": {
+    "name": "Journeyman's Scholar Sandals",
+    "weight": 1.1
+  },
+  "T3_ARMOR_PLATE_SET1": {
+    "name": "Journeyman's Soldier Armor",
+    "weight": 2.3
+  },
+  "T3_METALBAR": {
+    "name": "Bronze Bar",
+    "weight": 0.34
+  },
+  "T3_SHOES_PLATE_SET1": {
+    "name": "Journeyman's Soldier Boots",
+    "weight": 1.1
+  },
+  "T3_HEAD_PLATE_SET1": {
+    "name": "Journeyman's Soldier Helmet",
+    "weight": 1.1
+  },
+  "T4_ARMOR_CLOTH_AVALON": {
+    "name": "Adept's Robe of Purity",
+    "weight": 3.4
+  },
+  "T4_ARTEFACT_ARMOR_CLOTH_AVALON": {
+    "name": "Adept's Artefact Armor Cloth Avalon",
+    "weight": 2
+  },
+  "T4_ARMOR_CLOTH_AVALON@1": {
+    "name": "Adept's Robe of Purity .1",
+    "weight": 3.4
+  },
+  "T4_ARMOR_CLOTH_AVALON@2": {
+    "name": "Adept's Robe of Purity .2",
+    "weight": 3.4
+  },
+  "T4_ARMOR_CLOTH_AVALON@3": {
+    "name": "Adept's Robe of Purity .3",
+    "weight": 3.4
+  },
+  "T4_ARMOR_CLOTH_AVALON@4": {
+    "name": "Adept's Robe of Purity .4",
+    "weight": 3.4
+  },
+  "T4_ARMOR_CLOTH_FEY": {
+    "name": "Adept's Feyscale Robe",
+    "weight": 3.4
+  },
+  "T4_ARTEFACT_ARMOR_CLOTH_FEY": {
+    "name": "Adept's Artefact Armor Cloth Fey",
+    "weight": 2
+  },
+  "T4_ARMOR_CLOTH_FEY@1": {
+    "name": "Adept's Feyscale Robe .1",
+    "weight": 3.4
+  },
+  "T4_ARMOR_CLOTH_FEY@2": {
+    "name": "Adept's Feyscale Robe .2",
+    "weight": 3.4
+  },
+  "T4_ARMOR_CLOTH_FEY@3": {
+    "name": "Adept's Feyscale Robe .3",
+    "weight": 3.4
+  },
+  "T4_ARMOR_CLOTH_FEY@4": {
+    "name": "Adept's Feyscale Robe .4",
+    "weight": 3.4
+  },
+  "T4_ARMOR_CLOTH_HELL": {
+    "name": "Adept's Fiend Robe",
+    "weight": 3.4
+  },
+  "T4_ARTEFACT_ARMOR_CLOTH_HELL": {
+    "name": "Adept's Artefact Armor Cloth Hell",
+    "weight": 2
+  },
+  "T4_ARMOR_CLOTH_HELL@1": {
+    "name": "Adept's Fiend Robe .1",
+    "weight": 3.4
+  },
+  "T4_ARMOR_CLOTH_HELL@2": {
+    "name": "Adept's Fiend Robe .2",
+    "weight": 3.4
+  },
+  "T4_ARMOR_CLOTH_HELL@3": {
+    "name": "Adept's Fiend Robe .3",
+    "weight": 3.4
+  },
+  "T4_ARMOR_CLOTH_HELL@4": {
+    "name": "Adept's Fiend Robe .4",
+    "weight": 3.4
+  },
+  "T4_ARMOR_CLOTH_KEEPER": {
+    "name": "Adept's Druid Robe",
+    "weight": 3.4
+  },
+  "T4_ARTEFACT_ARMOR_CLOTH_KEEPER": {
+    "name": "Adept's Artefact Armor Cloth Keeper",
+    "weight": 2
+  },
+  "T4_ARMOR_CLOTH_KEEPER@1": {
+    "name": "Adept's Druid Robe .1",
+    "weight": 3.4
+  },
+  "T4_ARMOR_CLOTH_KEEPER@2": {
+    "name": "Adept's Druid Robe .2",
+    "weight": 3.4
+  },
+  "T4_ARMOR_CLOTH_KEEPER@3": {
+    "name": "Adept's Druid Robe .3",
+    "weight": 3.4
+  },
+  "T4_ARMOR_CLOTH_KEEPER@4": {
+    "name": "Adept's Druid Robe .4",
+    "weight": 3.4
+  },
+  "T4_ARMOR_CLOTH_MORGANA": {
+    "name": "Adept's Cultist Robe",
+    "weight": 3.4
+  },
+  "T4_ARTEFACT_ARMOR_CLOTH_MORGANA": {
+    "name": "Adept's Artefact Armor Cloth Morgana",
+    "weight": 2
+  },
+  "T4_ARMOR_CLOTH_MORGANA@1": {
+    "name": "Adept's Cultist Robe .1",
+    "weight": 3.4
+  },
+  "T4_ARMOR_CLOTH_MORGANA@2": {
+    "name": "Adept's Cultist Robe .2",
+    "weight": 3.4
+  },
+  "T4_ARMOR_CLOTH_MORGANA@3": {
+    "name": "Adept's Cultist Robe .3",
+    "weight": 3.4
+  },
+  "T4_ARMOR_CLOTH_MORGANA@4": {
+    "name": "Adept's Cultist Robe .4",
+    "weight": 3.4
+  },
+  "T4_ARMOR_LEATHER_AVALON": {
+    "name": "Adept's Jacket of Tenacity",
+    "weight": 3.4
+  },
+  "T4_ARTEFACT_ARMOR_LEATHER_AVALON": {
+    "name": "Adept's Artefact Armor Leather Avalon",
+    "weight": 2
+  },
+  "T4_ARMOR_LEATHER_AVALON@1": {
+    "name": "Adept's Jacket of Tenacity .1",
+    "weight": 3.4
+  },
+  "T4_ARMOR_LEATHER_AVALON@2": {
+    "name": "Adept's Jacket of Tenacity .2",
+    "weight": 3.4
+  },
+  "T4_ARMOR_LEATHER_AVALON@3": {
+    "name": "Adept's Jacket of Tenacity .3",
+    "weight": 3.4
+  },
+  "T4_ARMOR_LEATHER_AVALON@4": {
+    "name": "Adept's Jacket of Tenacity .4",
+    "weight": 3.4
+  },
+  "T4_ARMOR_LEATHER_DRAGON": {
+    "name": "Adept's Dragonslayer Jacket",
+    "weight": 3.4
+  },
+  "T4_ARTEFACT_ARMOR_LEATHER_DRAGON": {
+    "name": "Adept's Artefact Armor Leather Dragon",
+    "weight": 2
+  },
+  "T4_ARMOR_LEATHER_DRAGON@1": {
+    "name": "Adept's Dragonslayer Jacket .1",
+    "weight": 3.4
+  },
+  "T4_ARMOR_LEATHER_DRAGON@2": {
+    "name": "Adept's Dragonslayer Jacket .2",
+    "weight": 3.4
+  },
+  "T4_ARMOR_LEATHER_DRAGON@3": {
+    "name": "Adept's Dragonslayer Jacket .3",
+    "weight": 3.4
+  },
+  "T4_ARMOR_LEATHER_DRAGON@4": {
+    "name": "Adept's Dragonslayer Jacket .4",
+    "weight": 3.4
+  },
+  "T4_ARMOR_LEATHER_FEY": {
+    "name": "Adept's Mistwalker Jacket",
+    "weight": 3.4
+  },
+  "T4_ARTEFACT_ARMOR_LEATHER_FEY": {
+    "name": "Adept's Artefact Armor Leather Fey",
+    "weight": 2
+  },
+  "T4_ARMOR_LEATHER_FEY@1": {
+    "name": "Adept's Mistwalker Jacket .1",
+    "weight": 3.4
+  },
+  "T4_ARMOR_LEATHER_FEY@2": {
+    "name": "Adept's Mistwalker Jacket .2",
+    "weight": 3.4
+  },
+  "T4_ARMOR_LEATHER_FEY@3": {
+    "name": "Adept's Mistwalker Jacket .3",
+    "weight": 3.4
+  },
+  "T4_ARMOR_LEATHER_FEY@4": {
+    "name": "Adept's Mistwalker Jacket .4",
+    "weight": 3.4
+  },
+  "T4_ARMOR_LEATHER_HELL": {
+    "name": "Adept's Hellion Jacket",
+    "weight": 3.4
+  },
+  "T4_ARTEFACT_ARMOR_LEATHER_HELL": {
+    "name": "Adept's Artefact Armor Leather Hell",
+    "weight": 2
+  },
+  "T4_ARMOR_LEATHER_HELL@1": {
+    "name": "Adept's Hellion Jacket .1",
+    "weight": 3.4
+  },
+  "T4_ARMOR_LEATHER_HELL@2": {
+    "name": "Adept's Hellion Jacket .2",
+    "weight": 3.4
+  },
+  "T4_ARMOR_LEATHER_HELL@3": {
+    "name": "Adept's Hellion Jacket .3",
+    "weight": 3.4
+  },
+  "T4_ARMOR_LEATHER_HELL@4": {
+    "name": "Adept's Hellion Jacket .4",
+    "weight": 3.4
+  },
+  "T4_ARMOR_LEATHER_MORGANA": {
+    "name": "Adept's Stalker Jacket",
+    "weight": 3.4
+  },
+  "T4_ARTEFACT_ARMOR_LEATHER_MORGANA": {
+    "name": "Adept's Artefact Armor Leather Morgana",
+    "weight": 2
+  },
+  "T4_ARMOR_LEATHER_MORGANA@1": {
+    "name": "Adept's Stalker Jacket .1",
+    "weight": 3.4
+  },
+  "T4_ARMOR_LEATHER_MORGANA@2": {
+    "name": "Adept's Stalker Jacket .2",
+    "weight": 3.4
+  },
+  "T4_ARMOR_LEATHER_MORGANA@3": {
+    "name": "Adept's Stalker Jacket .3",
+    "weight": 3.4
+  },
+  "T4_ARMOR_LEATHER_MORGANA@4": {
+    "name": "Adept's Stalker Jacket .4",
+    "weight": 3.4
+  },
+  "T4_ARMOR_LEATHER_UNDEAD": {
+    "name": "Adept's Specter Jacket",
+    "weight": 3.4
+  },
+  "T4_ARTEFACT_ARMOR_LEATHER_UNDEAD": {
+    "name": "Adept's Artefact Armor Leather Undead",
+    "weight": 2
+  },
+  "T4_ARMOR_LEATHER_UNDEAD@1": {
+    "name": "Adept's Specter Jacket .1",
+    "weight": 3.4
+  },
+  "T4_ARMOR_LEATHER_UNDEAD@2": {
+    "name": "Adept's Specter Jacket .2",
+    "weight": 3.4
+  },
+  "T4_ARMOR_LEATHER_UNDEAD@3": {
+    "name": "Adept's Specter Jacket .3",
+    "weight": 3.4
+  },
+  "T4_ARMOR_LEATHER_UNDEAD@4": {
+    "name": "Adept's Specter Jacket .4",
+    "weight": 3.4
+  },
+  "T4_ARMOR_PLATE_AVALON": {
+    "name": "Adept's Armor of Valor",
+    "weight": 3.4
+  },
+  "T4_METALBAR": {
+    "name": "Steel Bar",
+    "weight": 0.51
+  },
+  "T4_ARTEFACT_ARMOR_PLATE_AVALON": {
+    "name": "Adept's Artefact Armor Plate Avalon",
+    "weight": 2
+  },
+  "T4_ARMOR_PLATE_AVALON@1": {
+    "name": "Adept's Armor of Valor .1",
+    "weight": 3.4
+  },
+  "T4_METALBAR@1": {
+    "name": "Steel Bar .1",
+    "weight": 0.51
+  },
+  "T4_ARMOR_PLATE_AVALON@2": {
+    "name": "Adept's Armor of Valor .2",
+    "weight": 3.4
+  },
+  "T4_METALBAR@2": {
+    "name": "Steel Bar .2",
+    "weight": 0.51
+  },
+  "T4_ARMOR_PLATE_AVALON@3": {
+    "name": "Adept's Armor of Valor .3",
+    "weight": 3.4
+  },
+  "T4_METALBAR@3": {
+    "name": "Steel Bar .3",
+    "weight": 0.51
+  },
+  "T4_ARMOR_PLATE_AVALON@4": {
+    "name": "Adept's Armor of Valor .4",
+    "weight": 3.4
+  },
+  "T4_METALBAR@4": {
+    "name": "Steel Bar .4",
+    "weight": 0.51
+  },
+  "T4_ARMOR_PLATE_FEY": {
+    "name": "Adept's Duskweaver Armor",
+    "weight": 3.4
+  },
+  "T4_ARTEFACT_ARMOR_PLATE_FEY": {
+    "name": "Adept's Artefact Armor Plate Fey",
+    "weight": 2
+  },
+  "T4_ARMOR_PLATE_FEY@1": {
+    "name": "Adept's Duskweaver Armor .1",
+    "weight": 3.4
+  },
+  "T4_ARMOR_PLATE_FEY@2": {
+    "name": "Adept's Duskweaver Armor .2",
+    "weight": 3.4
+  },
+  "T4_ARMOR_PLATE_FEY@3": {
+    "name": "Adept's Duskweaver Armor .3",
+    "weight": 3.4
+  },
+  "T4_ARMOR_PLATE_FEY@4": {
+    "name": "Adept's Duskweaver Armor .4",
+    "weight": 3.4
+  },
+  "T4_ARMOR_PLATE_HELL": {
+    "name": "Adept's Demon Armor",
+    "weight": 3.4
+  },
+  "T4_ARTEFACT_ARMOR_PLATE_HELL": {
+    "name": "Adept's Artefact Armor Plate Hell",
+    "weight": 2
+  },
+  "T4_ARMOR_PLATE_HELL@1": {
+    "name": "Adept's Demon Armor .1",
+    "weight": 3.4
+  },
+  "T4_ARMOR_PLATE_HELL@2": {
+    "name": "Adept's Demon Armor .2",
+    "weight": 3.4
+  },
+  "T4_ARMOR_PLATE_HELL@3": {
+    "name": "Adept's Demon Armor .3",
+    "weight": 3.4
+  },
+  "T4_ARMOR_PLATE_HELL@4": {
+    "name": "Adept's Demon Armor .4",
+    "weight": 3.4
+  },
+  "T4_ARMOR_PLATE_KEEPER": {
+    "name": "Adept's Judicator Armor",
+    "weight": 3.4
+  },
+  "T4_ARTEFACT_ARMOR_PLATE_KEEPER": {
+    "name": "Adept's Artefact Armor Plate Keeper",
+    "weight": 2
+  },
+  "T4_ARMOR_PLATE_KEEPER@1": {
+    "name": "Adept's Judicator Armor .1",
+    "weight": 3.4
+  },
+  "T4_ARMOR_PLATE_KEEPER@2": {
+    "name": "Adept's Judicator Armor .2",
+    "weight": 3.4
+  },
+  "T4_ARMOR_PLATE_KEEPER@3": {
+    "name": "Adept's Judicator Armor .3",
+    "weight": 3.4
+  },
+  "T4_ARMOR_PLATE_KEEPER@4": {
+    "name": "Adept's Judicator Armor .4",
+    "weight": 3.4
+  },
+  "T4_ARMOR_PLATE_UNDEAD": {
+    "name": "Adept's Graveguard Armor",
+    "weight": 3.4
+  },
+  "T4_ARTEFACT_ARMOR_PLATE_UNDEAD": {
+    "name": "Adept's Artefact Armor Plate Undead",
+    "weight": 2
+  },
+  "T4_ARMOR_PLATE_UNDEAD@1": {
+    "name": "Adept's Graveguard Armor .1",
+    "weight": 3.4
+  },
+  "T4_ARMOR_PLATE_UNDEAD@2": {
+    "name": "Adept's Graveguard Armor .2",
+    "weight": 3.4
+  },
+  "T4_ARMOR_PLATE_UNDEAD@3": {
+    "name": "Adept's Graveguard Armor .3",
+    "weight": 3.4
+  },
+  "T4_ARMOR_PLATE_UNDEAD@4": {
+    "name": "Adept's Graveguard Armor .4",
+    "weight": 3.4
+  },
+  "T4_HEAD_LEATHER_SET3": {
+    "name": "Adept's Assassin Hood",
+    "weight": 1.7
+  },
+  "T4_HEAD_LEATHER_SET3@1": {
+    "name": "Adept's Assassin Hood .1",
+    "weight": 1.7
+  },
+  "T4_HEAD_LEATHER_SET3@2": {
+    "name": "Adept's Assassin Hood .2",
+    "weight": 1.7
+  },
+  "T4_HEAD_LEATHER_SET3@3": {
+    "name": "Adept's Assassin Hood .3",
+    "weight": 1.7
+  },
+  "T4_HEAD_LEATHER_SET3@4": {
+    "name": "Adept's Assassin Hood .4",
+    "weight": 1.7
+  },
+  "T4_ARMOR_LEATHER_SET3": {
+    "name": "Adept's Assassin Jacket",
+    "weight": 3.4
+  },
+  "T4_ARMOR_LEATHER_SET3@1": {
+    "name": "Adept's Assassin Jacket .1",
+    "weight": 3.4
+  },
+  "T4_ARMOR_LEATHER_SET3@2": {
+    "name": "Adept's Assassin Jacket .2",
+    "weight": 3.4
+  },
+  "T4_ARMOR_LEATHER_SET3@3": {
+    "name": "Adept's Assassin Jacket .3",
+    "weight": 3.4
+  },
+  "T4_ARMOR_LEATHER_SET3@4": {
+    "name": "Adept's Assassin Jacket .4",
+    "weight": 3.4
+  },
+  "T4_SHOES_LEATHER_SET3": {
+    "name": "Adept's Assassin Shoes",
+    "weight": 1.7
+  },
+  "T4_SHOES_LEATHER_SET3@1": {
+    "name": "Adept's Assassin Shoes .1",
+    "weight": 1.7
+  },
+  "T4_SHOES_LEATHER_SET3@2": {
+    "name": "Adept's Assassin Shoes .2",
+    "weight": 1.7
+  },
+  "T4_SHOES_LEATHER_SET3@3": {
+    "name": "Adept's Assassin Shoes .3",
+    "weight": 1.7
+  },
+  "T4_SHOES_LEATHER_SET3@4": {
+    "name": "Adept's Assassin Shoes .4",
+    "weight": 1.7
+  },
+  "T4_HEAD_CLOTH_SET2": {
+    "name": "Adept's Cleric Cowl",
+    "weight": 1.7
+  },
+  "T4_HEAD_CLOTH_SET2@1": {
+    "name": "Adept's Cleric Cowl .1",
+    "weight": 1.7
+  },
+  "T4_HEAD_CLOTH_SET2@2": {
+    "name": "Adept's Cleric Cowl .2",
+    "weight": 1.7
+  },
+  "T4_HEAD_CLOTH_SET2@3": {
+    "name": "Adept's Cleric Cowl .3",
+    "weight": 1.7
+  },
+  "T4_HEAD_CLOTH_SET2@4": {
+    "name": "Adept's Cleric Cowl .4",
+    "weight": 1.7
+  },
+  "T4_ARMOR_CLOTH_SET2": {
+    "name": "Adept's Cleric Robe",
+    "weight": 3.4
+  },
+  "T4_ARMOR_CLOTH_SET2@1": {
+    "name": "Adept's Cleric Robe .1",
+    "weight": 3.4
+  },
+  "T4_ARMOR_CLOTH_SET2@2": {
+    "name": "Adept's Cleric Robe .2",
+    "weight": 3.4
+  },
+  "T4_ARMOR_CLOTH_SET2@3": {
+    "name": "Adept's Cleric Robe .3",
+    "weight": 3.4
+  },
+  "T4_ARMOR_CLOTH_SET2@4": {
+    "name": "Adept's Cleric Robe .4",
+    "weight": 3.4
+  },
+  "T4_SHOES_CLOTH_SET2": {
+    "name": "Adept's Cleric Sandals",
+    "weight": 1.7
+  },
+  "T4_SHOES_CLOTH_SET2@1": {
+    "name": "Adept's Cleric Sandals .1",
+    "weight": 1.7
+  },
+  "T4_SHOES_CLOTH_SET2@2": {
+    "name": "Adept's Cleric Sandals .2",
+    "weight": 1.7
+  },
+  "T4_SHOES_CLOTH_SET2@3": {
+    "name": "Adept's Cleric Sandals .3",
+    "weight": 1.7
+  },
+  "T4_SHOES_CLOTH_SET2@4": {
+    "name": "Adept's Cleric Sandals .4",
+    "weight": 1.7
+  },
+  "T4_ARMOR_PLATE_SET3": {
+    "name": "Adept's Guardian Armor",
+    "weight": 3.4
+  },
+  "T4_ARMOR_PLATE_SET3@1": {
+    "name": "Adept's Guardian Armor .1",
+    "weight": 3.4
+  },
+  "T4_ARMOR_PLATE_SET3@2": {
+    "name": "Adept's Guardian Armor .2",
+    "weight": 3.4
+  },
+  "T4_ARMOR_PLATE_SET3@3": {
+    "name": "Adept's Guardian Armor .3",
+    "weight": 3.4
+  },
+  "T4_ARMOR_PLATE_SET3@4": {
+    "name": "Adept's Guardian Armor .4",
+    "weight": 3.4
+  },
+  "T4_SHOES_PLATE_SET3": {
+    "name": "Adept's Guardian Boots",
+    "weight": 1.7
+  },
+  "T4_SHOES_PLATE_SET3@1": {
+    "name": "Adept's Guardian Boots .1",
+    "weight": 1.7
+  },
+  "T4_SHOES_PLATE_SET3@2": {
+    "name": "Adept's Guardian Boots .2",
+    "weight": 1.7
+  },
+  "T4_SHOES_PLATE_SET3@3": {
+    "name": "Adept's Guardian Boots .3",
+    "weight": 1.7
+  },
+  "T4_SHOES_PLATE_SET3@4": {
+    "name": "Adept's Guardian Boots .4",
+    "weight": 1.7
+  },
+  "T4_HEAD_PLATE_SET3": {
+    "name": "Adept's Guardian Helmet",
+    "weight": 1.7
+  },
+  "T4_HEAD_PLATE_SET3@1": {
+    "name": "Adept's Guardian Helmet .1",
+    "weight": 1.7
+  },
+  "T4_HEAD_PLATE_SET3@2": {
+    "name": "Adept's Guardian Helmet .2",
+    "weight": 1.7
+  },
+  "T4_HEAD_PLATE_SET3@3": {
+    "name": "Adept's Guardian Helmet .3",
+    "weight": 1.7
+  },
+  "T4_HEAD_PLATE_SET3@4": {
+    "name": "Adept's Guardian Helmet .4",
+    "weight": 1.7
+  },
+  "T4_HEAD_CLOTH_AVALON": {
+    "name": "Adept's Cowl of Purity",
+    "weight": 1.7
+  },
+  "T4_ARTEFACT_HEAD_CLOTH_AVALON": {
+    "name": "Adept's Artefact Head Cloth Avalon",
+    "weight": 2
+  },
+  "T4_HEAD_CLOTH_AVALON@1": {
+    "name": "Adept's Cowl of Purity .1",
+    "weight": 1.7
+  },
+  "T4_HEAD_CLOTH_AVALON@2": {
+    "name": "Adept's Cowl of Purity .2",
+    "weight": 1.7
+  },
+  "T4_HEAD_CLOTH_AVALON@3": {
+    "name": "Adept's Cowl of Purity .3",
+    "weight": 1.7
+  },
+  "T4_HEAD_CLOTH_AVALON@4": {
+    "name": "Adept's Cowl of Purity .4",
+    "weight": 1.7
+  },
+  "T4_HEAD_CLOTH_FEY": {
+    "name": "Adept's Feyscale Hat",
+    "weight": 1.7
+  },
+  "T4_ARTEFACT_HEAD_CLOTH_FEY": {
+    "name": "Adept's Artefact Head Cloth Fey",
+    "weight": 2
+  },
+  "T4_HEAD_CLOTH_FEY@1": {
+    "name": "Adept's Feyscale Hat .1",
+    "weight": 1.7
+  },
+  "T4_HEAD_CLOTH_FEY@2": {
+    "name": "Adept's Feyscale Hat .2",
+    "weight": 1.7
+  },
+  "T4_HEAD_CLOTH_FEY@3": {
+    "name": "Adept's Feyscale Hat .3",
+    "weight": 1.7
+  },
+  "T4_HEAD_CLOTH_FEY@4": {
+    "name": "Adept's Feyscale Hat .4",
+    "weight": 1.7
+  },
+  "T4_HEAD_CLOTH_HELL": {
+    "name": "Adept's Fiend Cowl",
+    "weight": 1.7
+  },
+  "T4_ARTEFACT_HEAD_CLOTH_HELL": {
+    "name": "Adept's Artefact Head Cloth Hell",
+    "weight": 2
+  },
+  "T4_HEAD_CLOTH_HELL@1": {
+    "name": "Adept's Fiend Cowl .1",
+    "weight": 1.7
+  },
+  "T4_HEAD_CLOTH_HELL@2": {
+    "name": "Adept's Fiend Cowl .2",
+    "weight": 1.7
+  },
+  "T4_HEAD_CLOTH_HELL@3": {
+    "name": "Adept's Fiend Cowl .3",
+    "weight": 1.7
+  },
+  "T4_HEAD_CLOTH_HELL@4": {
+    "name": "Adept's Fiend Cowl .4",
+    "weight": 1.7
+  },
+  "T4_HEAD_CLOTH_KEEPER": {
+    "name": "Adept's Druid Cowl",
+    "weight": 1.7
+  },
+  "T4_ARTEFACT_HEAD_CLOTH_KEEPER": {
+    "name": "Adept's Artefact Head Cloth Keeper",
+    "weight": 2
+  },
+  "T4_HEAD_CLOTH_KEEPER@1": {
+    "name": "Adept's Druid Cowl .1",
+    "weight": 1.7
+  },
+  "T4_HEAD_CLOTH_KEEPER@2": {
+    "name": "Adept's Druid Cowl .2",
+    "weight": 1.7
+  },
+  "T4_HEAD_CLOTH_KEEPER@3": {
+    "name": "Adept's Druid Cowl .3",
+    "weight": 1.7
+  },
+  "T4_HEAD_CLOTH_KEEPER@4": {
+    "name": "Adept's Druid Cowl .4",
+    "weight": 1.7
+  },
+  "T4_HEAD_CLOTH_MORGANA": {
+    "name": "Adept's Cultist Cowl",
+    "weight": 1.7
+  },
+  "T4_ARTEFACT_HEAD_CLOTH_MORGANA": {
+    "name": "Adept's Artefact Head Cloth Morgana",
+    "weight": 2
+  },
+  "T4_HEAD_CLOTH_MORGANA@1": {
+    "name": "Adept's Cultist Cowl .1",
+    "weight": 1.7
+  },
+  "T4_HEAD_CLOTH_MORGANA@2": {
+    "name": "Adept's Cultist Cowl .2",
+    "weight": 1.7
+  },
+  "T4_HEAD_CLOTH_MORGANA@3": {
+    "name": "Adept's Cultist Cowl .3",
+    "weight": 1.7
+  },
+  "T4_HEAD_CLOTH_MORGANA@4": {
+    "name": "Adept's Cultist Cowl .4",
+    "weight": 1.7
+  },
+  "T4_HEAD_LEATHER_AVALON": {
+    "name": "Adept's Hood of Tenacity",
+    "weight": 1.7
+  },
+  "T4_ARTEFACT_HEAD_LEATHER_AVALON": {
+    "name": "Adept's Artefact Head Leather Avalon",
+    "weight": 2
+  },
+  "T4_HEAD_LEATHER_AVALON@1": {
+    "name": "Adept's Hood of Tenacity .1",
+    "weight": 1.7
+  },
+  "T4_HEAD_LEATHER_AVALON@2": {
+    "name": "Adept's Hood of Tenacity .2",
+    "weight": 1.7
+  },
+  "T4_HEAD_LEATHER_AVALON@3": {
+    "name": "Adept's Hood of Tenacity .3",
+    "weight": 1.7
+  },
+  "T4_HEAD_LEATHER_AVALON@4": {
+    "name": "Adept's Hood of Tenacity .4",
+    "weight": 1.7
+  },
+  "T4_HEAD_LEATHER_DRAGON": {
+    "name": "Adept's Dragonslayer Hood",
+    "weight": 1.7
+  },
+  "T4_ARTEFACT_HEAD_LEATHER_DRAGON": {
+    "name": "Adept's Artefact Head Leather Dragon",
+    "weight": 2
+  },
+  "T4_HEAD_LEATHER_DRAGON@1": {
+    "name": "Adept's Dragonslayer Hood .1",
+    "weight": 1.7
+  },
+  "T4_HEAD_LEATHER_DRAGON@2": {
+    "name": "Adept's Dragonslayer Hood .2",
+    "weight": 1.7
+  },
+  "T4_HEAD_LEATHER_DRAGON@3": {
+    "name": "Adept's Dragonslayer Hood .3",
+    "weight": 1.7
+  },
+  "T4_HEAD_LEATHER_DRAGON@4": {
+    "name": "Adept's Dragonslayer Hood .4",
+    "weight": 1.7
+  },
+  "T4_HEAD_LEATHER_FEY": {
+    "name": "Adept's Mistwalker Hood",
+    "weight": 1.7
+  },
+  "T4_ARTEFACT_HEAD_LEATHER_FEY": {
+    "name": "Adept's Artefact Head Leather Fey",
+    "weight": 2
+  },
+  "T4_HEAD_LEATHER_FEY@1": {
+    "name": "Adept's Mistwalker Hood .1",
+    "weight": 1.7
+  },
+  "T4_HEAD_LEATHER_FEY@2": {
+    "name": "Adept's Mistwalker Hood .2",
+    "weight": 1.7
+  },
+  "T4_HEAD_LEATHER_FEY@3": {
+    "name": "Adept's Mistwalker Hood .3",
+    "weight": 1.7
+  },
+  "T4_HEAD_LEATHER_FEY@4": {
+    "name": "Adept's Mistwalker Hood .4",
+    "weight": 1.7
+  },
+  "T4_HEAD_LEATHER_HELL": {
+    "name": "Adept's Hellion Hood",
+    "weight": 1.7
+  },
+  "T4_ARTEFACT_HEAD_LEATHER_HELL": {
+    "name": "Adept's Artefact Head Leather Hell",
+    "weight": 2
+  },
+  "T4_HEAD_LEATHER_HELL@1": {
+    "name": "Adept's Hellion Hood .1",
+    "weight": 1.7
+  },
+  "T4_HEAD_LEATHER_HELL@2": {
+    "name": "Adept's Hellion Hood .2",
+    "weight": 1.7
+  },
+  "T4_HEAD_LEATHER_HELL@3": {
+    "name": "Adept's Hellion Hood .3",
+    "weight": 1.7
+  },
+  "T4_HEAD_LEATHER_HELL@4": {
+    "name": "Adept's Hellion Hood .4",
+    "weight": 1.7
+  },
+  "T4_HEAD_LEATHER_MORGANA": {
+    "name": "Adept's Stalker Hood",
+    "weight": 1.7
+  },
+  "T4_ARTEFACT_HEAD_LEATHER_MORGANA": {
+    "name": "Adept's Artefact Head Leather Morgana",
+    "weight": 2
+  },
+  "T4_HEAD_LEATHER_MORGANA@1": {
+    "name": "Adept's Stalker Hood .1",
+    "weight": 1.7
+  },
+  "T4_HEAD_LEATHER_MORGANA@2": {
+    "name": "Adept's Stalker Hood .2",
+    "weight": 1.7
+  },
+  "T4_HEAD_LEATHER_MORGANA@3": {
+    "name": "Adept's Stalker Hood .3",
+    "weight": 1.7
+  },
+  "T4_HEAD_LEATHER_MORGANA@4": {
+    "name": "Adept's Stalker Hood .4",
+    "weight": 1.7
+  },
+  "T4_HEAD_LEATHER_UNDEAD": {
+    "name": "Adept's Specter Hood",
+    "weight": 1.7
+  },
+  "T4_ARTEFACT_HEAD_LEATHER_UNDEAD": {
+    "name": "Adept's Artefact Head Leather Undead",
+    "weight": 2
+  },
+  "T4_HEAD_LEATHER_UNDEAD@1": {
+    "name": "Adept's Specter Hood .1",
+    "weight": 1.7
+  },
+  "T4_HEAD_LEATHER_UNDEAD@2": {
+    "name": "Adept's Specter Hood .2",
+    "weight": 1.7
+  },
+  "T4_HEAD_LEATHER_UNDEAD@3": {
+    "name": "Adept's Specter Hood .3",
+    "weight": 1.7
+  },
+  "T4_HEAD_LEATHER_UNDEAD@4": {
+    "name": "Adept's Specter Hood .4",
+    "weight": 1.7
+  },
+  "T4_HEAD_PLATE_AVALON": {
+    "name": "Adept's Helmet of Valor",
+    "weight": 1.7
+  },
+  "T4_ARTEFACT_HEAD_PLATE_AVALON": {
+    "name": "Adept's Artefact Head Plate Avalon",
+    "weight": 2
+  },
+  "T4_HEAD_PLATE_AVALON@1": {
+    "name": "Adept's Helmet of Valor .1",
+    "weight": 1.7
+  },
+  "T4_HEAD_PLATE_AVALON@2": {
+    "name": "Adept's Helmet of Valor .2",
+    "weight": 1.7
+  },
+  "T4_HEAD_PLATE_AVALON@3": {
+    "name": "Adept's Helmet of Valor .3",
+    "weight": 1.7
+  },
+  "T4_HEAD_PLATE_AVALON@4": {
+    "name": "Adept's Helmet of Valor .4",
+    "weight": 1.7
+  },
+  "T4_HEAD_PLATE_FEY": {
+    "name": "Adept's Duskweaver Helmet",
+    "weight": 1.7
+  },
+  "T4_ARTEFACT_HEAD_PLATE_FEY": {
+    "name": "Adept's Artefact Head Plate Fey",
+    "weight": 2
+  },
+  "T4_HEAD_PLATE_FEY@1": {
+    "name": "Adept's Duskweaver Helmet .1",
+    "weight": 1.7
+  },
+  "T4_HEAD_PLATE_FEY@2": {
+    "name": "Adept's Duskweaver Helmet .2",
+    "weight": 1.7
+  },
+  "T4_HEAD_PLATE_FEY@3": {
+    "name": "Adept's Duskweaver Helmet .3",
+    "weight": 1.7
+  },
+  "T4_HEAD_PLATE_FEY@4": {
+    "name": "Adept's Duskweaver Helmet .4",
+    "weight": 1.7
+  },
+  "T4_HEAD_PLATE_HELL": {
+    "name": "Adept's Demon Helmet",
+    "weight": 1.7
+  },
+  "T4_ARTEFACT_HEAD_PLATE_HELL": {
+    "name": "Adept's Artefact Head Plate Hell",
+    "weight": 2
+  },
+  "T4_HEAD_PLATE_HELL@1": {
+    "name": "Adept's Demon Helmet .1",
+    "weight": 1.7
+  },
+  "T4_HEAD_PLATE_HELL@2": {
+    "name": "Adept's Demon Helmet .2",
+    "weight": 1.7
+  },
+  "T4_HEAD_PLATE_HELL@3": {
+    "name": "Adept's Demon Helmet .3",
+    "weight": 1.7
+  },
+  "T4_HEAD_PLATE_HELL@4": {
+    "name": "Adept's Demon Helmet .4",
+    "weight": 1.7
+  },
+  "T4_HEAD_PLATE_KEEPER": {
+    "name": "Adept's Judicator Helmet",
+    "weight": 1.7
+  },
+  "T4_ARTEFACT_HEAD_PLATE_KEEPER": {
+    "name": "Adept's Artefact Head Plate Keeper",
+    "weight": 2
+  },
+  "T4_HEAD_PLATE_KEEPER@1": {
+    "name": "Adept's Judicator Helmet .1",
+    "weight": 1.7
+  },
+  "T4_HEAD_PLATE_KEEPER@2": {
+    "name": "Adept's Judicator Helmet .2",
+    "weight": 1.7
+  },
+  "T4_HEAD_PLATE_KEEPER@3": {
+    "name": "Adept's Judicator Helmet .3",
+    "weight": 1.7
+  },
+  "T4_HEAD_PLATE_KEEPER@4": {
+    "name": "Adept's Judicator Helmet .4",
+    "weight": 1.7
+  },
+  "T4_HEAD_PLATE_UNDEAD": {
+    "name": "Adept's Graveguard Helmet",
+    "weight": 1.7
+  },
+  "T4_ARTEFACT_HEAD_PLATE_UNDEAD": {
+    "name": "Adept's Artefact Head Plate Undead",
+    "weight": 2
+  },
+  "T4_HEAD_PLATE_UNDEAD@1": {
+    "name": "Adept's Graveguard Helmet .1",
+    "weight": 1.7
+  },
+  "T4_HEAD_PLATE_UNDEAD@2": {
+    "name": "Adept's Graveguard Helmet .2",
+    "weight": 1.7
+  },
+  "T4_HEAD_PLATE_UNDEAD@3": {
+    "name": "Adept's Graveguard Helmet .3",
+    "weight": 1.7
+  },
+  "T4_HEAD_PLATE_UNDEAD@4": {
+    "name": "Adept's Graveguard Helmet .4",
+    "weight": 1.7
+  },
+  "T4_HEAD_LEATHER_SET2": {
+    "name": "Adept's Hunter Hood",
+    "weight": 1.7
+  },
+  "T4_HEAD_LEATHER_SET2@1": {
+    "name": "Adept's Hunter Hood .1",
+    "weight": 1.7
+  },
+  "T4_HEAD_LEATHER_SET2@2": {
+    "name": "Adept's Hunter Hood .2",
+    "weight": 1.7
+  },
+  "T4_HEAD_LEATHER_SET2@3": {
+    "name": "Adept's Hunter Hood .3",
+    "weight": 1.7
+  },
+  "T4_HEAD_LEATHER_SET2@4": {
+    "name": "Adept's Hunter Hood .4",
+    "weight": 1.7
+  },
+  "T4_ARMOR_LEATHER_SET2": {
+    "name": "Adept's Hunter Jacket",
+    "weight": 3.4
+  },
+  "T4_ARMOR_LEATHER_SET2@1": {
+    "name": "Adept's Hunter Jacket .1",
+    "weight": 3.4
+  },
+  "T4_ARMOR_LEATHER_SET2@2": {
+    "name": "Adept's Hunter Jacket .2",
+    "weight": 3.4
+  },
+  "T4_ARMOR_LEATHER_SET2@3": {
+    "name": "Adept's Hunter Jacket .3",
+    "weight": 3.4
+  },
+  "T4_ARMOR_LEATHER_SET2@4": {
+    "name": "Adept's Hunter Jacket .4",
+    "weight": 3.4
+  },
+  "T4_SHOES_LEATHER_SET2": {
+    "name": "Adept's Hunter Shoes",
+    "weight": 1.7
+  },
+  "T4_SHOES_LEATHER_SET2@1": {
+    "name": "Adept's Hunter Shoes .1",
+    "weight": 1.7
+  },
+  "T4_SHOES_LEATHER_SET2@2": {
+    "name": "Adept's Hunter Shoes .2",
+    "weight": 1.7
+  },
+  "T4_SHOES_LEATHER_SET2@3": {
+    "name": "Adept's Hunter Shoes .3",
+    "weight": 1.7
+  },
+  "T4_SHOES_LEATHER_SET2@4": {
+    "name": "Adept's Hunter Shoes .4",
+    "weight": 1.7
+  },
+  "T4_ARMOR_PLATE_SET2": {
+    "name": "Adept's Knight Armor",
+    "weight": 3.4
+  },
+  "T4_ARMOR_PLATE_SET2@1": {
+    "name": "Adept's Knight Armor .1",
+    "weight": 3.4
+  },
+  "T4_ARMOR_PLATE_SET2@2": {
+    "name": "Adept's Knight Armor .2",
+    "weight": 3.4
+  },
+  "T4_ARMOR_PLATE_SET2@3": {
+    "name": "Adept's Knight Armor .3",
+    "weight": 3.4
+  },
+  "T4_ARMOR_PLATE_SET2@4": {
+    "name": "Adept's Knight Armor .4",
+    "weight": 3.4
+  },
+  "T4_SHOES_PLATE_SET2": {
+    "name": "Adept's Knight Boots",
+    "weight": 1.7
+  },
+  "T4_SHOES_PLATE_SET2@1": {
+    "name": "Adept's Knight Boots .1",
+    "weight": 1.7
+  },
+  "T4_SHOES_PLATE_SET2@2": {
+    "name": "Adept's Knight Boots .2",
+    "weight": 1.7
+  },
+  "T4_SHOES_PLATE_SET2@3": {
+    "name": "Adept's Knight Boots .3",
+    "weight": 1.7
+  },
+  "T4_SHOES_PLATE_SET2@4": {
+    "name": "Adept's Knight Boots .4",
+    "weight": 1.7
+  },
+  "T4_HEAD_PLATE_SET2": {
+    "name": "Adept's Knight Helmet",
+    "weight": 1.7
+  },
+  "T4_HEAD_PLATE_SET2@1": {
+    "name": "Adept's Knight Helmet .1",
+    "weight": 1.7
+  },
+  "T4_HEAD_PLATE_SET2@2": {
+    "name": "Adept's Knight Helmet .2",
+    "weight": 1.7
+  },
+  "T4_HEAD_PLATE_SET2@3": {
+    "name": "Adept's Knight Helmet .3",
+    "weight": 1.7
+  },
+  "T4_HEAD_PLATE_SET2@4": {
+    "name": "Adept's Knight Helmet .4",
+    "weight": 1.7
+  },
+  "T4_HEAD_CLOTH_SET3": {
+    "name": "Adept's Mage Cowl",
+    "weight": 1.7
+  },
+  "T4_HEAD_CLOTH_SET3@1": {
+    "name": "Adept's Mage Cowl .1",
+    "weight": 1.7
+  },
+  "T4_HEAD_CLOTH_SET3@2": {
+    "name": "Adept's Mage Cowl .2",
+    "weight": 1.7
+  },
+  "T4_HEAD_CLOTH_SET3@3": {
+    "name": "Adept's Mage Cowl .3",
+    "weight": 1.7
+  },
+  "T4_HEAD_CLOTH_SET3@4": {
+    "name": "Adept's Mage Cowl .4",
+    "weight": 1.7
+  },
+  "T4_ARMOR_CLOTH_SET3": {
+    "name": "Adept's Mage Robe",
+    "weight": 3.4
+  },
+  "T4_ARMOR_CLOTH_SET3@1": {
+    "name": "Adept's Mage Robe .1",
+    "weight": 3.4
+  },
+  "T4_ARMOR_CLOTH_SET3@2": {
+    "name": "Adept's Mage Robe .2",
+    "weight": 3.4
+  },
+  "T4_ARMOR_CLOTH_SET3@3": {
+    "name": "Adept's Mage Robe .3",
+    "weight": 3.4
+  },
+  "T4_ARMOR_CLOTH_SET3@4": {
+    "name": "Adept's Mage Robe .4",
+    "weight": 3.4
+  },
+  "T4_SHOES_CLOTH_SET3": {
+    "name": "Adept's Mage Sandals",
+    "weight": 1.7
+  },
+  "T4_SHOES_CLOTH_SET3@1": {
+    "name": "Adept's Mage Sandals .1",
+    "weight": 1.7
+  },
+  "T4_SHOES_CLOTH_SET3@2": {
+    "name": "Adept's Mage Sandals .2",
+    "weight": 1.7
+  },
+  "T4_SHOES_CLOTH_SET3@3": {
+    "name": "Adept's Mage Sandals .3",
+    "weight": 1.7
+  },
+  "T4_SHOES_CLOTH_SET3@4": {
+    "name": "Adept's Mage Sandals .4",
+    "weight": 1.7
+  },
+  "T4_HEAD_LEATHER_SET1": {
+    "name": "Adept's Mercenary Hood",
+    "weight": 1.7
+  },
+  "T4_HEAD_LEATHER_SET1@1": {
+    "name": "Adept's Mercenary Hood .1",
+    "weight": 1.7
+  },
+  "T4_HEAD_LEATHER_SET1@2": {
+    "name": "Adept's Mercenary Hood .2",
+    "weight": 1.7
+  },
+  "T4_HEAD_LEATHER_SET1@3": {
+    "name": "Adept's Mercenary Hood .3",
+    "weight": 1.7
+  },
+  "T4_HEAD_LEATHER_SET1@4": {
+    "name": "Adept's Mercenary Hood .4",
+    "weight": 1.7
+  },
+  "T4_ARMOR_LEATHER_SET1": {
+    "name": "Adept's Mercenary Jacket",
+    "weight": 3.4
+  },
+  "T4_ARMOR_LEATHER_SET1@1": {
+    "name": "Adept's Mercenary Jacket .1",
+    "weight": 3.4
+  },
+  "T4_ARMOR_LEATHER_SET1@2": {
+    "name": "Adept's Mercenary Jacket .2",
+    "weight": 3.4
+  },
+  "T4_ARMOR_LEATHER_SET1@3": {
+    "name": "Adept's Mercenary Jacket .3",
+    "weight": 3.4
+  },
+  "T4_ARMOR_LEATHER_SET1@4": {
+    "name": "Adept's Mercenary Jacket .4",
+    "weight": 3.4
+  },
+  "T4_SHOES_LEATHER_SET1": {
+    "name": "Adept's Mercenary Shoes",
+    "weight": 1.7
+  },
+  "T4_SHOES_LEATHER_SET1@1": {
+    "name": "Adept's Mercenary Shoes .1",
+    "weight": 1.7
+  },
+  "T4_SHOES_LEATHER_SET1@2": {
+    "name": "Adept's Mercenary Shoes .2",
+    "weight": 1.7
+  },
+  "T4_SHOES_LEATHER_SET1@3": {
+    "name": "Adept's Mercenary Shoes .3",
+    "weight": 1.7
+  },
+  "T4_SHOES_LEATHER_SET1@4": {
+    "name": "Adept's Mercenary Shoes .4",
+    "weight": 1.7
+  },
+  "T4_HEAD_CLOTH_SET1": {
+    "name": "Adept's Scholar Cowl",
+    "weight": 1.7
+  },
+  "T4_HEAD_CLOTH_SET1@1": {
+    "name": "Adept's Scholar Cowl .1",
+    "weight": 1.7
+  },
+  "T4_HEAD_CLOTH_SET1@2": {
+    "name": "Adept's Scholar Cowl .2",
+    "weight": 1.7
+  },
+  "T4_HEAD_CLOTH_SET1@3": {
+    "name": "Adept's Scholar Cowl .3",
+    "weight": 1.7
+  },
+  "T4_HEAD_CLOTH_SET1@4": {
+    "name": "Adept's Scholar Cowl .4",
+    "weight": 1.7
+  },
+  "T4_ARMOR_CLOTH_SET1": {
+    "name": "Adept's Scholar Robe",
+    "weight": 3.4
+  },
+  "T4_ARMOR_CLOTH_SET1@1": {
+    "name": "Adept's Scholar Robe .1",
+    "weight": 3.4
+  },
+  "T4_ARMOR_CLOTH_SET1@2": {
+    "name": "Adept's Scholar Robe .2",
+    "weight": 3.4
+  },
+  "T4_ARMOR_CLOTH_SET1@3": {
+    "name": "Adept's Scholar Robe .3",
+    "weight": 3.4
+  },
+  "T4_ARMOR_CLOTH_SET1@4": {
+    "name": "Adept's Scholar Robe .4",
+    "weight": 3.4
+  },
+  "T4_SHOES_CLOTH_SET1": {
+    "name": "Adept's Scholar Sandals",
+    "weight": 1.7
+  },
+  "T4_SHOES_CLOTH_SET1@1": {
+    "name": "Adept's Scholar Sandals .1",
+    "weight": 1.7
+  },
+  "T4_SHOES_CLOTH_SET1@2": {
+    "name": "Adept's Scholar Sandals .2",
+    "weight": 1.7
+  },
+  "T4_SHOES_CLOTH_SET1@3": {
+    "name": "Adept's Scholar Sandals .3",
+    "weight": 1.7
+  },
+  "T4_SHOES_CLOTH_SET1@4": {
+    "name": "Adept's Scholar Sandals .4",
+    "weight": 1.7
+  },
+  "T4_SHOES_CLOTH_AVALON": {
+    "name": "Adept's Sandals of Purity",
+    "weight": 1.7
+  },
+  "T4_ARTEFACT_SHOES_CLOTH_AVALON": {
+    "name": "Adept's Artefact Shoes Cloth Avalon",
+    "weight": 2
+  },
+  "T4_SHOES_CLOTH_AVALON@1": {
+    "name": "Adept's Sandals of Purity .1",
+    "weight": 1.7
+  },
+  "T4_SHOES_CLOTH_AVALON@2": {
+    "name": "Adept's Sandals of Purity .2",
+    "weight": 1.7
+  },
+  "T4_SHOES_CLOTH_AVALON@3": {
+    "name": "Adept's Sandals of Purity .3",
+    "weight": 1.7
+  },
+  "T4_SHOES_CLOTH_AVALON@4": {
+    "name": "Adept's Sandals of Purity .4",
+    "weight": 1.7
+  },
+  "T4_SHOES_CLOTH_FEY": {
+    "name": "Adept's Feyscale Sandals",
+    "weight": 1.7
+  },
+  "T4_ARTEFACT_SHOES_CLOTH_FEY": {
+    "name": "Adept's Artefact Shoes Cloth Fey",
+    "weight": 2
+  },
+  "T4_SHOES_CLOTH_FEY@1": {
+    "name": "Adept's Feyscale Sandals .1",
+    "weight": 1.7
+  },
+  "T4_SHOES_CLOTH_FEY@2": {
+    "name": "Adept's Feyscale Sandals .2",
+    "weight": 1.7
+  },
+  "T4_SHOES_CLOTH_FEY@3": {
+    "name": "Adept's Feyscale Sandals .3",
+    "weight": 1.7
+  },
+  "T4_SHOES_CLOTH_FEY@4": {
+    "name": "Adept's Feyscale Sandals .4",
+    "weight": 1.7
+  },
+  "T4_SHOES_CLOTH_HELL": {
+    "name": "Adept's Fiend Sandals",
+    "weight": 1.7
+  },
+  "T4_ARTEFACT_SHOES_CLOTH_HELL": {
+    "name": "Adept's Artefact Shoes Cloth Hell",
+    "weight": 2
+  },
+  "T4_SHOES_CLOTH_HELL@1": {
+    "name": "Adept's Fiend Sandals .1",
+    "weight": 1.7
+  },
+  "T4_SHOES_CLOTH_HELL@2": {
+    "name": "Adept's Fiend Sandals .2",
+    "weight": 1.7
+  },
+  "T4_SHOES_CLOTH_HELL@3": {
+    "name": "Adept's Fiend Sandals .3",
+    "weight": 1.7
+  },
+  "T4_SHOES_CLOTH_HELL@4": {
+    "name": "Adept's Fiend Sandals .4",
+    "weight": 1.7
+  },
+  "T4_SHOES_CLOTH_KEEPER": {
+    "name": "Adept's Druid Sandals",
+    "weight": 1.7
+  },
+  "T4_ARTEFACT_SHOES_CLOTH_KEEPER": {
+    "name": "Adept's Artefact Shoes Cloth Keeper",
+    "weight": 2
+  },
+  "T4_SHOES_CLOTH_KEEPER@1": {
+    "name": "Adept's Druid Sandals .1",
+    "weight": 1.7
+  },
+  "T4_SHOES_CLOTH_KEEPER@2": {
+    "name": "Adept's Druid Sandals .2",
+    "weight": 1.7
+  },
+  "T4_SHOES_CLOTH_KEEPER@3": {
+    "name": "Adept's Druid Sandals .3",
+    "weight": 1.7
+  },
+  "T4_SHOES_CLOTH_KEEPER@4": {
+    "name": "Adept's Druid Sandals .4",
+    "weight": 1.7
+  },
+  "T4_SHOES_CLOTH_MORGANA": {
+    "name": "Adept's Cultist Sandals",
+    "weight": 1.7
+  },
+  "T4_ARTEFACT_SHOES_CLOTH_MORGANA": {
+    "name": "Adept's Artefact Shoes Cloth Morgana",
+    "weight": 2
+  },
+  "T4_SHOES_CLOTH_MORGANA@1": {
+    "name": "Adept's Cultist Sandals .1",
+    "weight": 1.7
+  },
+  "T4_SHOES_CLOTH_MORGANA@2": {
+    "name": "Adept's Cultist Sandals .2",
+    "weight": 1.7
+  },
+  "T4_SHOES_CLOTH_MORGANA@3": {
+    "name": "Adept's Cultist Sandals .3",
+    "weight": 1.7
+  },
+  "T4_SHOES_CLOTH_MORGANA@4": {
+    "name": "Adept's Cultist Sandals .4",
+    "weight": 1.7
+  },
+  "T4_SHOES_LEATHER_AVALON": {
+    "name": "Adept's Shoes of Tenacity",
+    "weight": 1.7
+  },
+  "T4_ARTEFACT_SHOES_LEATHER_AVALON": {
+    "name": "Adept's Artefact Shoes Leather Avalon",
+    "weight": 2
+  },
+  "T4_SHOES_LEATHER_AVALON@1": {
+    "name": "Adept's Shoes of Tenacity .1",
+    "weight": 1.7
+  },
+  "T4_SHOES_LEATHER_AVALON@2": {
+    "name": "Adept's Shoes of Tenacity .2",
+    "weight": 1.7
+  },
+  "T4_SHOES_LEATHER_AVALON@3": {
+    "name": "Adept's Shoes of Tenacity .3",
+    "weight": 1.7
+  },
+  "T4_SHOES_LEATHER_AVALON@4": {
+    "name": "Adept's Shoes of Tenacity .4",
+    "weight": 1.7
+  },
+  "T4_SHOES_LEATHER_DRAGON": {
+    "name": "Adept's Dragonslayer Shoes",
+    "weight": 1.7
+  },
+  "T4_ARTEFACT_SHOES_LEATHER_DRAGON": {
+    "name": "Adept's Artefact Shoes Leather Dragon",
+    "weight": 2
+  },
+  "T4_SHOES_LEATHER_DRAGON@1": {
+    "name": "Adept's Dragonslayer Shoes .1",
+    "weight": 1.7
+  },
+  "T4_SHOES_LEATHER_DRAGON@2": {
+    "name": "Adept's Dragonslayer Shoes .2",
+    "weight": 1.7
+  },
+  "T4_SHOES_LEATHER_DRAGON@3": {
+    "name": "Adept's Dragonslayer Shoes .3",
+    "weight": 1.7
+  },
+  "T4_SHOES_LEATHER_DRAGON@4": {
+    "name": "Adept's Dragonslayer Shoes .4",
+    "weight": 1.7
+  },
+  "T4_SHOES_LEATHER_FEY": {
+    "name": "Adept's Mistwalker Shoes",
+    "weight": 1.7
+  },
+  "T4_ARTEFACT_SHOES_LEATHER_FEY": {
+    "name": "Adept's Artefact Shoes Leather Fey",
+    "weight": 2
+  },
+  "T4_SHOES_LEATHER_FEY@1": {
+    "name": "Adept's Mistwalker Shoes .1",
+    "weight": 1.7
+  },
+  "T4_SHOES_LEATHER_FEY@2": {
+    "name": "Adept's Mistwalker Shoes .2",
+    "weight": 1.7
+  },
+  "T4_SHOES_LEATHER_FEY@3": {
+    "name": "Adept's Mistwalker Shoes .3",
+    "weight": 1.7
+  },
+  "T4_SHOES_LEATHER_FEY@4": {
+    "name": "Adept's Mistwalker Shoes .4",
+    "weight": 1.7
+  },
+  "T4_SHOES_LEATHER_HELL": {
+    "name": "Adept's Hellion Shoes",
+    "weight": 1.7
+  },
+  "T4_ARTEFACT_SHOES_LEATHER_HELL": {
+    "name": "Adept's Artefact Shoes Leather Hell",
+    "weight": 2
+  },
+  "T4_SHOES_LEATHER_HELL@1": {
+    "name": "Adept's Hellion Shoes .1",
+    "weight": 1.7
+  },
+  "T4_SHOES_LEATHER_HELL@2": {
+    "name": "Adept's Hellion Shoes .2",
+    "weight": 1.7
+  },
+  "T4_SHOES_LEATHER_HELL@3": {
+    "name": "Adept's Hellion Shoes .3",
+    "weight": 1.7
+  },
+  "T4_SHOES_LEATHER_HELL@4": {
+    "name": "Adept's Hellion Shoes .4",
+    "weight": 1.7
+  },
+  "T4_SHOES_LEATHER_MORGANA": {
+    "name": "Adept's Stalker Shoes",
+    "weight": 1.7
+  },
+  "T4_ARTEFACT_SHOES_LEATHER_MORGANA": {
+    "name": "Adept's Artefact Shoes Leather Morgana",
+    "weight": 2
+  },
+  "T4_SHOES_LEATHER_MORGANA@1": {
+    "name": "Adept's Stalker Shoes .1",
+    "weight": 1.7
+  },
+  "T4_SHOES_LEATHER_MORGANA@2": {
+    "name": "Adept's Stalker Shoes .2",
+    "weight": 1.7
+  },
+  "T4_SHOES_LEATHER_MORGANA@3": {
+    "name": "Adept's Stalker Shoes .3",
+    "weight": 1.7
+  },
+  "T4_SHOES_LEATHER_MORGANA@4": {
+    "name": "Adept's Stalker Shoes .4",
+    "weight": 1.7
+  },
+  "T4_SHOES_LEATHER_UNDEAD": {
+    "name": "Adept's Specter Shoes",
+    "weight": 1.7
+  },
+  "T4_ARTEFACT_SHOES_LEATHER_UNDEAD": {
+    "name": "Adept's Artefact Shoes Leather Undead",
+    "weight": 2
+  },
+  "T4_SHOES_LEATHER_UNDEAD@1": {
+    "name": "Adept's Specter Shoes .1",
+    "weight": 1.7
+  },
+  "T4_SHOES_LEATHER_UNDEAD@2": {
+    "name": "Adept's Specter Shoes .2",
+    "weight": 1.7
+  },
+  "T4_SHOES_LEATHER_UNDEAD@3": {
+    "name": "Adept's Specter Shoes .3",
+    "weight": 1.7
+  },
+  "T4_SHOES_LEATHER_UNDEAD@4": {
+    "name": "Adept's Specter Shoes .4",
+    "weight": 1.7
+  },
+  "T4_SHOES_PLATE_AVALON": {
+    "name": "Adept's Boots of Valor",
+    "weight": 1.7
+  },
+  "T4_ARTEFACT_SHOES_PLATE_AVALON": {
+    "name": "Adept's Artefact Shoes Plate Avalon",
+    "weight": 2
+  },
+  "T4_SHOES_PLATE_AVALON@1": {
+    "name": "Adept's Boots of Valor .1",
+    "weight": 1.7
+  },
+  "T4_SHOES_PLATE_AVALON@2": {
+    "name": "Adept's Boots of Valor .2",
+    "weight": 1.7
+  },
+  "T4_SHOES_PLATE_AVALON@3": {
+    "name": "Adept's Boots of Valor .3",
+    "weight": 1.7
+  },
+  "T4_SHOES_PLATE_AVALON@4": {
+    "name": "Adept's Boots of Valor .4",
+    "weight": 1.7
+  },
+  "T4_SHOES_PLATE_FEY": {
+    "name": "Adept's Duskweaver Boots",
+    "weight": 1.7
+  },
+  "T4_ARTEFACT_SHOES_PLATE_FEY": {
+    "name": "Adept's Artefact Shoes Plate Fey",
+    "weight": 2
+  },
+  "T4_SHOES_PLATE_FEY@1": {
+    "name": "Adept's Duskweaver Boots .1",
+    "weight": 1.7
+  },
+  "T4_SHOES_PLATE_FEY@2": {
+    "name": "Adept's Duskweaver Boots .2",
+    "weight": 1.7
+  },
+  "T4_SHOES_PLATE_FEY@3": {
+    "name": "Adept's Duskweaver Boots .3",
+    "weight": 1.7
+  },
+  "T4_SHOES_PLATE_FEY@4": {
+    "name": "Adept's Duskweaver Boots .4",
+    "weight": 1.7
+  },
+  "T4_SHOES_PLATE_HELL": {
+    "name": "Adept's Demon Boots",
+    "weight": 1.7
+  },
+  "T4_ARTEFACT_SHOES_PLATE_HELL": {
+    "name": "Adept's Artefact Shoes Plate Hell",
+    "weight": 2
+  },
+  "T4_SHOES_PLATE_HELL@1": {
+    "name": "Adept's Demon Boots .1",
+    "weight": 1.7
+  },
+  "T4_SHOES_PLATE_HELL@2": {
+    "name": "Adept's Demon Boots .2",
+    "weight": 1.7
+  },
+  "T4_SHOES_PLATE_HELL@3": {
+    "name": "Adept's Demon Boots .3",
+    "weight": 1.7
+  },
+  "T4_SHOES_PLATE_HELL@4": {
+    "name": "Adept's Demon Boots .4",
+    "weight": 1.7
+  },
+  "T4_SHOES_PLATE_KEEPER": {
+    "name": "Adept's Judicator Boots",
+    "weight": 1.7
+  },
+  "T4_ARTEFACT_SHOES_PLATE_KEEPER": {
+    "name": "Adept's Artefact Shoes Plate Keeper",
+    "weight": 2
+  },
+  "T4_SHOES_PLATE_KEEPER@1": {
+    "name": "Adept's Judicator Boots .1",
+    "weight": 1.7
+  },
+  "T4_SHOES_PLATE_KEEPER@2": {
+    "name": "Adept's Judicator Boots .2",
+    "weight": 1.7
+  },
+  "T4_SHOES_PLATE_KEEPER@3": {
+    "name": "Adept's Judicator Boots .3",
+    "weight": 1.7
+  },
+  "T4_SHOES_PLATE_KEEPER@4": {
+    "name": "Adept's Judicator Boots .4",
+    "weight": 1.7
+  },
+  "T4_SHOES_PLATE_UNDEAD": {
+    "name": "Adept's Graveguard Boots",
+    "weight": 1.7
+  },
+  "T4_ARTEFACT_SHOES_PLATE_UNDEAD": {
+    "name": "Adept's Artefact Shoes Plate Undead",
+    "weight": 2
+  },
+  "T4_SHOES_PLATE_UNDEAD@1": {
+    "name": "Adept's Graveguard Boots .1",
+    "weight": 1.7
+  },
+  "T4_SHOES_PLATE_UNDEAD@2": {
+    "name": "Adept's Graveguard Boots .2",
+    "weight": 1.7
+  },
+  "T4_SHOES_PLATE_UNDEAD@3": {
+    "name": "Adept's Graveguard Boots .3",
+    "weight": 1.7
+  },
+  "T4_SHOES_PLATE_UNDEAD@4": {
+    "name": "Adept's Graveguard Boots .4",
+    "weight": 1.7
+  },
+  "T4_ARMOR_PLATE_SET1": {
+    "name": "Adept's Soldier Armor",
+    "weight": 3.4
+  },
+  "T4_ARMOR_PLATE_SET1@1": {
+    "name": "Adept's Soldier Armor .1",
+    "weight": 3.4
+  },
+  "T4_ARMOR_PLATE_SET1@2": {
+    "name": "Adept's Soldier Armor .2",
+    "weight": 3.4
+  },
+  "T4_ARMOR_PLATE_SET1@3": {
+    "name": "Adept's Soldier Armor .3",
+    "weight": 3.4
+  },
+  "T4_ARMOR_PLATE_SET1@4": {
+    "name": "Adept's Soldier Armor .4",
+    "weight": 3.4
+  },
+  "T4_SHOES_PLATE_SET1": {
+    "name": "Adept's Soldier Boots",
+    "weight": 1.7
+  },
+  "T4_SHOES_PLATE_SET1@1": {
+    "name": "Adept's Soldier Boots .1",
+    "weight": 1.7
+  },
+  "T4_SHOES_PLATE_SET1@2": {
+    "name": "Adept's Soldier Boots .2",
+    "weight": 1.7
+  },
+  "T4_SHOES_PLATE_SET1@3": {
+    "name": "Adept's Soldier Boots .3",
+    "weight": 1.7
+  },
+  "T4_SHOES_PLATE_SET1@4": {
+    "name": "Adept's Soldier Boots .4",
+    "weight": 1.7
+  },
+  "T4_HEAD_PLATE_SET1": {
+    "name": "Adept's Soldier Helmet",
+    "weight": 1.7
+  },
+  "T4_HEAD_PLATE_SET1@1": {
+    "name": "Adept's Soldier Helmet .1",
+    "weight": 1.7
+  },
+  "T4_HEAD_PLATE_SET1@2": {
+    "name": "Adept's Soldier Helmet .2",
+    "weight": 1.7
+  },
+  "T4_HEAD_PLATE_SET1@3": {
+    "name": "Adept's Soldier Helmet .3",
+    "weight": 1.7
+  },
+  "T4_HEAD_PLATE_SET1@4": {
+    "name": "Adept's Soldier Helmet .4",
+    "weight": 1.7
+  },
+  "T5_ARMOR_CLOTH_AVALON": {
+    "name": "Expert's Robe of Purity",
+    "weight": 5.1
+  },
+  "T5_ARTEFACT_ARMOR_CLOTH_AVALON": {
+    "name": "Expert's Artefact Armor Cloth Avalon",
+    "weight": 2
+  },
+  "T5_ARMOR_CLOTH_AVALON@1": {
+    "name": "Expert's Robe of Purity .1",
+    "weight": 5.1
+  },
+  "T5_ARMOR_CLOTH_AVALON@2": {
+    "name": "Expert's Robe of Purity .2",
+    "weight": 5.1
+  },
+  "T5_ARMOR_CLOTH_AVALON@3": {
+    "name": "Expert's Robe of Purity .3",
+    "weight": 5.1
+  },
+  "T5_ARMOR_CLOTH_AVALON@4": {
+    "name": "Expert's Robe of Purity .4",
+    "weight": 5.1
+  },
+  "T5_ARMOR_CLOTH_FEY": {
+    "name": "Expert's Feyscale Robe",
+    "weight": 5.1
+  },
+  "T5_ARTEFACT_ARMOR_CLOTH_FEY": {
+    "name": "Expert's Artefact Armor Cloth Fey",
+    "weight": 2
+  },
+  "T5_ARMOR_CLOTH_FEY@1": {
+    "name": "Expert's Feyscale Robe .1",
+    "weight": 5.1
+  },
+  "T5_ARMOR_CLOTH_FEY@2": {
+    "name": "Expert's Feyscale Robe .2",
+    "weight": 5.1
+  },
+  "T5_ARMOR_CLOTH_FEY@3": {
+    "name": "Expert's Feyscale Robe .3",
+    "weight": 5.1
+  },
+  "T5_ARMOR_CLOTH_FEY@4": {
+    "name": "Expert's Feyscale Robe .4",
+    "weight": 5.1
+  },
+  "T5_ARMOR_CLOTH_HELL": {
+    "name": "Expert's Fiend Robe",
+    "weight": 5.1
+  },
+  "T5_ARTEFACT_ARMOR_CLOTH_HELL": {
+    "name": "Expert's Artefact Armor Cloth Hell",
+    "weight": 2
+  },
+  "T5_ARMOR_CLOTH_HELL@1": {
+    "name": "Expert's Fiend Robe .1",
+    "weight": 5.1
+  },
+  "T5_ARMOR_CLOTH_HELL@2": {
+    "name": "Expert's Fiend Robe .2",
+    "weight": 5.1
+  },
+  "T5_ARMOR_CLOTH_HELL@3": {
+    "name": "Expert's Fiend Robe .3",
+    "weight": 5.1
+  },
+  "T5_ARMOR_CLOTH_HELL@4": {
+    "name": "Expert's Fiend Robe .4",
+    "weight": 5.1
+  },
+  "T5_ARMOR_CLOTH_KEEPER": {
+    "name": "Expert's Druid Robe",
+    "weight": 5.1
+  },
+  "T5_ARTEFACT_ARMOR_CLOTH_KEEPER": {
+    "name": "Expert's Artefact Armor Cloth Keeper",
+    "weight": 2
+  },
+  "T5_ARMOR_CLOTH_KEEPER@1": {
+    "name": "Expert's Druid Robe .1",
+    "weight": 5.1
+  },
+  "T5_ARMOR_CLOTH_KEEPER@2": {
+    "name": "Expert's Druid Robe .2",
+    "weight": 5.1
+  },
+  "T5_ARMOR_CLOTH_KEEPER@3": {
+    "name": "Expert's Druid Robe .3",
+    "weight": 5.1
+  },
+  "T5_ARMOR_CLOTH_KEEPER@4": {
+    "name": "Expert's Druid Robe .4",
+    "weight": 5.1
+  },
+  "T5_ARMOR_CLOTH_MORGANA": {
+    "name": "Expert's Cultist Robe",
+    "weight": 5.1
+  },
+  "T5_ARTEFACT_ARMOR_CLOTH_MORGANA": {
+    "name": "Expert's Artefact Armor Cloth Morgana",
+    "weight": 2
+  },
+  "T5_ARMOR_CLOTH_MORGANA@1": {
+    "name": "Expert's Cultist Robe .1",
+    "weight": 5.1
+  },
+  "T5_ARMOR_CLOTH_MORGANA@2": {
+    "name": "Expert's Cultist Robe .2",
+    "weight": 5.1
+  },
+  "T5_ARMOR_CLOTH_MORGANA@3": {
+    "name": "Expert's Cultist Robe .3",
+    "weight": 5.1
+  },
+  "T5_ARMOR_CLOTH_MORGANA@4": {
+    "name": "Expert's Cultist Robe .4",
+    "weight": 5.1
+  },
+  "T5_ARMOR_LEATHER_AVALON": {
+    "name": "Expert's Jacket of Tenacity",
+    "weight": 5.1
+  },
+  "T5_ARTEFACT_ARMOR_LEATHER_AVALON": {
+    "name": "Expert's Artefact Armor Leather Avalon",
+    "weight": 2
+  },
+  "T5_ARMOR_LEATHER_AVALON@1": {
+    "name": "Expert's Jacket of Tenacity .1",
+    "weight": 5.1
+  },
+  "T5_ARMOR_LEATHER_AVALON@2": {
+    "name": "Expert's Jacket of Tenacity .2",
+    "weight": 5.1
+  },
+  "T5_ARMOR_LEATHER_AVALON@3": {
+    "name": "Expert's Jacket of Tenacity .3",
+    "weight": 5.1
+  },
+  "T5_ARMOR_LEATHER_AVALON@4": {
+    "name": "Expert's Jacket of Tenacity .4",
+    "weight": 5.1
+  },
+  "T5_ARMOR_LEATHER_DRAGON": {
+    "name": "Expert's Dragonslayer Jacket",
+    "weight": 5.1
+  },
+  "T5_ARTEFACT_ARMOR_LEATHER_DRAGON": {
+    "name": "Expert's Artefact Armor Leather Dragon",
+    "weight": 2
+  },
+  "T5_ARMOR_LEATHER_DRAGON@1": {
+    "name": "Expert's Dragonslayer Jacket .1",
+    "weight": 5.1
+  },
+  "T5_ARMOR_LEATHER_DRAGON@2": {
+    "name": "Expert's Dragonslayer Jacket .2",
+    "weight": 5.1
+  },
+  "T5_ARMOR_LEATHER_DRAGON@3": {
+    "name": "Expert's Dragonslayer Jacket .3",
+    "weight": 5.1
+  },
+  "T5_ARMOR_LEATHER_DRAGON@4": {
+    "name": "Expert's Dragonslayer Jacket .4",
+    "weight": 5.1
+  },
+  "T5_ARMOR_LEATHER_FEY": {
+    "name": "Expert's Mistwalker Jacket",
+    "weight": 5.1
+  },
+  "T5_ARTEFACT_ARMOR_LEATHER_FEY": {
+    "name": "Expert's Artefact Armor Leather Fey",
+    "weight": 2
+  },
+  "T5_ARMOR_LEATHER_FEY@1": {
+    "name": "Expert's Mistwalker Jacket .1",
+    "weight": 5.1
+  },
+  "T5_ARMOR_LEATHER_FEY@2": {
+    "name": "Expert's Mistwalker Jacket .2",
+    "weight": 5.1
+  },
+  "T5_ARMOR_LEATHER_FEY@3": {
+    "name": "Expert's Mistwalker Jacket .3",
+    "weight": 5.1
+  },
+  "T5_ARMOR_LEATHER_FEY@4": {
+    "name": "Expert's Mistwalker Jacket .4",
+    "weight": 5.1
+  },
+  "T5_ARMOR_LEATHER_HELL": {
+    "name": "Expert's Hellion Jacket",
+    "weight": 5.1
+  },
+  "T5_ARTEFACT_ARMOR_LEATHER_HELL": {
+    "name": "Expert's Artefact Armor Leather Hell",
+    "weight": 2
+  },
+  "T5_ARMOR_LEATHER_HELL@1": {
+    "name": "Expert's Hellion Jacket .1",
+    "weight": 5.1
+  },
+  "T5_ARMOR_LEATHER_HELL@2": {
+    "name": "Expert's Hellion Jacket .2",
+    "weight": 5.1
+  },
+  "T5_ARMOR_LEATHER_HELL@3": {
+    "name": "Expert's Hellion Jacket .3",
+    "weight": 5.1
+  },
+  "T5_ARMOR_LEATHER_HELL@4": {
+    "name": "Expert's Hellion Jacket .4",
+    "weight": 5.1
+  },
+  "T5_ARMOR_LEATHER_MORGANA": {
+    "name": "Expert's Stalker Jacket",
+    "weight": 5.1
+  },
+  "T5_ARTEFACT_ARMOR_LEATHER_MORGANA": {
+    "name": "Expert's Artefact Armor Leather Morgana",
+    "weight": 2
+  },
+  "T5_ARMOR_LEATHER_MORGANA@1": {
+    "name": "Expert's Stalker Jacket .1",
+    "weight": 5.1
+  },
+  "T5_ARMOR_LEATHER_MORGANA@2": {
+    "name": "Expert's Stalker Jacket .2",
+    "weight": 5.1
+  },
+  "T5_ARMOR_LEATHER_MORGANA@3": {
+    "name": "Expert's Stalker Jacket .3",
+    "weight": 5.1
+  },
+  "T5_ARMOR_LEATHER_MORGANA@4": {
+    "name": "Expert's Stalker Jacket .4",
+    "weight": 5.1
+  },
+  "T5_ARMOR_LEATHER_UNDEAD": {
+    "name": "Expert's Specter Jacket",
+    "weight": 5.1
+  },
+  "T5_ARTEFACT_ARMOR_LEATHER_UNDEAD": {
+    "name": "Expert's Artefact Armor Leather Undead",
+    "weight": 2
+  },
+  "T5_ARMOR_LEATHER_UNDEAD@1": {
+    "name": "Expert's Specter Jacket .1",
+    "weight": 5.1
+  },
+  "T5_ARMOR_LEATHER_UNDEAD@2": {
+    "name": "Expert's Specter Jacket .2",
+    "weight": 5.1
+  },
+  "T5_ARMOR_LEATHER_UNDEAD@3": {
+    "name": "Expert's Specter Jacket .3",
+    "weight": 5.1
+  },
+  "T5_ARMOR_LEATHER_UNDEAD@4": {
+    "name": "Expert's Specter Jacket .4",
+    "weight": 5.1
+  },
+  "T5_ARMOR_PLATE_AVALON": {
+    "name": "Expert's Armor of Valor",
+    "weight": 5.1
+  },
+  "T5_METALBAR": {
+    "name": "Titanium Bar",
+    "weight": 0.76
+  },
+  "T5_ARTEFACT_ARMOR_PLATE_AVALON": {
+    "name": "Expert's Artefact Armor Plate Avalon",
+    "weight": 2
+  },
+  "T5_ARMOR_PLATE_AVALON@1": {
+    "name": "Expert's Armor of Valor .1",
+    "weight": 5.1
+  },
+  "T5_METALBAR@1": {
+    "name": "Titanium Bar .1",
+    "weight": 0.76
+  },
+  "T5_ARMOR_PLATE_AVALON@2": {
+    "name": "Expert's Armor of Valor .2",
+    "weight": 5.1
+  },
+  "T5_METALBAR@2": {
+    "name": "Titanium Bar .2",
+    "weight": 0.76
+  },
+  "T5_ARMOR_PLATE_AVALON@3": {
+    "name": "Expert's Armor of Valor .3",
+    "weight": 5.1
+  },
+  "T5_METALBAR@3": {
+    "name": "Titanium Bar .3",
+    "weight": 0.76
+  },
+  "T5_ARMOR_PLATE_AVALON@4": {
+    "name": "Expert's Armor of Valor .4",
+    "weight": 5.1
+  },
+  "T5_METALBAR@4": {
+    "name": "Titanium Bar .4",
+    "weight": 0.76
+  },
+  "T5_ARMOR_PLATE_FEY": {
+    "name": "Expert's Duskweaver Armor",
+    "weight": 5.1
+  },
+  "T5_ARTEFACT_ARMOR_PLATE_FEY": {
+    "name": "Expert's Artefact Armor Plate Fey",
+    "weight": 2
+  },
+  "T5_ARMOR_PLATE_FEY@1": {
+    "name": "Expert's Duskweaver Armor .1",
+    "weight": 5.1
+  },
+  "T5_ARMOR_PLATE_FEY@2": {
+    "name": "Expert's Duskweaver Armor .2",
+    "weight": 5.1
+  },
+  "T5_ARMOR_PLATE_FEY@3": {
+    "name": "Expert's Duskweaver Armor .3",
+    "weight": 5.1
+  },
+  "T5_ARMOR_PLATE_FEY@4": {
+    "name": "Expert's Duskweaver Armor .4",
+    "weight": 5.1
+  },
+  "T5_ARMOR_PLATE_HELL": {
+    "name": "Expert's Demon Armor",
+    "weight": 5.1
+  },
+  "T5_ARTEFACT_ARMOR_PLATE_HELL": {
+    "name": "Expert's Artefact Armor Plate Hell",
+    "weight": 2
+  },
+  "T5_ARMOR_PLATE_HELL@1": {
+    "name": "Expert's Demon Armor .1",
+    "weight": 5.1
+  },
+  "T5_ARMOR_PLATE_HELL@2": {
+    "name": "Expert's Demon Armor .2",
+    "weight": 5.1
+  },
+  "T5_ARMOR_PLATE_HELL@3": {
+    "name": "Expert's Demon Armor .3",
+    "weight": 5.1
+  },
+  "T5_ARMOR_PLATE_HELL@4": {
+    "name": "Expert's Demon Armor .4",
+    "weight": 5.1
+  },
+  "T5_ARMOR_PLATE_KEEPER": {
+    "name": "Expert's Judicator Armor",
+    "weight": 5.1
+  },
+  "T5_ARTEFACT_ARMOR_PLATE_KEEPER": {
+    "name": "Expert's Artefact Armor Plate Keeper",
+    "weight": 2
+  },
+  "T5_ARMOR_PLATE_KEEPER@1": {
+    "name": "Expert's Judicator Armor .1",
+    "weight": 5.1
+  },
+  "T5_ARMOR_PLATE_KEEPER@2": {
+    "name": "Expert's Judicator Armor .2",
+    "weight": 5.1
+  },
+  "T5_ARMOR_PLATE_KEEPER@3": {
+    "name": "Expert's Judicator Armor .3",
+    "weight": 5.1
+  },
+  "T5_ARMOR_PLATE_KEEPER@4": {
+    "name": "Expert's Judicator Armor .4",
+    "weight": 5.1
+  },
+  "T5_ARMOR_PLATE_UNDEAD": {
+    "name": "Expert's Graveguard Armor",
+    "weight": 5.1
+  },
+  "T5_ARTEFACT_ARMOR_PLATE_UNDEAD": {
+    "name": "Expert's Artefact Armor Plate Undead",
+    "weight": 2
+  },
+  "T5_ARMOR_PLATE_UNDEAD@1": {
+    "name": "Expert's Graveguard Armor .1",
+    "weight": 5.1
+  },
+  "T5_ARMOR_PLATE_UNDEAD@2": {
+    "name": "Expert's Graveguard Armor .2",
+    "weight": 5.1
+  },
+  "T5_ARMOR_PLATE_UNDEAD@3": {
+    "name": "Expert's Graveguard Armor .3",
+    "weight": 5.1
+  },
+  "T5_ARMOR_PLATE_UNDEAD@4": {
+    "name": "Expert's Graveguard Armor .4",
+    "weight": 5.1
+  },
+  "T5_HEAD_LEATHER_SET3": {
+    "name": "Expert's Assassin Hood",
+    "weight": 2.5
+  },
+  "T5_HEAD_LEATHER_SET3@1": {
+    "name": "Expert's Assassin Hood .1",
+    "weight": 2.5
+  },
+  "T5_HEAD_LEATHER_SET3@2": {
+    "name": "Expert's Assassin Hood .2",
+    "weight": 2.5
+  },
+  "T5_HEAD_LEATHER_SET3@3": {
+    "name": "Expert's Assassin Hood .3",
+    "weight": 2.5
+  },
+  "T5_HEAD_LEATHER_SET3@4": {
+    "name": "Expert's Assassin Hood .4",
+    "weight": 2.5
+  },
+  "T5_ARMOR_LEATHER_SET3": {
+    "name": "Expert's Assassin Jacket",
+    "weight": 5.1
+  },
+  "T5_ARMOR_LEATHER_SET3@1": {
+    "name": "Expert's Assassin Jacket .1",
+    "weight": 5.1
+  },
+  "T5_ARMOR_LEATHER_SET3@2": {
+    "name": "Expert's Assassin Jacket .2",
+    "weight": 5.1
+  },
+  "T5_ARMOR_LEATHER_SET3@3": {
+    "name": "Expert's Assassin Jacket .3",
+    "weight": 5.1
+  },
+  "T5_ARMOR_LEATHER_SET3@4": {
+    "name": "Expert's Assassin Jacket .4",
+    "weight": 5.1
+  },
+  "T5_SHOES_LEATHER_SET3": {
+    "name": "Expert's Assassin Shoes",
+    "weight": 2.5
+  },
+  "T5_SHOES_LEATHER_SET3@1": {
+    "name": "Expert's Assassin Shoes .1",
+    "weight": 2.5
+  },
+  "T5_SHOES_LEATHER_SET3@2": {
+    "name": "Expert's Assassin Shoes .2",
+    "weight": 2.5
+  },
+  "T5_SHOES_LEATHER_SET3@3": {
+    "name": "Expert's Assassin Shoes .3",
+    "weight": 2.5
+  },
+  "T5_SHOES_LEATHER_SET3@4": {
+    "name": "Expert's Assassin Shoes .4",
+    "weight": 2.5
+  },
+  "T5_HEAD_CLOTH_SET2": {
+    "name": "Expert's Cleric Cowl",
+    "weight": 2.5
+  },
+  "T5_HEAD_CLOTH_SET2@1": {
+    "name": "Expert's Cleric Cowl .1",
+    "weight": 2.5
+  },
+  "T5_HEAD_CLOTH_SET2@2": {
+    "name": "Expert's Cleric Cowl .2",
+    "weight": 2.5
+  },
+  "T5_HEAD_CLOTH_SET2@3": {
+    "name": "Expert's Cleric Cowl .3",
+    "weight": 2.5
+  },
+  "T5_HEAD_CLOTH_SET2@4": {
+    "name": "Expert's Cleric Cowl .4",
+    "weight": 2.5
+  },
+  "T5_ARMOR_CLOTH_SET2": {
+    "name": "Expert's Cleric Robe",
+    "weight": 5.1
+  },
+  "T5_ARMOR_CLOTH_SET2@1": {
+    "name": "Expert's Cleric Robe .1",
+    "weight": 5.1
+  },
+  "T5_ARMOR_CLOTH_SET2@2": {
+    "name": "Expert's Cleric Robe .2",
+    "weight": 5.1
+  },
+  "T5_ARMOR_CLOTH_SET2@3": {
+    "name": "Expert's Cleric Robe .3",
+    "weight": 5.1
+  },
+  "T5_ARMOR_CLOTH_SET2@4": {
+    "name": "Expert's Cleric Robe .4",
+    "weight": 5.1
+  },
+  "T5_SHOES_CLOTH_SET2": {
+    "name": "Expert's Cleric Sandals",
+    "weight": 2.5
+  },
+  "T5_SHOES_CLOTH_SET2@1": {
+    "name": "Expert's Cleric Sandals .1",
+    "weight": 2.5
+  },
+  "T5_SHOES_CLOTH_SET2@2": {
+    "name": "Expert's Cleric Sandals .2",
+    "weight": 2.5
+  },
+  "T5_SHOES_CLOTH_SET2@3": {
+    "name": "Expert's Cleric Sandals .3",
+    "weight": 2.5
+  },
+  "T5_SHOES_CLOTH_SET2@4": {
+    "name": "Expert's Cleric Sandals .4",
+    "weight": 2.5
+  },
+  "T5_ARMOR_PLATE_SET3": {
+    "name": "Expert's Guardian Armor",
+    "weight": 5.1
+  },
+  "T5_ARMOR_PLATE_SET3@1": {
+    "name": "Expert's Guardian Armor .1",
+    "weight": 5.1
+  },
+  "T5_ARMOR_PLATE_SET3@2": {
+    "name": "Expert's Guardian Armor .2",
+    "weight": 5.1
+  },
+  "T5_ARMOR_PLATE_SET3@3": {
+    "name": "Expert's Guardian Armor .3",
+    "weight": 5.1
+  },
+  "T5_ARMOR_PLATE_SET3@4": {
+    "name": "Expert's Guardian Armor .4",
+    "weight": 5.1
+  },
+  "T5_SHOES_PLATE_SET3": {
+    "name": "Expert's Guardian Boots",
+    "weight": 2.5
+  },
+  "T5_SHOES_PLATE_SET3@1": {
+    "name": "Expert's Guardian Boots .1",
+    "weight": 2.5
+  },
+  "T5_SHOES_PLATE_SET3@2": {
+    "name": "Expert's Guardian Boots .2",
+    "weight": 2.5
+  },
+  "T5_SHOES_PLATE_SET3@3": {
+    "name": "Expert's Guardian Boots .3",
+    "weight": 2.5
+  },
+  "T5_SHOES_PLATE_SET3@4": {
+    "name": "Expert's Guardian Boots .4",
+    "weight": 2.5
+  },
+  "T5_HEAD_PLATE_SET3": {
+    "name": "Expert's Guardian Helmet",
+    "weight": 2.5
+  },
+  "T5_HEAD_PLATE_SET3@1": {
+    "name": "Expert's Guardian Helmet .1",
+    "weight": 2.5
+  },
+  "T5_HEAD_PLATE_SET3@2": {
+    "name": "Expert's Guardian Helmet .2",
+    "weight": 2.5
+  },
+  "T5_HEAD_PLATE_SET3@3": {
+    "name": "Expert's Guardian Helmet .3",
+    "weight": 2.5
+  },
+  "T5_HEAD_PLATE_SET3@4": {
+    "name": "Expert's Guardian Helmet .4",
+    "weight": 2.5
+  },
+  "T5_HEAD_CLOTH_AVALON": {
+    "name": "Expert's Cowl of Purity",
+    "weight": 2.5
+  },
+  "T5_ARTEFACT_HEAD_CLOTH_AVALON": {
+    "name": "Expert's Artefact Head Cloth Avalon",
+    "weight": 2
+  },
+  "T5_HEAD_CLOTH_AVALON@1": {
+    "name": "Expert's Cowl of Purity .1",
+    "weight": 2.5
+  },
+  "T5_HEAD_CLOTH_AVALON@2": {
+    "name": "Expert's Cowl of Purity .2",
+    "weight": 2.5
+  },
+  "T5_HEAD_CLOTH_AVALON@3": {
+    "name": "Expert's Cowl of Purity .3",
+    "weight": 2.5
+  },
+  "T5_HEAD_CLOTH_AVALON@4": {
+    "name": "Expert's Cowl of Purity .4",
+    "weight": 2.5
+  },
+  "T5_HEAD_CLOTH_FEY": {
+    "name": "Expert's Feyscale Hat",
+    "weight": 2.5
+  },
+  "T5_ARTEFACT_HEAD_CLOTH_FEY": {
+    "name": "Expert's Artefact Head Cloth Fey",
+    "weight": 2
+  },
+  "T5_HEAD_CLOTH_FEY@1": {
+    "name": "Expert's Feyscale Hat .1",
+    "weight": 2.5
+  },
+  "T5_HEAD_CLOTH_FEY@2": {
+    "name": "Expert's Feyscale Hat .2",
+    "weight": 2.5
+  },
+  "T5_HEAD_CLOTH_FEY@3": {
+    "name": "Expert's Feyscale Hat .3",
+    "weight": 2.5
+  },
+  "T5_HEAD_CLOTH_FEY@4": {
+    "name": "Expert's Feyscale Hat .4",
+    "weight": 2.5
+  },
+  "T5_HEAD_CLOTH_HELL": {
+    "name": "Expert's Fiend Cowl",
+    "weight": 2.5
+  },
+  "T5_ARTEFACT_HEAD_CLOTH_HELL": {
+    "name": "Expert's Artefact Head Cloth Hell",
+    "weight": 2
+  },
+  "T5_HEAD_CLOTH_HELL@1": {
+    "name": "Expert's Fiend Cowl .1",
+    "weight": 2.5
+  },
+  "T5_HEAD_CLOTH_HELL@2": {
+    "name": "Expert's Fiend Cowl .2",
+    "weight": 2.5
+  },
+  "T5_HEAD_CLOTH_HELL@3": {
+    "name": "Expert's Fiend Cowl .3",
+    "weight": 2.5
+  },
+  "T5_HEAD_CLOTH_HELL@4": {
+    "name": "Expert's Fiend Cowl .4",
+    "weight": 2.5
+  },
+  "T5_HEAD_CLOTH_KEEPER": {
+    "name": "Expert's Druid Cowl",
+    "weight": 2.5
+  },
+  "T5_ARTEFACT_HEAD_CLOTH_KEEPER": {
+    "name": "Expert's Artefact Head Cloth Keeper",
+    "weight": 2
+  },
+  "T5_HEAD_CLOTH_KEEPER@1": {
+    "name": "Expert's Druid Cowl .1",
+    "weight": 2.5
+  },
+  "T5_HEAD_CLOTH_KEEPER@2": {
+    "name": "Expert's Druid Cowl .2",
+    "weight": 2.5
+  },
+  "T5_HEAD_CLOTH_KEEPER@3": {
+    "name": "Expert's Druid Cowl .3",
+    "weight": 2.5
+  },
+  "T5_HEAD_CLOTH_KEEPER@4": {
+    "name": "Expert's Druid Cowl .4",
+    "weight": 2.5
+  },
+  "T5_HEAD_CLOTH_MORGANA": {
+    "name": "Expert's Cultist Cowl",
+    "weight": 2.5
+  },
+  "T5_ARTEFACT_HEAD_CLOTH_MORGANA": {
+    "name": "Expert's Artefact Head Cloth Morgana",
+    "weight": 2
+  },
+  "T5_HEAD_CLOTH_MORGANA@1": {
+    "name": "Expert's Cultist Cowl .1",
+    "weight": 2.5
+  },
+  "T5_HEAD_CLOTH_MORGANA@2": {
+    "name": "Expert's Cultist Cowl .2",
+    "weight": 2.5
+  },
+  "T5_HEAD_CLOTH_MORGANA@3": {
+    "name": "Expert's Cultist Cowl .3",
+    "weight": 2.5
+  },
+  "T5_HEAD_CLOTH_MORGANA@4": {
+    "name": "Expert's Cultist Cowl .4",
+    "weight": 2.5
+  },
+  "T5_HEAD_LEATHER_AVALON": {
+    "name": "Expert's Hood of Tenacity",
+    "weight": 2.5
+  },
+  "T5_ARTEFACT_HEAD_LEATHER_AVALON": {
+    "name": "Expert's Artefact Head Leather Avalon",
+    "weight": 2
+  },
+  "T5_HEAD_LEATHER_AVALON@1": {
+    "name": "Expert's Hood of Tenacity .1",
+    "weight": 2.5
+  },
+  "T5_HEAD_LEATHER_AVALON@2": {
+    "name": "Expert's Hood of Tenacity .2",
+    "weight": 2.5
+  },
+  "T5_HEAD_LEATHER_AVALON@3": {
+    "name": "Expert's Hood of Tenacity .3",
+    "weight": 2.5
+  },
+  "T5_HEAD_LEATHER_AVALON@4": {
+    "name": "Expert's Hood of Tenacity .4",
+    "weight": 2.5
+  },
+  "T5_HEAD_LEATHER_DRAGON": {
+    "name": "Expert's Dragonslayer Hood",
+    "weight": 2.5
+  },
+  "T5_ARTEFACT_HEAD_LEATHER_DRAGON": {
+    "name": "Expert's Artefact Head Leather Dragon",
+    "weight": 2
+  },
+  "T5_HEAD_LEATHER_DRAGON@1": {
+    "name": "Expert's Dragonslayer Hood .1",
+    "weight": 2.5
+  },
+  "T5_HEAD_LEATHER_DRAGON@2": {
+    "name": "Expert's Dragonslayer Hood .2",
+    "weight": 2.5
+  },
+  "T5_HEAD_LEATHER_DRAGON@3": {
+    "name": "Expert's Dragonslayer Hood .3",
+    "weight": 2.5
+  },
+  "T5_HEAD_LEATHER_DRAGON@4": {
+    "name": "Expert's Dragonslayer Hood .4",
+    "weight": 2.5
+  },
+  "T5_HEAD_LEATHER_FEY": {
+    "name": "Expert's Mistwalker Hood",
+    "weight": 2.5
+  },
+  "T5_ARTEFACT_HEAD_LEATHER_FEY": {
+    "name": "Expert's Artefact Head Leather Fey",
+    "weight": 2
+  },
+  "T5_HEAD_LEATHER_FEY@1": {
+    "name": "Expert's Mistwalker Hood .1",
+    "weight": 2.5
+  },
+  "T5_HEAD_LEATHER_FEY@2": {
+    "name": "Expert's Mistwalker Hood .2",
+    "weight": 2.5
+  },
+  "T5_HEAD_LEATHER_FEY@3": {
+    "name": "Expert's Mistwalker Hood .3",
+    "weight": 2.5
+  },
+  "T5_HEAD_LEATHER_FEY@4": {
+    "name": "Expert's Mistwalker Hood .4",
+    "weight": 2.5
+  },
+  "T5_HEAD_LEATHER_HELL": {
+    "name": "Expert's Hellion Hood",
+    "weight": 2.5
+  },
+  "T5_ARTEFACT_HEAD_LEATHER_HELL": {
+    "name": "Expert's Artefact Head Leather Hell",
+    "weight": 2
+  },
+  "T5_HEAD_LEATHER_HELL@1": {
+    "name": "Expert's Hellion Hood .1",
+    "weight": 2.5
+  },
+  "T5_HEAD_LEATHER_HELL@2": {
+    "name": "Expert's Hellion Hood .2",
+    "weight": 2.5
+  },
+  "T5_HEAD_LEATHER_HELL@3": {
+    "name": "Expert's Hellion Hood .3",
+    "weight": 2.5
+  },
+  "T5_HEAD_LEATHER_HELL@4": {
+    "name": "Expert's Hellion Hood .4",
+    "weight": 2.5
+  },
+  "T5_HEAD_LEATHER_MORGANA": {
+    "name": "Expert's Stalker Hood",
+    "weight": 2.5
+  },
+  "T5_ARTEFACT_HEAD_LEATHER_MORGANA": {
+    "name": "Expert's Artefact Head Leather Morgana",
+    "weight": 2
+  },
+  "T5_HEAD_LEATHER_MORGANA@1": {
+    "name": "Expert's Stalker Hood .1",
+    "weight": 2.5
+  },
+  "T5_HEAD_LEATHER_MORGANA@2": {
+    "name": "Expert's Stalker Hood .2",
+    "weight": 2.5
+  },
+  "T5_HEAD_LEATHER_MORGANA@3": {
+    "name": "Expert's Stalker Hood .3",
+    "weight": 2.5
+  },
+  "T5_HEAD_LEATHER_MORGANA@4": {
+    "name": "Expert's Stalker Hood .4",
+    "weight": 2.5
+  },
+  "T5_HEAD_LEATHER_UNDEAD": {
+    "name": "Expert's Specter Hood",
+    "weight": 2.5
+  },
+  "T5_ARTEFACT_HEAD_LEATHER_UNDEAD": {
+    "name": "Expert's Artefact Head Leather Undead",
+    "weight": 2
+  },
+  "T5_HEAD_LEATHER_UNDEAD@1": {
+    "name": "Expert's Specter Hood .1",
+    "weight": 2.5
+  },
+  "T5_HEAD_LEATHER_UNDEAD@2": {
+    "name": "Expert's Specter Hood .2",
+    "weight": 2.5
+  },
+  "T5_HEAD_LEATHER_UNDEAD@3": {
+    "name": "Expert's Specter Hood .3",
+    "weight": 2.5
+  },
+  "T5_HEAD_LEATHER_UNDEAD@4": {
+    "name": "Expert's Specter Hood .4",
+    "weight": 2.5
+  },
+  "T5_HEAD_PLATE_AVALON": {
+    "name": "Expert's Helmet of Valor",
+    "weight": 2.5
+  },
+  "T5_ARTEFACT_HEAD_PLATE_AVALON": {
+    "name": "Expert's Artefact Head Plate Avalon",
+    "weight": 2
+  },
+  "T5_HEAD_PLATE_AVALON@1": {
+    "name": "Expert's Helmet of Valor .1",
+    "weight": 2.5
+  },
+  "T5_HEAD_PLATE_AVALON@2": {
+    "name": "Expert's Helmet of Valor .2",
+    "weight": 2.5
+  },
+  "T5_HEAD_PLATE_AVALON@3": {
+    "name": "Expert's Helmet of Valor .3",
+    "weight": 2.5
+  },
+  "T5_HEAD_PLATE_AVALON@4": {
+    "name": "Expert's Helmet of Valor .4",
+    "weight": 2.5
+  },
+  "T5_HEAD_PLATE_FEY": {
+    "name": "Expert's Duskweaver Helmet",
+    "weight": 2.5
+  },
+  "T5_ARTEFACT_HEAD_PLATE_FEY": {
+    "name": "Expert's Artefact Head Plate Fey",
+    "weight": 2
+  },
+  "T5_HEAD_PLATE_FEY@1": {
+    "name": "Expert's Duskweaver Helmet .1",
+    "weight": 2.5
+  },
+  "T5_HEAD_PLATE_FEY@2": {
+    "name": "Expert's Duskweaver Helmet .2",
+    "weight": 2.5
+  },
+  "T5_HEAD_PLATE_FEY@3": {
+    "name": "Expert's Duskweaver Helmet .3",
+    "weight": 2.5
+  },
+  "T5_HEAD_PLATE_FEY@4": {
+    "name": "Expert's Duskweaver Helmet .4",
+    "weight": 2.5
+  },
+  "T5_HEAD_PLATE_HELL": {
+    "name": "Expert's Demon Helmet",
+    "weight": 2.5
+  },
+  "T5_ARTEFACT_HEAD_PLATE_HELL": {
+    "name": "Expert's Artefact Head Plate Hell",
+    "weight": 2
+  },
+  "T5_HEAD_PLATE_HELL@1": {
+    "name": "Expert's Demon Helmet .1",
+    "weight": 2.5
+  },
+  "T5_HEAD_PLATE_HELL@2": {
+    "name": "Expert's Demon Helmet .2",
+    "weight": 2.5
+  },
+  "T5_HEAD_PLATE_HELL@3": {
+    "name": "Expert's Demon Helmet .3",
+    "weight": 2.5
+  },
+  "T5_HEAD_PLATE_HELL@4": {
+    "name": "Expert's Demon Helmet .4",
+    "weight": 2.5
+  },
+  "T5_HEAD_PLATE_KEEPER": {
+    "name": "Expert's Judicator Helmet",
+    "weight": 2.5
+  },
+  "T5_ARTEFACT_HEAD_PLATE_KEEPER": {
+    "name": "Expert's Artefact Head Plate Keeper",
+    "weight": 2
+  },
+  "T5_HEAD_PLATE_KEEPER@1": {
+    "name": "Expert's Judicator Helmet .1",
+    "weight": 2.5
+  },
+  "T5_HEAD_PLATE_KEEPER@2": {
+    "name": "Expert's Judicator Helmet .2",
+    "weight": 2.5
+  },
+  "T5_HEAD_PLATE_KEEPER@3": {
+    "name": "Expert's Judicator Helmet .3",
+    "weight": 2.5
+  },
+  "T5_HEAD_PLATE_KEEPER@4": {
+    "name": "Expert's Judicator Helmet .4",
+    "weight": 2.5
+  },
+  "T5_HEAD_PLATE_UNDEAD": {
+    "name": "Expert's Graveguard Helmet",
+    "weight": 2.5
+  },
+  "T5_ARTEFACT_HEAD_PLATE_UNDEAD": {
+    "name": "Expert's Artefact Head Plate Undead",
+    "weight": 2
+  },
+  "T5_HEAD_PLATE_UNDEAD@1": {
+    "name": "Expert's Graveguard Helmet .1",
+    "weight": 2.5
+  },
+  "T5_HEAD_PLATE_UNDEAD@2": {
+    "name": "Expert's Graveguard Helmet .2",
+    "weight": 2.5
+  },
+  "T5_HEAD_PLATE_UNDEAD@3": {
+    "name": "Expert's Graveguard Helmet .3",
+    "weight": 2.5
+  },
+  "T5_HEAD_PLATE_UNDEAD@4": {
+    "name": "Expert's Graveguard Helmet .4",
+    "weight": 2.5
+  },
+  "T5_HEAD_LEATHER_SET2": {
+    "name": "Expert's Hunter Hood",
+    "weight": 2.5
+  },
+  "T5_HEAD_LEATHER_SET2@1": {
+    "name": "Expert's Hunter Hood .1",
+    "weight": 2.5
+  },
+  "T5_HEAD_LEATHER_SET2@2": {
+    "name": "Expert's Hunter Hood .2",
+    "weight": 2.5
+  },
+  "T5_HEAD_LEATHER_SET2@3": {
+    "name": "Expert's Hunter Hood .3",
+    "weight": 2.5
+  },
+  "T5_HEAD_LEATHER_SET2@4": {
+    "name": "Expert's Hunter Hood .4",
+    "weight": 2.5
+  },
+  "T5_ARMOR_LEATHER_SET2": {
+    "name": "Expert's Hunter Jacket",
+    "weight": 5.1
+  },
+  "T5_ARMOR_LEATHER_SET2@1": {
+    "name": "Expert's Hunter Jacket .1",
+    "weight": 5.1
+  },
+  "T5_ARMOR_LEATHER_SET2@2": {
+    "name": "Expert's Hunter Jacket .2",
+    "weight": 5.1
+  },
+  "T5_ARMOR_LEATHER_SET2@3": {
+    "name": "Expert's Hunter Jacket .3",
+    "weight": 5.1
+  },
+  "T5_ARMOR_LEATHER_SET2@4": {
+    "name": "Expert's Hunter Jacket .4",
+    "weight": 5.1
+  },
+  "T5_SHOES_LEATHER_SET2": {
+    "name": "Expert's Hunter Shoes",
+    "weight": 2.5
+  },
+  "T5_SHOES_LEATHER_SET2@1": {
+    "name": "Expert's Hunter Shoes .1",
+    "weight": 2.5
+  },
+  "T5_SHOES_LEATHER_SET2@2": {
+    "name": "Expert's Hunter Shoes .2",
+    "weight": 2.5
+  },
+  "T5_SHOES_LEATHER_SET2@3": {
+    "name": "Expert's Hunter Shoes .3",
+    "weight": 2.5
+  },
+  "T5_SHOES_LEATHER_SET2@4": {
+    "name": "Expert's Hunter Shoes .4",
+    "weight": 2.5
+  },
+  "T5_ARMOR_PLATE_SET2": {
+    "name": "Expert's Knight Armor",
+    "weight": 5.1
+  },
+  "T5_ARMOR_PLATE_SET2@1": {
+    "name": "Expert's Knight Armor .1",
+    "weight": 5.1
+  },
+  "T5_ARMOR_PLATE_SET2@2": {
+    "name": "Expert's Knight Armor .2",
+    "weight": 5.1
+  },
+  "T5_ARMOR_PLATE_SET2@3": {
+    "name": "Expert's Knight Armor .3",
+    "weight": 5.1
+  },
+  "T5_ARMOR_PLATE_SET2@4": {
+    "name": "Expert's Knight Armor .4",
+    "weight": 5.1
+  },
+  "T5_SHOES_PLATE_SET2": {
+    "name": "Expert's Knight Boots",
+    "weight": 2.5
+  },
+  "T5_SHOES_PLATE_SET2@1": {
+    "name": "Expert's Knight Boots .1",
+    "weight": 2.5
+  },
+  "T5_SHOES_PLATE_SET2@2": {
+    "name": "Expert's Knight Boots .2",
+    "weight": 2.5
+  },
+  "T5_SHOES_PLATE_SET2@3": {
+    "name": "Expert's Knight Boots .3",
+    "weight": 2.5
+  },
+  "T5_SHOES_PLATE_SET2@4": {
+    "name": "Expert's Knight Boots .4",
+    "weight": 2.5
+  },
+  "T5_HEAD_PLATE_SET2": {
+    "name": "Expert's Knight Helmet",
+    "weight": 2.5
+  },
+  "T5_HEAD_PLATE_SET2@1": {
+    "name": "Expert's Knight Helmet .1",
+    "weight": 2.5
+  },
+  "T5_HEAD_PLATE_SET2@2": {
+    "name": "Expert's Knight Helmet .2",
+    "weight": 2.5
+  },
+  "T5_HEAD_PLATE_SET2@3": {
+    "name": "Expert's Knight Helmet .3",
+    "weight": 2.5
+  },
+  "T5_HEAD_PLATE_SET2@4": {
+    "name": "Expert's Knight Helmet .4",
+    "weight": 2.5
+  },
+  "T5_HEAD_CLOTH_SET3": {
+    "name": "Expert's Mage Cowl",
+    "weight": 2.5
+  },
+  "T5_HEAD_CLOTH_SET3@1": {
+    "name": "Expert's Mage Cowl .1",
+    "weight": 2.5
+  },
+  "T5_HEAD_CLOTH_SET3@2": {
+    "name": "Expert's Mage Cowl .2",
+    "weight": 2.5
+  },
+  "T5_HEAD_CLOTH_SET3@3": {
+    "name": "Expert's Mage Cowl .3",
+    "weight": 2.5
+  },
+  "T5_HEAD_CLOTH_SET3@4": {
+    "name": "Expert's Mage Cowl .4",
+    "weight": 2.5
+  },
+  "T5_ARMOR_CLOTH_SET3": {
+    "name": "Expert's Mage Robe",
+    "weight": 5.1
+  },
+  "T5_ARMOR_CLOTH_SET3@1": {
+    "name": "Expert's Mage Robe .1",
+    "weight": 5.1
+  },
+  "T5_ARMOR_CLOTH_SET3@2": {
+    "name": "Expert's Mage Robe .2",
+    "weight": 5.1
+  },
+  "T5_ARMOR_CLOTH_SET3@3": {
+    "name": "Expert's Mage Robe .3",
+    "weight": 5.1
+  },
+  "T5_ARMOR_CLOTH_SET3@4": {
+    "name": "Expert's Mage Robe .4",
+    "weight": 5.1
+  },
+  "T5_SHOES_CLOTH_SET3": {
+    "name": "Expert's Mage Sandals",
+    "weight": 2.5
+  },
+  "T5_SHOES_CLOTH_SET3@1": {
+    "name": "Expert's Mage Sandals .1",
+    "weight": 2.5
+  },
+  "T5_SHOES_CLOTH_SET3@2": {
+    "name": "Expert's Mage Sandals .2",
+    "weight": 2.5
+  },
+  "T5_SHOES_CLOTH_SET3@3": {
+    "name": "Expert's Mage Sandals .3",
+    "weight": 2.5
+  },
+  "T5_SHOES_CLOTH_SET3@4": {
+    "name": "Expert's Mage Sandals .4",
+    "weight": 2.5
+  },
+  "T5_HEAD_LEATHER_SET1": {
+    "name": "Expert's Mercenary Hood",
+    "weight": 2.5
+  },
+  "T5_HEAD_LEATHER_SET1@1": {
+    "name": "Expert's Mercenary Hood .1",
+    "weight": 2.5
+  },
+  "T5_HEAD_LEATHER_SET1@2": {
+    "name": "Expert's Mercenary Hood .2",
+    "weight": 2.5
+  },
+  "T5_HEAD_LEATHER_SET1@3": {
+    "name": "Expert's Mercenary Hood .3",
+    "weight": 2.5
+  },
+  "T5_HEAD_LEATHER_SET1@4": {
+    "name": "Expert's Mercenary Hood .4",
+    "weight": 2.5
+  },
+  "T5_ARMOR_LEATHER_SET1": {
+    "name": "Expert's Mercenary Jacket",
+    "weight": 5.1
+  },
+  "T5_ARMOR_LEATHER_SET1@1": {
+    "name": "Expert's Mercenary Jacket .1",
+    "weight": 5.1
+  },
+  "T5_ARMOR_LEATHER_SET1@2": {
+    "name": "Expert's Mercenary Jacket .2",
+    "weight": 5.1
+  },
+  "T5_ARMOR_LEATHER_SET1@3": {
+    "name": "Expert's Mercenary Jacket .3",
+    "weight": 5.1
+  },
+  "T5_ARMOR_LEATHER_SET1@4": {
+    "name": "Expert's Mercenary Jacket .4",
+    "weight": 5.1
+  },
+  "T5_SHOES_LEATHER_SET1": {
+    "name": "Expert's Mercenary Shoes",
+    "weight": 2.5
+  },
+  "T5_SHOES_LEATHER_SET1@1": {
+    "name": "Expert's Mercenary Shoes .1",
+    "weight": 2.5
+  },
+  "T5_SHOES_LEATHER_SET1@2": {
+    "name": "Expert's Mercenary Shoes .2",
+    "weight": 2.5
+  },
+  "T5_SHOES_LEATHER_SET1@3": {
+    "name": "Expert's Mercenary Shoes .3",
+    "weight": 2.5
+  },
+  "T5_SHOES_LEATHER_SET1@4": {
+    "name": "Expert's Mercenary Shoes .4",
+    "weight": 2.5
+  },
+  "T5_HEAD_CLOTH_SET1": {
+    "name": "Expert's Scholar Cowl",
+    "weight": 2.5
+  },
+  "T5_HEAD_CLOTH_SET1@1": {
+    "name": "Expert's Scholar Cowl .1",
+    "weight": 2.5
+  },
+  "T5_HEAD_CLOTH_SET1@2": {
+    "name": "Expert's Scholar Cowl .2",
+    "weight": 2.5
+  },
+  "T5_HEAD_CLOTH_SET1@3": {
+    "name": "Expert's Scholar Cowl .3",
+    "weight": 2.5
+  },
+  "T5_HEAD_CLOTH_SET1@4": {
+    "name": "Expert's Scholar Cowl .4",
+    "weight": 2.5
+  },
+  "T5_ARMOR_CLOTH_SET1": {
+    "name": "Expert's Scholar Robe",
+    "weight": 5.1
+  },
+  "T5_ARMOR_CLOTH_SET1@1": {
+    "name": "Expert's Scholar Robe .1",
+    "weight": 5.1
+  },
+  "T5_ARMOR_CLOTH_SET1@2": {
+    "name": "Expert's Scholar Robe .2",
+    "weight": 5.1
+  },
+  "T5_ARMOR_CLOTH_SET1@3": {
+    "name": "Expert's Scholar Robe .3",
+    "weight": 5.1
+  },
+  "T5_ARMOR_CLOTH_SET1@4": {
+    "name": "Expert's Scholar Robe .4",
+    "weight": 5.1
+  },
+  "T5_SHOES_CLOTH_SET1": {
+    "name": "Expert's Scholar Sandals",
+    "weight": 2.5
+  },
+  "T5_SHOES_CLOTH_SET1@1": {
+    "name": "Expert's Scholar Sandals .1",
+    "weight": 2.5
+  },
+  "T5_SHOES_CLOTH_SET1@2": {
+    "name": "Expert's Scholar Sandals .2",
+    "weight": 2.5
+  },
+  "T5_SHOES_CLOTH_SET1@3": {
+    "name": "Expert's Scholar Sandals .3",
+    "weight": 2.5
+  },
+  "T5_SHOES_CLOTH_SET1@4": {
+    "name": "Expert's Scholar Sandals .4",
+    "weight": 2.5
+  },
+  "T5_SHOES_CLOTH_AVALON": {
+    "name": "Expert's Sandals of Purity",
+    "weight": 2.5
+  },
+  "T5_ARTEFACT_SHOES_CLOTH_AVALON": {
+    "name": "Expert's Artefact Shoes Cloth Avalon",
+    "weight": 2
+  },
+  "T5_SHOES_CLOTH_AVALON@1": {
+    "name": "Expert's Sandals of Purity .1",
+    "weight": 2.5
+  },
+  "T5_SHOES_CLOTH_AVALON@2": {
+    "name": "Expert's Sandals of Purity .2",
+    "weight": 2.5
+  },
+  "T5_SHOES_CLOTH_AVALON@3": {
+    "name": "Expert's Sandals of Purity .3",
+    "weight": 2.5
+  },
+  "T5_SHOES_CLOTH_AVALON@4": {
+    "name": "Expert's Sandals of Purity .4",
+    "weight": 2.5
+  },
+  "T5_SHOES_CLOTH_FEY": {
+    "name": "Expert's Feyscale Sandals",
+    "weight": 2.5
+  },
+  "T5_ARTEFACT_SHOES_CLOTH_FEY": {
+    "name": "Expert's Artefact Shoes Cloth Fey",
+    "weight": 2
+  },
+  "T5_SHOES_CLOTH_FEY@1": {
+    "name": "Expert's Feyscale Sandals .1",
+    "weight": 2.5
+  },
+  "T5_SHOES_CLOTH_FEY@2": {
+    "name": "Expert's Feyscale Sandals .2",
+    "weight": 2.5
+  },
+  "T5_SHOES_CLOTH_FEY@3": {
+    "name": "Expert's Feyscale Sandals .3",
+    "weight": 2.5
+  },
+  "T5_SHOES_CLOTH_FEY@4": {
+    "name": "Expert's Feyscale Sandals .4",
+    "weight": 2.5
+  },
+  "T5_SHOES_CLOTH_HELL": {
+    "name": "Expert's Fiend Sandals",
+    "weight": 2.5
+  },
+  "T5_ARTEFACT_SHOES_CLOTH_HELL": {
+    "name": "Expert's Artefact Shoes Cloth Hell",
+    "weight": 2
+  },
+  "T5_SHOES_CLOTH_HELL@1": {
+    "name": "Expert's Fiend Sandals .1",
+    "weight": 2.5
+  },
+  "T5_SHOES_CLOTH_HELL@2": {
+    "name": "Expert's Fiend Sandals .2",
+    "weight": 2.5
+  },
+  "T5_SHOES_CLOTH_HELL@3": {
+    "name": "Expert's Fiend Sandals .3",
+    "weight": 2.5
+  },
+  "T5_SHOES_CLOTH_HELL@4": {
+    "name": "Expert's Fiend Sandals .4",
+    "weight": 2.5
+  },
+  "T5_SHOES_CLOTH_KEEPER": {
+    "name": "Expert's Druid Sandals",
+    "weight": 2.5
+  },
+  "T5_ARTEFACT_SHOES_CLOTH_KEEPER": {
+    "name": "Expert's Artefact Shoes Cloth Keeper",
+    "weight": 2
+  },
+  "T5_SHOES_CLOTH_KEEPER@1": {
+    "name": "Expert's Druid Sandals .1",
+    "weight": 2.5
+  },
+  "T5_SHOES_CLOTH_KEEPER@2": {
+    "name": "Expert's Druid Sandals .2",
+    "weight": 2.5
+  },
+  "T5_SHOES_CLOTH_KEEPER@3": {
+    "name": "Expert's Druid Sandals .3",
+    "weight": 2.5
+  },
+  "T5_SHOES_CLOTH_KEEPER@4": {
+    "name": "Expert's Druid Sandals .4",
+    "weight": 2.5
+  },
+  "T5_SHOES_CLOTH_MORGANA": {
+    "name": "Expert's Cultist Sandals",
+    "weight": 2.5
+  },
+  "T5_ARTEFACT_SHOES_CLOTH_MORGANA": {
+    "name": "Expert's Artefact Shoes Cloth Morgana",
+    "weight": 2
+  },
+  "T5_SHOES_CLOTH_MORGANA@1": {
+    "name": "Expert's Cultist Sandals .1",
+    "weight": 2.5
+  },
+  "T5_SHOES_CLOTH_MORGANA@2": {
+    "name": "Expert's Cultist Sandals .2",
+    "weight": 2.5
+  },
+  "T5_SHOES_CLOTH_MORGANA@3": {
+    "name": "Expert's Cultist Sandals .3",
+    "weight": 2.5
+  },
+  "T5_SHOES_CLOTH_MORGANA@4": {
+    "name": "Expert's Cultist Sandals .4",
+    "weight": 2.5
+  },
+  "T5_SHOES_LEATHER_AVALON": {
+    "name": "Expert's Shoes of Tenacity",
+    "weight": 2.5
+  },
+  "T5_ARTEFACT_SHOES_LEATHER_AVALON": {
+    "name": "Expert's Artefact Shoes Leather Avalon",
+    "weight": 2
+  },
+  "T5_SHOES_LEATHER_AVALON@1": {
+    "name": "Expert's Shoes of Tenacity .1",
+    "weight": 2.5
+  },
+  "T5_SHOES_LEATHER_AVALON@2": {
+    "name": "Expert's Shoes of Tenacity .2",
+    "weight": 2.5
+  },
+  "T5_SHOES_LEATHER_AVALON@3": {
+    "name": "Expert's Shoes of Tenacity .3",
+    "weight": 2.5
+  },
+  "T5_SHOES_LEATHER_AVALON@4": {
+    "name": "Expert's Shoes of Tenacity .4",
+    "weight": 2.5
+  },
+  "T5_SHOES_LEATHER_DRAGON": {
+    "name": "Expert's Dragonslayer Shoes",
+    "weight": 2.5
+  },
+  "T5_ARTEFACT_SHOES_LEATHER_DRAGON": {
+    "name": "Expert's Artefact Shoes Leather Dragon",
+    "weight": 2
+  },
+  "T5_SHOES_LEATHER_DRAGON@1": {
+    "name": "Expert's Dragonslayer Shoes .1",
+    "weight": 2.5
+  },
+  "T5_SHOES_LEATHER_DRAGON@2": {
+    "name": "Expert's Dragonslayer Shoes .2",
+    "weight": 2.5
+  },
+  "T5_SHOES_LEATHER_DRAGON@3": {
+    "name": "Expert's Dragonslayer Shoes .3",
+    "weight": 2.5
+  },
+  "T5_SHOES_LEATHER_DRAGON@4": {
+    "name": "Expert's Dragonslayer Shoes .4",
+    "weight": 2.5
+  },
+  "T5_SHOES_LEATHER_FEY": {
+    "name": "Expert's Mistwalker Shoes",
+    "weight": 2.5
+  },
+  "T5_ARTEFACT_SHOES_LEATHER_FEY": {
+    "name": "Expert's Artefact Shoes Leather Fey",
+    "weight": 2
+  },
+  "T5_SHOES_LEATHER_FEY@1": {
+    "name": "Expert's Mistwalker Shoes .1",
+    "weight": 2.5
+  },
+  "T5_SHOES_LEATHER_FEY@2": {
+    "name": "Expert's Mistwalker Shoes .2",
+    "weight": 2.5
+  },
+  "T5_SHOES_LEATHER_FEY@3": {
+    "name": "Expert's Mistwalker Shoes .3",
+    "weight": 2.5
+  },
+  "T5_SHOES_LEATHER_FEY@4": {
+    "name": "Expert's Mistwalker Shoes .4",
+    "weight": 2.5
+  },
+  "T5_SHOES_LEATHER_HELL": {
+    "name": "Expert's Hellion Shoes",
+    "weight": 2.5
+  },
+  "T5_ARTEFACT_SHOES_LEATHER_HELL": {
+    "name": "Expert's Artefact Shoes Leather Hell",
+    "weight": 2
+  },
+  "T5_SHOES_LEATHER_HELL@1": {
+    "name": "Expert's Hellion Shoes .1",
+    "weight": 2.5
+  },
+  "T5_SHOES_LEATHER_HELL@2": {
+    "name": "Expert's Hellion Shoes .2",
+    "weight": 2.5
+  },
+  "T5_SHOES_LEATHER_HELL@3": {
+    "name": "Expert's Hellion Shoes .3",
+    "weight": 2.5
+  },
+  "T5_SHOES_LEATHER_HELL@4": {
+    "name": "Expert's Hellion Shoes .4",
+    "weight": 2.5
+  },
+  "T5_SHOES_LEATHER_MORGANA": {
+    "name": "Expert's Stalker Shoes",
+    "weight": 2.5
+  },
+  "T5_ARTEFACT_SHOES_LEATHER_MORGANA": {
+    "name": "Expert's Artefact Shoes Leather Morgana",
+    "weight": 2
+  },
+  "T5_SHOES_LEATHER_MORGANA@1": {
+    "name": "Expert's Stalker Shoes .1",
+    "weight": 2.5
+  },
+  "T5_SHOES_LEATHER_MORGANA@2": {
+    "name": "Expert's Stalker Shoes .2",
+    "weight": 2.5
+  },
+  "T5_SHOES_LEATHER_MORGANA@3": {
+    "name": "Expert's Stalker Shoes .3",
+    "weight": 2.5
+  },
+  "T5_SHOES_LEATHER_MORGANA@4": {
+    "name": "Expert's Stalker Shoes .4",
+    "weight": 2.5
+  },
+  "T5_SHOES_LEATHER_UNDEAD": {
+    "name": "Expert's Specter Shoes",
+    "weight": 2.5
+  },
+  "T5_ARTEFACT_SHOES_LEATHER_UNDEAD": {
+    "name": "Expert's Artefact Shoes Leather Undead",
+    "weight": 2
+  },
+  "T5_SHOES_LEATHER_UNDEAD@1": {
+    "name": "Expert's Specter Shoes .1",
+    "weight": 2.5
+  },
+  "T5_SHOES_LEATHER_UNDEAD@2": {
+    "name": "Expert's Specter Shoes .2",
+    "weight": 2.5
+  },
+  "T5_SHOES_LEATHER_UNDEAD@3": {
+    "name": "Expert's Specter Shoes .3",
+    "weight": 2.5
+  },
+  "T5_SHOES_LEATHER_UNDEAD@4": {
+    "name": "Expert's Specter Shoes .4",
+    "weight": 2.5
+  },
+  "T5_SHOES_PLATE_AVALON": {
+    "name": "Expert's Boots of Valor",
+    "weight": 2.5
+  },
+  "T5_ARTEFACT_SHOES_PLATE_AVALON": {
+    "name": "Expert's Artefact Shoes Plate Avalon",
+    "weight": 2
+  },
+  "T5_SHOES_PLATE_AVALON@1": {
+    "name": "Expert's Boots of Valor .1",
+    "weight": 2.5
+  },
+  "T5_SHOES_PLATE_AVALON@2": {
+    "name": "Expert's Boots of Valor .2",
+    "weight": 2.5
+  },
+  "T5_SHOES_PLATE_AVALON@3": {
+    "name": "Expert's Boots of Valor .3",
+    "weight": 2.5
+  },
+  "T5_SHOES_PLATE_AVALON@4": {
+    "name": "Expert's Boots of Valor .4",
+    "weight": 2.5
+  },
+  "T5_SHOES_PLATE_FEY": {
+    "name": "Expert's Duskweaver Boots",
+    "weight": 2.5
+  },
+  "T5_ARTEFACT_SHOES_PLATE_FEY": {
+    "name": "Expert's Artefact Shoes Plate Fey",
+    "weight": 2
+  },
+  "T5_SHOES_PLATE_FEY@1": {
+    "name": "Expert's Duskweaver Boots .1",
+    "weight": 2.5
+  },
+  "T5_SHOES_PLATE_FEY@2": {
+    "name": "Expert's Duskweaver Boots .2",
+    "weight": 2.5
+  },
+  "T5_SHOES_PLATE_FEY@3": {
+    "name": "Expert's Duskweaver Boots .3",
+    "weight": 2.5
+  },
+  "T5_SHOES_PLATE_FEY@4": {
+    "name": "Expert's Duskweaver Boots .4",
+    "weight": 2.5
+  },
+  "T5_SHOES_PLATE_HELL": {
+    "name": "Expert's Demon Boots",
+    "weight": 2.5
+  },
+  "T5_ARTEFACT_SHOES_PLATE_HELL": {
+    "name": "Expert's Artefact Shoes Plate Hell",
+    "weight": 2
+  },
+  "T5_SHOES_PLATE_HELL@1": {
+    "name": "Expert's Demon Boots .1",
+    "weight": 2.5
+  },
+  "T5_SHOES_PLATE_HELL@2": {
+    "name": "Expert's Demon Boots .2",
+    "weight": 2.5
+  },
+  "T5_SHOES_PLATE_HELL@3": {
+    "name": "Expert's Demon Boots .3",
+    "weight": 2.5
+  },
+  "T5_SHOES_PLATE_HELL@4": {
+    "name": "Expert's Demon Boots .4",
+    "weight": 2.5
+  },
+  "T5_SHOES_PLATE_KEEPER": {
+    "name": "Expert's Judicator Boots",
+    "weight": 2.5
+  },
+  "T5_ARTEFACT_SHOES_PLATE_KEEPER": {
+    "name": "Expert's Artefact Shoes Plate Keeper",
+    "weight": 2
+  },
+  "T5_SHOES_PLATE_KEEPER@1": {
+    "name": "Expert's Judicator Boots .1",
+    "weight": 2.5
+  },
+  "T5_SHOES_PLATE_KEEPER@2": {
+    "name": "Expert's Judicator Boots .2",
+    "weight": 2.5
+  },
+  "T5_SHOES_PLATE_KEEPER@3": {
+    "name": "Expert's Judicator Boots .3",
+    "weight": 2.5
+  },
+  "T5_SHOES_PLATE_KEEPER@4": {
+    "name": "Expert's Judicator Boots .4",
+    "weight": 2.5
+  },
+  "T5_SHOES_PLATE_UNDEAD": {
+    "name": "Expert's Graveguard Boots",
+    "weight": 2.5
+  },
+  "T5_ARTEFACT_SHOES_PLATE_UNDEAD": {
+    "name": "Expert's Artefact Shoes Plate Undead",
+    "weight": 2
+  },
+  "T5_SHOES_PLATE_UNDEAD@1": {
+    "name": "Expert's Graveguard Boots .1",
+    "weight": 2.5
+  },
+  "T5_SHOES_PLATE_UNDEAD@2": {
+    "name": "Expert's Graveguard Boots .2",
+    "weight": 2.5
+  },
+  "T5_SHOES_PLATE_UNDEAD@3": {
+    "name": "Expert's Graveguard Boots .3",
+    "weight": 2.5
+  },
+  "T5_SHOES_PLATE_UNDEAD@4": {
+    "name": "Expert's Graveguard Boots .4",
+    "weight": 2.5
+  },
+  "T5_ARMOR_PLATE_SET1": {
+    "name": "Expert's Soldier Armor",
+    "weight": 5.1
+  },
+  "T5_ARMOR_PLATE_SET1@1": {
+    "name": "Expert's Soldier Armor .1",
+    "weight": 5.1
+  },
+  "T5_ARMOR_PLATE_SET1@2": {
+    "name": "Expert's Soldier Armor .2",
+    "weight": 5.1
+  },
+  "T5_ARMOR_PLATE_SET1@3": {
+    "name": "Expert's Soldier Armor .3",
+    "weight": 5.1
+  },
+  "T5_ARMOR_PLATE_SET1@4": {
+    "name": "Expert's Soldier Armor .4",
+    "weight": 5.1
+  },
+  "T5_SHOES_PLATE_SET1": {
+    "name": "Expert's Soldier Boots",
+    "weight": 2.5
+  },
+  "T5_SHOES_PLATE_SET1@1": {
+    "name": "Expert's Soldier Boots .1",
+    "weight": 2.5
+  },
+  "T5_SHOES_PLATE_SET1@2": {
+    "name": "Expert's Soldier Boots .2",
+    "weight": 2.5
+  },
+  "T5_SHOES_PLATE_SET1@3": {
+    "name": "Expert's Soldier Boots .3",
+    "weight": 2.5
+  },
+  "T5_SHOES_PLATE_SET1@4": {
+    "name": "Expert's Soldier Boots .4",
+    "weight": 2.5
+  },
+  "T5_HEAD_PLATE_SET1": {
+    "name": "Expert's Soldier Helmet",
+    "weight": 2.5
+  },
+  "T5_HEAD_PLATE_SET1@1": {
+    "name": "Expert's Soldier Helmet .1",
+    "weight": 2.5
+  },
+  "T5_HEAD_PLATE_SET1@2": {
+    "name": "Expert's Soldier Helmet .2",
+    "weight": 2.5
+  },
+  "T5_HEAD_PLATE_SET1@3": {
+    "name": "Expert's Soldier Helmet .3",
+    "weight": 2.5
+  },
+  "T5_HEAD_PLATE_SET1@4": {
+    "name": "Expert's Soldier Helmet .4",
+    "weight": 2.5
+  },
+  "T6_ARMOR_CLOTH_AVALON": {
+    "name": "Master's Robe of Purity",
+    "weight": 7.6
+  },
+  "T6_ARTEFACT_ARMOR_CLOTH_AVALON": {
+    "name": "Master's Artefact Armor Cloth Avalon",
+    "weight": 2
+  },
+  "T6_ARMOR_CLOTH_AVALON@1": {
+    "name": "Master's Robe of Purity .1",
+    "weight": 7.6
+  },
+  "T6_ARMOR_CLOTH_AVALON@2": {
+    "name": "Master's Robe of Purity .2",
+    "weight": 7.6
+  },
+  "T6_ARMOR_CLOTH_AVALON@3": {
+    "name": "Master's Robe of Purity .3",
+    "weight": 7.6
+  },
+  "T6_ARMOR_CLOTH_AVALON@4": {
+    "name": "Master's Robe of Purity .4",
+    "weight": 7.6
+  },
+  "T6_ARMOR_CLOTH_FEY": {
+    "name": "Master's Feyscale Robe",
+    "weight": 7.6
+  },
+  "T6_ARTEFACT_ARMOR_CLOTH_FEY": {
+    "name": "Master's Artefact Armor Cloth Fey",
+    "weight": 2
+  },
+  "T6_ARMOR_CLOTH_FEY@1": {
+    "name": "Master's Feyscale Robe .1",
+    "weight": 7.6
+  },
+  "T6_ARMOR_CLOTH_FEY@2": {
+    "name": "Master's Feyscale Robe .2",
+    "weight": 7.6
+  },
+  "T6_ARMOR_CLOTH_FEY@3": {
+    "name": "Master's Feyscale Robe .3",
+    "weight": 7.6
+  },
+  "T6_ARMOR_CLOTH_FEY@4": {
+    "name": "Master's Feyscale Robe .4",
+    "weight": 7.6
+  },
+  "T6_ARMOR_CLOTH_HELL": {
+    "name": "Master's Fiend Robe",
+    "weight": 7.6
+  },
+  "T6_ARTEFACT_ARMOR_CLOTH_HELL": {
+    "name": "Master's Artefact Armor Cloth Hell",
+    "weight": 2
+  },
+  "T6_ARMOR_CLOTH_HELL@1": {
+    "name": "Master's Fiend Robe .1",
+    "weight": 7.6
+  },
+  "T6_ARMOR_CLOTH_HELL@2": {
+    "name": "Master's Fiend Robe .2",
+    "weight": 7.6
+  },
+  "T6_ARMOR_CLOTH_HELL@3": {
+    "name": "Master's Fiend Robe .3",
+    "weight": 7.6
+  },
+  "T6_ARMOR_CLOTH_HELL@4": {
+    "name": "Master's Fiend Robe .4",
+    "weight": 7.6
+  },
+  "T6_ARMOR_CLOTH_KEEPER": {
+    "name": "Master's Druid Robe",
+    "weight": 7.6
+  },
+  "T6_ARTEFACT_ARMOR_CLOTH_KEEPER": {
+    "name": "Master's Artefact Armor Cloth Keeper",
+    "weight": 2
+  },
+  "T6_ARMOR_CLOTH_KEEPER@1": {
+    "name": "Master's Druid Robe .1",
+    "weight": 7.6
+  },
+  "T6_ARMOR_CLOTH_KEEPER@2": {
+    "name": "Master's Druid Robe .2",
+    "weight": 7.6
+  },
+  "T6_ARMOR_CLOTH_KEEPER@3": {
+    "name": "Master's Druid Robe .3",
+    "weight": 7.6
+  },
+  "T6_ARMOR_CLOTH_KEEPER@4": {
+    "name": "Master's Druid Robe .4",
+    "weight": 7.6
+  },
+  "T6_ARMOR_CLOTH_MORGANA": {
+    "name": "Master's Cultist Robe",
+    "weight": 7.6
+  },
+  "T6_ARTEFACT_ARMOR_CLOTH_MORGANA": {
+    "name": "Master's Artefact Armor Cloth Morgana",
+    "weight": 2
+  },
+  "T6_ARMOR_CLOTH_MORGANA@1": {
+    "name": "Master's Cultist Robe .1",
+    "weight": 7.6
+  },
+  "T6_ARMOR_CLOTH_MORGANA@2": {
+    "name": "Master's Cultist Robe .2",
+    "weight": 7.6
+  },
+  "T6_ARMOR_CLOTH_MORGANA@3": {
+    "name": "Master's Cultist Robe .3",
+    "weight": 7.6
+  },
+  "T6_ARMOR_CLOTH_MORGANA@4": {
+    "name": "Master's Cultist Robe .4",
+    "weight": 7.6
+  },
+  "T6_ARMOR_LEATHER_AVALON": {
+    "name": "Master's Jacket of Tenacity",
+    "weight": 7.6
+  },
+  "T6_ARTEFACT_ARMOR_LEATHER_AVALON": {
+    "name": "Master's Artefact Armor Leather Avalon",
+    "weight": 2
+  },
+  "T6_ARMOR_LEATHER_AVALON@1": {
+    "name": "Master's Jacket of Tenacity .1",
+    "weight": 7.6
+  },
+  "T6_ARMOR_LEATHER_AVALON@2": {
+    "name": "Master's Jacket of Tenacity .2",
+    "weight": 7.6
+  },
+  "T6_ARMOR_LEATHER_AVALON@3": {
+    "name": "Master's Jacket of Tenacity .3",
+    "weight": 7.6
+  },
+  "T6_ARMOR_LEATHER_AVALON@4": {
+    "name": "Master's Jacket of Tenacity .4",
+    "weight": 7.6
+  },
+  "T6_ARMOR_LEATHER_DRAGON": {
+    "name": "Master's Dragonslayer Jacket",
+    "weight": 7.6
+  },
+  "T6_ARTEFACT_ARMOR_LEATHER_DRAGON": {
+    "name": "Master's Artefact Armor Leather Dragon",
+    "weight": 2
+  },
+  "T6_ARMOR_LEATHER_DRAGON@1": {
+    "name": "Master's Dragonslayer Jacket .1",
+    "weight": 7.6
+  },
+  "T6_ARMOR_LEATHER_DRAGON@2": {
+    "name": "Master's Dragonslayer Jacket .2",
+    "weight": 7.6
+  },
+  "T6_ARMOR_LEATHER_DRAGON@3": {
+    "name": "Master's Dragonslayer Jacket .3",
+    "weight": 7.6
+  },
+  "T6_ARMOR_LEATHER_DRAGON@4": {
+    "name": "Master's Dragonslayer Jacket .4",
+    "weight": 7.6
+  },
+  "T6_ARMOR_LEATHER_FEY": {
+    "name": "Master's Mistwalker Jacket",
+    "weight": 7.6
+  },
+  "T6_ARTEFACT_ARMOR_LEATHER_FEY": {
+    "name": "Master's Artefact Armor Leather Fey",
+    "weight": 2
+  },
+  "T6_ARMOR_LEATHER_FEY@1": {
+    "name": "Master's Mistwalker Jacket .1",
+    "weight": 7.6
+  },
+  "T6_ARMOR_LEATHER_FEY@2": {
+    "name": "Master's Mistwalker Jacket .2",
+    "weight": 7.6
+  },
+  "T6_ARMOR_LEATHER_FEY@3": {
+    "name": "Master's Mistwalker Jacket .3",
+    "weight": 7.6
+  },
+  "T6_ARMOR_LEATHER_FEY@4": {
+    "name": "Master's Mistwalker Jacket .4",
+    "weight": 7.6
+  },
+  "T6_ARMOR_LEATHER_HELL": {
+    "name": "Master's Hellion Jacket",
+    "weight": 7.6
+  },
+  "T6_ARTEFACT_ARMOR_LEATHER_HELL": {
+    "name": "Master's Artefact Armor Leather Hell",
+    "weight": 2
+  },
+  "T6_ARMOR_LEATHER_HELL@1": {
+    "name": "Master's Hellion Jacket .1",
+    "weight": 7.6
+  },
+  "T6_ARMOR_LEATHER_HELL@2": {
+    "name": "Master's Hellion Jacket .2",
+    "weight": 7.6
+  },
+  "T6_ARMOR_LEATHER_HELL@3": {
+    "name": "Master's Hellion Jacket .3",
+    "weight": 7.6
+  },
+  "T6_ARMOR_LEATHER_HELL@4": {
+    "name": "Master's Hellion Jacket .4",
+    "weight": 7.6
+  },
+  "T6_ARMOR_LEATHER_MORGANA": {
+    "name": "Master's Stalker Jacket",
+    "weight": 7.6
+  },
+  "T6_ARTEFACT_ARMOR_LEATHER_MORGANA": {
+    "name": "Master's Artefact Armor Leather Morgana",
+    "weight": 2
+  },
+  "T6_ARMOR_LEATHER_MORGANA@1": {
+    "name": "Master's Stalker Jacket .1",
+    "weight": 7.6
+  },
+  "T6_ARMOR_LEATHER_MORGANA@2": {
+    "name": "Master's Stalker Jacket .2",
+    "weight": 7.6
+  },
+  "T6_ARMOR_LEATHER_MORGANA@3": {
+    "name": "Master's Stalker Jacket .3",
+    "weight": 7.6
+  },
+  "T6_ARMOR_LEATHER_MORGANA@4": {
+    "name": "Master's Stalker Jacket .4",
+    "weight": 7.6
+  },
+  "T6_ARMOR_LEATHER_UNDEAD": {
+    "name": "Master's Specter Jacket",
+    "weight": 7.6
+  },
+  "T6_ARTEFACT_ARMOR_LEATHER_UNDEAD": {
+    "name": "Master's Artefact Armor Leather Undead",
+    "weight": 2
+  },
+  "T6_ARMOR_LEATHER_UNDEAD@1": {
+    "name": "Master's Specter Jacket .1",
+    "weight": 7.6
+  },
+  "T6_ARMOR_LEATHER_UNDEAD@2": {
+    "name": "Master's Specter Jacket .2",
+    "weight": 7.6
+  },
+  "T6_ARMOR_LEATHER_UNDEAD@3": {
+    "name": "Master's Specter Jacket .3",
+    "weight": 7.6
+  },
+  "T6_ARMOR_LEATHER_UNDEAD@4": {
+    "name": "Master's Specter Jacket .4",
+    "weight": 7.6
+  },
+  "T6_ARMOR_PLATE_AVALON": {
+    "name": "Master's Armor of Valor",
+    "weight": 7.6
+  },
+  "T6_METALBAR": {
+    "name": "Runite Bar",
+    "weight": 1.14
+  },
+  "T6_ARTEFACT_ARMOR_PLATE_AVALON": {
+    "name": "Master's Artefact Armor Plate Avalon",
+    "weight": 2
+  },
+  "T6_ARMOR_PLATE_AVALON@1": {
+    "name": "Master's Armor of Valor .1",
+    "weight": 7.6
+  },
+  "T6_METALBAR@1": {
+    "name": "Runite Bar .1",
+    "weight": 1.14
+  },
+  "T6_ARMOR_PLATE_AVALON@2": {
+    "name": "Master's Armor of Valor .2",
+    "weight": 7.6
+  },
+  "T6_METALBAR@2": {
+    "name": "Runite Bar .2",
+    "weight": 1.14
+  },
+  "T6_ARMOR_PLATE_AVALON@3": {
+    "name": "Master's Armor of Valor .3",
+    "weight": 7.6
+  },
+  "T6_METALBAR@3": {
+    "name": "Runite Bar .3",
+    "weight": 1.14
+  },
+  "T6_ARMOR_PLATE_AVALON@4": {
+    "name": "Master's Armor of Valor .4",
+    "weight": 7.6
+  },
+  "T6_METALBAR@4": {
+    "name": "Runite Bar .4",
+    "weight": 1.14
+  },
+  "T6_ARMOR_PLATE_FEY": {
+    "name": "Master's Duskweaver Armor",
+    "weight": 7.6
+  },
+  "T6_ARTEFACT_ARMOR_PLATE_FEY": {
+    "name": "Master's Artefact Armor Plate Fey",
+    "weight": 2
+  },
+  "T6_ARMOR_PLATE_FEY@1": {
+    "name": "Master's Duskweaver Armor .1",
+    "weight": 7.6
+  },
+  "T6_ARMOR_PLATE_FEY@2": {
+    "name": "Master's Duskweaver Armor .2",
+    "weight": 7.6
+  },
+  "T6_ARMOR_PLATE_FEY@3": {
+    "name": "Master's Duskweaver Armor .3",
+    "weight": 7.6
+  },
+  "T6_ARMOR_PLATE_FEY@4": {
+    "name": "Master's Duskweaver Armor .4",
+    "weight": 7.6
+  },
+  "T6_ARMOR_PLATE_HELL": {
+    "name": "Master's Demon Armor",
+    "weight": 7.6
+  },
+  "T6_ARTEFACT_ARMOR_PLATE_HELL": {
+    "name": "Master's Artefact Armor Plate Hell",
+    "weight": 2
+  },
+  "T6_ARMOR_PLATE_HELL@1": {
+    "name": "Master's Demon Armor .1",
+    "weight": 7.6
+  },
+  "T6_ARMOR_PLATE_HELL@2": {
+    "name": "Master's Demon Armor .2",
+    "weight": 7.6
+  },
+  "T6_ARMOR_PLATE_HELL@3": {
+    "name": "Master's Demon Armor .3",
+    "weight": 7.6
+  },
+  "T6_ARMOR_PLATE_HELL@4": {
+    "name": "Master's Demon Armor .4",
+    "weight": 7.6
+  },
+  "T6_ARMOR_PLATE_KEEPER": {
+    "name": "Master's Judicator Armor",
+    "weight": 7.6
+  },
+  "T6_ARTEFACT_ARMOR_PLATE_KEEPER": {
+    "name": "Master's Artefact Armor Plate Keeper",
+    "weight": 2
+  },
+  "T6_ARMOR_PLATE_KEEPER@1": {
+    "name": "Master's Judicator Armor .1",
+    "weight": 7.6
+  },
+  "T6_ARMOR_PLATE_KEEPER@2": {
+    "name": "Master's Judicator Armor .2",
+    "weight": 7.6
+  },
+  "T6_ARMOR_PLATE_KEEPER@3": {
+    "name": "Master's Judicator Armor .3",
+    "weight": 7.6
+  },
+  "T6_ARMOR_PLATE_KEEPER@4": {
+    "name": "Master's Judicator Armor .4",
+    "weight": 7.6
+  },
+  "T6_ARMOR_PLATE_UNDEAD": {
+    "name": "Master's Graveguard Armor",
+    "weight": 7.6
+  },
+  "T6_ARTEFACT_ARMOR_PLATE_UNDEAD": {
+    "name": "Master's Artefact Armor Plate Undead",
+    "weight": 2
+  },
+  "T6_ARMOR_PLATE_UNDEAD@1": {
+    "name": "Master's Graveguard Armor .1",
+    "weight": 7.6
+  },
+  "T6_ARMOR_PLATE_UNDEAD@2": {
+    "name": "Master's Graveguard Armor .2",
+    "weight": 7.6
+  },
+  "T6_ARMOR_PLATE_UNDEAD@3": {
+    "name": "Master's Graveguard Armor .3",
+    "weight": 7.6
+  },
+  "T6_ARMOR_PLATE_UNDEAD@4": {
+    "name": "Master's Graveguard Armor .4",
+    "weight": 7.6
+  },
+  "T6_HEAD_LEATHER_SET3": {
+    "name": "Master's Assassin Hood",
+    "weight": 3.8
+  },
+  "T6_HEAD_LEATHER_SET3@1": {
+    "name": "Master's Assassin Hood .1",
+    "weight": 3.8
+  },
+  "T6_HEAD_LEATHER_SET3@2": {
+    "name": "Master's Assassin Hood .2",
+    "weight": 3.8
+  },
+  "T6_HEAD_LEATHER_SET3@3": {
+    "name": "Master's Assassin Hood .3",
+    "weight": 3.8
+  },
+  "T6_HEAD_LEATHER_SET3@4": {
+    "name": "Master's Assassin Hood .4",
+    "weight": 3.8
+  },
+  "T6_ARMOR_LEATHER_SET3": {
+    "name": "Master's Assassin Jacket",
+    "weight": 7.6
+  },
+  "T6_ARMOR_LEATHER_SET3@1": {
+    "name": "Master's Assassin Jacket .1",
+    "weight": 7.6
+  },
+  "T6_ARMOR_LEATHER_SET3@2": {
+    "name": "Master's Assassin Jacket .2",
+    "weight": 7.6
+  },
+  "T6_ARMOR_LEATHER_SET3@3": {
+    "name": "Master's Assassin Jacket .3",
+    "weight": 7.6
+  },
+  "T6_ARMOR_LEATHER_SET3@4": {
+    "name": "Master's Assassin Jacket .4",
+    "weight": 7.6
+  },
+  "T6_SHOES_LEATHER_SET3": {
+    "name": "Master's Assassin Shoes",
+    "weight": 3.8
+  },
+  "T6_SHOES_LEATHER_SET3@1": {
+    "name": "Master's Assassin Shoes .1",
+    "weight": 3.8
+  },
+  "T6_SHOES_LEATHER_SET3@2": {
+    "name": "Master's Assassin Shoes .2",
+    "weight": 3.8
+  },
+  "T6_SHOES_LEATHER_SET3@3": {
+    "name": "Master's Assassin Shoes .3",
+    "weight": 3.8
+  },
+  "T6_SHOES_LEATHER_SET3@4": {
+    "name": "Master's Assassin Shoes .4",
+    "weight": 3.8
+  },
+  "T6_HEAD_CLOTH_SET2": {
+    "name": "Master's Cleric Cowl",
+    "weight": 3.8
+  },
+  "T6_HEAD_CLOTH_SET2@1": {
+    "name": "Master's Cleric Cowl .1",
+    "weight": 3.8
+  },
+  "T6_HEAD_CLOTH_SET2@2": {
+    "name": "Master's Cleric Cowl .2",
+    "weight": 3.8
+  },
+  "T6_HEAD_CLOTH_SET2@3": {
+    "name": "Master's Cleric Cowl .3",
+    "weight": 3.8
+  },
+  "T6_HEAD_CLOTH_SET2@4": {
+    "name": "Master's Cleric Cowl .4",
+    "weight": 3.8
+  },
+  "T6_ARMOR_CLOTH_SET2": {
+    "name": "Master's Cleric Robe",
+    "weight": 7.6
+  },
+  "T6_ARMOR_CLOTH_SET2@1": {
+    "name": "Master's Cleric Robe .1",
+    "weight": 7.6
+  },
+  "T6_ARMOR_CLOTH_SET2@2": {
+    "name": "Master's Cleric Robe .2",
+    "weight": 7.6
+  },
+  "T6_ARMOR_CLOTH_SET2@3": {
+    "name": "Master's Cleric Robe .3",
+    "weight": 7.6
+  },
+  "T6_ARMOR_CLOTH_SET2@4": {
+    "name": "Master's Cleric Robe .4",
+    "weight": 7.6
+  },
+  "T6_SHOES_CLOTH_SET2": {
+    "name": "Master's Cleric Sandals",
+    "weight": 3.8
+  },
+  "T6_SHOES_CLOTH_SET2@1": {
+    "name": "Master's Cleric Sandals .1",
+    "weight": 3.8
+  },
+  "T6_SHOES_CLOTH_SET2@2": {
+    "name": "Master's Cleric Sandals .2",
+    "weight": 3.8
+  },
+  "T6_SHOES_CLOTH_SET2@3": {
+    "name": "Master's Cleric Sandals .3",
+    "weight": 3.8
+  },
+  "T6_SHOES_CLOTH_SET2@4": {
+    "name": "Master's Cleric Sandals .4",
+    "weight": 3.8
+  },
+  "T6_ARMOR_PLATE_SET3": {
+    "name": "Master's Guardian Armor",
+    "weight": 7.6
+  },
+  "T6_ARMOR_PLATE_SET3@1": {
+    "name": "Master's Guardian Armor .1",
+    "weight": 7.6
+  },
+  "T6_ARMOR_PLATE_SET3@2": {
+    "name": "Master's Guardian Armor .2",
+    "weight": 7.6
+  },
+  "T6_ARMOR_PLATE_SET3@3": {
+    "name": "Master's Guardian Armor .3",
+    "weight": 7.6
+  },
+  "T6_ARMOR_PLATE_SET3@4": {
+    "name": "Master's Guardian Armor .4",
+    "weight": 7.6
+  },
+  "T6_SHOES_PLATE_SET3": {
+    "name": "Master's Guardian Boots",
+    "weight": 3.8
+  },
+  "T6_SHOES_PLATE_SET3@1": {
+    "name": "Master's Guardian Boots .1",
+    "weight": 3.8
+  },
+  "T6_SHOES_PLATE_SET3@2": {
+    "name": "Master's Guardian Boots .2",
+    "weight": 3.8
+  },
+  "T6_SHOES_PLATE_SET3@3": {
+    "name": "Master's Guardian Boots .3",
+    "weight": 3.8
+  },
+  "T6_SHOES_PLATE_SET3@4": {
+    "name": "Master's Guardian Boots .4",
+    "weight": 3.8
+  },
+  "T6_HEAD_PLATE_SET3": {
+    "name": "Master's Guardian Helmet",
+    "weight": 3.8
+  },
+  "T6_HEAD_PLATE_SET3@1": {
+    "name": "Master's Guardian Helmet .1",
+    "weight": 3.8
+  },
+  "T6_HEAD_PLATE_SET3@2": {
+    "name": "Master's Guardian Helmet .2",
+    "weight": 3.8
+  },
+  "T6_HEAD_PLATE_SET3@3": {
+    "name": "Master's Guardian Helmet .3",
+    "weight": 3.8
+  },
+  "T6_HEAD_PLATE_SET3@4": {
+    "name": "Master's Guardian Helmet .4",
+    "weight": 3.8
+  },
+  "T6_HEAD_CLOTH_AVALON": {
+    "name": "Master's Cowl of Purity",
+    "weight": 3.8
+  },
+  "T6_ARTEFACT_HEAD_CLOTH_AVALON": {
+    "name": "Master's Artefact Head Cloth Avalon",
+    "weight": 2
+  },
+  "T6_HEAD_CLOTH_AVALON@1": {
+    "name": "Master's Cowl of Purity .1",
+    "weight": 3.8
+  },
+  "T6_HEAD_CLOTH_AVALON@2": {
+    "name": "Master's Cowl of Purity .2",
+    "weight": 3.8
+  },
+  "T6_HEAD_CLOTH_AVALON@3": {
+    "name": "Master's Cowl of Purity .3",
+    "weight": 3.8
+  },
+  "T6_HEAD_CLOTH_AVALON@4": {
+    "name": "Master's Cowl of Purity .4",
+    "weight": 3.8
+  },
+  "T6_HEAD_CLOTH_FEY": {
+    "name": "Master's Feyscale Hat",
+    "weight": 3.8
+  },
+  "T6_ARTEFACT_HEAD_CLOTH_FEY": {
+    "name": "Master's Artefact Head Cloth Fey",
+    "weight": 2
+  },
+  "T6_HEAD_CLOTH_FEY@1": {
+    "name": "Master's Feyscale Hat .1",
+    "weight": 3.8
+  },
+  "T6_HEAD_CLOTH_FEY@2": {
+    "name": "Master's Feyscale Hat .2",
+    "weight": 3.8
+  },
+  "T6_HEAD_CLOTH_FEY@3": {
+    "name": "Master's Feyscale Hat .3",
+    "weight": 3.8
+  },
+  "T6_HEAD_CLOTH_FEY@4": {
+    "name": "Master's Feyscale Hat .4",
+    "weight": 3.8
+  },
+  "T6_HEAD_CLOTH_HELL": {
+    "name": "Master's Fiend Cowl",
+    "weight": 3.8
+  },
+  "T6_ARTEFACT_HEAD_CLOTH_HELL": {
+    "name": "Master's Artefact Head Cloth Hell",
+    "weight": 2
+  },
+  "T6_HEAD_CLOTH_HELL@1": {
+    "name": "Master's Fiend Cowl .1",
+    "weight": 3.8
+  },
+  "T6_HEAD_CLOTH_HELL@2": {
+    "name": "Master's Fiend Cowl .2",
+    "weight": 3.8
+  },
+  "T6_HEAD_CLOTH_HELL@3": {
+    "name": "Master's Fiend Cowl .3",
+    "weight": 3.8
+  },
+  "T6_HEAD_CLOTH_HELL@4": {
+    "name": "Master's Fiend Cowl .4",
+    "weight": 3.8
+  },
+  "T6_HEAD_CLOTH_KEEPER": {
+    "name": "Master's Druid Cowl",
+    "weight": 3.8
+  },
+  "T6_ARTEFACT_HEAD_CLOTH_KEEPER": {
+    "name": "Master's Artefact Head Cloth Keeper",
+    "weight": 2
+  },
+  "T6_HEAD_CLOTH_KEEPER@1": {
+    "name": "Master's Druid Cowl .1",
+    "weight": 3.8
+  },
+  "T6_HEAD_CLOTH_KEEPER@2": {
+    "name": "Master's Druid Cowl .2",
+    "weight": 3.8
+  },
+  "T6_HEAD_CLOTH_KEEPER@3": {
+    "name": "Master's Druid Cowl .3",
+    "weight": 3.8
+  },
+  "T6_HEAD_CLOTH_KEEPER@4": {
+    "name": "Master's Druid Cowl .4",
+    "weight": 3.8
+  },
+  "T6_HEAD_CLOTH_MORGANA": {
+    "name": "Master's Cultist Cowl",
+    "weight": 3.8
+  },
+  "T6_ARTEFACT_HEAD_CLOTH_MORGANA": {
+    "name": "Master's Artefact Head Cloth Morgana",
+    "weight": 2
+  },
+  "T6_HEAD_CLOTH_MORGANA@1": {
+    "name": "Master's Cultist Cowl .1",
+    "weight": 3.8
+  },
+  "T6_HEAD_CLOTH_MORGANA@2": {
+    "name": "Master's Cultist Cowl .2",
+    "weight": 3.8
+  },
+  "T6_HEAD_CLOTH_MORGANA@3": {
+    "name": "Master's Cultist Cowl .3",
+    "weight": 3.8
+  },
+  "T6_HEAD_CLOTH_MORGANA@4": {
+    "name": "Master's Cultist Cowl .4",
+    "weight": 3.8
+  },
+  "T6_HEAD_LEATHER_AVALON": {
+    "name": "Master's Hood of Tenacity",
+    "weight": 3.8
+  },
+  "T6_ARTEFACT_HEAD_LEATHER_AVALON": {
+    "name": "Master's Artefact Head Leather Avalon",
+    "weight": 2
+  },
+  "T6_HEAD_LEATHER_AVALON@1": {
+    "name": "Master's Hood of Tenacity .1",
+    "weight": 3.8
+  },
+  "T6_HEAD_LEATHER_AVALON@2": {
+    "name": "Master's Hood of Tenacity .2",
+    "weight": 3.8
+  },
+  "T6_HEAD_LEATHER_AVALON@3": {
+    "name": "Master's Hood of Tenacity .3",
+    "weight": 3.8
+  },
+  "T6_HEAD_LEATHER_AVALON@4": {
+    "name": "Master's Hood of Tenacity .4",
+    "weight": 3.8
+  },
+  "T6_HEAD_LEATHER_DRAGON": {
+    "name": "Master's Dragonslayer Hood",
+    "weight": 3.8
+  },
+  "T6_ARTEFACT_HEAD_LEATHER_DRAGON": {
+    "name": "Master's Artefact Head Leather Dragon",
+    "weight": 2
+  },
+  "T6_HEAD_LEATHER_DRAGON@1": {
+    "name": "Master's Dragonslayer Hood .1",
+    "weight": 3.8
+  },
+  "T6_HEAD_LEATHER_DRAGON@2": {
+    "name": "Master's Dragonslayer Hood .2",
+    "weight": 3.8
+  },
+  "T6_HEAD_LEATHER_DRAGON@3": {
+    "name": "Master's Dragonslayer Hood .3",
+    "weight": 3.8
+  },
+  "T6_HEAD_LEATHER_DRAGON@4": {
+    "name": "Master's Dragonslayer Hood .4",
+    "weight": 3.8
+  },
+  "T6_HEAD_LEATHER_FEY": {
+    "name": "Master's Mistwalker Hood",
+    "weight": 3.8
+  },
+  "T6_ARTEFACT_HEAD_LEATHER_FEY": {
+    "name": "Master's Artefact Head Leather Fey",
+    "weight": 2
+  },
+  "T6_HEAD_LEATHER_FEY@1": {
+    "name": "Master's Mistwalker Hood .1",
+    "weight": 3.8
+  },
+  "T6_HEAD_LEATHER_FEY@2": {
+    "name": "Master's Mistwalker Hood .2",
+    "weight": 3.8
+  },
+  "T6_HEAD_LEATHER_FEY@3": {
+    "name": "Master's Mistwalker Hood .3",
+    "weight": 3.8
+  },
+  "T6_HEAD_LEATHER_FEY@4": {
+    "name": "Master's Mistwalker Hood .4",
+    "weight": 3.8
+  },
+  "T6_HEAD_LEATHER_HELL": {
+    "name": "Master's Hellion Hood",
+    "weight": 3.8
+  },
+  "T6_ARTEFACT_HEAD_LEATHER_HELL": {
+    "name": "Master's Artefact Head Leather Hell",
+    "weight": 2
+  },
+  "T6_HEAD_LEATHER_HELL@1": {
+    "name": "Master's Hellion Hood .1",
+    "weight": 3.8
+  },
+  "T6_HEAD_LEATHER_HELL@2": {
+    "name": "Master's Hellion Hood .2",
+    "weight": 3.8
+  },
+  "T6_HEAD_LEATHER_HELL@3": {
+    "name": "Master's Hellion Hood .3",
+    "weight": 3.8
+  },
+  "T6_HEAD_LEATHER_HELL@4": {
+    "name": "Master's Hellion Hood .4",
+    "weight": 3.8
+  },
+  "T6_HEAD_LEATHER_MORGANA": {
+    "name": "Master's Stalker Hood",
+    "weight": 3.8
+  },
+  "T6_ARTEFACT_HEAD_LEATHER_MORGANA": {
+    "name": "Master's Artefact Head Leather Morgana",
+    "weight": 2
+  },
+  "T6_HEAD_LEATHER_MORGANA@1": {
+    "name": "Master's Stalker Hood .1",
+    "weight": 3.8
+  },
+  "T6_HEAD_LEATHER_MORGANA@2": {
+    "name": "Master's Stalker Hood .2",
+    "weight": 3.8
+  },
+  "T6_HEAD_LEATHER_MORGANA@3": {
+    "name": "Master's Stalker Hood .3",
+    "weight": 3.8
+  },
+  "T6_HEAD_LEATHER_MORGANA@4": {
+    "name": "Master's Stalker Hood .4",
+    "weight": 3.8
+  },
+  "T6_HEAD_LEATHER_UNDEAD": {
+    "name": "Master's Specter Hood",
+    "weight": 3.8
+  },
+  "T6_ARTEFACT_HEAD_LEATHER_UNDEAD": {
+    "name": "Master's Artefact Head Leather Undead",
+    "weight": 2
+  },
+  "T6_HEAD_LEATHER_UNDEAD@1": {
+    "name": "Master's Specter Hood .1",
+    "weight": 3.8
+  },
+  "T6_HEAD_LEATHER_UNDEAD@2": {
+    "name": "Master's Specter Hood .2",
+    "weight": 3.8
+  },
+  "T6_HEAD_LEATHER_UNDEAD@3": {
+    "name": "Master's Specter Hood .3",
+    "weight": 3.8
+  },
+  "T6_HEAD_LEATHER_UNDEAD@4": {
+    "name": "Master's Specter Hood .4",
+    "weight": 3.8
+  },
+  "T6_HEAD_PLATE_AVALON": {
+    "name": "Master's Helmet of Valor",
+    "weight": 3.8
+  },
+  "T6_ARTEFACT_HEAD_PLATE_AVALON": {
+    "name": "Master's Artefact Head Plate Avalon",
+    "weight": 2
+  },
+  "T6_HEAD_PLATE_AVALON@1": {
+    "name": "Master's Helmet of Valor .1",
+    "weight": 3.8
+  },
+  "T6_HEAD_PLATE_AVALON@2": {
+    "name": "Master's Helmet of Valor .2",
+    "weight": 3.8
+  },
+  "T6_HEAD_PLATE_AVALON@3": {
+    "name": "Master's Helmet of Valor .3",
+    "weight": 3.8
+  },
+  "T6_HEAD_PLATE_AVALON@4": {
+    "name": "Master's Helmet of Valor .4",
+    "weight": 3.8
+  },
+  "T6_HEAD_PLATE_FEY": {
+    "name": "Master's Duskweaver Helmet",
+    "weight": 3.8
+  },
+  "T6_ARTEFACT_HEAD_PLATE_FEY": {
+    "name": "Master's Artefact Head Plate Fey",
+    "weight": 2
+  },
+  "T6_HEAD_PLATE_FEY@1": {
+    "name": "Master's Duskweaver Helmet .1",
+    "weight": 3.8
+  },
+  "T6_HEAD_PLATE_FEY@2": {
+    "name": "Master's Duskweaver Helmet .2",
+    "weight": 3.8
+  },
+  "T6_HEAD_PLATE_FEY@3": {
+    "name": "Master's Duskweaver Helmet .3",
+    "weight": 3.8
+  },
+  "T6_HEAD_PLATE_FEY@4": {
+    "name": "Master's Duskweaver Helmet .4",
+    "weight": 3.8
+  },
+  "T6_HEAD_PLATE_HELL": {
+    "name": "Master's Demon Helmet",
+    "weight": 3.8
+  },
+  "T6_ARTEFACT_HEAD_PLATE_HELL": {
+    "name": "Master's Artefact Head Plate Hell",
+    "weight": 2
+  },
+  "T6_HEAD_PLATE_HELL@1": {
+    "name": "Master's Demon Helmet .1",
+    "weight": 3.8
+  },
+  "T6_HEAD_PLATE_HELL@2": {
+    "name": "Master's Demon Helmet .2",
+    "weight": 3.8
+  },
+  "T6_HEAD_PLATE_HELL@3": {
+    "name": "Master's Demon Helmet .3",
+    "weight": 3.8
+  },
+  "T6_HEAD_PLATE_HELL@4": {
+    "name": "Master's Demon Helmet .4",
+    "weight": 3.8
+  },
+  "T6_HEAD_PLATE_KEEPER": {
+    "name": "Master's Judicator Helmet",
+    "weight": 3.8
+  },
+  "T6_ARTEFACT_HEAD_PLATE_KEEPER": {
+    "name": "Master's Artefact Head Plate Keeper",
+    "weight": 2
+  },
+  "T6_HEAD_PLATE_KEEPER@1": {
+    "name": "Master's Judicator Helmet .1",
+    "weight": 3.8
+  },
+  "T6_HEAD_PLATE_KEEPER@2": {
+    "name": "Master's Judicator Helmet .2",
+    "weight": 3.8
+  },
+  "T6_HEAD_PLATE_KEEPER@3": {
+    "name": "Master's Judicator Helmet .3",
+    "weight": 3.8
+  },
+  "T6_HEAD_PLATE_KEEPER@4": {
+    "name": "Master's Judicator Helmet .4",
+    "weight": 3.8
+  },
+  "T6_HEAD_PLATE_UNDEAD": {
+    "name": "Master's Graveguard Helmet",
+    "weight": 3.8
+  },
+  "T6_ARTEFACT_HEAD_PLATE_UNDEAD": {
+    "name": "Master's Artefact Head Plate Undead",
+    "weight": 2
+  },
+  "T6_HEAD_PLATE_UNDEAD@1": {
+    "name": "Master's Graveguard Helmet .1",
+    "weight": 3.8
+  },
+  "T6_HEAD_PLATE_UNDEAD@2": {
+    "name": "Master's Graveguard Helmet .2",
+    "weight": 3.8
+  },
+  "T6_HEAD_PLATE_UNDEAD@3": {
+    "name": "Master's Graveguard Helmet .3",
+    "weight": 3.8
+  },
+  "T6_HEAD_PLATE_UNDEAD@4": {
+    "name": "Master's Graveguard Helmet .4",
+    "weight": 3.8
+  },
+  "T6_HEAD_LEATHER_SET2": {
+    "name": "Master's Hunter Hood",
+    "weight": 3.8
+  },
+  "T6_HEAD_LEATHER_SET2@1": {
+    "name": "Master's Hunter Hood .1",
+    "weight": 3.8
+  },
+  "T6_HEAD_LEATHER_SET2@2": {
+    "name": "Master's Hunter Hood .2",
+    "weight": 3.8
+  },
+  "T6_HEAD_LEATHER_SET2@3": {
+    "name": "Master's Hunter Hood .3",
+    "weight": 3.8
+  },
+  "T6_HEAD_LEATHER_SET2@4": {
+    "name": "Master's Hunter Hood .4",
+    "weight": 3.8
+  },
+  "T6_ARMOR_LEATHER_SET2": {
+    "name": "Master's Hunter Jacket",
+    "weight": 7.6
+  },
+  "T6_ARMOR_LEATHER_SET2@1": {
+    "name": "Master's Hunter Jacket .1",
+    "weight": 7.6
+  },
+  "T6_ARMOR_LEATHER_SET2@2": {
+    "name": "Master's Hunter Jacket .2",
+    "weight": 7.6
+  },
+  "T6_ARMOR_LEATHER_SET2@3": {
+    "name": "Master's Hunter Jacket .3",
+    "weight": 7.6
+  },
+  "T6_ARMOR_LEATHER_SET2@4": {
+    "name": "Master's Hunter Jacket .4",
+    "weight": 7.6
+  },
+  "T6_SHOES_LEATHER_SET2": {
+    "name": "Master's Hunter Shoes",
+    "weight": 3.8
+  },
+  "T6_SHOES_LEATHER_SET2@1": {
+    "name": "Master's Hunter Shoes .1",
+    "weight": 3.8
+  },
+  "T6_SHOES_LEATHER_SET2@2": {
+    "name": "Master's Hunter Shoes .2",
+    "weight": 3.8
+  },
+  "T6_SHOES_LEATHER_SET2@3": {
+    "name": "Master's Hunter Shoes .3",
+    "weight": 3.8
+  },
+  "T6_SHOES_LEATHER_SET2@4": {
+    "name": "Master's Hunter Shoes .4",
+    "weight": 3.8
+  },
+  "T6_ARMOR_PLATE_SET2": {
+    "name": "Master's Knight Armor",
+    "weight": 7.6
+  },
+  "T6_ARMOR_PLATE_SET2@1": {
+    "name": "Master's Knight Armor .1",
+    "weight": 7.6
+  },
+  "T6_ARMOR_PLATE_SET2@2": {
+    "name": "Master's Knight Armor .2",
+    "weight": 7.6
+  },
+  "T6_ARMOR_PLATE_SET2@3": {
+    "name": "Master's Knight Armor .3",
+    "weight": 7.6
+  },
+  "T6_ARMOR_PLATE_SET2@4": {
+    "name": "Master's Knight Armor .4",
+    "weight": 7.6
+  },
+  "T6_SHOES_PLATE_SET2": {
+    "name": "Master's Knight Boots",
+    "weight": 3.8
+  },
+  "T6_SHOES_PLATE_SET2@1": {
+    "name": "Master's Knight Boots .1",
+    "weight": 3.8
+  },
+  "T6_SHOES_PLATE_SET2@2": {
+    "name": "Master's Knight Boots .2",
+    "weight": 3.8
+  },
+  "T6_SHOES_PLATE_SET2@3": {
+    "name": "Master's Knight Boots .3",
+    "weight": 3.8
+  },
+  "T6_SHOES_PLATE_SET2@4": {
+    "name": "Master's Knight Boots .4",
+    "weight": 3.8
+  },
+  "T6_HEAD_PLATE_SET2": {
+    "name": "Master's Knight Helmet",
+    "weight": 3.8
+  },
+  "T6_HEAD_PLATE_SET2@1": {
+    "name": "Master's Knight Helmet .1",
+    "weight": 3.8
+  },
+  "T6_HEAD_PLATE_SET2@2": {
+    "name": "Master's Knight Helmet .2",
+    "weight": 3.8
+  },
+  "T6_HEAD_PLATE_SET2@3": {
+    "name": "Master's Knight Helmet .3",
+    "weight": 3.8
+  },
+  "T6_HEAD_PLATE_SET2@4": {
+    "name": "Master's Knight Helmet .4",
+    "weight": 3.8
+  },
+  "T6_HEAD_CLOTH_SET3": {
+    "name": "Master's Mage Cowl",
+    "weight": 3.8
+  },
+  "T6_HEAD_CLOTH_SET3@1": {
+    "name": "Master's Mage Cowl .1",
+    "weight": 3.8
+  },
+  "T6_HEAD_CLOTH_SET3@2": {
+    "name": "Master's Mage Cowl .2",
+    "weight": 3.8
+  },
+  "T6_HEAD_CLOTH_SET3@3": {
+    "name": "Master's Mage Cowl .3",
+    "weight": 3.8
+  },
+  "T6_HEAD_CLOTH_SET3@4": {
+    "name": "Master's Mage Cowl .4",
+    "weight": 3.8
+  },
+  "T6_ARMOR_CLOTH_SET3": {
+    "name": "Master's Mage Robe",
+    "weight": 7.6
+  },
+  "T6_ARMOR_CLOTH_SET3@1": {
+    "name": "Master's Mage Robe .1",
+    "weight": 7.6
+  },
+  "T6_ARMOR_CLOTH_SET3@2": {
+    "name": "Master's Mage Robe .2",
+    "weight": 7.6
+  },
+  "T6_ARMOR_CLOTH_SET3@3": {
+    "name": "Master's Mage Robe .3",
+    "weight": 7.6
+  },
+  "T6_ARMOR_CLOTH_SET3@4": {
+    "name": "Master's Mage Robe .4",
+    "weight": 7.6
+  },
+  "T6_SHOES_CLOTH_SET3": {
+    "name": "Master's Mage Sandals",
+    "weight": 3.8
+  },
+  "T6_SHOES_CLOTH_SET3@1": {
+    "name": "Master's Mage Sandals .1",
+    "weight": 3.8
+  },
+  "T6_SHOES_CLOTH_SET3@2": {
+    "name": "Master's Mage Sandals .2",
+    "weight": 3.8
+  },
+  "T6_SHOES_CLOTH_SET3@3": {
+    "name": "Master's Mage Sandals .3",
+    "weight": 3.8
+  },
+  "T6_SHOES_CLOTH_SET3@4": {
+    "name": "Master's Mage Sandals .4",
+    "weight": 3.8
+  },
+  "T6_HEAD_LEATHER_SET1": {
+    "name": "Master's Mercenary Hood",
+    "weight": 3.8
+  },
+  "T6_HEAD_LEATHER_SET1@1": {
+    "name": "Master's Mercenary Hood .1",
+    "weight": 3.8
+  },
+  "T6_HEAD_LEATHER_SET1@2": {
+    "name": "Master's Mercenary Hood .2",
+    "weight": 3.8
+  },
+  "T6_HEAD_LEATHER_SET1@3": {
+    "name": "Master's Mercenary Hood .3",
+    "weight": 3.8
+  },
+  "T6_HEAD_LEATHER_SET1@4": {
+    "name": "Master's Mercenary Hood .4",
+    "weight": 3.8
+  },
+  "T6_ARMOR_LEATHER_SET1": {
+    "name": "Master's Mercenary Jacket",
+    "weight": 7.6
+  },
+  "T6_ARMOR_LEATHER_SET1@1": {
+    "name": "Master's Mercenary Jacket .1",
+    "weight": 7.6
+  },
+  "T6_ARMOR_LEATHER_SET1@2": {
+    "name": "Master's Mercenary Jacket .2",
+    "weight": 7.6
+  },
+  "T6_ARMOR_LEATHER_SET1@3": {
+    "name": "Master's Mercenary Jacket .3",
+    "weight": 7.6
+  },
+  "T6_ARMOR_LEATHER_SET1@4": {
+    "name": "Master's Mercenary Jacket .4",
+    "weight": 7.6
+  },
+  "T6_SHOES_LEATHER_SET1": {
+    "name": "Master's Mercenary Shoes",
+    "weight": 3.8
+  },
+  "T6_SHOES_LEATHER_SET1@1": {
+    "name": "Master's Mercenary Shoes .1",
+    "weight": 3.8
+  },
+  "T6_SHOES_LEATHER_SET1@2": {
+    "name": "Master's Mercenary Shoes .2",
+    "weight": 3.8
+  },
+  "T6_SHOES_LEATHER_SET1@3": {
+    "name": "Master's Mercenary Shoes .3",
+    "weight": 3.8
+  },
+  "T6_SHOES_LEATHER_SET1@4": {
+    "name": "Master's Mercenary Shoes .4",
+    "weight": 3.8
+  },
+  "T6_HEAD_CLOTH_SET1": {
+    "name": "Master's Scholar Cowl",
+    "weight": 3.8
+  },
+  "T6_HEAD_CLOTH_SET1@1": {
+    "name": "Master's Scholar Cowl .1",
+    "weight": 3.8
+  },
+  "T6_HEAD_CLOTH_SET1@2": {
+    "name": "Master's Scholar Cowl .2",
+    "weight": 3.8
+  },
+  "T6_HEAD_CLOTH_SET1@3": {
+    "name": "Master's Scholar Cowl .3",
+    "weight": 3.8
+  },
+  "T6_HEAD_CLOTH_SET1@4": {
+    "name": "Master's Scholar Cowl .4",
+    "weight": 3.8
+  },
+  "T6_ARMOR_CLOTH_SET1": {
+    "name": "Master's Scholar Robe",
+    "weight": 7.6
+  },
+  "T6_ARMOR_CLOTH_SET1@1": {
+    "name": "Master's Scholar Robe .1",
+    "weight": 7.6
+  },
+  "T6_ARMOR_CLOTH_SET1@2": {
+    "name": "Master's Scholar Robe .2",
+    "weight": 7.6
+  },
+  "T6_ARMOR_CLOTH_SET1@3": {
+    "name": "Master's Scholar Robe .3",
+    "weight": 7.6
+  },
+  "T6_ARMOR_CLOTH_SET1@4": {
+    "name": "Master's Scholar Robe .4",
+    "weight": 7.6
+  },
+  "T6_SHOES_CLOTH_SET1": {
+    "name": "Master's Scholar Sandals",
+    "weight": 3.8
+  },
+  "T6_SHOES_CLOTH_SET1@1": {
+    "name": "Master's Scholar Sandals .1",
+    "weight": 3.8
+  },
+  "T6_SHOES_CLOTH_SET1@2": {
+    "name": "Master's Scholar Sandals .2",
+    "weight": 3.8
+  },
+  "T6_SHOES_CLOTH_SET1@3": {
+    "name": "Master's Scholar Sandals .3",
+    "weight": 3.8
+  },
+  "T6_SHOES_CLOTH_SET1@4": {
+    "name": "Master's Scholar Sandals .4",
+    "weight": 3.8
+  },
+  "T6_SHOES_CLOTH_AVALON": {
+    "name": "Master's Sandals of Purity",
+    "weight": 3.8
+  },
+  "T6_ARTEFACT_SHOES_CLOTH_AVALON": {
+    "name": "Master's Artefact Shoes Cloth Avalon",
+    "weight": 2
+  },
+  "T6_SHOES_CLOTH_AVALON@1": {
+    "name": "Master's Sandals of Purity .1",
+    "weight": 3.8
+  },
+  "T6_SHOES_CLOTH_AVALON@2": {
+    "name": "Master's Sandals of Purity .2",
+    "weight": 3.8
+  },
+  "T6_SHOES_CLOTH_AVALON@3": {
+    "name": "Master's Sandals of Purity .3",
+    "weight": 3.8
+  },
+  "T6_SHOES_CLOTH_AVALON@4": {
+    "name": "Master's Sandals of Purity .4",
+    "weight": 3.8
+  },
+  "T6_SHOES_CLOTH_FEY": {
+    "name": "Master's Feyscale Sandals",
+    "weight": 3.8
+  },
+  "T6_ARTEFACT_SHOES_CLOTH_FEY": {
+    "name": "Master's Artefact Shoes Cloth Fey",
+    "weight": 2
+  },
+  "T6_SHOES_CLOTH_FEY@1": {
+    "name": "Master's Feyscale Sandals .1",
+    "weight": 3.8
+  },
+  "T6_SHOES_CLOTH_FEY@2": {
+    "name": "Master's Feyscale Sandals .2",
+    "weight": 3.8
+  },
+  "T6_SHOES_CLOTH_FEY@3": {
+    "name": "Master's Feyscale Sandals .3",
+    "weight": 3.8
+  },
+  "T6_SHOES_CLOTH_FEY@4": {
+    "name": "Master's Feyscale Sandals .4",
+    "weight": 3.8
+  },
+  "T6_SHOES_CLOTH_HELL": {
+    "name": "Master's Fiend Sandals",
+    "weight": 3.8
+  },
+  "T6_ARTEFACT_SHOES_CLOTH_HELL": {
+    "name": "Master's Artefact Shoes Cloth Hell",
+    "weight": 2
+  },
+  "T6_SHOES_CLOTH_HELL@1": {
+    "name": "Master's Fiend Sandals .1",
+    "weight": 3.8
+  },
+  "T6_SHOES_CLOTH_HELL@2": {
+    "name": "Master's Fiend Sandals .2",
+    "weight": 3.8
+  },
+  "T6_SHOES_CLOTH_HELL@3": {
+    "name": "Master's Fiend Sandals .3",
+    "weight": 3.8
+  },
+  "T6_SHOES_CLOTH_HELL@4": {
+    "name": "Master's Fiend Sandals .4",
+    "weight": 3.8
+  },
+  "T6_SHOES_CLOTH_KEEPER": {
+    "name": "Master's Druid Sandals",
+    "weight": 3.8
+  },
+  "T6_ARTEFACT_SHOES_CLOTH_KEEPER": {
+    "name": "Master's Artefact Shoes Cloth Keeper",
+    "weight": 2
+  },
+  "T6_SHOES_CLOTH_KEEPER@1": {
+    "name": "Master's Druid Sandals .1",
+    "weight": 3.8
+  },
+  "T6_SHOES_CLOTH_KEEPER@2": {
+    "name": "Master's Druid Sandals .2",
+    "weight": 3.8
+  },
+  "T6_SHOES_CLOTH_KEEPER@3": {
+    "name": "Master's Druid Sandals .3",
+    "weight": 3.8
+  },
+  "T6_SHOES_CLOTH_KEEPER@4": {
+    "name": "Master's Druid Sandals .4",
+    "weight": 3.8
+  },
+  "T6_SHOES_CLOTH_MORGANA": {
+    "name": "Master's Cultist Sandals",
+    "weight": 3.8
+  },
+  "T6_ARTEFACT_SHOES_CLOTH_MORGANA": {
+    "name": "Master's Artefact Shoes Cloth Morgana",
+    "weight": 2
+  },
+  "T6_SHOES_CLOTH_MORGANA@1": {
+    "name": "Master's Cultist Sandals .1",
+    "weight": 3.8
+  },
+  "T6_SHOES_CLOTH_MORGANA@2": {
+    "name": "Master's Cultist Sandals .2",
+    "weight": 3.8
+  },
+  "T6_SHOES_CLOTH_MORGANA@3": {
+    "name": "Master's Cultist Sandals .3",
+    "weight": 3.8
+  },
+  "T6_SHOES_CLOTH_MORGANA@4": {
+    "name": "Master's Cultist Sandals .4",
+    "weight": 3.8
+  },
+  "T6_SHOES_LEATHER_AVALON": {
+    "name": "Master's Shoes of Tenacity",
+    "weight": 3.8
+  },
+  "T6_ARTEFACT_SHOES_LEATHER_AVALON": {
+    "name": "Master's Artefact Shoes Leather Avalon",
+    "weight": 2
+  },
+  "T6_SHOES_LEATHER_AVALON@1": {
+    "name": "Master's Shoes of Tenacity .1",
+    "weight": 3.8
+  },
+  "T6_SHOES_LEATHER_AVALON@2": {
+    "name": "Master's Shoes of Tenacity .2",
+    "weight": 3.8
+  },
+  "T6_SHOES_LEATHER_AVALON@3": {
+    "name": "Master's Shoes of Tenacity .3",
+    "weight": 3.8
+  },
+  "T6_SHOES_LEATHER_AVALON@4": {
+    "name": "Master's Shoes of Tenacity .4",
+    "weight": 3.8
+  },
+  "T6_SHOES_LEATHER_DRAGON": {
+    "name": "Master's Dragonslayer Shoes",
+    "weight": 3.8
+  },
+  "T6_ARTEFACT_SHOES_LEATHER_DRAGON": {
+    "name": "Master's Artefact Shoes Leather Dragon",
+    "weight": 2
+  },
+  "T6_SHOES_LEATHER_DRAGON@1": {
+    "name": "Master's Dragonslayer Shoes .1",
+    "weight": 3.8
+  },
+  "T6_SHOES_LEATHER_DRAGON@2": {
+    "name": "Master's Dragonslayer Shoes .2",
+    "weight": 3.8
+  },
+  "T6_SHOES_LEATHER_DRAGON@3": {
+    "name": "Master's Dragonslayer Shoes .3",
+    "weight": 3.8
+  },
+  "T6_SHOES_LEATHER_DRAGON@4": {
+    "name": "Master's Dragonslayer Shoes .4",
+    "weight": 3.8
+  },
+  "T6_SHOES_LEATHER_FEY": {
+    "name": "Master's Mistwalker Shoes",
+    "weight": 3.8
+  },
+  "T6_ARTEFACT_SHOES_LEATHER_FEY": {
+    "name": "Master's Artefact Shoes Leather Fey",
+    "weight": 2
+  },
+  "T6_SHOES_LEATHER_FEY@1": {
+    "name": "Master's Mistwalker Shoes .1",
+    "weight": 3.8
+  },
+  "T6_SHOES_LEATHER_FEY@2": {
+    "name": "Master's Mistwalker Shoes .2",
+    "weight": 3.8
+  },
+  "T6_SHOES_LEATHER_FEY@3": {
+    "name": "Master's Mistwalker Shoes .3",
+    "weight": 3.8
+  },
+  "T6_SHOES_LEATHER_FEY@4": {
+    "name": "Master's Mistwalker Shoes .4",
+    "weight": 3.8
+  },
+  "T6_SHOES_LEATHER_HELL": {
+    "name": "Master's Hellion Shoes",
+    "weight": 3.8
+  },
+  "T6_ARTEFACT_SHOES_LEATHER_HELL": {
+    "name": "Master's Artefact Shoes Leather Hell",
+    "weight": 2
+  },
+  "T6_SHOES_LEATHER_HELL@1": {
+    "name": "Master's Hellion Shoes .1",
+    "weight": 3.8
+  },
+  "T6_SHOES_LEATHER_HELL@2": {
+    "name": "Master's Hellion Shoes .2",
+    "weight": 3.8
+  },
+  "T6_SHOES_LEATHER_HELL@3": {
+    "name": "Master's Hellion Shoes .3",
+    "weight": 3.8
+  },
+  "T6_SHOES_LEATHER_HELL@4": {
+    "name": "Master's Hellion Shoes .4",
+    "weight": 3.8
+  },
+  "T6_SHOES_LEATHER_MORGANA": {
+    "name": "Master's Stalker Shoes",
+    "weight": 3.8
+  },
+  "T6_ARTEFACT_SHOES_LEATHER_MORGANA": {
+    "name": "Master's Artefact Shoes Leather Morgana",
+    "weight": 2
+  },
+  "T6_SHOES_LEATHER_MORGANA@1": {
+    "name": "Master's Stalker Shoes .1",
+    "weight": 3.8
+  },
+  "T6_SHOES_LEATHER_MORGANA@2": {
+    "name": "Master's Stalker Shoes .2",
+    "weight": 3.8
+  },
+  "T6_SHOES_LEATHER_MORGANA@3": {
+    "name": "Master's Stalker Shoes .3",
+    "weight": 3.8
+  },
+  "T6_SHOES_LEATHER_MORGANA@4": {
+    "name": "Master's Stalker Shoes .4",
+    "weight": 3.8
+  },
+  "T6_SHOES_LEATHER_UNDEAD": {
+    "name": "Master's Specter Shoes",
+    "weight": 3.8
+  },
+  "T6_ARTEFACT_SHOES_LEATHER_UNDEAD": {
+    "name": "Master's Artefact Shoes Leather Undead",
+    "weight": 2
+  },
+  "T6_SHOES_LEATHER_UNDEAD@1": {
+    "name": "Master's Specter Shoes .1",
+    "weight": 3.8
+  },
+  "T6_SHOES_LEATHER_UNDEAD@2": {
+    "name": "Master's Specter Shoes .2",
+    "weight": 3.8
+  },
+  "T6_SHOES_LEATHER_UNDEAD@3": {
+    "name": "Master's Specter Shoes .3",
+    "weight": 3.8
+  },
+  "T6_SHOES_LEATHER_UNDEAD@4": {
+    "name": "Master's Specter Shoes .4",
+    "weight": 3.8
+  },
+  "T6_SHOES_PLATE_AVALON": {
+    "name": "Master's Boots of Valor",
+    "weight": 3.8
+  },
+  "T6_ARTEFACT_SHOES_PLATE_AVALON": {
+    "name": "Master's Artefact Shoes Plate Avalon",
+    "weight": 2
+  },
+  "T6_SHOES_PLATE_AVALON@1": {
+    "name": "Master's Boots of Valor .1",
+    "weight": 3.8
+  },
+  "T6_SHOES_PLATE_AVALON@2": {
+    "name": "Master's Boots of Valor .2",
+    "weight": 3.8
+  },
+  "T6_SHOES_PLATE_AVALON@3": {
+    "name": "Master's Boots of Valor .3",
+    "weight": 3.8
+  },
+  "T6_SHOES_PLATE_AVALON@4": {
+    "name": "Master's Boots of Valor .4",
+    "weight": 3.8
+  },
+  "T6_SHOES_PLATE_FEY": {
+    "name": "Master's Duskweaver Boots",
+    "weight": 3.8
+  },
+  "T6_ARTEFACT_SHOES_PLATE_FEY": {
+    "name": "Master's Artefact Shoes Plate Fey",
+    "weight": 2
+  },
+  "T6_SHOES_PLATE_FEY@1": {
+    "name": "Master's Duskweaver Boots .1",
+    "weight": 3.8
+  },
+  "T6_SHOES_PLATE_FEY@2": {
+    "name": "Master's Duskweaver Boots .2",
+    "weight": 3.8
+  },
+  "T6_SHOES_PLATE_FEY@3": {
+    "name": "Master's Duskweaver Boots .3",
+    "weight": 3.8
+  },
+  "T6_SHOES_PLATE_FEY@4": {
+    "name": "Master's Duskweaver Boots .4",
+    "weight": 3.8
+  },
+  "T6_SHOES_PLATE_HELL": {
+    "name": "Master's Demon Boots",
+    "weight": 3.8
+  },
+  "T6_ARTEFACT_SHOES_PLATE_HELL": {
+    "name": "Master's Artefact Shoes Plate Hell",
+    "weight": 2
+  },
+  "T6_SHOES_PLATE_HELL@1": {
+    "name": "Master's Demon Boots .1",
+    "weight": 3.8
+  },
+  "T6_SHOES_PLATE_HELL@2": {
+    "name": "Master's Demon Boots .2",
+    "weight": 3.8
+  },
+  "T6_SHOES_PLATE_HELL@3": {
+    "name": "Master's Demon Boots .3",
+    "weight": 3.8
+  },
+  "T6_SHOES_PLATE_HELL@4": {
+    "name": "Master's Demon Boots .4",
+    "weight": 3.8
+  },
+  "T6_SHOES_PLATE_KEEPER": {
+    "name": "Master's Judicator Boots",
+    "weight": 3.8
+  },
+  "T6_ARTEFACT_SHOES_PLATE_KEEPER": {
+    "name": "Master's Artefact Shoes Plate Keeper",
+    "weight": 2
+  },
+  "T6_SHOES_PLATE_KEEPER@1": {
+    "name": "Master's Judicator Boots .1",
+    "weight": 3.8
+  },
+  "T6_SHOES_PLATE_KEEPER@2": {
+    "name": "Master's Judicator Boots .2",
+    "weight": 3.8
+  },
+  "T6_SHOES_PLATE_KEEPER@3": {
+    "name": "Master's Judicator Boots .3",
+    "weight": 3.8
+  },
+  "T6_SHOES_PLATE_KEEPER@4": {
+    "name": "Master's Judicator Boots .4",
+    "weight": 3.8
+  },
+  "T6_SHOES_PLATE_UNDEAD": {
+    "name": "Master's Graveguard Boots",
+    "weight": 3.8
+  },
+  "T6_ARTEFACT_SHOES_PLATE_UNDEAD": {
+    "name": "Master's Artefact Shoes Plate Undead",
+    "weight": 2
+  },
+  "T6_SHOES_PLATE_UNDEAD@1": {
+    "name": "Master's Graveguard Boots .1",
+    "weight": 3.8
+  },
+  "T6_SHOES_PLATE_UNDEAD@2": {
+    "name": "Master's Graveguard Boots .2",
+    "weight": 3.8
+  },
+  "T6_SHOES_PLATE_UNDEAD@3": {
+    "name": "Master's Graveguard Boots .3",
+    "weight": 3.8
+  },
+  "T6_SHOES_PLATE_UNDEAD@4": {
+    "name": "Master's Graveguard Boots .4",
+    "weight": 3.8
+  },
+  "T6_ARMOR_PLATE_SET1": {
+    "name": "Master's Soldier Armor",
+    "weight": 7.6
+  },
+  "T6_ARMOR_PLATE_SET1@1": {
+    "name": "Master's Soldier Armor .1",
+    "weight": 7.6
+  },
+  "T6_ARMOR_PLATE_SET1@2": {
+    "name": "Master's Soldier Armor .2",
+    "weight": 7.6
+  },
+  "T6_ARMOR_PLATE_SET1@3": {
+    "name": "Master's Soldier Armor .3",
+    "weight": 7.6
+  },
+  "T6_ARMOR_PLATE_SET1@4": {
+    "name": "Master's Soldier Armor .4",
+    "weight": 7.6
+  },
+  "T6_SHOES_PLATE_SET1": {
+    "name": "Master's Soldier Boots",
+    "weight": 3.8
+  },
+  "T6_SHOES_PLATE_SET1@1": {
+    "name": "Master's Soldier Boots .1",
+    "weight": 3.8
+  },
+  "T6_SHOES_PLATE_SET1@2": {
+    "name": "Master's Soldier Boots .2",
+    "weight": 3.8
+  },
+  "T6_SHOES_PLATE_SET1@3": {
+    "name": "Master's Soldier Boots .3",
+    "weight": 3.8
+  },
+  "T6_SHOES_PLATE_SET1@4": {
+    "name": "Master's Soldier Boots .4",
+    "weight": 3.8
+  },
+  "T6_HEAD_PLATE_SET1": {
+    "name": "Master's Soldier Helmet",
+    "weight": 3.8
+  },
+  "T6_HEAD_PLATE_SET1@1": {
+    "name": "Master's Soldier Helmet .1",
+    "weight": 3.8
+  },
+  "T6_HEAD_PLATE_SET1@2": {
+    "name": "Master's Soldier Helmet .2",
+    "weight": 3.8
+  },
+  "T6_HEAD_PLATE_SET1@3": {
+    "name": "Master's Soldier Helmet .3",
+    "weight": 3.8
+  },
+  "T6_HEAD_PLATE_SET1@4": {
+    "name": "Master's Soldier Helmet .4",
+    "weight": 3.8
+  },
+  "T7_ARMOR_CLOTH_AVALON": {
+    "name": "Grandmaster's Robe of Purity",
+    "weight": 11.4
+  },
+  "T7_ARTEFACT_ARMOR_CLOTH_AVALON": {
+    "name": "Grandmaster's Artefact Armor Cloth Avalon",
+    "weight": 2
+  },
+  "T7_ARMOR_CLOTH_AVALON@1": {
+    "name": "Grandmaster's Robe of Purity .1",
+    "weight": 11.4
+  },
+  "T7_ARMOR_CLOTH_AVALON@2": {
+    "name": "Grandmaster's Robe of Purity .2",
+    "weight": 11.4
+  },
+  "T7_ARMOR_CLOTH_AVALON@3": {
+    "name": "Grandmaster's Robe of Purity .3",
+    "weight": 11.4
+  },
+  "T7_ARMOR_CLOTH_AVALON@4": {
+    "name": "Grandmaster's Robe of Purity .4",
+    "weight": 11.4
+  },
+  "T7_ARMOR_CLOTH_FEY": {
+    "name": "Grandmaster's Feyscale Robe",
+    "weight": 11.4
+  },
+  "T7_ARTEFACT_ARMOR_CLOTH_FEY": {
+    "name": "Grandmaster's Artefact Armor Cloth Fey",
+    "weight": 2
+  },
+  "T7_ARMOR_CLOTH_FEY@1": {
+    "name": "Grandmaster's Feyscale Robe .1",
+    "weight": 11.4
+  },
+  "T7_ARMOR_CLOTH_FEY@2": {
+    "name": "Grandmaster's Feyscale Robe .2",
+    "weight": 11.4
+  },
+  "T7_ARMOR_CLOTH_FEY@3": {
+    "name": "Grandmaster's Feyscale Robe .3",
+    "weight": 11.4
+  },
+  "T7_ARMOR_CLOTH_FEY@4": {
+    "name": "Grandmaster's Feyscale Robe .4",
+    "weight": 11.4
+  },
+  "T7_ARMOR_CLOTH_HELL": {
+    "name": "Grandmaster's Fiend Robe",
+    "weight": 11.4
+  },
+  "T7_ARTEFACT_ARMOR_CLOTH_HELL": {
+    "name": "Grandmaster's Artefact Armor Cloth Hell",
+    "weight": 2
+  },
+  "T7_ARMOR_CLOTH_HELL@1": {
+    "name": "Grandmaster's Fiend Robe .1",
+    "weight": 11.4
+  },
+  "T7_ARMOR_CLOTH_HELL@2": {
+    "name": "Grandmaster's Fiend Robe .2",
+    "weight": 11.4
+  },
+  "T7_ARMOR_CLOTH_HELL@3": {
+    "name": "Grandmaster's Fiend Robe .3",
+    "weight": 11.4
+  },
+  "T7_ARMOR_CLOTH_HELL@4": {
+    "name": "Grandmaster's Fiend Robe .4",
+    "weight": 11.4
+  },
+  "T7_ARMOR_CLOTH_KEEPER": {
+    "name": "Grandmaster's Druid Robe",
+    "weight": 11.4
+  },
+  "T7_ARTEFACT_ARMOR_CLOTH_KEEPER": {
+    "name": "Grandmaster's Artefact Armor Cloth Keeper",
+    "weight": 2
+  },
+  "T7_ARMOR_CLOTH_KEEPER@1": {
+    "name": "Grandmaster's Druid Robe .1",
+    "weight": 11.4
+  },
+  "T7_ARMOR_CLOTH_KEEPER@2": {
+    "name": "Grandmaster's Druid Robe .2",
+    "weight": 11.4
+  },
+  "T7_ARMOR_CLOTH_KEEPER@3": {
+    "name": "Grandmaster's Druid Robe .3",
+    "weight": 11.4
+  },
+  "T7_ARMOR_CLOTH_KEEPER@4": {
+    "name": "Grandmaster's Druid Robe .4",
+    "weight": 11.4
+  },
+  "T7_ARMOR_CLOTH_MORGANA": {
+    "name": "Grandmaster's Cultist Robe",
+    "weight": 11.4
+  },
+  "T7_ARTEFACT_ARMOR_CLOTH_MORGANA": {
+    "name": "Grandmaster's Artefact Armor Cloth Morgana",
+    "weight": 2
+  },
+  "T7_ARMOR_CLOTH_MORGANA@1": {
+    "name": "Grandmaster's Cultist Robe .1",
+    "weight": 11.4
+  },
+  "T7_ARMOR_CLOTH_MORGANA@2": {
+    "name": "Grandmaster's Cultist Robe .2",
+    "weight": 11.4
+  },
+  "T7_ARMOR_CLOTH_MORGANA@3": {
+    "name": "Grandmaster's Cultist Robe .3",
+    "weight": 11.4
+  },
+  "T7_ARMOR_CLOTH_MORGANA@4": {
+    "name": "Grandmaster's Cultist Robe .4",
+    "weight": 11.4
+  },
+  "T7_ARMOR_LEATHER_AVALON": {
+    "name": "Grandmaster's Jacket of Tenacity",
+    "weight": 11.4
+  },
+  "T7_ARTEFACT_ARMOR_LEATHER_AVALON": {
+    "name": "Grandmaster's Artefact Armor Leather Avalon",
+    "weight": 2
+  },
+  "T7_ARMOR_LEATHER_AVALON@1": {
+    "name": "Grandmaster's Jacket of Tenacity .1",
+    "weight": 11.4
+  },
+  "T7_ARMOR_LEATHER_AVALON@2": {
+    "name": "Grandmaster's Jacket of Tenacity .2",
+    "weight": 11.4
+  },
+  "T7_ARMOR_LEATHER_AVALON@3": {
+    "name": "Grandmaster's Jacket of Tenacity .3",
+    "weight": 11.4
+  },
+  "T7_ARMOR_LEATHER_AVALON@4": {
+    "name": "Grandmaster's Jacket of Tenacity .4",
+    "weight": 11.4
+  },
+  "T7_ARMOR_LEATHER_DRAGON": {
+    "name": "Grandmaster's Dragonslayer Jacket",
+    "weight": 11.4
+  },
+  "T7_ARTEFACT_ARMOR_LEATHER_DRAGON": {
+    "name": "Grandmaster's Artefact Armor Leather Dragon",
+    "weight": 2
+  },
+  "T7_ARMOR_LEATHER_DRAGON@1": {
+    "name": "Grandmaster's Dragonslayer Jacket .1",
+    "weight": 11.4
+  },
+  "T7_ARMOR_LEATHER_DRAGON@2": {
+    "name": "Grandmaster's Dragonslayer Jacket .2",
+    "weight": 11.4
+  },
+  "T7_ARMOR_LEATHER_DRAGON@3": {
+    "name": "Grandmaster's Dragonslayer Jacket .3",
+    "weight": 11.4
+  },
+  "T7_ARMOR_LEATHER_DRAGON@4": {
+    "name": "Grandmaster's Dragonslayer Jacket .4",
+    "weight": 11.4
+  },
+  "T7_ARMOR_LEATHER_FEY": {
+    "name": "Grandmaster's Mistwalker Jacket",
+    "weight": 11.4
+  },
+  "T7_ARTEFACT_ARMOR_LEATHER_FEY": {
+    "name": "Grandmaster's Artefact Armor Leather Fey",
+    "weight": 2
+  },
+  "T7_ARMOR_LEATHER_FEY@1": {
+    "name": "Grandmaster's Mistwalker Jacket .1",
+    "weight": 11.4
+  },
+  "T7_ARMOR_LEATHER_FEY@2": {
+    "name": "Grandmaster's Mistwalker Jacket .2",
+    "weight": 11.4
+  },
+  "T7_ARMOR_LEATHER_FEY@3": {
+    "name": "Grandmaster's Mistwalker Jacket .3",
+    "weight": 11.4
+  },
+  "T7_ARMOR_LEATHER_FEY@4": {
+    "name": "Grandmaster's Mistwalker Jacket .4",
+    "weight": 11.4
+  },
+  "T7_ARMOR_LEATHER_HELL": {
+    "name": "Grandmaster's Hellion Jacket",
+    "weight": 11.4
+  },
+  "T7_ARTEFACT_ARMOR_LEATHER_HELL": {
+    "name": "Grandmaster's Artefact Armor Leather Hell",
+    "weight": 2
+  },
+  "T7_ARMOR_LEATHER_HELL@1": {
+    "name": "Grandmaster's Hellion Jacket .1",
+    "weight": 11.4
+  },
+  "T7_ARMOR_LEATHER_HELL@2": {
+    "name": "Grandmaster's Hellion Jacket .2",
+    "weight": 11.4
+  },
+  "T7_ARMOR_LEATHER_HELL@3": {
+    "name": "Grandmaster's Hellion Jacket .3",
+    "weight": 11.4
+  },
+  "T7_ARMOR_LEATHER_HELL@4": {
+    "name": "Grandmaster's Hellion Jacket .4",
+    "weight": 11.4
+  },
+  "T7_ARMOR_LEATHER_MORGANA": {
+    "name": "Grandmaster's Stalker Jacket",
+    "weight": 11.4
+  },
+  "T7_ARTEFACT_ARMOR_LEATHER_MORGANA": {
+    "name": "Grandmaster's Artefact Armor Leather Morgana",
+    "weight": 2
+  },
+  "T7_ARMOR_LEATHER_MORGANA@1": {
+    "name": "Grandmaster's Stalker Jacket .1",
+    "weight": 11.4
+  },
+  "T7_ARMOR_LEATHER_MORGANA@2": {
+    "name": "Grandmaster's Stalker Jacket .2",
+    "weight": 11.4
+  },
+  "T7_ARMOR_LEATHER_MORGANA@3": {
+    "name": "Grandmaster's Stalker Jacket .3",
+    "weight": 11.4
+  },
+  "T7_ARMOR_LEATHER_MORGANA@4": {
+    "name": "Grandmaster's Stalker Jacket .4",
+    "weight": 11.4
+  },
+  "T7_ARMOR_LEATHER_UNDEAD": {
+    "name": "Grandmaster's Specter Jacket",
+    "weight": 11.4
+  },
+  "T7_ARTEFACT_ARMOR_LEATHER_UNDEAD": {
+    "name": "Grandmaster's Artefact Armor Leather Undead",
+    "weight": 2
+  },
+  "T7_ARMOR_LEATHER_UNDEAD@1": {
+    "name": "Grandmaster's Specter Jacket .1",
+    "weight": 11.4
+  },
+  "T7_ARMOR_LEATHER_UNDEAD@2": {
+    "name": "Grandmaster's Specter Jacket .2",
+    "weight": 11.4
+  },
+  "T7_ARMOR_LEATHER_UNDEAD@3": {
+    "name": "Grandmaster's Specter Jacket .3",
+    "weight": 11.4
+  },
+  "T7_ARMOR_LEATHER_UNDEAD@4": {
+    "name": "Grandmaster's Specter Jacket .4",
+    "weight": 11.4
+  },
+  "T7_ARMOR_PLATE_AVALON": {
+    "name": "Grandmaster's Armor of Valor",
+    "weight": 11.4
+  },
+  "T7_METALBAR": {
+    "name": "Meteorite Bar",
+    "weight": 1.71
+  },
+  "T7_ARTEFACT_ARMOR_PLATE_AVALON": {
+    "name": "Grandmaster's Artefact Armor Plate Avalon",
+    "weight": 2
+  },
+  "T7_ARMOR_PLATE_AVALON@1": {
+    "name": "Grandmaster's Armor of Valor .1",
+    "weight": 11.4
+  },
+  "T7_METALBAR@1": {
+    "name": "Meteorite Bar .1",
+    "weight": 1.71
+  },
+  "T7_ARMOR_PLATE_AVALON@2": {
+    "name": "Grandmaster's Armor of Valor .2",
+    "weight": 11.4
+  },
+  "T7_METALBAR@2": {
+    "name": "Meteorite Bar .2",
+    "weight": 1.71
+  },
+  "T7_ARMOR_PLATE_AVALON@3": {
+    "name": "Grandmaster's Armor of Valor .3",
+    "weight": 11.4
+  },
+  "T7_METALBAR@3": {
+    "name": "Meteorite Bar .3",
+    "weight": 1.71
+  },
+  "T7_ARMOR_PLATE_AVALON@4": {
+    "name": "Grandmaster's Armor of Valor .4",
+    "weight": 11.4
+  },
+  "T7_METALBAR@4": {
+    "name": "Meteorite Bar .4",
+    "weight": 1.71
+  },
+  "T7_ARMOR_PLATE_FEY": {
+    "name": "Grandmaster's Duskweaver Armor",
+    "weight": 11.4
+  },
+  "T7_ARTEFACT_ARMOR_PLATE_FEY": {
+    "name": "Grandmaster's Artefact Armor Plate Fey",
+    "weight": 2
+  },
+  "T7_ARMOR_PLATE_FEY@1": {
+    "name": "Grandmaster's Duskweaver Armor .1",
+    "weight": 11.4
+  },
+  "T7_ARMOR_PLATE_FEY@2": {
+    "name": "Grandmaster's Duskweaver Armor .2",
+    "weight": 11.4
+  },
+  "T7_ARMOR_PLATE_FEY@3": {
+    "name": "Grandmaster's Duskweaver Armor .3",
+    "weight": 11.4
+  },
+  "T7_ARMOR_PLATE_FEY@4": {
+    "name": "Grandmaster's Duskweaver Armor .4",
+    "weight": 11.4
+  },
+  "T7_ARMOR_PLATE_HELL": {
+    "name": "Grandmaster's Demon Armor",
+    "weight": 11.4
+  },
+  "T7_ARTEFACT_ARMOR_PLATE_HELL": {
+    "name": "Grandmaster's Artefact Armor Plate Hell",
+    "weight": 2
+  },
+  "T7_ARMOR_PLATE_HELL@1": {
+    "name": "Grandmaster's Demon Armor .1",
+    "weight": 11.4
+  },
+  "T7_ARMOR_PLATE_HELL@2": {
+    "name": "Grandmaster's Demon Armor .2",
+    "weight": 11.4
+  },
+  "T7_ARMOR_PLATE_HELL@3": {
+    "name": "Grandmaster's Demon Armor .3",
+    "weight": 11.4
+  },
+  "T7_ARMOR_PLATE_HELL@4": {
+    "name": "Grandmaster's Demon Armor .4",
+    "weight": 11.4
+  },
+  "T7_ARMOR_PLATE_KEEPER": {
+    "name": "Grandmaster's Judicator Armor",
+    "weight": 11.4
+  },
+  "T7_ARTEFACT_ARMOR_PLATE_KEEPER": {
+    "name": "Grandmaster's Artefact Armor Plate Keeper",
+    "weight": 2
+  },
+  "T7_ARMOR_PLATE_KEEPER@1": {
+    "name": "Grandmaster's Judicator Armor .1",
+    "weight": 11.4
+  },
+  "T7_ARMOR_PLATE_KEEPER@2": {
+    "name": "Grandmaster's Judicator Armor .2",
+    "weight": 11.4
+  },
+  "T7_ARMOR_PLATE_KEEPER@3": {
+    "name": "Grandmaster's Judicator Armor .3",
+    "weight": 11.4
+  },
+  "T7_ARMOR_PLATE_KEEPER@4": {
+    "name": "Grandmaster's Judicator Armor .4",
+    "weight": 11.4
+  },
+  "T7_ARMOR_PLATE_UNDEAD": {
+    "name": "Grandmaster's Graveguard Armor",
+    "weight": 11.4
+  },
+  "T7_ARTEFACT_ARMOR_PLATE_UNDEAD": {
+    "name": "Grandmaster's Artefact Armor Plate Undead",
+    "weight": 2
+  },
+  "T7_ARMOR_PLATE_UNDEAD@1": {
+    "name": "Grandmaster's Graveguard Armor .1",
+    "weight": 11.4
+  },
+  "T7_ARMOR_PLATE_UNDEAD@2": {
+    "name": "Grandmaster's Graveguard Armor .2",
+    "weight": 11.4
+  },
+  "T7_ARMOR_PLATE_UNDEAD@3": {
+    "name": "Grandmaster's Graveguard Armor .3",
+    "weight": 11.4
+  },
+  "T7_ARMOR_PLATE_UNDEAD@4": {
+    "name": "Grandmaster's Graveguard Armor .4",
+    "weight": 11.4
+  },
+  "T7_HEAD_LEATHER_SET3": {
+    "name": "Grandmaster's Assassin Hood",
+    "weight": 5.7
+  },
+  "T7_HEAD_LEATHER_SET3@1": {
+    "name": "Grandmaster's Assassin Hood .1",
+    "weight": 5.7
+  },
+  "T7_HEAD_LEATHER_SET3@2": {
+    "name": "Grandmaster's Assassin Hood .2",
+    "weight": 5.7
+  },
+  "T7_HEAD_LEATHER_SET3@3": {
+    "name": "Grandmaster's Assassin Hood .3",
+    "weight": 5.7
+  },
+  "T7_HEAD_LEATHER_SET3@4": {
+    "name": "Grandmaster's Assassin Hood .4",
+    "weight": 5.7
+  },
+  "T7_ARMOR_LEATHER_SET3": {
+    "name": "Grandmaster's Assassin Jacket",
+    "weight": 11.4
+  },
+  "T7_ARMOR_LEATHER_SET3@1": {
+    "name": "Grandmaster's Assassin Jacket .1",
+    "weight": 11.4
+  },
+  "T7_ARMOR_LEATHER_SET3@2": {
+    "name": "Grandmaster's Assassin Jacket .2",
+    "weight": 11.4
+  },
+  "T7_ARMOR_LEATHER_SET3@3": {
+    "name": "Grandmaster's Assassin Jacket .3",
+    "weight": 11.4
+  },
+  "T7_ARMOR_LEATHER_SET3@4": {
+    "name": "Grandmaster's Assassin Jacket .4",
+    "weight": 11.4
+  },
+  "T7_SHOES_LEATHER_SET3": {
+    "name": "Grandmaster's Assassin Shoes",
+    "weight": 5.7
+  },
+  "T7_SHOES_LEATHER_SET3@1": {
+    "name": "Grandmaster's Assassin Shoes .1",
+    "weight": 5.7
+  },
+  "T7_SHOES_LEATHER_SET3@2": {
+    "name": "Grandmaster's Assassin Shoes .2",
+    "weight": 5.7
+  },
+  "T7_SHOES_LEATHER_SET3@3": {
+    "name": "Grandmaster's Assassin Shoes .3",
+    "weight": 5.7
+  },
+  "T7_SHOES_LEATHER_SET3@4": {
+    "name": "Grandmaster's Assassin Shoes .4",
+    "weight": 5.7
+  },
+  "T7_HEAD_CLOTH_SET2": {
+    "name": "Grandmaster's Cleric Cowl",
+    "weight": 5.7
+  },
+  "T7_HEAD_CLOTH_SET2@1": {
+    "name": "Grandmaster's Cleric Cowl .1",
+    "weight": 5.7
+  },
+  "T7_HEAD_CLOTH_SET2@2": {
+    "name": "Grandmaster's Cleric Cowl .2",
+    "weight": 5.7
+  },
+  "T7_HEAD_CLOTH_SET2@3": {
+    "name": "Grandmaster's Cleric Cowl .3",
+    "weight": 5.7
+  },
+  "T7_HEAD_CLOTH_SET2@4": {
+    "name": "Grandmaster's Cleric Cowl .4",
+    "weight": 5.7
+  },
+  "T7_ARMOR_CLOTH_SET2": {
+    "name": "Grandmaster's Cleric Robe",
+    "weight": 11.4
+  },
+  "T7_ARMOR_CLOTH_SET2@1": {
+    "name": "Grandmaster's Cleric Robe .1",
+    "weight": 11.4
+  },
+  "T7_ARMOR_CLOTH_SET2@2": {
+    "name": "Grandmaster's Cleric Robe .2",
+    "weight": 11.4
+  },
+  "T7_ARMOR_CLOTH_SET2@3": {
+    "name": "Grandmaster's Cleric Robe .3",
+    "weight": 11.4
+  },
+  "T7_ARMOR_CLOTH_SET2@4": {
+    "name": "Grandmaster's Cleric Robe .4",
+    "weight": 11.4
+  },
+  "T7_SHOES_CLOTH_SET2": {
+    "name": "Grandmaster's Cleric Sandals",
+    "weight": 5.7
+  },
+  "T7_SHOES_CLOTH_SET2@1": {
+    "name": "Grandmaster's Cleric Sandals .1",
+    "weight": 5.7
+  },
+  "T7_SHOES_CLOTH_SET2@2": {
+    "name": "Grandmaster's Cleric Sandals .2",
+    "weight": 5.7
+  },
+  "T7_SHOES_CLOTH_SET2@3": {
+    "name": "Grandmaster's Cleric Sandals .3",
+    "weight": 5.7
+  },
+  "T7_SHOES_CLOTH_SET2@4": {
+    "name": "Grandmaster's Cleric Sandals .4",
+    "weight": 5.7
+  },
+  "T7_ARMOR_PLATE_SET3": {
+    "name": "Grandmaster's Guardian Armor",
+    "weight": 11.4
+  },
+  "T7_ARMOR_PLATE_SET3@1": {
+    "name": "Grandmaster's Guardian Armor .1",
+    "weight": 11.4
+  },
+  "T7_ARMOR_PLATE_SET3@2": {
+    "name": "Grandmaster's Guardian Armor .2",
+    "weight": 11.4
+  },
+  "T7_ARMOR_PLATE_SET3@3": {
+    "name": "Grandmaster's Guardian Armor .3",
+    "weight": 11.4
+  },
+  "T7_ARMOR_PLATE_SET3@4": {
+    "name": "Grandmaster's Guardian Armor .4",
+    "weight": 11.4
+  },
+  "T7_SHOES_PLATE_SET3": {
+    "name": "Grandmaster's Guardian Boots",
+    "weight": 5.7
+  },
+  "T7_SHOES_PLATE_SET3@1": {
+    "name": "Grandmaster's Guardian Boots .1",
+    "weight": 5.7
+  },
+  "T7_SHOES_PLATE_SET3@2": {
+    "name": "Grandmaster's Guardian Boots .2",
+    "weight": 5.7
+  },
+  "T7_SHOES_PLATE_SET3@3": {
+    "name": "Grandmaster's Guardian Boots .3",
+    "weight": 5.7
+  },
+  "T7_SHOES_PLATE_SET3@4": {
+    "name": "Grandmaster's Guardian Boots .4",
+    "weight": 5.7
+  },
+  "T7_HEAD_PLATE_SET3": {
+    "name": "Grandmaster's Guardian Helmet",
+    "weight": 5.7
+  },
+  "T7_HEAD_PLATE_SET3@1": {
+    "name": "Grandmaster's Guardian Helmet .1",
+    "weight": 5.7
+  },
+  "T7_HEAD_PLATE_SET3@2": {
+    "name": "Grandmaster's Guardian Helmet .2",
+    "weight": 5.7
+  },
+  "T7_HEAD_PLATE_SET3@3": {
+    "name": "Grandmaster's Guardian Helmet .3",
+    "weight": 5.7
+  },
+  "T7_HEAD_PLATE_SET3@4": {
+    "name": "Grandmaster's Guardian Helmet .4",
+    "weight": 5.7
+  },
+  "T7_HEAD_CLOTH_AVALON": {
+    "name": "Grandmaster's Cowl of Purity",
+    "weight": 5.7
+  },
+  "T7_ARTEFACT_HEAD_CLOTH_AVALON": {
+    "name": "Grandmaster's Artefact Head Cloth Avalon",
+    "weight": 2
+  },
+  "T7_HEAD_CLOTH_AVALON@1": {
+    "name": "Grandmaster's Cowl of Purity .1",
+    "weight": 5.7
+  },
+  "T7_HEAD_CLOTH_AVALON@2": {
+    "name": "Grandmaster's Cowl of Purity .2",
+    "weight": 5.7
+  },
+  "T7_HEAD_CLOTH_AVALON@3": {
+    "name": "Grandmaster's Cowl of Purity .3",
+    "weight": 5.7
+  },
+  "T7_HEAD_CLOTH_AVALON@4": {
+    "name": "Grandmaster's Cowl of Purity .4",
+    "weight": 5.7
+  },
+  "T7_HEAD_CLOTH_FEY": {
+    "name": "Grandmaster's Feyscale Hat",
+    "weight": 5.7
+  },
+  "T7_ARTEFACT_HEAD_CLOTH_FEY": {
+    "name": "Grandmaster's Artefact Head Cloth Fey",
+    "weight": 2
+  },
+  "T7_HEAD_CLOTH_FEY@1": {
+    "name": "Grandmaster's Feyscale Hat .1",
+    "weight": 5.7
+  },
+  "T7_HEAD_CLOTH_FEY@2": {
+    "name": "Grandmaster's Feyscale Hat .2",
+    "weight": 5.7
+  },
+  "T7_HEAD_CLOTH_FEY@3": {
+    "name": "Grandmaster's Feyscale Hat .3",
+    "weight": 5.7
+  },
+  "T7_HEAD_CLOTH_FEY@4": {
+    "name": "Grandmaster's Feyscale Hat .4",
+    "weight": 5.7
+  },
+  "T7_HEAD_CLOTH_HELL": {
+    "name": "Grandmaster's Fiend Cowl",
+    "weight": 5.7
+  },
+  "T7_ARTEFACT_HEAD_CLOTH_HELL": {
+    "name": "Grandmaster's Artefact Head Cloth Hell",
+    "weight": 2
+  },
+  "T7_HEAD_CLOTH_HELL@1": {
+    "name": "Grandmaster's Fiend Cowl .1",
+    "weight": 5.7
+  },
+  "T7_HEAD_CLOTH_HELL@2": {
+    "name": "Grandmaster's Fiend Cowl .2",
+    "weight": 5.7
+  },
+  "T7_HEAD_CLOTH_HELL@3": {
+    "name": "Grandmaster's Fiend Cowl .3",
+    "weight": 5.7
+  },
+  "T7_HEAD_CLOTH_HELL@4": {
+    "name": "Grandmaster's Fiend Cowl .4",
+    "weight": 5.7
+  },
+  "T7_HEAD_CLOTH_KEEPER": {
+    "name": "Grandmaster's Druid Cowl",
+    "weight": 5.7
+  },
+  "T7_ARTEFACT_HEAD_CLOTH_KEEPER": {
+    "name": "Grandmaster's Artefact Head Cloth Keeper",
+    "weight": 2
+  },
+  "T7_HEAD_CLOTH_KEEPER@1": {
+    "name": "Grandmaster's Druid Cowl .1",
+    "weight": 5.7
+  },
+  "T7_HEAD_CLOTH_KEEPER@2": {
+    "name": "Grandmaster's Druid Cowl .2",
+    "weight": 5.7
+  },
+  "T7_HEAD_CLOTH_KEEPER@3": {
+    "name": "Grandmaster's Druid Cowl .3",
+    "weight": 5.7
+  },
+  "T7_HEAD_CLOTH_KEEPER@4": {
+    "name": "Grandmaster's Druid Cowl .4",
+    "weight": 5.7
+  },
+  "T7_HEAD_CLOTH_MORGANA": {
+    "name": "Grandmaster's Cultist Cowl",
+    "weight": 5.7
+  },
+  "T7_ARTEFACT_HEAD_CLOTH_MORGANA": {
+    "name": "Grandmaster's Artefact Head Cloth Morgana",
+    "weight": 2
+  },
+  "T7_HEAD_CLOTH_MORGANA@1": {
+    "name": "Grandmaster's Cultist Cowl .1",
+    "weight": 5.7
+  },
+  "T7_HEAD_CLOTH_MORGANA@2": {
+    "name": "Grandmaster's Cultist Cowl .2",
+    "weight": 5.7
+  },
+  "T7_HEAD_CLOTH_MORGANA@3": {
+    "name": "Grandmaster's Cultist Cowl .3",
+    "weight": 5.7
+  },
+  "T7_HEAD_CLOTH_MORGANA@4": {
+    "name": "Grandmaster's Cultist Cowl .4",
+    "weight": 5.7
+  },
+  "T7_HEAD_LEATHER_AVALON": {
+    "name": "Grandmaster's Hood of Tenacity",
+    "weight": 5.7
+  },
+  "T7_ARTEFACT_HEAD_LEATHER_AVALON": {
+    "name": "Grandmaster's Artefact Head Leather Avalon",
+    "weight": 2
+  },
+  "T7_HEAD_LEATHER_AVALON@1": {
+    "name": "Grandmaster's Hood of Tenacity .1",
+    "weight": 5.7
+  },
+  "T7_HEAD_LEATHER_AVALON@2": {
+    "name": "Grandmaster's Hood of Tenacity .2",
+    "weight": 5.7
+  },
+  "T7_HEAD_LEATHER_AVALON@3": {
+    "name": "Grandmaster's Hood of Tenacity .3",
+    "weight": 5.7
+  },
+  "T7_HEAD_LEATHER_AVALON@4": {
+    "name": "Grandmaster's Hood of Tenacity .4",
+    "weight": 5.7
+  },
+  "T7_HEAD_LEATHER_DRAGON": {
+    "name": "Grandmaster's Dragonslayer Hood",
+    "weight": 5.7
+  },
+  "T7_ARTEFACT_HEAD_LEATHER_DRAGON": {
+    "name": "Grandmaster's Artefact Head Leather Dragon",
+    "weight": 2
+  },
+  "T7_HEAD_LEATHER_DRAGON@1": {
+    "name": "Grandmaster's Dragonslayer Hood .1",
+    "weight": 5.7
+  },
+  "T7_HEAD_LEATHER_DRAGON@2": {
+    "name": "Grandmaster's Dragonslayer Hood .2",
+    "weight": 5.7
+  },
+  "T7_HEAD_LEATHER_DRAGON@3": {
+    "name": "Grandmaster's Dragonslayer Hood .3",
+    "weight": 5.7
+  },
+  "T7_HEAD_LEATHER_DRAGON@4": {
+    "name": "Grandmaster's Dragonslayer Hood .4",
+    "weight": 5.7
+  },
+  "T7_HEAD_LEATHER_FEY": {
+    "name": "Grandmaster's Mistwalker Hood",
+    "weight": 5.7
+  },
+  "T7_ARTEFACT_HEAD_LEATHER_FEY": {
+    "name": "Grandmaster's Artefact Head Leather Fey",
+    "weight": 2
+  },
+  "T7_HEAD_LEATHER_FEY@1": {
+    "name": "Grandmaster's Mistwalker Hood .1",
+    "weight": 5.7
+  },
+  "T7_HEAD_LEATHER_FEY@2": {
+    "name": "Grandmaster's Mistwalker Hood .2",
+    "weight": 5.7
+  },
+  "T7_HEAD_LEATHER_FEY@3": {
+    "name": "Grandmaster's Mistwalker Hood .3",
+    "weight": 5.7
+  },
+  "T7_HEAD_LEATHER_FEY@4": {
+    "name": "Grandmaster's Mistwalker Hood .4",
+    "weight": 5.7
+  },
+  "T7_HEAD_LEATHER_HELL": {
+    "name": "Grandmaster's Hellion Hood",
+    "weight": 5.7
+  },
+  "T7_ARTEFACT_HEAD_LEATHER_HELL": {
+    "name": "Grandmaster's Artefact Head Leather Hell",
+    "weight": 2
+  },
+  "T7_HEAD_LEATHER_HELL@1": {
+    "name": "Grandmaster's Hellion Hood .1",
+    "weight": 5.7
+  },
+  "T7_HEAD_LEATHER_HELL@2": {
+    "name": "Grandmaster's Hellion Hood .2",
+    "weight": 5.7
+  },
+  "T7_HEAD_LEATHER_HELL@3": {
+    "name": "Grandmaster's Hellion Hood .3",
+    "weight": 5.7
+  },
+  "T7_HEAD_LEATHER_HELL@4": {
+    "name": "Grandmaster's Hellion Hood .4",
+    "weight": 5.7
+  },
+  "T7_HEAD_LEATHER_MORGANA": {
+    "name": "Grandmaster's Stalker Hood",
+    "weight": 5.7
+  },
+  "T7_ARTEFACT_HEAD_LEATHER_MORGANA": {
+    "name": "Grandmaster's Artefact Head Leather Morgana",
+    "weight": 2
+  },
+  "T7_HEAD_LEATHER_MORGANA@1": {
+    "name": "Grandmaster's Stalker Hood .1",
+    "weight": 5.7
+  },
+  "T7_HEAD_LEATHER_MORGANA@2": {
+    "name": "Grandmaster's Stalker Hood .2",
+    "weight": 5.7
+  },
+  "T7_HEAD_LEATHER_MORGANA@3": {
+    "name": "Grandmaster's Stalker Hood .3",
+    "weight": 5.7
+  },
+  "T7_HEAD_LEATHER_MORGANA@4": {
+    "name": "Grandmaster's Stalker Hood .4",
+    "weight": 5.7
+  },
+  "T7_HEAD_LEATHER_UNDEAD": {
+    "name": "Grandmaster's Specter Hood",
+    "weight": 5.7
+  },
+  "T7_ARTEFACT_HEAD_LEATHER_UNDEAD": {
+    "name": "Grandmaster's Artefact Head Leather Undead",
+    "weight": 2
+  },
+  "T7_HEAD_LEATHER_UNDEAD@1": {
+    "name": "Grandmaster's Specter Hood .1",
+    "weight": 5.7
+  },
+  "T7_HEAD_LEATHER_UNDEAD@2": {
+    "name": "Grandmaster's Specter Hood .2",
+    "weight": 5.7
+  },
+  "T7_HEAD_LEATHER_UNDEAD@3": {
+    "name": "Grandmaster's Specter Hood .3",
+    "weight": 5.7
+  },
+  "T7_HEAD_LEATHER_UNDEAD@4": {
+    "name": "Grandmaster's Specter Hood .4",
+    "weight": 5.7
+  },
+  "T7_HEAD_PLATE_AVALON": {
+    "name": "Grandmaster's Helmet of Valor",
+    "weight": 5.7
+  },
+  "T7_ARTEFACT_HEAD_PLATE_AVALON": {
+    "name": "Grandmaster's Artefact Head Plate Avalon",
+    "weight": 2
+  },
+  "T7_HEAD_PLATE_AVALON@1": {
+    "name": "Grandmaster's Helmet of Valor .1",
+    "weight": 5.7
+  },
+  "T7_HEAD_PLATE_AVALON@2": {
+    "name": "Grandmaster's Helmet of Valor .2",
+    "weight": 5.7
+  },
+  "T7_HEAD_PLATE_AVALON@3": {
+    "name": "Grandmaster's Helmet of Valor .3",
+    "weight": 5.7
+  },
+  "T7_HEAD_PLATE_AVALON@4": {
+    "name": "Grandmaster's Helmet of Valor .4",
+    "weight": 5.7
+  },
+  "T7_HEAD_PLATE_FEY": {
+    "name": "Grandmaster's Duskweaver Helmet",
+    "weight": 5.7
+  },
+  "T7_ARTEFACT_HEAD_PLATE_FEY": {
+    "name": "Grandmaster's Artefact Head Plate Fey",
+    "weight": 2
+  },
+  "T7_HEAD_PLATE_FEY@1": {
+    "name": "Grandmaster's Duskweaver Helmet .1",
+    "weight": 5.7
+  },
+  "T7_HEAD_PLATE_FEY@2": {
+    "name": "Grandmaster's Duskweaver Helmet .2",
+    "weight": 5.7
+  },
+  "T7_HEAD_PLATE_FEY@3": {
+    "name": "Grandmaster's Duskweaver Helmet .3",
+    "weight": 5.7
+  },
+  "T7_HEAD_PLATE_FEY@4": {
+    "name": "Grandmaster's Duskweaver Helmet .4",
+    "weight": 5.7
+  },
+  "T7_HEAD_PLATE_HELL": {
+    "name": "Grandmaster's Demon Helmet",
+    "weight": 5.7
+  },
+  "T7_ARTEFACT_HEAD_PLATE_HELL": {
+    "name": "Grandmaster's Artefact Head Plate Hell",
+    "weight": 2
+  },
+  "T7_HEAD_PLATE_HELL@1": {
+    "name": "Grandmaster's Demon Helmet .1",
+    "weight": 5.7
+  },
+  "T7_HEAD_PLATE_HELL@2": {
+    "name": "Grandmaster's Demon Helmet .2",
+    "weight": 5.7
+  },
+  "T7_HEAD_PLATE_HELL@3": {
+    "name": "Grandmaster's Demon Helmet .3",
+    "weight": 5.7
+  },
+  "T7_HEAD_PLATE_HELL@4": {
+    "name": "Grandmaster's Demon Helmet .4",
+    "weight": 5.7
+  },
+  "T7_HEAD_PLATE_KEEPER": {
+    "name": "Grandmaster's Judicator Helmet",
+    "weight": 5.7
+  },
+  "T7_ARTEFACT_HEAD_PLATE_KEEPER": {
+    "name": "Grandmaster's Artefact Head Plate Keeper",
+    "weight": 2
+  },
+  "T7_HEAD_PLATE_KEEPER@1": {
+    "name": "Grandmaster's Judicator Helmet .1",
+    "weight": 5.7
+  },
+  "T7_HEAD_PLATE_KEEPER@2": {
+    "name": "Grandmaster's Judicator Helmet .2",
+    "weight": 5.7
+  },
+  "T7_HEAD_PLATE_KEEPER@3": {
+    "name": "Grandmaster's Judicator Helmet .3",
+    "weight": 5.7
+  },
+  "T7_HEAD_PLATE_KEEPER@4": {
+    "name": "Grandmaster's Judicator Helmet .4",
+    "weight": 5.7
+  },
+  "T7_HEAD_PLATE_UNDEAD": {
+    "name": "Grandmaster's Graveguard Helmet",
+    "weight": 5.7
+  },
+  "T7_ARTEFACT_HEAD_PLATE_UNDEAD": {
+    "name": "Grandmaster's Artefact Head Plate Undead",
+    "weight": 2
+  },
+  "T7_HEAD_PLATE_UNDEAD@1": {
+    "name": "Grandmaster's Graveguard Helmet .1",
+    "weight": 5.7
+  },
+  "T7_HEAD_PLATE_UNDEAD@2": {
+    "name": "Grandmaster's Graveguard Helmet .2",
+    "weight": 5.7
+  },
+  "T7_HEAD_PLATE_UNDEAD@3": {
+    "name": "Grandmaster's Graveguard Helmet .3",
+    "weight": 5.7
+  },
+  "T7_HEAD_PLATE_UNDEAD@4": {
+    "name": "Grandmaster's Graveguard Helmet .4",
+    "weight": 5.7
+  },
+  "T7_HEAD_LEATHER_SET2": {
+    "name": "Grandmaster's Hunter Hood",
+    "weight": 5.7
+  },
+  "T7_HEAD_LEATHER_SET2@1": {
+    "name": "Grandmaster's Hunter Hood .1",
+    "weight": 5.7
+  },
+  "T7_HEAD_LEATHER_SET2@2": {
+    "name": "Grandmaster's Hunter Hood .2",
+    "weight": 5.7
+  },
+  "T7_HEAD_LEATHER_SET2@3": {
+    "name": "Grandmaster's Hunter Hood .3",
+    "weight": 5.7
+  },
+  "T7_HEAD_LEATHER_SET2@4": {
+    "name": "Grandmaster's Hunter Hood .4",
+    "weight": 5.7
+  },
+  "T7_ARMOR_LEATHER_SET2": {
+    "name": "Grandmaster's Hunter Jacket",
+    "weight": 11.4
+  },
+  "T7_ARMOR_LEATHER_SET2@1": {
+    "name": "Grandmaster's Hunter Jacket .1",
+    "weight": 11.4
+  },
+  "T7_ARMOR_LEATHER_SET2@2": {
+    "name": "Grandmaster's Hunter Jacket .2",
+    "weight": 11.4
+  },
+  "T7_ARMOR_LEATHER_SET2@3": {
+    "name": "Grandmaster's Hunter Jacket .3",
+    "weight": 11.4
+  },
+  "T7_ARMOR_LEATHER_SET2@4": {
+    "name": "Grandmaster's Hunter Jacket .4",
+    "weight": 11.4
+  },
+  "T7_SHOES_LEATHER_SET2": {
+    "name": "Grandmaster's Hunter Shoes",
+    "weight": 5.7
+  },
+  "T7_SHOES_LEATHER_SET2@1": {
+    "name": "Grandmaster's Hunter Shoes .1",
+    "weight": 5.7
+  },
+  "T7_SHOES_LEATHER_SET2@2": {
+    "name": "Grandmaster's Hunter Shoes .2",
+    "weight": 5.7
+  },
+  "T7_SHOES_LEATHER_SET2@3": {
+    "name": "Grandmaster's Hunter Shoes .3",
+    "weight": 5.7
+  },
+  "T7_SHOES_LEATHER_SET2@4": {
+    "name": "Grandmaster's Hunter Shoes .4",
+    "weight": 5.7
+  },
+  "T7_ARMOR_PLATE_SET2": {
+    "name": "Grandmaster's Knight Armor",
+    "weight": 11.4
+  },
+  "T7_ARMOR_PLATE_SET2@1": {
+    "name": "Grandmaster's Knight Armor .1",
+    "weight": 11.4
+  },
+  "T7_ARMOR_PLATE_SET2@2": {
+    "name": "Grandmaster's Knight Armor .2",
+    "weight": 11.4
+  },
+  "T7_ARMOR_PLATE_SET2@3": {
+    "name": "Grandmaster's Knight Armor .3",
+    "weight": 11.4
+  },
+  "T7_ARMOR_PLATE_SET2@4": {
+    "name": "Grandmaster's Knight Armor .4",
+    "weight": 11.4
+  },
+  "T7_SHOES_PLATE_SET2": {
+    "name": "Grandmaster's Knight Boots",
+    "weight": 5.7
+  },
+  "T7_SHOES_PLATE_SET2@1": {
+    "name": "Grandmaster's Knight Boots .1",
+    "weight": 5.7
+  },
+  "T7_SHOES_PLATE_SET2@2": {
+    "name": "Grandmaster's Knight Boots .2",
+    "weight": 5.7
+  },
+  "T7_SHOES_PLATE_SET2@3": {
+    "name": "Grandmaster's Knight Boots .3",
+    "weight": 5.7
+  },
+  "T7_SHOES_PLATE_SET2@4": {
+    "name": "Grandmaster's Knight Boots .4",
+    "weight": 5.7
+  },
+  "T7_HEAD_PLATE_SET2": {
+    "name": "Grandmaster's Knight Helmet",
+    "weight": 5.7
+  },
+  "T7_HEAD_PLATE_SET2@1": {
+    "name": "Grandmaster's Knight Helmet .1",
+    "weight": 5.7
+  },
+  "T7_HEAD_PLATE_SET2@2": {
+    "name": "Grandmaster's Knight Helmet .2",
+    "weight": 5.7
+  },
+  "T7_HEAD_PLATE_SET2@3": {
+    "name": "Grandmaster's Knight Helmet .3",
+    "weight": 5.7
+  },
+  "T7_HEAD_PLATE_SET2@4": {
+    "name": "Grandmaster's Knight Helmet .4",
+    "weight": 5.7
+  },
+  "T7_HEAD_CLOTH_SET3": {
+    "name": "Grandmaster's Mage Cowl",
+    "weight": 5.7
+  },
+  "T7_HEAD_CLOTH_SET3@1": {
+    "name": "Grandmaster's Mage Cowl .1",
+    "weight": 5.7
+  },
+  "T7_HEAD_CLOTH_SET3@2": {
+    "name": "Grandmaster's Mage Cowl .2",
+    "weight": 5.7
+  },
+  "T7_HEAD_CLOTH_SET3@3": {
+    "name": "Grandmaster's Mage Cowl .3",
+    "weight": 5.7
+  },
+  "T7_HEAD_CLOTH_SET3@4": {
+    "name": "Grandmaster's Mage Cowl .4",
+    "weight": 5.7
+  },
+  "T7_ARMOR_CLOTH_SET3": {
+    "name": "Grandmaster's Mage Robe",
+    "weight": 11.4
+  },
+  "T7_ARMOR_CLOTH_SET3@1": {
+    "name": "Grandmaster's Mage Robe .1",
+    "weight": 11.4
+  },
+  "T7_ARMOR_CLOTH_SET3@2": {
+    "name": "Grandmaster's Mage Robe .2",
+    "weight": 11.4
+  },
+  "T7_ARMOR_CLOTH_SET3@3": {
+    "name": "Grandmaster's Mage Robe .3",
+    "weight": 11.4
+  },
+  "T7_ARMOR_CLOTH_SET3@4": {
+    "name": "Grandmaster's Mage Robe .4",
+    "weight": 11.4
+  },
+  "T7_SHOES_CLOTH_SET3": {
+    "name": "Grandmaster's Mage Sandals",
+    "weight": 5.7
+  },
+  "T7_SHOES_CLOTH_SET3@1": {
+    "name": "Grandmaster's Mage Sandals .1",
+    "weight": 5.7
+  },
+  "T7_SHOES_CLOTH_SET3@2": {
+    "name": "Grandmaster's Mage Sandals .2",
+    "weight": 5.7
+  },
+  "T7_SHOES_CLOTH_SET3@3": {
+    "name": "Grandmaster's Mage Sandals .3",
+    "weight": 5.7
+  },
+  "T7_SHOES_CLOTH_SET3@4": {
+    "name": "Grandmaster's Mage Sandals .4",
+    "weight": 5.7
+  },
+  "T7_HEAD_LEATHER_SET1": {
+    "name": "Grandmaster's Mercenary Hood",
+    "weight": 5.7
+  },
+  "T7_HEAD_LEATHER_SET1@1": {
+    "name": "Grandmaster's Mercenary Hood .1",
+    "weight": 5.7
+  },
+  "T7_HEAD_LEATHER_SET1@2": {
+    "name": "Grandmaster's Mercenary Hood .2",
+    "weight": 5.7
+  },
+  "T7_HEAD_LEATHER_SET1@3": {
+    "name": "Grandmaster's Mercenary Hood .3",
+    "weight": 5.7
+  },
+  "T7_HEAD_LEATHER_SET1@4": {
+    "name": "Grandmaster's Mercenary Hood .4",
+    "weight": 5.7
+  },
+  "T7_ARMOR_LEATHER_SET1": {
+    "name": "Grandmaster's Mercenary Jacket",
+    "weight": 11.4
+  },
+  "T7_ARMOR_LEATHER_SET1@1": {
+    "name": "Grandmaster's Mercenary Jacket .1",
+    "weight": 11.4
+  },
+  "T7_ARMOR_LEATHER_SET1@2": {
+    "name": "Grandmaster's Mercenary Jacket .2",
+    "weight": 11.4
+  },
+  "T7_ARMOR_LEATHER_SET1@3": {
+    "name": "Grandmaster's Mercenary Jacket .3",
+    "weight": 11.4
+  },
+  "T7_ARMOR_LEATHER_SET1@4": {
+    "name": "Grandmaster's Mercenary Jacket .4",
+    "weight": 11.4
+  },
+  "T7_SHOES_LEATHER_SET1": {
+    "name": "Grandmaster's Mercenary Shoes",
+    "weight": 5.7
+  },
+  "T7_SHOES_LEATHER_SET1@1": {
+    "name": "Grandmaster's Mercenary Shoes .1",
+    "weight": 5.7
+  },
+  "T7_SHOES_LEATHER_SET1@2": {
+    "name": "Grandmaster's Mercenary Shoes .2",
+    "weight": 5.7
+  },
+  "T7_SHOES_LEATHER_SET1@3": {
+    "name": "Grandmaster's Mercenary Shoes .3",
+    "weight": 5.7
+  },
+  "T7_SHOES_LEATHER_SET1@4": {
+    "name": "Grandmaster's Mercenary Shoes .4",
+    "weight": 5.7
+  },
+  "T7_HEAD_CLOTH_SET1": {
+    "name": "Grandmaster's Scholar Cowl",
+    "weight": 5.7
+  },
+  "T7_HEAD_CLOTH_SET1@1": {
+    "name": "Grandmaster's Scholar Cowl .1",
+    "weight": 5.7
+  },
+  "T7_HEAD_CLOTH_SET1@2": {
+    "name": "Grandmaster's Scholar Cowl .2",
+    "weight": 5.7
+  },
+  "T7_HEAD_CLOTH_SET1@3": {
+    "name": "Grandmaster's Scholar Cowl .3",
+    "weight": 5.7
+  },
+  "T7_HEAD_CLOTH_SET1@4": {
+    "name": "Grandmaster's Scholar Cowl .4",
+    "weight": 5.7
+  },
+  "T7_ARMOR_CLOTH_SET1": {
+    "name": "Grandmaster's Scholar Robe",
+    "weight": 11.4
+  },
+  "T7_ARMOR_CLOTH_SET1@1": {
+    "name": "Grandmaster's Scholar Robe .1",
+    "weight": 11.4
+  },
+  "T7_ARMOR_CLOTH_SET1@2": {
+    "name": "Grandmaster's Scholar Robe .2",
+    "weight": 11.4
+  },
+  "T7_ARMOR_CLOTH_SET1@3": {
+    "name": "Grandmaster's Scholar Robe .3",
+    "weight": 11.4
+  },
+  "T7_ARMOR_CLOTH_SET1@4": {
+    "name": "Grandmaster's Scholar Robe .4",
+    "weight": 11.4
+  },
+  "T7_SHOES_CLOTH_SET1": {
+    "name": "Grandmaster's Scholar Sandals",
+    "weight": 5.7
+  },
+  "T7_SHOES_CLOTH_SET1@1": {
+    "name": "Grandmaster's Scholar Sandals .1",
+    "weight": 5.7
+  }
+}

@@ -1,0 +1,6838 @@
+{
+  "T5_ARTEFACT_2H_HOLYSTAFF_HELL": {
+    "name": "Expert's Artefact Holystaff Hell",
+    "weight": 2
+  },
+  "T5_2H_HOLYSTAFF_HELL@1": {
+    "name": "Expert's Fallen Staff .1",
+    "weight": 10.1
+  },
+  "T5_2H_HOLYSTAFF_HELL@2": {
+    "name": "Expert's Fallen Staff .2",
+    "weight": 10.1
+  },
+  "T5_2H_HOLYSTAFF_HELL@3": {
+    "name": "Expert's Fallen Staff .3",
+    "weight": 10.1
+  },
+  "T5_2H_HOLYSTAFF_HELL@4": {
+    "name": "Expert's Fallen Staff .4",
+    "weight": 10.1
+  },
+  "T5_2H_HOLYSTAFF_UNDEAD": {
+    "name": "Expert's Redemption Staff",
+    "weight": 10.1
+  },
+  "T5_ARTEFACT_2H_HOLYSTAFF_UNDEAD": {
+    "name": "Expert's Artefact Holystaff Undead",
+    "weight": 2
+  },
+  "T5_2H_HOLYSTAFF_UNDEAD@1": {
+    "name": "Expert's Redemption Staff .1",
+    "weight": 10.1
+  },
+  "T5_2H_HOLYSTAFF_UNDEAD@2": {
+    "name": "Expert's Redemption Staff .2",
+    "weight": 10.1
+  },
+  "T5_2H_HOLYSTAFF_UNDEAD@3": {
+    "name": "Expert's Redemption Staff .3",
+    "weight": 10.1
+  },
+  "T5_2H_HOLYSTAFF_UNDEAD@4": {
+    "name": "Expert's Redemption Staff .4",
+    "weight": 10.1
+  },
+  "T5_2H_NATURESTAFF": {
+    "name": "Expert's Great Nature Staff",
+    "weight": 10.1
+  },
+  "T5_2H_NATURESTAFF@1": {
+    "name": "Expert's Great Nature Staff .1",
+    "weight": 10.1
+  },
+  "T5_2H_NATURESTAFF@2": {
+    "name": "Expert's Great Nature Staff .2",
+    "weight": 10.1
+  },
+  "T5_2H_NATURESTAFF@3": {
+    "name": "Expert's Great Nature Staff .3",
+    "weight": 10.1
+  },
+  "T5_2H_NATURESTAFF@4": {
+    "name": "Expert's Great Nature Staff .4",
+    "weight": 10.1
+  },
+  "T5_2H_NATURESTAFF_HELL": {
+    "name": "Expert's Blight Staff",
+    "weight": 10.1
+  },
+  "T5_ARTEFACT_2H_NATURESTAFF_HELL": {
+    "name": "Expert's Artefact Naturestaff Hell",
+    "weight": 2
+  },
+  "T5_2H_NATURESTAFF_HELL@1": {
+    "name": "Expert's Blight Staff .1",
+    "weight": 10.1
+  },
+  "T5_2H_NATURESTAFF_HELL@2": {
+    "name": "Expert's Blight Staff .2",
+    "weight": 10.1
+  },
+  "T5_2H_NATURESTAFF_HELL@3": {
+    "name": "Expert's Blight Staff .3",
+    "weight": 10.1
+  },
+  "T5_2H_NATURESTAFF_HELL@4": {
+    "name": "Expert's Blight Staff .4",
+    "weight": 10.1
+  },
+  "T5_2H_NATURESTAFF_KEEPER": {
+    "name": "Expert's Rampant Staff",
+    "weight": 10.1
+  },
+  "T5_ARTEFACT_2H_NATURESTAFF_KEEPER": {
+    "name": "Expert's Artefact Naturestaff Keeper",
+    "weight": 2
+  },
+  "T5_2H_NATURESTAFF_KEEPER@1": {
+    "name": "Expert's Rampant Staff .1",
+    "weight": 10.1
+  },
+  "T5_2H_NATURESTAFF_KEEPER@2": {
+    "name": "Expert's Rampant Staff .2",
+    "weight": 10.1
+  },
+  "T5_2H_NATURESTAFF_KEEPER@3": {
+    "name": "Expert's Rampant Staff .3",
+    "weight": 10.1
+  },
+  "T5_2H_NATURESTAFF_KEEPER@4": {
+    "name": "Expert's Rampant Staff .4",
+    "weight": 10.1
+  },
+  "T5_2H_AXE": {
+    "name": "Expert's Greataxe",
+    "weight": 10.1
+  },
+  "T5_2H_AXE@1": {
+    "name": "Expert's Greataxe .1",
+    "weight": 10.1
+  },
+  "T5_2H_AXE@2": {
+    "name": "Expert's Greataxe .2",
+    "weight": 10.1
+  },
+  "T5_2H_AXE@3": {
+    "name": "Expert's Greataxe .3",
+    "weight": 10.1
+  },
+  "T5_2H_AXE@4": {
+    "name": "Expert's Greataxe .4",
+    "weight": 10.1
+  },
+  "T5_2H_AXE_AVALON": {
+    "name": "Expert's Realmbreaker",
+    "weight": 10.1
+  },
+  "T5_ARTEFACT_2H_AXE_AVALON": {
+    "name": "Expert's Artefact Axe Avalon",
+    "weight": 2
+  },
+  "T5_2H_AXE_AVALON@1": {
+    "name": "Expert's Realmbreaker .1",
+    "weight": 10.1
+  },
+  "T5_2H_AXE_AVALON@2": {
+    "name": "Expert's Realmbreaker .2",
+    "weight": 10.1
+  },
+  "T5_2H_AXE_AVALON@3": {
+    "name": "Expert's Realmbreaker .3",
+    "weight": 10.1
+  },
+  "T5_2H_AXE_AVALON@4": {
+    "name": "Expert's Realmbreaker .4",
+    "weight": 10.1
+  },
+  "T5_2H_HALBERD": {
+    "name": "Expert's Halberd",
+    "weight": 10.1
+  },
+  "T5_2H_HALBERD@1": {
+    "name": "Expert's Halberd .1",
+    "weight": 10.1
+  },
+  "T5_2H_HALBERD@2": {
+    "name": "Expert's Halberd .2",
+    "weight": 10.1
+  },
+  "T5_2H_HALBERD@3": {
+    "name": "Expert's Halberd .3",
+    "weight": 10.1
+  },
+  "T5_2H_HALBERD@4": {
+    "name": "Expert's Halberd .4",
+    "weight": 10.1
+  },
+  "T5_2H_HALBERD_MORGANA": {
+    "name": "Expert's Carrioncaller",
+    "weight": 10.1
+  },
+  "T5_ARTEFACT_2H_HALBERD_MORGANA": {
+    "name": "Expert's Artefact Halberd Morgana",
+    "weight": 2
+  },
+  "T5_2H_HALBERD_MORGANA@1": {
+    "name": "Expert's Carrioncaller .1",
+    "weight": 10.1
+  },
+  "T5_2H_HALBERD_MORGANA@2": {
+    "name": "Expert's Carrioncaller .2",
+    "weight": 10.1
+  },
+  "T5_2H_HALBERD_MORGANA@3": {
+    "name": "Expert's Carrioncaller .3",
+    "weight": 10.1
+  },
+  "T5_2H_HALBERD_MORGANA@4": {
+    "name": "Expert's Carrioncaller .4",
+    "weight": 10.1
+  },
+  "T5_MAIN_HAMMER": {
+    "name": "Expert's Hammer",
+    "weight": 7.6
+  },
+  "T5_MAIN_HAMMER@1": {
+    "name": "Expert's Hammer .1",
+    "weight": 7.6
+  },
+  "T5_MAIN_HAMMER@2": {
+    "name": "Expert's Hammer .2",
+    "weight": 7.6
+  },
+  "T5_MAIN_HAMMER@3": {
+    "name": "Expert's Hammer .3",
+    "weight": 7.6
+  },
+  "T5_MAIN_HAMMER@4": {
+    "name": "Expert's Hammer .4",
+    "weight": 7.6
+  },
+  "T5_2H_CROSSBOWLARGE": {
+    "name": "Expert's Heavy Crossbow",
+    "weight": 10.1
+  },
+  "T5_2H_CROSSBOWLARGE@1": {
+    "name": "Expert's Heavy Crossbow .1",
+    "weight": 10.1
+  },
+  "T5_2H_CROSSBOWLARGE@2": {
+    "name": "Expert's Heavy Crossbow .2",
+    "weight": 10.1
+  },
+  "T5_2H_CROSSBOWLARGE@3": {
+    "name": "Expert's Heavy Crossbow .3",
+    "weight": 10.1
+  },
+  "T5_2H_CROSSBOWLARGE@4": {
+    "name": "Expert's Heavy Crossbow .4",
+    "weight": 10.1
+  },
+  "T5_2H_CROSSBOWLARGE_MORGANA": {
+    "name": "Expert's Siegebow",
+    "weight": 10.1
+  },
+  "T5_ARTEFACT_2H_CROSSBOWLARGE_MORGANA": {
+    "name": "Expert's Artefact Crossbowlarge Morgana",
+    "weight": 2
+  },
+  "T5_2H_CROSSBOWLARGE_MORGANA@1": {
+    "name": "Expert's Siegebow .1",
+    "weight": 10.1
+  },
+  "T5_2H_CROSSBOWLARGE_MORGANA@2": {
+    "name": "Expert's Siegebow .2",
+    "weight": 10.1
+  },
+  "T5_2H_CROSSBOWLARGE_MORGANA@3": {
+    "name": "Expert's Siegebow .3",
+    "weight": 10.1
+  },
+  "T5_2H_CROSSBOWLARGE_MORGANA@4": {
+    "name": "Expert's Siegebow .4",
+    "weight": 10.1
+  },
+  "T5_2H_MACE": {
+    "name": "Expert's Heavy Mace",
+    "weight": 10.1
+  },
+  "T5_2H_MACE@1": {
+    "name": "Expert's Heavy Mace .1",
+    "weight": 10.1
+  },
+  "T5_2H_MACE@2": {
+    "name": "Expert's Heavy Mace .2",
+    "weight": 10.1
+  },
+  "T5_2H_MACE@3": {
+    "name": "Expert's Heavy Mace .3",
+    "weight": 10.1
+  },
+  "T5_2H_MACE@4": {
+    "name": "Expert's Heavy Mace .4",
+    "weight": 10.1
+  },
+  "T5_2H_MACE_MORGANA": {
+    "name": "Expert's Camlann Mace",
+    "weight": 10.1
+  },
+  "T5_ARTEFACT_2H_MACE_MORGANA": {
+    "name": "Expert's Artefact Mace Morgana",
+    "weight": 2
+  },
+  "T5_2H_MACE_MORGANA@1": {
+    "name": "Expert's Camlann Mace .1",
+    "weight": 10.1
+  },
+  "T5_2H_MACE_MORGANA@2": {
+    "name": "Expert's Camlann Mace .2",
+    "weight": 10.1
+  },
+  "T5_2H_MACE_MORGANA@3": {
+    "name": "Expert's Camlann Mace .3",
+    "weight": 10.1
+  },
+  "T5_2H_MACE_MORGANA@4": {
+    "name": "Expert's Camlann Mace .4",
+    "weight": 10.1
+  },
+  "T5_MAIN_HOLYSTAFF": {
+    "name": "Expert's Holy Staff",
+    "weight": 7.6
+  },
+  "T5_MAIN_HOLYSTAFF@1": {
+    "name": "Expert's Holy Staff .1",
+    "weight": 7.6
+  },
+  "T5_MAIN_HOLYSTAFF@2": {
+    "name": "Expert's Holy Staff .2",
+    "weight": 7.6
+  },
+  "T5_MAIN_HOLYSTAFF@3": {
+    "name": "Expert's Holy Staff .3",
+    "weight": 7.6
+  },
+  "T5_MAIN_HOLYSTAFF@4": {
+    "name": "Expert's Holy Staff .4",
+    "weight": 7.6
+  },
+  "T5_MAIN_HOLYSTAFF_AVALON": {
+    "name": "Expert's Hallowfall",
+    "weight": 7.6
+  },
+  "T5_ARTEFACT_MAIN_HOLYSTAFF_AVALON": {
+    "name": "Expert's Artefact Holystaff Avalon",
+    "weight": 2
+  },
+  "T5_MAIN_HOLYSTAFF_AVALON@1": {
+    "name": "Expert's Hallowfall .1",
+    "weight": 7.6
+  },
+  "T5_MAIN_HOLYSTAFF_AVALON@2": {
+    "name": "Expert's Hallowfall .2",
+    "weight": 7.6
+  },
+  "T5_MAIN_HOLYSTAFF_AVALON@3": {
+    "name": "Expert's Hallowfall .3",
+    "weight": 7.6
+  },
+  "T5_MAIN_HOLYSTAFF_AVALON@4": {
+    "name": "Expert's Hallowfall .4",
+    "weight": 7.6
+  },
+  "T5_MAIN_HOLYSTAFF_MORGANA": {
+    "name": "Expert's Lifetouch Staff",
+    "weight": 7.6
+  },
+  "T5_ARTEFACT_MAIN_HOLYSTAFF_MORGANA": {
+    "name": "Expert's Artefact Holystaff Morgana",
+    "weight": 2
+  },
+  "T5_MAIN_HOLYSTAFF_MORGANA@1": {
+    "name": "Expert's Lifetouch Staff .1",
+    "weight": 7.6
+  },
+  "T5_MAIN_HOLYSTAFF_MORGANA@2": {
+    "name": "Expert's Lifetouch Staff .2",
+    "weight": 7.6
+  },
+  "T5_MAIN_HOLYSTAFF_MORGANA@3": {
+    "name": "Expert's Lifetouch Staff .3",
+    "weight": 7.6
+  },
+  "T5_MAIN_HOLYSTAFF_MORGANA@4": {
+    "name": "Expert's Lifetouch Staff .4",
+    "weight": 7.6
+  },
+  "T5_2H_ICECRYSTAL_UNDEAD": {
+    "name": "Expert's Permafrost Prism",
+    "weight": 10.1
+  },
+  "T5_ARTEFACT_2H_ICECRYSTAL_UNDEAD": {
+    "name": "Expert's Artefact Icecrystal Undead",
+    "weight": 2
+  },
+  "T5_2H_ICECRYSTAL_UNDEAD@1": {
+    "name": "Expert's Permafrost Prism .1",
+    "weight": 10.1
+  },
+  "T5_2H_ICECRYSTAL_UNDEAD@2": {
+    "name": "Expert's Permafrost Prism .2",
+    "weight": 10.1
+  },
+  "T5_2H_ICECRYSTAL_UNDEAD@3": {
+    "name": "Expert's Permafrost Prism .3",
+    "weight": 10.1
+  },
+  "T5_2H_ICECRYSTAL_UNDEAD@4": {
+    "name": "Expert's Permafrost Prism .4",
+    "weight": 10.1
+  },
+  "T5_2H_ICEGAUNTLETS_HELL": {
+    "name": "Expert's Icicle Staff",
+    "weight": 10.1
+  },
+  "T5_ARTEFACT_2H_ICEGAUNTLETS_HELL": {
+    "name": "Expert's Artefact Icegauntlets Hell",
+    "weight": 2
+  },
+  "T5_2H_ICEGAUNTLETS_HELL@1": {
+    "name": "Expert's Icicle Staff .1",
+    "weight": 10.1
+  },
+  "T5_2H_ICEGAUNTLETS_HELL@2": {
+    "name": "Expert's Icicle Staff .2",
+    "weight": 10.1
+  },
+  "T5_2H_ICEGAUNTLETS_HELL@3": {
+    "name": "Expert's Icicle Staff .3",
+    "weight": 10.1
+  },
+  "T5_2H_ICEGAUNTLETS_HELL@4": {
+    "name": "Expert's Icicle Staff .4",
+    "weight": 10.1
+  },
+  "T5_2H_INFERNOSTAFF": {
+    "name": "Expert's Infernal Staff",
+    "weight": 10.1
+  },
+  "T5_2H_INFERNOSTAFF@1": {
+    "name": "Expert's Infernal Staff .1",
+    "weight": 10.1
+  },
+  "T5_2H_INFERNOSTAFF@2": {
+    "name": "Expert's Infernal Staff .2",
+    "weight": 10.1
+  },
+  "T5_2H_INFERNOSTAFF@3": {
+    "name": "Expert's Infernal Staff .3",
+    "weight": 10.1
+  },
+  "T5_2H_INFERNOSTAFF@4": {
+    "name": "Expert's Infernal Staff .4",
+    "weight": 10.1
+  },
+  "T5_2H_INFERNOSTAFF_MORGANA": {
+    "name": "Expert's Blazing Staff",
+    "weight": 10.1
+  },
+  "T5_ARTEFACT_2H_INFERNOSTAFF_MORGANA": {
+    "name": "Expert's Artefact Infernostaff Morgana",
+    "weight": 2
+  },
+  "T5_2H_INFERNOSTAFF_MORGANA@1": {
+    "name": "Expert's Blazing Staff .1",
+    "weight": 10.1
+  },
+  "T5_2H_INFERNOSTAFF_MORGANA@2": {
+    "name": "Expert's Blazing Staff .2",
+    "weight": 10.1
+  },
+  "T5_2H_INFERNOSTAFF_MORGANA@3": {
+    "name": "Expert's Blazing Staff .3",
+    "weight": 10.1
+  },
+  "T5_2H_INFERNOSTAFF_MORGANA@4": {
+    "name": "Expert's Blazing Staff .4",
+    "weight": 10.1
+  },
+  "T5_2H_IRONCLADEDSTAFF": {
+    "name": "Expert's Iron-clad Staff",
+    "weight": 10.1
+  },
+  "T5_2H_IRONCLADEDSTAFF@1": {
+    "name": "Expert's Iron-clad Staff .1",
+    "weight": 10.1
+  },
+  "T5_2H_IRONCLADEDSTAFF@2": {
+    "name": "Expert's Iron-clad Staff .2",
+    "weight": 10.1
+  },
+  "T5_2H_IRONCLADEDSTAFF@3": {
+    "name": "Expert's Iron-clad Staff .3",
+    "weight": 10.1
+  },
+  "T5_2H_IRONCLADEDSTAFF@4": {
+    "name": "Expert's Iron-clad Staff .4",
+    "weight": 10.1
+  },
+  "T5_2H_IRONGAUNTLETS_HELL": {
+    "name": "Expert's Black Hands",
+    "weight": 10.1
+  },
+  "T5_ARTEFACT_2H_IRONGAUNTLETS_HELL": {
+    "name": "Expert's Artefact Irongauntlets Hell",
+    "weight": 2
+  },
+  "T5_2H_IRONGAUNTLETS_HELL@1": {
+    "name": "Expert's Black Hands .1",
+    "weight": 10.1
+  },
+  "T5_2H_IRONGAUNTLETS_HELL@2": {
+    "name": "Expert's Black Hands .2",
+    "weight": 10.1
+  },
+  "T5_2H_IRONGAUNTLETS_HELL@3": {
+    "name": "Expert's Black Hands .3",
+    "weight": 10.1
+  },
+  "T5_2H_KNUCKLES_AVALON": {
+    "name": "Expert's Fists of Avalon",
+    "weight": 10.1
+  },
+  "T5_ARTEFACT_2H_KNUCKLES_AVALON": {
+    "name": "Expert's Artefact Knuckles Avalon",
+    "weight": 2
+  },
+  "T5_2H_KNUCKLES_AVALON@1": {
+    "name": "Expert's Fists of Avalon .1",
+    "weight": 10.1
+  },
+  "T5_2H_KNUCKLES_AVALON@2": {
+    "name": "Expert's Fists of Avalon .2",
+    "weight": 10.1
+  },
+  "T5_2H_KNUCKLES_AVALON@3": {
+    "name": "Expert's Fists of Avalon .3",
+    "weight": 10.1
+  },
+  "T5_2H_KNUCKLES_AVALON@4": {
+    "name": "Expert's Fists of Avalon .4",
+    "weight": 10.1
+  },
+  "T5_2H_KNUCKLES_CRYSTAL": {
+    "name": "Expert's Forcepulse Bracers",
+    "weight": 10.1
+  },
+  "T5_ARTEFACT_2H_KNUCKLES_CRYSTAL": {
+    "name": "Expert's Artefact Knuckles Crystal",
+    "weight": 2
+  },
+  "T5_2H_KNUCKLES_CRYSTAL@1": {
+    "name": "Expert's Forcepulse Bracers .1",
+    "weight": 10.1
+  },
+  "T5_2H_KNUCKLES_CRYSTAL@2": {
+    "name": "Expert's Forcepulse Bracers .2",
+    "weight": 10.1
+  },
+  "T5_2H_KNUCKLES_CRYSTAL@3": {
+    "name": "Expert's Forcepulse Bracers .3",
+    "weight": 10.1
+  },
+  "T5_2H_KNUCKLES_CRYSTAL@4": {
+    "name": "Expert's Forcepulse Bracers .4",
+    "weight": 10.1
+  },
+  "T5_2H_KNUCKLES_HELL": {
+    "name": "Expert's Hellfire Hands",
+    "weight": 10.1
+  },
+  "T5_ARTEFACT_2H_KNUCKLES_HELL": {
+    "name": "Expert's Artefact Knuckles Hell",
+    "weight": 2
+  },
+  "T5_2H_KNUCKLES_HELL@1": {
+    "name": "Expert's Hellfire Hands .1",
+    "weight": 10.1
+  },
+  "T5_2H_KNUCKLES_HELL@2": {
+    "name": "Expert's Hellfire Hands .2",
+    "weight": 10.1
+  },
+  "T5_2H_KNUCKLES_HELL@3": {
+    "name": "Expert's Hellfire Hands .3",
+    "weight": 10.1
+  },
+  "T5_2H_KNUCKLES_HELL@4": {
+    "name": "Expert's Hellfire Hands .4",
+    "weight": 10.1
+  },
+  "T5_2H_KNUCKLES_KEEPER": {
+    "name": "Expert's Ursine Maulers",
+    "weight": 10.1
+  },
+  "T5_ARTEFACT_2H_KNUCKLES_KEEPER": {
+    "name": "Expert's Artefact Knuckles Keeper",
+    "weight": 2
+  },
+  "T5_2H_KNUCKLES_KEEPER@1": {
+    "name": "Expert's Ursine Maulers .1",
+    "weight": 10.1
+  },
+  "T5_2H_KNUCKLES_KEEPER@2": {
+    "name": "Expert's Ursine Maulers .2",
+    "weight": 10.1
+  },
+  "T5_2H_KNUCKLES_KEEPER@3": {
+    "name": "Expert's Ursine Maulers .3",
+    "weight": 10.1
+  },
+  "T5_2H_KNUCKLES_KEEPER@4": {
+    "name": "Expert's Ursine Maulers .4",
+    "weight": 10.1
+  },
+  "T5_2H_KNUCKLES_MORGANA": {
+    "name": "Expert's Ravenstrike Cestus",
+    "weight": 10.1
+  },
+  "T5_ARTEFACT_2H_KNUCKLES_MORGANA": {
+    "name": "Expert's Artefact Knuckles Morgana",
+    "weight": 2
+  },
+  "T5_2H_KNUCKLES_MORGANA@1": {
+    "name": "Expert's Ravenstrike Cestus .1",
+    "weight": 10.1
+  },
+  "T5_2H_KNUCKLES_MORGANA@2": {
+    "name": "Expert's Ravenstrike Cestus .2",
+    "weight": 10.1
+  },
+  "T5_2H_KNUCKLES_MORGANA@3": {
+    "name": "Expert's Ravenstrike Cestus .3",
+    "weight": 10.1
+  },
+  "T5_2H_KNUCKLES_MORGANA@4": {
+    "name": "Expert's Ravenstrike Cestus .4",
+    "weight": 10.1
+  },
+  "T5_2H_REPEATINGCROSSBOW_UNDEAD": {
+    "name": "Expert's Weeping Repeater",
+    "weight": 10.1
+  },
+  "T5_ARTEFACT_2H_REPEATINGCROSSBOW_UNDEAD": {
+    "name": "Expert's Artefact Repeatingcrossbow Undead",
+    "weight": 2
+  },
+  "T5_2H_REPEATINGCROSSBOW_UNDEAD@1": {
+    "name": "Expert's Weeping Repeater .1",
+    "weight": 10.1
+  },
+  "T5_2H_REPEATINGCROSSBOW_UNDEAD@2": {
+    "name": "Expert's Weeping Repeater .2",
+    "weight": 10.1
+  },
+  "T5_2H_REPEATINGCROSSBOW_UNDEAD@3": {
+    "name": "Expert's Weeping Repeater .3",
+    "weight": 10.1
+  },
+  "T5_2H_REPEATINGCROSSBOW_UNDEAD@4": {
+    "name": "Expert's Weeping Repeater .4",
+    "weight": 10.1
+  },
+  "T5_2H_LONGBOW": {
+    "name": "Expert's Longbow",
+    "weight": 10.1
+  },
+  "T5_2H_LONGBOW@1": {
+    "name": "Expert's Longbow .1",
+    "weight": 10.1
+  },
+  "T5_2H_LONGBOW@2": {
+    "name": "Expert's Longbow .2",
+    "weight": 10.1
+  },
+  "T5_2H_LONGBOW@3": {
+    "name": "Expert's Longbow .3",
+    "weight": 10.1
+  },
+  "T5_2H_LONGBOW@4": {
+    "name": "Expert's Longbow .4",
+    "weight": 10.1
+  },
+  "T5_2H_LONGBOW_UNDEAD": {
+    "name": "Expert's Whispering Bow",
+    "weight": 10.1
+  },
+  "T5_ARTEFACT_2H_LONGBOW_UNDEAD": {
+    "name": "Expert's Artefact Longbow Undead",
+    "weight": 2
+  },
+  "T5_2H_LONGBOW_UNDEAD@1": {
+    "name": "Expert's Whispering Bow .1",
+    "weight": 10.1
+  },
+  "T5_2H_LONGBOW_UNDEAD@2": {
+    "name": "Expert's Whispering Bow .2",
+    "weight": 10.1
+  },
+  "T5_2H_LONGBOW_UNDEAD@3": {
+    "name": "Expert's Whispering Bow .3",
+    "weight": 10.1
+  },
+  "T5_2H_LONGBOW_UNDEAD@4": {
+    "name": "Expert's Whispering Bow .4",
+    "weight": 10.1
+  },
+  "T5_MAIN_MACE": {
+    "name": "Expert's Mace",
+    "weight": 7.6
+  },
+  "T5_MAIN_MACE@1": {
+    "name": "Expert's Mace .1",
+    "weight": 7.6
+  },
+  "T5_MAIN_MACE@2": {
+    "name": "Expert's Mace .2",
+    "weight": 7.6
+  },
+  "T5_MAIN_MACE@3": {
+    "name": "Expert's Mace .3",
+    "weight": 7.6
+  },
+  "T5_MAIN_MACE@4": {
+    "name": "Expert's Mace .4",
+    "weight": 7.6
+  },
+  "T5_MAIN_MACE_CRYSTAL": {
+    "name": "Expert's Dreadstorm Monarch",
+    "weight": 7.6
+  },
+  "T5_ARTEFACT_MAIN_MACE_CRYSTAL": {
+    "name": "Expert's Artefact Mace Crystal",
+    "weight": 2
+  },
+  "T5_MAIN_MACE_CRYSTAL@1": {
+    "name": "Expert's Dreadstorm Monarch .1",
+    "weight": 7.6
+  },
+  "T5_MAIN_MACE_CRYSTAL@2": {
+    "name": "Expert's Dreadstorm Monarch .2",
+    "weight": 7.6
+  },
+  "T5_MAIN_MACE_CRYSTAL@3": {
+    "name": "Expert's Dreadstorm Monarch .3",
+    "weight": 7.6
+  },
+  "T5_MAIN_MACE_CRYSTAL@4": {
+    "name": "Expert's Dreadstorm Monarch .4",
+    "weight": 7.6
+  },
+  "T5_MAIN_MACE_HELL": {
+    "name": "Expert's Incubus Mace",
+    "weight": 7.6
+  },
+  "T5_ARTEFACT_MAIN_MACE_HELL": {
+    "name": "Expert's Artefact Mace Hell",
+    "weight": 2
+  },
+  "T5_MAIN_MACE_HELL@1": {
+    "name": "Expert's Incubus Mace .1",
+    "weight": 7.6
+  },
+  "T5_MAIN_MACE_HELL@2": {
+    "name": "Expert's Incubus Mace .2",
+    "weight": 7.6
+  },
+  "T5_MAIN_MACE_HELL@3": {
+    "name": "Expert's Incubus Mace .3",
+    "weight": 7.6
+  },
+  "T5_MAIN_MACE_HELL@4": {
+    "name": "Expert's Incubus Mace .4",
+    "weight": 7.6
+  },
+  "T5_2H_FLAIL": {
+    "name": "Expert's Morning Star",
+    "weight": 10.1
+  },
+  "T5_2H_FLAIL@1": {
+    "name": "Expert's Morning Star .1",
+    "weight": 10.1
+  },
+  "T5_2H_FLAIL@2": {
+    "name": "Expert's Morning Star .2",
+    "weight": 10.1
+  },
+  "T5_2H_FLAIL@3": {
+    "name": "Expert's Morning Star .3",
+    "weight": 10.1
+  },
+  "T5_2H_FLAIL@4": {
+    "name": "Expert's Morning Star .4",
+    "weight": 10.1
+  },
+  "T5_MAIN_NATURESTAFF": {
+    "name": "Expert's Nature Staff",
+    "weight": 7.6
+  },
+  "T5_MAIN_NATURESTAFF@1": {
+    "name": "Expert's Nature Staff .1",
+    "weight": 7.6
+  },
+  "T5_MAIN_NATURESTAFF@2": {
+    "name": "Expert's Nature Staff .2",
+    "weight": 7.6
+  },
+  "T5_MAIN_NATURESTAFF@3": {
+    "name": "Expert's Nature Staff .3",
+    "weight": 7.6
+  },
+  "T5_MAIN_NATURESTAFF@4": {
+    "name": "Expert's Nature Staff .4",
+    "weight": 7.6
+  },
+  "T5_MAIN_NATURESTAFF_AVALON": {
+    "name": "Expert's Ironroot Staff",
+    "weight": 7.6
+  },
+  "T5_ARTEFACT_MAIN_NATURESTAFF_AVALON": {
+    "name": "Expert's Artefact Naturestaff Avalon",
+    "weight": 2
+  },
+  "T5_MAIN_NATURESTAFF_AVALON@1": {
+    "name": "Expert's Ironroot Staff .1",
+    "weight": 7.6
+  },
+  "T5_MAIN_NATURESTAFF_AVALON@2": {
+    "name": "Expert's Ironroot Staff .2",
+    "weight": 7.6
+  },
+  "T5_MAIN_NATURESTAFF_AVALON@3": {
+    "name": "Expert's Ironroot Staff .3",
+    "weight": 7.6
+  },
+  "T5_MAIN_NATURESTAFF_AVALON@4": {
+    "name": "Expert's Ironroot Staff .4",
+    "weight": 7.6
+  },
+  "T5_MAIN_NATURESTAFF_CRYSTAL": {
+    "name": "Expert's Forgebark Staff",
+    "weight": 7.6
+  },
+  "T5_ARTEFACT_MAIN_NATURESTAFF_CRYSTAL": {
+    "name": "Expert's Artefact Naturestaff Crystal",
+    "weight": 2
+  },
+  "T5_MAIN_NATURESTAFF_CRYSTAL@1": {
+    "name": "Expert's Forgebark Staff .1",
+    "weight": 7.6
+  },
+  "T5_MAIN_NATURESTAFF_CRYSTAL@2": {
+    "name": "Expert's Forgebark Staff .2",
+    "weight": 7.6
+  },
+  "T5_MAIN_NATURESTAFF_CRYSTAL@3": {
+    "name": "Expert's Forgebark Staff .3",
+    "weight": 7.6
+  },
+  "T5_MAIN_NATURESTAFF_CRYSTAL@4": {
+    "name": "Expert's Forgebark Staff .4",
+    "weight": 7.6
+  },
+  "T5_MAIN_NATURESTAFF_KEEPER": {
+    "name": "Expert's Druidic Staff",
+    "weight": 7.6
+  },
+  "T5_ARTEFACT_MAIN_NATURESTAFF_KEEPER": {
+    "name": "Expert's Artefact Naturestaff Keeper",
+    "weight": 2
+  },
+  "T5_MAIN_NATURESTAFF_KEEPER@1": {
+    "name": "Expert's Druidic Staff .1",
+    "weight": 7.6
+  },
+  "T5_MAIN_NATURESTAFF_KEEPER@2": {
+    "name": "Expert's Druidic Staff .2",
+    "weight": 7.6
+  },
+  "T5_MAIN_NATURESTAFF_KEEPER@3": {
+    "name": "Expert's Druidic Staff .3",
+    "weight": 7.6
+  },
+  "T5_MAIN_NATURESTAFF_KEEPER@4": {
+    "name": "Expert's Druidic Staff .4",
+    "weight": 7.6
+  },
+  "T5_2H_SPEAR": {
+    "name": "Expert's Pike",
+    "weight": 10.1
+  },
+  "T5_2H_SPEAR@1": {
+    "name": "Expert's Pike .1",
+    "weight": 10.1
+  },
+  "T5_2H_SPEAR@2": {
+    "name": "Expert's Pike .2",
+    "weight": 10.1
+  },
+  "T5_2H_SPEAR@3": {
+    "name": "Expert's Pike .3",
+    "weight": 10.1
+  },
+  "T5_2H_SPEAR@4": {
+    "name": "Expert's Pike .4",
+    "weight": 10.1
+  },
+  "T5_2H_POLEHAMMER": {
+    "name": "Expert's Polehammer",
+    "weight": 10.1
+  },
+  "T5_2H_POLEHAMMER@1": {
+    "name": "Expert's Polehammer .1",
+    "weight": 10.1
+  },
+  "T5_2H_POLEHAMMER@2": {
+    "name": "Expert's Polehammer .2",
+    "weight": 10.1
+  },
+  "T5_2H_POLEHAMMER@3": {
+    "name": "Expert's Polehammer .3",
+    "weight": 10.1
+  },
+  "T5_2H_POLEHAMMER@4": {
+    "name": "Expert's Polehammer .4",
+    "weight": 10.1
+  },
+  "T5_2H_SHAPESHIFTER_SET3": {
+    "name": "Expert's Primal Staff",
+    "weight": 10.1
+  },
+  "T5_2H_SHAPESHIFTER_SET3@1": {
+    "name": "Expert's Primal Staff .1",
+    "weight": 10.1
+  },
+  "T5_2H_SHAPESHIFTER_SET3@2": {
+    "name": "Expert's Primal Staff .2",
+    "weight": 10.1
+  },
+  "T5_2H_SHAPESHIFTER_SET3@3": {
+    "name": "Expert's Primal Staff .3",
+    "weight": 10.1
+  },
+  "T5_2H_SHAPESHIFTER_SET3@4": {
+    "name": "Expert's Primal Staff .4",
+    "weight": 10.1
+  },
+  "T5_2H_SHAPESHIFTER_SET1": {
+    "name": "Expert's Prowling Staff",
+    "weight": 10.1
+  },
+  "T5_2H_SHAPESHIFTER_SET1@1": {
+    "name": "Expert's Prowling Staff .1",
+    "weight": 10.1
+  },
+  "T5_2H_SHAPESHIFTER_SET1@2": {
+    "name": "Expert's Prowling Staff .2",
+    "weight": 10.1
+  },
+  "T5_2H_SHAPESHIFTER_SET1@3": {
+    "name": "Expert's Prowling Staff .3",
+    "weight": 10.1
+  },
+  "T5_2H_SHAPESHIFTER_SET1@4": {
+    "name": "Expert's Prowling Staff .4",
+    "weight": 10.1
+  },
+  "T5_2H_QUARTERSTAFF": {
+    "name": "Expert's Quarterstaff",
+    "weight": 10.1
+  },
+  "T5_2H_QUARTERSTAFF@1": {
+    "name": "Expert's Quarterstaff .1",
+    "weight": 10.1
+  },
+  "T5_2H_QUARTERSTAFF@2": {
+    "name": "Expert's Quarterstaff .2",
+    "weight": 10.1
+  },
+  "T5_2H_QUARTERSTAFF@3": {
+    "name": "Expert's Quarterstaff .3",
+    "weight": 10.1
+  },
+  "T5_2H_QUARTERSTAFF@4": {
+    "name": "Expert's Quarterstaff .4",
+    "weight": 10.1
+  },
+  "T5_2H_QUARTERSTAFF_AVALON": {
+    "name": "Expert's Grailseeker",
+    "weight": 10.1
+  },
+  "T5_ARTEFACT_2H_QUARTERSTAFF_AVALON": {
+    "name": "Expert's Artefact Quarterstaff Avalon",
+    "weight": 2
+  },
+  "T5_2H_QUARTERSTAFF_AVALON@1": {
+    "name": "Expert's Grailseeker .1",
+    "weight": 10.1
+  },
+  "T5_2H_QUARTERSTAFF_AVALON@2": {
+    "name": "Expert's Grailseeker .2",
+    "weight": 10.1
+  },
+  "T5_2H_QUARTERSTAFF_AVALON@3": {
+    "name": "Expert's Grailseeker .3",
+    "weight": 10.1
+  },
+  "T5_2H_QUARTERSTAFF_AVALON@4": {
+    "name": "Expert's Grailseeker .4",
+    "weight": 10.1
+  },
+  "T5_2H_RAM_KEEPER": {
+    "name": "Expert's Grovekeeper",
+    "weight": 10.1
+  },
+  "T5_ARTEFACT_2H_RAM_KEEPER": {
+    "name": "Expert's Artefact Ram Keeper",
+    "weight": 2
+  },
+  "T5_2H_RAM_KEEPER@1": {
+    "name": "Expert's Grovekeeper .1",
+    "weight": 10.1
+  },
+  "T5_2H_RAM_KEEPER@2": {
+    "name": "Expert's Grovekeeper .2",
+    "weight": 10.1
+  },
+  "T5_2H_RAM_KEEPER@3": {
+    "name": "Expert's Grovekeeper .3",
+    "weight": 10.1
+  },
+  "T5_2H_RAM_KEEPER@4": {
+    "name": "Expert's Grovekeeper .4",
+    "weight": 10.1
+  },
+  "T5_MAIN_RAPIER_MORGANA": {
+    "name": "Expert's Bloodletter",
+    "weight": 7.6
+  },
+  "T5_ARTEFACT_MAIN_RAPIER_MORGANA": {
+    "name": "Expert's Artefact Rapier Morgana",
+    "weight": 2
+  },
+  "T5_MAIN_RAPIER_MORGANA@1": {
+    "name": "Expert's Bloodletter .1",
+    "weight": 7.6
+  },
+  "T5_MAIN_RAPIER_MORGANA@2": {
+    "name": "Expert's Bloodletter .2",
+    "weight": 7.6
+  },
+  "T5_MAIN_RAPIER_MORGANA@3": {
+    "name": "Expert's Bloodletter .3",
+    "weight": 7.6
+  },
+  "T5_MAIN_RAPIER_MORGANA@4": {
+    "name": "Expert's Bloodletter .4",
+    "weight": 7.6
+  },
+  "T5_MAIN_ROCKMACE_KEEPER": {
+    "name": "Expert's Bedrock Mace",
+    "weight": 7.6
+  },
+  "T5_ARTEFACT_MAIN_ROCKMACE_KEEPER": {
+    "name": "Expert's Artefact Rockmace Keeper",
+    "weight": 2
+  },
+  "T5_MAIN_ROCKMACE_KEEPER@1": {
+    "name": "Expert's Bedrock Mace .1",
+    "weight": 7.6
+  },
+  "T5_MAIN_ROCKMACE_KEEPER@2": {
+    "name": "Expert's Bedrock Mace .2",
+    "weight": 7.6
+  },
+  "T5_MAIN_ROCKMACE_KEEPER@3": {
+    "name": "Expert's Bedrock Mace .3",
+    "weight": 7.6
+  },
+  "T5_MAIN_ROCKMACE_KEEPER@4": {
+    "name": "Expert's Bedrock Mace .4",
+    "weight": 7.6
+  },
+  "T5_2H_ROCKSTAFF_KEEPER": {
+    "name": "Expert's Staff of Balance",
+    "weight": 10.1
+  },
+  "T5_ARTEFACT_2H_ROCKSTAFF_KEEPER": {
+    "name": "Expert's Artefact Rockstaff Keeper",
+    "weight": 2
+  },
+  "T5_2H_ROCKSTAFF_KEEPER@1": {
+    "name": "Expert's Staff of Balance .1",
+    "weight": 10.1
+  },
+  "T5_2H_ROCKSTAFF_KEEPER@2": {
+    "name": "Expert's Staff of Balance .2",
+    "weight": 10.1
+  },
+  "T5_2H_ROCKSTAFF_KEEPER@3": {
+    "name": "Expert's Staff of Balance .3",
+    "weight": 10.1
+  },
+  "T5_2H_ROCKSTAFF_KEEPER@4": {
+    "name": "Expert's Staff of Balance .4",
+    "weight": 10.1
+  },
+  "T5_2H_SHAPESHIFTER_SET2": {
+    "name": "Expert's Rootbound Staff",
+    "weight": 10.1
+  },
+  "T5_2H_SHAPESHIFTER_SET2@1": {
+    "name": "Expert's Rootbound Staff .1",
+    "weight": 10.1
+  },
+  "T5_2H_SHAPESHIFTER_SET2@2": {
+    "name": "Expert's Rootbound Staff .2",
+    "weight": 10.1
+  },
+  "T5_2H_SHAPESHIFTER_SET2@3": {
+    "name": "Expert's Rootbound Staff .3",
+    "weight": 10.1
+  },
+  "T5_2H_SHAPESHIFTER_SET2@4": {
+    "name": "Expert's Rootbound Staff .4",
+    "weight": 10.1
+  },
+  "T5_MAIN_SCIMITAR_MORGANA": {
+    "name": "Expert's Clarent Blade",
+    "weight": 7.6
+  },
+  "T5_ARTEFACT_MAIN_SCIMITAR_MORGANA": {
+    "name": "Expert's Artefact Scimitar Morgana",
+    "weight": 2
+  },
+  "T5_MAIN_SCIMITAR_MORGANA@1": {
+    "name": "Expert's Clarent Blade .1",
+    "weight": 7.6
+  },
+  "T5_MAIN_SCIMITAR_MORGANA@2": {
+    "name": "Expert's Clarent Blade .2",
+    "weight": 7.6
+  },
+  "T5_MAIN_SCIMITAR_MORGANA@3": {
+    "name": "Expert's Clarent Blade .3",
+    "weight": 7.6
+  },
+  "T5_MAIN_SCIMITAR_MORGANA@4": {
+    "name": "Expert's Clarent Blade .4",
+    "weight": 7.6
+  },
+  "T5_2H_SCYTHE_CRYSTAL": {
+    "name": "Expert's Crystal Reaper",
+    "weight": 10.1
+  },
+  "T5_ARTEFACT_2H_SCYTHE_CRYSTAL": {
+    "name": "Expert's Artefact Scythe Crystal",
+    "weight": 2
+  },
+  "T5_2H_SCYTHE_CRYSTAL@1": {
+    "name": "Expert's Crystal Reaper .1",
+    "weight": 10.1
+  },
+  "T5_2H_SCYTHE_CRYSTAL@2": {
+    "name": "Expert's Crystal Reaper .2",
+    "weight": 10.1
+  },
+  "T5_2H_SCYTHE_CRYSTAL@3": {
+    "name": "Expert's Crystal Reaper .3",
+    "weight": 10.1
+  },
+  "T5_2H_SCYTHE_CRYSTAL@4": {
+    "name": "Expert's Crystal Reaper .4",
+    "weight": 10.1
+  },
+  "T5_2H_SCYTHE_HELL": {
+    "name": "Expert's Infernal Scythe",
+    "weight": 10.1
+  },
+  "T5_ARTEFACT_2H_SCYTHE_HELL": {
+    "name": "Expert's Artefact Scythe Hell",
+    "weight": 2
+  },
+  "T5_2H_SCYTHE_HELL@1": {
+    "name": "Expert's Infernal Scythe .1",
+    "weight": 10.1
+  },
+  "T5_2H_SCYTHE_HELL@2": {
+    "name": "Expert's Infernal Scythe .2",
+    "weight": 10.1
+  },
+  "T5_2H_SCYTHE_HELL@3": {
+    "name": "Expert's Infernal Scythe .3",
+    "weight": 10.1
+  },
+  "T5_2H_SCYTHE_HELL@4": {
+    "name": "Expert's Infernal Scythe .4",
+    "weight": 10.1
+  },
+  "T5_2H_SHAPESHIFTER_AVALON": {
+    "name": "Expert's Lightcaller",
+    "weight": 10.1
+  },
+  "T5_ARTEFACT_2H_SHAPESHIFTER_AVALON": {
+    "name": "Expert's Artefact Shapeshifter Avalon",
+    "weight": 2
+  },
+  "T5_2H_SHAPESHIFTER_AVALON@1": {
+    "name": "Expert's Lightcaller .1",
+    "weight": 10.1
+  },
+  "T5_2H_SHAPESHIFTER_AVALON@2": {
+    "name": "Expert's Lightcaller .2",
+    "weight": 10.1
+  },
+  "T5_2H_SHAPESHIFTER_AVALON@3": {
+    "name": "Expert's Lightcaller .3",
+    "weight": 10.1
+  },
+  "T5_2H_SHAPESHIFTER_AVALON@4": {
+    "name": "Expert's Lightcaller .4",
+    "weight": 10.1
+  },
+  "T5_2H_SHAPESHIFTER_CRYSTAL": {
+    "name": "Expert's Stillgaze Staff",
+    "weight": 10.1
+  },
+  "T5_ARTEFACT_2H_SHAPESHIFTER_CRYSTAL": {
+    "name": "Expert's Artefact Shapeshifter Crystal",
+    "weight": 2
+  },
+  "T5_2H_SHAPESHIFTER_CRYSTAL@1": {
+    "name": "Expert's Stillgaze Staff .1",
+    "weight": 10.1
+  },
+  "T5_2H_SHAPESHIFTER_CRYSTAL@2": {
+    "name": "Expert's Stillgaze Staff .2",
+    "weight": 10.1
+  },
+  "T5_2H_SHAPESHIFTER_CRYSTAL@3": {
+    "name": "Expert's Stillgaze Staff .3",
+    "weight": 10.1
+  },
+  "T5_2H_SHAPESHIFTER_CRYSTAL@4": {
+    "name": "Expert's Stillgaze Staff .4",
+    "weight": 10.1
+  },
+  "T5_2H_SHAPESHIFTER_HELL": {
+    "name": "Expert's Hellspawn Staff",
+    "weight": 10.1
+  },
+  "T5_ARTEFACT_2H_SHAPESHIFTER_HELL": {
+    "name": "Expert's Artefact Shapeshifter Hell",
+    "weight": 2
+  },
+  "T5_2H_SHAPESHIFTER_HELL@1": {
+    "name": "Expert's Hellspawn Staff .1",
+    "weight": 10.1
+  },
+  "T5_2H_SHAPESHIFTER_HELL@2": {
+    "name": "Expert's Hellspawn Staff .2",
+    "weight": 10.1
+  },
+  "T5_2H_SHAPESHIFTER_HELL@3": {
+    "name": "Expert's Hellspawn Staff .3",
+    "weight": 10.1
+  },
+  "T5_2H_SHAPESHIFTER_HELL@4": {
+    "name": "Expert's Hellspawn Staff .4",
+    "weight": 10.1
+  },
+  "T5_2H_SHAPESHIFTER_KEEPER": {
+    "name": "Expert's Earthrune Staff",
+    "weight": 10.1
+  },
+  "T5_ARTEFACT_2H_SHAPESHIFTER_KEEPER": {
+    "name": "Expert's Artefact Shapeshifter Keeper",
+    "weight": 2
+  },
+  "T5_2H_SHAPESHIFTER_KEEPER@1": {
+    "name": "Expert's Earthrune Staff .1",
+    "weight": 10.1
+  },
+  "T5_2H_SHAPESHIFTER_KEEPER@2": {
+    "name": "Expert's Earthrune Staff .2",
+    "weight": 10.1
+  },
+  "T5_2H_SHAPESHIFTER_KEEPER@3": {
+    "name": "Expert's Earthrune Staff .3",
+    "weight": 10.1
+  },
+  "T5_2H_SHAPESHIFTER_KEEPER@4": {
+    "name": "Expert's Earthrune Staff .4",
+    "weight": 10.1
+  },
+  "T5_2H_SHAPESHIFTER_MORGANA": {
+    "name": "Expert's Bloodmoon Staff",
+    "weight": 10.1
+  },
+  "T5_ARTEFACT_2H_SHAPESHIFTER_MORGANA": {
+    "name": "Expert's Artefact Shapeshifter Morgana",
+    "weight": 2
+  },
+  "T5_2H_SHAPESHIFTER_MORGANA@1": {
+    "name": "Expert's Bloodmoon Staff .1",
+    "weight": 10.1
+  },
+  "T5_2H_SHAPESHIFTER_MORGANA@2": {
+    "name": "Expert's Bloodmoon Staff .2",
+    "weight": 10.1
+  },
+  "T5_2H_SHAPESHIFTER_MORGANA@3": {
+    "name": "Expert's Bloodmoon Staff .3",
+    "weight": 10.1
+  },
+  "T5_2H_SHAPESHIFTER_MORGANA@4": {
+    "name": "Expert's Bloodmoon Staff .4",
+    "weight": 10.1
+  },
+  "T5_2H_SKULLORB_HELL": {
+    "name": "Expert's Cursed Skull",
+    "weight": 10.1
+  },
+  "T5_ARTEFACT_2H_SKULLORB_HELL": {
+    "name": "Expert's Artefact Skullorb Hell",
+    "weight": 2
+  },
+  "T5_2H_SKULLORB_HELL@1": {
+    "name": "Expert's Cursed Skull .1",
+    "weight": 10.1
+  },
+  "T5_2H_SKULLORB_HELL@2": {
+    "name": "Expert's Cursed Skull .2",
+    "weight": 10.1
+  },
+  "T5_2H_SKULLORB_HELL@3": {
+    "name": "Expert's Cursed Skull .3",
+    "weight": 10.1
+  },
+  "T5_2H_SKULLORB_HELL@4": {
+    "name": "Expert's Cursed Skull .4",
+    "weight": 10.1
+  },
+  "T5_MAIN_SPEAR": {
+    "name": "Expert's Spear",
+    "weight": 7.6
+  },
+  "T5_MAIN_SPEAR@1": {
+    "name": "Expert's Spear .1",
+    "weight": 7.6
+  },
+  "T5_MAIN_SPEAR@2": {
+    "name": "Expert's Spear .2",
+    "weight": 7.6
+  },
+  "T5_MAIN_SPEAR@3": {
+    "name": "Expert's Spear .3",
+    "weight": 7.6
+  },
+  "T5_MAIN_SPEAR@4": {
+    "name": "Expert's Spear .4",
+    "weight": 7.6
+  },
+  "T5_MAIN_SPEAR_KEEPER": {
+    "name": "Expert's Heron Spear",
+    "weight": 7.6
+  },
+  "T5_ARTEFACT_MAIN_SPEAR_KEEPER": {
+    "name": "Expert's Artefact Spear Keeper",
+    "weight": 2
+  },
+  "T5_MAIN_SPEAR_KEEPER@1": {
+    "name": "Expert's Heron Spear .1",
+    "weight": 7.6
+  },
+  "T5_MAIN_SPEAR_KEEPER@2": {
+    "name": "Expert's Heron Spear .2",
+    "weight": 7.6
+  },
+  "T5_MAIN_SPEAR_KEEPER@3": {
+    "name": "Expert's Heron Spear .3",
+    "weight": 7.6
+  },
+  "T5_MAIN_SPEAR_KEEPER@4": {
+    "name": "Expert's Heron Spear .4",
+    "weight": 7.6
+  },
+  "T5_MAIN_SPEAR_LANCE_AVALON": {
+    "name": "Expert's Daybreaker",
+    "weight": 7.6
+  },
+  "T5_ARTEFACT_MAIN_SPEAR_LANCE_AVALON": {
+    "name": "Expert's Artefact Spear Lance Avalon",
+    "weight": 2
+  },
+  "T5_MAIN_SPEAR_LANCE_AVALON@1": {
+    "name": "Expert's Daybreaker .1",
+    "weight": 7.6
+  },
+  "T5_MAIN_SPEAR_LANCE_AVALON@2": {
+    "name": "Expert's Daybreaker .2",
+    "weight": 7.6
+  },
+  "T5_MAIN_SPEAR_LANCE_AVALON@3": {
+    "name": "Expert's Daybreaker .3",
+    "weight": 7.6
+  },
+  "T5_MAIN_SPEAR_LANCE_AVALON@4": {
+    "name": "Expert's Daybreaker .4",
+    "weight": 7.6
+  },
+  "T5_2H_KNUCKLES_SET3": {
+    "name": "Expert's Spiked Gauntlets",
+    "weight": 10.1
+  },
+  "T5_2H_KNUCKLES_SET3@1": {
+    "name": "Expert's Spiked Gauntlets .1",
+    "weight": 10.1
+  },
+  "T5_2H_KNUCKLES_SET3@2": {
+    "name": "Expert's Spiked Gauntlets .2",
+    "weight": 10.1
+  },
+  "T5_2H_KNUCKLES_SET3@3": {
+    "name": "Expert's Spiked Gauntlets .3",
+    "weight": 10.1
+  },
+  "T5_2H_KNUCKLES_SET3@4": {
+    "name": "Expert's Spiked Gauntlets .4",
+    "weight": 10.1
+  },
+  "T5_2H_HARPOON_HELL": {
+    "name": "Expert's Spirithunter",
+    "weight": 10.1
+  },
+  "T5_ARTEFACT_2H_HARPOON_HELL": {
+    "name": "Expert's Artefact Harpoon Hell",
+    "weight": 2
+  },
+  "T5_2H_HARPOON_HELL@1": {
+    "name": "Expert's Spirithunter .1",
+    "weight": 10.1
+  },
+  "T5_2H_HARPOON_HELL@2": {
+    "name": "Expert's Spirithunter .2",
+    "weight": 10.1
+  },
+  "T5_2H_HARPOON_HELL@3": {
+    "name": "Expert's Spirithunter .3",
+    "weight": 10.1
+  },
+  "T5_2H_HARPOON_HELL@4": {
+    "name": "Expert's Spirithunter .4",
+    "weight": 10.1
+  },
+  "T5_2H_TRIDENT_UNDEAD": {
+    "name": "Expert's Trinity Spear",
+    "weight": 10.1
+  },
+  "T5_ARTEFACT_2H_TRIDENT_UNDEAD": {
+    "name": "Expert's Artefact Trident Undead",
+    "weight": 2
+  },
+  "T5_2H_TRIDENT_UNDEAD@1": {
+    "name": "Expert's Trinity Spear .1",
+    "weight": 10.1
+  },
+  "T5_2H_TRIDENT_UNDEAD@2": {
+    "name": "Expert's Trinity Spear .2",
+    "weight": 10.1
+  },
+  "T5_2H_TRIDENT_UNDEAD@3": {
+    "name": "Expert's Trinity Spear .3",
+    "weight": 10.1
+  },
+  "T5_2H_TRIDENT_UNDEAD@4": {
+    "name": "Expert's Trinity Spear .4",
+    "weight": 10.1
+  },
+  "T5_2H_TWINSCYTHE_HELL": {
+    "name": "Expert's Soulscythe",
+    "weight": 10.1
+  },
+  "T5_ARTEFACT_2H_TWINSCYTHE_HELL": {
+    "name": "Expert's Artefact Twinscythe Hell",
+    "weight": 2
+  },
+  "T5_2H_TWINSCYTHE_HELL@1": {
+    "name": "Expert's Soulscythe .1",
+    "weight": 10.1
+  },
+  "T5_2H_TWINSCYTHE_HELL@2": {
+    "name": "Expert's Soulscythe .2",
+    "weight": 10.1
+  },
+  "T5_2H_TWINSCYTHE_HELL@3": {
+    "name": "Expert's Soulscythe .3",
+    "weight": 10.1
+  },
+  "T5_2H_TWINSCYTHE_HELL@4": {
+    "name": "Expert's Soulscythe .4",
+    "weight": 10.1
+  },
+  "T5_2H_WARBOW": {
+    "name": "Expert's Warbow",
+    "weight": 10.1
+  },
+  "T5_2H_WARBOW@1": {
+    "name": "Expert's Warbow .1",
+    "weight": 10.1
+  },
+  "T5_2H_WARBOW@2": {
+    "name": "Expert's Warbow .2",
+    "weight": 10.1
+  },
+  "T5_2H_WARBOW@3": {
+    "name": "Expert's Warbow .3",
+    "weight": 10.1
+  },
+  "T5_2H_WARBOW@4": {
+    "name": "Expert's Warbow .4",
+    "weight": 10.1
+  },
+  "T5_2H_DUALCROSSBOW_CRYSTAL": {
+    "name": "Expert's Arclight Blasters",
+    "weight": 10.1
+  },
+  "T5_ARTEFACT_2H_DUALCROSSBOW_CRYSTAL": {
+    "name": "Expert's Artefact Dualcrossbow Crystal",
+    "weight": 2
+  },
+  "T5_2H_DUALCROSSBOW_CRYSTAL@1": {
+    "name": "Expert's Arclight Blasters .1",
+    "weight": 10.1
+  },
+  "T5_2H_DUALCROSSBOW_CRYSTAL@2": {
+    "name": "Expert's Arclight Blasters .2",
+    "weight": 10.1
+  },
+  "T5_2H_DUALCROSSBOW_CRYSTAL@3": {
+    "name": "Expert's Arclight Blasters .3",
+    "weight": 10.1
+  },
+  "T5_2H_DUALCROSSBOW_CRYSTAL@4": {
+    "name": "Expert's Arclight Blasters .4",
+    "weight": 10.1
+  },
+  "T5_2H_DUALCROSSBOW_HELL": {
+    "name": "Expert's Boltcasters",
+    "weight": 10.1
+  },
+  "T5_ARTEFACT_2H_DUALCROSSBOW_HELL": {
+    "name": "Expert's Artefact Dualcrossbow Hell",
+    "weight": 2
+  },
+  "T5_2H_DUALCROSSBOW_HELL@1": {
+    "name": "Expert's Boltcasters .1",
+    "weight": 10.1
+  },
+  "T5_2H_DUALCROSSBOW_HELL@2": {
+    "name": "Expert's Boltcasters .2",
+    "weight": 10.1
+  },
+  "T5_2H_DUALCROSSBOW_HELL@3": {
+    "name": "Expert's Boltcasters .3",
+    "weight": 10.1
+  },
+  "T5_2H_DUALCROSSBOW_HELL@4": {
+    "name": "Expert's Boltcasters .4",
+    "weight": 10.1
+  },
+  "T5_2H_WILDSTAFF": {
+    "name": "Expert's Wild Staff",
+    "weight": 10.1
+  },
+  "T5_2H_WILDSTAFF@1": {
+    "name": "Expert's Wild Staff .1",
+    "weight": 10.1
+  },
+  "T5_2H_WILDSTAFF@2": {
+    "name": "Expert's Wild Staff .2",
+    "weight": 10.1
+  },
+  "T5_2H_WILDSTAFF@3": {
+    "name": "Expert's Wild Staff .3",
+    "weight": 10.1
+  },
+  "T5_2H_WILDSTAFF@4": {
+    "name": "Expert's Wild Staff .4",
+    "weight": 10.1
+  },
+  "T6_MAIN_1HCROSSBOW": {
+    "name": "Master's Light Crossbow",
+    "weight": 11.4
+  },
+  "T6_MAIN_1HCROSSBOW@1": {
+    "name": "Master's Light Crossbow .1",
+    "weight": 11.4
+  },
+  "T6_MAIN_1HCROSSBOW@2": {
+    "name": "Master's Light Crossbow .2",
+    "weight": 11.4
+  },
+  "T6_MAIN_1HCROSSBOW@3": {
+    "name": "Master's Light Crossbow .3",
+    "weight": 11.4
+  },
+  "T6_MAIN_1HCROSSBOW@4": {
+    "name": "Master's Light Crossbow .4",
+    "weight": 11.4
+  },
+  "T6_2H_ARCANE_RINGPAIR_AVALON": {
+    "name": "Master's Evensong",
+    "weight": 15.2
+  },
+  "T6_ARTEFACT_2H_ARCANE_RINGPAIR_AVALON": {
+    "name": "Master's Artefact Arcane Ringpair Avalon",
+    "weight": 2
+  },
+  "T6_2H_ARCANE_RINGPAIR_AVALON@1": {
+    "name": "Master's Evensong .1",
+    "weight": 15.2
+  },
+  "T6_2H_ARCANE_RINGPAIR_AVALON@2": {
+    "name": "Master's Evensong .2",
+    "weight": 15.2
+  },
+  "T6_2H_ARCANE_RINGPAIR_AVALON@3": {
+    "name": "Master's Evensong .3",
+    "weight": 15.2
+  },
+  "T6_2H_ARCANE_RINGPAIR_AVALON@4": {
+    "name": "Master's Evensong .4",
+    "weight": 15.2
+  },
+  "T6_MAIN_ARCANESTAFF": {
+    "name": "Master's Arcane Staff",
+    "weight": 11.4
+  },
+  "T6_MAIN_ARCANESTAFF@1": {
+    "name": "Master's Arcane Staff .1",
+    "weight": 11.4
+  },
+  "T6_MAIN_ARCANESTAFF@2": {
+    "name": "Master's Arcane Staff .2",
+    "weight": 11.4
+  },
+  "T6_MAIN_ARCANESTAFF@3": {
+    "name": "Master's Arcane Staff .3",
+    "weight": 11.4
+  },
+  "T6_MAIN_ARCANESTAFF@4": {
+    "name": "Master's Arcane Staff .4",
+    "weight": 11.4
+  },
+  "T6_MAIN_ARCANESTAFF_UNDEAD": {
+    "name": "Master's Witchwork Staff",
+    "weight": 11.4
+  },
+  "T6_ARTEFACT_MAIN_ARCANESTAFF_UNDEAD": {
+    "name": "Master's Artefact Arcanestaff Undead",
+    "weight": 2
+  },
+  "T6_MAIN_ARCANESTAFF_UNDEAD@1": {
+    "name": "Master's Witchwork Staff .1",
+    "weight": 11.4
+  },
+  "T6_MAIN_ARCANESTAFF_UNDEAD@2": {
+    "name": "Master's Witchwork Staff .2",
+    "weight": 11.4
+  },
+  "T6_MAIN_ARCANESTAFF_UNDEAD@3": {
+    "name": "Master's Witchwork Staff .3",
+    "weight": 11.4
+  },
+  "T6_MAIN_ARCANESTAFF_UNDEAD@4": {
+    "name": "Master's Witchwork Staff .4",
+    "weight": 11.4
+  },
+  "T6_2H_KNUCKLES_SET2": {
+    "name": "Master's Battle Bracers",
+    "weight": 15.2
+  },
+  "T6_2H_KNUCKLES_SET2@1": {
+    "name": "Master's Battle Bracers .1",
+    "weight": 15.2
+  },
+  "T6_2H_KNUCKLES_SET2@2": {
+    "name": "Master's Battle Bracers .2",
+    "weight": 15.2
+  },
+  "T6_2H_KNUCKLES_SET2@3": {
+    "name": "Master's Battle Bracers .3",
+    "weight": 15.2
+  },
+  "T6_2H_KNUCKLES_SET2@4": {
+    "name": "Master's Battle Bracers .4",
+    "weight": 15.2
+  },
+  "T6_MAIN_AXE": {
+    "name": "Master's Battleaxe",
+    "weight": 11.4
+  },
+  "T6_MAIN_AXE@1": {
+    "name": "Master's Battleaxe .1",
+    "weight": 11.4
+  },
+  "T6_MAIN_AXE@2": {
+    "name": "Master's Battleaxe .2",
+    "weight": 11.4
+  },
+  "T6_MAIN_AXE@3": {
+    "name": "Master's Battleaxe .3",
+    "weight": 11.4
+  },
+  "T6_MAIN_AXE@4": {
+    "name": "Master's Battleaxe .4",
+    "weight": 11.4
+  },
+  "T6_2H_BOW": {
+    "name": "Master's Bow",
+    "weight": 15.2
+  },
+  "T6_2H_BOW@1": {
+    "name": "Master's Bow .1",
+    "weight": 15.2
+  },
+  "T6_2H_BOW@2": {
+    "name": "Master's Bow .2",
+    "weight": 15.2
+  },
+  "T6_2H_BOW@3": {
+    "name": "Master's Bow .3",
+    "weight": 15.2
+  },
+  "T6_2H_BOW@4": {
+    "name": "Master's Bow .4",
+    "weight": 15.2
+  },
+  "T6_2H_BOW_AVALON": {
+    "name": "Master's Mistpiercer",
+    "weight": 15.2
+  },
+  "T6_ARTEFACT_2H_BOW_AVALON": {
+    "name": "Master's Artefact Bow Avalon",
+    "weight": 2
+  },
+  "T6_2H_BOW_AVALON@1": {
+    "name": "Master's Mistpiercer .1",
+    "weight": 15.2
+  },
+  "T6_2H_BOW_AVALON@2": {
+    "name": "Master's Mistpiercer .2",
+    "weight": 15.2
+  },
+  "T6_2H_BOW_AVALON@3": {
+    "name": "Master's Mistpiercer .3",
+    "weight": 15.2
+  },
+  "T6_2H_BOW_AVALON@4": {
+    "name": "Master's Mistpiercer .4",
+    "weight": 15.2
+  },
+  "T6_2H_BOW_CRYSTAL": {
+    "name": "Master's Skystrider Bow",
+    "weight": 15.2
+  },
+  "T6_ARTEFACT_2H_BOW_CRYSTAL": {
+    "name": "Master's Artefact Bow Crystal",
+    "weight": 2
+  },
+  "T6_2H_BOW_CRYSTAL@1": {
+    "name": "Master's Skystrider Bow .1",
+    "weight": 15.2
+  },
+  "T6_2H_BOW_CRYSTAL@2": {
+    "name": "Master's Skystrider Bow .2",
+    "weight": 15.2
+  },
+  "T6_2H_BOW_CRYSTAL@3": {
+    "name": "Master's Skystrider Bow .3",
+    "weight": 15.2
+  },
+  "T6_2H_BOW_CRYSTAL@4": {
+    "name": "Master's Skystrider Bow .4",
+    "weight": 15.2
+  },
+  "T6_2H_BOW_HELL": {
+    "name": "Master's Wailing Bow",
+    "weight": 15.2
+  },
+  "T6_ARTEFACT_2H_BOW_HELL": {
+    "name": "Master's Artefact Bow Hell",
+    "weight": 2
+  },
+  "T6_2H_BOW_HELL@1": {
+    "name": "Master's Wailing Bow .1",
+    "weight": 15.2
+  },
+  "T6_2H_BOW_HELL@2": {
+    "name": "Master's Wailing Bow .2",
+    "weight": 15.2
+  },
+  "T6_2H_BOW_HELL@3": {
+    "name": "Master's Wailing Bow .3",
+    "weight": 15.2
+  },
+  "T6_2H_BOW_HELL@4": {
+    "name": "Master's Wailing Bow .4",
+    "weight": 15.2
+  },
+  "T6_2H_BOW_KEEPER": {
+    "name": "Master's Bow of Badon",
+    "weight": 15.2
+  },
+  "T6_ARTEFACT_2H_BOW_KEEPER": {
+    "name": "Master's Artefact Bow Keeper",
+    "weight": 2
+  },
+  "T6_2H_BOW_KEEPER@1": {
+    "name": "Master's Bow of Badon .1",
+    "weight": 15.2
+  },
+  "T6_2H_BOW_KEEPER@2": {
+    "name": "Master's Bow of Badon .2",
+    "weight": 15.2
+  },
+  "T6_2H_BOW_KEEPER@3": {
+    "name": "Master's Bow of Badon .3",
+    "weight": 15.2
+  },
+  "T6_2H_BOW_KEEPER@4": {
+    "name": "Master's Bow of Badon .4",
+    "weight": 15.2
+  },
+  "T6_2H_KNUCKLES_SET1": {
+    "name": "Master's Brawler Gloves",
+    "weight": 15.2
+  },
+  "T6_2H_KNUCKLES_SET1@1": {
+    "name": "Master's Brawler Gloves .1",
+    "weight": 15.2
+  },
+  "T6_2H_KNUCKLES_SET1@2": {
+    "name": "Master's Brawler Gloves .2",
+    "weight": 15.2
+  },
+  "T6_2H_KNUCKLES_SET1@3": {
+    "name": "Master's Brawler Gloves .3",
+    "weight": 15.2
+  },
+  "T6_2H_KNUCKLES_SET1@4": {
+    "name": "Master's Brawler Gloves .4",
+    "weight": 15.2
+  },
+  "T6_MAIN_SWORD": {
+    "name": "Master's Broadsword",
+    "weight": 11.4
+  },
+  "T6_MAIN_SWORD@1": {
+    "name": "Master's Broadsword .1",
+    "weight": 11.4
+  },
+  "T6_MAIN_SWORD@2": {
+    "name": "Master's Broadsword .2",
+    "weight": 11.4
+  },
+  "T6_MAIN_SWORD@3": {
+    "name": "Master's Broadsword .3",
+    "weight": 11.4
+  },
+  "T6_MAIN_SWORD@4": {
+    "name": "Master's Broadsword .4",
+    "weight": 11.4
+  },
+  "T6_MAIN_SWORD_CRYSTAL": {
+    "name": "Master's Infinity Blade",
+    "weight": 11.4
+  },
+  "T6_ARTEFACT_MAIN_SWORD_CRYSTAL": {
+    "name": "Master's Artefact Sword Crystal",
+    "weight": 2
+  },
+  "T6_MAIN_SWORD_CRYSTAL@1": {
+    "name": "Master's Infinity Blade .1",
+    "weight": 11.4
+  },
+  "T6_MAIN_SWORD_CRYSTAL@2": {
+    "name": "Master's Infinity Blade .2",
+    "weight": 11.4
+  },
+  "T6_MAIN_SWORD_CRYSTAL@3": {
+    "name": "Master's Infinity Blade .3",
+    "weight": 11.4
+  },
+  "T6_MAIN_SWORD_CRYSTAL@4": {
+    "name": "Master's Infinity Blade .4",
+    "weight": 11.4
+  },
+  "T6_2H_CLAWPAIR": {
+    "name": "Master's Claws",
+    "weight": 15.2
+  },
+  "T6_2H_CLAWPAIR@1": {
+    "name": "Master's Claws .1",
+    "weight": 15.2
+  },
+  "T6_2H_CLAWPAIR@2": {
+    "name": "Master's Claws .2",
+    "weight": 15.2
+  },
+  "T6_2H_CLAWPAIR@3": {
+    "name": "Master's Claws .3",
+    "weight": 15.2
+  },
+  "T6_2H_CLAWPAIR@4": {
+    "name": "Master's Claws .4",
+    "weight": 15.2
+  },
+  "T6_2H_CLAYMORE": {
+    "name": "Master's Claymore",
+    "weight": 15.2
+  },
+  "T6_2H_CLAYMORE@1": {
+    "name": "Master's Claymore .1",
+    "weight": 15.2
+  },
+  "T6_2H_CLAYMORE@2": {
+    "name": "Master's Claymore .2",
+    "weight": 15.2
+  },
+  "T6_2H_CLAYMORE@3": {
+    "name": "Master's Claymore .3",
+    "weight": 15.2
+  },
+  "T6_2H_CLAYMORE@4": {
+    "name": "Master's Claymore .4",
+    "weight": 15.2
+  },
+  "T6_2H_CLAYMORE_AVALON": {
+    "name": "Master's Kingmaker",
+    "weight": 15.2
+  },
+  "T6_ARTEFACT_2H_CLAYMORE_AVALON": {
+    "name": "Master's Artefact Claymore Avalon",
+    "weight": 2
+  },
+  "T6_2H_CLAYMORE_AVALON@1": {
+    "name": "Master's Kingmaker .1",
+    "weight": 15.2
+  },
+  "T6_2H_CLAYMORE_AVALON@2": {
+    "name": "Master's Kingmaker .2",
+    "weight": 15.2
+  },
+  "T6_2H_CLAYMORE_AVALON@3": {
+    "name": "Master's Kingmaker .3",
+    "weight": 15.2
+  },
+  "T6_2H_CLAYMORE_AVALON@4": {
+    "name": "Master's Kingmaker .4",
+    "weight": 15.2
+  },
+  "T6_2H_CLEAVER_HELL": {
+    "name": "Master's Carving Sword",
+    "weight": 15.2
+  },
+  "T6_ARTEFACT_2H_CLEAVER_HELL": {
+    "name": "Master's Artefact Cleaver Hell",
+    "weight": 2
+  },
+  "T6_2H_CLEAVER_HELL@1": {
+    "name": "Master's Carving Sword .1",
+    "weight": 15.2
+  },
+  "T6_2H_CLEAVER_HELL@2": {
+    "name": "Master's Carving Sword .2",
+    "weight": 15.2
+  },
+  "T6_2H_CLEAVER_HELL@3": {
+    "name": "Master's Carving Sword .3",
+    "weight": 15.2
+  },
+  "T6_2H_CLEAVER_HELL@4": {
+    "name": "Master's Carving Sword .4",
+    "weight": 15.2
+  },
+  "T6_2H_COMBATSTAFF_MORGANA": {
+    "name": "Master's Black Monk Staff",
+    "weight": 15.2
+  },
+  "T6_ARTEFACT_2H_COMBATSTAFF_MORGANA": {
+    "name": "Master's Artefact Combatstaff Morgana",
+    "weight": 2
+  },
+  "T6_2H_COMBATSTAFF_MORGANA@1": {
+    "name": "Master's Black Monk Staff .1",
+    "weight": 15.2
+  },
+  "T6_2H_COMBATSTAFF_MORGANA@2": {
+    "name": "Master's Black Monk Staff .2",
+    "weight": 15.2
+  },
+  "T6_2H_COMBATSTAFF_MORGANA@3": {
+    "name": "Master's Black Monk Staff .3",
+    "weight": 15.2
+  },
+  "T6_2H_COMBATSTAFF_MORGANA@4": {
+    "name": "Master's Black Monk Staff .4",
+    "weight": 15.2
+  },
+  "T6_2H_CROSSBOW": {
+    "name": "Master's Crossbow",
+    "weight": 15.2
+  },
+  "T6_2H_CROSSBOW@1": {
+    "name": "Master's Crossbow .1",
+    "weight": 15.2
+  },
+  "T6_2H_CROSSBOW@2": {
+    "name": "Master's Crossbow .2",
+    "weight": 15.2
+  },
+  "T6_2H_CROSSBOW@3": {
+    "name": "Master's Crossbow .3",
+    "weight": 15.2
+  },
+  "T6_2H_CROSSBOW@4": {
+    "name": "Master's Crossbow .4",
+    "weight": 15.2
+  },
+  "T6_2H_CROSSBOW_CANNON_AVALON": {
+    "name": "Master's Energy Shaper",
+    "weight": 15.2
+  },
+  "T6_ARTEFACT_2H_CROSSBOW_CANNON_AVALON": {
+    "name": "Master's Artefact Crossbow Cannon Avalon",
+    "weight": 2
+  },
+  "T6_2H_CROSSBOW_CANNON_AVALON@1": {
+    "name": "Master's Energy Shaper .1",
+    "weight": 15.2
+  },
+  "T6_2H_CROSSBOW_CANNON_AVALON@2": {
+    "name": "Master's Energy Shaper .2",
+    "weight": 15.2
+  },
+  "T6_2H_CROSSBOW_CANNON_AVALON@3": {
+    "name": "Master's Energy Shaper .3",
+    "weight": 15.2
+  },
+  "T6_2H_CROSSBOW_CANNON_AVALON@4": {
+    "name": "Master's Energy Shaper .4",
+    "weight": 15.2
+  },
+  "T6_MAIN_CURSEDSTAFF": {
+    "name": "Master's Cursed Staff",
+    "weight": 11.4
+  },
+  "T6_MAIN_CURSEDSTAFF@1": {
+    "name": "Master's Cursed Staff .1",
+    "weight": 11.4
+  },
+  "T6_MAIN_CURSEDSTAFF@2": {
+    "name": "Master's Cursed Staff .2",
+    "weight": 11.4
+  },
+  "T6_MAIN_CURSEDSTAFF@3": {
+    "name": "Master's Cursed Staff .3",
+    "weight": 11.4
+  },
+  "T6_MAIN_CURSEDSTAFF@4": {
+    "name": "Master's Cursed Staff .4",
+    "weight": 11.4
+  },
+  "T6_MAIN_CURSEDSTAFF_AVALON": {
+    "name": "Master's Shadowcaller",
+    "weight": 11.4
+  },
+  "T6_ARTEFACT_MAIN_CURSEDSTAFF_AVALON": {
+    "name": "Master's Artefact Cursedstaff Avalon",
+    "weight": 2
+  },
+  "T6_MAIN_CURSEDSTAFF_AVALON@1": {
+    "name": "Master's Shadowcaller .1",
+    "weight": 11.4
+  },
+  "T6_MAIN_CURSEDSTAFF_AVALON@2": {
+    "name": "Master's Shadowcaller .2",
+    "weight": 11.4
+  },
+  "T6_MAIN_CURSEDSTAFF_AVALON@3": {
+    "name": "Master's Shadowcaller .3",
+    "weight": 11.4
+  },
+  "T6_MAIN_CURSEDSTAFF_AVALON@4": {
+    "name": "Master's Shadowcaller .4",
+    "weight": 11.4
+  },
+  "T6_MAIN_CURSEDSTAFF_CRYSTAL": {
+    "name": "Master's Rotcaller Staff",
+    "weight": 11.4
+  },
+  "T6_ARTEFACT_MAIN_CURSEDSTAFF_CRYSTAL": {
+    "name": "Master's Artefact Cursedstaff Crystal",
+    "weight": 2
+  },
+  "T6_MAIN_CURSEDSTAFF_CRYSTAL@1": {
+    "name": "Master's Rotcaller Staff .1",
+    "weight": 11.4
+  },
+  "T6_MAIN_CURSEDSTAFF_CRYSTAL@2": {
+    "name": "Master's Rotcaller Staff .2",
+    "weight": 11.4
+  },
+  "T6_MAIN_CURSEDSTAFF_CRYSTAL@3": {
+    "name": "Master's Rotcaller Staff .3",
+    "weight": 11.4
+  },
+  "T6_MAIN_CURSEDSTAFF_CRYSTAL@4": {
+    "name": "Master's Rotcaller Staff .4",
+    "weight": 11.4
+  },
+  "T6_MAIN_CURSEDSTAFF_UNDEAD": {
+    "name": "Master's Lifecurse Staff",
+    "weight": 11.4
+  },
+  "T6_ARTEFACT_MAIN_CURSEDSTAFF_UNDEAD": {
+    "name": "Master's Artefact Cursedstaff Undead",
+    "weight": 2
+  },
+  "T6_MAIN_CURSEDSTAFF_UNDEAD@1": {
+    "name": "Master's Lifecurse Staff .1",
+    "weight": 11.4
+  },
+  "T6_MAIN_CURSEDSTAFF_UNDEAD@2": {
+    "name": "Master's Lifecurse Staff .2",
+    "weight": 11.4
+  },
+  "T6_MAIN_CURSEDSTAFF_UNDEAD@3": {
+    "name": "Master's Lifecurse Staff .3",
+    "weight": 11.4
+  },
+  "T6_MAIN_CURSEDSTAFF_UNDEAD@4": {
+    "name": "Master's Lifecurse Staff .4",
+    "weight": 11.4
+  },
+  "T6_MAIN_DAGGER": {
+    "name": "Master's Dagger",
+    "weight": 11.4
+  },
+  "T6_MAIN_DAGGER@1": {
+    "name": "Master's Dagger .1",
+    "weight": 11.4
+  },
+  "T6_MAIN_DAGGER@2": {
+    "name": "Master's Dagger .2",
+    "weight": 11.4
+  },
+  "T6_MAIN_DAGGER@3": {
+    "name": "Master's Dagger .3",
+    "weight": 11.4
+  },
+  "T6_MAIN_DAGGER@4": {
+    "name": "Master's Dagger .4",
+    "weight": 11.4
+  },
+  "T6_2H_DAGGER_KATAR_AVALON": {
+    "name": "Master's Bridled Fury",
+    "weight": 15.2
+  },
+  "T6_ARTEFACT_2H_DAGGER_KATAR_AVALON": {
+    "name": "Master's Artefact Dagger Katar Avalon",
+    "weight": 2
+  },
+  "T6_2H_DAGGER_KATAR_AVALON@1": {
+    "name": "Master's Bridled Fury .1",
+    "weight": 15.2
+  },
+  "T6_2H_DAGGER_KATAR_AVALON@2": {
+    "name": "Master's Bridled Fury .2",
+    "weight": 15.2
+  },
+  "T6_2H_DAGGER_KATAR_AVALON@3": {
+    "name": "Master's Bridled Fury .3",
+    "weight": 15.2
+  },
+  "T6_2H_DAGGER_KATAR_AVALON@4": {
+    "name": "Master's Bridled Fury .4",
+    "weight": 15.2
+  },
+  "T6_2H_DAGGERPAIR": {
+    "name": "Master's Dagger Pair",
+    "weight": 15.2
+  },
+  "T6_2H_DAGGERPAIR@1": {
+    "name": "Master's Dagger Pair .1",
+    "weight": 15.2
+  },
+  "T6_2H_DAGGERPAIR@2": {
+    "name": "Master's Dagger Pair .2",
+    "weight": 15.2
+  },
+  "T6_2H_DAGGERPAIR@3": {
+    "name": "Master's Dagger Pair .3",
+    "weight": 15.2
+  },
+  "T6_2H_DAGGERPAIR@4": {
+    "name": "Master's Dagger Pair .4",
+    "weight": 15.2
+  },
+  "T6_2H_DAGGERPAIR_CRYSTAL": {
+    "name": "Master's Twin Slayers",
+    "weight": 15.2
+  },
+  "T6_ARTEFACT_2H_DAGGERPAIR_CRYSTAL": {
+    "name": "Master's Artefact Daggerpair Crystal",
+    "weight": 2
+  },
+  "T6_2H_DAGGERPAIR_CRYSTAL@1": {
+    "name": "Master's Twin Slayers .1",
+    "weight": 15.2
+  },
+  "T6_2H_DAGGERPAIR_CRYSTAL@2": {
+    "name": "Master's Twin Slayers .2",
+    "weight": 15.2
+  },
+  "T6_2H_DAGGERPAIR_CRYSTAL@3": {
+    "name": "Master's Twin Slayers .3",
+    "weight": 15.2
+  },
+  "T6_2H_DAGGERPAIR_CRYSTAL@4": {
+    "name": "Master's Twin Slayers .4",
+    "weight": 15.2
+  },
+  "T6_MAIN_DAGGER_HELL": {
+    "name": "Master's Demonfang",
+    "weight": 11.4
+  },
+  "T6_ARTEFACT_MAIN_DAGGER_HELL": {
+    "name": "Master's Artefact Dagger Hell",
+    "weight": 2
+  },
+  "T6_MAIN_DAGGER_HELL@1": {
+    "name": "Master's Demonfang .1",
+    "weight": 11.4
+  },
+  "T6_MAIN_DAGGER_HELL@2": {
+    "name": "Master's Demonfang .2",
+    "weight": 11.4
+  },
+  "T6_MAIN_DAGGER_HELL@3": {
+    "name": "Master's Demonfang .3",
+    "weight": 11.4
+  },
+  "T6_MAIN_DAGGER_HELL@4": {
+    "name": "Master's Demonfang .4",
+    "weight": 11.4
+  },
+  "T6_2H_DEMONICSTAFF": {
+    "name": "Master's Demonic Staff",
+    "weight": 15.2
+  },
+  "T6_2H_DEMONICSTAFF@1": {
+    "name": "Master's Demonic Staff .1",
+    "weight": 15.2
+  },
+  "T6_2H_DEMONICSTAFF@2": {
+    "name": "Master's Demonic Staff .2",
+    "weight": 15.2
+  },
+  "T6_2H_DEMONICSTAFF@3": {
+    "name": "Master's Demonic Staff .3",
+    "weight": 15.2
+  },
+  "T6_2H_DEMONICSTAFF@4": {
+    "name": "Master's Demonic Staff .4",
+    "weight": 15.2
+  },
+  "T6_2H_DIVINESTAFF": {
+    "name": "Master's Divine Staff",
+    "weight": 15.2
+  },
+  "T6_2H_DIVINESTAFF@1": {
+    "name": "Master's Divine Staff .1",
+    "weight": 15.2
+  },
+  "T6_2H_DIVINESTAFF@2": {
+    "name": "Master's Divine Staff .2",
+    "weight": 15.2
+  },
+  "T6_2H_DIVINESTAFF@3": {
+    "name": "Master's Divine Staff .3",
+    "weight": 15.2
+  },
+  "T6_2H_DIVINESTAFF@4": {
+    "name": "Master's Divine Staff .4",
+    "weight": 15.2
+  },
+  "T6_2H_DOUBLEBLADEDSTAFF": {
+    "name": "Master's Double Bladed Staff",
+    "weight": 15.2
+  },
+  "T6_2H_DOUBLEBLADEDSTAFF@1": {
+    "name": "Master's Double Bladed Staff .1",
+    "weight": 15.2
+  },
+  "T6_2H_DOUBLEBLADEDSTAFF@2": {
+    "name": "Master's Double Bladed Staff .2",
+    "weight": 15.2
+  },
+  "T6_2H_DOUBLEBLADEDSTAFF@3": {
+    "name": "Master's Double Bladed Staff .3",
+    "weight": 15.2
+  },
+  "T6_2H_DOUBLEBLADEDSTAFF@4": {
+    "name": "Master's Double Bladed Staff .4",
+    "weight": 15.2
+  },
+  "T6_2H_DOUBLEBLADEDSTAFF_CRYSTAL": {
+    "name": "Master's Phantom Twinblade",
+    "weight": 15.2
+  },
+  "T6_ARTEFACT_2H_DOUBLEBLADEDSTAFF_CRYSTAL": {
+    "name": "Master's Artefact Doublebladedstaff Crystal",
+    "weight": 2
+  },
+  "T6_2H_DOUBLEBLADEDSTAFF_CRYSTAL@1": {
+    "name": "Master's Phantom Twinblade .1",
+    "weight": 15.2
+  },
+  "T6_2H_DOUBLEBLADEDSTAFF_CRYSTAL@2": {
+    "name": "Master's Phantom Twinblade .2",
+    "weight": 15.2
+  },
+  "T6_2H_DOUBLEBLADEDSTAFF_CRYSTAL@3": {
+    "name": "Master's Phantom Twinblade .3",
+    "weight": 15.2
+  },
+  "T6_2H_DOUBLEBLADEDSTAFF_CRYSTAL@4": {
+    "name": "Master's Phantom Twinblade .4",
+    "weight": 15.2
+  },
+  "T6_2H_DUALSWORD": {
+    "name": "Master's Dual Swords",
+    "weight": 15.2
+  },
+  "T6_2H_DUALSWORD@1": {
+    "name": "Master's Dual Swords .1",
+    "weight": 15.2
+  },
+  "T6_2H_DUALSWORD@2": {
+    "name": "Master's Dual Swords .2",
+    "weight": 15.2
+  },
+  "T6_2H_DUALSWORD@3": {
+    "name": "Master's Dual Swords .3",
+    "weight": 15.2
+  },
+  "T6_2H_DUALSWORD@4": {
+    "name": "Master's Dual Swords .4",
+    "weight": 15.2
+  },
+  "T6_2H_DUALAXE_KEEPER": {
+    "name": "Master's Bear Paws",
+    "weight": 15.2
+  },
+  "T6_ARTEFACT_2H_DUALAXE_KEEPER": {
+    "name": "Master's Artefact Dualaxe Keeper",
+    "weight": 2
+  },
+  "T6_2H_DUALAXE_KEEPER@1": {
+    "name": "Master's Bear Paws .1",
+    "weight": 15.2
+  },
+  "T6_2H_DUALAXE_KEEPER@2": {
+    "name": "Master's Bear Paws .2",
+    "weight": 15.2
+  },
+  "T6_2H_DUALAXE_KEEPER@3": {
+    "name": "Master's Bear Paws .3",
+    "weight": 15.2
+  },
+  "T6_2H_DUALAXE_KEEPER@4": {
+    "name": "Master's Bear Paws .4",
+    "weight": 15.2
+  },
+  "T6_2H_DUALHAMMER_HELL": {
+    "name": "Master's Forge Hammers",
+    "weight": 15.2
+  },
+  "T6_ARTEFACT_2H_DUALHAMMER_HELL": {
+    "name": "Master's Artefact Dualhammer Hell",
+    "weight": 2
+  },
+  "T6_2H_DUALHAMMER_HELL@1": {
+    "name": "Master's Forge Hammers .1",
+    "weight": 15.2
+  },
+  "T6_2H_DUALHAMMER_HELL@2": {
+    "name": "Master's Forge Hammers .2",
+    "weight": 15.2
+  },
+  "T6_2H_DUALHAMMER_HELL@3": {
+    "name": "Master's Forge Hammers .3",
+    "weight": 15.2
+  },
+  "T6_2H_DUALHAMMER_HELL@4": {
+    "name": "Master's Forge Hammers .4",
+    "weight": 15.2
+  },
+  "T6_2H_DUALMACE_AVALON": {
+    "name": "Master's Oathkeepers",
+    "weight": 15.2
+  },
+  "T6_ARTEFACT_2H_DUALMACE_AVALON": {
+    "name": "Master's Artefact Dualmace Avalon",
+    "weight": 2
+  },
+  "T6_2H_DUALMACE_AVALON@1": {
+    "name": "Master's Oathkeepers .1",
+    "weight": 15.2
+  },
+  "T6_2H_DUALMACE_AVALON@2": {
+    "name": "Master's Oathkeepers .2",
+    "weight": 15.2
+  },
+  "T6_2H_DUALMACE_AVALON@3": {
+    "name": "Master's Oathkeepers .3",
+    "weight": 15.2
+  },
+  "T6_2H_DUALMACE_AVALON@4": {
+    "name": "Master's Oathkeepers .4",
+    "weight": 15.2
+  },
+  "T6_2H_DUALSCIMITAR_UNDEAD": {
+    "name": "Master's Galatine Pair",
+    "weight": 15.2
+  },
+  "T6_ARTEFACT_2H_DUALSCIMITAR_UNDEAD": {
+    "name": "Master's Artefact Dualscimitar Undead",
+    "weight": 2
+  },
+  "T6_2H_DUALSCIMITAR_UNDEAD@1": {
+    "name": "Master's Galatine Pair .1",
+    "weight": 15.2
+  },
+  "T6_2H_DUALSCIMITAR_UNDEAD@2": {
+    "name": "Master's Galatine Pair .2",
+    "weight": 15.2
+  },
+  "T6_2H_DUALSCIMITAR_UNDEAD@3": {
+    "name": "Master's Galatine Pair .3",
+    "weight": 15.2
+  },
+  "T6_2H_DUALSCIMITAR_UNDEAD@4": {
+    "name": "Master's Galatine Pair .4",
+    "weight": 15.2
+  },
+  "T6_2H_DUALSICKLE_UNDEAD": {
+    "name": "Master's Deathgivers",
+    "weight": 15.2
+  },
+  "T6_ARTEFACT_2H_DUALSICKLE_UNDEAD": {
+    "name": "Master's Artefact Dualsickle Undead",
+    "weight": 2
+  },
+  "T6_2H_DUALSICKLE_UNDEAD@1": {
+    "name": "Master's Deathgivers .1",
+    "weight": 15.2
+  },
+  "T6_2H_DUALSICKLE_UNDEAD@2": {
+    "name": "Master's Deathgivers .2",
+    "weight": 15.2
+  },
+  "T6_2H_DUALSICKLE_UNDEAD@3": {
+    "name": "Master's Deathgivers .3",
+    "weight": 15.2
+  },
+  "T6_2H_DUALSICKLE_UNDEAD@4": {
+    "name": "Master's Deathgivers .4",
+    "weight": 15.2
+  },
+  "T6_2H_ENIGMATICSTAFF": {
+    "name": "Master's Enigmatic Staff",
+    "weight": 15.2
+  },
+  "T6_2H_ENIGMATICSTAFF@1": {
+    "name": "Master's Enigmatic Staff .1",
+    "weight": 15.2
+  },
+  "T6_2H_ENIGMATICSTAFF@2": {
+    "name": "Master's Enigmatic Staff .2",
+    "weight": 15.2
+  },
+  "T6_2H_ENIGMATICSTAFF@3": {
+    "name": "Master's Enigmatic Staff .3",
+    "weight": 15.2
+  },
+  "T6_2H_ENIGMATICSTAFF@4": {
+    "name": "Master's Enigmatic Staff .4",
+    "weight": 15.2
+  },
+  "T6_2H_ENIGMATICORB_MORGANA": {
+    "name": "Master's Malevolent Locus",
+    "weight": 15.2
+  },
+  "T6_ARTEFACT_2H_ENIGMATICORB_MORGANA": {
+    "name": "Master's Artefact Enigmaticorb Morgana",
+    "weight": 2
+  },
+  "T6_2H_ENIGMATICORB_MORGANA@1": {
+    "name": "Master's Malevolent Locus .1",
+    "weight": 15.2
+  },
+  "T6_2H_ENIGMATICORB_MORGANA@2": {
+    "name": "Master's Malevolent Locus .2",
+    "weight": 15.2
+  },
+  "T6_2H_ENIGMATICORB_MORGANA@3": {
+    "name": "Master's Malevolent Locus .3",
+    "weight": 15.2
+  },
+  "T6_2H_ENIGMATICORB_MORGANA@4": {
+    "name": "Master's Malevolent Locus .4",
+    "weight": 15.2
+  },
+  "T6_2H_FIRE_RINGPAIR_AVALON": {
+    "name": "Master's Dawnsong",
+    "weight": 15.2
+  },
+  "T6_ARTEFACT_2H_FIRE_RINGPAIR_AVALON": {
+    "name": "Master's Artefact Fire Ringpair Avalon",
+    "weight": 2
+  },
+  "T6_2H_FIRE_RINGPAIR_AVALON@1": {
+    "name": "Master's Dawnsong .1",
+    "weight": 15.2
+  },
+  "T6_2H_FIRE_RINGPAIR_AVALON@2": {
+    "name": "Master's Dawnsong .2",
+    "weight": 15.2
+  },
+  "T6_2H_FIRE_RINGPAIR_AVALON@3": {
+    "name": "Master's Dawnsong .3",
+    "weight": 15.2
+  },
+  "T6_2H_FIRE_RINGPAIR_AVALON@4": {
+    "name": "Master's Dawnsong .4",
+    "weight": 15.2
+  },
+  "T6_MAIN_FIRESTAFF": {
+    "name": "Master's Fire Staff",
+    "weight": 11.4
+  },
+  "T6_MAIN_FIRESTAFF@1": {
+    "name": "Master's Fire Staff .1",
+    "weight": 11.4
+  },
+  "T6_MAIN_FIRESTAFF@2": {
+    "name": "Master's Fire Staff .2",
+    "weight": 11.4
+  },
+  "T6_MAIN_FIRESTAFF@3": {
+    "name": "Master's Fire Staff .3",
+    "weight": 11.4
+  },
+  "T6_MAIN_FIRESTAFF@4": {
+    "name": "Master's Fire Staff .4",
+    "weight": 11.4
+  },
+  "T6_MAIN_FIRESTAFF_CRYSTAL": {
+    "name": "Master's Flamewalker Staff",
+    "weight": 11.4
+  },
+  "T6_ARTEFACT_MAIN_FIRESTAFF_CRYSTAL": {
+    "name": "Master's Artefact Firestaff Crystal",
+    "weight": 2
+  },
+  "T6_MAIN_FIRESTAFF_CRYSTAL@1": {
+    "name": "Master's Flamewalker Staff .1",
+    "weight": 11.4
+  },
+  "T6_MAIN_FIRESTAFF_CRYSTAL@2": {
+    "name": "Master's Flamewalker Staff .2",
+    "weight": 11.4
+  },
+  "T6_MAIN_FIRESTAFF_CRYSTAL@3": {
+    "name": "Master's Flamewalker Staff .3",
+    "weight": 11.4
+  },
+  "T6_MAIN_FIRESTAFF_CRYSTAL@4": {
+    "name": "Master's Flamewalker Staff .4",
+    "weight": 11.4
+  },
+  "T6_MAIN_FIRESTAFF_KEEPER": {
+    "name": "Master's Wildfire Staff",
+    "weight": 11.4
+  },
+  "T6_ARTEFACT_MAIN_FIRESTAFF_KEEPER": {
+    "name": "Master's Artefact Firestaff Keeper",
+    "weight": 2
+  },
+  "T6_MAIN_FIRESTAFF_KEEPER@1": {
+    "name": "Master's Wildfire Staff .1",
+    "weight": 11.4
+  },
+  "T6_MAIN_FIRESTAFF_KEEPER@2": {
+    "name": "Master's Wildfire Staff .2",
+    "weight": 11.4
+  },
+  "T6_MAIN_FIRESTAFF_KEEPER@3": {
+    "name": "Master's Wildfire Staff .3",
+    "weight": 11.4
+  },
+  "T6_MAIN_FIRESTAFF_KEEPER@4": {
+    "name": "Master's Wildfire Staff .4",
+    "weight": 11.4
+  },
+  "T6_MAIN_FROSTSTAFF": {
+    "name": "Master's Frost Staff",
+    "weight": 11.4
+  },
+  "T6_MAIN_FROSTSTAFF@1": {
+    "name": "Master's Frost Staff .1",
+    "weight": 11.4
+  },
+  "T6_MAIN_FROSTSTAFF@2": {
+    "name": "Master's Frost Staff .2",
+    "weight": 11.4
+  },
+  "T6_MAIN_FROSTSTAFF@3": {
+    "name": "Master's Frost Staff .3",
+    "weight": 11.4
+  },
+  "T6_MAIN_FROSTSTAFF@4": {
+    "name": "Master's Frost Staff .4",
+    "weight": 11.4
+  },
+  "T6_MAIN_FROSTSTAFF_AVALON": {
+    "name": "Master's Chillhowl",
+    "weight": 11.4
+  },
+  "T6_ARTEFACT_MAIN_FROSTSTAFF_AVALON": {
+    "name": "Master's Artefact Froststaff Avalon",
+    "weight": 2
+  },
+  "T6_MAIN_FROSTSTAFF_AVALON@1": {
+    "name": "Master's Chillhowl .1",
+    "weight": 11.4
+  },
+  "T6_MAIN_FROSTSTAFF_AVALON@2": {
+    "name": "Master's Chillhowl .2",
+    "weight": 11.4
+  },
+  "T6_MAIN_FROSTSTAFF_AVALON@3": {
+    "name": "Master's Chillhowl .3",
+    "weight": 11.4
+  },
+  "T6_MAIN_FROSTSTAFF_AVALON@4": {
+    "name": "Master's Chillhowl .4",
+    "weight": 11.4
+  },
+  "T6_MAIN_FROSTSTAFF_KEEPER": {
+    "name": "Master's Hoarfrost Staff",
+    "weight": 11.4
+  },
+  "T6_ARTEFACT_MAIN_FROSTSTAFF_KEEPER": {
+    "name": "Master's Artefact Froststaff Keeper",
+    "weight": 2
+  },
+  "T6_MAIN_FROSTSTAFF_KEEPER@1": {
+    "name": "Master's Hoarfrost Staff .1",
+    "weight": 11.4
+  },
+  "T6_MAIN_FROSTSTAFF_KEEPER@2": {
+    "name": "Master's Hoarfrost Staff .2",
+    "weight": 11.4
+  },
+  "T6_MAIN_FROSTSTAFF_KEEPER@3": {
+    "name": "Master's Hoarfrost Staff .3",
+    "weight": 11.4
+  },
+  "T6_MAIN_FROSTSTAFF_KEEPER@4": {
+    "name": "Master's Hoarfrost Staff .4",
+    "weight": 11.4
+  },
+  "T6_2H_GLACIALSTAFF": {
+    "name": "Master's Glacial Staff",
+    "weight": 15.2
+  },
+  "T6_2H_GLACIALSTAFF@1": {
+    "name": "Master's Glacial Staff .1",
+    "weight": 15.2
+  },
+  "T6_2H_GLACIALSTAFF@2": {
+    "name": "Master's Glacial Staff .2",
+    "weight": 15.2
+  },
+  "T6_2H_GLACIALSTAFF@3": {
+    "name": "Master's Glacial Staff .3",
+    "weight": 15.2
+  },
+  "T6_2H_GLACIALSTAFF@4": {
+    "name": "Master's Glacial Staff .4",
+    "weight": 15.2
+  },
+  "T6_2H_GLAIVE": {
+    "name": "Master's Glaive",
+    "weight": 15.2
+  },
+  "T6_2H_GLAIVE@1": {
+    "name": "Master's Glaive .1",
+    "weight": 15.2
+  },
+  "T6_2H_GLAIVE@2": {
+    "name": "Master's Glaive .2",
+    "weight": 15.2
+  },
+  "T6_2H_GLAIVE@3": {
+    "name": "Master's Glaive .3",
+    "weight": 15.2
+  },
+  "T6_2H_GLAIVE@4": {
+    "name": "Master's Glaive .4",
+    "weight": 15.2
+  },
+  "T6_2H_GLAIVE_CRYSTAL": {
+    "name": "Master's Rift Glaive",
+    "weight": 15.2
+  },
+  "T6_ARTEFACT_2H_GLAIVE_CRYSTAL": {
+    "name": "Master's Artefact Glaive Crystal",
+    "weight": 2
+  },
+  "T6_2H_GLAIVE_CRYSTAL@1": {
+    "name": "Master's Rift Glaive .1",
+    "weight": 15.2
+  },
+  "T6_2H_GLAIVE_CRYSTAL@2": {
+    "name": "Master's Rift Glaive .2",
+    "weight": 15.2
+  },
+  "T6_2H_GLAIVE_CRYSTAL@3": {
+    "name": "Master's Rift Glaive .3",
+    "weight": 15.2
+  },
+  "T6_2H_GLAIVE_CRYSTAL@4": {
+    "name": "Master's Rift Glaive .4",
+    "weight": 15.2
+  },
+  "T6_2H_ARCANESTAFF": {
+    "name": "Master's Great Arcane Staff",
+    "weight": 15.2
+  },
+  "T6_2H_ARCANESTAFF@1": {
+    "name": "Master's Great Arcane Staff .1",
+    "weight": 15.2
+  },
+  "T6_2H_ARCANESTAFF@2": {
+    "name": "Master's Great Arcane Staff .2",
+    "weight": 15.2
+  },
+  "T6_2H_ARCANESTAFF@3": {
+    "name": "Master's Great Arcane Staff .3",
+    "weight": 15.2
+  },
+  "T6_2H_ARCANESTAFF@4": {
+    "name": "Master's Great Arcane Staff .4",
+    "weight": 15.2
+  },
+  "T6_2H_ARCANESTAFF_CRYSTAL": {
+    "name": "Master's Astral Staff",
+    "weight": 15.2
+  },
+  "T6_ARTEFACT_2H_ARCANESTAFF_CRYSTAL": {
+    "name": "Master's Artefact Arcanestaff Crystal",
+    "weight": 2
+  },
+  "T6_2H_ARCANESTAFF_CRYSTAL@1": {
+    "name": "Master's Astral Staff .1",
+    "weight": 15.2
+  },
+  "T6_2H_ARCANESTAFF_CRYSTAL@2": {
+    "name": "Master's Astral Staff .2",
+    "weight": 15.2
+  },
+  "T6_2H_ARCANESTAFF_CRYSTAL@3": {
+    "name": "Master's Astral Staff .3",
+    "weight": 15.2
+  },
+  "T6_2H_ARCANESTAFF_CRYSTAL@4": {
+    "name": "Master's Astral Staff .4",
+    "weight": 15.2
+  },
+  "T6_2H_ARCANESTAFF_HELL": {
+    "name": "Master's Occult Staff",
+    "weight": 15.2
+  },
+  "T6_ARTEFACT_2H_ARCANESTAFF_HELL": {
+    "name": "Master's Artefact Arcanestaff Hell",
+    "weight": 2
+  },
+  "T6_2H_ARCANESTAFF_HELL@1": {
+    "name": "Master's Occult Staff .1",
+    "weight": 15.2
+  },
+  "T6_2H_ARCANESTAFF_HELL@2": {
+    "name": "Master's Occult Staff .2",
+    "weight": 15.2
+  },
+  "T6_2H_ARCANESTAFF_HELL@3": {
+    "name": "Master's Occult Staff .3",
+    "weight": 15.2
+  },
+  "T6_2H_ARCANESTAFF_HELL@4": {
+    "name": "Master's Occult Staff .4",
+    "weight": 15.2
+  },
+  "T6_2H_CURSEDSTAFF": {
+    "name": "Master's Great Cursed Staff",
+    "weight": 15.2
+  },
+  "T6_2H_CURSEDSTAFF@1": {
+    "name": "Master's Great Cursed Staff .1",
+    "weight": 15.2
+  },
+  "T6_2H_CURSEDSTAFF@2": {
+    "name": "Master's Great Cursed Staff .2",
+    "weight": 15.2
+  },
+  "T6_2H_CURSEDSTAFF@3": {
+    "name": "Master's Great Cursed Staff .3",
+    "weight": 15.2
+  },
+  "T6_2H_CURSEDSTAFF@4": {
+    "name": "Master's Great Cursed Staff .4",
+    "weight": 15.2
+  },
+  "T6_2H_CURSEDSTAFF_MORGANA": {
+    "name": "Master's Damnation Staff",
+    "weight": 15.2
+  },
+  "T6_ARTEFACT_2H_CURSEDSTAFF_MORGANA": {
+    "name": "Master's Artefact Cursedstaff Morgana",
+    "weight": 2
+  },
+  "T6_2H_CURSEDSTAFF_MORGANA@1": {
+    "name": "Master's Damnation Staff .1",
+    "weight": 15.2
+  },
+  "T6_2H_CURSEDSTAFF_MORGANA@2": {
+    "name": "Master's Damnation Staff .2",
+    "weight": 15.2
+  },
+  "T6_2H_CURSEDSTAFF_MORGANA@3": {
+    "name": "Master's Damnation Staff .3",
+    "weight": 15.2
+  },
+  "T6_2H_CURSEDSTAFF_MORGANA@4": {
+    "name": "Master's Damnation Staff .4",
+    "weight": 15.2
+  },
+  "T6_2H_FIRESTAFF": {
+    "name": "Master's Great Fire Staff",
+    "weight": 15.2
+  },
+  "T6_2H_FIRESTAFF@1": {
+    "name": "Master's Great Fire Staff .1",
+    "weight": 15.2
+  },
+  "T6_2H_FIRESTAFF@2": {
+    "name": "Master's Great Fire Staff .2",
+    "weight": 15.2
+  },
+  "T6_2H_FIRESTAFF@3": {
+    "name": "Master's Great Fire Staff .3",
+    "weight": 15.2
+  },
+  "T6_2H_FIRESTAFF@4": {
+    "name": "Master's Great Fire Staff .4",
+    "weight": 15.2
+  },
+  "T6_2H_FIRESTAFF_HELL": {
+    "name": "Master's Brimstone Staff",
+    "weight": 15.2
+  },
+  "T6_ARTEFACT_2H_FIRESTAFF_HELL": {
+    "name": "Master's Artefact Firestaff Hell",
+    "weight": 2
+  },
+  "T6_2H_FIRESTAFF_HELL@1": {
+    "name": "Master's Brimstone Staff .1",
+    "weight": 15.2
+  },
+  "T6_2H_FIRESTAFF_HELL@2": {
+    "name": "Master's Brimstone Staff .2",
+    "weight": 15.2
+  },
+  "T6_2H_FIRESTAFF_HELL@3": {
+    "name": "Master's Brimstone Staff .3",
+    "weight": 15.2
+  },
+  "T6_2H_FIRESTAFF_HELL@4": {
+    "name": "Master's Brimstone Staff .4",
+    "weight": 15.2
+  },
+  "T6_2H_FROSTSTAFF": {
+    "name": "Master's Great Frost Staff",
+    "weight": 15.2
+  },
+  "T6_2H_FROSTSTAFF@1": {
+    "name": "Master's Great Frost Staff .1",
+    "weight": 15.2
+  },
+  "T6_2H_FROSTSTAFF@2": {
+    "name": "Master's Great Frost Staff .2",
+    "weight": 15.2
+  },
+  "T6_2H_FROSTSTAFF@3": {
+    "name": "Master's Great Frost Staff .3",
+    "weight": 15.2
+  },
+  "T6_2H_FROSTSTAFF@4": {
+    "name": "Master's Great Frost Staff .4",
+    "weight": 15.2
+  },
+  "T6_2H_FROSTSTAFF_CRYSTAL": {
+    "name": "Master's Arctic Staff",
+    "weight": 15.2
+  },
+  "T6_ARTEFACT_2H_FROSTSTAFF_CRYSTAL": {
+    "name": "Master's Artefact Froststaff Crystal",
+    "weight": 2
+  },
+  "T6_2H_FROSTSTAFF_CRYSTAL@1": {
+    "name": "Master's Arctic Staff .1",
+    "weight": 15.2
+  },
+  "T6_2H_FROSTSTAFF_CRYSTAL@2": {
+    "name": "Master's Arctic Staff .2",
+    "weight": 15.2
+  },
+  "T6_2H_FROSTSTAFF_CRYSTAL@3": {
+    "name": "Master's Arctic Staff .3",
+    "weight": 15.2
+  },
+  "T6_2H_FROSTSTAFF_CRYSTAL@4": {
+    "name": "Master's Arctic Staff .4",
+    "weight": 15.2
+  },
+  "T6_2H_HAMMER": {
+    "name": "Master's Great Hammer",
+    "weight": 15.2
+  },
+  "T6_2H_HAMMER@1": {
+    "name": "Master's Great Hammer .1",
+    "weight": 15.2
+  },
+  "T6_2H_HAMMER@2": {
+    "name": "Master's Great Hammer .2",
+    "weight": 15.2
+  },
+  "T6_2H_HAMMER@3": {
+    "name": "Master's Great Hammer .3",
+    "weight": 15.2
+  },
+  "T6_2H_HAMMER@4": {
+    "name": "Master's Great Hammer .4",
+    "weight": 15.2
+  },
+  "T6_2H_HAMMER_AVALON": {
+    "name": "Master's Hand of Justice",
+    "weight": 15.2
+  },
+  "T6_ARTEFACT_2H_HAMMER_AVALON": {
+    "name": "Master's Artefact Hammer Avalon",
+    "weight": 2
+  },
+  "T6_2H_HAMMER_AVALON@1": {
+    "name": "Master's Hand of Justice .1",
+    "weight": 15.2
+  },
+  "T6_2H_HAMMER_AVALON@2": {
+    "name": "Master's Hand of Justice .2",
+    "weight": 15.2
+  },
+  "T6_2H_HAMMER_AVALON@3": {
+    "name": "Master's Hand of Justice .3",
+    "weight": 15.2
+  },
+  "T6_2H_HAMMER_AVALON@4": {
+    "name": "Master's Hand of Justice .4",
+    "weight": 15.2
+  },
+  "T6_2H_HAMMER_CRYSTAL": {
+    "name": "Master's Truebolt Hammer",
+    "weight": 15.2
+  },
+  "T6_ARTEFACT_2H_HAMMER_CRYSTAL": {
+    "name": "Master's Artefact Hammer Crystal",
+    "weight": 2
+  },
+  "T6_2H_HAMMER_CRYSTAL@1": {
+    "name": "Master's Truebolt Hammer .1",
+    "weight": 15.2
+  },
+  "T6_2H_HAMMER_CRYSTAL@2": {
+    "name": "Master's Truebolt Hammer .2",
+    "weight": 15.2
+  },
+  "T6_2H_HAMMER_CRYSTAL@3": {
+    "name": "Master's Truebolt Hammer .3",
+    "weight": 15.2
+  },
+  "T6_2H_HAMMER_CRYSTAL@4": {
+    "name": "Master's Truebolt Hammer .4",
+    "weight": 15.2
+  },
+  "T6_2H_HAMMER_UNDEAD": {
+    "name": "Master's Tombhammer",
+    "weight": 15.2
+  },
+  "T6_ARTEFACT_2H_HAMMER_UNDEAD": {
+    "name": "Master's Artefact Hammer Undead",
+    "weight": 2
+  },
+  "T6_2H_HAMMER_UNDEAD@1": {
+    "name": "Master's Tombhammer .1",
+    "weight": 15.2
+  },
+  "T6_2H_HAMMER_UNDEAD@2": {
+    "name": "Master's Tombhammer .2",
+    "weight": 15.2
+  },
+  "T6_2H_HAMMER_UNDEAD@3": {
+    "name": "Master's Tombhammer .3",
+    "weight": 15.2
+  },
+  "T6_2H_HAMMER_UNDEAD@4": {
+    "name": "Master's Tombhammer .4",
+    "weight": 15.2
+  },
+  "T6_2H_HOLYSTAFF": {
+    "name": "Master's Great Holy Staff",
+    "weight": 15.2
+  },
+  "T6_2H_HOLYSTAFF@1": {
+    "name": "Master's Great Holy Staff .1",
+    "weight": 15.2
+  },
+  "T6_2H_HOLYSTAFF@2": {
+    "name": "Master's Great Holy Staff .2",
+    "weight": 15.2
+  },
+  "T6_2H_HOLYSTAFF@3": {
+    "name": "Master's Great Holy Staff .3",
+    "weight": 15.2
+  },
+  "T6_2H_HOLYSTAFF@4": {
+    "name": "Master's Great Holy Staff .4",
+    "weight": 15.2
+  },
+  "T6_2H_HOLYSTAFF_CRYSTAL": {
+    "name": "Master's Exalted Staff",
+    "weight": 15.2
+  },
+  "T6_ARTEFACT_2H_HOLYSTAFF_CRYSTAL": {
+    "name": "Master's Artefact Holystaff Crystal",
+    "weight": 2
+  },
+  "T6_2H_HOLYSTAFF_CRYSTAL@1": {
+    "name": "Master's Exalted Staff .1",
+    "weight": 15.2
+  },
+  "T6_2H_HOLYSTAFF_CRYSTAL@2": {
+    "name": "Master's Exalted Staff .2",
+    "weight": 15.2
+  },
+  "T6_2H_HOLYSTAFF_CRYSTAL@3": {
+    "name": "Master's Exalted Staff .3",
+    "weight": 15.2
+  },
+  "T6_2H_HOLYSTAFF_CRYSTAL@4": {
+    "name": "Master's Exalted Staff .4",
+    "weight": 15.2
+  },
+  "T6_2H_HOLYSTAFF_HELL": {
+    "name": "Master's Fallen Staff",
+    "weight": 15.2
+  },
+  "T6_ARTEFACT_2H_HOLYSTAFF_HELL": {
+    "name": "Master's Artefact Holystaff Hell",
+    "weight": 2
+  },
+  "T6_2H_HOLYSTAFF_HELL@1": {
+    "name": "Master's Fallen Staff .1",
+    "weight": 15.2
+  },
+  "T6_2H_HOLYSTAFF_HELL@2": {
+    "name": "Master's Fallen Staff .2",
+    "weight": 15.2
+  },
+  "T6_2H_HOLYSTAFF_HELL@3": {
+    "name": "Master's Fallen Staff .3",
+    "weight": 15.2
+  },
+  "T6_2H_HOLYSTAFF_HELL@4": {
+    "name": "Master's Fallen Staff .4",
+    "weight": 15.2
+  },
+  "T6_2H_HOLYSTAFF_UNDEAD": {
+    "name": "Master's Redemption Staff",
+    "weight": 15.2
+  },
+  "T6_ARTEFACT_2H_HOLYSTAFF_UNDEAD": {
+    "name": "Master's Artefact Holystaff Undead",
+    "weight": 2
+  },
+  "T6_2H_HOLYSTAFF_UNDEAD@1": {
+    "name": "Master's Redemption Staff .1",
+    "weight": 15.2
+  },
+  "T6_2H_HOLYSTAFF_UNDEAD@2": {
+    "name": "Master's Redemption Staff .2",
+    "weight": 15.2
+  },
+  "T6_2H_HOLYSTAFF_UNDEAD@3": {
+    "name": "Master's Redemption Staff .3",
+    "weight": 15.2
+  },
+  "T6_2H_HOLYSTAFF_UNDEAD@4": {
+    "name": "Master's Redemption Staff .4",
+    "weight": 15.2
+  },
+  "T6_2H_NATURESTAFF": {
+    "name": "Master's Great Nature Staff",
+    "weight": 15.2
+  },
+  "T6_2H_NATURESTAFF@1": {
+    "name": "Master's Great Nature Staff .1",
+    "weight": 15.2
+  },
+  "T6_2H_NATURESTAFF@2": {
+    "name": "Master's Great Nature Staff .2",
+    "weight": 15.2
+  },
+  "T6_2H_NATURESTAFF@3": {
+    "name": "Master's Great Nature Staff .3",
+    "weight": 15.2
+  },
+  "T6_2H_NATURESTAFF@4": {
+    "name": "Master's Great Nature Staff .4",
+    "weight": 15.2
+  },
+  "T6_2H_NATURESTAFF_HELL": {
+    "name": "Master's Blight Staff",
+    "weight": 15.2
+  },
+  "T6_ARTEFACT_2H_NATURESTAFF_HELL": {
+    "name": "Master's Artefact Naturestaff Hell",
+    "weight": 2
+  },
+  "T6_2H_NATURESTAFF_HELL@1": {
+    "name": "Master's Blight Staff .1",
+    "weight": 15.2
+  },
+  "T6_2H_NATURESTAFF_HELL@2": {
+    "name": "Master's Blight Staff .2",
+    "weight": 15.2
+  },
+  "T6_2H_NATURESTAFF_HELL@3": {
+    "name": "Master's Blight Staff .3",
+    "weight": 15.2
+  },
+  "T6_2H_NATURESTAFF_HELL@4": {
+    "name": "Master's Blight Staff .4",
+    "weight": 15.2
+  },
+  "T6_2H_NATURESTAFF_KEEPER": {
+    "name": "Master's Rampant Staff",
+    "weight": 15.2
+  },
+  "T6_ARTEFACT_2H_NATURESTAFF_KEEPER": {
+    "name": "Master's Artefact Naturestaff Keeper",
+    "weight": 2
+  },
+  "T6_2H_NATURESTAFF_KEEPER@1": {
+    "name": "Master's Rampant Staff .1",
+    "weight": 15.2
+  },
+  "T6_2H_NATURESTAFF_KEEPER@2": {
+    "name": "Master's Rampant Staff .2",
+    "weight": 15.2
+  },
+  "T6_2H_NATURESTAFF_KEEPER@3": {
+    "name": "Master's Rampant Staff .3",
+    "weight": 15.2
+  },
+  "T6_2H_NATURESTAFF_KEEPER@4": {
+    "name": "Master's Rampant Staff .4",
+    "weight": 15.2
+  },
+  "T6_2H_AXE": {
+    "name": "Master's Greataxe",
+    "weight": 15.2
+  },
+  "T6_2H_AXE@1": {
+    "name": "Master's Greataxe .1",
+    "weight": 15.2
+  },
+  "T6_2H_AXE@2": {
+    "name": "Master's Greataxe .2",
+    "weight": 15.2
+  },
+  "T6_2H_AXE@3": {
+    "name": "Master's Greataxe .3",
+    "weight": 15.2
+  },
+  "T6_2H_AXE@4": {
+    "name": "Master's Greataxe .4",
+    "weight": 15.2
+  },
+  "T6_2H_AXE_AVALON": {
+    "name": "Master's Realmbreaker",
+    "weight": 15.2
+  },
+  "T6_ARTEFACT_2H_AXE_AVALON": {
+    "name": "Master's Artefact Axe Avalon",
+    "weight": 2
+  },
+  "T6_2H_AXE_AVALON@1": {
+    "name": "Master's Realmbreaker .1",
+    "weight": 15.2
+  },
+  "T6_2H_AXE_AVALON@2": {
+    "name": "Master's Realmbreaker .2",
+    "weight": 15.2
+  },
+  "T6_2H_AXE_AVALON@3": {
+    "name": "Master's Realmbreaker .3",
+    "weight": 15.2
+  },
+  "T6_2H_AXE_AVALON@4": {
+    "name": "Master's Realmbreaker .4",
+    "weight": 15.2
+  },
+  "T6_2H_HALBERD": {
+    "name": "Master's Halberd",
+    "weight": 15.2
+  },
+  "T6_2H_HALBERD@1": {
+    "name": "Master's Halberd .1",
+    "weight": 15.2
+  },
+  "T6_2H_HALBERD@2": {
+    "name": "Master's Halberd .2",
+    "weight": 15.2
+  },
+  "T6_2H_HALBERD@3": {
+    "name": "Master's Halberd .3",
+    "weight": 15.2
+  },
+  "T6_2H_HALBERD@4": {
+    "name": "Master's Halberd .4",
+    "weight": 15.2
+  },
+  "T6_2H_HALBERD_MORGANA": {
+    "name": "Master's Carrioncaller",
+    "weight": 15.2
+  },
+  "T6_ARTEFACT_2H_HALBERD_MORGANA": {
+    "name": "Master's Artefact Halberd Morgana",
+    "weight": 2
+  },
+  "T6_2H_HALBERD_MORGANA@1": {
+    "name": "Master's Carrioncaller .1",
+    "weight": 15.2
+  },
+  "T6_2H_HALBERD_MORGANA@2": {
+    "name": "Master's Carrioncaller .2",
+    "weight": 15.2
+  },
+  "T6_2H_HALBERD_MORGANA@3": {
+    "name": "Master's Carrioncaller .3",
+    "weight": 15.2
+  },
+  "T6_2H_HALBERD_MORGANA@4": {
+    "name": "Master's Carrioncaller .4",
+    "weight": 15.2
+  },
+  "T6_MAIN_HAMMER": {
+    "name": "Master's Hammer",
+    "weight": 11.4
+  },
+  "T6_MAIN_HAMMER@1": {
+    "name": "Master's Hammer .1",
+    "weight": 11.4
+  },
+  "T6_MAIN_HAMMER@2": {
+    "name": "Master's Hammer .2",
+    "weight": 11.4
+  },
+  "T6_MAIN_HAMMER@3": {
+    "name": "Master's Hammer .3",
+    "weight": 11.4
+  },
+  "T6_MAIN_HAMMER@4": {
+    "name": "Master's Hammer .4",
+    "weight": 11.4
+  },
+  "T6_2H_CROSSBOWLARGE": {
+    "name": "Master's Heavy Crossbow",
+    "weight": 15.2
+  },
+  "T6_2H_CROSSBOWLARGE@1": {
+    "name": "Master's Heavy Crossbow .1",
+    "weight": 15.2
+  },
+  "T6_2H_CROSSBOWLARGE@2": {
+    "name": "Master's Heavy Crossbow .2",
+    "weight": 15.2
+  },
+  "T6_2H_CROSSBOWLARGE@3": {
+    "name": "Master's Heavy Crossbow .3",
+    "weight": 15.2
+  },
+  "T6_2H_CROSSBOWLARGE@4": {
+    "name": "Master's Heavy Crossbow .4",
+    "weight": 15.2
+  },
+  "T6_2H_CROSSBOWLARGE_MORGANA": {
+    "name": "Master's Siegebow",
+    "weight": 15.2
+  },
+  "T6_ARTEFACT_2H_CROSSBOWLARGE_MORGANA": {
+    "name": "Master's Artefact Crossbowlarge Morgana",
+    "weight": 2
+  },
+  "T6_2H_CROSSBOWLARGE_MORGANA@1": {
+    "name": "Master's Siegebow .1",
+    "weight": 15.2
+  },
+  "T6_2H_CROSSBOWLARGE_MORGANA@2": {
+    "name": "Master's Siegebow .2",
+    "weight": 15.2
+  },
+  "T6_2H_CROSSBOWLARGE_MORGANA@3": {
+    "name": "Master's Siegebow .3",
+    "weight": 15.2
+  },
+  "T6_2H_CROSSBOWLARGE_MORGANA@4": {
+    "name": "Master's Siegebow .4",
+    "weight": 15.2
+  },
+  "T6_2H_MACE": {
+    "name": "Master's Heavy Mace",
+    "weight": 15.2
+  },
+  "T6_2H_MACE@1": {
+    "name": "Master's Heavy Mace .1",
+    "weight": 15.2
+  },
+  "T6_2H_MACE@2": {
+    "name": "Master's Heavy Mace .2",
+    "weight": 15.2
+  },
+  "T6_2H_MACE@3": {
+    "name": "Master's Heavy Mace .3",
+    "weight": 15.2
+  },
+  "T6_2H_MACE@4": {
+    "name": "Master's Heavy Mace .4",
+    "weight": 15.2
+  },
+  "T6_2H_MACE_MORGANA": {
+    "name": "Master's Camlann Mace",
+    "weight": 15.2
+  },
+  "T6_ARTEFACT_2H_MACE_MORGANA": {
+    "name": "Master's Artefact Mace Morgana",
+    "weight": 2
+  },
+  "T6_2H_MACE_MORGANA@1": {
+    "name": "Master's Camlann Mace .1",
+    "weight": 15.2
+  },
+  "T6_2H_MACE_MORGANA@2": {
+    "name": "Master's Camlann Mace .2",
+    "weight": 15.2
+  },
+  "T6_2H_MACE_MORGANA@3": {
+    "name": "Master's Camlann Mace .3",
+    "weight": 15.2
+  },
+  "T6_2H_MACE_MORGANA@4": {
+    "name": "Master's Camlann Mace .4",
+    "weight": 15.2
+  },
+  "T6_MAIN_HOLYSTAFF": {
+    "name": "Master's Holy Staff",
+    "weight": 11.4
+  },
+  "T6_MAIN_HOLYSTAFF@1": {
+    "name": "Master's Holy Staff .1",
+    "weight": 11.4
+  },
+  "T6_MAIN_HOLYSTAFF@2": {
+    "name": "Master's Holy Staff .2",
+    "weight": 11.4
+  },
+  "T6_MAIN_HOLYSTAFF@3": {
+    "name": "Master's Holy Staff .3",
+    "weight": 11.4
+  },
+  "T6_MAIN_HOLYSTAFF@4": {
+    "name": "Master's Holy Staff .4",
+    "weight": 11.4
+  },
+  "T6_MAIN_HOLYSTAFF_AVALON": {
+    "name": "Master's Hallowfall",
+    "weight": 11.4
+  },
+  "T6_ARTEFACT_MAIN_HOLYSTAFF_AVALON": {
+    "name": "Master's Artefact Holystaff Avalon",
+    "weight": 2
+  },
+  "T6_MAIN_HOLYSTAFF_AVALON@1": {
+    "name": "Master's Hallowfall .1",
+    "weight": 11.4
+  },
+  "T6_MAIN_HOLYSTAFF_AVALON@2": {
+    "name": "Master's Hallowfall .2",
+    "weight": 11.4
+  },
+  "T6_MAIN_HOLYSTAFF_AVALON@3": {
+    "name": "Master's Hallowfall .3",
+    "weight": 11.4
+  },
+  "T6_MAIN_HOLYSTAFF_AVALON@4": {
+    "name": "Master's Hallowfall .4",
+    "weight": 11.4
+  },
+  "T6_MAIN_HOLYSTAFF_MORGANA": {
+    "name": "Master's Lifetouch Staff",
+    "weight": 11.4
+  },
+  "T6_ARTEFACT_MAIN_HOLYSTAFF_MORGANA": {
+    "name": "Master's Artefact Holystaff Morgana",
+    "weight": 2
+  },
+  "T6_MAIN_HOLYSTAFF_MORGANA@1": {
+    "name": "Master's Lifetouch Staff .1",
+    "weight": 11.4
+  },
+  "T6_MAIN_HOLYSTAFF_MORGANA@2": {
+    "name": "Master's Lifetouch Staff .2",
+    "weight": 11.4
+  },
+  "T6_MAIN_HOLYSTAFF_MORGANA@3": {
+    "name": "Master's Lifetouch Staff .3",
+    "weight": 11.4
+  },
+  "T6_MAIN_HOLYSTAFF_MORGANA@4": {
+    "name": "Master's Lifetouch Staff .4",
+    "weight": 11.4
+  },
+  "T6_2H_ICECRYSTAL_UNDEAD": {
+    "name": "Master's Permafrost Prism",
+    "weight": 15.2
+  },
+  "T6_ARTEFACT_2H_ICECRYSTAL_UNDEAD": {
+    "name": "Master's Artefact Icecrystal Undead",
+    "weight": 2
+  },
+  "T6_2H_ICECRYSTAL_UNDEAD@1": {
+    "name": "Master's Permafrost Prism .1",
+    "weight": 15.2
+  },
+  "T6_2H_ICECRYSTAL_UNDEAD@2": {
+    "name": "Master's Permafrost Prism .2",
+    "weight": 15.2
+  },
+  "T6_2H_ICECRYSTAL_UNDEAD@3": {
+    "name": "Master's Permafrost Prism .3",
+    "weight": 15.2
+  },
+  "T6_2H_ICECRYSTAL_UNDEAD@4": {
+    "name": "Master's Permafrost Prism .4",
+    "weight": 15.2
+  },
+  "T6_2H_ICEGAUNTLETS_HELL": {
+    "name": "Master's Icicle Staff",
+    "weight": 15.2
+  },
+  "T6_ARTEFACT_2H_ICEGAUNTLETS_HELL": {
+    "name": "Master's Artefact Icegauntlets Hell",
+    "weight": 2
+  },
+  "T6_2H_ICEGAUNTLETS_HELL@1": {
+    "name": "Master's Icicle Staff .1",
+    "weight": 15.2
+  },
+  "T6_2H_ICEGAUNTLETS_HELL@2": {
+    "name": "Master's Icicle Staff .2",
+    "weight": 15.2
+  },
+  "T6_2H_ICEGAUNTLETS_HELL@3": {
+    "name": "Master's Icicle Staff .3",
+    "weight": 15.2
+  },
+  "T6_2H_ICEGAUNTLETS_HELL@4": {
+    "name": "Master's Icicle Staff .4",
+    "weight": 15.2
+  },
+  "T6_2H_INFERNOSTAFF": {
+    "name": "Master's Infernal Staff",
+    "weight": 15.2
+  },
+  "T6_2H_INFERNOSTAFF@1": {
+    "name": "Master's Infernal Staff .1",
+    "weight": 15.2
+  },
+  "T6_2H_INFERNOSTAFF@2": {
+    "name": "Master's Infernal Staff .2",
+    "weight": 15.2
+  },
+  "T6_2H_INFERNOSTAFF@3": {
+    "name": "Master's Infernal Staff .3",
+    "weight": 15.2
+  },
+  "T6_2H_INFERNOSTAFF@4": {
+    "name": "Master's Infernal Staff .4",
+    "weight": 15.2
+  },
+  "T6_2H_INFERNOSTAFF_MORGANA": {
+    "name": "Master's Blazing Staff",
+    "weight": 15.2
+  },
+  "T6_ARTEFACT_2H_INFERNOSTAFF_MORGANA": {
+    "name": "Master's Artefact Infernostaff Morgana",
+    "weight": 2
+  },
+  "T6_2H_INFERNOSTAFF_MORGANA@1": {
+    "name": "Master's Blazing Staff .1",
+    "weight": 15.2
+  },
+  "T6_2H_INFERNOSTAFF_MORGANA@2": {
+    "name": "Master's Blazing Staff .2",
+    "weight": 15.2
+  },
+  "T6_2H_INFERNOSTAFF_MORGANA@3": {
+    "name": "Master's Blazing Staff .3",
+    "weight": 15.2
+  },
+  "T6_2H_INFERNOSTAFF_MORGANA@4": {
+    "name": "Master's Blazing Staff .4",
+    "weight": 15.2
+  },
+  "T6_2H_IRONCLADEDSTAFF": {
+    "name": "Master's Iron-clad Staff",
+    "weight": 15.2
+  },
+  "T6_2H_IRONCLADEDSTAFF@1": {
+    "name": "Master's Iron-clad Staff .1",
+    "weight": 15.2
+  },
+  "T6_2H_IRONCLADEDSTAFF@2": {
+    "name": "Master's Iron-clad Staff .2",
+    "weight": 15.2
+  },
+  "T6_2H_IRONCLADEDSTAFF@3": {
+    "name": "Master's Iron-clad Staff .3",
+    "weight": 15.2
+  },
+  "T6_2H_IRONCLADEDSTAFF@4": {
+    "name": "Master's Iron-clad Staff .4",
+    "weight": 15.2
+  },
+  "T6_2H_IRONGAUNTLETS_HELL": {
+    "name": "Master's Black Hands",
+    "weight": 15.2
+  },
+  "T6_ARTEFACT_2H_IRONGAUNTLETS_HELL": {
+    "name": "Master's Artefact Irongauntlets Hell",
+    "weight": 2
+  },
+  "T6_2H_IRONGAUNTLETS_HELL@1": {
+    "name": "Master's Black Hands .1",
+    "weight": 15.2
+  },
+  "T6_2H_IRONGAUNTLETS_HELL@2": {
+    "name": "Master's Black Hands .2",
+    "weight": 15.2
+  },
+  "T6_2H_IRONGAUNTLETS_HELL@3": {
+    "name": "Master's Black Hands .3",
+    "weight": 15.2
+  },
+  "T6_2H_KNUCKLES_AVALON": {
+    "name": "Master's Fists of Avalon",
+    "weight": 15.2
+  },
+  "T6_ARTEFACT_2H_KNUCKLES_AVALON": {
+    "name": "Master's Artefact Knuckles Avalon",
+    "weight": 2
+  },
+  "T6_2H_KNUCKLES_AVALON@1": {
+    "name": "Master's Fists of Avalon .1",
+    "weight": 15.2
+  },
+  "T6_2H_KNUCKLES_AVALON@2": {
+    "name": "Master's Fists of Avalon .2",
+    "weight": 15.2
+  },
+  "T6_2H_KNUCKLES_AVALON@3": {
+    "name": "Master's Fists of Avalon .3",
+    "weight": 15.2
+  },
+  "T6_2H_KNUCKLES_AVALON@4": {
+    "name": "Master's Fists of Avalon .4",
+    "weight": 15.2
+  },
+  "T6_2H_KNUCKLES_CRYSTAL": {
+    "name": "Master's Forcepulse Bracers",
+    "weight": 15.2
+  },
+  "T6_ARTEFACT_2H_KNUCKLES_CRYSTAL": {
+    "name": "Master's Artefact Knuckles Crystal",
+    "weight": 2
+  },
+  "T6_2H_KNUCKLES_CRYSTAL@1": {
+    "name": "Master's Forcepulse Bracers .1",
+    "weight": 15.2
+  },
+  "T6_2H_KNUCKLES_CRYSTAL@2": {
+    "name": "Master's Forcepulse Bracers .2",
+    "weight": 15.2
+  },
+  "T6_2H_KNUCKLES_CRYSTAL@3": {
+    "name": "Master's Forcepulse Bracers .3",
+    "weight": 15.2
+  },
+  "T6_2H_KNUCKLES_CRYSTAL@4": {
+    "name": "Master's Forcepulse Bracers .4",
+    "weight": 15.2
+  },
+  "T6_2H_KNUCKLES_HELL": {
+    "name": "Master's Hellfire Hands",
+    "weight": 15.2
+  },
+  "T6_ARTEFACT_2H_KNUCKLES_HELL": {
+    "name": "Master's Artefact Knuckles Hell",
+    "weight": 2
+  },
+  "T6_2H_KNUCKLES_HELL@1": {
+    "name": "Master's Hellfire Hands .1",
+    "weight": 15.2
+  },
+  "T6_2H_KNUCKLES_HELL@2": {
+    "name": "Master's Hellfire Hands .2",
+    "weight": 15.2
+  },
+  "T6_2H_KNUCKLES_HELL@3": {
+    "name": "Master's Hellfire Hands .3",
+    "weight": 15.2
+  },
+  "T6_2H_KNUCKLES_HELL@4": {
+    "name": "Master's Hellfire Hands .4",
+    "weight": 15.2
+  },
+  "T6_2H_KNUCKLES_KEEPER": {
+    "name": "Master's Ursine Maulers",
+    "weight": 15.2
+  },
+  "T6_ARTEFACT_2H_KNUCKLES_KEEPER": {
+    "name": "Master's Artefact Knuckles Keeper",
+    "weight": 2
+  },
+  "T6_2H_KNUCKLES_KEEPER@1": {
+    "name": "Master's Ursine Maulers .1",
+    "weight": 15.2
+  },
+  "T6_2H_KNUCKLES_KEEPER@2": {
+    "name": "Master's Ursine Maulers .2",
+    "weight": 15.2
+  },
+  "T6_2H_KNUCKLES_KEEPER@3": {
+    "name": "Master's Ursine Maulers .3",
+    "weight": 15.2
+  },
+  "T6_2H_KNUCKLES_KEEPER@4": {
+    "name": "Master's Ursine Maulers .4",
+    "weight": 15.2
+  },
+  "T6_2H_KNUCKLES_MORGANA": {
+    "name": "Master's Ravenstrike Cestus",
+    "weight": 15.2
+  },
+  "T6_ARTEFACT_2H_KNUCKLES_MORGANA": {
+    "name": "Master's Artefact Knuckles Morgana",
+    "weight": 2
+  },
+  "T6_2H_KNUCKLES_MORGANA@1": {
+    "name": "Master's Ravenstrike Cestus .1",
+    "weight": 15.2
+  },
+  "T6_2H_KNUCKLES_MORGANA@2": {
+    "name": "Master's Ravenstrike Cestus .2",
+    "weight": 15.2
+  },
+  "T6_2H_KNUCKLES_MORGANA@3": {
+    "name": "Master's Ravenstrike Cestus .3",
+    "weight": 15.2
+  },
+  "T6_2H_KNUCKLES_MORGANA@4": {
+    "name": "Master's Ravenstrike Cestus .4",
+    "weight": 15.2
+  },
+  "T6_2H_REPEATINGCROSSBOW_UNDEAD": {
+    "name": "Master's Weeping Repeater",
+    "weight": 15.2
+  },
+  "T6_ARTEFACT_2H_REPEATINGCROSSBOW_UNDEAD": {
+    "name": "Master's Artefact Repeatingcrossbow Undead",
+    "weight": 2
+  },
+  "T6_2H_REPEATINGCROSSBOW_UNDEAD@1": {
+    "name": "Master's Weeping Repeater .1",
+    "weight": 15.2
+  },
+  "T6_2H_REPEATINGCROSSBOW_UNDEAD@2": {
+    "name": "Master's Weeping Repeater .2",
+    "weight": 15.2
+  },
+  "T6_2H_REPEATINGCROSSBOW_UNDEAD@3": {
+    "name": "Master's Weeping Repeater .3",
+    "weight": 15.2
+  },
+  "T6_2H_REPEATINGCROSSBOW_UNDEAD@4": {
+    "name": "Master's Weeping Repeater .4",
+    "weight": 15.2
+  },
+  "T6_2H_LONGBOW": {
+    "name": "Master's Longbow",
+    "weight": 15.2
+  },
+  "T6_2H_LONGBOW@1": {
+    "name": "Master's Longbow .1",
+    "weight": 15.2
+  },
+  "T6_2H_LONGBOW@2": {
+    "name": "Master's Longbow .2",
+    "weight": 15.2
+  },
+  "T6_2H_LONGBOW@3": {
+    "name": "Master's Longbow .3",
+    "weight": 15.2
+  },
+  "T6_2H_LONGBOW@4": {
+    "name": "Master's Longbow .4",
+    "weight": 15.2
+  },
+  "T6_2H_LONGBOW_UNDEAD": {
+    "name": "Master's Whispering Bow",
+    "weight": 15.2
+  },
+  "T6_ARTEFACT_2H_LONGBOW_UNDEAD": {
+    "name": "Master's Artefact Longbow Undead",
+    "weight": 2
+  },
+  "T6_2H_LONGBOW_UNDEAD@1": {
+    "name": "Master's Whispering Bow .1",
+    "weight": 15.2
+  },
+  "T6_2H_LONGBOW_UNDEAD@2": {
+    "name": "Master's Whispering Bow .2",
+    "weight": 15.2
+  },
+  "T6_2H_LONGBOW_UNDEAD@3": {
+    "name": "Master's Whispering Bow .3",
+    "weight": 15.2
+  },
+  "T6_2H_LONGBOW_UNDEAD@4": {
+    "name": "Master's Whispering Bow .4",
+    "weight": 15.2
+  },
+  "T6_MAIN_MACE": {
+    "name": "Master's Mace",
+    "weight": 11.4
+  },
+  "T6_MAIN_MACE@1": {
+    "name": "Master's Mace .1",
+    "weight": 11.4
+  },
+  "T6_MAIN_MACE@2": {
+    "name": "Master's Mace .2",
+    "weight": 11.4
+  },
+  "T6_MAIN_MACE@3": {
+    "name": "Master's Mace .3",
+    "weight": 11.4
+  },
+  "T6_MAIN_MACE@4": {
+    "name": "Master's Mace .4",
+    "weight": 11.4
+  },
+  "T6_MAIN_MACE_CRYSTAL": {
+    "name": "Master's Dreadstorm Monarch",
+    "weight": 11.4
+  },
+  "T6_ARTEFACT_MAIN_MACE_CRYSTAL": {
+    "name": "Master's Artefact Mace Crystal",
+    "weight": 2
+  },
+  "T6_MAIN_MACE_CRYSTAL@1": {
+    "name": "Master's Dreadstorm Monarch .1",
+    "weight": 11.4
+  },
+  "T6_MAIN_MACE_CRYSTAL@2": {
+    "name": "Master's Dreadstorm Monarch .2",
+    "weight": 11.4
+  },
+  "T6_MAIN_MACE_CRYSTAL@3": {
+    "name": "Master's Dreadstorm Monarch .3",
+    "weight": 11.4
+  },
+  "T6_MAIN_MACE_CRYSTAL@4": {
+    "name": "Master's Dreadstorm Monarch .4",
+    "weight": 11.4
+  },
+  "T6_MAIN_MACE_HELL": {
+    "name": "Master's Incubus Mace",
+    "weight": 11.4
+  },
+  "T6_ARTEFACT_MAIN_MACE_HELL": {
+    "name": "Master's Artefact Mace Hell",
+    "weight": 2
+  },
+  "T6_MAIN_MACE_HELL@1": {
+    "name": "Master's Incubus Mace .1",
+    "weight": 11.4
+  },
+  "T6_MAIN_MACE_HELL@2": {
+    "name": "Master's Incubus Mace .2",
+    "weight": 11.4
+  },
+  "T6_MAIN_MACE_HELL@3": {
+    "name": "Master's Incubus Mace .3",
+    "weight": 11.4
+  },
+  "T6_MAIN_MACE_HELL@4": {
+    "name": "Master's Incubus Mace .4",
+    "weight": 11.4
+  },
+  "T6_2H_FLAIL": {
+    "name": "Master's Morning Star",
+    "weight": 15.2
+  },
+  "T6_2H_FLAIL@1": {
+    "name": "Master's Morning Star .1",
+    "weight": 15.2
+  },
+  "T6_2H_FLAIL@2": {
+    "name": "Master's Morning Star .2",
+    "weight": 15.2
+  },
+  "T6_2H_FLAIL@3": {
+    "name": "Master's Morning Star .3",
+    "weight": 15.2
+  },
+  "T6_2H_FLAIL@4": {
+    "name": "Master's Morning Star .4",
+    "weight": 15.2
+  },
+  "T6_MAIN_NATURESTAFF": {
+    "name": "Master's Nature Staff",
+    "weight": 11.4
+  },
+  "T6_MAIN_NATURESTAFF@1": {
+    "name": "Master's Nature Staff .1",
+    "weight": 11.4
+  },
+  "T6_MAIN_NATURESTAFF@2": {
+    "name": "Master's Nature Staff .2",
+    "weight": 11.4
+  },
+  "T6_MAIN_NATURESTAFF@3": {
+    "name": "Master's Nature Staff .3",
+    "weight": 11.4
+  },
+  "T6_MAIN_NATURESTAFF@4": {
+    "name": "Master's Nature Staff .4",
+    "weight": 11.4
+  },
+  "T6_MAIN_NATURESTAFF_AVALON": {
+    "name": "Master's Ironroot Staff",
+    "weight": 11.4
+  },
+  "T6_ARTEFACT_MAIN_NATURESTAFF_AVALON": {
+    "name": "Master's Artefact Naturestaff Avalon",
+    "weight": 2
+  },
+  "T6_MAIN_NATURESTAFF_AVALON@1": {
+    "name": "Master's Ironroot Staff .1",
+    "weight": 11.4
+  },
+  "T6_MAIN_NATURESTAFF_AVALON@2": {
+    "name": "Master's Ironroot Staff .2",
+    "weight": 11.4
+  },
+  "T6_MAIN_NATURESTAFF_AVALON@3": {
+    "name": "Master's Ironroot Staff .3",
+    "weight": 11.4
+  },
+  "T6_MAIN_NATURESTAFF_AVALON@4": {
+    "name": "Master's Ironroot Staff .4",
+    "weight": 11.4
+  },
+  "T6_MAIN_NATURESTAFF_CRYSTAL": {
+    "name": "Master's Forgebark Staff",
+    "weight": 11.4
+  },
+  "T6_ARTEFACT_MAIN_NATURESTAFF_CRYSTAL": {
+    "name": "Master's Artefact Naturestaff Crystal",
+    "weight": 2
+  },
+  "T6_MAIN_NATURESTAFF_CRYSTAL@1": {
+    "name": "Master's Forgebark Staff .1",
+    "weight": 11.4
+  },
+  "T6_MAIN_NATURESTAFF_CRYSTAL@2": {
+    "name": "Master's Forgebark Staff .2",
+    "weight": 11.4
+  },
+  "T6_MAIN_NATURESTAFF_CRYSTAL@3": {
+    "name": "Master's Forgebark Staff .3",
+    "weight": 11.4
+  },
+  "T6_MAIN_NATURESTAFF_CRYSTAL@4": {
+    "name": "Master's Forgebark Staff .4",
+    "weight": 11.4
+  },
+  "T6_MAIN_NATURESTAFF_KEEPER": {
+    "name": "Master's Druidic Staff",
+    "weight": 11.4
+  },
+  "T6_ARTEFACT_MAIN_NATURESTAFF_KEEPER": {
+    "name": "Master's Artefact Naturestaff Keeper",
+    "weight": 2
+  },
+  "T6_MAIN_NATURESTAFF_KEEPER@1": {
+    "name": "Master's Druidic Staff .1",
+    "weight": 11.4
+  },
+  "T6_MAIN_NATURESTAFF_KEEPER@2": {
+    "name": "Master's Druidic Staff .2",
+    "weight": 11.4
+  },
+  "T6_MAIN_NATURESTAFF_KEEPER@3": {
+    "name": "Master's Druidic Staff .3",
+    "weight": 11.4
+  },
+  "T6_MAIN_NATURESTAFF_KEEPER@4": {
+    "name": "Master's Druidic Staff .4",
+    "weight": 11.4
+  },
+  "T6_2H_SPEAR": {
+    "name": "Master's Pike",
+    "weight": 15.2
+  },
+  "T6_2H_SPEAR@1": {
+    "name": "Master's Pike .1",
+    "weight": 15.2
+  },
+  "T6_2H_SPEAR@2": {
+    "name": "Master's Pike .2",
+    "weight": 15.2
+  },
+  "T6_2H_SPEAR@3": {
+    "name": "Master's Pike .3",
+    "weight": 15.2
+  },
+  "T6_2H_SPEAR@4": {
+    "name": "Master's Pike .4",
+    "weight": 15.2
+  },
+  "T6_2H_POLEHAMMER": {
+    "name": "Master's Polehammer",
+    "weight": 15.2
+  },
+  "T6_2H_POLEHAMMER@1": {
+    "name": "Master's Polehammer .1",
+    "weight": 15.2
+  },
+  "T6_2H_POLEHAMMER@2": {
+    "name": "Master's Polehammer .2",
+    "weight": 15.2
+  },
+  "T6_2H_POLEHAMMER@3": {
+    "name": "Master's Polehammer .3",
+    "weight": 15.2
+  },
+  "T6_2H_POLEHAMMER@4": {
+    "name": "Master's Polehammer .4",
+    "weight": 15.2
+  },
+  "T6_2H_SHAPESHIFTER_SET3": {
+    "name": "Master's Primal Staff",
+    "weight": 15.2
+  },
+  "T6_2H_SHAPESHIFTER_SET3@1": {
+    "name": "Master's Primal Staff .1",
+    "weight": 15.2
+  },
+  "T6_2H_SHAPESHIFTER_SET3@2": {
+    "name": "Master's Primal Staff .2",
+    "weight": 15.2
+  },
+  "T6_2H_SHAPESHIFTER_SET3@3": {
+    "name": "Master's Primal Staff .3",
+    "weight": 15.2
+  },
+  "T6_2H_SHAPESHIFTER_SET3@4": {
+    "name": "Master's Primal Staff .4",
+    "weight": 15.2
+  },
+  "T6_2H_SHAPESHIFTER_SET1": {
+    "name": "Master's Prowling Staff",
+    "weight": 15.2
+  },
+  "T6_2H_SHAPESHIFTER_SET1@1": {
+    "name": "Master's Prowling Staff .1",
+    "weight": 15.2
+  },
+  "T6_2H_SHAPESHIFTER_SET1@2": {
+    "name": "Master's Prowling Staff .2",
+    "weight": 15.2
+  },
+  "T6_2H_SHAPESHIFTER_SET1@3": {
+    "name": "Master's Prowling Staff .3",
+    "weight": 15.2
+  },
+  "T6_2H_SHAPESHIFTER_SET1@4": {
+    "name": "Master's Prowling Staff .4",
+    "weight": 15.2
+  },
+  "T6_2H_QUARTERSTAFF": {
+    "name": "Master's Quarterstaff",
+    "weight": 15.2
+  },
+  "T6_2H_QUARTERSTAFF@1": {
+    "name": "Master's Quarterstaff .1",
+    "weight": 15.2
+  },
+  "T6_2H_QUARTERSTAFF@2": {
+    "name": "Master's Quarterstaff .2",
+    "weight": 15.2
+  },
+  "T6_2H_QUARTERSTAFF@3": {
+    "name": "Master's Quarterstaff .3",
+    "weight": 15.2
+  },
+  "T6_2H_QUARTERSTAFF@4": {
+    "name": "Master's Quarterstaff .4",
+    "weight": 15.2
+  },
+  "T6_2H_QUARTERSTAFF_AVALON": {
+    "name": "Master's Grailseeker",
+    "weight": 15.2
+  },
+  "T6_ARTEFACT_2H_QUARTERSTAFF_AVALON": {
+    "name": "Master's Artefact Quarterstaff Avalon",
+    "weight": 2
+  },
+  "T6_2H_QUARTERSTAFF_AVALON@1": {
+    "name": "Master's Grailseeker .1",
+    "weight": 15.2
+  },
+  "T6_2H_QUARTERSTAFF_AVALON@2": {
+    "name": "Master's Grailseeker .2",
+    "weight": 15.2
+  },
+  "T6_2H_QUARTERSTAFF_AVALON@3": {
+    "name": "Master's Grailseeker .3",
+    "weight": 15.2
+  },
+  "T6_2H_QUARTERSTAFF_AVALON@4": {
+    "name": "Master's Grailseeker .4",
+    "weight": 15.2
+  },
+  "T6_2H_RAM_KEEPER": {
+    "name": "Master's Grovekeeper",
+    "weight": 15.2
+  },
+  "T6_ARTEFACT_2H_RAM_KEEPER": {
+    "name": "Master's Artefact Ram Keeper",
+    "weight": 2
+  },
+  "T6_2H_RAM_KEEPER@1": {
+    "name": "Master's Grovekeeper .1",
+    "weight": 15.2
+  },
+  "T6_2H_RAM_KEEPER@2": {
+    "name": "Master's Grovekeeper .2",
+    "weight": 15.2
+  },
+  "T6_2H_RAM_KEEPER@3": {
+    "name": "Master's Grovekeeper .3",
+    "weight": 15.2
+  },
+  "T6_2H_RAM_KEEPER@4": {
+    "name": "Master's Grovekeeper .4",
+    "weight": 15.2
+  },
+  "T6_MAIN_RAPIER_MORGANA": {
+    "name": "Master's Bloodletter",
+    "weight": 11.4
+  },
+  "T6_ARTEFACT_MAIN_RAPIER_MORGANA": {
+    "name": "Master's Artefact Rapier Morgana",
+    "weight": 2
+  },
+  "T6_MAIN_RAPIER_MORGANA@1": {
+    "name": "Master's Bloodletter .1",
+    "weight": 11.4
+  },
+  "T6_MAIN_RAPIER_MORGANA@2": {
+    "name": "Master's Bloodletter .2",
+    "weight": 11.4
+  },
+  "T6_MAIN_RAPIER_MORGANA@3": {
+    "name": "Master's Bloodletter .3",
+    "weight": 11.4
+  },
+  "T6_MAIN_RAPIER_MORGANA@4": {
+    "name": "Master's Bloodletter .4",
+    "weight": 11.4
+  },
+  "T6_MAIN_ROCKMACE_KEEPER": {
+    "name": "Master's Bedrock Mace",
+    "weight": 11.4
+  },
+  "T6_ARTEFACT_MAIN_ROCKMACE_KEEPER": {
+    "name": "Master's Artefact Rockmace Keeper",
+    "weight": 2
+  },
+  "T6_MAIN_ROCKMACE_KEEPER@1": {
+    "name": "Master's Bedrock Mace .1",
+    "weight": 11.4
+  },
+  "T6_MAIN_ROCKMACE_KEEPER@2": {
+    "name": "Master's Bedrock Mace .2",
+    "weight": 11.4
+  },
+  "T6_MAIN_ROCKMACE_KEEPER@3": {
+    "name": "Master's Bedrock Mace .3",
+    "weight": 11.4
+  },
+  "T6_MAIN_ROCKMACE_KEEPER@4": {
+    "name": "Master's Bedrock Mace .4",
+    "weight": 11.4
+  },
+  "T6_2H_ROCKSTAFF_KEEPER": {
+    "name": "Master's Staff of Balance",
+    "weight": 15.2
+  },
+  "T6_ARTEFACT_2H_ROCKSTAFF_KEEPER": {
+    "name": "Master's Artefact Rockstaff Keeper",
+    "weight": 2
+  },
+  "T6_2H_ROCKSTAFF_KEEPER@1": {
+    "name": "Master's Staff of Balance .1",
+    "weight": 15.2
+  },
+  "T6_2H_ROCKSTAFF_KEEPER@2": {
+    "name": "Master's Staff of Balance .2",
+    "weight": 15.2
+  },
+  "T6_2H_ROCKSTAFF_KEEPER@3": {
+    "name": "Master's Staff of Balance .3",
+    "weight": 15.2
+  },
+  "T6_2H_ROCKSTAFF_KEEPER@4": {
+    "name": "Master's Staff of Balance .4",
+    "weight": 15.2
+  },
+  "T6_2H_SHAPESHIFTER_SET2": {
+    "name": "Master's Rootbound Staff",
+    "weight": 15.2
+  },
+  "T6_2H_SHAPESHIFTER_SET2@1": {
+    "name": "Master's Rootbound Staff .1",
+    "weight": 15.2
+  },
+  "T6_2H_SHAPESHIFTER_SET2@2": {
+    "name": "Master's Rootbound Staff .2",
+    "weight": 15.2
+  },
+  "T6_2H_SHAPESHIFTER_SET2@3": {
+    "name": "Master's Rootbound Staff .3",
+    "weight": 15.2
+  },
+  "T6_2H_SHAPESHIFTER_SET2@4": {
+    "name": "Master's Rootbound Staff .4",
+    "weight": 15.2
+  },
+  "T6_MAIN_SCIMITAR_MORGANA": {
+    "name": "Master's Clarent Blade",
+    "weight": 11.4
+  },
+  "T6_ARTEFACT_MAIN_SCIMITAR_MORGANA": {
+    "name": "Master's Artefact Scimitar Morgana",
+    "weight": 2
+  },
+  "T6_MAIN_SCIMITAR_MORGANA@1": {
+    "name": "Master's Clarent Blade .1",
+    "weight": 11.4
+  },
+  "T6_MAIN_SCIMITAR_MORGANA@2": {
+    "name": "Master's Clarent Blade .2",
+    "weight": 11.4
+  },
+  "T6_MAIN_SCIMITAR_MORGANA@3": {
+    "name": "Master's Clarent Blade .3",
+    "weight": 11.4
+  },
+  "T6_MAIN_SCIMITAR_MORGANA@4": {
+    "name": "Master's Clarent Blade .4",
+    "weight": 11.4
+  },
+  "T6_2H_SCYTHE_CRYSTAL": {
+    "name": "Master's Crystal Reaper",
+    "weight": 15.2
+  },
+  "T6_ARTEFACT_2H_SCYTHE_CRYSTAL": {
+    "name": "Master's Artefact Scythe Crystal",
+    "weight": 2
+  },
+  "T6_2H_SCYTHE_CRYSTAL@1": {
+    "name": "Master's Crystal Reaper .1",
+    "weight": 15.2
+  },
+  "T6_2H_SCYTHE_CRYSTAL@2": {
+    "name": "Master's Crystal Reaper .2",
+    "weight": 15.2
+  },
+  "T6_2H_SCYTHE_CRYSTAL@3": {
+    "name": "Master's Crystal Reaper .3",
+    "weight": 15.2
+  },
+  "T6_2H_SCYTHE_CRYSTAL@4": {
+    "name": "Master's Crystal Reaper .4",
+    "weight": 15.2
+  },
+  "T6_2H_SCYTHE_HELL": {
+    "name": "Master's Infernal Scythe",
+    "weight": 15.2
+  },
+  "T6_ARTEFACT_2H_SCYTHE_HELL": {
+    "name": "Master's Artefact Scythe Hell",
+    "weight": 2
+  },
+  "T6_2H_SCYTHE_HELL@1": {
+    "name": "Master's Infernal Scythe .1",
+    "weight": 15.2
+  },
+  "T6_2H_SCYTHE_HELL@2": {
+    "name": "Master's Infernal Scythe .2",
+    "weight": 15.2
+  },
+  "T6_2H_SCYTHE_HELL@3": {
+    "name": "Master's Infernal Scythe .3",
+    "weight": 15.2
+  },
+  "T6_2H_SCYTHE_HELL@4": {
+    "name": "Master's Infernal Scythe .4",
+    "weight": 15.2
+  },
+  "T6_2H_SHAPESHIFTER_AVALON": {
+    "name": "Master's Lightcaller",
+    "weight": 15.2
+  },
+  "T6_ARTEFACT_2H_SHAPESHIFTER_AVALON": {
+    "name": "Master's Artefact Shapeshifter Avalon",
+    "weight": 2
+  },
+  "T6_2H_SHAPESHIFTER_AVALON@1": {
+    "name": "Master's Lightcaller .1",
+    "weight": 15.2
+  },
+  "T6_2H_SHAPESHIFTER_AVALON@2": {
+    "name": "Master's Lightcaller .2",
+    "weight": 15.2
+  },
+  "T6_2H_SHAPESHIFTER_AVALON@3": {
+    "name": "Master's Lightcaller .3",
+    "weight": 15.2
+  },
+  "T6_2H_SHAPESHIFTER_AVALON@4": {
+    "name": "Master's Lightcaller .4",
+    "weight": 15.2
+  },
+  "T6_2H_SHAPESHIFTER_CRYSTAL": {
+    "name": "Master's Stillgaze Staff",
+    "weight": 15.2
+  },
+  "T6_ARTEFACT_2H_SHAPESHIFTER_CRYSTAL": {
+    "name": "Master's Artefact Shapeshifter Crystal",
+    "weight": 2
+  },
+  "T6_2H_SHAPESHIFTER_CRYSTAL@1": {
+    "name": "Master's Stillgaze Staff .1",
+    "weight": 15.2
+  },
+  "T6_2H_SHAPESHIFTER_CRYSTAL@2": {
+    "name": "Master's Stillgaze Staff .2",
+    "weight": 15.2
+  },
+  "T6_2H_SHAPESHIFTER_CRYSTAL@3": {
+    "name": "Master's Stillgaze Staff .3",
+    "weight": 15.2
+  },
+  "T6_2H_SHAPESHIFTER_CRYSTAL@4": {
+    "name": "Master's Stillgaze Staff .4",
+    "weight": 15.2
+  },
+  "T6_2H_SHAPESHIFTER_HELL": {
+    "name": "Master's Hellspawn Staff",
+    "weight": 15.2
+  },
+  "T6_ARTEFACT_2H_SHAPESHIFTER_HELL": {
+    "name": "Master's Artefact Shapeshifter Hell",
+    "weight": 2
+  },
+  "T6_2H_SHAPESHIFTER_HELL@1": {
+    "name": "Master's Hellspawn Staff .1",
+    "weight": 15.2
+  },
+  "T6_2H_SHAPESHIFTER_HELL@2": {
+    "name": "Master's Hellspawn Staff .2",
+    "weight": 15.2
+  },
+  "T6_2H_SHAPESHIFTER_HELL@3": {
+    "name": "Master's Hellspawn Staff .3",
+    "weight": 15.2
+  },
+  "T6_2H_SHAPESHIFTER_HELL@4": {
+    "name": "Master's Hellspawn Staff .4",
+    "weight": 15.2
+  },
+  "T6_2H_SHAPESHIFTER_KEEPER": {
+    "name": "Master's Earthrune Staff",
+    "weight": 15.2
+  },
+  "T6_ARTEFACT_2H_SHAPESHIFTER_KEEPER": {
+    "name": "Master's Artefact Shapeshifter Keeper",
+    "weight": 2
+  },
+  "T6_2H_SHAPESHIFTER_KEEPER@1": {
+    "name": "Master's Earthrune Staff .1",
+    "weight": 15.2
+  },
+  "T6_2H_SHAPESHIFTER_KEEPER@2": {
+    "name": "Master's Earthrune Staff .2",
+    "weight": 15.2
+  },
+  "T6_2H_SHAPESHIFTER_KEEPER@3": {
+    "name": "Master's Earthrune Staff .3",
+    "weight": 15.2
+  },
+  "T6_2H_SHAPESHIFTER_KEEPER@4": {
+    "name": "Master's Earthrune Staff .4",
+    "weight": 15.2
+  },
+  "T6_2H_SHAPESHIFTER_MORGANA": {
+    "name": "Master's Bloodmoon Staff",
+    "weight": 15.2
+  },
+  "T6_ARTEFACT_2H_SHAPESHIFTER_MORGANA": {
+    "name": "Master's Artefact Shapeshifter Morgana",
+    "weight": 2
+  },
+  "T6_2H_SHAPESHIFTER_MORGANA@1": {
+    "name": "Master's Bloodmoon Staff .1",
+    "weight": 15.2
+  },
+  "T6_2H_SHAPESHIFTER_MORGANA@2": {
+    "name": "Master's Bloodmoon Staff .2",
+    "weight": 15.2
+  },
+  "T6_2H_SHAPESHIFTER_MORGANA@3": {
+    "name": "Master's Bloodmoon Staff .3",
+    "weight": 15.2
+  },
+  "T6_2H_SHAPESHIFTER_MORGANA@4": {
+    "name": "Master's Bloodmoon Staff .4",
+    "weight": 15.2
+  },
+  "T6_2H_SKULLORB_HELL": {
+    "name": "Master's Cursed Skull",
+    "weight": 15.2
+  },
+  "T6_ARTEFACT_2H_SKULLORB_HELL": {
+    "name": "Master's Artefact Skullorb Hell",
+    "weight": 2
+  },
+  "T6_2H_SKULLORB_HELL@1": {
+    "name": "Master's Cursed Skull .1",
+    "weight": 15.2
+  },
+  "T6_2H_SKULLORB_HELL@2": {
+    "name": "Master's Cursed Skull .2",
+    "weight": 15.2
+  },
+  "T6_2H_SKULLORB_HELL@3": {
+    "name": "Master's Cursed Skull .3",
+    "weight": 15.2
+  },
+  "T6_2H_SKULLORB_HELL@4": {
+    "name": "Master's Cursed Skull .4",
+    "weight": 15.2
+  },
+  "T6_MAIN_SPEAR": {
+    "name": "Master's Spear",
+    "weight": 11.4
+  },
+  "T6_MAIN_SPEAR@1": {
+    "name": "Master's Spear .1",
+    "weight": 11.4
+  },
+  "T6_MAIN_SPEAR@2": {
+    "name": "Master's Spear .2",
+    "weight": 11.4
+  },
+  "T6_MAIN_SPEAR@3": {
+    "name": "Master's Spear .3",
+    "weight": 11.4
+  },
+  "T6_MAIN_SPEAR@4": {
+    "name": "Master's Spear .4",
+    "weight": 11.4
+  },
+  "T6_MAIN_SPEAR_KEEPER": {
+    "name": "Master's Heron Spear",
+    "weight": 11.4
+  },
+  "T6_ARTEFACT_MAIN_SPEAR_KEEPER": {
+    "name": "Master's Artefact Spear Keeper",
+    "weight": 2
+  },
+  "T6_MAIN_SPEAR_KEEPER@1": {
+    "name": "Master's Heron Spear .1",
+    "weight": 11.4
+  },
+  "T6_MAIN_SPEAR_KEEPER@2": {
+    "name": "Master's Heron Spear .2",
+    "weight": 11.4
+  },
+  "T6_MAIN_SPEAR_KEEPER@3": {
+    "name": "Master's Heron Spear .3",
+    "weight": 11.4
+  },
+  "T6_MAIN_SPEAR_KEEPER@4": {
+    "name": "Master's Heron Spear .4",
+    "weight": 11.4
+  },
+  "T6_MAIN_SPEAR_LANCE_AVALON": {
+    "name": "Master's Daybreaker",
+    "weight": 11.4
+  },
+  "T6_ARTEFACT_MAIN_SPEAR_LANCE_AVALON": {
+    "name": "Master's Artefact Spear Lance Avalon",
+    "weight": 2
+  },
+  "T6_MAIN_SPEAR_LANCE_AVALON@1": {
+    "name": "Master's Daybreaker .1",
+    "weight": 11.4
+  },
+  "T6_MAIN_SPEAR_LANCE_AVALON@2": {
+    "name": "Master's Daybreaker .2",
+    "weight": 11.4
+  },
+  "T6_MAIN_SPEAR_LANCE_AVALON@3": {
+    "name": "Master's Daybreaker .3",
+    "weight": 11.4
+  },
+  "T6_MAIN_SPEAR_LANCE_AVALON@4": {
+    "name": "Master's Daybreaker .4",
+    "weight": 11.4
+  },
+  "T6_2H_KNUCKLES_SET3": {
+    "name": "Master's Spiked Gauntlets",
+    "weight": 15.2
+  },
+  "T6_2H_KNUCKLES_SET3@1": {
+    "name": "Master's Spiked Gauntlets .1",
+    "weight": 15.2
+  },
+  "T6_2H_KNUCKLES_SET3@2": {
+    "name": "Master's Spiked Gauntlets .2",
+    "weight": 15.2
+  },
+  "T6_2H_KNUCKLES_SET3@3": {
+    "name": "Master's Spiked Gauntlets .3",
+    "weight": 15.2
+  },
+  "T6_2H_KNUCKLES_SET3@4": {
+    "name": "Master's Spiked Gauntlets .4",
+    "weight": 15.2
+  },
+  "T6_2H_HARPOON_HELL": {
+    "name": "Master's Spirithunter",
+    "weight": 15.2
+  },
+  "T6_ARTEFACT_2H_HARPOON_HELL": {
+    "name": "Master's Artefact Harpoon Hell",
+    "weight": 2
+  },
+  "T6_2H_HARPOON_HELL@1": {
+    "name": "Master's Spirithunter .1",
+    "weight": 15.2
+  },
+  "T6_2H_HARPOON_HELL@2": {
+    "name": "Master's Spirithunter .2",
+    "weight": 15.2
+  },
+  "T6_2H_HARPOON_HELL@3": {
+    "name": "Master's Spirithunter .3",
+    "weight": 15.2
+  },
+  "T6_2H_HARPOON_HELL@4": {
+    "name": "Master's Spirithunter .4",
+    "weight": 15.2
+  },
+  "T6_2H_TRIDENT_UNDEAD": {
+    "name": "Master's Trinity Spear",
+    "weight": 15.2
+  },
+  "T6_ARTEFACT_2H_TRIDENT_UNDEAD": {
+    "name": "Master's Artefact Trident Undead",
+    "weight": 2
+  },
+  "T6_2H_TRIDENT_UNDEAD@1": {
+    "name": "Master's Trinity Spear .1",
+    "weight": 15.2
+  },
+  "T6_2H_TRIDENT_UNDEAD@2": {
+    "name": "Master's Trinity Spear .2",
+    "weight": 15.2
+  },
+  "T6_2H_TRIDENT_UNDEAD@3": {
+    "name": "Master's Trinity Spear .3",
+    "weight": 15.2
+  },
+  "T6_2H_TRIDENT_UNDEAD@4": {
+    "name": "Master's Trinity Spear .4",
+    "weight": 15.2
+  },
+  "T6_2H_TWINSCYTHE_HELL": {
+    "name": "Master's Soulscythe",
+    "weight": 15.2
+  },
+  "T6_ARTEFACT_2H_TWINSCYTHE_HELL": {
+    "name": "Master's Artefact Twinscythe Hell",
+    "weight": 2
+  },
+  "T6_2H_TWINSCYTHE_HELL@1": {
+    "name": "Master's Soulscythe .1",
+    "weight": 15.2
+  },
+  "T6_2H_TWINSCYTHE_HELL@2": {
+    "name": "Master's Soulscythe .2",
+    "weight": 15.2
+  },
+  "T6_2H_TWINSCYTHE_HELL@3": {
+    "name": "Master's Soulscythe .3",
+    "weight": 15.2
+  },
+  "T6_2H_TWINSCYTHE_HELL@4": {
+    "name": "Master's Soulscythe .4",
+    "weight": 15.2
+  },
+  "T6_2H_WARBOW": {
+    "name": "Master's Warbow",
+    "weight": 15.2
+  },
+  "T6_2H_WARBOW@1": {
+    "name": "Master's Warbow .1",
+    "weight": 15.2
+  },
+  "T6_2H_WARBOW@2": {
+    "name": "Master's Warbow .2",
+    "weight": 15.2
+  },
+  "T6_2H_WARBOW@3": {
+    "name": "Master's Warbow .3",
+    "weight": 15.2
+  },
+  "T6_2H_WARBOW@4": {
+    "name": "Master's Warbow .4",
+    "weight": 15.2
+  },
+  "T6_2H_DUALCROSSBOW_CRYSTAL": {
+    "name": "Master's Arclight Blasters",
+    "weight": 15.2
+  },
+  "T6_ARTEFACT_2H_DUALCROSSBOW_CRYSTAL": {
+    "name": "Master's Artefact Dualcrossbow Crystal",
+    "weight": 2
+  },
+  "T6_2H_DUALCROSSBOW_CRYSTAL@1": {
+    "name": "Master's Arclight Blasters .1",
+    "weight": 15.2
+  },
+  "T6_2H_DUALCROSSBOW_CRYSTAL@2": {
+    "name": "Master's Arclight Blasters .2",
+    "weight": 15.2
+  },
+  "T6_2H_DUALCROSSBOW_CRYSTAL@3": {
+    "name": "Master's Arclight Blasters .3",
+    "weight": 15.2
+  },
+  "T6_2H_DUALCROSSBOW_CRYSTAL@4": {
+    "name": "Master's Arclight Blasters .4",
+    "weight": 15.2
+  },
+  "T6_2H_DUALCROSSBOW_HELL": {
+    "name": "Master's Boltcasters",
+    "weight": 15.2
+  },
+  "T6_ARTEFACT_2H_DUALCROSSBOW_HELL": {
+    "name": "Master's Artefact Dualcrossbow Hell",
+    "weight": 2
+  },
+  "T6_2H_DUALCROSSBOW_HELL@1": {
+    "name": "Master's Boltcasters .1",
+    "weight": 15.2
+  },
+  "T6_2H_DUALCROSSBOW_HELL@2": {
+    "name": "Master's Boltcasters .2",
+    "weight": 15.2
+  },
+  "T6_2H_DUALCROSSBOW_HELL@3": {
+    "name": "Master's Boltcasters .3",
+    "weight": 15.2
+  },
+  "T6_2H_DUALCROSSBOW_HELL@4": {
+    "name": "Master's Boltcasters .4",
+    "weight": 15.2
+  },
+  "T6_2H_WILDSTAFF": {
+    "name": "Master's Wild Staff",
+    "weight": 15.2
+  },
+  "T6_2H_WILDSTAFF@1": {
+    "name": "Master's Wild Staff .1",
+    "weight": 15.2
+  },
+  "T6_2H_WILDSTAFF@2": {
+    "name": "Master's Wild Staff .2",
+    "weight": 15.2
+  },
+  "T6_2H_WILDSTAFF@3": {
+    "name": "Master's Wild Staff .3",
+    "weight": 15.2
+  },
+  "T6_2H_WILDSTAFF@4": {
+    "name": "Master's Wild Staff .4",
+    "weight": 15.2
+  },
+  "T7_MAIN_1HCROSSBOW": {
+    "name": "Grandmaster's Light Crossbow",
+    "weight": 17.1
+  },
+  "T7_MAIN_1HCROSSBOW@1": {
+    "name": "Grandmaster's Light Crossbow .1",
+    "weight": 17.1
+  },
+  "T7_MAIN_1HCROSSBOW@2": {
+    "name": "Grandmaster's Light Crossbow .2",
+    "weight": 17.1
+  },
+  "T7_MAIN_1HCROSSBOW@3": {
+    "name": "Grandmaster's Light Crossbow .3",
+    "weight": 17.1
+  },
+  "T7_MAIN_1HCROSSBOW@4": {
+    "name": "Grandmaster's Light Crossbow .4",
+    "weight": 17.1
+  },
+  "T7_2H_ARCANE_RINGPAIR_AVALON": {
+    "name": "Grandmaster's Evensong",
+    "weight": 22.8
+  },
+  "T7_ARTEFACT_2H_ARCANE_RINGPAIR_AVALON": {
+    "name": "Grandmaster's Artefact Arcane Ringpair Avalon",
+    "weight": 2
+  },
+  "T7_2H_ARCANE_RINGPAIR_AVALON@1": {
+    "name": "Grandmaster's Evensong .1",
+    "weight": 22.8
+  },
+  "T7_2H_ARCANE_RINGPAIR_AVALON@2": {
+    "name": "Grandmaster's Evensong .2",
+    "weight": 22.8
+  },
+  "T7_2H_ARCANE_RINGPAIR_AVALON@3": {
+    "name": "Grandmaster's Evensong .3",
+    "weight": 22.8
+  },
+  "T7_2H_ARCANE_RINGPAIR_AVALON@4": {
+    "name": "Grandmaster's Evensong .4",
+    "weight": 22.8
+  },
+  "T7_MAIN_ARCANESTAFF": {
+    "name": "Grandmaster's Arcane Staff",
+    "weight": 17.1
+  },
+  "T7_MAIN_ARCANESTAFF@1": {
+    "name": "Grandmaster's Arcane Staff .1",
+    "weight": 17.1
+  },
+  "T7_MAIN_ARCANESTAFF@2": {
+    "name": "Grandmaster's Arcane Staff .2",
+    "weight": 17.1
+  },
+  "T7_MAIN_ARCANESTAFF@3": {
+    "name": "Grandmaster's Arcane Staff .3",
+    "weight": 17.1
+  },
+  "T7_MAIN_ARCANESTAFF@4": {
+    "name": "Grandmaster's Arcane Staff .4",
+    "weight": 17.1
+  },
+  "T7_MAIN_ARCANESTAFF_UNDEAD": {
+    "name": "Grandmaster's Witchwork Staff",
+    "weight": 17.1
+  },
+  "T7_ARTEFACT_MAIN_ARCANESTAFF_UNDEAD": {
+    "name": "Grandmaster's Artefact Arcanestaff Undead",
+    "weight": 2
+  },
+  "T7_MAIN_ARCANESTAFF_UNDEAD@1": {
+    "name": "Grandmaster's Witchwork Staff .1",
+    "weight": 17.1
+  },
+  "T7_MAIN_ARCANESTAFF_UNDEAD@2": {
+    "name": "Grandmaster's Witchwork Staff .2",
+    "weight": 17.1
+  },
+  "T7_MAIN_ARCANESTAFF_UNDEAD@3": {
+    "name": "Grandmaster's Witchwork Staff .3",
+    "weight": 17.1
+  },
+  "T7_MAIN_ARCANESTAFF_UNDEAD@4": {
+    "name": "Grandmaster's Witchwork Staff .4",
+    "weight": 17.1
+  },
+  "T7_2H_KNUCKLES_SET2": {
+    "name": "Grandmaster's Battle Bracers",
+    "weight": 22.8
+  },
+  "T7_2H_KNUCKLES_SET2@1": {
+    "name": "Grandmaster's Battle Bracers .1",
+    "weight": 22.8
+  },
+  "T7_2H_KNUCKLES_SET2@2": {
+    "name": "Grandmaster's Battle Bracers .2",
+    "weight": 22.8
+  },
+  "T7_2H_KNUCKLES_SET2@3": {
+    "name": "Grandmaster's Battle Bracers .3",
+    "weight": 22.8
+  },
+  "T7_2H_KNUCKLES_SET2@4": {
+    "name": "Grandmaster's Battle Bracers .4",
+    "weight": 22.8
+  },
+  "T7_MAIN_AXE": {
+    "name": "Grandmaster's Battleaxe",
+    "weight": 17.1
+  },
+  "T7_MAIN_AXE@1": {
+    "name": "Grandmaster's Battleaxe .1",
+    "weight": 17.1
+  },
+  "T7_MAIN_AXE@2": {
+    "name": "Grandmaster's Battleaxe .2",
+    "weight": 17.1
+  },
+  "T7_MAIN_AXE@3": {
+    "name": "Grandmaster's Battleaxe .3",
+    "weight": 17.1
+  },
+  "T7_MAIN_AXE@4": {
+    "name": "Grandmaster's Battleaxe .4",
+    "weight": 17.1
+  },
+  "T7_2H_BOW": {
+    "name": "Grandmaster's Bow",
+    "weight": 22.8
+  },
+  "T7_2H_BOW@1": {
+    "name": "Grandmaster's Bow .1",
+    "weight": 22.8
+  },
+  "T7_2H_BOW@2": {
+    "name": "Grandmaster's Bow .2",
+    "weight": 22.8
+  },
+  "T7_2H_BOW@3": {
+    "name": "Grandmaster's Bow .3",
+    "weight": 22.8
+  },
+  "T7_2H_BOW@4": {
+    "name": "Grandmaster's Bow .4",
+    "weight": 22.8
+  },
+  "T7_2H_BOW_AVALON": {
+    "name": "Grandmaster's Mistpiercer",
+    "weight": 22.8
+  },
+  "T7_ARTEFACT_2H_BOW_AVALON": {
+    "name": "Grandmaster's Artefact Bow Avalon",
+    "weight": 2
+  },
+  "T7_2H_BOW_AVALON@1": {
+    "name": "Grandmaster's Mistpiercer .1",
+    "weight": 22.8
+  },
+  "T7_2H_BOW_AVALON@2": {
+    "name": "Grandmaster's Mistpiercer .2",
+    "weight": 22.8
+  },
+  "T7_2H_BOW_AVALON@3": {
+    "name": "Grandmaster's Mistpiercer .3",
+    "weight": 22.8
+  },
+  "T7_2H_BOW_AVALON@4": {
+    "name": "Grandmaster's Mistpiercer .4",
+    "weight": 22.8
+  },
+  "T7_2H_BOW_CRYSTAL": {
+    "name": "Grandmaster's Skystrider Bow",
+    "weight": 22.8
+  },
+  "T7_ARTEFACT_2H_BOW_CRYSTAL": {
+    "name": "Grandmaster's Artefact Bow Crystal",
+    "weight": 2
+  },
+  "T7_2H_BOW_CRYSTAL@1": {
+    "name": "Grandmaster's Skystrider Bow .1",
+    "weight": 22.8
+  },
+  "T7_2H_BOW_CRYSTAL@2": {
+    "name": "Grandmaster's Skystrider Bow .2",
+    "weight": 22.8
+  },
+  "T7_2H_BOW_CRYSTAL@3": {
+    "name": "Grandmaster's Skystrider Bow .3",
+    "weight": 22.8
+  },
+  "T7_2H_BOW_CRYSTAL@4": {
+    "name": "Grandmaster's Skystrider Bow .4",
+    "weight": 22.8
+  },
+  "T7_2H_BOW_HELL": {
+    "name": "Grandmaster's Wailing Bow",
+    "weight": 22.8
+  },
+  "T7_ARTEFACT_2H_BOW_HELL": {
+    "name": "Grandmaster's Artefact Bow Hell",
+    "weight": 2
+  },
+  "T7_2H_BOW_HELL@1": {
+    "name": "Grandmaster's Wailing Bow .1",
+    "weight": 22.8
+  },
+  "T7_2H_BOW_HELL@2": {
+    "name": "Grandmaster's Wailing Bow .2",
+    "weight": 22.8
+  },
+  "T7_2H_BOW_HELL@3": {
+    "name": "Grandmaster's Wailing Bow .3",
+    "weight": 22.8
+  },
+  "T7_2H_BOW_HELL@4": {
+    "name": "Grandmaster's Wailing Bow .4",
+    "weight": 22.8
+  },
+  "T7_2H_BOW_KEEPER": {
+    "name": "Grandmaster's Bow of Badon",
+    "weight": 22.8
+  },
+  "T7_ARTEFACT_2H_BOW_KEEPER": {
+    "name": "Grandmaster's Artefact Bow Keeper",
+    "weight": 2
+  },
+  "T7_2H_BOW_KEEPER@1": {
+    "name": "Grandmaster's Bow of Badon .1",
+    "weight": 22.8
+  },
+  "T7_2H_BOW_KEEPER@2": {
+    "name": "Grandmaster's Bow of Badon .2",
+    "weight": 22.8
+  },
+  "T7_2H_BOW_KEEPER@3": {
+    "name": "Grandmaster's Bow of Badon .3",
+    "weight": 22.8
+  },
+  "T7_2H_BOW_KEEPER@4": {
+    "name": "Grandmaster's Bow of Badon .4",
+    "weight": 22.8
+  },
+  "T7_2H_KNUCKLES_SET1": {
+    "name": "Grandmaster's Brawler Gloves",
+    "weight": 22.8
+  },
+  "T7_2H_KNUCKLES_SET1@1": {
+    "name": "Grandmaster's Brawler Gloves .1",
+    "weight": 22.8
+  },
+  "T7_2H_KNUCKLES_SET1@2": {
+    "name": "Grandmaster's Brawler Gloves .2",
+    "weight": 22.8
+  },
+  "T7_2H_KNUCKLES_SET1@3": {
+    "name": "Grandmaster's Brawler Gloves .3",
+    "weight": 22.8
+  },
+  "T7_2H_KNUCKLES_SET1@4": {
+    "name": "Grandmaster's Brawler Gloves .4",
+    "weight": 22.8
+  },
+  "T7_MAIN_SWORD": {
+    "name": "Grandmaster's Broadsword",
+    "weight": 17.1
+  },
+  "T7_MAIN_SWORD@1": {
+    "name": "Grandmaster's Broadsword .1",
+    "weight": 17.1
+  },
+  "T7_MAIN_SWORD@2": {
+    "name": "Grandmaster's Broadsword .2",
+    "weight": 17.1
+  },
+  "T7_MAIN_SWORD@3": {
+    "name": "Grandmaster's Broadsword .3",
+    "weight": 17.1
+  },
+  "T7_MAIN_SWORD@4": {
+    "name": "Grandmaster's Broadsword .4",
+    "weight": 17.1
+  },
+  "T7_MAIN_SWORD_CRYSTAL": {
+    "name": "Grandmaster's Infinity Blade",
+    "weight": 17.1
+  },
+  "T7_ARTEFACT_MAIN_SWORD_CRYSTAL": {
+    "name": "Grandmaster's Artefact Sword Crystal",
+    "weight": 2
+  },
+  "T7_MAIN_SWORD_CRYSTAL@1": {
+    "name": "Grandmaster's Infinity Blade .1",
+    "weight": 17.1
+  },
+  "T7_MAIN_SWORD_CRYSTAL@2": {
+    "name": "Grandmaster's Infinity Blade .2",
+    "weight": 17.1
+  },
+  "T7_MAIN_SWORD_CRYSTAL@3": {
+    "name": "Grandmaster's Infinity Blade .3",
+    "weight": 17.1
+  },
+  "T7_MAIN_SWORD_CRYSTAL@4": {
+    "name": "Grandmaster's Infinity Blade .4",
+    "weight": 17.1
+  },
+  "T7_2H_CLAWPAIR": {
+    "name": "Grandmaster's Claws",
+    "weight": 22.8
+  },
+  "T7_2H_CLAWPAIR@1": {
+    "name": "Grandmaster's Claws .1",
+    "weight": 22.8
+  },
+  "T7_2H_CLAWPAIR@2": {
+    "name": "Grandmaster's Claws .2",
+    "weight": 22.8
+  },
+  "T7_2H_CLAWPAIR@3": {
+    "name": "Grandmaster's Claws .3",
+    "weight": 22.8
+  },
+  "T7_2H_CLAWPAIR@4": {
+    "name": "Grandmaster's Claws .4",
+    "weight": 22.8
+  },
+  "T7_2H_CLAYMORE": {
+    "name": "Grandmaster's Claymore",
+    "weight": 22.8
+  },
+  "T7_2H_CLAYMORE@1": {
+    "name": "Grandmaster's Claymore .1",
+    "weight": 22.8
+  },
+  "T7_2H_CLAYMORE@2": {
+    "name": "Grandmaster's Claymore .2",
+    "weight": 22.8
+  },
+  "T7_2H_CLAYMORE@3": {
+    "name": "Grandmaster's Claymore .3",
+    "weight": 22.8
+  },
+  "T7_2H_CLAYMORE@4": {
+    "name": "Grandmaster's Claymore .4",
+    "weight": 22.8
+  },
+  "T7_2H_CLAYMORE_AVALON": {
+    "name": "Grandmaster's Kingmaker",
+    "weight": 22.8
+  },
+  "T7_ARTEFACT_2H_CLAYMORE_AVALON": {
+    "name": "Grandmaster's Artefact Claymore Avalon",
+    "weight": 2
+  },
+  "T7_2H_CLAYMORE_AVALON@1": {
+    "name": "Grandmaster's Kingmaker .1",
+    "weight": 22.8
+  },
+  "T7_2H_CLAYMORE_AVALON@2": {
+    "name": "Grandmaster's Kingmaker .2",
+    "weight": 22.8
+  },
+  "T7_2H_CLAYMORE_AVALON@3": {
+    "name": "Grandmaster's Kingmaker .3",
+    "weight": 22.8
+  },
+  "T7_2H_CLAYMORE_AVALON@4": {
+    "name": "Grandmaster's Kingmaker .4",
+    "weight": 22.8
+  },
+  "T7_2H_CLEAVER_HELL": {
+    "name": "Grandmaster's Carving Sword",
+    "weight": 22.8
+  },
+  "T7_ARTEFACT_2H_CLEAVER_HELL": {
+    "name": "Grandmaster's Artefact Cleaver Hell",
+    "weight": 2
+  },
+  "T7_2H_CLEAVER_HELL@1": {
+    "name": "Grandmaster's Carving Sword .1",
+    "weight": 22.8
+  },
+  "T7_2H_CLEAVER_HELL@2": {
+    "name": "Grandmaster's Carving Sword .2",
+    "weight": 22.8
+  },
+  "T7_2H_CLEAVER_HELL@3": {
+    "name": "Grandmaster's Carving Sword .3",
+    "weight": 22.8
+  },
+  "T7_2H_CLEAVER_HELL@4": {
+    "name": "Grandmaster's Carving Sword .4",
+    "weight": 22.8
+  },
+  "T7_2H_COMBATSTAFF_MORGANA": {
+    "name": "Grandmaster's Black Monk Staff",
+    "weight": 22.8
+  },
+  "T7_ARTEFACT_2H_COMBATSTAFF_MORGANA": {
+    "name": "Grandmaster's Artefact Combatstaff Morgana",
+    "weight": 2
+  },
+  "T7_2H_COMBATSTAFF_MORGANA@1": {
+    "name": "Grandmaster's Black Monk Staff .1",
+    "weight": 22.8
+  },
+  "T7_2H_COMBATSTAFF_MORGANA@2": {
+    "name": "Grandmaster's Black Monk Staff .2",
+    "weight": 22.8
+  },
+  "T7_2H_COMBATSTAFF_MORGANA@3": {
+    "name": "Grandmaster's Black Monk Staff .3",
+    "weight": 22.8
+  },
+  "T7_2H_COMBATSTAFF_MORGANA@4": {
+    "name": "Grandmaster's Black Monk Staff .4",
+    "weight": 22.8
+  },
+  "T7_2H_CROSSBOW": {
+    "name": "Grandmaster's Crossbow",
+    "weight": 22.8
+  },
+  "T7_2H_CROSSBOW@1": {
+    "name": "Grandmaster's Crossbow .1",
+    "weight": 22.8
+  },
+  "T7_2H_CROSSBOW@2": {
+    "name": "Grandmaster's Crossbow .2",
+    "weight": 22.8
+  },
+  "T7_2H_CROSSBOW@3": {
+    "name": "Grandmaster's Crossbow .3",
+    "weight": 22.8
+  },
+  "T7_2H_CROSSBOW@4": {
+    "name": "Grandmaster's Crossbow .4",
+    "weight": 22.8
+  },
+  "T7_2H_CROSSBOW_CANNON_AVALON": {
+    "name": "Grandmaster's Energy Shaper",
+    "weight": 22.8
+  },
+  "T7_ARTEFACT_2H_CROSSBOW_CANNON_AVALON": {
+    "name": "Grandmaster's Artefact Crossbow Cannon Avalon",
+    "weight": 2
+  },
+  "T7_2H_CROSSBOW_CANNON_AVALON@1": {
+    "name": "Grandmaster's Energy Shaper .1",
+    "weight": 22.8
+  },
+  "T7_2H_CROSSBOW_CANNON_AVALON@2": {
+    "name": "Grandmaster's Energy Shaper .2",
+    "weight": 22.8
+  },
+  "T7_2H_CROSSBOW_CANNON_AVALON@3": {
+    "name": "Grandmaster's Energy Shaper .3",
+    "weight": 22.8
+  },
+  "T7_2H_CROSSBOW_CANNON_AVALON@4": {
+    "name": "Grandmaster's Energy Shaper .4",
+    "weight": 22.8
+  },
+  "T7_MAIN_CURSEDSTAFF": {
+    "name": "Grandmaster's Cursed Staff",
+    "weight": 17.1
+  },
+  "T7_MAIN_CURSEDSTAFF@1": {
+    "name": "Grandmaster's Cursed Staff .1",
+    "weight": 17.1
+  },
+  "T7_MAIN_CURSEDSTAFF@2": {
+    "name": "Grandmaster's Cursed Staff .2",
+    "weight": 17.1
+  },
+  "T7_MAIN_CURSEDSTAFF@3": {
+    "name": "Grandmaster's Cursed Staff .3",
+    "weight": 17.1
+  },
+  "T7_MAIN_CURSEDSTAFF@4": {
+    "name": "Grandmaster's Cursed Staff .4",
+    "weight": 17.1
+  },
+  "T7_MAIN_CURSEDSTAFF_AVALON": {
+    "name": "Grandmaster's Shadowcaller",
+    "weight": 17.1
+  },
+  "T7_ARTEFACT_MAIN_CURSEDSTAFF_AVALON": {
+    "name": "Grandmaster's Artefact Cursedstaff Avalon",
+    "weight": 2
+  },
+  "T7_MAIN_CURSEDSTAFF_AVALON@1": {
+    "name": "Grandmaster's Shadowcaller .1",
+    "weight": 17.1
+  },
+  "T7_MAIN_CURSEDSTAFF_AVALON@2": {
+    "name": "Grandmaster's Shadowcaller .2",
+    "weight": 17.1
+  },
+  "T7_MAIN_CURSEDSTAFF_AVALON@3": {
+    "name": "Grandmaster's Shadowcaller .3",
+    "weight": 17.1
+  },
+  "T7_MAIN_CURSEDSTAFF_AVALON@4": {
+    "name": "Grandmaster's Shadowcaller .4",
+    "weight": 17.1
+  },
+  "T7_MAIN_CURSEDSTAFF_CRYSTAL": {
+    "name": "Grandmaster's Rotcaller Staff",
+    "weight": 17.1
+  },
+  "T7_ARTEFACT_MAIN_CURSEDSTAFF_CRYSTAL": {
+    "name": "Grandmaster's Artefact Cursedstaff Crystal",
+    "weight": 2
+  },
+  "T7_MAIN_CURSEDSTAFF_CRYSTAL@1": {
+    "name": "Grandmaster's Rotcaller Staff .1",
+    "weight": 17.1
+  },
+  "T7_MAIN_CURSEDSTAFF_CRYSTAL@2": {
+    "name": "Grandmaster's Rotcaller Staff .2",
+    "weight": 17.1
+  },
+  "T7_MAIN_CURSEDSTAFF_CRYSTAL@3": {
+    "name": "Grandmaster's Rotcaller Staff .3",
+    "weight": 17.1
+  },
+  "T7_MAIN_CURSEDSTAFF_CRYSTAL@4": {
+    "name": "Grandmaster's Rotcaller Staff .4",
+    "weight": 17.1
+  },
+  "T7_MAIN_CURSEDSTAFF_UNDEAD": {
+    "name": "Grandmaster's Lifecurse Staff",
+    "weight": 17.1
+  },
+  "T7_ARTEFACT_MAIN_CURSEDSTAFF_UNDEAD": {
+    "name": "Grandmaster's Artefact Cursedstaff Undead",
+    "weight": 2
+  },
+  "T7_MAIN_CURSEDSTAFF_UNDEAD@1": {
+    "name": "Grandmaster's Lifecurse Staff .1",
+    "weight": 17.1
+  },
+  "T7_MAIN_CURSEDSTAFF_UNDEAD@2": {
+    "name": "Grandmaster's Lifecurse Staff .2",
+    "weight": 17.1
+  },
+  "T7_MAIN_CURSEDSTAFF_UNDEAD@3": {
+    "name": "Grandmaster's Lifecurse Staff .3",
+    "weight": 17.1
+  },
+  "T7_MAIN_CURSEDSTAFF_UNDEAD@4": {
+    "name": "Grandmaster's Lifecurse Staff .4",
+    "weight": 17.1
+  },
+  "T7_MAIN_DAGGER": {
+    "name": "Grandmaster's Dagger",
+    "weight": 17.1
+  },
+  "T7_MAIN_DAGGER@1": {
+    "name": "Grandmaster's Dagger .1",
+    "weight": 17.1
+  },
+  "T7_MAIN_DAGGER@2": {
+    "name": "Grandmaster's Dagger .2",
+    "weight": 17.1
+  },
+  "T7_MAIN_DAGGER@3": {
+    "name": "Grandmaster's Dagger .3",
+    "weight": 17.1
+  },
+  "T7_MAIN_DAGGER@4": {
+    "name": "Grandmaster's Dagger .4",
+    "weight": 17.1
+  },
+  "T7_2H_DAGGER_KATAR_AVALON": {
+    "name": "Grandmaster's Bridled Fury",
+    "weight": 22.8
+  },
+  "T7_ARTEFACT_2H_DAGGER_KATAR_AVALON": {
+    "name": "Grandmaster's Artefact Dagger Katar Avalon",
+    "weight": 2
+  },
+  "T7_2H_DAGGER_KATAR_AVALON@1": {
+    "name": "Grandmaster's Bridled Fury .1",
+    "weight": 22.8
+  },
+  "T7_2H_DAGGER_KATAR_AVALON@2": {
+    "name": "Grandmaster's Bridled Fury .2",
+    "weight": 22.8
+  },
+  "T7_2H_DAGGER_KATAR_AVALON@3": {
+    "name": "Grandmaster's Bridled Fury .3",
+    "weight": 22.8
+  },
+  "T7_2H_DAGGER_KATAR_AVALON@4": {
+    "name": "Grandmaster's Bridled Fury .4",
+    "weight": 22.8
+  },
+  "T7_2H_DAGGERPAIR": {
+    "name": "Grandmaster's Dagger Pair",
+    "weight": 22.8
+  },
+  "T7_2H_DAGGERPAIR@1": {
+    "name": "Grandmaster's Dagger Pair .1",
+    "weight": 22.8
+  },
+  "T7_2H_DAGGERPAIR@2": {
+    "name": "Grandmaster's Dagger Pair .2",
+    "weight": 22.8
+  },
+  "T7_2H_DAGGERPAIR@3": {
+    "name": "Grandmaster's Dagger Pair .3",
+    "weight": 22.8
+  },
+  "T7_2H_DAGGERPAIR@4": {
+    "name": "Grandmaster's Dagger Pair .4",
+    "weight": 22.8
+  },
+  "T7_2H_DAGGERPAIR_CRYSTAL": {
+    "name": "Grandmaster's Twin Slayers",
+    "weight": 22.8
+  },
+  "T7_ARTEFACT_2H_DAGGERPAIR_CRYSTAL": {
+    "name": "Grandmaster's Artefact Daggerpair Crystal",
+    "weight": 2
+  },
+  "T7_2H_DAGGERPAIR_CRYSTAL@1": {
+    "name": "Grandmaster's Twin Slayers .1",
+    "weight": 22.8
+  },
+  "T7_2H_DAGGERPAIR_CRYSTAL@2": {
+    "name": "Grandmaster's Twin Slayers .2",
+    "weight": 22.8
+  },
+  "T7_2H_DAGGERPAIR_CRYSTAL@3": {
+    "name": "Grandmaster's Twin Slayers .3",
+    "weight": 22.8
+  },
+  "T7_2H_DAGGERPAIR_CRYSTAL@4": {
+    "name": "Grandmaster's Twin Slayers .4",
+    "weight": 22.8
+  },
+  "T7_MAIN_DAGGER_HELL": {
+    "name": "Grandmaster's Demonfang",
+    "weight": 17.1
+  },
+  "T7_ARTEFACT_MAIN_DAGGER_HELL": {
+    "name": "Grandmaster's Artefact Dagger Hell",
+    "weight": 2
+  },
+  "T7_MAIN_DAGGER_HELL@1": {
+    "name": "Grandmaster's Demonfang .1",
+    "weight": 17.1
+  },
+  "T7_MAIN_DAGGER_HELL@2": {
+    "name": "Grandmaster's Demonfang .2",
+    "weight": 17.1
+  },
+  "T7_MAIN_DAGGER_HELL@3": {
+    "name": "Grandmaster's Demonfang .3",
+    "weight": 17.1
+  },
+  "T7_MAIN_DAGGER_HELL@4": {
+    "name": "Grandmaster's Demonfang .4",
+    "weight": 17.1
+  },
+  "T7_2H_DEMONICSTAFF": {
+    "name": "Grandmaster's Demonic Staff",
+    "weight": 22.8
+  },
+  "T7_2H_DEMONICSTAFF@1": {
+    "name": "Grandmaster's Demonic Staff .1",
+    "weight": 22.8
+  },
+  "T7_2H_DEMONICSTAFF@2": {
+    "name": "Grandmaster's Demonic Staff .2",
+    "weight": 22.8
+  },
+  "T7_2H_DEMONICSTAFF@3": {
+    "name": "Grandmaster's Demonic Staff .3",
+    "weight": 22.8
+  },
+  "T7_2H_DEMONICSTAFF@4": {
+    "name": "Grandmaster's Demonic Staff .4",
+    "weight": 22.8
+  },
+  "T7_2H_DIVINESTAFF": {
+    "name": "Grandmaster's Divine Staff",
+    "weight": 22.8
+  },
+  "T7_2H_DIVINESTAFF@1": {
+    "name": "Grandmaster's Divine Staff .1",
+    "weight": 22.8
+  },
+  "T7_2H_DIVINESTAFF@2": {
+    "name": "Grandmaster's Divine Staff .2",
+    "weight": 22.8
+  },
+  "T7_2H_DIVINESTAFF@3": {
+    "name": "Grandmaster's Divine Staff .3",
+    "weight": 22.8
+  },
+  "T7_2H_DIVINESTAFF@4": {
+    "name": "Grandmaster's Divine Staff .4",
+    "weight": 22.8
+  },
+  "T7_2H_DOUBLEBLADEDSTAFF": {
+    "name": "Grandmaster's Double Bladed Staff",
+    "weight": 22.8
+  },
+  "T7_2H_DOUBLEBLADEDSTAFF@1": {
+    "name": "Grandmaster's Double Bladed Staff .1",
+    "weight": 22.8
+  },
+  "T7_2H_DOUBLEBLADEDSTAFF@2": {
+    "name": "Grandmaster's Double Bladed Staff .2",
+    "weight": 22.8
+  },
+  "T7_2H_DOUBLEBLADEDSTAFF@3": {
+    "name": "Grandmaster's Double Bladed Staff .3",
+    "weight": 22.8
+  },
+  "T7_2H_DOUBLEBLADEDSTAFF@4": {
+    "name": "Grandmaster's Double Bladed Staff .4",
+    "weight": 22.8
+  },
+  "T7_2H_DOUBLEBLADEDSTAFF_CRYSTAL": {
+    "name": "Grandmaster's Phantom Twinblade",
+    "weight": 22.8
+  },
+  "T7_ARTEFACT_2H_DOUBLEBLADEDSTAFF_CRYSTAL": {
+    "name": "Grandmaster's Artefact Doublebladedstaff Crystal",
+    "weight": 2
+  },
+  "T7_2H_DOUBLEBLADEDSTAFF_CRYSTAL@1": {
+    "name": "Grandmaster's Phantom Twinblade .1",
+    "weight": 22.8
+  },
+  "T7_2H_DOUBLEBLADEDSTAFF_CRYSTAL@2": {
+    "name": "Grandmaster's Phantom Twinblade .2",
+    "weight": 22.8
+  },
+  "T7_2H_DOUBLEBLADEDSTAFF_CRYSTAL@3": {
+    "name": "Grandmaster's Phantom Twinblade .3",
+    "weight": 22.8
+  },
+  "T7_2H_DOUBLEBLADEDSTAFF_CRYSTAL@4": {
+    "name": "Grandmaster's Phantom Twinblade .4",
+    "weight": 22.8
+  },
+  "T7_2H_DUALSWORD": {
+    "name": "Grandmaster's Dual Swords",
+    "weight": 22.8
+  },
+  "T7_2H_DUALSWORD@1": {
+    "name": "Grandmaster's Dual Swords .1",
+    "weight": 22.8
+  },
+  "T7_2H_DUALSWORD@2": {
+    "name": "Grandmaster's Dual Swords .2",
+    "weight": 22.8
+  },
+  "T7_2H_DUALSWORD@3": {
+    "name": "Grandmaster's Dual Swords .3",
+    "weight": 22.8
+  },
+  "T7_2H_DUALSWORD@4": {
+    "name": "Grandmaster's Dual Swords .4",
+    "weight": 22.8
+  },
+  "T7_2H_DUALAXE_KEEPER": {
+    "name": "Grandmaster's Bear Paws",
+    "weight": 22.8
+  },
+  "T7_ARTEFACT_2H_DUALAXE_KEEPER": {
+    "name": "Grandmaster's Artefact Dualaxe Keeper",
+    "weight": 2
+  },
+  "T7_2H_DUALAXE_KEEPER@1": {
+    "name": "Grandmaster's Bear Paws .1",
+    "weight": 22.8
+  },
+  "T7_2H_DUALAXE_KEEPER@2": {
+    "name": "Grandmaster's Bear Paws .2",
+    "weight": 22.8
+  },
+  "T7_2H_DUALAXE_KEEPER@3": {
+    "name": "Grandmaster's Bear Paws .3",
+    "weight": 22.8
+  },
+  "T7_2H_DUALAXE_KEEPER@4": {
+    "name": "Grandmaster's Bear Paws .4",
+    "weight": 22.8
+  },
+  "T7_2H_DUALHAMMER_HELL": {
+    "name": "Grandmaster's Forge Hammers",
+    "weight": 22.8
+  },
+  "T7_ARTEFACT_2H_DUALHAMMER_HELL": {
+    "name": "Grandmaster's Artefact Dualhammer Hell",
+    "weight": 2
+  },
+  "T7_2H_DUALHAMMER_HELL@1": {
+    "name": "Grandmaster's Forge Hammers .1",
+    "weight": 22.8
+  },
+  "T7_2H_DUALHAMMER_HELL@2": {
+    "name": "Grandmaster's Forge Hammers .2",
+    "weight": 22.8
+  },
+  "T7_2H_DUALHAMMER_HELL@3": {
+    "name": "Grandmaster's Forge Hammers .3",
+    "weight": 22.8
+  },
+  "T7_2H_DUALHAMMER_HELL@4": {
+    "name": "Grandmaster's Forge Hammers .4",
+    "weight": 22.8
+  },
+  "T7_2H_DUALMACE_AVALON": {
+    "name": "Grandmaster's Oathkeepers",
+    "weight": 22.8
+  },
+  "T7_ARTEFACT_2H_DUALMACE_AVALON": {
+    "name": "Grandmaster's Artefact Dualmace Avalon",
+    "weight": 2
+  },
+  "T7_2H_DUALMACE_AVALON@1": {
+    "name": "Grandmaster's Oathkeepers .1",
+    "weight": 22.8
+  },
+  "T7_2H_DUALMACE_AVALON@2": {
+    "name": "Grandmaster's Oathkeepers .2",
+    "weight": 22.8
+  },
+  "T7_2H_DUALMACE_AVALON@3": {
+    "name": "Grandmaster's Oathkeepers .3",
+    "weight": 22.8
+  },
+  "T7_2H_DUALMACE_AVALON@4": {
+    "name": "Grandmaster's Oathkeepers .4",
+    "weight": 22.8
+  },
+  "T7_2H_DUALSCIMITAR_UNDEAD": {
+    "name": "Grandmaster's Galatine Pair",
+    "weight": 22.8
+  },
+  "T7_ARTEFACT_2H_DUALSCIMITAR_UNDEAD": {
+    "name": "Grandmaster's Artefact Dualscimitar Undead",
+    "weight": 2
+  },
+  "T7_2H_DUALSCIMITAR_UNDEAD@1": {
+    "name": "Grandmaster's Galatine Pair .1",
+    "weight": 22.8
+  },
+  "T7_2H_DUALSCIMITAR_UNDEAD@2": {
+    "name": "Grandmaster's Galatine Pair .2",
+    "weight": 22.8
+  },
+  "T7_2H_DUALSCIMITAR_UNDEAD@3": {
+    "name": "Grandmaster's Galatine Pair .3",
+    "weight": 22.8
+  },
+  "T7_2H_DUALSCIMITAR_UNDEAD@4": {
+    "name": "Grandmaster's Galatine Pair .4",
+    "weight": 22.8
+  },
+  "T7_2H_DUALSICKLE_UNDEAD": {
+    "name": "Grandmaster's Deathgivers",
+    "weight": 22.8
+  },
+  "T7_ARTEFACT_2H_DUALSICKLE_UNDEAD": {
+    "name": "Grandmaster's Artefact Dualsickle Undead",
+    "weight": 2
+  },
+  "T7_2H_DUALSICKLE_UNDEAD@1": {
+    "name": "Grandmaster's Deathgivers .1",
+    "weight": 22.8
+  },
+  "T7_2H_DUALSICKLE_UNDEAD@2": {
+    "name": "Grandmaster's Deathgivers .2",
+    "weight": 22.8
+  },
+  "T7_2H_DUALSICKLE_UNDEAD@3": {
+    "name": "Grandmaster's Deathgivers .3",
+    "weight": 22.8
+  },
+  "T7_2H_DUALSICKLE_UNDEAD@4": {
+    "name": "Grandmaster's Deathgivers .4",
+    "weight": 22.8
+  },
+  "T7_2H_ENIGMATICSTAFF": {
+    "name": "Grandmaster's Enigmatic Staff",
+    "weight": 22.8
+  },
+  "T7_2H_ENIGMATICSTAFF@1": {
+    "name": "Grandmaster's Enigmatic Staff .1",
+    "weight": 22.8
+  },
+  "T7_2H_ENIGMATICSTAFF@2": {
+    "name": "Grandmaster's Enigmatic Staff .2",
+    "weight": 22.8
+  },
+  "T7_2H_ENIGMATICSTAFF@3": {
+    "name": "Grandmaster's Enigmatic Staff .3",
+    "weight": 22.8
+  },
+  "T7_2H_ENIGMATICSTAFF@4": {
+    "name": "Grandmaster's Enigmatic Staff .4",
+    "weight": 22.8
+  },
+  "T7_2H_ENIGMATICORB_MORGANA": {
+    "name": "Grandmaster's Malevolent Locus",
+    "weight": 22.8
+  },
+  "T7_ARTEFACT_2H_ENIGMATICORB_MORGANA": {
+    "name": "Grandmaster's Artefact Enigmaticorb Morgana",
+    "weight": 2
+  },
+  "T7_2H_ENIGMATICORB_MORGANA@1": {
+    "name": "Grandmaster's Malevolent Locus .1",
+    "weight": 22.8
+  },
+  "T7_2H_ENIGMATICORB_MORGANA@2": {
+    "name": "Grandmaster's Malevolent Locus .2",
+    "weight": 22.8
+  },
+  "T7_2H_ENIGMATICORB_MORGANA@3": {
+    "name": "Grandmaster's Malevolent Locus .3",
+    "weight": 22.8
+  },
+  "T7_2H_ENIGMATICORB_MORGANA@4": {
+    "name": "Grandmaster's Malevolent Locus .4",
+    "weight": 22.8
+  },
+  "T7_2H_FIRE_RINGPAIR_AVALON": {
+    "name": "Grandmaster's Dawnsong",
+    "weight": 22.8
+  },
+  "T7_ARTEFACT_2H_FIRE_RINGPAIR_AVALON": {
+    "name": "Grandmaster's Artefact Fire Ringpair Avalon",
+    "weight": 2
+  },
+  "T7_2H_FIRE_RINGPAIR_AVALON@1": {
+    "name": "Grandmaster's Dawnsong .1",
+    "weight": 22.8
+  },
+  "T7_2H_FIRE_RINGPAIR_AVALON@2": {
+    "name": "Grandmaster's Dawnsong .2",
+    "weight": 22.8
+  },
+  "T7_2H_FIRE_RINGPAIR_AVALON@3": {
+    "name": "Grandmaster's Dawnsong .3",
+    "weight": 22.8
+  },
+  "T7_2H_FIRE_RINGPAIR_AVALON@4": {
+    "name": "Grandmaster's Dawnsong .4",
+    "weight": 22.8
+  },
+  "T7_MAIN_FIRESTAFF": {
+    "name": "Grandmaster's Fire Staff",
+    "weight": 17.1
+  },
+  "T7_MAIN_FIRESTAFF@1": {
+    "name": "Grandmaster's Fire Staff .1",
+    "weight": 17.1
+  },
+  "T7_MAIN_FIRESTAFF@2": {
+    "name": "Grandmaster's Fire Staff .2",
+    "weight": 17.1
+  },
+  "T7_MAIN_FIRESTAFF@3": {
+    "name": "Grandmaster's Fire Staff .3",
+    "weight": 17.1
+  },
+  "T7_MAIN_FIRESTAFF@4": {
+    "name": "Grandmaster's Fire Staff .4",
+    "weight": 17.1
+  },
+  "T7_MAIN_FIRESTAFF_CRYSTAL": {
+    "name": "Grandmaster's Flamewalker Staff",
+    "weight": 17.1
+  },
+  "T7_ARTEFACT_MAIN_FIRESTAFF_CRYSTAL": {
+    "name": "Grandmaster's Artefact Firestaff Crystal",
+    "weight": 2
+  },
+  "T7_MAIN_FIRESTAFF_CRYSTAL@1": {
+    "name": "Grandmaster's Flamewalker Staff .1",
+    "weight": 17.1
+  },
+  "T7_MAIN_FIRESTAFF_CRYSTAL@2": {
+    "name": "Grandmaster's Flamewalker Staff .2",
+    "weight": 17.1
+  },
+  "T7_MAIN_FIRESTAFF_CRYSTAL@3": {
+    "name": "Grandmaster's Flamewalker Staff .3",
+    "weight": 17.1
+  },
+  "T7_MAIN_FIRESTAFF_CRYSTAL@4": {
+    "name": "Grandmaster's Flamewalker Staff .4",
+    "weight": 17.1
+  },
+  "T7_MAIN_FIRESTAFF_KEEPER": {
+    "name": "Grandmaster's Wildfire Staff",
+    "weight": 17.1
+  },
+  "T7_ARTEFACT_MAIN_FIRESTAFF_KEEPER": {
+    "name": "Grandmaster's Artefact Firestaff Keeper",
+    "weight": 2
+  },
+  "T7_MAIN_FIRESTAFF_KEEPER@1": {
+    "name": "Grandmaster's Wildfire Staff .1",
+    "weight": 17.1
+  },
+  "T7_MAIN_FIRESTAFF_KEEPER@2": {
+    "name": "Grandmaster's Wildfire Staff .2",
+    "weight": 17.1
+  },
+  "T7_MAIN_FIRESTAFF_KEEPER@3": {
+    "name": "Grandmaster's Wildfire Staff .3",
+    "weight": 17.1
+  },
+  "T7_MAIN_FIRESTAFF_KEEPER@4": {
+    "name": "Grandmaster's Wildfire Staff .4",
+    "weight": 17.1
+  },
+  "T7_MAIN_FROSTSTAFF": {
+    "name": "Grandmaster's Frost Staff",
+    "weight": 17.1
+  },
+  "T7_MAIN_FROSTSTAFF@1": {
+    "name": "Grandmaster's Frost Staff .1",
+    "weight": 17.1
+  },
+  "T7_MAIN_FROSTSTAFF@2": {
+    "name": "Grandmaster's Frost Staff .2",
+    "weight": 17.1
+  },
+  "T7_MAIN_FROSTSTAFF@3": {
+    "name": "Grandmaster's Frost Staff .3",
+    "weight": 17.1
+  },
+  "T7_MAIN_FROSTSTAFF@4": {
+    "name": "Grandmaster's Frost Staff .4",
+    "weight": 17.1
+  },
+  "T7_MAIN_FROSTSTAFF_AVALON": {
+    "name": "Grandmaster's Chillhowl",
+    "weight": 17.1
+  },
+  "T7_ARTEFACT_MAIN_FROSTSTAFF_AVALON": {
+    "name": "Grandmaster's Artefact Froststaff Avalon",
+    "weight": 2
+  },
+  "T7_MAIN_FROSTSTAFF_AVALON@1": {
+    "name": "Grandmaster's Chillhowl .1",
+    "weight": 17.1
+  },
+  "T7_MAIN_FROSTSTAFF_AVALON@2": {
+    "name": "Grandmaster's Chillhowl .2",
+    "weight": 17.1
+  },
+  "T7_MAIN_FROSTSTAFF_AVALON@3": {
+    "name": "Grandmaster's Chillhowl .3",
+    "weight": 17.1
+  },
+  "T7_MAIN_FROSTSTAFF_AVALON@4": {
+    "name": "Grandmaster's Chillhowl .4",
+    "weight": 17.1
+  },
+  "T7_MAIN_FROSTSTAFF_KEEPER": {
+    "name": "Grandmaster's Hoarfrost Staff",
+    "weight": 17.1
+  },
+  "T7_ARTEFACT_MAIN_FROSTSTAFF_KEEPER": {
+    "name": "Grandmaster's Artefact Froststaff Keeper",
+    "weight": 2
+  },
+  "T7_MAIN_FROSTSTAFF_KEEPER@1": {
+    "name": "Grandmaster's Hoarfrost Staff .1",
+    "weight": 17.1
+  },
+  "T7_MAIN_FROSTSTAFF_KEEPER@2": {
+    "name": "Grandmaster's Hoarfrost Staff .2",
+    "weight": 17.1
+  },
+  "T7_MAIN_FROSTSTAFF_KEEPER@3": {
+    "name": "Grandmaster's Hoarfrost Staff .3",
+    "weight": 17.1
+  },
+  "T7_MAIN_FROSTSTAFF_KEEPER@4": {
+    "name": "Grandmaster's Hoarfrost Staff .4",
+    "weight": 17.1
+  },
+  "T7_2H_GLACIALSTAFF": {
+    "name": "Grandmaster's Glacial Staff",
+    "weight": 22.8
+  },
+  "T7_2H_GLACIALSTAFF@1": {
+    "name": "Grandmaster's Glacial Staff .1",
+    "weight": 22.8
+  },
+  "T7_2H_GLACIALSTAFF@2": {
+    "name": "Grandmaster's Glacial Staff .2",
+    "weight": 22.8
+  },
+  "T7_2H_GLACIALSTAFF@3": {
+    "name": "Grandmaster's Glacial Staff .3",
+    "weight": 22.8
+  },
+  "T7_2H_GLACIALSTAFF@4": {
+    "name": "Grandmaster's Glacial Staff .4",
+    "weight": 22.8
+  },
+  "T7_2H_GLAIVE": {
+    "name": "Grandmaster's Glaive",
+    "weight": 22.8
+  },
+  "T7_2H_GLAIVE@1": {
+    "name": "Grandmaster's Glaive .1",
+    "weight": 22.8
+  },
+  "T7_2H_GLAIVE@2": {
+    "name": "Grandmaster's Glaive .2",
+    "weight": 22.8
+  },
+  "T7_2H_GLAIVE@3": {
+    "name": "Grandmaster's Glaive .3",
+    "weight": 22.8
+  },
+  "T7_2H_GLAIVE@4": {
+    "name": "Grandmaster's Glaive .4",
+    "weight": 22.8
+  },
+  "T7_2H_GLAIVE_CRYSTAL": {
+    "name": "Grandmaster's Rift Glaive",
+    "weight": 22.8
+  },
+  "T7_ARTEFACT_2H_GLAIVE_CRYSTAL": {
+    "name": "Grandmaster's Artefact Glaive Crystal",
+    "weight": 2
+  },
+  "T7_2H_GLAIVE_CRYSTAL@1": {
+    "name": "Grandmaster's Rift Glaive .1",
+    "weight": 22.8
+  },
+  "T7_2H_GLAIVE_CRYSTAL@2": {
+    "name": "Grandmaster's Rift Glaive .2",
+    "weight": 22.8
+  },
+  "T7_2H_GLAIVE_CRYSTAL@3": {
+    "name": "Grandmaster's Rift Glaive .3",
+    "weight": 22.8
+  },
+  "T7_2H_GLAIVE_CRYSTAL@4": {
+    "name": "Grandmaster's Rift Glaive .4",
+    "weight": 22.8
+  },
+  "T7_2H_ARCANESTAFF": {
+    "name": "Grandmaster's Great Arcane Staff",
+    "weight": 22.8
+  },
+  "T7_2H_ARCANESTAFF@1": {
+    "name": "Grandmaster's Great Arcane Staff .1",
+    "weight": 22.8
+  },
+  "T7_2H_ARCANESTAFF@2": {
+    "name": "Grandmaster's Great Arcane Staff .2",
+    "weight": 22.8
+  },
+  "T7_2H_ARCANESTAFF@3": {
+    "name": "Grandmaster's Great Arcane Staff .3",
+    "weight": 22.8
+  },
+  "T7_2H_ARCANESTAFF@4": {
+    "name": "Grandmaster's Great Arcane Staff .4",
+    "weight": 22.8
+  },
+  "T7_2H_ARCANESTAFF_CRYSTAL": {
+    "name": "Grandmaster's Astral Staff",
+    "weight": 22.8
+  },
+  "T7_ARTEFACT_2H_ARCANESTAFF_CRYSTAL": {
+    "name": "Grandmaster's Artefact Arcanestaff Crystal",
+    "weight": 2
+  },
+  "T7_2H_ARCANESTAFF_CRYSTAL@1": {
+    "name": "Grandmaster's Astral Staff .1",
+    "weight": 22.8
+  },
+  "T7_2H_ARCANESTAFF_CRYSTAL@2": {
+    "name": "Grandmaster's Astral Staff .2",
+    "weight": 22.8
+  },
+  "T7_2H_ARCANESTAFF_CRYSTAL@3": {
+    "name": "Grandmaster's Astral Staff .3",
+    "weight": 22.8
+  },
+  "T7_2H_ARCANESTAFF_CRYSTAL@4": {
+    "name": "Grandmaster's Astral Staff .4",
+    "weight": 22.8
+  },
+  "T7_2H_ARCANESTAFF_HELL": {
+    "name": "Grandmaster's Occult Staff",
+    "weight": 22.8
+  },
+  "T7_ARTEFACT_2H_ARCANESTAFF_HELL": {
+    "name": "Grandmaster's Artefact Arcanestaff Hell",
+    "weight": 2
+  },
+  "T7_2H_ARCANESTAFF_HELL@1": {
+    "name": "Grandmaster's Occult Staff .1",
+    "weight": 22.8
+  },
+  "T7_2H_ARCANESTAFF_HELL@2": {
+    "name": "Grandmaster's Occult Staff .2",
+    "weight": 22.8
+  },
+  "T7_2H_ARCANESTAFF_HELL@3": {
+    "name": "Grandmaster's Occult Staff .3",
+    "weight": 22.8
+  },
+  "T7_2H_ARCANESTAFF_HELL@4": {
+    "name": "Grandmaster's Occult Staff .4",
+    "weight": 22.8
+  },
+  "T7_2H_CURSEDSTAFF": {
+    "name": "Grandmaster's Great Cursed Staff",
+    "weight": 22.8
+  },
+  "T7_2H_CURSEDSTAFF@1": {
+    "name": "Grandmaster's Great Cursed Staff .1",
+    "weight": 22.8
+  },
+  "T7_2H_CURSEDSTAFF@2": {
+    "name": "Grandmaster's Great Cursed Staff .2",
+    "weight": 22.8
+  },
+  "T7_2H_CURSEDSTAFF@3": {
+    "name": "Grandmaster's Great Cursed Staff .3",
+    "weight": 22.8
+  },
+  "T7_2H_CURSEDSTAFF@4": {
+    "name": "Grandmaster's Great Cursed Staff .4",
+    "weight": 22.8
+  },
+  "T7_2H_CURSEDSTAFF_MORGANA": {
+    "name": "Grandmaster's Damnation Staff",
+    "weight": 22.8
+  },
+  "T7_ARTEFACT_2H_CURSEDSTAFF_MORGANA": {
+    "name": "Grandmaster's Artefact Cursedstaff Morgana",
+    "weight": 2
+  },
+  "T7_2H_CURSEDSTAFF_MORGANA@1": {
+    "name": "Grandmaster's Damnation Staff .1",
+    "weight": 22.8
+  },
+  "T7_2H_CURSEDSTAFF_MORGANA@2": {
+    "name": "Grandmaster's Damnation Staff .2",
+    "weight": 22.8
+  },
+  "T7_2H_CURSEDSTAFF_MORGANA@3": {
+    "name": "Grandmaster's Damnation Staff .3",
+    "weight": 22.8
+  },
+  "T7_2H_CURSEDSTAFF_MORGANA@4": {
+    "name": "Grandmaster's Damnation Staff .4",
+    "weight": 22.8
+  },
+  "T7_2H_FIRESTAFF": {
+    "name": "Grandmaster's Great Fire Staff",
+    "weight": 22.8
+  },
+  "T7_2H_FIRESTAFF@1": {
+    "name": "Grandmaster's Great Fire Staff .1",
+    "weight": 22.8
+  },
+  "T7_2H_FIRESTAFF@2": {
+    "name": "Grandmaster's Great Fire Staff .2",
+    "weight": 22.8
+  },
+  "T7_2H_FIRESTAFF@3": {
+    "name": "Grandmaster's Great Fire Staff .3",
+    "weight": 22.8
+  },
+  "T7_2H_FIRESTAFF@4": {
+    "name": "Grandmaster's Great Fire Staff .4",
+    "weight": 22.8
+  },
+  "T7_2H_FIRESTAFF_HELL": {
+    "name": "Grandmaster's Brimstone Staff",
+    "weight": 22.8
+  },
+  "T7_ARTEFACT_2H_FIRESTAFF_HELL": {
+    "name": "Grandmaster's Artefact Firestaff Hell",
+    "weight": 2
+  },
+  "T7_2H_FIRESTAFF_HELL@1": {
+    "name": "Grandmaster's Brimstone Staff .1",
+    "weight": 22.8
+  },
+  "T7_2H_FIRESTAFF_HELL@2": {
+    "name": "Grandmaster's Brimstone Staff .2",
+    "weight": 22.8
+  },
+  "T7_2H_FIRESTAFF_HELL@3": {
+    "name": "Grandmaster's Brimstone Staff .3",
+    "weight": 22.8
+  },
+  "T7_2H_FIRESTAFF_HELL@4": {
+    "name": "Grandmaster's Brimstone Staff .4",
+    "weight": 22.8
+  },
+  "T7_2H_FROSTSTAFF": {
+    "name": "Grandmaster's Great Frost Staff",
+    "weight": 22.8
+  },
+  "T7_2H_FROSTSTAFF@1": {
+    "name": "Grandmaster's Great Frost Staff .1",
+    "weight": 22.8
+  },
+  "T7_2H_FROSTSTAFF@2": {
+    "name": "Grandmaster's Great Frost Staff .2",
+    "weight": 22.8
+  },
+  "T7_2H_FROSTSTAFF@3": {
+    "name": "Grandmaster's Great Frost Staff .3",
+    "weight": 22.8
+  },
+  "T7_2H_FROSTSTAFF@4": {
+    "name": "Grandmaster's Great Frost Staff .4",
+    "weight": 22.8
+  },
+  "T7_2H_FROSTSTAFF_CRYSTAL": {
+    "name": "Grandmaster's Arctic Staff",
+    "weight": 22.8
+  },
+  "T7_ARTEFACT_2H_FROSTSTAFF_CRYSTAL": {
+    "name": "Grandmaster's Artefact Froststaff Crystal",
+    "weight": 2
+  },
+  "T7_2H_FROSTSTAFF_CRYSTAL@1": {
+    "name": "Grandmaster's Arctic Staff .1",
+    "weight": 22.8
+  },
+  "T7_2H_FROSTSTAFF_CRYSTAL@2": {
+    "name": "Grandmaster's Arctic Staff .2",
+    "weight": 22.8
+  },
+  "T7_2H_FROSTSTAFF_CRYSTAL@3": {
+    "name": "Grandmaster's Arctic Staff .3",
+    "weight": 22.8
+  },
+  "T7_2H_FROSTSTAFF_CRYSTAL@4": {
+    "name": "Grandmaster's Arctic Staff .4",
+    "weight": 22.8
+  },
+  "T7_2H_HAMMER": {
+    "name": "Grandmaster's Great Hammer",
+    "weight": 22.8
+  },
+  "T7_2H_HAMMER@1": {
+    "name": "Grandmaster's Great Hammer .1",
+    "weight": 22.8
+  },
+  "T7_2H_HAMMER@2": {
+    "name": "Grandmaster's Great Hammer .2",
+    "weight": 22.8
+  },
+  "T7_2H_HAMMER@3": {
+    "name": "Grandmaster's Great Hammer .3",
+    "weight": 22.8
+  },
+  "T7_2H_HAMMER@4": {
+    "name": "Grandmaster's Great Hammer .4",
+    "weight": 22.8
+  },
+  "T7_2H_HAMMER_AVALON": {
+    "name": "Grandmaster's Hand of Justice",
+    "weight": 22.8
+  },
+  "T7_ARTEFACT_2H_HAMMER_AVALON": {
+    "name": "Grandmaster's Artefact Hammer Avalon",
+    "weight": 2
+  },
+  "T7_2H_HAMMER_AVALON@1": {
+    "name": "Grandmaster's Hand of Justice .1",
+    "weight": 22.8
+  },
+  "T7_2H_HAMMER_AVALON@2": {
+    "name": "Grandmaster's Hand of Justice .2",
+    "weight": 22.8
+  },
+  "T7_2H_HAMMER_AVALON@3": {
+    "name": "Grandmaster's Hand of Justice .3",
+    "weight": 22.8
+  },
+  "T7_2H_HAMMER_AVALON@4": {
+    "name": "Grandmaster's Hand of Justice .4",
+    "weight": 22.8
+  },
+  "T7_2H_HAMMER_CRYSTAL": {
+    "name": "Grandmaster's Truebolt Hammer",
+    "weight": 22.8
+  },
+  "T7_ARTEFACT_2H_HAMMER_CRYSTAL": {
+    "name": "Grandmaster's Artefact Hammer Crystal",
+    "weight": 2
+  },
+  "T7_2H_HAMMER_CRYSTAL@1": {
+    "name": "Grandmaster's Truebolt Hammer .1",
+    "weight": 22.8
+  },
+  "T7_2H_HAMMER_CRYSTAL@2": {
+    "name": "Grandmaster's Truebolt Hammer .2",
+    "weight": 22.8
+  },
+  "T7_2H_HAMMER_CRYSTAL@3": {
+    "name": "Grandmaster's Truebolt Hammer .3",
+    "weight": 22.8
+  },
+  "T7_2H_HAMMER_CRYSTAL@4": {
+    "name": "Grandmaster's Truebolt Hammer .4",
+    "weight": 22.8
+  },
+  "T7_2H_HAMMER_UNDEAD": {
+    "name": "Grandmaster's Tombhammer",
+    "weight": 22.8
+  },
+  "T7_ARTEFACT_2H_HAMMER_UNDEAD": {
+    "name": "Grandmaster's Artefact Hammer Undead",
+    "weight": 2
+  },
+  "T7_2H_HAMMER_UNDEAD@1": {
+    "name": "Grandmaster's Tombhammer .1",
+    "weight": 22.8
+  },
+  "T7_2H_HAMMER_UNDEAD@2": {
+    "name": "Grandmaster's Tombhammer .2",
+    "weight": 22.8
+  },
+  "T7_2H_HAMMER_UNDEAD@3": {
+    "name": "Grandmaster's Tombhammer .3",
+    "weight": 22.8
+  },
+  "T7_2H_HAMMER_UNDEAD@4": {
+    "name": "Grandmaster's Tombhammer .4",
+    "weight": 22.8
+  },
+  "T7_2H_HOLYSTAFF": {
+    "name": "Grandmaster's Great Holy Staff",
+    "weight": 22.8
+  },
+  "T7_2H_HOLYSTAFF@1": {
+    "name": "Grandmaster's Great Holy Staff .1",
+    "weight": 22.8
+  },
+  "T7_2H_HOLYSTAFF@2": {
+    "name": "Grandmaster's Great Holy Staff .2",
+    "weight": 22.8
+  },
+  "T7_2H_HOLYSTAFF@3": {
+    "name": "Grandmaster's Great Holy Staff .3",
+    "weight": 22.8
+  },
+  "T7_2H_HOLYSTAFF@4": {
+    "name": "Grandmaster's Great Holy Staff .4",
+    "weight": 22.8
+  },
+  "T7_2H_HOLYSTAFF_CRYSTAL": {
+    "name": "Grandmaster's Exalted Staff",
+    "weight": 22.8
+  },
+  "T7_ARTEFACT_2H_HOLYSTAFF_CRYSTAL": {
+    "name": "Grandmaster's Artefact Holystaff Crystal",
+    "weight": 2
+  },
+  "T7_2H_HOLYSTAFF_CRYSTAL@1": {
+    "name": "Grandmaster's Exalted Staff .1",
+    "weight": 22.8
+  },
+  "T7_2H_HOLYSTAFF_CRYSTAL@2": {
+    "name": "Grandmaster's Exalted Staff .2",
+    "weight": 22.8
+  },
+  "T7_2H_HOLYSTAFF_CRYSTAL@3": {
+    "name": "Grandmaster's Exalted Staff .3",
+    "weight": 22.8
+  },
+  "T7_2H_HOLYSTAFF_CRYSTAL@4": {
+    "name": "Grandmaster's Exalted Staff .4",
+    "weight": 22.8
+  },
+  "T7_2H_HOLYSTAFF_HELL": {
+    "name": "Grandmaster's Fallen Staff",
+    "weight": 22.8
+  },
+  "T7_ARTEFACT_2H_HOLYSTAFF_HELL": {
+    "name": "Grandmaster's Artefact Holystaff Hell",
+    "weight": 2
+  },
+  "T7_2H_HOLYSTAFF_HELL@1": {
+    "name": "Grandmaster's Fallen Staff .1",
+    "weight": 22.8
+  },
+  "T7_2H_HOLYSTAFF_HELL@2": {
+    "name": "Grandmaster's Fallen Staff .2",
+    "weight": 22.8
+  },
+  "T7_2H_HOLYSTAFF_HELL@3": {
+    "name": "Grandmaster's Fallen Staff .3",
+    "weight": 22.8
+  },
+  "T7_2H_HOLYSTAFF_HELL@4": {
+    "name": "Grandmaster's Fallen Staff .4",
+    "weight": 22.8
+  },
+  "T7_2H_HOLYSTAFF_UNDEAD": {
+    "name": "Grandmaster's Redemption Staff",
+    "weight": 22.8
+  },
+  "T7_ARTEFACT_2H_HOLYSTAFF_UNDEAD": {
+    "name": "Grandmaster's Artefact Holystaff Undead",
+    "weight": 2
+  },
+  "T7_2H_HOLYSTAFF_UNDEAD@1": {
+    "name": "Grandmaster's Redemption Staff .1",
+    "weight": 22.8
+  },
+  "T7_2H_HOLYSTAFF_UNDEAD@2": {
+    "name": "Grandmaster's Redemption Staff .2",
+    "weight": 22.8
+  },
+  "T7_2H_HOLYSTAFF_UNDEAD@3": {
+    "name": "Grandmaster's Redemption Staff .3",
+    "weight": 22.8
+  },
+  "T7_2H_HOLYSTAFF_UNDEAD@4": {
+    "name": "Grandmaster's Redemption Staff .4",
+    "weight": 22.8
+  },
+  "T7_2H_NATURESTAFF": {
+    "name": "Grandmaster's Great Nature Staff",
+    "weight": 22.8
+  },
+  "T7_2H_NATURESTAFF@1": {
+    "name": "Grandmaster's Great Nature Staff .1",
+    "weight": 22.8
+  },
+  "T7_2H_NATURESTAFF@2": {
+    "name": "Grandmaster's Great Nature Staff .2",
+    "weight": 22.8
+  },
+  "T7_2H_NATURESTAFF@3": {
+    "name": "Grandmaster's Great Nature Staff .3",
+    "weight": 22.8
+  },
+  "T7_2H_NATURESTAFF@4": {
+    "name": "Grandmaster's Great Nature Staff .4",
+    "weight": 22.8
+  },
+  "T7_2H_NATURESTAFF_HELL": {
+    "name": "Grandmaster's Blight Staff",
+    "weight": 22.8
+  },
+  "T7_ARTEFACT_2H_NATURESTAFF_HELL": {
+    "name": "Grandmaster's Artefact Naturestaff Hell",
+    "weight": 2
+  },
+  "T7_2H_NATURESTAFF_HELL@1": {
+    "name": "Grandmaster's Blight Staff .1",
+    "weight": 22.8
+  },
+  "T7_2H_NATURESTAFF_HELL@2": {
+    "name": "Grandmaster's Blight Staff .2",
+    "weight": 22.8
+  },
+  "T7_2H_NATURESTAFF_HELL@3": {
+    "name": "Grandmaster's Blight Staff .3",
+    "weight": 22.8
+  },
+  "T7_2H_NATURESTAFF_HELL@4": {
+    "name": "Grandmaster's Blight Staff .4",
+    "weight": 22.8
+  },
+  "T7_2H_NATURESTAFF_KEEPER": {
+    "name": "Grandmaster's Rampant Staff",
+    "weight": 22.8
+  },
+  "T7_ARTEFACT_2H_NATURESTAFF_KEEPER": {
+    "name": "Grandmaster's Artefact Naturestaff Keeper",
+    "weight": 2
+  },
+  "T7_2H_NATURESTAFF_KEEPER@1": {
+    "name": "Grandmaster's Rampant Staff .1",
+    "weight": 22.8
+  },
+  "T7_2H_NATURESTAFF_KEEPER@2": {
+    "name": "Grandmaster's Rampant Staff .2",
+    "weight": 22.8
+  },
+  "T7_2H_NATURESTAFF_KEEPER@3": {
+    "name": "Grandmaster's Rampant Staff .3",
+    "weight": 22.8
+  },
+  "T7_2H_NATURESTAFF_KEEPER@4": {
+    "name": "Grandmaster's Rampant Staff .4",
+    "weight": 22.8
+  },
+  "T7_2H_AXE": {
+    "name": "Grandmaster's Greataxe",
+    "weight": 22.8
+  },
+  "T7_2H_AXE@1": {
+    "name": "Grandmaster's Greataxe .1",
+    "weight": 22.8
+  },
+  "T7_2H_AXE@2": {
+    "name": "Grandmaster's Greataxe .2",
+    "weight": 22.8
+  },
+  "T7_2H_AXE@3": {
+    "name": "Grandmaster's Greataxe .3",
+    "weight": 22.8
+  },
+  "T7_2H_AXE@4": {
+    "name": "Grandmaster's Greataxe .4",
+    "weight": 22.8
+  },
+  "T7_2H_AXE_AVALON": {
+    "name": "Grandmaster's Realmbreaker",
+    "weight": 22.8
+  },
+  "T7_ARTEFACT_2H_AXE_AVALON": {
+    "name": "Grandmaster's Artefact Axe Avalon",
+    "weight": 2
+  },
+  "T7_2H_AXE_AVALON@1": {
+    "name": "Grandmaster's Realmbreaker .1",
+    "weight": 22.8
+  },
+  "T7_2H_AXE_AVALON@2": {
+    "name": "Grandmaster's Realmbreaker .2",
+    "weight": 22.8
+  },
+  "T7_2H_AXE_AVALON@3": {
+    "name": "Grandmaster's Realmbreaker .3",
+    "weight": 22.8
+  },
+  "T7_2H_AXE_AVALON@4": {
+    "name": "Grandmaster's Realmbreaker .4",
+    "weight": 22.8
+  },
+  "T7_2H_HALBERD": {
+    "name": "Grandmaster's Halberd",
+    "weight": 22.8
+  },
+  "T7_2H_HALBERD@1": {
+    "name": "Grandmaster's Halberd .1",
+    "weight": 22.8
+  },
+  "T7_2H_HALBERD@2": {
+    "name": "Grandmaster's Halberd .2",
+    "weight": 22.8
+  },
+  "T7_2H_HALBERD@3": {
+    "name": "Grandmaster's Halberd .3",
+    "weight": 22.8
+  },
+  "T7_2H_HALBERD@4": {
+    "name": "Grandmaster's Halberd .4",
+    "weight": 22.8
+  },
+  "T7_2H_HALBERD_MORGANA": {
+    "name": "Grandmaster's Carrioncaller",
+    "weight": 22.8
+  },
+  "T7_ARTEFACT_2H_HALBERD_MORGANA": {
+    "name": "Grandmaster's Artefact Halberd Morgana",
+    "weight": 2
+  },
+  "T7_2H_HALBERD_MORGANA@1": {
+    "name": "Grandmaster's Carrioncaller .1",
+    "weight": 22.8
+  },
+  "T7_2H_HALBERD_MORGANA@2": {
+    "name": "Grandmaster's Carrioncaller .2",
+    "weight": 22.8
+  },
+  "T7_2H_HALBERD_MORGANA@3": {
+    "name": "Grandmaster's Carrioncaller .3",
+    "weight": 22.8
+  },
+  "T7_2H_HALBERD_MORGANA@4": {
+    "name": "Grandmaster's Carrioncaller .4",
+    "weight": 22.8
+  },
+  "T7_MAIN_HAMMER": {
+    "name": "Grandmaster's Hammer",
+    "weight": 17.1
+  },
+  "T7_MAIN_HAMMER@1": {
+    "name": "Grandmaster's Hammer .1",
+    "weight": 17.1
+  },
+  "T7_MAIN_HAMMER@2": {
+    "name": "Grandmaster's Hammer .2",
+    "weight": 17.1
+  },
+  "T7_MAIN_HAMMER@3": {
+    "name": "Grandmaster's Hammer .3",
+    "weight": 17.1
+  },
+  "T7_MAIN_HAMMER@4": {
+    "name": "Grandmaster's Hammer .4",
+    "weight": 17.1
+  },
+  "T7_2H_CROSSBOWLARGE": {
+    "name": "Grandmaster's Heavy Crossbow",
+    "weight": 22.8
+  },
+  "T7_2H_CROSSBOWLARGE@1": {
+    "name": "Grandmaster's Heavy Crossbow .1",
+    "weight": 22.8
+  },
+  "T7_2H_CROSSBOWLARGE@2": {
+    "name": "Grandmaster's Heavy Crossbow .2",
+    "weight": 22.8
+  },
+  "T7_2H_CROSSBOWLARGE@3": {
+    "name": "Grandmaster's Heavy Crossbow .3",
+    "weight": 22.8
+  },
+  "T7_2H_CROSSBOWLARGE@4": {
+    "name": "Grandmaster's Heavy Crossbow .4",
+    "weight": 22.8
+  },
+  "T7_2H_CROSSBOWLARGE_MORGANA": {
+    "name": "Grandmaster's Siegebow",
+    "weight": 22.8
+  },
+  "T7_ARTEFACT_2H_CROSSBOWLARGE_MORGANA": {
+    "name": "Grandmaster's Artefact Crossbowlarge Morgana",
+    "weight": 2
+  },
+  "T7_2H_CROSSBOWLARGE_MORGANA@1": {
+    "name": "Grandmaster's Siegebow .1",
+    "weight": 22.8
+  },
+  "T7_2H_CROSSBOWLARGE_MORGANA@2": {
+    "name": "Grandmaster's Siegebow .2",
+    "weight": 22.8
+  },
+  "T7_2H_CROSSBOWLARGE_MORGANA@3": {
+    "name": "Grandmaster's Siegebow .3",
+    "weight": 22.8
+  },
+  "T7_2H_CROSSBOWLARGE_MORGANA@4": {
+    "name": "Grandmaster's Siegebow .4",
+    "weight": 22.8
+  },
+  "T7_2H_MACE": {
+    "name": "Grandmaster's Heavy Mace",
+    "weight": 22.8
+  },
+  "T7_2H_MACE@1": {
+    "name": "Grandmaster's Heavy Mace .1",
+    "weight": 22.8
+  },
+  "T7_2H_MACE@2": {
+    "name": "Grandmaster's Heavy Mace .2",
+    "weight": 22.8
+  },
+  "T7_2H_MACE@3": {
+    "name": "Grandmaster's Heavy Mace .3",
+    "weight": 22.8
+  },
+  "T7_2H_MACE@4": {
+    "name": "Grandmaster's Heavy Mace .4",
+    "weight": 22.8
+  },
+  "T7_2H_MACE_MORGANA": {
+    "name": "Grandmaster's Camlann Mace",
+    "weight": 22.8
+  },
+  "T7_ARTEFACT_2H_MACE_MORGANA": {
+    "name": "Grandmaster's Artefact Mace Morgana",
+    "weight": 2
+  },
+  "T7_2H_MACE_MORGANA@1": {
+    "name": "Grandmaster's Camlann Mace .1",
+    "weight": 22.8
+  },
+  "T7_2H_MACE_MORGANA@2": {
+    "name": "Grandmaster's Camlann Mace .2",
+    "weight": 22.8
+  },
+  "T7_2H_MACE_MORGANA@3": {
+    "name": "Grandmaster's Camlann Mace .3",
+    "weight": 22.8
+  },
+  "T7_2H_MACE_MORGANA@4": {
+    "name": "Grandmaster's Camlann Mace .4",
+    "weight": 22.8
+  },
+  "T7_MAIN_HOLYSTAFF": {
+    "name": "Grandmaster's Holy Staff",
+    "weight": 17.1
+  },
+  "T7_MAIN_HOLYSTAFF@1": {
+    "name": "Grandmaster's Holy Staff .1",
+    "weight": 17.1
+  },
+  "T7_MAIN_HOLYSTAFF@2": {
+    "name": "Grandmaster's Holy Staff .2",
+    "weight": 17.1
+  },
+  "T7_MAIN_HOLYSTAFF@3": {
+    "name": "Grandmaster's Holy Staff .3",
+    "weight": 17.1
+  },
+  "T7_MAIN_HOLYSTAFF@4": {
+    "name": "Grandmaster's Holy Staff .4",
+    "weight": 17.1
+  },
+  "T7_MAIN_HOLYSTAFF_AVALON": {
+    "name": "Grandmaster's Hallowfall",
+    "weight": 17.1
+  },
+  "T7_ARTEFACT_MAIN_HOLYSTAFF_AVALON": {
+    "name": "Grandmaster's Artefact Holystaff Avalon",
+    "weight": 2
+  },
+  "T7_MAIN_HOLYSTAFF_AVALON@1": {
+    "name": "Grandmaster's Hallowfall .1",
+    "weight": 17.1
+  },
+  "T7_MAIN_HOLYSTAFF_AVALON@2": {
+    "name": "Grandmaster's Hallowfall .2",
+    "weight": 17.1
+  },
+  "T7_MAIN_HOLYSTAFF_AVALON@3": {
+    "name": "Grandmaster's Hallowfall .3",
+    "weight": 17.1
+  },
+  "T7_MAIN_HOLYSTAFF_AVALON@4": {
+    "name": "Grandmaster's Hallowfall .4",
+    "weight": 17.1
+  },
+  "T7_MAIN_HOLYSTAFF_MORGANA": {
+    "name": "Grandmaster's Lifetouch Staff",
+    "weight": 17.1
+  },
+  "T7_ARTEFACT_MAIN_HOLYSTAFF_MORGANA": {
+    "name": "Grandmaster's Artefact Holystaff Morgana",
+    "weight": 2
+  },
+  "T7_MAIN_HOLYSTAFF_MORGANA@1": {
+    "name": "Grandmaster's Lifetouch Staff .1",
+    "weight": 17.1
+  },
+  "T7_MAIN_HOLYSTAFF_MORGANA@2": {
+    "name": "Grandmaster's Lifetouch Staff .2",
+    "weight": 17.1
+  },
+  "T7_MAIN_HOLYSTAFF_MORGANA@3": {
+    "name": "Grandmaster's Lifetouch Staff .3",
+    "weight": 17.1
+  },
+  "T7_MAIN_HOLYSTAFF_MORGANA@4": {
+    "name": "Grandmaster's Lifetouch Staff .4",
+    "weight": 17.1
+  },
+  "T7_2H_ICECRYSTAL_UNDEAD": {
+    "name": "Grandmaster's Permafrost Prism",
+    "weight": 22.8
+  },
+  "T7_ARTEFACT_2H_ICECRYSTAL_UNDEAD": {
+    "name": "Grandmaster's Artefact Icecrystal Undead",
+    "weight": 2
+  },
+  "T7_2H_ICECRYSTAL_UNDEAD@1": {
+    "name": "Grandmaster's Permafrost Prism .1",
+    "weight": 22.8
+  },
+  "T7_2H_ICECRYSTAL_UNDEAD@2": {
+    "name": "Grandmaster's Permafrost Prism .2",
+    "weight": 22.8
+  },
+  "T7_2H_ICECRYSTAL_UNDEAD@3": {
+    "name": "Grandmaster's Permafrost Prism .3",
+    "weight": 22.8
+  },
+  "T7_2H_ICECRYSTAL_UNDEAD@4": {
+    "name": "Grandmaster's Permafrost Prism .4",
+    "weight": 22.8
+  },
+  "T7_2H_ICEGAUNTLETS_HELL": {
+    "name": "Grandmaster's Icicle Staff",
+    "weight": 22.8
+  },
+  "T7_ARTEFACT_2H_ICEGAUNTLETS_HELL": {
+    "name": "Grandmaster's Artefact Icegauntlets Hell",
+    "weight": 2
+  },
+  "T7_2H_ICEGAUNTLETS_HELL@1": {
+    "name": "Grandmaster's Icicle Staff .1",
+    "weight": 22.8
+  },
+  "T7_2H_ICEGAUNTLETS_HELL@2": {
+    "name": "Grandmaster's Icicle Staff .2",
+    "weight": 22.8
+  },
+  "T7_2H_ICEGAUNTLETS_HELL@3": {
+    "name": "Grandmaster's Icicle Staff .3",
+    "weight": 22.8
+  },
+  "T7_2H_ICEGAUNTLETS_HELL@4": {
+    "name": "Grandmaster's Icicle Staff .4",
+    "weight": 22.8
+  },
+  "T7_2H_INFERNOSTAFF": {
+    "name": "Grandmaster's Infernal Staff",
+    "weight": 22.8
+  },
+  "T7_2H_INFERNOSTAFF@1": {
+    "name": "Grandmaster's Infernal Staff .1",
+    "weight": 22.8
+  },
+  "T7_2H_INFERNOSTAFF@2": {
+    "name": "Grandmaster's Infernal Staff .2",
+    "weight": 22.8
+  },
+  "T7_2H_INFERNOSTAFF@3": {
+    "name": "Grandmaster's Infernal Staff .3",
+    "weight": 22.8
+  },
+  "T7_2H_INFERNOSTAFF@4": {
+    "name": "Grandmaster's Infernal Staff .4",
+    "weight": 22.8
+  },
+  "T7_2H_INFERNOSTAFF_MORGANA": {
+    "name": "Grandmaster's Blazing Staff",
+    "weight": 22.8
+  },
+  "T7_ARTEFACT_2H_INFERNOSTAFF_MORGANA": {
+    "name": "Grandmaster's Artefact Infernostaff Morgana",
+    "weight": 2
+  },
+  "T7_2H_INFERNOSTAFF_MORGANA@1": {
+    "name": "Grandmaster's Blazing Staff .1",
+    "weight": 22.8
+  },
+  "T7_2H_INFERNOSTAFF_MORGANA@2": {
+    "name": "Grandmaster's Blazing Staff .2",
+    "weight": 22.8
+  },
+  "T7_2H_INFERNOSTAFF_MORGANA@3": {
+    "name": "Grandmaster's Blazing Staff .3",
+    "weight": 22.8
+  },
+  "T7_2H_INFERNOSTAFF_MORGANA@4": {
+    "name": "Grandmaster's Blazing Staff .4",
+    "weight": 22.8
+  },
+  "T7_2H_IRONCLADEDSTAFF": {
+    "name": "Grandmaster's Iron-clad Staff",
+    "weight": 22.8
+  },
+  "T7_2H_IRONCLADEDSTAFF@1": {
+    "name": "Grandmaster's Iron-clad Staff .1",
+    "weight": 22.8
+  },
+  "T7_2H_IRONCLADEDSTAFF@2": {
+    "name": "Grandmaster's Iron-clad Staff .2",
+    "weight": 22.8
+  },
+  "T7_2H_IRONCLADEDSTAFF@3": {
+    "name": "Grandmaster's Iron-clad Staff .3",
+    "weight": 22.8
+  },
+  "T7_2H_IRONCLADEDSTAFF@4": {
+    "name": "Grandmaster's Iron-clad Staff .4",
+    "weight": 22.8
+  },
+  "T7_2H_IRONGAUNTLETS_HELL": {
+    "name": "Grandmaster's Black Hands",
+    "weight": 22.8
+  },
+  "T7_ARTEFACT_2H_IRONGAUNTLETS_HELL": {
+    "name": "Grandmaster's Artefact Irongauntlets Hell",
+    "weight": 2
+  },
+  "T7_2H_IRONGAUNTLETS_HELL@1": {
+    "name": "Grandmaster's Black Hands .1",
+    "weight": 22.8
+  },
+  "T7_2H_IRONGAUNTLETS_HELL@2": {
+    "name": "Grandmaster's Black Hands .2",
+    "weight": 22.8
+  },
+  "T7_2H_IRONGAUNTLETS_HELL@3": {
+    "name": "Grandmaster's Black Hands .3",
+    "weight": 22.8
+  },
+  "T7_2H_KNUCKLES_AVALON": {
+    "name": "Grandmaster's Fists of Avalon",
+    "weight": 22.8
+  },
+  "T7_ARTEFACT_2H_KNUCKLES_AVALON": {
+    "name": "Grandmaster's Artefact Knuckles Avalon",
+    "weight": 2
+  },
+  "T7_2H_KNUCKLES_AVALON@1": {
+    "name": "Grandmaster's Fists of Avalon .1",
+    "weight": 22.8
+  },
+  "T7_2H_KNUCKLES_AVALON@2": {
+    "name": "Grandmaster's Fists of Avalon .2",
+    "weight": 22.8
+  },
+  "T7_2H_KNUCKLES_AVALON@3": {
+    "name": "Grandmaster's Fists of Avalon .3",
+    "weight": 22.8
+  },
+  "T7_2H_KNUCKLES_AVALON@4": {
+    "name": "Grandmaster's Fists of Avalon .4",
+    "weight": 22.8
+  },
+  "T7_2H_KNUCKLES_CRYSTAL": {
+    "name": "Grandmaster's Forcepulse Bracers",
+    "weight": 22.8
+  },
+  "T7_ARTEFACT_2H_KNUCKLES_CRYSTAL": {
+    "name": "Grandmaster's Artefact Knuckles Crystal",
+    "weight": 2
+  },
+  "T7_2H_KNUCKLES_CRYSTAL@1": {
+    "name": "Grandmaster's Forcepulse Bracers .1",
+    "weight": 22.8
+  },
+  "T7_2H_KNUCKLES_CRYSTAL@2": {
+    "name": "Grandmaster's Forcepulse Bracers .2",
+    "weight": 22.8
+  },
+  "T7_2H_KNUCKLES_CRYSTAL@3": {
+    "name": "Grandmaster's Forcepulse Bracers .3",
+    "weight": 22.8
+  },
+  "T7_2H_KNUCKLES_CRYSTAL@4": {
+    "name": "Grandmaster's Forcepulse Bracers .4",
+    "weight": 22.8
+  },
+  "T7_2H_KNUCKLES_HELL": {
+    "name": "Grandmaster's Hellfire Hands",
+    "weight": 22.8
+  },
+  "T7_ARTEFACT_2H_KNUCKLES_HELL": {
+    "name": "Grandmaster's Artefact Knuckles Hell",
+    "weight": 2
+  },
+  "T7_2H_KNUCKLES_HELL@1": {
+    "name": "Grandmaster's Hellfire Hands .1",
+    "weight": 22.8
+  },
+  "T7_2H_KNUCKLES_HELL@2": {
+    "name": "Grandmaster's Hellfire Hands .2",
+    "weight": 22.8
+  },
+  "T7_2H_KNUCKLES_HELL@3": {
+    "name": "Grandmaster's Hellfire Hands .3",
+    "weight": 22.8
+  },
+  "T7_2H_KNUCKLES_HELL@4": {
+    "name": "Grandmaster's Hellfire Hands .4",
+    "weight": 22.8
+  },
+  "T7_2H_KNUCKLES_KEEPER": {
+    "name": "Grandmaster's Ursine Maulers",
+    "weight": 22.8
+  },
+  "T7_ARTEFACT_2H_KNUCKLES_KEEPER": {
+    "name": "Grandmaster's Artefact Knuckles Keeper",
+    "weight": 2
+  },
+  "T7_2H_KNUCKLES_KEEPER@1": {
+    "name": "Grandmaster's Ursine Maulers .1",
+    "weight": 22.8
+  },
+  "T7_2H_KNUCKLES_KEEPER@2": {
+    "name": "Grandmaster's Ursine Maulers .2",
+    "weight": 22.8
+  },
+  "T7_2H_KNUCKLES_KEEPER@3": {
+    "name": "Grandmaster's Ursine Maulers .3",
+    "weight": 22.8
+  },
+  "T7_2H_KNUCKLES_KEEPER@4": {
+    "name": "Grandmaster's Ursine Maulers .4",
+    "weight": 22.8
+  },
+  "T7_2H_KNUCKLES_MORGANA": {
+    "name": "Grandmaster's Ravenstrike Cestus",
+    "weight": 22.8
+  },
+  "T7_ARTEFACT_2H_KNUCKLES_MORGANA": {
+    "name": "Grandmaster's Artefact Knuckles Morgana",
+    "weight": 2
+  },
+  "T7_2H_KNUCKLES_MORGANA@1": {
+    "name": "Grandmaster's Ravenstrike Cestus .1",
+    "weight": 22.8
+  },
+  "T7_2H_KNUCKLES_MORGANA@2": {
+    "name": "Grandmaster's Ravenstrike Cestus .2",
+    "weight": 22.8
+  },
+  "T7_2H_KNUCKLES_MORGANA@3": {
+    "name": "Grandmaster's Ravenstrike Cestus .3",
+    "weight": 22.8
+  },
+  "T7_2H_KNUCKLES_MORGANA@4": {
+    "name": "Grandmaster's Ravenstrike Cestus .4",
+    "weight": 22.8
+  },
+  "T7_2H_REPEATINGCROSSBOW_UNDEAD": {
+    "name": "Grandmaster's Weeping Repeater",
+    "weight": 22.8
+  },
+  "T7_ARTEFACT_2H_REPEATINGCROSSBOW_UNDEAD": {
+    "name": "Grandmaster's Artefact Repeatingcrossbow Undead",
+    "weight": 2
+  },
+  "T7_2H_REPEATINGCROSSBOW_UNDEAD@1": {
+    "name": "Grandmaster's Weeping Repeater .1",
+    "weight": 22.8
+  },
+  "T7_2H_REPEATINGCROSSBOW_UNDEAD@2": {
+    "name": "Grandmaster's Weeping Repeater .2",
+    "weight": 22.8
+  },
+  "T7_2H_REPEATINGCROSSBOW_UNDEAD@3": {
+    "name": "Grandmaster's Weeping Repeater .3",
+    "weight": 22.8
+  },
+  "T7_2H_REPEATINGCROSSBOW_UNDEAD@4": {
+    "name": "Grandmaster's Weeping Repeater .4",
+    "weight": 22.8
+  },
+  "T7_2H_LONGBOW": {
+    "name": "Grandmaster's Longbow",
+    "weight": 22.8
+  },
+  "T7_2H_LONGBOW@1": {
+    "name": "Grandmaster's Longbow .1",
+    "weight": 22.8
+  },
+  "T7_2H_LONGBOW@2": {
+    "name": "Grandmaster's Longbow .2",
+    "weight": 22.8
+  },
+  "T7_2H_LONGBOW@3": {
+    "name": "Grandmaster's Longbow .3",
+    "weight": 22.8
+  },
+  "T7_2H_LONGBOW@4": {
+    "name": "Grandmaster's Longbow .4",
+    "weight": 22.8
+  },
+  "T7_2H_LONGBOW_UNDEAD": {
+    "name": "Grandmaster's Whispering Bow",
+    "weight": 22.8
+  }
+}

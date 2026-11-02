@@ -1,0 +1,8801 @@
+[
+  {
+    "id": "T3_MAIN_DAGGER",
+    "name": "Journeyman's Dagger",
+    "tier": 3,
+    "category": "dagger",
+    "group": "weapon",
+    "station": "Hunter's Lodge",
+    "study": true,
+    "weight": 3.4,
+    "journal": "HUNTER",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 735,
+        "output": 1,
+        "silver": 0,
+        "value": 192,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T3_METALBAR",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T3_LEATHER",
+            "qty": 12,
+            "ret": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T4_2H_CLAWPAIR",
+    "name": "Adept's Claws",
+    "tier": 4,
+    "category": "dagger",
+    "group": "weapon",
+    "station": "Hunter's Lodge",
+    "study": true,
+    "weight": 6.8,
+    "journal": "HUNTER",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 1715,
+        "output": 1,
+        "silver": 0,
+        "value": 512,
+        "fame": 720,
+        "mats": [
+          {
+            "id": "T4_METALBAR",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T4_LEATHER",
+            "qty": 20,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 3001,
+        "output": 1,
+        "silver": 0,
+        "value": 1024,
+        "fame": 1440,
+        "mats": [
+          {
+            "id": "T4_METALBAR@1",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T4_LEATHER@1",
+            "qty": 20,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 1024,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T4_2H_CLAWPAIR",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T4_RUNE",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 5252,
+        "output": 1,
+        "silver": 0,
+        "value": 2048,
+        "fame": 2880,
+        "mats": [
+          {
+            "id": "T4_METALBAR@2",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T4_LEATHER@2",
+            "qty": 20,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 2048,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T4_2H_CLAWPAIR@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T4_SOUL",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 9191,
+        "output": 1,
+        "silver": 0,
+        "value": 4096,
+        "fame": 5760,
+        "mats": [
+          {
+            "id": "T4_METALBAR@3",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T4_LEATHER@3",
+            "qty": 20,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 4096,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T4_2H_CLAWPAIR@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T4_RELIC",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 16085,
+        "output": 1,
+        "silver": 0,
+        "value": 8192,
+        "fame": 11520,
+        "mats": [
+          {
+            "id": "T4_METALBAR@4",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T4_LEATHER@4",
+            "qty": 20,
+            "ret": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T4_MAIN_DAGGER",
+    "name": "Adept's Dagger",
+    "tier": 4,
+    "category": "dagger",
+    "group": "weapon",
+    "station": "Hunter's Lodge",
+    "study": true,
+    "weight": 5.1,
+    "journal": "HUNTER",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 1286,
+        "output": 1,
+        "silver": 0,
+        "value": 384,
+        "fame": 540,
+        "mats": [
+          {
+            "id": "T4_METALBAR",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T4_LEATHER",
+            "qty": 12,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 2251,
+        "output": 1,
+        "silver": 0,
+        "value": 768,
+        "fame": 1080,
+        "mats": [
+          {
+            "id": "T4_METALBAR@1",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T4_LEATHER@1",
+            "qty": 12,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 768,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T4_MAIN_DAGGER",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T4_RUNE",
+            "qty": 288,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 3939,
+        "output": 1,
+        "silver": 0,
+        "value": 1536,
+        "fame": 2160,
+        "mats": [
+          {
+            "id": "T4_METALBAR@2",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T4_LEATHER@2",
+            "qty": 12,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 1536,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T4_MAIN_DAGGER@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T4_SOUL",
+            "qty": 288,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 6893,
+        "output": 1,
+        "silver": 0,
+        "value": 3072,
+        "fame": 4320,
+        "mats": [
+          {
+            "id": "T4_METALBAR@3",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T4_LEATHER@3",
+            "qty": 12,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 3072,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T4_MAIN_DAGGER@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T4_RELIC",
+            "qty": 288,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 12064,
+        "output": 1,
+        "silver": 0,
+        "value": 6144,
+        "fame": 8640,
+        "mats": [
+          {
+            "id": "T4_METALBAR@4",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T4_LEATHER@4",
+            "qty": 12,
+            "ret": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T4_2H_DAGGER_KATAR_AVALON",
+    "name": "Adept's Bridled Fury",
+    "tier": 4,
+    "category": "dagger",
+    "group": "weapon",
+    "station": "Hunter's Lodge",
+    "study": true,
+    "weight": 6.8,
+    "journal": "HUNTER",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 1715,
+        "output": 1,
+        "silver": 0,
+        "value": 2432,
+        "fame": 1008,
+        "mats": [
+          {
+            "id": "T4_METALBAR",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T4_LEATHER",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T4_ARTEFACT_2H_DAGGER_KATAR_AVALON",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 3001,
+        "output": 1,
+        "silver": 0,
+        "value": 2944,
+        "fame": 2016,
+        "mats": [
+          {
+            "id": "T4_METALBAR@1",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T4_LEATHER@1",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T4_ARTEFACT_2H_DAGGER_KATAR_AVALON",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 2944,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T4_2H_DAGGER_KATAR_AVALON",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T4_RUNE",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 5252,
+        "output": 1,
+        "silver": 0,
+        "value": 3968,
+        "fame": 4032,
+        "mats": [
+          {
+            "id": "T4_METALBAR@2",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T4_LEATHER@2",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T4_ARTEFACT_2H_DAGGER_KATAR_AVALON",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 3968,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T4_2H_DAGGER_KATAR_AVALON@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T4_SOUL",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 9191,
+        "output": 1,
+        "silver": 0,
+        "value": 6016,
+        "fame": 8064,
+        "mats": [
+          {
+            "id": "T4_METALBAR@3",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T4_LEATHER@3",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T4_ARTEFACT_2H_DAGGER_KATAR_AVALON",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 6016,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T4_2H_DAGGER_KATAR_AVALON@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T4_RELIC",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 16085,
+        "output": 1,
+        "silver": 0,
+        "value": 10112,
+        "fame": 16128,
+        "mats": [
+          {
+            "id": "T4_METALBAR@4",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T4_LEATHER@4",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T4_ARTEFACT_2H_DAGGER_KATAR_AVALON",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T4_2H_DAGGERPAIR",
+    "name": "Adept's Dagger Pair",
+    "tier": 4,
+    "category": "dagger",
+    "group": "weapon",
+    "station": "Hunter's Lodge",
+    "study": true,
+    "weight": 6.8,
+    "journal": "HUNTER",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 1715,
+        "output": 1,
+        "silver": 0,
+        "value": 512,
+        "fame": 720,
+        "mats": [
+          {
+            "id": "T4_METALBAR",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T4_LEATHER",
+            "qty": 16,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 3001,
+        "output": 1,
+        "silver": 0,
+        "value": 1024,
+        "fame": 1440,
+        "mats": [
+          {
+            "id": "T4_METALBAR@1",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T4_LEATHER@1",
+            "qty": 16,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 1024,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T4_2H_DAGGERPAIR",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T4_RUNE",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 5252,
+        "output": 1,
+        "silver": 0,
+        "value": 2048,
+        "fame": 2880,
+        "mats": [
+          {
+            "id": "T4_METALBAR@2",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T4_LEATHER@2",
+            "qty": 16,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 2048,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T4_2H_DAGGERPAIR@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T4_SOUL",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 9191,
+        "output": 1,
+        "silver": 0,
+        "value": 4096,
+        "fame": 5760,
+        "mats": [
+          {
+            "id": "T4_METALBAR@3",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T4_LEATHER@3",
+            "qty": 16,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 4096,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T4_2H_DAGGERPAIR@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T4_RELIC",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 16085,
+        "output": 1,
+        "silver": 0,
+        "value": 8192,
+        "fame": 11520,
+        "mats": [
+          {
+            "id": "T4_METALBAR@4",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T4_LEATHER@4",
+            "qty": 16,
+            "ret": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T4_2H_DAGGERPAIR_CRYSTAL",
+    "name": "Adept's Twin Slayers",
+    "tier": 4,
+    "category": "dagger",
+    "group": "weapon",
+    "station": "Hunter's Lodge",
+    "study": true,
+    "weight": 6.8,
+    "journal": "HUNTER",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 1715,
+        "output": 1,
+        "silver": 0,
+        "value": 2432,
+        "fame": 1008,
+        "mats": [
+          {
+            "id": "T4_METALBAR",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T4_LEATHER",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T4_ARTEFACT_2H_DAGGERPAIR_CRYSTAL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 3001,
+        "output": 1,
+        "silver": 0,
+        "value": 2944,
+        "fame": 2016,
+        "mats": [
+          {
+            "id": "T4_METALBAR@1",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T4_LEATHER@1",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T4_ARTEFACT_2H_DAGGERPAIR_CRYSTAL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 2944,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T4_2H_DAGGERPAIR_CRYSTAL",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T4_RUNE",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 5252,
+        "output": 1,
+        "silver": 0,
+        "value": 3968,
+        "fame": 4032,
+        "mats": [
+          {
+            "id": "T4_METALBAR@2",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T4_LEATHER@2",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T4_ARTEFACT_2H_DAGGERPAIR_CRYSTAL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 3968,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T4_2H_DAGGERPAIR_CRYSTAL@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T4_SOUL",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 9191,
+        "output": 1,
+        "silver": 0,
+        "value": 6016,
+        "fame": 8064,
+        "mats": [
+          {
+            "id": "T4_METALBAR@3",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T4_LEATHER@3",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T4_ARTEFACT_2H_DAGGERPAIR_CRYSTAL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 6016,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T4_2H_DAGGERPAIR_CRYSTAL@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T4_RELIC",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 16085,
+        "output": 1,
+        "silver": 0,
+        "value": 10112,
+        "fame": 16128,
+        "mats": [
+          {
+            "id": "T4_METALBAR@4",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T4_LEATHER@4",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T4_ARTEFACT_2H_DAGGERPAIR_CRYSTAL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T4_MAIN_DAGGER_HELL",
+    "name": "Adept's Demonfang",
+    "tier": 4,
+    "category": "dagger",
+    "group": "weapon",
+    "station": "Hunter's Lodge",
+    "study": true,
+    "weight": 5.1,
+    "journal": "HUNTER",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 1286,
+        "output": 1,
+        "silver": 0,
+        "value": 672,
+        "fame": 648,
+        "mats": [
+          {
+            "id": "T4_METALBAR",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T4_LEATHER",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T4_ARTEFACT_MAIN_DAGGER_HELL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 2251,
+        "output": 1,
+        "silver": 0,
+        "value": 1056,
+        "fame": 1296,
+        "mats": [
+          {
+            "id": "T4_METALBAR@1",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T4_LEATHER@1",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T4_ARTEFACT_MAIN_DAGGER_HELL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 1056,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T4_MAIN_DAGGER_HELL",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T4_RUNE",
+            "qty": 288,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 3939,
+        "output": 1,
+        "silver": 0,
+        "value": 1824,
+        "fame": 2592,
+        "mats": [
+          {
+            "id": "T4_METALBAR@2",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T4_LEATHER@2",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T4_ARTEFACT_MAIN_DAGGER_HELL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 1824,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T4_MAIN_DAGGER_HELL@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T4_SOUL",
+            "qty": 288,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 6893,
+        "output": 1,
+        "silver": 0,
+        "value": 3360,
+        "fame": 5184,
+        "mats": [
+          {
+            "id": "T4_METALBAR@3",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T4_LEATHER@3",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T4_ARTEFACT_MAIN_DAGGER_HELL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 3360,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T4_MAIN_DAGGER_HELL@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T4_RELIC",
+            "qty": 288,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 12064,
+        "output": 1,
+        "silver": 0,
+        "value": 6432,
+        "fame": 10368,
+        "mats": [
+          {
+            "id": "T4_METALBAR@4",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T4_LEATHER@4",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T4_ARTEFACT_MAIN_DAGGER_HELL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T4_2H_DUALSICKLE_UNDEAD",
+    "name": "Adept's Deathgivers",
+    "tier": 4,
+    "category": "dagger",
+    "group": "weapon",
+    "station": "Hunter's Lodge",
+    "study": true,
+    "weight": 6.8,
+    "journal": "HUNTER",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 1715,
+        "output": 1,
+        "silver": 0,
+        "value": 1408,
+        "fame": 936,
+        "mats": [
+          {
+            "id": "T4_METALBAR",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T4_LEATHER",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T4_ARTEFACT_2H_DUALSICKLE_UNDEAD",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 3001,
+        "output": 1,
+        "silver": 0,
+        "value": 1920,
+        "fame": 1872,
+        "mats": [
+          {
+            "id": "T4_METALBAR@1",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T4_LEATHER@1",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T4_ARTEFACT_2H_DUALSICKLE_UNDEAD",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 1920,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T4_2H_DUALSICKLE_UNDEAD",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T4_RUNE",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 5252,
+        "output": 1,
+        "silver": 0,
+        "value": 2944,
+        "fame": 3744,
+        "mats": [
+          {
+            "id": "T4_METALBAR@2",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T4_LEATHER@2",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T4_ARTEFACT_2H_DUALSICKLE_UNDEAD",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 2944,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T4_2H_DUALSICKLE_UNDEAD@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T4_SOUL",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 9191,
+        "output": 1,
+        "silver": 0,
+        "value": 4992,
+        "fame": 7488,
+        "mats": [
+          {
+            "id": "T4_METALBAR@3",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T4_LEATHER@3",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T4_ARTEFACT_2H_DUALSICKLE_UNDEAD",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 4992,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T4_2H_DUALSICKLE_UNDEAD@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T4_RELIC",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 16085,
+        "output": 1,
+        "silver": 0,
+        "value": 9088,
+        "fame": 14976,
+        "mats": [
+          {
+            "id": "T4_METALBAR@4",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T4_LEATHER@4",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T4_ARTEFACT_2H_DUALSICKLE_UNDEAD",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T4_2H_IRONGAUNTLETS_HELL",
+    "name": "Adept's Black Hands",
+    "tier": 4,
+    "category": "dagger",
+    "group": "weapon",
+    "station": "Hunter's Lodge",
+    "study": true,
+    "weight": 6.8,
+    "journal": "HUNTER",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 1715,
+        "output": 1,
+        "silver": 0,
+        "value": 896,
+        "fame": 864,
+        "mats": [
+          {
+            "id": "T4_METALBAR",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T4_LEATHER",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T4_ARTEFACT_2H_IRONGAUNTLETS_HELL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 3001,
+        "output": 1,
+        "silver": 0,
+        "value": 1408,
+        "fame": 1728,
+        "mats": [
+          {
+            "id": "T4_METALBAR@1",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T4_LEATHER@1",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T4_ARTEFACT_2H_IRONGAUNTLETS_HELL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 1408,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T4_2H_IRONGAUNTLETS_HELL",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T4_RUNE",
+            "qty": 192,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 5252,
+        "output": 1,
+        "silver": 0,
+        "value": 2432,
+        "fame": 3456,
+        "mats": [
+          {
+            "id": "T4_METALBAR@2",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T4_LEATHER@2",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T4_ARTEFACT_2H_IRONGAUNTLETS_HELL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 2432,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T4_2H_IRONGAUNTLETS_HELL@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T4_SOUL",
+            "qty": 192,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 9191,
+        "output": 1,
+        "silver": 0,
+        "value": 4480,
+        "fame": 6912,
+        "mats": [
+          {
+            "id": "T4_METALBAR@3",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T4_LEATHER@3",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T4_ARTEFACT_2H_IRONGAUNTLETS_HELL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 4480,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T4_2H_IRONGAUNTLETS_HELL@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T4_RELIC",
+            "qty": 192,
+            "ret": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T4_MAIN_RAPIER_MORGANA",
+    "name": "Adept's Bloodletter",
+    "tier": 4,
+    "category": "dagger",
+    "group": "weapon",
+    "station": "Hunter's Lodge",
+    "study": true,
+    "weight": 5.1,
+    "journal": "HUNTER",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 1286,
+        "output": 1,
+        "silver": 0,
+        "value": 480,
+        "fame": 594,
+        "mats": [
+          {
+            "id": "T4_METALBAR",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T4_LEATHER",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T4_ARTEFACT_MAIN_RAPIER_MORGANA",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 2251,
+        "output": 1,
+        "silver": 0,
+        "value": 864,
+        "fame": 1188,
+        "mats": [
+          {
+            "id": "T4_METALBAR@1",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T4_LEATHER@1",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T4_ARTEFACT_MAIN_RAPIER_MORGANA",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 864,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T4_MAIN_RAPIER_MORGANA",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T4_RUNE",
+            "qty": 288,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 3939,
+        "output": 1,
+        "silver": 0,
+        "value": 1632,
+        "fame": 2376,
+        "mats": [
+          {
+            "id": "T4_METALBAR@2",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T4_LEATHER@2",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T4_ARTEFACT_MAIN_RAPIER_MORGANA",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 1632,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T4_MAIN_RAPIER_MORGANA@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T4_SOUL",
+            "qty": 288,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 6893,
+        "output": 1,
+        "silver": 0,
+        "value": 3168,
+        "fame": 4752,
+        "mats": [
+          {
+            "id": "T4_METALBAR@3",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T4_LEATHER@3",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T4_ARTEFACT_MAIN_RAPIER_MORGANA",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 3168,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T4_MAIN_RAPIER_MORGANA@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T4_RELIC",
+            "qty": 288,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 12064,
+        "output": 1,
+        "silver": 0,
+        "value": 6240,
+        "fame": 9504,
+        "mats": [
+          {
+            "id": "T4_METALBAR@4",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T4_LEATHER@4",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T4_ARTEFACT_MAIN_RAPIER_MORGANA",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T5_2H_CLAWPAIR",
+    "name": "Expert's Claws",
+    "tier": 5,
+    "category": "dagger",
+    "group": "weapon",
+    "station": "Hunter's Lodge",
+    "study": true,
+    "weight": 10.1,
+    "journal": "HUNTER",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 3001,
+        "output": 1,
+        "silver": 0,
+        "value": 1024,
+        "fame": 2880,
+        "mats": [
+          {
+            "id": "T5_METALBAR",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T5_LEATHER",
+            "qty": 20,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 5252,
+        "output": 1,
+        "silver": 0,
+        "value": 2048,
+        "fame": 5760,
+        "mats": [
+          {
+            "id": "T5_METALBAR@1",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T5_LEATHER@1",
+            "qty": 20,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 2048,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T5_2H_CLAWPAIR",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T5_RUNE",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 9191,
+        "output": 1,
+        "silver": 0,
+        "value": 4096,
+        "fame": 11520,
+        "mats": [
+          {
+            "id": "T5_METALBAR@2",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T5_LEATHER@2",
+            "qty": 20,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 4096,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T5_2H_CLAWPAIR@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T5_SOUL",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 16085,
+        "output": 1,
+        "silver": 0,
+        "value": 8192,
+        "fame": 23040,
+        "mats": [
+          {
+            "id": "T5_METALBAR@3",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T5_LEATHER@3",
+            "qty": 20,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 8192,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T5_2H_CLAWPAIR@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T5_RELIC",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 28148,
+        "output": 1,
+        "silver": 0,
+        "value": 16384,
+        "fame": 46080,
+        "mats": [
+          {
+            "id": "T5_METALBAR@4",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T5_LEATHER@4",
+            "qty": 20,
+            "ret": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T5_MAIN_DAGGER",
+    "name": "Expert's Dagger",
+    "tier": 5,
+    "category": "dagger",
+    "group": "weapon",
+    "station": "Hunter's Lodge",
+    "study": true,
+    "weight": 7.6,
+    "journal": "HUNTER",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 2251,
+        "output": 1,
+        "silver": 0,
+        "value": 768,
+        "fame": 2160,
+        "mats": [
+          {
+            "id": "T5_METALBAR",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T5_LEATHER",
+            "qty": 12,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 3939,
+        "output": 1,
+        "silver": 0,
+        "value": 1536,
+        "fame": 4320,
+        "mats": [
+          {
+            "id": "T5_METALBAR@1",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T5_LEATHER@1",
+            "qty": 12,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 1536,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T5_MAIN_DAGGER",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T5_RUNE",
+            "qty": 288,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 6893,
+        "output": 1,
+        "silver": 0,
+        "value": 3072,
+        "fame": 8640,
+        "mats": [
+          {
+            "id": "T5_METALBAR@2",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T5_LEATHER@2",
+            "qty": 12,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 3072,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T5_MAIN_DAGGER@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T5_SOUL",
+            "qty": 288,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 12064,
+        "output": 1,
+        "silver": 0,
+        "value": 6144,
+        "fame": 17280,
+        "mats": [
+          {
+            "id": "T5_METALBAR@3",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T5_LEATHER@3",
+            "qty": 12,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 6144,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T5_MAIN_DAGGER@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T5_RELIC",
+            "qty": 288,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 21111,
+        "output": 1,
+        "silver": 0,
+        "value": 12288,
+        "fame": 34560,
+        "mats": [
+          {
+            "id": "T5_METALBAR@4",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T5_LEATHER@4",
+            "qty": 12,
+            "ret": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T5_2H_DAGGER_KATAR_AVALON",
+    "name": "Expert's Bridled Fury",
+    "tier": 5,
+    "category": "dagger",
+    "group": "weapon",
+    "station": "Hunter's Lodge",
+    "study": true,
+    "weight": 10.1,
+    "journal": "HUNTER",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 3001,
+        "output": 1,
+        "silver": 0,
+        "value": 4864,
+        "fame": 4032,
+        "mats": [
+          {
+            "id": "T5_METALBAR",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T5_LEATHER",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T5_ARTEFACT_2H_DAGGER_KATAR_AVALON",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 5252,
+        "output": 1,
+        "silver": 0,
+        "value": 5888,
+        "fame": 8064,
+        "mats": [
+          {
+            "id": "T5_METALBAR@1",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T5_LEATHER@1",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T5_ARTEFACT_2H_DAGGER_KATAR_AVALON",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 5888,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T5_2H_DAGGER_KATAR_AVALON",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T5_RUNE",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 9191,
+        "output": 1,
+        "silver": 0,
+        "value": 7936,
+        "fame": 16128,
+        "mats": [
+          {
+            "id": "T5_METALBAR@2",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T5_LEATHER@2",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T5_ARTEFACT_2H_DAGGER_KATAR_AVALON",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 7936,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T5_2H_DAGGER_KATAR_AVALON@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T5_SOUL",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 16085,
+        "output": 1,
+        "silver": 0,
+        "value": 12032,
+        "fame": 32256,
+        "mats": [
+          {
+            "id": "T5_METALBAR@3",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T5_LEATHER@3",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T5_ARTEFACT_2H_DAGGER_KATAR_AVALON",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 12032,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T5_2H_DAGGER_KATAR_AVALON@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T5_RELIC",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 28148,
+        "output": 1,
+        "silver": 0,
+        "value": 20224,
+        "fame": 64512,
+        "mats": [
+          {
+            "id": "T5_METALBAR@4",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T5_LEATHER@4",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T5_ARTEFACT_2H_DAGGER_KATAR_AVALON",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T5_2H_DAGGERPAIR",
+    "name": "Expert's Dagger Pair",
+    "tier": 5,
+    "category": "dagger",
+    "group": "weapon",
+    "station": "Hunter's Lodge",
+    "study": true,
+    "weight": 10.1,
+    "journal": "HUNTER",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 3001,
+        "output": 1,
+        "silver": 0,
+        "value": 1024,
+        "fame": 2880,
+        "mats": [
+          {
+            "id": "T5_METALBAR",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T5_LEATHER",
+            "qty": 16,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 5252,
+        "output": 1,
+        "silver": 0,
+        "value": 2048,
+        "fame": 5760,
+        "mats": [
+          {
+            "id": "T5_METALBAR@1",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T5_LEATHER@1",
+            "qty": 16,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 2048,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T5_2H_DAGGERPAIR",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T5_RUNE",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 9191,
+        "output": 1,
+        "silver": 0,
+        "value": 4096,
+        "fame": 11520,
+        "mats": [
+          {
+            "id": "T5_METALBAR@2",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T5_LEATHER@2",
+            "qty": 16,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 4096,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T5_2H_DAGGERPAIR@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T5_SOUL",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 16085,
+        "output": 1,
+        "silver": 0,
+        "value": 8192,
+        "fame": 23040,
+        "mats": [
+          {
+            "id": "T5_METALBAR@3",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T5_LEATHER@3",
+            "qty": 16,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 8192,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T5_2H_DAGGERPAIR@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T5_RELIC",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 28148,
+        "output": 1,
+        "silver": 0,
+        "value": 16384,
+        "fame": 46080,
+        "mats": [
+          {
+            "id": "T5_METALBAR@4",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T5_LEATHER@4",
+            "qty": 16,
+            "ret": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T5_2H_DAGGERPAIR_CRYSTAL",
+    "name": "Expert's Twin Slayers",
+    "tier": 5,
+    "category": "dagger",
+    "group": "weapon",
+    "station": "Hunter's Lodge",
+    "study": true,
+    "weight": 10.1,
+    "journal": "HUNTER",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 3001,
+        "output": 1,
+        "silver": 0,
+        "value": 4864,
+        "fame": 4032,
+        "mats": [
+          {
+            "id": "T5_METALBAR",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T5_LEATHER",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T5_ARTEFACT_2H_DAGGERPAIR_CRYSTAL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 5252,
+        "output": 1,
+        "silver": 0,
+        "value": 5888,
+        "fame": 8064,
+        "mats": [
+          {
+            "id": "T5_METALBAR@1",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T5_LEATHER@1",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T5_ARTEFACT_2H_DAGGERPAIR_CRYSTAL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 5888,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T5_2H_DAGGERPAIR_CRYSTAL",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T5_RUNE",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 9191,
+        "output": 1,
+        "silver": 0,
+        "value": 7936,
+        "fame": 16128,
+        "mats": [
+          {
+            "id": "T5_METALBAR@2",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T5_LEATHER@2",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T5_ARTEFACT_2H_DAGGERPAIR_CRYSTAL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 7936,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T5_2H_DAGGERPAIR_CRYSTAL@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T5_SOUL",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 16085,
+        "output": 1,
+        "silver": 0,
+        "value": 12032,
+        "fame": 32256,
+        "mats": [
+          {
+            "id": "T5_METALBAR@3",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T5_LEATHER@3",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T5_ARTEFACT_2H_DAGGERPAIR_CRYSTAL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 12032,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T5_2H_DAGGERPAIR_CRYSTAL@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T5_RELIC",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 28148,
+        "output": 1,
+        "silver": 0,
+        "value": 20224,
+        "fame": 64512,
+        "mats": [
+          {
+            "id": "T5_METALBAR@4",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T5_LEATHER@4",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T5_ARTEFACT_2H_DAGGERPAIR_CRYSTAL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T5_MAIN_DAGGER_HELL",
+    "name": "Expert's Demonfang",
+    "tier": 5,
+    "category": "dagger",
+    "group": "weapon",
+    "station": "Hunter's Lodge",
+    "study": true,
+    "weight": 7.6,
+    "journal": "HUNTER",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 2251,
+        "output": 1,
+        "silver": 0,
+        "value": 1344,
+        "fame": 2592,
+        "mats": [
+          {
+            "id": "T5_METALBAR",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T5_LEATHER",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T5_ARTEFACT_MAIN_DAGGER_HELL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 3939,
+        "output": 1,
+        "silver": 0,
+        "value": 2112,
+        "fame": 5184,
+        "mats": [
+          {
+            "id": "T5_METALBAR@1",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T5_LEATHER@1",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T5_ARTEFACT_MAIN_DAGGER_HELL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 2112,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T5_MAIN_DAGGER_HELL",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T5_RUNE",
+            "qty": 288,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 6893,
+        "output": 1,
+        "silver": 0,
+        "value": 3648,
+        "fame": 10368,
+        "mats": [
+          {
+            "id": "T5_METALBAR@2",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T5_LEATHER@2",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T5_ARTEFACT_MAIN_DAGGER_HELL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 3648,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T5_MAIN_DAGGER_HELL@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T5_SOUL",
+            "qty": 288,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 12064,
+        "output": 1,
+        "silver": 0,
+        "value": 6720,
+        "fame": 20736,
+        "mats": [
+          {
+            "id": "T5_METALBAR@3",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T5_LEATHER@3",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T5_ARTEFACT_MAIN_DAGGER_HELL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 6720,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T5_MAIN_DAGGER_HELL@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T5_RELIC",
+            "qty": 288,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 21111,
+        "output": 1,
+        "silver": 0,
+        "value": 12864,
+        "fame": 41472,
+        "mats": [
+          {
+            "id": "T5_METALBAR@4",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T5_LEATHER@4",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T5_ARTEFACT_MAIN_DAGGER_HELL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T5_2H_DUALSICKLE_UNDEAD",
+    "name": "Expert's Deathgivers",
+    "tier": 5,
+    "category": "dagger",
+    "group": "weapon",
+    "station": "Hunter's Lodge",
+    "study": true,
+    "weight": 10.1,
+    "journal": "HUNTER",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 3001,
+        "output": 1,
+        "silver": 0,
+        "value": 2816,
+        "fame": 3744,
+        "mats": [
+          {
+            "id": "T5_METALBAR",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T5_LEATHER",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T5_ARTEFACT_2H_DUALSICKLE_UNDEAD",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 5252,
+        "output": 1,
+        "silver": 0,
+        "value": 3840,
+        "fame": 7488,
+        "mats": [
+          {
+            "id": "T5_METALBAR@1",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T5_LEATHER@1",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T5_ARTEFACT_2H_DUALSICKLE_UNDEAD",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 3840,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T5_2H_DUALSICKLE_UNDEAD",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T5_RUNE",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 9191,
+        "output": 1,
+        "silver": 0,
+        "value": 5888,
+        "fame": 14976,
+        "mats": [
+          {
+            "id": "T5_METALBAR@2",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T5_LEATHER@2",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T5_ARTEFACT_2H_DUALSICKLE_UNDEAD",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 5888,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T5_2H_DUALSICKLE_UNDEAD@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T5_SOUL",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 16085,
+        "output": 1,
+        "silver": 0,
+        "value": 9984,
+        "fame": 29952,
+        "mats": [
+          {
+            "id": "T5_METALBAR@3",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T5_LEATHER@3",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T5_ARTEFACT_2H_DUALSICKLE_UNDEAD",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 9984,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T5_2H_DUALSICKLE_UNDEAD@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T5_RELIC",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 28148,
+        "output": 1,
+        "silver": 0,
+        "value": 18176,
+        "fame": 59904,
+        "mats": [
+          {
+            "id": "T5_METALBAR@4",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T5_LEATHER@4",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T5_ARTEFACT_2H_DUALSICKLE_UNDEAD",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T5_2H_IRONGAUNTLETS_HELL",
+    "name": "Expert's Black Hands",
+    "tier": 5,
+    "category": "dagger",
+    "group": "weapon",
+    "station": "Hunter's Lodge",
+    "study": true,
+    "weight": 10.1,
+    "journal": "HUNTER",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 3001,
+        "output": 1,
+        "silver": 0,
+        "value": 1792,
+        "fame": 3456,
+        "mats": [
+          {
+            "id": "T5_METALBAR",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T5_LEATHER",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T5_ARTEFACT_2H_IRONGAUNTLETS_HELL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 5252,
+        "output": 1,
+        "silver": 0,
+        "value": 2816,
+        "fame": 6912,
+        "mats": [
+          {
+            "id": "T5_METALBAR@1",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T5_LEATHER@1",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T5_ARTEFACT_2H_IRONGAUNTLETS_HELL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 2816,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T5_2H_IRONGAUNTLETS_HELL",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T5_RUNE",
+            "qty": 192,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 9191,
+        "output": 1,
+        "silver": 0,
+        "value": 4864,
+        "fame": 13824,
+        "mats": [
+          {
+            "id": "T5_METALBAR@2",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T5_LEATHER@2",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T5_ARTEFACT_2H_IRONGAUNTLETS_HELL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 4864,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T5_2H_IRONGAUNTLETS_HELL@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T5_SOUL",
+            "qty": 192,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 16085,
+        "output": 1,
+        "silver": 0,
+        "value": 8960,
+        "fame": 27648,
+        "mats": [
+          {
+            "id": "T5_METALBAR@3",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T5_LEATHER@3",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T5_ARTEFACT_2H_IRONGAUNTLETS_HELL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 8960,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T5_2H_IRONGAUNTLETS_HELL@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T5_RELIC",
+            "qty": 192,
+            "ret": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T5_MAIN_RAPIER_MORGANA",
+    "name": "Expert's Bloodletter",
+    "tier": 5,
+    "category": "dagger",
+    "group": "weapon",
+    "station": "Hunter's Lodge",
+    "study": true,
+    "weight": 7.6,
+    "journal": "HUNTER",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 2251,
+        "output": 1,
+        "silver": 0,
+        "value": 960,
+        "fame": 2376,
+        "mats": [
+          {
+            "id": "T5_METALBAR",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T5_LEATHER",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T5_ARTEFACT_MAIN_RAPIER_MORGANA",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 3939,
+        "output": 1,
+        "silver": 0,
+        "value": 1728,
+        "fame": 4752,
+        "mats": [
+          {
+            "id": "T5_METALBAR@1",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T5_LEATHER@1",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T5_ARTEFACT_MAIN_RAPIER_MORGANA",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 1728,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T5_MAIN_RAPIER_MORGANA",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T5_RUNE",
+            "qty": 288,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 6893,
+        "output": 1,
+        "silver": 0,
+        "value": 3264,
+        "fame": 9504,
+        "mats": [
+          {
+            "id": "T5_METALBAR@2",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T5_LEATHER@2",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T5_ARTEFACT_MAIN_RAPIER_MORGANA",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 3264,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T5_MAIN_RAPIER_MORGANA@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T5_SOUL",
+            "qty": 288,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 12064,
+        "output": 1,
+        "silver": 0,
+        "value": 6336,
+        "fame": 19008,
+        "mats": [
+          {
+            "id": "T5_METALBAR@3",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T5_LEATHER@3",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T5_ARTEFACT_MAIN_RAPIER_MORGANA",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 6336,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T5_MAIN_RAPIER_MORGANA@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T5_RELIC",
+            "qty": 288,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 21111,
+        "output": 1,
+        "silver": 0,
+        "value": 12480,
+        "fame": 38016,
+        "mats": [
+          {
+            "id": "T5_METALBAR@4",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T5_LEATHER@4",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T5_ARTEFACT_MAIN_RAPIER_MORGANA",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T6_2H_CLAWPAIR",
+    "name": "Master's Claws",
+    "tier": 6,
+    "category": "dagger",
+    "group": "weapon",
+    "station": "Hunter's Lodge",
+    "study": true,
+    "weight": 15.2,
+    "journal": "HUNTER",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 5252,
+        "output": 1,
+        "silver": 0,
+        "value": 2048,
+        "fame": 8640,
+        "mats": [
+          {
+            "id": "T6_METALBAR",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T6_LEATHER",
+            "qty": 20,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 9191,
+        "output": 1,
+        "silver": 0,
+        "value": 4096,
+        "fame": 17280,
+        "mats": [
+          {
+            "id": "T6_METALBAR@1",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T6_LEATHER@1",
+            "qty": 20,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 4096,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T6_2H_CLAWPAIR",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T6_RUNE",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 16085,
+        "output": 1,
+        "silver": 0,
+        "value": 8192,
+        "fame": 34560,
+        "mats": [
+          {
+            "id": "T6_METALBAR@2",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T6_LEATHER@2",
+            "qty": 20,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 8192,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T6_2H_CLAWPAIR@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T6_SOUL",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 28148,
+        "output": 1,
+        "silver": 0,
+        "value": 16384,
+        "fame": 69120,
+        "mats": [
+          {
+            "id": "T6_METALBAR@3",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T6_LEATHER@3",
+            "qty": 20,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 16384,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T6_2H_CLAWPAIR@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T6_RELIC",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 49260,
+        "output": 1,
+        "silver": 0,
+        "value": 32768,
+        "fame": 138240,
+        "mats": [
+          {
+            "id": "T6_METALBAR@4",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T6_LEATHER@4",
+            "qty": 20,
+            "ret": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T6_MAIN_DAGGER",
+    "name": "Master's Dagger",
+    "tier": 6,
+    "category": "dagger",
+    "group": "weapon",
+    "station": "Hunter's Lodge",
+    "study": true,
+    "weight": 11.4,
+    "journal": "HUNTER",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 3939,
+        "output": 1,
+        "silver": 0,
+        "value": 1536,
+        "fame": 6480,
+        "mats": [
+          {
+            "id": "T6_METALBAR",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T6_LEATHER",
+            "qty": 12,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 6893,
+        "output": 1,
+        "silver": 0,
+        "value": 3072,
+        "fame": 12960,
+        "mats": [
+          {
+            "id": "T6_METALBAR@1",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T6_LEATHER@1",
+            "qty": 12,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 3072,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T6_MAIN_DAGGER",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T6_RUNE",
+            "qty": 288,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 12064,
+        "output": 1,
+        "silver": 0,
+        "value": 6144,
+        "fame": 25920,
+        "mats": [
+          {
+            "id": "T6_METALBAR@2",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T6_LEATHER@2",
+            "qty": 12,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 6144,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T6_MAIN_DAGGER@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T6_SOUL",
+            "qty": 288,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 21111,
+        "output": 1,
+        "silver": 0,
+        "value": 12288,
+        "fame": 51840,
+        "mats": [
+          {
+            "id": "T6_METALBAR@3",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T6_LEATHER@3",
+            "qty": 12,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 12288,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T6_MAIN_DAGGER@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T6_RELIC",
+            "qty": 288,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 36945,
+        "output": 1,
+        "silver": 0,
+        "value": 24576,
+        "fame": 103680,
+        "mats": [
+          {
+            "id": "T6_METALBAR@4",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T6_LEATHER@4",
+            "qty": 12,
+            "ret": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T6_2H_DAGGER_KATAR_AVALON",
+    "name": "Master's Bridled Fury",
+    "tier": 6,
+    "category": "dagger",
+    "group": "weapon",
+    "station": "Hunter's Lodge",
+    "study": true,
+    "weight": 15.2,
+    "journal": "HUNTER",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 5252,
+        "output": 1,
+        "silver": 0,
+        "value": 9728,
+        "fame": 12096,
+        "mats": [
+          {
+            "id": "T6_METALBAR",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T6_LEATHER",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T6_ARTEFACT_2H_DAGGER_KATAR_AVALON",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 9191,
+        "output": 1,
+        "silver": 0,
+        "value": 11776,
+        "fame": 24192,
+        "mats": [
+          {
+            "id": "T6_METALBAR@1",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T6_LEATHER@1",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T6_ARTEFACT_2H_DAGGER_KATAR_AVALON",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 11776,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T6_2H_DAGGER_KATAR_AVALON",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T6_RUNE",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 16085,
+        "output": 1,
+        "silver": 0,
+        "value": 15872,
+        "fame": 48384,
+        "mats": [
+          {
+            "id": "T6_METALBAR@2",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T6_LEATHER@2",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T6_ARTEFACT_2H_DAGGER_KATAR_AVALON",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 15872,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T6_2H_DAGGER_KATAR_AVALON@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T6_SOUL",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 28148,
+        "output": 1,
+        "silver": 0,
+        "value": 24064,
+        "fame": 96768,
+        "mats": [
+          {
+            "id": "T6_METALBAR@3",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T6_LEATHER@3",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T6_ARTEFACT_2H_DAGGER_KATAR_AVALON",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 24064,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T6_2H_DAGGER_KATAR_AVALON@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T6_RELIC",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 49260,
+        "output": 1,
+        "silver": 0,
+        "value": 40448,
+        "fame": 193536,
+        "mats": [
+          {
+            "id": "T6_METALBAR@4",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T6_LEATHER@4",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T6_ARTEFACT_2H_DAGGER_KATAR_AVALON",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T6_2H_DAGGERPAIR",
+    "name": "Master's Dagger Pair",
+    "tier": 6,
+    "category": "dagger",
+    "group": "weapon",
+    "station": "Hunter's Lodge",
+    "study": true,
+    "weight": 15.2,
+    "journal": "HUNTER",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 5252,
+        "output": 1,
+        "silver": 0,
+        "value": 2048,
+        "fame": 8640,
+        "mats": [
+          {
+            "id": "T6_METALBAR",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T6_LEATHER",
+            "qty": 16,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 9191,
+        "output": 1,
+        "silver": 0,
+        "value": 4096,
+        "fame": 17280,
+        "mats": [
+          {
+            "id": "T6_METALBAR@1",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T6_LEATHER@1",
+            "qty": 16,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 4096,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T6_2H_DAGGERPAIR",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T6_RUNE",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 16085,
+        "output": 1,
+        "silver": 0,
+        "value": 8192,
+        "fame": 34560,
+        "mats": [
+          {
+            "id": "T6_METALBAR@2",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T6_LEATHER@2",
+            "qty": 16,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 8192,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T6_2H_DAGGERPAIR@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T6_SOUL",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 28148,
+        "output": 1,
+        "silver": 0,
+        "value": 16384,
+        "fame": 69120,
+        "mats": [
+          {
+            "id": "T6_METALBAR@3",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T6_LEATHER@3",
+            "qty": 16,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 16384,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T6_2H_DAGGERPAIR@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T6_RELIC",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 49260,
+        "output": 1,
+        "silver": 0,
+        "value": 32768,
+        "fame": 138240,
+        "mats": [
+          {
+            "id": "T6_METALBAR@4",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T6_LEATHER@4",
+            "qty": 16,
+            "ret": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T6_2H_DAGGERPAIR_CRYSTAL",
+    "name": "Master's Twin Slayers",
+    "tier": 6,
+    "category": "dagger",
+    "group": "weapon",
+    "station": "Hunter's Lodge",
+    "study": true,
+    "weight": 15.2,
+    "journal": "HUNTER",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 5252,
+        "output": 1,
+        "silver": 0,
+        "value": 9728,
+        "fame": 12096,
+        "mats": [
+          {
+            "id": "T6_METALBAR",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T6_LEATHER",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T6_ARTEFACT_2H_DAGGERPAIR_CRYSTAL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 9191,
+        "output": 1,
+        "silver": 0,
+        "value": 11776,
+        "fame": 24192,
+        "mats": [
+          {
+            "id": "T6_METALBAR@1",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T6_LEATHER@1",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T6_ARTEFACT_2H_DAGGERPAIR_CRYSTAL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 11776,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T6_2H_DAGGERPAIR_CRYSTAL",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T6_RUNE",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 16085,
+        "output": 1,
+        "silver": 0,
+        "value": 15872,
+        "fame": 48384,
+        "mats": [
+          {
+            "id": "T6_METALBAR@2",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T6_LEATHER@2",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T6_ARTEFACT_2H_DAGGERPAIR_CRYSTAL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 15872,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T6_2H_DAGGERPAIR_CRYSTAL@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T6_SOUL",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 28148,
+        "output": 1,
+        "silver": 0,
+        "value": 24064,
+        "fame": 96768,
+        "mats": [
+          {
+            "id": "T6_METALBAR@3",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T6_LEATHER@3",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T6_ARTEFACT_2H_DAGGERPAIR_CRYSTAL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 24064,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T6_2H_DAGGERPAIR_CRYSTAL@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T6_RELIC",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 49260,
+        "output": 1,
+        "silver": 0,
+        "value": 40448,
+        "fame": 193536,
+        "mats": [
+          {
+            "id": "T6_METALBAR@4",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T6_LEATHER@4",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T6_ARTEFACT_2H_DAGGERPAIR_CRYSTAL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T6_MAIN_DAGGER_HELL",
+    "name": "Master's Demonfang",
+    "tier": 6,
+    "category": "dagger",
+    "group": "weapon",
+    "station": "Hunter's Lodge",
+    "study": true,
+    "weight": 11.4,
+    "journal": "HUNTER",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 3939,
+        "output": 1,
+        "silver": 0,
+        "value": 2688,
+        "fame": 7776,
+        "mats": [
+          {
+            "id": "T6_METALBAR",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T6_LEATHER",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T6_ARTEFACT_MAIN_DAGGER_HELL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 6893,
+        "output": 1,
+        "silver": 0,
+        "value": 4224,
+        "fame": 15552,
+        "mats": [
+          {
+            "id": "T6_METALBAR@1",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T6_LEATHER@1",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T6_ARTEFACT_MAIN_DAGGER_HELL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 4224,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T6_MAIN_DAGGER_HELL",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T6_RUNE",
+            "qty": 288,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 12064,
+        "output": 1,
+        "silver": 0,
+        "value": 7296,
+        "fame": 31104,
+        "mats": [
+          {
+            "id": "T6_METALBAR@2",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T6_LEATHER@2",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T6_ARTEFACT_MAIN_DAGGER_HELL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 7296,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T6_MAIN_DAGGER_HELL@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T6_SOUL",
+            "qty": 288,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 21111,
+        "output": 1,
+        "silver": 0,
+        "value": 13440,
+        "fame": 62208,
+        "mats": [
+          {
+            "id": "T6_METALBAR@3",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T6_LEATHER@3",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T6_ARTEFACT_MAIN_DAGGER_HELL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 13440,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T6_MAIN_DAGGER_HELL@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T6_RELIC",
+            "qty": 288,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 36945,
+        "output": 1,
+        "silver": 0,
+        "value": 25728,
+        "fame": 124416,
+        "mats": [
+          {
+            "id": "T6_METALBAR@4",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T6_LEATHER@4",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T6_ARTEFACT_MAIN_DAGGER_HELL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T6_2H_DUALSICKLE_UNDEAD",
+    "name": "Master's Deathgivers",
+    "tier": 6,
+    "category": "dagger",
+    "group": "weapon",
+    "station": "Hunter's Lodge",
+    "study": true,
+    "weight": 15.2,
+    "journal": "HUNTER",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 5252,
+        "output": 1,
+        "silver": 0,
+        "value": 5632,
+        "fame": 11232,
+        "mats": [
+          {
+            "id": "T6_METALBAR",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T6_LEATHER",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T6_ARTEFACT_2H_DUALSICKLE_UNDEAD",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 9191,
+        "output": 1,
+        "silver": 0,
+        "value": 7680,
+        "fame": 22464,
+        "mats": [
+          {
+            "id": "T6_METALBAR@1",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T6_LEATHER@1",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T6_ARTEFACT_2H_DUALSICKLE_UNDEAD",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 7680,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T6_2H_DUALSICKLE_UNDEAD",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T6_RUNE",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 16085,
+        "output": 1,
+        "silver": 0,
+        "value": 11776,
+        "fame": 44928,
+        "mats": [
+          {
+            "id": "T6_METALBAR@2",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T6_LEATHER@2",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T6_ARTEFACT_2H_DUALSICKLE_UNDEAD",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 11776,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T6_2H_DUALSICKLE_UNDEAD@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T6_SOUL",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 28148,
+        "output": 1,
+        "silver": 0,
+        "value": 19968,
+        "fame": 89856,
+        "mats": [
+          {
+            "id": "T6_METALBAR@3",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T6_LEATHER@3",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T6_ARTEFACT_2H_DUALSICKLE_UNDEAD",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 19968,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T6_2H_DUALSICKLE_UNDEAD@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T6_RELIC",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 49260,
+        "output": 1,
+        "silver": 0,
+        "value": 36352,
+        "fame": 179712,
+        "mats": [
+          {
+            "id": "T6_METALBAR@4",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T6_LEATHER@4",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T6_ARTEFACT_2H_DUALSICKLE_UNDEAD",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T6_2H_IRONGAUNTLETS_HELL",
+    "name": "Master's Black Hands",
+    "tier": 6,
+    "category": "dagger",
+    "group": "weapon",
+    "station": "Hunter's Lodge",
+    "study": true,
+    "weight": 15.2,
+    "journal": "HUNTER",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 5252,
+        "output": 1,
+        "silver": 0,
+        "value": 3584,
+        "fame": 10368,
+        "mats": [
+          {
+            "id": "T6_METALBAR",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T6_LEATHER",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T6_ARTEFACT_2H_IRONGAUNTLETS_HELL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 9191,
+        "output": 1,
+        "silver": 0,
+        "value": 5632,
+        "fame": 20736,
+        "mats": [
+          {
+            "id": "T6_METALBAR@1",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T6_LEATHER@1",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T6_ARTEFACT_2H_IRONGAUNTLETS_HELL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 5632,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T6_2H_IRONGAUNTLETS_HELL",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T6_RUNE",
+            "qty": 192,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 16085,
+        "output": 1,
+        "silver": 0,
+        "value": 9728,
+        "fame": 41472,
+        "mats": [
+          {
+            "id": "T6_METALBAR@2",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T6_LEATHER@2",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T6_ARTEFACT_2H_IRONGAUNTLETS_HELL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 9728,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T6_2H_IRONGAUNTLETS_HELL@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T6_SOUL",
+            "qty": 192,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 28148,
+        "output": 1,
+        "silver": 0,
+        "value": 17920,
+        "fame": 82944,
+        "mats": [
+          {
+            "id": "T6_METALBAR@3",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T6_LEATHER@3",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T6_ARTEFACT_2H_IRONGAUNTLETS_HELL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 17920,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T6_2H_IRONGAUNTLETS_HELL@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T6_RELIC",
+            "qty": 192,
+            "ret": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T6_MAIN_RAPIER_MORGANA",
+    "name": "Master's Bloodletter",
+    "tier": 6,
+    "category": "dagger",
+    "group": "weapon",
+    "station": "Hunter's Lodge",
+    "study": true,
+    "weight": 11.4,
+    "journal": "HUNTER",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 3939,
+        "output": 1,
+        "silver": 0,
+        "value": 1920,
+        "fame": 7128,
+        "mats": [
+          {
+            "id": "T6_METALBAR",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T6_LEATHER",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T6_ARTEFACT_MAIN_RAPIER_MORGANA",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 6893,
+        "output": 1,
+        "silver": 0,
+        "value": 3456,
+        "fame": 14256,
+        "mats": [
+          {
+            "id": "T6_METALBAR@1",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T6_LEATHER@1",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T6_ARTEFACT_MAIN_RAPIER_MORGANA",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 3456,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T6_MAIN_RAPIER_MORGANA",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T6_RUNE",
+            "qty": 288,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 12064,
+        "output": 1,
+        "silver": 0,
+        "value": 6528,
+        "fame": 28512,
+        "mats": [
+          {
+            "id": "T6_METALBAR@2",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T6_LEATHER@2",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T6_ARTEFACT_MAIN_RAPIER_MORGANA",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 6528,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T6_MAIN_RAPIER_MORGANA@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T6_SOUL",
+            "qty": 288,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 21111,
+        "output": 1,
+        "silver": 0,
+        "value": 12672,
+        "fame": 57024,
+        "mats": [
+          {
+            "id": "T6_METALBAR@3",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T6_LEATHER@3",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T6_ARTEFACT_MAIN_RAPIER_MORGANA",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 12672,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T6_MAIN_RAPIER_MORGANA@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T6_RELIC",
+            "qty": 288,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 36945,
+        "output": 1,
+        "silver": 0,
+        "value": 24960,
+        "fame": 114048,
+        "mats": [
+          {
+            "id": "T6_METALBAR@4",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T6_LEATHER@4",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T6_ARTEFACT_MAIN_RAPIER_MORGANA",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T7_2H_CLAWPAIR",
+    "name": "Grandmaster's Claws",
+    "tier": 7,
+    "category": "dagger",
+    "group": "weapon",
+    "station": "Hunter's Lodge",
+    "study": true,
+    "weight": 22.8,
+    "journal": "HUNTER",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 9191,
+        "output": 1,
+        "silver": 0,
+        "value": 4096,
+        "fame": 20640,
+        "mats": [
+          {
+            "id": "T7_METALBAR",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T7_LEATHER",
+            "qty": 20,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 16085,
+        "output": 1,
+        "silver": 0,
+        "value": 8192,
+        "fame": 41280,
+        "mats": [
+          {
+            "id": "T7_METALBAR@1",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T7_LEATHER@1",
+            "qty": 20,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 8192,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T7_2H_CLAWPAIR",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T7_RUNE",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 28148,
+        "output": 1,
+        "silver": 0,
+        "value": 16384,
+        "fame": 82560,
+        "mats": [
+          {
+            "id": "T7_METALBAR@2",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T7_LEATHER@2",
+            "qty": 20,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 16384,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T7_2H_CLAWPAIR@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T7_SOUL",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 49260,
+        "output": 1,
+        "silver": 0,
+        "value": 32768,
+        "fame": 165120,
+        "mats": [
+          {
+            "id": "T7_METALBAR@3",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T7_LEATHER@3",
+            "qty": 20,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 32768,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T7_2H_CLAWPAIR@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T7_RELIC",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 86205,
+        "output": 1,
+        "silver": 0,
+        "value": 65536,
+        "fame": 330240,
+        "mats": [
+          {
+            "id": "T7_METALBAR@4",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T7_LEATHER@4",
+            "qty": 20,
+            "ret": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T7_MAIN_DAGGER",
+    "name": "Grandmaster's Dagger",
+    "tier": 7,
+    "category": "dagger",
+    "group": "weapon",
+    "station": "Hunter's Lodge",
+    "study": true,
+    "weight": 17.1,
+    "journal": "HUNTER",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 6893,
+        "output": 1,
+        "silver": 0,
+        "value": 3072,
+        "fame": 15480,
+        "mats": [
+          {
+            "id": "T7_METALBAR",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T7_LEATHER",
+            "qty": 12,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 12064,
+        "output": 1,
+        "silver": 0,
+        "value": 6144,
+        "fame": 30960,
+        "mats": [
+          {
+            "id": "T7_METALBAR@1",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T7_LEATHER@1",
+            "qty": 12,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 6144,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T7_MAIN_DAGGER",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T7_RUNE",
+            "qty": 288,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 21111,
+        "output": 1,
+        "silver": 0,
+        "value": 12288,
+        "fame": 61920,
+        "mats": [
+          {
+            "id": "T7_METALBAR@2",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T7_LEATHER@2",
+            "qty": 12,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 12288,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T7_MAIN_DAGGER@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T7_SOUL",
+            "qty": 288,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 36945,
+        "output": 1,
+        "silver": 0,
+        "value": 24576,
+        "fame": 123840,
+        "mats": [
+          {
+            "id": "T7_METALBAR@3",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T7_LEATHER@3",
+            "qty": 12,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 24576,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T7_MAIN_DAGGER@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T7_RELIC",
+            "qty": 288,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 64653,
+        "output": 1,
+        "silver": 0,
+        "value": 49152,
+        "fame": 247680,
+        "mats": [
+          {
+            "id": "T7_METALBAR@4",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T7_LEATHER@4",
+            "qty": 12,
+            "ret": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T7_2H_DAGGER_KATAR_AVALON",
+    "name": "Grandmaster's Bridled Fury",
+    "tier": 7,
+    "category": "dagger",
+    "group": "weapon",
+    "station": "Hunter's Lodge",
+    "study": true,
+    "weight": 22.8,
+    "journal": "HUNTER",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 9191,
+        "output": 1,
+        "silver": 0,
+        "value": 19456,
+        "fame": 28896,
+        "mats": [
+          {
+            "id": "T7_METALBAR",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T7_LEATHER",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T7_ARTEFACT_2H_DAGGER_KATAR_AVALON",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 16085,
+        "output": 1,
+        "silver": 0,
+        "value": 23552,
+        "fame": 57792,
+        "mats": [
+          {
+            "id": "T7_METALBAR@1",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T7_LEATHER@1",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T7_ARTEFACT_2H_DAGGER_KATAR_AVALON",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 23552,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T7_2H_DAGGER_KATAR_AVALON",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T7_RUNE",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 28148,
+        "output": 1,
+        "silver": 0,
+        "value": 31744,
+        "fame": 115584,
+        "mats": [
+          {
+            "id": "T7_METALBAR@2",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T7_LEATHER@2",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T7_ARTEFACT_2H_DAGGER_KATAR_AVALON",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 31744,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T7_2H_DAGGER_KATAR_AVALON@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T7_SOUL",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 49260,
+        "output": 1,
+        "silver": 0,
+        "value": 48128,
+        "fame": 231168,
+        "mats": [
+          {
+            "id": "T7_METALBAR@3",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T7_LEATHER@3",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T7_ARTEFACT_2H_DAGGER_KATAR_AVALON",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 48128,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T7_2H_DAGGER_KATAR_AVALON@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T7_RELIC",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 86205,
+        "output": 1,
+        "silver": 0,
+        "value": 80896,
+        "fame": 462336,
+        "mats": [
+          {
+            "id": "T7_METALBAR@4",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T7_LEATHER@4",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T7_ARTEFACT_2H_DAGGER_KATAR_AVALON",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T7_2H_DAGGERPAIR",
+    "name": "Grandmaster's Dagger Pair",
+    "tier": 7,
+    "category": "dagger",
+    "group": "weapon",
+    "station": "Hunter's Lodge",
+    "study": true,
+    "weight": 22.8,
+    "journal": "HUNTER",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 9191,
+        "output": 1,
+        "silver": 0,
+        "value": 4096,
+        "fame": 20640,
+        "mats": [
+          {
+            "id": "T7_METALBAR",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T7_LEATHER",
+            "qty": 16,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 16085,
+        "output": 1,
+        "silver": 0,
+        "value": 8192,
+        "fame": 41280,
+        "mats": [
+          {
+            "id": "T7_METALBAR@1",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T7_LEATHER@1",
+            "qty": 16,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 8192,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T7_2H_DAGGERPAIR",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T7_RUNE",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 28148,
+        "output": 1,
+        "silver": 0,
+        "value": 16384,
+        "fame": 82560,
+        "mats": [
+          {
+            "id": "T7_METALBAR@2",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T7_LEATHER@2",
+            "qty": 16,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 16384,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T7_2H_DAGGERPAIR@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T7_SOUL",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 49260,
+        "output": 1,
+        "silver": 0,
+        "value": 32768,
+        "fame": 165120,
+        "mats": [
+          {
+            "id": "T7_METALBAR@3",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T7_LEATHER@3",
+            "qty": 16,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 32768,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T7_2H_DAGGERPAIR@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T7_RELIC",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 86205,
+        "output": 1,
+        "silver": 0,
+        "value": 65536,
+        "fame": 330240,
+        "mats": [
+          {
+            "id": "T7_METALBAR@4",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T7_LEATHER@4",
+            "qty": 16,
+            "ret": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T7_2H_DAGGERPAIR_CRYSTAL",
+    "name": "Grandmaster's Twin Slayers",
+    "tier": 7,
+    "category": "dagger",
+    "group": "weapon",
+    "station": "Hunter's Lodge",
+    "study": true,
+    "weight": 22.8,
+    "journal": "HUNTER",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 9191,
+        "output": 1,
+        "silver": 0,
+        "value": 19456,
+        "fame": 28896,
+        "mats": [
+          {
+            "id": "T7_METALBAR",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T7_LEATHER",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T7_ARTEFACT_2H_DAGGERPAIR_CRYSTAL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 16085,
+        "output": 1,
+        "silver": 0,
+        "value": 23552,
+        "fame": 57792,
+        "mats": [
+          {
+            "id": "T7_METALBAR@1",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T7_LEATHER@1",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T7_ARTEFACT_2H_DAGGERPAIR_CRYSTAL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 23552,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T7_2H_DAGGERPAIR_CRYSTAL",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T7_RUNE",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 28148,
+        "output": 1,
+        "silver": 0,
+        "value": 31744,
+        "fame": 115584,
+        "mats": [
+          {
+            "id": "T7_METALBAR@2",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T7_LEATHER@2",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T7_ARTEFACT_2H_DAGGERPAIR_CRYSTAL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 31744,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T7_2H_DAGGERPAIR_CRYSTAL@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T7_SOUL",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 49260,
+        "output": 1,
+        "silver": 0,
+        "value": 48128,
+        "fame": 231168,
+        "mats": [
+          {
+            "id": "T7_METALBAR@3",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T7_LEATHER@3",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T7_ARTEFACT_2H_DAGGERPAIR_CRYSTAL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 48128,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T7_2H_DAGGERPAIR_CRYSTAL@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T7_RELIC",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 86205,
+        "output": 1,
+        "silver": 0,
+        "value": 80896,
+        "fame": 462336,
+        "mats": [
+          {
+            "id": "T7_METALBAR@4",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T7_LEATHER@4",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T7_ARTEFACT_2H_DAGGERPAIR_CRYSTAL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T7_MAIN_DAGGER_HELL",
+    "name": "Grandmaster's Demonfang",
+    "tier": 7,
+    "category": "dagger",
+    "group": "weapon",
+    "station": "Hunter's Lodge",
+    "study": true,
+    "weight": 17.1,
+    "journal": "HUNTER",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 6893,
+        "output": 1,
+        "silver": 0,
+        "value": 5376,
+        "fame": 18576,
+        "mats": [
+          {
+            "id": "T7_METALBAR",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T7_LEATHER",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T7_ARTEFACT_MAIN_DAGGER_HELL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 12064,
+        "output": 1,
+        "silver": 0,
+        "value": 8448,
+        "fame": 37152,
+        "mats": [
+          {
+            "id": "T7_METALBAR@1",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T7_LEATHER@1",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T7_ARTEFACT_MAIN_DAGGER_HELL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 8448,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T7_MAIN_DAGGER_HELL",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T7_RUNE",
+            "qty": 288,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 21111,
+        "output": 1,
+        "silver": 0,
+        "value": 14592,
+        "fame": 74304,
+        "mats": [
+          {
+            "id": "T7_METALBAR@2",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T7_LEATHER@2",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T7_ARTEFACT_MAIN_DAGGER_HELL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 14592,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T7_MAIN_DAGGER_HELL@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T7_SOUL",
+            "qty": 288,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 36945,
+        "output": 1,
+        "silver": 0,
+        "value": 26880,
+        "fame": 148608,
+        "mats": [
+          {
+            "id": "T7_METALBAR@3",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T7_LEATHER@3",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T7_ARTEFACT_MAIN_DAGGER_HELL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 26880,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T7_MAIN_DAGGER_HELL@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T7_RELIC",
+            "qty": 288,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 64653,
+        "output": 1,
+        "silver": 0,
+        "value": 51456,
+        "fame": 297216,
+        "mats": [
+          {
+            "id": "T7_METALBAR@4",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T7_LEATHER@4",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T7_ARTEFACT_MAIN_DAGGER_HELL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T7_2H_DUALSICKLE_UNDEAD",
+    "name": "Grandmaster's Deathgivers",
+    "tier": 7,
+    "category": "dagger",
+    "group": "weapon",
+    "station": "Hunter's Lodge",
+    "study": true,
+    "weight": 22.8,
+    "journal": "HUNTER",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 9191,
+        "output": 1,
+        "silver": 0,
+        "value": 11264,
+        "fame": 26832,
+        "mats": [
+          {
+            "id": "T7_METALBAR",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T7_LEATHER",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T7_ARTEFACT_2H_DUALSICKLE_UNDEAD",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 16085,
+        "output": 1,
+        "silver": 0,
+        "value": 15360,
+        "fame": 53664,
+        "mats": [
+          {
+            "id": "T7_METALBAR@1",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T7_LEATHER@1",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T7_ARTEFACT_2H_DUALSICKLE_UNDEAD",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 15360,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T7_2H_DUALSICKLE_UNDEAD",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T7_RUNE",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 28148,
+        "output": 1,
+        "silver": 0,
+        "value": 23552,
+        "fame": 107328,
+        "mats": [
+          {
+            "id": "T7_METALBAR@2",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T7_LEATHER@2",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T7_ARTEFACT_2H_DUALSICKLE_UNDEAD",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 23552,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T7_2H_DUALSICKLE_UNDEAD@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T7_SOUL",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 49260,
+        "output": 1,
+        "silver": 0,
+        "value": 39936,
+        "fame": 214656,
+        "mats": [
+          {
+            "id": "T7_METALBAR@3",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T7_LEATHER@3",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T7_ARTEFACT_2H_DUALSICKLE_UNDEAD",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 39936,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T7_2H_DUALSICKLE_UNDEAD@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T7_RELIC",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 86205,
+        "output": 1,
+        "silver": 0,
+        "value": 72704,
+        "fame": 429312,
+        "mats": [
+          {
+            "id": "T7_METALBAR@4",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T7_LEATHER@4",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T7_ARTEFACT_2H_DUALSICKLE_UNDEAD",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T7_2H_IRONGAUNTLETS_HELL",
+    "name": "Grandmaster's Black Hands",
+    "tier": 7,
+    "category": "dagger",
+    "group": "weapon",
+    "station": "Hunter's Lodge",
+    "study": true,
+    "weight": 22.8,
+    "journal": "HUNTER",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 9191,
+        "output": 1,
+        "silver": 0,
+        "value": 7168,
+        "fame": 24768,
+        "mats": [
+          {
+            "id": "T7_METALBAR",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T7_LEATHER",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T7_ARTEFACT_2H_IRONGAUNTLETS_HELL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 16085,
+        "output": 1,
+        "silver": 0,
+        "value": 11264,
+        "fame": 49536,
+        "mats": [
+          {
+            "id": "T7_METALBAR@1",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T7_LEATHER@1",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T7_ARTEFACT_2H_IRONGAUNTLETS_HELL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 11264,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T7_2H_IRONGAUNTLETS_HELL",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T7_RUNE",
+            "qty": 192,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 28148,
+        "output": 1,
+        "silver": 0,
+        "value": 19456,
+        "fame": 99072,
+        "mats": [
+          {
+            "id": "T7_METALBAR@2",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T7_LEATHER@2",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T7_ARTEFACT_2H_IRONGAUNTLETS_HELL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 19456,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T7_2H_IRONGAUNTLETS_HELL@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T7_SOUL",
+            "qty": 192,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 49260,
+        "output": 1,
+        "silver": 0,
+        "value": 35840,
+        "fame": 198144,
+        "mats": [
+          {
+            "id": "T7_METALBAR@3",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T7_LEATHER@3",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T7_ARTEFACT_2H_IRONGAUNTLETS_HELL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 35840,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T7_2H_IRONGAUNTLETS_HELL@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T7_RELIC",
+            "qty": 192,
+            "ret": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T7_MAIN_RAPIER_MORGANA",
+    "name": "Grandmaster's Bloodletter",
+    "tier": 7,
+    "category": "dagger",
+    "group": "weapon",
+    "station": "Hunter's Lodge",
+    "study": true,
+    "weight": 17.1,
+    "journal": "HUNTER",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 6893,
+        "output": 1,
+        "silver": 0,
+        "value": 3840,
+        "fame": 17028,
+        "mats": [
+          {
+            "id": "T7_METALBAR",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T7_LEATHER",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T7_ARTEFACT_MAIN_RAPIER_MORGANA",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 12064,
+        "output": 1,
+        "silver": 0,
+        "value": 6912,
+        "fame": 34056,
+        "mats": [
+          {
+            "id": "T7_METALBAR@1",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T7_LEATHER@1",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T7_ARTEFACT_MAIN_RAPIER_MORGANA",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 6912,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T7_MAIN_RAPIER_MORGANA",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T7_RUNE",
+            "qty": 288,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 21111,
+        "output": 1,
+        "silver": 0,
+        "value": 13056,
+        "fame": 68112,
+        "mats": [
+          {
+            "id": "T7_METALBAR@2",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T7_LEATHER@2",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T7_ARTEFACT_MAIN_RAPIER_MORGANA",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 13056,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T7_MAIN_RAPIER_MORGANA@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T7_SOUL",
+            "qty": 288,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 36945,
+        "output": 1,
+        "silver": 0,
+        "value": 25344,
+        "fame": 136224,
+        "mats": [
+          {
+            "id": "T7_METALBAR@3",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T7_LEATHER@3",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T7_ARTEFACT_MAIN_RAPIER_MORGANA",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 25344,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T7_MAIN_RAPIER_MORGANA@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T7_RELIC",
+            "qty": 288,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 64653,
+        "output": 1,
+        "silver": 0,
+        "value": 49920,
+        "fame": 272448,
+        "mats": [
+          {
+            "id": "T7_METALBAR@4",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T7_LEATHER@4",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T7_ARTEFACT_MAIN_RAPIER_MORGANA",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T8_2H_CLAWPAIR",
+    "name": "Elder's Claws",
+    "tier": 8,
+    "category": "dagger",
+    "group": "weapon",
+    "station": "Hunter's Lodge",
+    "study": true,
+    "weight": 34.2,
+    "journal": "HUNTER",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 16085,
+        "output": 1,
+        "silver": 0,
+        "value": 8192,
+        "fame": 44640,
+        "mats": [
+          {
+            "id": "T8_METALBAR",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T8_LEATHER",
+            "qty": 20,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 28148,
+        "output": 1,
+        "silver": 0,
+        "value": 16384,
+        "fame": 89280,
+        "mats": [
+          {
+            "id": "T8_METALBAR@1",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T8_LEATHER@1",
+            "qty": 20,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 16384,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T8_2H_CLAWPAIR",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T8_RUNE",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 49260,
+        "output": 1,
+        "silver": 0,
+        "value": 32768,
+        "fame": 178560,
+        "mats": [
+          {
+            "id": "T8_METALBAR@2",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T8_LEATHER@2",
+            "qty": 20,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 32768,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T8_2H_CLAWPAIR@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T8_SOUL",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 86205,
+        "output": 1,
+        "silver": 0,
+        "value": 65536,
+        "fame": 357120,
+        "mats": [
+          {
+            "id": "T8_METALBAR@3",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T8_LEATHER@3",
+            "qty": 20,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 65536,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T8_2H_CLAWPAIR@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T8_RELIC",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 150858,
+        "output": 1,
+        "silver": 0,
+        "value": 131072,
+        "fame": 714240,
+        "mats": [
+          {
+            "id": "T8_METALBAR@4",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T8_LEATHER@4",
+            "qty": 20,
+            "ret": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T8_MAIN_DAGGER",
+    "name": "Elder's Dagger",
+    "tier": 8,
+    "category": "dagger",
+    "group": "weapon",
+    "station": "Hunter's Lodge",
+    "study": true,
+    "weight": 25.6,
+    "journal": "HUNTER",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 12064,
+        "output": 1,
+        "silver": 0,
+        "value": 6144,
+        "fame": 33480,
+        "mats": [
+          {
+            "id": "T8_METALBAR",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T8_LEATHER",
+            "qty": 12,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 21111,
+        "output": 1,
+        "silver": 0,
+        "value": 12288,
+        "fame": 66960,
+        "mats": [
+          {
+            "id": "T8_METALBAR@1",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T8_LEATHER@1",
+            "qty": 12,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 12288,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T8_MAIN_DAGGER",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T8_RUNE",
+            "qty": 288,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 36945,
+        "output": 1,
+        "silver": 0,
+        "value": 24576,
+        "fame": 133920,
+        "mats": [
+          {
+            "id": "T8_METALBAR@2",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T8_LEATHER@2",
+            "qty": 12,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 24576,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T8_MAIN_DAGGER@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T8_SOUL",
+            "qty": 288,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 64653,
+        "output": 1,
+        "silver": 0,
+        "value": 49152,
+        "fame": 267840,
+        "mats": [
+          {
+            "id": "T8_METALBAR@3",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T8_LEATHER@3",
+            "qty": 12,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 49152,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T8_MAIN_DAGGER@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T8_RELIC",
+            "qty": 288,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 113144,
+        "output": 1,
+        "silver": 0,
+        "value": 98304,
+        "fame": 535680,
+        "mats": [
+          {
+            "id": "T8_METALBAR@4",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T8_LEATHER@4",
+            "qty": 12,
+            "ret": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T8_2H_DAGGER_KATAR_AVALON",
+    "name": "Elder's Bridled Fury",
+    "tier": 8,
+    "category": "dagger",
+    "group": "weapon",
+    "station": "Hunter's Lodge",
+    "study": true,
+    "weight": 34.2,
+    "journal": "HUNTER",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 16085,
+        "output": 1,
+        "silver": 0,
+        "value": 38912,
+        "fame": 62496,
+        "mats": [
+          {
+            "id": "T8_METALBAR",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T8_LEATHER",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T8_ARTEFACT_2H_DAGGER_KATAR_AVALON",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 28148,
+        "output": 1,
+        "silver": 0,
+        "value": 47104,
+        "fame": 124992,
+        "mats": [
+          {
+            "id": "T8_METALBAR@1",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T8_LEATHER@1",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T8_ARTEFACT_2H_DAGGER_KATAR_AVALON",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 47104,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T8_2H_DAGGER_KATAR_AVALON",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T8_RUNE",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 49260,
+        "output": 1,
+        "silver": 0,
+        "value": 63488,
+        "fame": 249984,
+        "mats": [
+          {
+            "id": "T8_METALBAR@2",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T8_LEATHER@2",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T8_ARTEFACT_2H_DAGGER_KATAR_AVALON",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 63488,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T8_2H_DAGGER_KATAR_AVALON@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T8_SOUL",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 86205,
+        "output": 1,
+        "silver": 0,
+        "value": 96256,
+        "fame": 499968,
+        "mats": [
+          {
+            "id": "T8_METALBAR@3",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T8_LEATHER@3",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T8_ARTEFACT_2H_DAGGER_KATAR_AVALON",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 96256,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T8_2H_DAGGER_KATAR_AVALON@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T8_RELIC",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 150858,
+        "output": 1,
+        "silver": 0,
+        "value": 161792,
+        "fame": 999936,
+        "mats": [
+          {
+            "id": "T8_METALBAR@4",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T8_LEATHER@4",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T8_ARTEFACT_2H_DAGGER_KATAR_AVALON",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T8_2H_DAGGERPAIR",
+    "name": "Elder's Dagger Pair",
+    "tier": 8,
+    "category": "dagger",
+    "group": "weapon",
+    "station": "Hunter's Lodge",
+    "study": true,
+    "weight": 34.2,
+    "journal": "HUNTER",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 16085,
+        "output": 1,
+        "silver": 0,
+        "value": 8192,
+        "fame": 44640,
+        "mats": [
+          {
+            "id": "T8_METALBAR",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T8_LEATHER",
+            "qty": 16,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 28148,
+        "output": 1,
+        "silver": 0,
+        "value": 16384,
+        "fame": 89280,
+        "mats": [
+          {
+            "id": "T8_METALBAR@1",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T8_LEATHER@1",
+            "qty": 16,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 16384,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T8_2H_DAGGERPAIR",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T8_RUNE",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 49260,
+        "output": 1,
+        "silver": 0,
+        "value": 32768,
+        "fame": 178560,
+        "mats": [
+          {
+            "id": "T8_METALBAR@2",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T8_LEATHER@2",
+            "qty": 16,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 32768,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T8_2H_DAGGERPAIR@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T8_SOUL",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 86205,
+        "output": 1,
+        "silver": 0,
+        "value": 65536,
+        "fame": 357120,
+        "mats": [
+          {
+            "id": "T8_METALBAR@3",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T8_LEATHER@3",
+            "qty": 16,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 65536,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T8_2H_DAGGERPAIR@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T8_RELIC",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 150858,
+        "output": 1,
+        "silver": 0,
+        "value": 131072,
+        "fame": 714240,
+        "mats": [
+          {
+            "id": "T8_METALBAR@4",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T8_LEATHER@4",
+            "qty": 16,
+            "ret": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T8_2H_DAGGERPAIR_CRYSTAL",
+    "name": "Elder's Twin Slayers",
+    "tier": 8,
+    "category": "dagger",
+    "group": "weapon",
+    "station": "Hunter's Lodge",
+    "study": true,
+    "weight": 34.2,
+    "journal": "HUNTER",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 16085,
+        "output": 1,
+        "silver": 0,
+        "value": 38912,
+        "fame": 62496,
+        "mats": [
+          {
+            "id": "T8_METALBAR",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T8_LEATHER",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T8_ARTEFACT_2H_DAGGERPAIR_CRYSTAL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 28148,
+        "output": 1,
+        "silver": 0,
+        "value": 47104,
+        "fame": 124992,
+        "mats": [
+          {
+            "id": "T8_METALBAR@1",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T8_LEATHER@1",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T8_ARTEFACT_2H_DAGGERPAIR_CRYSTAL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 47104,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T8_2H_DAGGERPAIR_CRYSTAL",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T8_RUNE",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 49260,
+        "output": 1,
+        "silver": 0,
+        "value": 63488,
+        "fame": 249984,
+        "mats": [
+          {
+            "id": "T8_METALBAR@2",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T8_LEATHER@2",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T8_ARTEFACT_2H_DAGGERPAIR_CRYSTAL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 63488,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T8_2H_DAGGERPAIR_CRYSTAL@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T8_SOUL",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 86205,
+        "output": 1,
+        "silver": 0,
+        "value": 96256,
+        "fame": 499968,
+        "mats": [
+          {
+            "id": "T8_METALBAR@3",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T8_LEATHER@3",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T8_ARTEFACT_2H_DAGGERPAIR_CRYSTAL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 96256,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T8_2H_DAGGERPAIR_CRYSTAL@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T8_RELIC",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 150858,
+        "output": 1,
+        "silver": 0,
+        "value": 161792,
+        "fame": 999936,
+        "mats": [
+          {
+            "id": "T8_METALBAR@4",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T8_LEATHER@4",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T8_ARTEFACT_2H_DAGGERPAIR_CRYSTAL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T8_MAIN_DAGGER_HELL",
+    "name": "Elder's Demonfang",
+    "tier": 8,
+    "category": "dagger",
+    "group": "weapon",
+    "station": "Hunter's Lodge",
+    "study": true,
+    "weight": 25.6,
+    "journal": "HUNTER",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 12064,
+        "output": 1,
+        "silver": 0,
+        "value": 10752,
+        "fame": 40176,
+        "mats": [
+          {
+            "id": "T8_METALBAR",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T8_LEATHER",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T8_ARTEFACT_MAIN_DAGGER_HELL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 21111,
+        "output": 1,
+        "silver": 0,
+        "value": 16896,
+        "fame": 80352,
+        "mats": [
+          {
+            "id": "T8_METALBAR@1",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T8_LEATHER@1",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T8_ARTEFACT_MAIN_DAGGER_HELL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 16896,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T8_MAIN_DAGGER_HELL",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T8_RUNE",
+            "qty": 288,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 36945,
+        "output": 1,
+        "silver": 0,
+        "value": 29184,
+        "fame": 160704,
+        "mats": [
+          {
+            "id": "T8_METALBAR@2",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T8_LEATHER@2",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T8_ARTEFACT_MAIN_DAGGER_HELL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 29184,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T8_MAIN_DAGGER_HELL@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T8_SOUL",
+            "qty": 288,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 64653,
+        "output": 1,
+        "silver": 0,
+        "value": 53760,
+        "fame": 321408,
+        "mats": [
+          {
+            "id": "T8_METALBAR@3",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T8_LEATHER@3",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T8_ARTEFACT_MAIN_DAGGER_HELL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 53760,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T8_MAIN_DAGGER_HELL@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T8_RELIC",
+            "qty": 288,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 113144,
+        "output": 1,
+        "silver": 0,
+        "value": 102912,
+        "fame": 642816,
+        "mats": [
+          {
+            "id": "T8_METALBAR@4",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T8_LEATHER@4",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T8_ARTEFACT_MAIN_DAGGER_HELL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T8_2H_DUALSICKLE_UNDEAD",
+    "name": "Elder's Deathgivers",
+    "tier": 8,
+    "category": "dagger",
+    "group": "weapon",
+    "station": "Hunter's Lodge",
+    "study": true,
+    "weight": 34.2,
+    "journal": "HUNTER",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 16085,
+        "output": 1,
+        "silver": 0,
+        "value": 22528,
+        "fame": 58032,
+        "mats": [
+          {
+            "id": "T8_METALBAR",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T8_LEATHER",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T8_ARTEFACT_2H_DUALSICKLE_UNDEAD",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 28148,
+        "output": 1,
+        "silver": 0,
+        "value": 30720,
+        "fame": 116064,
+        "mats": [
+          {
+            "id": "T8_METALBAR@1",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T8_LEATHER@1",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T8_ARTEFACT_2H_DUALSICKLE_UNDEAD",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 30720,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T8_2H_DUALSICKLE_UNDEAD",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T8_RUNE",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 49260,
+        "output": 1,
+        "silver": 0,
+        "value": 47104,
+        "fame": 232128,
+        "mats": [
+          {
+            "id": "T8_METALBAR@2",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T8_LEATHER@2",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T8_ARTEFACT_2H_DUALSICKLE_UNDEAD",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 47104,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T8_2H_DUALSICKLE_UNDEAD@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T8_SOUL",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 86205,
+        "output": 1,
+        "silver": 0,
+        "value": 79872,
+        "fame": 464256,
+        "mats": [
+          {
+            "id": "T8_METALBAR@3",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T8_LEATHER@3",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T8_ARTEFACT_2H_DUALSICKLE_UNDEAD",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 79872,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T8_2H_DUALSICKLE_UNDEAD@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T8_RELIC",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 150858,
+        "output": 1,
+        "silver": 0,
+        "value": 145408,
+        "fame": 928512,
+        "mats": [
+          {
+            "id": "T8_METALBAR@4",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T8_LEATHER@4",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T8_ARTEFACT_2H_DUALSICKLE_UNDEAD",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T8_2H_IRONGAUNTLETS_HELL",
+    "name": "Elder's Black Hands",
+    "tier": 8,
+    "category": "dagger",
+    "group": "weapon",
+    "station": "Hunter's Lodge",
+    "study": true,
+    "weight": 34.2,
+    "journal": "HUNTER",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 16085,
+        "output": 1,
+        "silver": 0,
+        "value": 14336,
+        "fame": 53568,
+        "mats": [
+          {
+            "id": "T8_METALBAR",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T8_LEATHER",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T8_ARTEFACT_2H_IRONGAUNTLETS_HELL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 28148,
+        "output": 1,
+        "silver": 0,
+        "value": 22528,
+        "fame": 107136,
+        "mats": [
+          {
+            "id": "T8_METALBAR@1",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T8_LEATHER@1",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T8_ARTEFACT_2H_IRONGAUNTLETS_HELL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 22528,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T8_2H_IRONGAUNTLETS_HELL",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T8_RUNE",
+            "qty": 192,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 49260,
+        "output": 1,
+        "silver": 0,
+        "value": 38912,
+        "fame": 214272,
+        "mats": [
+          {
+            "id": "T8_METALBAR@2",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T8_LEATHER@2",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T8_ARTEFACT_2H_IRONGAUNTLETS_HELL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 38912,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T8_2H_IRONGAUNTLETS_HELL@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T8_SOUL",
+            "qty": 192,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 86205,
+        "output": 1,
+        "silver": 0,
+        "value": 71680,
+        "fame": 428544,
+        "mats": [
+          {
+            "id": "T8_METALBAR@3",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T8_LEATHER@3",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T8_ARTEFACT_2H_IRONGAUNTLETS_HELL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 71680,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T8_2H_IRONGAUNTLETS_HELL@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T8_RELIC",
+            "qty": 192,
+            "ret": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T8_MAIN_RAPIER_MORGANA",
+    "name": "Elder's Bloodletter",
+    "tier": 8,
+    "category": "dagger",
+    "group": "weapon",
+    "station": "Hunter's Lodge",
+    "study": true,
+    "weight": 25.6,
+    "journal": "HUNTER",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 12064,
+        "output": 1,
+        "silver": 0,
+        "value": 7680,
+        "fame": 36828,
+        "mats": [
+          {
+            "id": "T8_METALBAR",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T8_LEATHER",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T8_ARTEFACT_MAIN_RAPIER_MORGANA",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 21111,
+        "output": 1,
+        "silver": 0,
+        "value": 13824,
+        "fame": 73656,
+        "mats": [
+          {
+            "id": "T8_METALBAR@1",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T8_LEATHER@1",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T8_ARTEFACT_MAIN_RAPIER_MORGANA",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 13824,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T8_MAIN_RAPIER_MORGANA",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T8_RUNE",
+            "qty": 288,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 36945,
+        "output": 1,
+        "silver": 0,
+        "value": 26112,
+        "fame": 147312,
+        "mats": [
+          {
+            "id": "T8_METALBAR@2",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T8_LEATHER@2",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T8_ARTEFACT_MAIN_RAPIER_MORGANA",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 26112,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T8_MAIN_RAPIER_MORGANA@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T8_SOUL",
+            "qty": 288,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 64653,
+        "output": 1,
+        "silver": 0,
+        "value": 50688,
+        "fame": 294624,
+        "mats": [
+          {
+            "id": "T8_METALBAR@3",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T8_LEATHER@3",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T8_ARTEFACT_MAIN_RAPIER_MORGANA",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 50688,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T8_MAIN_RAPIER_MORGANA@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T8_RELIC",
+            "qty": 288,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 113144,
+        "output": 1,
+        "silver": 0,
+        "value": 99840,
+        "fame": 589248,
+        "mats": [
+          {
+            "id": "T8_METALBAR@4",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T8_LEATHER@4",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T8_ARTEFACT_MAIN_RAPIER_MORGANA",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,2978 @@
+[
+  {
+    "id": "T2_BAG",
+    "name": "Novice's Bag",
+    "tier": 2,
+    "category": "bag",
+    "group": "accessory",
+    "station": "Toolmaker",
+    "study": true,
+    "weight": 1.5,
+    "journal": "TOOLMAKER",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 280,
+        "output": 1,
+        "silver": 0,
+        "value": 96,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T2_CLOTH",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T2_LEATHER",
+            "qty": 12,
+            "ret": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T2_CAPE",
+    "name": "Novice's Cape",
+    "tier": 2,
+    "category": "cape",
+    "group": "accessory",
+    "station": "Toolmaker",
+    "study": true,
+    "weight": 0.8,
+    "journal": "TOOLMAKER",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 140,
+        "output": 1,
+        "silver": 0,
+        "value": 32,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T2_CLOTH",
+            "qty": 4,
+            "ret": true
+          },
+          {
+            "id": "T2_LEATHER",
+            "qty": 4,
+            "ret": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T3_BAG",
+    "name": "Journeyman's Bag",
+    "tier": 3,
+    "category": "bag",
+    "group": "accessory",
+    "station": "Toolmaker",
+    "study": true,
+    "weight": 2.3,
+    "journal": "TOOLMAKER",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 490,
+        "output": 1,
+        "silver": 0,
+        "value": 128,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T3_CLOTH",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T3_LEATHER",
+            "qty": 8,
+            "ret": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T3_CAPE",
+    "name": "Journeyman's Cape",
+    "tier": 3,
+    "category": "cape",
+    "group": "accessory",
+    "station": "Toolmaker",
+    "study": true,
+    "weight": 1.1,
+    "journal": "TOOLMAKER",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 245,
+        "output": 1,
+        "silver": 0,
+        "value": 64,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T3_CLOTH",
+            "qty": 4,
+            "ret": true
+          },
+          {
+            "id": "T3_LEATHER",
+            "qty": 4,
+            "ret": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T4_BAG",
+    "name": "Adept's Bag",
+    "tier": 4,
+    "category": "bag",
+    "group": "accessory",
+    "station": "Toolmaker",
+    "study": true,
+    "weight": 3.4,
+    "journal": "TOOLMAKER",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 858,
+        "output": 1,
+        "silver": 0,
+        "value": 256,
+        "fame": 360,
+        "mats": [
+          {
+            "id": "T4_CLOTH",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T4_LEATHER",
+            "qty": 8,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 1501,
+        "output": 1,
+        "silver": 0,
+        "value": 512,
+        "fame": 720,
+        "mats": [
+          {
+            "id": "T4_CLOTH@1",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T4_LEATHER@1",
+            "qty": 8,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 512,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T4_BAG",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T4_RUNE",
+            "qty": 192,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 2626,
+        "output": 1,
+        "silver": 0,
+        "value": 1024,
+        "fame": 1440,
+        "mats": [
+          {
+            "id": "T4_CLOTH@2",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T4_LEATHER@2",
+            "qty": 8,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 1024,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T4_BAG@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T4_SOUL",
+            "qty": 192,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 4596,
+        "output": 1,
+        "silver": 0,
+        "value": 2048,
+        "fame": 2880,
+        "mats": [
+          {
+            "id": "T4_CLOTH@3",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T4_LEATHER@3",
+            "qty": 8,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 2048,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T4_BAG@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T4_RELIC",
+            "qty": 192,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 8042,
+        "output": 1,
+        "silver": 0,
+        "value": 4096,
+        "fame": 5760,
+        "mats": [
+          {
+            "id": "T4_CLOTH@4",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T4_LEATHER@4",
+            "qty": 8,
+            "ret": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T4_BAG_INSIGHT",
+    "name": "Adept's Bag · Insight",
+    "tier": 4,
+    "category": "bag",
+    "group": "accessory",
+    "station": "Toolmaker",
+    "study": true,
+    "weight": 3.4,
+    "journal": "TOOLMAKER",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 858,
+        "output": 1,
+        "silver": 0,
+        "value": 0,
+        "fame": 360,
+        "mats": [
+          {
+            "id": "T4_CLOTH",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T4_LEATHER",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T4_SKILLBOOK_STANDARD",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 1501,
+        "output": 1,
+        "silver": 0,
+        "value": 0,
+        "fame": 720,
+        "mats": [
+          {
+            "id": "T4_CLOTH@1",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T4_LEATHER@1",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T4_SKILLBOOK_STANDARD",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T4_BAG_INSIGHT",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T4_RUNE",
+            "qty": 192,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 2626,
+        "output": 1,
+        "silver": 0,
+        "value": 0,
+        "fame": 1440,
+        "mats": [
+          {
+            "id": "T4_CLOTH@2",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T4_LEATHER@2",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T4_SKILLBOOK_STANDARD",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T4_BAG_INSIGHT@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T4_SOUL",
+            "qty": 192,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 4596,
+        "output": 1,
+        "silver": 0,
+        "value": 0,
+        "fame": 2880,
+        "mats": [
+          {
+            "id": "T4_CLOTH@3",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T4_LEATHER@3",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T4_SKILLBOOK_STANDARD",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T4_BAG_INSIGHT@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T4_RELIC",
+            "qty": 192,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 8042,
+        "output": 1,
+        "silver": 0,
+        "value": 0,
+        "fame": 5760,
+        "mats": [
+          {
+            "id": "T4_CLOTH@4",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T4_LEATHER@4",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T4_SKILLBOOK_STANDARD",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T4_CAPE",
+    "name": "Adept's Cape",
+    "tier": 4,
+    "category": "cape",
+    "group": "accessory",
+    "station": "Toolmaker",
+    "study": true,
+    "weight": 1.7,
+    "journal": "TOOLMAKER",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 429,
+        "output": 1,
+        "silver": 0,
+        "value": 128,
+        "fame": 180,
+        "mats": [
+          {
+            "id": "T4_CLOTH",
+            "qty": 4,
+            "ret": true
+          },
+          {
+            "id": "T4_LEATHER",
+            "qty": 4,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 750,
+        "output": 1,
+        "silver": 0,
+        "value": 256,
+        "fame": 360,
+        "mats": [
+          {
+            "id": "T4_CLOTH@1",
+            "qty": 4,
+            "ret": true
+          },
+          {
+            "id": "T4_LEATHER@1",
+            "qty": 4,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 256,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T4_CAPE",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T4_RUNE",
+            "qty": 96,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 1313,
+        "output": 1,
+        "silver": 0,
+        "value": 512,
+        "fame": 720,
+        "mats": [
+          {
+            "id": "T4_CLOTH@2",
+            "qty": 4,
+            "ret": true
+          },
+          {
+            "id": "T4_LEATHER@2",
+            "qty": 4,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 512,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T4_CAPE@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T4_SOUL",
+            "qty": 96,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 2298,
+        "output": 1,
+        "silver": 0,
+        "value": 1024,
+        "fame": 1440,
+        "mats": [
+          {
+            "id": "T4_CLOTH@3",
+            "qty": 4,
+            "ret": true
+          },
+          {
+            "id": "T4_LEATHER@3",
+            "qty": 4,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 1024,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T4_CAPE@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T4_RELIC",
+            "qty": 96,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 4021,
+        "output": 1,
+        "silver": 0,
+        "value": 2048,
+        "fame": 2880,
+        "mats": [
+          {
+            "id": "T4_CLOTH@4",
+            "qty": 4,
+            "ret": true
+          },
+          {
+            "id": "T4_LEATHER@4",
+            "qty": 4,
+            "ret": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T5_BAG",
+    "name": "Expert's Bag",
+    "tier": 5,
+    "category": "bag",
+    "group": "accessory",
+    "station": "Toolmaker",
+    "study": true,
+    "weight": 5.1,
+    "journal": "TOOLMAKER",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 1501,
+        "output": 1,
+        "silver": 0,
+        "value": 512,
+        "fame": 1440,
+        "mats": [
+          {
+            "id": "T5_CLOTH",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T5_LEATHER",
+            "qty": 8,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 2626,
+        "output": 1,
+        "silver": 0,
+        "value": 1024,
+        "fame": 2880,
+        "mats": [
+          {
+            "id": "T5_CLOTH@1",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T5_LEATHER@1",
+            "qty": 8,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 1024,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T5_BAG",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T5_RUNE",
+            "qty": 192,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 4596,
+        "output": 1,
+        "silver": 0,
+        "value": 2048,
+        "fame": 5760,
+        "mats": [
+          {
+            "id": "T5_CLOTH@2",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T5_LEATHER@2",
+            "qty": 8,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 2048,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T5_BAG@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T5_SOUL",
+            "qty": 192,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 8042,
+        "output": 1,
+        "silver": 0,
+        "value": 4096,
+        "fame": 11520,
+        "mats": [
+          {
+            "id": "T5_CLOTH@3",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T5_LEATHER@3",
+            "qty": 8,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 4096,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T5_BAG@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T5_RELIC",
+            "qty": 192,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 14074,
+        "output": 1,
+        "silver": 0,
+        "value": 8192,
+        "fame": 23040,
+        "mats": [
+          {
+            "id": "T5_CLOTH@4",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T5_LEATHER@4",
+            "qty": 8,
+            "ret": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T5_BAG_INSIGHT",
+    "name": "Expert's Bag · Insight",
+    "tier": 5,
+    "category": "bag",
+    "group": "accessory",
+    "station": "Toolmaker",
+    "study": true,
+    "weight": 5.1,
+    "journal": "TOOLMAKER",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 1501,
+        "output": 1,
+        "silver": 0,
+        "value": 0,
+        "fame": 1440,
+        "mats": [
+          {
+            "id": "T5_CLOTH",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T5_LEATHER",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T4_SKILLBOOK_STANDARD",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 2626,
+        "output": 1,
+        "silver": 0,
+        "value": 0,
+        "fame": 2880,
+        "mats": [
+          {
+            "id": "T5_CLOTH@1",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T5_LEATHER@1",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T4_SKILLBOOK_STANDARD",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T5_BAG_INSIGHT",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T5_RUNE",
+            "qty": 192,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 4596,
+        "output": 1,
+        "silver": 0,
+        "value": 0,
+        "fame": 5760,
+        "mats": [
+          {
+            "id": "T5_CLOTH@2",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T5_LEATHER@2",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T4_SKILLBOOK_STANDARD",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T5_BAG_INSIGHT@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T5_SOUL",
+            "qty": 192,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 8042,
+        "output": 1,
+        "silver": 0,
+        "value": 0,
+        "fame": 11520,
+        "mats": [
+          {
+            "id": "T5_CLOTH@3",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T5_LEATHER@3",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T4_SKILLBOOK_STANDARD",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T5_BAG_INSIGHT@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T5_RELIC",
+            "qty": 192,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 14074,
+        "output": 1,
+        "silver": 0,
+        "value": 0,
+        "fame": 23040,
+        "mats": [
+          {
+            "id": "T5_CLOTH@4",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T5_LEATHER@4",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T4_SKILLBOOK_STANDARD",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T5_CAPE",
+    "name": "Expert's Cape",
+    "tier": 5,
+    "category": "cape",
+    "group": "accessory",
+    "station": "Toolmaker",
+    "study": true,
+    "weight": 2.5,
+    "journal": "TOOLMAKER",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 750,
+        "output": 1,
+        "silver": 0,
+        "value": 256,
+        "fame": 720,
+        "mats": [
+          {
+            "id": "T5_CLOTH",
+            "qty": 4,
+            "ret": true
+          },
+          {
+            "id": "T5_LEATHER",
+            "qty": 4,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 1313,
+        "output": 1,
+        "silver": 0,
+        "value": 512,
+        "fame": 1440,
+        "mats": [
+          {
+            "id": "T5_CLOTH@1",
+            "qty": 4,
+            "ret": true
+          },
+          {
+            "id": "T5_LEATHER@1",
+            "qty": 4,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 512,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T5_CAPE",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T5_RUNE",
+            "qty": 96,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 2298,
+        "output": 1,
+        "silver": 0,
+        "value": 1024,
+        "fame": 2880,
+        "mats": [
+          {
+            "id": "T5_CLOTH@2",
+            "qty": 4,
+            "ret": true
+          },
+          {
+            "id": "T5_LEATHER@2",
+            "qty": 4,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 1024,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T5_CAPE@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T5_SOUL",
+            "qty": 96,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 4021,
+        "output": 1,
+        "silver": 0,
+        "value": 2048,
+        "fame": 5760,
+        "mats": [
+          {
+            "id": "T5_CLOTH@3",
+            "qty": 4,
+            "ret": true
+          },
+          {
+            "id": "T5_LEATHER@3",
+            "qty": 4,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 2048,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T5_CAPE@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T5_RELIC",
+            "qty": 96,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 7037,
+        "output": 1,
+        "silver": 0,
+        "value": 4096,
+        "fame": 11520,
+        "mats": [
+          {
+            "id": "T5_CLOTH@4",
+            "qty": 4,
+            "ret": true
+          },
+          {
+            "id": "T5_LEATHER@4",
+            "qty": 4,
+            "ret": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T6_BAG",
+    "name": "Master's Bag",
+    "tier": 6,
+    "category": "bag",
+    "group": "accessory",
+    "station": "Toolmaker",
+    "study": true,
+    "weight": 7.6,
+    "journal": "TOOLMAKER",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 2626,
+        "output": 1,
+        "silver": 0,
+        "value": 1024,
+        "fame": 4320,
+        "mats": [
+          {
+            "id": "T6_CLOTH",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T6_LEATHER",
+            "qty": 8,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 4596,
+        "output": 1,
+        "silver": 0,
+        "value": 2048,
+        "fame": 8640,
+        "mats": [
+          {
+            "id": "T6_CLOTH@1",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T6_LEATHER@1",
+            "qty": 8,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 2048,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T6_BAG",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T6_RUNE",
+            "qty": 192,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 8042,
+        "output": 1,
+        "silver": 0,
+        "value": 4096,
+        "fame": 17280,
+        "mats": [
+          {
+            "id": "T6_CLOTH@2",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T6_LEATHER@2",
+            "qty": 8,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 4096,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T6_BAG@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T6_SOUL",
+            "qty": 192,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 14074,
+        "output": 1,
+        "silver": 0,
+        "value": 8192,
+        "fame": 34560,
+        "mats": [
+          {
+            "id": "T6_CLOTH@3",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T6_LEATHER@3",
+            "qty": 8,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 8192,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T6_BAG@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T6_RELIC",
+            "qty": 192,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 24630,
+        "output": 1,
+        "silver": 0,
+        "value": 16384,
+        "fame": 69120,
+        "mats": [
+          {
+            "id": "T6_CLOTH@4",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T6_LEATHER@4",
+            "qty": 8,
+            "ret": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T6_BAG_INSIGHT",
+    "name": "Master's Bag · Insight",
+    "tier": 6,
+    "category": "bag",
+    "group": "accessory",
+    "station": "Toolmaker",
+    "study": true,
+    "weight": 7.6,
+    "journal": "TOOLMAKER",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 2626,
+        "output": 1,
+        "silver": 0,
+        "value": 0,
+        "fame": 4320,
+        "mats": [
+          {
+            "id": "T6_CLOTH",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T6_LEATHER",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T4_SKILLBOOK_STANDARD",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 4596,
+        "output": 1,
+        "silver": 0,
+        "value": 0,
+        "fame": 8640,
+        "mats": [
+          {
+            "id": "T6_CLOTH@1",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T6_LEATHER@1",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T4_SKILLBOOK_STANDARD",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T6_BAG_INSIGHT",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T6_RUNE",
+            "qty": 192,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 8042,
+        "output": 1,
+        "silver": 0,
+        "value": 0,
+        "fame": 17280,
+        "mats": [
+          {
+            "id": "T6_CLOTH@2",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T6_LEATHER@2",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T4_SKILLBOOK_STANDARD",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T6_BAG_INSIGHT@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T6_SOUL",
+            "qty": 192,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 14074,
+        "output": 1,
+        "silver": 0,
+        "value": 0,
+        "fame": 34560,
+        "mats": [
+          {
+            "id": "T6_CLOTH@3",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T6_LEATHER@3",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T4_SKILLBOOK_STANDARD",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T6_BAG_INSIGHT@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T6_RELIC",
+            "qty": 192,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 24630,
+        "output": 1,
+        "silver": 0,
+        "value": 0,
+        "fame": 69120,
+        "mats": [
+          {
+            "id": "T6_CLOTH@4",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T6_LEATHER@4",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T4_SKILLBOOK_STANDARD",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T6_CAPE",
+    "name": "Master's Cape",
+    "tier": 6,
+    "category": "cape",
+    "group": "accessory",
+    "station": "Toolmaker",
+    "study": true,
+    "weight": 3.8,
+    "journal": "TOOLMAKER",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 1313,
+        "output": 1,
+        "silver": 0,
+        "value": 512,
+        "fame": 2160,
+        "mats": [
+          {
+            "id": "T6_CLOTH",
+            "qty": 4,
+            "ret": true
+          },
+          {
+            "id": "T6_LEATHER",
+            "qty": 4,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 2298,
+        "output": 1,
+        "silver": 0,
+        "value": 1024,
+        "fame": 4320,
+        "mats": [
+          {
+            "id": "T6_CLOTH@1",
+            "qty": 4,
+            "ret": true
+          },
+          {
+            "id": "T6_LEATHER@1",
+            "qty": 4,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 1024,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T6_CAPE",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T6_RUNE",
+            "qty": 96,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 4021,
+        "output": 1,
+        "silver": 0,
+        "value": 2048,
+        "fame": 8640,
+        "mats": [
+          {
+            "id": "T6_CLOTH@2",
+            "qty": 4,
+            "ret": true
+          },
+          {
+            "id": "T6_LEATHER@2",
+            "qty": 4,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 2048,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T6_CAPE@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T6_SOUL",
+            "qty": 96,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 7037,
+        "output": 1,
+        "silver": 0,
+        "value": 4096,
+        "fame": 17280,
+        "mats": [
+          {
+            "id": "T6_CLOTH@3",
+            "qty": 4,
+            "ret": true
+          },
+          {
+            "id": "T6_LEATHER@3",
+            "qty": 4,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 4096,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T6_CAPE@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T6_RELIC",
+            "qty": 96,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 12315,
+        "output": 1,
+        "silver": 0,
+        "value": 8192,
+        "fame": 34560,
+        "mats": [
+          {
+            "id": "T6_CLOTH@4",
+            "qty": 4,
+            "ret": true
+          },
+          {
+            "id": "T6_LEATHER@4",
+            "qty": 4,
+            "ret": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T7_BAG",
+    "name": "Grandmaster's Bag",
+    "tier": 7,
+    "category": "bag",
+    "group": "accessory",
+    "station": "Toolmaker",
+    "study": true,
+    "weight": 11.4,
+    "journal": "TOOLMAKER",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 4596,
+        "output": 1,
+        "silver": 0,
+        "value": 2048,
+        "fame": 10320,
+        "mats": [
+          {
+            "id": "T7_CLOTH",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T7_LEATHER",
+            "qty": 8,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 8042,
+        "output": 1,
+        "silver": 0,
+        "value": 4096,
+        "fame": 20640,
+        "mats": [
+          {
+            "id": "T7_CLOTH@1",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T7_LEATHER@1",
+            "qty": 8,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 4096,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T7_BAG",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T7_RUNE",
+            "qty": 192,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 14074,
+        "output": 1,
+        "silver": 0,
+        "value": 8192,
+        "fame": 41280,
+        "mats": [
+          {
+            "id": "T7_CLOTH@2",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T7_LEATHER@2",
+            "qty": 8,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 8192,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T7_BAG@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T7_SOUL",
+            "qty": 192,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 24630,
+        "output": 1,
+        "silver": 0,
+        "value": 16384,
+        "fame": 82560,
+        "mats": [
+          {
+            "id": "T7_CLOTH@3",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T7_LEATHER@3",
+            "qty": 8,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 16384,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T7_BAG@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T7_RELIC",
+            "qty": 192,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 43102,
+        "output": 1,
+        "silver": 0,
+        "value": 32768,
+        "fame": 165120,
+        "mats": [
+          {
+            "id": "T7_CLOTH@4",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T7_LEATHER@4",
+            "qty": 8,
+            "ret": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T7_BAG_INSIGHT",
+    "name": "Grandmaster's Bag · Insight",
+    "tier": 7,
+    "category": "bag",
+    "group": "accessory",
+    "station": "Toolmaker",
+    "study": true,
+    "weight": 11.4,
+    "journal": "TOOLMAKER",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 4596,
+        "output": 1,
+        "silver": 0,
+        "value": 0,
+        "fame": 10320,
+        "mats": [
+          {
+            "id": "T7_CLOTH",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T7_LEATHER",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T4_SKILLBOOK_STANDARD",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 8042,
+        "output": 1,
+        "silver": 0,
+        "value": 0,
+        "fame": 20640,
+        "mats": [
+          {
+            "id": "T7_CLOTH@1",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T7_LEATHER@1",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T4_SKILLBOOK_STANDARD",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T7_BAG_INSIGHT",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T7_RUNE",
+            "qty": 192,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 14074,
+        "output": 1,
+        "silver": 0,
+        "value": 0,
+        "fame": 41280,
+        "mats": [
+          {
+            "id": "T7_CLOTH@2",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T7_LEATHER@2",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T4_SKILLBOOK_STANDARD",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T7_BAG_INSIGHT@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T7_SOUL",
+            "qty": 192,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 24630,
+        "output": 1,
+        "silver": 0,
+        "value": 0,
+        "fame": 82560,
+        "mats": [
+          {
+            "id": "T7_CLOTH@3",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T7_LEATHER@3",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T4_SKILLBOOK_STANDARD",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T7_BAG_INSIGHT@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T7_RELIC",
+            "qty": 192,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 43102,
+        "output": 1,
+        "silver": 0,
+        "value": 0,
+        "fame": 165120,
+        "mats": [
+          {
+            "id": "T7_CLOTH@4",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T7_LEATHER@4",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T4_SKILLBOOK_STANDARD",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T7_CAPE",
+    "name": "Grandmaster's Cape",
+    "tier": 7,
+    "category": "cape",
+    "group": "accessory",
+    "station": "Toolmaker",
+    "study": true,
+    "weight": 5.7,
+    "journal": "TOOLMAKER",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 2298,
+        "output": 1,
+        "silver": 0,
+        "value": 1024,
+        "fame": 5160,
+        "mats": [
+          {
+            "id": "T7_CLOTH",
+            "qty": 4,
+            "ret": true
+          },
+          {
+            "id": "T7_LEATHER",
+            "qty": 4,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 4021,
+        "output": 1,
+        "silver": 0,
+        "value": 2048,
+        "fame": 10320,
+        "mats": [
+          {
+            "id": "T7_CLOTH@1",
+            "qty": 4,
+            "ret": true
+          },
+          {
+            "id": "T7_LEATHER@1",
+            "qty": 4,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 2048,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T7_CAPE",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T7_RUNE",
+            "qty": 96,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 7037,
+        "output": 1,
+        "silver": 0,
+        "value": 4096,
+        "fame": 20640,
+        "mats": [
+          {
+            "id": "T7_CLOTH@2",
+            "qty": 4,
+            "ret": true
+          },
+          {
+            "id": "T7_LEATHER@2",
+            "qty": 4,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 4096,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T7_CAPE@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T7_SOUL",
+            "qty": 96,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 12315,
+        "output": 1,
+        "silver": 0,
+        "value": 8192,
+        "fame": 41280,
+        "mats": [
+          {
+            "id": "T7_CLOTH@3",
+            "qty": 4,
+            "ret": true
+          },
+          {
+            "id": "T7_LEATHER@3",
+            "qty": 4,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 8192,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T7_CAPE@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T7_RELIC",
+            "qty": 96,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 21551,
+        "output": 1,
+        "silver": 0,
+        "value": 16384,
+        "fame": 82560,
+        "mats": [
+          {
+            "id": "T7_CLOTH@4",
+            "qty": 4,
+            "ret": true
+          },
+          {
+            "id": "T7_LEATHER@4",
+            "qty": 4,
+            "ret": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T8_BAG",
+    "name": "Elder's Bag",
+    "tier": 8,
+    "category": "bag",
+    "group": "accessory",
+    "station": "Toolmaker",
+    "study": true,
+    "weight": 17.1,
+    "journal": "TOOLMAKER",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 8042,
+        "output": 1,
+        "silver": 0,
+        "value": 4096,
+        "fame": 22320,
+        "mats": [
+          {
+            "id": "T8_CLOTH",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T8_LEATHER",
+            "qty": 8,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 14074,
+        "output": 1,
+        "silver": 0,
+        "value": 8192,
+        "fame": 44640,
+        "mats": [
+          {
+            "id": "T8_CLOTH@1",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T8_LEATHER@1",
+            "qty": 8,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 8192,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T8_BAG",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T8_RUNE",
+            "qty": 192,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 24630,
+        "output": 1,
+        "silver": 0,
+        "value": 16384,
+        "fame": 89280,
+        "mats": [
+          {
+            "id": "T8_CLOTH@2",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T8_LEATHER@2",
+            "qty": 8,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 16384,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T8_BAG@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T8_SOUL",
+            "qty": 192,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 43102,
+        "output": 1,
+        "silver": 0,
+        "value": 32768,
+        "fame": 178560,
+        "mats": [
+          {
+            "id": "T8_CLOTH@3",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T8_LEATHER@3",
+            "qty": 8,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 32768,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T8_BAG@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T8_RELIC",
+            "qty": 192,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 75429,
+        "output": 1,
+        "silver": 0,
+        "value": 65536,
+        "fame": 357120,
+        "mats": [
+          {
+            "id": "T8_CLOTH@4",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T8_LEATHER@4",
+            "qty": 8,
+            "ret": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T8_BAG_INSIGHT",
+    "name": "Elder's Bag · Insight",
+    "tier": 8,
+    "category": "bag",
+    "group": "accessory",
+    "station": "Toolmaker",
+    "study": true,
+    "weight": 17.1,
+    "journal": "TOOLMAKER",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 8042,
+        "output": 1,
+        "silver": 0,
+        "value": 0,
+        "fame": 22320,
+        "mats": [
+          {
+            "id": "T8_CLOTH",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T8_LEATHER",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T4_SKILLBOOK_STANDARD",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 14074,
+        "output": 1,
+        "silver": 0,
+        "value": 0,
+        "fame": 44640,
+        "mats": [
+          {
+            "id": "T8_CLOTH@1",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T8_LEATHER@1",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T4_SKILLBOOK_STANDARD",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T8_BAG_INSIGHT",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T8_RUNE",
+            "qty": 192,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 24630,
+        "output": 1,
+        "silver": 0,
+        "value": 0,
+        "fame": 89280,
+        "mats": [
+          {
+            "id": "T8_CLOTH@2",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T8_LEATHER@2",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T4_SKILLBOOK_STANDARD",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T8_BAG_INSIGHT@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T8_SOUL",
+            "qty": 192,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 43102,
+        "output": 1,
+        "silver": 0,
+        "value": 0,
+        "fame": 178560,
+        "mats": [
+          {
+            "id": "T8_CLOTH@3",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T8_LEATHER@3",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T4_SKILLBOOK_STANDARD",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T8_BAG_INSIGHT@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T8_RELIC",
+            "qty": 192,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 75429,
+        "output": 1,
+        "silver": 0,
+        "value": 0,
+        "fame": 357120,
+        "mats": [
+          {
+            "id": "T8_CLOTH@4",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T8_LEATHER@4",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T4_SKILLBOOK_STANDARD",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T8_CAPE",
+    "name": "Elder's Cape",
+    "tier": 8,
+    "category": "cape",
+    "group": "accessory",
+    "station": "Toolmaker",
+    "study": true,
+    "weight": 8.5,
+    "journal": "TOOLMAKER",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 4021,
+        "output": 1,
+        "silver": 0,
+        "value": 2048,
+        "fame": 11160,
+        "mats": [
+          {
+            "id": "T8_CLOTH",
+            "qty": 4,
+            "ret": true
+          },
+          {
+            "id": "T8_LEATHER",
+            "qty": 4,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 7037,
+        "output": 1,
+        "silver": 0,
+        "value": 4096,
+        "fame": 22320,
+        "mats": [
+          {
+            "id": "T8_CLOTH@1",
+            "qty": 4,
+            "ret": true
+          },
+          {
+            "id": "T8_LEATHER@1",
+            "qty": 4,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 4096,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T8_CAPE",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T8_RUNE",
+            "qty": 96,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 12315,
+        "output": 1,
+        "silver": 0,
+        "value": 8192,
+        "fame": 44640,
+        "mats": [
+          {
+            "id": "T8_CLOTH@2",
+            "qty": 4,
+            "ret": true
+          },
+          {
+            "id": "T8_LEATHER@2",
+            "qty": 4,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 8192,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T8_CAPE@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T8_SOUL",
+            "qty": 96,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 21551,
+        "output": 1,
+        "silver": 0,
+        "value": 16384,
+        "fame": 89280,
+        "mats": [
+          {
+            "id": "T8_CLOTH@3",
+            "qty": 4,
+            "ret": true
+          },
+          {
+            "id": "T8_LEATHER@3",
+            "qty": 4,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 16384,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T8_CAPE@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T8_RELIC",
+            "qty": 96,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 37715,
+        "output": 1,
+        "silver": 0,
+        "value": 32768,
+        "fame": 178560,
+        "mats": [
+          {
+            "id": "T8_CLOTH@4",
+            "qty": 4,
+            "ret": true
+          },
+          {
+            "id": "T8_LEATHER@4",
+            "qty": 4,
+            "ret": true
+          }
+        ]
+      }
+    ]
+  }
+]

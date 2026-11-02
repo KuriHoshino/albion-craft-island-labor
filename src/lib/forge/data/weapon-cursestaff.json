@@ -1,0 +1,7901 @@
+[
+  {
+    "id": "T3_MAIN_CURSEDSTAFF",
+    "name": "Journeyman's Cursed Staff",
+    "tier": 3,
+    "category": "cursestaff",
+    "group": "weapon",
+    "station": "Mage's Tower",
+    "study": true,
+    "weight": 3.4,
+    "journal": "MAGE",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 735,
+        "output": 1,
+        "silver": 0,
+        "value": 192,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T3_PLANKS",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T3_METALBAR",
+            "qty": 8,
+            "ret": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T4_MAIN_CURSEDSTAFF",
+    "name": "Adept's Cursed Staff",
+    "tier": 4,
+    "category": "cursestaff",
+    "group": "weapon",
+    "station": "Mage's Tower",
+    "study": true,
+    "weight": 5.1,
+    "journal": "MAGE",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 1286,
+        "output": 1,
+        "silver": 0,
+        "value": 384,
+        "fame": 540,
+        "mats": [
+          {
+            "id": "T4_PLANKS",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T4_METALBAR",
+            "qty": 8,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 2251,
+        "output": 1,
+        "silver": 0,
+        "value": 768,
+        "fame": 1080,
+        "mats": [
+          {
+            "id": "T4_PLANKS@1",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T4_METALBAR@1",
+            "qty": 8,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 768,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T4_MAIN_CURSEDSTAFF",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T4_RUNE",
+            "qty": 288,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 3939,
+        "output": 1,
+        "silver": 0,
+        "value": 1536,
+        "fame": 2160,
+        "mats": [
+          {
+            "id": "T4_PLANKS@2",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T4_METALBAR@2",
+            "qty": 8,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 1536,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T4_MAIN_CURSEDSTAFF@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T4_SOUL",
+            "qty": 288,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 6893,
+        "output": 1,
+        "silver": 0,
+        "value": 3072,
+        "fame": 4320,
+        "mats": [
+          {
+            "id": "T4_PLANKS@3",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T4_METALBAR@3",
+            "qty": 8,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 3072,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T4_MAIN_CURSEDSTAFF@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T4_RELIC",
+            "qty": 288,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 12064,
+        "output": 1,
+        "silver": 0,
+        "value": 6144,
+        "fame": 8640,
+        "mats": [
+          {
+            "id": "T4_PLANKS@4",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T4_METALBAR@4",
+            "qty": 8,
+            "ret": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T4_MAIN_CURSEDSTAFF_AVALON",
+    "name": "Adept's Shadowcaller",
+    "tier": 4,
+    "category": "cursestaff",
+    "group": "weapon",
+    "station": "Mage's Tower",
+    "study": true,
+    "weight": 5.1,
+    "journal": "MAGE",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 1286,
+        "output": 1,
+        "silver": 0,
+        "value": 1824,
+        "fame": 756,
+        "mats": [
+          {
+            "id": "T4_PLANKS",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T4_METALBAR",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T4_ARTEFACT_MAIN_CURSEDSTAFF_AVALON",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 2251,
+        "output": 1,
+        "silver": 0,
+        "value": 2208,
+        "fame": 1512,
+        "mats": [
+          {
+            "id": "T4_PLANKS@1",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T4_METALBAR@1",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T4_ARTEFACT_MAIN_CURSEDSTAFF_AVALON",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 2208,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T4_MAIN_CURSEDSTAFF_AVALON",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T4_RUNE",
+            "qty": 288,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 3939,
+        "output": 1,
+        "silver": 0,
+        "value": 2976,
+        "fame": 3024,
+        "mats": [
+          {
+            "id": "T4_PLANKS@2",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T4_METALBAR@2",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T4_ARTEFACT_MAIN_CURSEDSTAFF_AVALON",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 2976,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T4_MAIN_CURSEDSTAFF_AVALON@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T4_SOUL",
+            "qty": 288,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 6893,
+        "output": 1,
+        "silver": 0,
+        "value": 4512,
+        "fame": 6048,
+        "mats": [
+          {
+            "id": "T4_PLANKS@3",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T4_METALBAR@3",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T4_ARTEFACT_MAIN_CURSEDSTAFF_AVALON",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 4512,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T4_MAIN_CURSEDSTAFF_AVALON@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T4_RELIC",
+            "qty": 288,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 12064,
+        "output": 1,
+        "silver": 0,
+        "value": 7584,
+        "fame": 12096,
+        "mats": [
+          {
+            "id": "T4_PLANKS@4",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T4_METALBAR@4",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T4_ARTEFACT_MAIN_CURSEDSTAFF_AVALON",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T4_MAIN_CURSEDSTAFF_CRYSTAL",
+    "name": "Adept's Rotcaller Staff",
+    "tier": 4,
+    "category": "cursestaff",
+    "group": "weapon",
+    "station": "Mage's Tower",
+    "study": true,
+    "weight": 5.1,
+    "journal": "MAGE",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 1286,
+        "output": 1,
+        "silver": 0,
+        "value": 1824,
+        "fame": 756,
+        "mats": [
+          {
+            "id": "T4_PLANKS",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T4_METALBAR",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T4_ARTEFACT_MAIN_CURSEDSTAFF_CRYSTAL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 2251,
+        "output": 1,
+        "silver": 0,
+        "value": 2208,
+        "fame": 1512,
+        "mats": [
+          {
+            "id": "T4_PLANKS@1",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T4_METALBAR@1",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T4_ARTEFACT_MAIN_CURSEDSTAFF_CRYSTAL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 2208,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T4_MAIN_CURSEDSTAFF_CRYSTAL",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T4_RUNE",
+            "qty": 288,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 3939,
+        "output": 1,
+        "silver": 0,
+        "value": 2976,
+        "fame": 3024,
+        "mats": [
+          {
+            "id": "T4_PLANKS@2",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T4_METALBAR@2",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T4_ARTEFACT_MAIN_CURSEDSTAFF_CRYSTAL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 2976,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T4_MAIN_CURSEDSTAFF_CRYSTAL@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T4_SOUL",
+            "qty": 288,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 6893,
+        "output": 1,
+        "silver": 0,
+        "value": 4512,
+        "fame": 6048,
+        "mats": [
+          {
+            "id": "T4_PLANKS@3",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T4_METALBAR@3",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T4_ARTEFACT_MAIN_CURSEDSTAFF_CRYSTAL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 4512,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T4_MAIN_CURSEDSTAFF_CRYSTAL@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T4_RELIC",
+            "qty": 288,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 12064,
+        "output": 1,
+        "silver": 0,
+        "value": 7584,
+        "fame": 12096,
+        "mats": [
+          {
+            "id": "T4_PLANKS@4",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T4_METALBAR@4",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T4_ARTEFACT_MAIN_CURSEDSTAFF_CRYSTAL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T4_MAIN_CURSEDSTAFF_UNDEAD",
+    "name": "Adept's Lifecurse Staff",
+    "tier": 4,
+    "category": "cursestaff",
+    "group": "weapon",
+    "station": "Mage's Tower",
+    "study": true,
+    "weight": 5.1,
+    "journal": "MAGE",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 1286,
+        "output": 1,
+        "silver": 0,
+        "value": 480,
+        "fame": 594,
+        "mats": [
+          {
+            "id": "T4_PLANKS",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T4_METALBAR",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T4_ARTEFACT_MAIN_CURSEDSTAFF_UNDEAD",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 2251,
+        "output": 1,
+        "silver": 0,
+        "value": 864,
+        "fame": 1188,
+        "mats": [
+          {
+            "id": "T4_PLANKS@1",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T4_METALBAR@1",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T4_ARTEFACT_MAIN_CURSEDSTAFF_UNDEAD",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 864,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T4_MAIN_CURSEDSTAFF_UNDEAD",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T4_RUNE",
+            "qty": 288,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 3939,
+        "output": 1,
+        "silver": 0,
+        "value": 1632,
+        "fame": 2376,
+        "mats": [
+          {
+            "id": "T4_PLANKS@2",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T4_METALBAR@2",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T4_ARTEFACT_MAIN_CURSEDSTAFF_UNDEAD",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 1632,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T4_MAIN_CURSEDSTAFF_UNDEAD@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T4_SOUL",
+            "qty": 288,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 6893,
+        "output": 1,
+        "silver": 0,
+        "value": 3168,
+        "fame": 4752,
+        "mats": [
+          {
+            "id": "T4_PLANKS@3",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T4_METALBAR@3",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T4_ARTEFACT_MAIN_CURSEDSTAFF_UNDEAD",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 3168,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T4_MAIN_CURSEDSTAFF_UNDEAD@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T4_RELIC",
+            "qty": 288,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 12064,
+        "output": 1,
+        "silver": 0,
+        "value": 6240,
+        "fame": 9504,
+        "mats": [
+          {
+            "id": "T4_PLANKS@4",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T4_METALBAR@4",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T4_ARTEFACT_MAIN_CURSEDSTAFF_UNDEAD",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T4_2H_DEMONICSTAFF",
+    "name": "Adept's Demonic Staff",
+    "tier": 4,
+    "category": "cursestaff",
+    "group": "weapon",
+    "station": "Mage's Tower",
+    "study": true,
+    "weight": 6.8,
+    "journal": "MAGE",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 1715,
+        "output": 1,
+        "silver": 0,
+        "value": 512,
+        "fame": 720,
+        "mats": [
+          {
+            "id": "T4_PLANKS",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T4_METALBAR",
+            "qty": 12,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 3001,
+        "output": 1,
+        "silver": 0,
+        "value": 1024,
+        "fame": 1440,
+        "mats": [
+          {
+            "id": "T4_PLANKS@1",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T4_METALBAR@1",
+            "qty": 12,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 1024,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T4_2H_DEMONICSTAFF",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T4_RUNE",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 5252,
+        "output": 1,
+        "silver": 0,
+        "value": 2048,
+        "fame": 2880,
+        "mats": [
+          {
+            "id": "T4_PLANKS@2",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T4_METALBAR@2",
+            "qty": 12,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 2048,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T4_2H_DEMONICSTAFF@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T4_SOUL",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 9191,
+        "output": 1,
+        "silver": 0,
+        "value": 4096,
+        "fame": 5760,
+        "mats": [
+          {
+            "id": "T4_PLANKS@3",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T4_METALBAR@3",
+            "qty": 12,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 4096,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T4_2H_DEMONICSTAFF@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T4_RELIC",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 16085,
+        "output": 1,
+        "silver": 0,
+        "value": 8192,
+        "fame": 11520,
+        "mats": [
+          {
+            "id": "T4_PLANKS@4",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T4_METALBAR@4",
+            "qty": 12,
+            "ret": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T4_2H_CURSEDSTAFF",
+    "name": "Adept's Great Cursed Staff",
+    "tier": 4,
+    "category": "cursestaff",
+    "group": "weapon",
+    "station": "Mage's Tower",
+    "study": true,
+    "weight": 6.8,
+    "journal": "MAGE",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 1715,
+        "output": 1,
+        "silver": 0,
+        "value": 512,
+        "fame": 720,
+        "mats": [
+          {
+            "id": "T4_PLANKS",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T4_METALBAR",
+            "qty": 12,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 3001,
+        "output": 1,
+        "silver": 0,
+        "value": 1024,
+        "fame": 1440,
+        "mats": [
+          {
+            "id": "T4_PLANKS@1",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T4_METALBAR@1",
+            "qty": 12,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 1024,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T4_2H_CURSEDSTAFF",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T4_RUNE",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 5252,
+        "output": 1,
+        "silver": 0,
+        "value": 2048,
+        "fame": 2880,
+        "mats": [
+          {
+            "id": "T4_PLANKS@2",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T4_METALBAR@2",
+            "qty": 12,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 2048,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T4_2H_CURSEDSTAFF@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T4_SOUL",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 9191,
+        "output": 1,
+        "silver": 0,
+        "value": 4096,
+        "fame": 5760,
+        "mats": [
+          {
+            "id": "T4_PLANKS@3",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T4_METALBAR@3",
+            "qty": 12,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 4096,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T4_2H_CURSEDSTAFF@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T4_RELIC",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 16085,
+        "output": 1,
+        "silver": 0,
+        "value": 8192,
+        "fame": 11520,
+        "mats": [
+          {
+            "id": "T4_PLANKS@4",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T4_METALBAR@4",
+            "qty": 12,
+            "ret": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T4_2H_CURSEDSTAFF_MORGANA",
+    "name": "Adept's Damnation Staff",
+    "tier": 4,
+    "category": "cursestaff",
+    "group": "weapon",
+    "station": "Mage's Tower",
+    "study": true,
+    "weight": 6.8,
+    "journal": "MAGE",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 1715,
+        "output": 1,
+        "silver": 0,
+        "value": 1408,
+        "fame": 936,
+        "mats": [
+          {
+            "id": "T4_PLANKS",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T4_METALBAR",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T4_ARTEFACT_2H_CURSEDSTAFF_MORGANA",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 3001,
+        "output": 1,
+        "silver": 0,
+        "value": 1920,
+        "fame": 1872,
+        "mats": [
+          {
+            "id": "T4_PLANKS@1",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T4_METALBAR@1",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T4_ARTEFACT_2H_CURSEDSTAFF_MORGANA",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 1920,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T4_2H_CURSEDSTAFF_MORGANA",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T4_RUNE",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 5252,
+        "output": 1,
+        "silver": 0,
+        "value": 2944,
+        "fame": 3744,
+        "mats": [
+          {
+            "id": "T4_PLANKS@2",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T4_METALBAR@2",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T4_ARTEFACT_2H_CURSEDSTAFF_MORGANA",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 2944,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T4_2H_CURSEDSTAFF_MORGANA@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T4_SOUL",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 9191,
+        "output": 1,
+        "silver": 0,
+        "value": 4992,
+        "fame": 7488,
+        "mats": [
+          {
+            "id": "T4_PLANKS@3",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T4_METALBAR@3",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T4_ARTEFACT_2H_CURSEDSTAFF_MORGANA",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 4992,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T4_2H_CURSEDSTAFF_MORGANA@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T4_RELIC",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 16085,
+        "output": 1,
+        "silver": 0,
+        "value": 9088,
+        "fame": 14976,
+        "mats": [
+          {
+            "id": "T4_PLANKS@4",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T4_METALBAR@4",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T4_ARTEFACT_2H_CURSEDSTAFF_MORGANA",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T4_2H_SKULLORB_HELL",
+    "name": "Adept's Cursed Skull",
+    "tier": 4,
+    "category": "cursestaff",
+    "group": "weapon",
+    "station": "Mage's Tower",
+    "study": true,
+    "weight": 6.8,
+    "journal": "MAGE",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 1715,
+        "output": 1,
+        "silver": 0,
+        "value": 896,
+        "fame": 864,
+        "mats": [
+          {
+            "id": "T4_PLANKS",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T4_METALBAR",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T4_ARTEFACT_2H_SKULLORB_HELL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 3001,
+        "output": 1,
+        "silver": 0,
+        "value": 1408,
+        "fame": 1728,
+        "mats": [
+          {
+            "id": "T4_PLANKS@1",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T4_METALBAR@1",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T4_ARTEFACT_2H_SKULLORB_HELL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 1408,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T4_2H_SKULLORB_HELL",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T4_RUNE",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 5252,
+        "output": 1,
+        "silver": 0,
+        "value": 2432,
+        "fame": 3456,
+        "mats": [
+          {
+            "id": "T4_PLANKS@2",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T4_METALBAR@2",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T4_ARTEFACT_2H_SKULLORB_HELL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 2432,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T4_2H_SKULLORB_HELL@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T4_SOUL",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 9191,
+        "output": 1,
+        "silver": 0,
+        "value": 4480,
+        "fame": 6912,
+        "mats": [
+          {
+            "id": "T4_PLANKS@3",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T4_METALBAR@3",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T4_ARTEFACT_2H_SKULLORB_HELL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 4480,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T4_2H_SKULLORB_HELL@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T4_RELIC",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 16085,
+        "output": 1,
+        "silver": 0,
+        "value": 8576,
+        "fame": 13824,
+        "mats": [
+          {
+            "id": "T4_PLANKS@4",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T4_METALBAR@4",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T4_ARTEFACT_2H_SKULLORB_HELL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T5_MAIN_CURSEDSTAFF",
+    "name": "Expert's Cursed Staff",
+    "tier": 5,
+    "category": "cursestaff",
+    "group": "weapon",
+    "station": "Mage's Tower",
+    "study": true,
+    "weight": 7.6,
+    "journal": "MAGE",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 2251,
+        "output": 1,
+        "silver": 0,
+        "value": 768,
+        "fame": 2160,
+        "mats": [
+          {
+            "id": "T5_PLANKS",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T5_METALBAR",
+            "qty": 8,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 3939,
+        "output": 1,
+        "silver": 0,
+        "value": 1536,
+        "fame": 4320,
+        "mats": [
+          {
+            "id": "T5_PLANKS@1",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T5_METALBAR@1",
+            "qty": 8,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 1536,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T5_MAIN_CURSEDSTAFF",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T5_RUNE",
+            "qty": 288,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 6893,
+        "output": 1,
+        "silver": 0,
+        "value": 3072,
+        "fame": 8640,
+        "mats": [
+          {
+            "id": "T5_PLANKS@2",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T5_METALBAR@2",
+            "qty": 8,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 3072,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T5_MAIN_CURSEDSTAFF@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T5_SOUL",
+            "qty": 288,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 12064,
+        "output": 1,
+        "silver": 0,
+        "value": 6144,
+        "fame": 17280,
+        "mats": [
+          {
+            "id": "T5_PLANKS@3",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T5_METALBAR@3",
+            "qty": 8,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 6144,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T5_MAIN_CURSEDSTAFF@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T5_RELIC",
+            "qty": 288,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 21111,
+        "output": 1,
+        "silver": 0,
+        "value": 12288,
+        "fame": 34560,
+        "mats": [
+          {
+            "id": "T5_PLANKS@4",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T5_METALBAR@4",
+            "qty": 8,
+            "ret": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T5_MAIN_CURSEDSTAFF_AVALON",
+    "name": "Expert's Shadowcaller",
+    "tier": 5,
+    "category": "cursestaff",
+    "group": "weapon",
+    "station": "Mage's Tower",
+    "study": true,
+    "weight": 7.6,
+    "journal": "MAGE",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 2251,
+        "output": 1,
+        "silver": 0,
+        "value": 3648,
+        "fame": 3024,
+        "mats": [
+          {
+            "id": "T5_PLANKS",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T5_METALBAR",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T5_ARTEFACT_MAIN_CURSEDSTAFF_AVALON",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 3939,
+        "output": 1,
+        "silver": 0,
+        "value": 4416,
+        "fame": 6048,
+        "mats": [
+          {
+            "id": "T5_PLANKS@1",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T5_METALBAR@1",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T5_ARTEFACT_MAIN_CURSEDSTAFF_AVALON",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 4416,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T5_MAIN_CURSEDSTAFF_AVALON",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T5_RUNE",
+            "qty": 288,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 6893,
+        "output": 1,
+        "silver": 0,
+        "value": 5952,
+        "fame": 12096,
+        "mats": [
+          {
+            "id": "T5_PLANKS@2",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T5_METALBAR@2",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T5_ARTEFACT_MAIN_CURSEDSTAFF_AVALON",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 5952,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T5_MAIN_CURSEDSTAFF_AVALON@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T5_SOUL",
+            "qty": 288,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 12064,
+        "output": 1,
+        "silver": 0,
+        "value": 9024,
+        "fame": 24192,
+        "mats": [
+          {
+            "id": "T5_PLANKS@3",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T5_METALBAR@3",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T5_ARTEFACT_MAIN_CURSEDSTAFF_AVALON",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 9024,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T5_MAIN_CURSEDSTAFF_AVALON@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T5_RELIC",
+            "qty": 288,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 21111,
+        "output": 1,
+        "silver": 0,
+        "value": 15168,
+        "fame": 48384,
+        "mats": [
+          {
+            "id": "T5_PLANKS@4",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T5_METALBAR@4",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T5_ARTEFACT_MAIN_CURSEDSTAFF_AVALON",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T5_MAIN_CURSEDSTAFF_CRYSTAL",
+    "name": "Expert's Rotcaller Staff",
+    "tier": 5,
+    "category": "cursestaff",
+    "group": "weapon",
+    "station": "Mage's Tower",
+    "study": true,
+    "weight": 7.6,
+    "journal": "MAGE",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 2251,
+        "output": 1,
+        "silver": 0,
+        "value": 3648,
+        "fame": 3024,
+        "mats": [
+          {
+            "id": "T5_PLANKS",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T5_METALBAR",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T5_ARTEFACT_MAIN_CURSEDSTAFF_CRYSTAL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 3939,
+        "output": 1,
+        "silver": 0,
+        "value": 4416,
+        "fame": 6048,
+        "mats": [
+          {
+            "id": "T5_PLANKS@1",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T5_METALBAR@1",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T5_ARTEFACT_MAIN_CURSEDSTAFF_CRYSTAL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 4416,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T5_MAIN_CURSEDSTAFF_CRYSTAL",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T5_RUNE",
+            "qty": 288,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 6893,
+        "output": 1,
+        "silver": 0,
+        "value": 5952,
+        "fame": 12096,
+        "mats": [
+          {
+            "id": "T5_PLANKS@2",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T5_METALBAR@2",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T5_ARTEFACT_MAIN_CURSEDSTAFF_CRYSTAL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 5952,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T5_MAIN_CURSEDSTAFF_CRYSTAL@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T5_SOUL",
+            "qty": 288,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 12064,
+        "output": 1,
+        "silver": 0,
+        "value": 9024,
+        "fame": 24192,
+        "mats": [
+          {
+            "id": "T5_PLANKS@3",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T5_METALBAR@3",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T5_ARTEFACT_MAIN_CURSEDSTAFF_CRYSTAL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 9024,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T5_MAIN_CURSEDSTAFF_CRYSTAL@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T5_RELIC",
+            "qty": 288,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 21111,
+        "output": 1,
+        "silver": 0,
+        "value": 15168,
+        "fame": 48384,
+        "mats": [
+          {
+            "id": "T5_PLANKS@4",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T5_METALBAR@4",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T5_ARTEFACT_MAIN_CURSEDSTAFF_CRYSTAL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T5_MAIN_CURSEDSTAFF_UNDEAD",
+    "name": "Expert's Lifecurse Staff",
+    "tier": 5,
+    "category": "cursestaff",
+    "group": "weapon",
+    "station": "Mage's Tower",
+    "study": true,
+    "weight": 7.6,
+    "journal": "MAGE",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 2251,
+        "output": 1,
+        "silver": 0,
+        "value": 960,
+        "fame": 2376,
+        "mats": [
+          {
+            "id": "T5_PLANKS",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T5_METALBAR",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T5_ARTEFACT_MAIN_CURSEDSTAFF_UNDEAD",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 3939,
+        "output": 1,
+        "silver": 0,
+        "value": 1728,
+        "fame": 4752,
+        "mats": [
+          {
+            "id": "T5_PLANKS@1",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T5_METALBAR@1",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T5_ARTEFACT_MAIN_CURSEDSTAFF_UNDEAD",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 1728,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T5_MAIN_CURSEDSTAFF_UNDEAD",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T5_RUNE",
+            "qty": 288,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 6893,
+        "output": 1,
+        "silver": 0,
+        "value": 3264,
+        "fame": 9504,
+        "mats": [
+          {
+            "id": "T5_PLANKS@2",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T5_METALBAR@2",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T5_ARTEFACT_MAIN_CURSEDSTAFF_UNDEAD",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 3264,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T5_MAIN_CURSEDSTAFF_UNDEAD@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T5_SOUL",
+            "qty": 288,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 12064,
+        "output": 1,
+        "silver": 0,
+        "value": 6336,
+        "fame": 19008,
+        "mats": [
+          {
+            "id": "T5_PLANKS@3",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T5_METALBAR@3",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T5_ARTEFACT_MAIN_CURSEDSTAFF_UNDEAD",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 6336,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T5_MAIN_CURSEDSTAFF_UNDEAD@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T5_RELIC",
+            "qty": 288,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 21111,
+        "output": 1,
+        "silver": 0,
+        "value": 12480,
+        "fame": 38016,
+        "mats": [
+          {
+            "id": "T5_PLANKS@4",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T5_METALBAR@4",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T5_ARTEFACT_MAIN_CURSEDSTAFF_UNDEAD",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T5_2H_DEMONICSTAFF",
+    "name": "Expert's Demonic Staff",
+    "tier": 5,
+    "category": "cursestaff",
+    "group": "weapon",
+    "station": "Mage's Tower",
+    "study": true,
+    "weight": 10.1,
+    "journal": "MAGE",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 3001,
+        "output": 1,
+        "silver": 0,
+        "value": 1024,
+        "fame": 2880,
+        "mats": [
+          {
+            "id": "T5_PLANKS",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T5_METALBAR",
+            "qty": 12,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 5252,
+        "output": 1,
+        "silver": 0,
+        "value": 2048,
+        "fame": 5760,
+        "mats": [
+          {
+            "id": "T5_PLANKS@1",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T5_METALBAR@1",
+            "qty": 12,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 2048,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T5_2H_DEMONICSTAFF",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T5_RUNE",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 9191,
+        "output": 1,
+        "silver": 0,
+        "value": 4096,
+        "fame": 11520,
+        "mats": [
+          {
+            "id": "T5_PLANKS@2",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T5_METALBAR@2",
+            "qty": 12,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 4096,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T5_2H_DEMONICSTAFF@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T5_SOUL",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 16085,
+        "output": 1,
+        "silver": 0,
+        "value": 8192,
+        "fame": 23040,
+        "mats": [
+          {
+            "id": "T5_PLANKS@3",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T5_METALBAR@3",
+            "qty": 12,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 8192,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T5_2H_DEMONICSTAFF@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T5_RELIC",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 28148,
+        "output": 1,
+        "silver": 0,
+        "value": 16384,
+        "fame": 46080,
+        "mats": [
+          {
+            "id": "T5_PLANKS@4",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T5_METALBAR@4",
+            "qty": 12,
+            "ret": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T5_2H_CURSEDSTAFF",
+    "name": "Expert's Great Cursed Staff",
+    "tier": 5,
+    "category": "cursestaff",
+    "group": "weapon",
+    "station": "Mage's Tower",
+    "study": true,
+    "weight": 10.1,
+    "journal": "MAGE",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 3001,
+        "output": 1,
+        "silver": 0,
+        "value": 1024,
+        "fame": 2880,
+        "mats": [
+          {
+            "id": "T5_PLANKS",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T5_METALBAR",
+            "qty": 12,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 5252,
+        "output": 1,
+        "silver": 0,
+        "value": 2048,
+        "fame": 5760,
+        "mats": [
+          {
+            "id": "T5_PLANKS@1",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T5_METALBAR@1",
+            "qty": 12,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 2048,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T5_2H_CURSEDSTAFF",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T5_RUNE",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 9191,
+        "output": 1,
+        "silver": 0,
+        "value": 4096,
+        "fame": 11520,
+        "mats": [
+          {
+            "id": "T5_PLANKS@2",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T5_METALBAR@2",
+            "qty": 12,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 4096,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T5_2H_CURSEDSTAFF@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T5_SOUL",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 16085,
+        "output": 1,
+        "silver": 0,
+        "value": 8192,
+        "fame": 23040,
+        "mats": [
+          {
+            "id": "T5_PLANKS@3",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T5_METALBAR@3",
+            "qty": 12,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 8192,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T5_2H_CURSEDSTAFF@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T5_RELIC",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 28148,
+        "output": 1,
+        "silver": 0,
+        "value": 16384,
+        "fame": 46080,
+        "mats": [
+          {
+            "id": "T5_PLANKS@4",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T5_METALBAR@4",
+            "qty": 12,
+            "ret": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T5_2H_CURSEDSTAFF_MORGANA",
+    "name": "Expert's Damnation Staff",
+    "tier": 5,
+    "category": "cursestaff",
+    "group": "weapon",
+    "station": "Mage's Tower",
+    "study": true,
+    "weight": 10.1,
+    "journal": "MAGE",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 3001,
+        "output": 1,
+        "silver": 0,
+        "value": 2816,
+        "fame": 3744,
+        "mats": [
+          {
+            "id": "T5_PLANKS",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T5_METALBAR",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T5_ARTEFACT_2H_CURSEDSTAFF_MORGANA",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 5252,
+        "output": 1,
+        "silver": 0,
+        "value": 3840,
+        "fame": 7488,
+        "mats": [
+          {
+            "id": "T5_PLANKS@1",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T5_METALBAR@1",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T5_ARTEFACT_2H_CURSEDSTAFF_MORGANA",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 3840,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T5_2H_CURSEDSTAFF_MORGANA",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T5_RUNE",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 9191,
+        "output": 1,
+        "silver": 0,
+        "value": 5888,
+        "fame": 14976,
+        "mats": [
+          {
+            "id": "T5_PLANKS@2",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T5_METALBAR@2",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T5_ARTEFACT_2H_CURSEDSTAFF_MORGANA",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 5888,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T5_2H_CURSEDSTAFF_MORGANA@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T5_SOUL",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 16085,
+        "output": 1,
+        "silver": 0,
+        "value": 9984,
+        "fame": 29952,
+        "mats": [
+          {
+            "id": "T5_PLANKS@3",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T5_METALBAR@3",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T5_ARTEFACT_2H_CURSEDSTAFF_MORGANA",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 9984,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T5_2H_CURSEDSTAFF_MORGANA@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T5_RELIC",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 28148,
+        "output": 1,
+        "silver": 0,
+        "value": 18176,
+        "fame": 59904,
+        "mats": [
+          {
+            "id": "T5_PLANKS@4",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T5_METALBAR@4",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T5_ARTEFACT_2H_CURSEDSTAFF_MORGANA",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T5_2H_SKULLORB_HELL",
+    "name": "Expert's Cursed Skull",
+    "tier": 5,
+    "category": "cursestaff",
+    "group": "weapon",
+    "station": "Mage's Tower",
+    "study": true,
+    "weight": 10.1,
+    "journal": "MAGE",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 3001,
+        "output": 1,
+        "silver": 0,
+        "value": 1792,
+        "fame": 3456,
+        "mats": [
+          {
+            "id": "T5_PLANKS",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T5_METALBAR",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T5_ARTEFACT_2H_SKULLORB_HELL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 5252,
+        "output": 1,
+        "silver": 0,
+        "value": 2816,
+        "fame": 6912,
+        "mats": [
+          {
+            "id": "T5_PLANKS@1",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T5_METALBAR@1",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T5_ARTEFACT_2H_SKULLORB_HELL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 2816,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T5_2H_SKULLORB_HELL",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T5_RUNE",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 9191,
+        "output": 1,
+        "silver": 0,
+        "value": 4864,
+        "fame": 13824,
+        "mats": [
+          {
+            "id": "T5_PLANKS@2",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T5_METALBAR@2",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T5_ARTEFACT_2H_SKULLORB_HELL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 4864,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T5_2H_SKULLORB_HELL@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T5_SOUL",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 16085,
+        "output": 1,
+        "silver": 0,
+        "value": 8960,
+        "fame": 27648,
+        "mats": [
+          {
+            "id": "T5_PLANKS@3",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T5_METALBAR@3",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T5_ARTEFACT_2H_SKULLORB_HELL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 8960,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T5_2H_SKULLORB_HELL@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T5_RELIC",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 28148,
+        "output": 1,
+        "silver": 0,
+        "value": 17152,
+        "fame": 55296,
+        "mats": [
+          {
+            "id": "T5_PLANKS@4",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T5_METALBAR@4",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T5_ARTEFACT_2H_SKULLORB_HELL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T6_MAIN_CURSEDSTAFF",
+    "name": "Master's Cursed Staff",
+    "tier": 6,
+    "category": "cursestaff",
+    "group": "weapon",
+    "station": "Mage's Tower",
+    "study": true,
+    "weight": 11.4,
+    "journal": "MAGE",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 3939,
+        "output": 1,
+        "silver": 0,
+        "value": 1536,
+        "fame": 6480,
+        "mats": [
+          {
+            "id": "T6_PLANKS",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T6_METALBAR",
+            "qty": 8,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 6893,
+        "output": 1,
+        "silver": 0,
+        "value": 3072,
+        "fame": 12960,
+        "mats": [
+          {
+            "id": "T6_PLANKS@1",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T6_METALBAR@1",
+            "qty": 8,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 3072,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T6_MAIN_CURSEDSTAFF",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T6_RUNE",
+            "qty": 288,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 12064,
+        "output": 1,
+        "silver": 0,
+        "value": 6144,
+        "fame": 25920,
+        "mats": [
+          {
+            "id": "T6_PLANKS@2",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T6_METALBAR@2",
+            "qty": 8,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 6144,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T6_MAIN_CURSEDSTAFF@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T6_SOUL",
+            "qty": 288,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 21111,
+        "output": 1,
+        "silver": 0,
+        "value": 12288,
+        "fame": 51840,
+        "mats": [
+          {
+            "id": "T6_PLANKS@3",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T6_METALBAR@3",
+            "qty": 8,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 12288,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T6_MAIN_CURSEDSTAFF@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T6_RELIC",
+            "qty": 288,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 36945,
+        "output": 1,
+        "silver": 0,
+        "value": 24576,
+        "fame": 103680,
+        "mats": [
+          {
+            "id": "T6_PLANKS@4",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T6_METALBAR@4",
+            "qty": 8,
+            "ret": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T6_MAIN_CURSEDSTAFF_AVALON",
+    "name": "Master's Shadowcaller",
+    "tier": 6,
+    "category": "cursestaff",
+    "group": "weapon",
+    "station": "Mage's Tower",
+    "study": true,
+    "weight": 11.4,
+    "journal": "MAGE",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 3939,
+        "output": 1,
+        "silver": 0,
+        "value": 7296,
+        "fame": 9072,
+        "mats": [
+          {
+            "id": "T6_PLANKS",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T6_METALBAR",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T6_ARTEFACT_MAIN_CURSEDSTAFF_AVALON",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 6893,
+        "output": 1,
+        "silver": 0,
+        "value": 8832,
+        "fame": 18144,
+        "mats": [
+          {
+            "id": "T6_PLANKS@1",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T6_METALBAR@1",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T6_ARTEFACT_MAIN_CURSEDSTAFF_AVALON",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 8832,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T6_MAIN_CURSEDSTAFF_AVALON",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T6_RUNE",
+            "qty": 288,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 12064,
+        "output": 1,
+        "silver": 0,
+        "value": 11904,
+        "fame": 36288,
+        "mats": [
+          {
+            "id": "T6_PLANKS@2",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T6_METALBAR@2",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T6_ARTEFACT_MAIN_CURSEDSTAFF_AVALON",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 11904,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T6_MAIN_CURSEDSTAFF_AVALON@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T6_SOUL",
+            "qty": 288,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 21111,
+        "output": 1,
+        "silver": 0,
+        "value": 18048,
+        "fame": 72576,
+        "mats": [
+          {
+            "id": "T6_PLANKS@3",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T6_METALBAR@3",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T6_ARTEFACT_MAIN_CURSEDSTAFF_AVALON",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 18048,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T6_MAIN_CURSEDSTAFF_AVALON@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T6_RELIC",
+            "qty": 288,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 36945,
+        "output": 1,
+        "silver": 0,
+        "value": 30336,
+        "fame": 145152,
+        "mats": [
+          {
+            "id": "T6_PLANKS@4",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T6_METALBAR@4",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T6_ARTEFACT_MAIN_CURSEDSTAFF_AVALON",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T6_MAIN_CURSEDSTAFF_CRYSTAL",
+    "name": "Master's Rotcaller Staff",
+    "tier": 6,
+    "category": "cursestaff",
+    "group": "weapon",
+    "station": "Mage's Tower",
+    "study": true,
+    "weight": 11.4,
+    "journal": "MAGE",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 3939,
+        "output": 1,
+        "silver": 0,
+        "value": 7296,
+        "fame": 9072,
+        "mats": [
+          {
+            "id": "T6_PLANKS",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T6_METALBAR",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T6_ARTEFACT_MAIN_CURSEDSTAFF_CRYSTAL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 6893,
+        "output": 1,
+        "silver": 0,
+        "value": 8832,
+        "fame": 18144,
+        "mats": [
+          {
+            "id": "T6_PLANKS@1",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T6_METALBAR@1",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T6_ARTEFACT_MAIN_CURSEDSTAFF_CRYSTAL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 8832,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T6_MAIN_CURSEDSTAFF_CRYSTAL",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T6_RUNE",
+            "qty": 288,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 12064,
+        "output": 1,
+        "silver": 0,
+        "value": 11904,
+        "fame": 36288,
+        "mats": [
+          {
+            "id": "T6_PLANKS@2",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T6_METALBAR@2",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T6_ARTEFACT_MAIN_CURSEDSTAFF_CRYSTAL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 11904,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T6_MAIN_CURSEDSTAFF_CRYSTAL@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T6_SOUL",
+            "qty": 288,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 21111,
+        "output": 1,
+        "silver": 0,
+        "value": 18048,
+        "fame": 72576,
+        "mats": [
+          {
+            "id": "T6_PLANKS@3",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T6_METALBAR@3",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T6_ARTEFACT_MAIN_CURSEDSTAFF_CRYSTAL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 18048,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T6_MAIN_CURSEDSTAFF_CRYSTAL@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T6_RELIC",
+            "qty": 288,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 36945,
+        "output": 1,
+        "silver": 0,
+        "value": 30336,
+        "fame": 145152,
+        "mats": [
+          {
+            "id": "T6_PLANKS@4",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T6_METALBAR@4",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T6_ARTEFACT_MAIN_CURSEDSTAFF_CRYSTAL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T6_MAIN_CURSEDSTAFF_UNDEAD",
+    "name": "Master's Lifecurse Staff",
+    "tier": 6,
+    "category": "cursestaff",
+    "group": "weapon",
+    "station": "Mage's Tower",
+    "study": true,
+    "weight": 11.4,
+    "journal": "MAGE",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 3939,
+        "output": 1,
+        "silver": 0,
+        "value": 1920,
+        "fame": 7128,
+        "mats": [
+          {
+            "id": "T6_PLANKS",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T6_METALBAR",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T6_ARTEFACT_MAIN_CURSEDSTAFF_UNDEAD",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 6893,
+        "output": 1,
+        "silver": 0,
+        "value": 3456,
+        "fame": 14256,
+        "mats": [
+          {
+            "id": "T6_PLANKS@1",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T6_METALBAR@1",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T6_ARTEFACT_MAIN_CURSEDSTAFF_UNDEAD",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 3456,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T6_MAIN_CURSEDSTAFF_UNDEAD",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T6_RUNE",
+            "qty": 288,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 12064,
+        "output": 1,
+        "silver": 0,
+        "value": 6528,
+        "fame": 28512,
+        "mats": [
+          {
+            "id": "T6_PLANKS@2",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T6_METALBAR@2",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T6_ARTEFACT_MAIN_CURSEDSTAFF_UNDEAD",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 6528,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T6_MAIN_CURSEDSTAFF_UNDEAD@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T6_SOUL",
+            "qty": 288,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 21111,
+        "output": 1,
+        "silver": 0,
+        "value": 12672,
+        "fame": 57024,
+        "mats": [
+          {
+            "id": "T6_PLANKS@3",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T6_METALBAR@3",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T6_ARTEFACT_MAIN_CURSEDSTAFF_UNDEAD",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 12672,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T6_MAIN_CURSEDSTAFF_UNDEAD@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T6_RELIC",
+            "qty": 288,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 36945,
+        "output": 1,
+        "silver": 0,
+        "value": 24960,
+        "fame": 114048,
+        "mats": [
+          {
+            "id": "T6_PLANKS@4",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T6_METALBAR@4",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T6_ARTEFACT_MAIN_CURSEDSTAFF_UNDEAD",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T6_2H_DEMONICSTAFF",
+    "name": "Master's Demonic Staff",
+    "tier": 6,
+    "category": "cursestaff",
+    "group": "weapon",
+    "station": "Mage's Tower",
+    "study": true,
+    "weight": 15.2,
+    "journal": "MAGE",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 5252,
+        "output": 1,
+        "silver": 0,
+        "value": 2048,
+        "fame": 8640,
+        "mats": [
+          {
+            "id": "T6_PLANKS",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T6_METALBAR",
+            "qty": 12,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 9191,
+        "output": 1,
+        "silver": 0,
+        "value": 4096,
+        "fame": 17280,
+        "mats": [
+          {
+            "id": "T6_PLANKS@1",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T6_METALBAR@1",
+            "qty": 12,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 4096,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T6_2H_DEMONICSTAFF",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T6_RUNE",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 16085,
+        "output": 1,
+        "silver": 0,
+        "value": 8192,
+        "fame": 34560,
+        "mats": [
+          {
+            "id": "T6_PLANKS@2",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T6_METALBAR@2",
+            "qty": 12,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 8192,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T6_2H_DEMONICSTAFF@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T6_SOUL",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 28148,
+        "output": 1,
+        "silver": 0,
+        "value": 16384,
+        "fame": 69120,
+        "mats": [
+          {
+            "id": "T6_PLANKS@3",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T6_METALBAR@3",
+            "qty": 12,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 16384,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T6_2H_DEMONICSTAFF@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T6_RELIC",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 49260,
+        "output": 1,
+        "silver": 0,
+        "value": 32768,
+        "fame": 138240,
+        "mats": [
+          {
+            "id": "T6_PLANKS@4",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T6_METALBAR@4",
+            "qty": 12,
+            "ret": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T6_2H_CURSEDSTAFF",
+    "name": "Master's Great Cursed Staff",
+    "tier": 6,
+    "category": "cursestaff",
+    "group": "weapon",
+    "station": "Mage's Tower",
+    "study": true,
+    "weight": 15.2,
+    "journal": "MAGE",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 5252,
+        "output": 1,
+        "silver": 0,
+        "value": 2048,
+        "fame": 8640,
+        "mats": [
+          {
+            "id": "T6_PLANKS",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T6_METALBAR",
+            "qty": 12,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 9191,
+        "output": 1,
+        "silver": 0,
+        "value": 4096,
+        "fame": 17280,
+        "mats": [
+          {
+            "id": "T6_PLANKS@1",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T6_METALBAR@1",
+            "qty": 12,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 4096,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T6_2H_CURSEDSTAFF",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T6_RUNE",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 16085,
+        "output": 1,
+        "silver": 0,
+        "value": 8192,
+        "fame": 34560,
+        "mats": [
+          {
+            "id": "T6_PLANKS@2",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T6_METALBAR@2",
+            "qty": 12,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 8192,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T6_2H_CURSEDSTAFF@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T6_SOUL",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 28148,
+        "output": 1,
+        "silver": 0,
+        "value": 16384,
+        "fame": 69120,
+        "mats": [
+          {
+            "id": "T6_PLANKS@3",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T6_METALBAR@3",
+            "qty": 12,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 16384,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T6_2H_CURSEDSTAFF@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T6_RELIC",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 49260,
+        "output": 1,
+        "silver": 0,
+        "value": 32768,
+        "fame": 138240,
+        "mats": [
+          {
+            "id": "T6_PLANKS@4",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T6_METALBAR@4",
+            "qty": 12,
+            "ret": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T6_2H_CURSEDSTAFF_MORGANA",
+    "name": "Master's Damnation Staff",
+    "tier": 6,
+    "category": "cursestaff",
+    "group": "weapon",
+    "station": "Mage's Tower",
+    "study": true,
+    "weight": 15.2,
+    "journal": "MAGE",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 5252,
+        "output": 1,
+        "silver": 0,
+        "value": 5632,
+        "fame": 11232,
+        "mats": [
+          {
+            "id": "T6_PLANKS",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T6_METALBAR",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T6_ARTEFACT_2H_CURSEDSTAFF_MORGANA",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 9191,
+        "output": 1,
+        "silver": 0,
+        "value": 7680,
+        "fame": 22464,
+        "mats": [
+          {
+            "id": "T6_PLANKS@1",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T6_METALBAR@1",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T6_ARTEFACT_2H_CURSEDSTAFF_MORGANA",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 7680,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T6_2H_CURSEDSTAFF_MORGANA",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T6_RUNE",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 16085,
+        "output": 1,
+        "silver": 0,
+        "value": 11776,
+        "fame": 44928,
+        "mats": [
+          {
+            "id": "T6_PLANKS@2",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T6_METALBAR@2",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T6_ARTEFACT_2H_CURSEDSTAFF_MORGANA",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 11776,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T6_2H_CURSEDSTAFF_MORGANA@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T6_SOUL",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 28148,
+        "output": 1,
+        "silver": 0,
+        "value": 19968,
+        "fame": 89856,
+        "mats": [
+          {
+            "id": "T6_PLANKS@3",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T6_METALBAR@3",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T6_ARTEFACT_2H_CURSEDSTAFF_MORGANA",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 19968,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T6_2H_CURSEDSTAFF_MORGANA@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T6_RELIC",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 49260,
+        "output": 1,
+        "silver": 0,
+        "value": 36352,
+        "fame": 179712,
+        "mats": [
+          {
+            "id": "T6_PLANKS@4",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T6_METALBAR@4",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T6_ARTEFACT_2H_CURSEDSTAFF_MORGANA",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T6_2H_SKULLORB_HELL",
+    "name": "Master's Cursed Skull",
+    "tier": 6,
+    "category": "cursestaff",
+    "group": "weapon",
+    "station": "Mage's Tower",
+    "study": true,
+    "weight": 15.2,
+    "journal": "MAGE",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 5252,
+        "output": 1,
+        "silver": 0,
+        "value": 3584,
+        "fame": 10368,
+        "mats": [
+          {
+            "id": "T6_PLANKS",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T6_METALBAR",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T6_ARTEFACT_2H_SKULLORB_HELL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 9191,
+        "output": 1,
+        "silver": 0,
+        "value": 5632,
+        "fame": 20736,
+        "mats": [
+          {
+            "id": "T6_PLANKS@1",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T6_METALBAR@1",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T6_ARTEFACT_2H_SKULLORB_HELL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 5632,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T6_2H_SKULLORB_HELL",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T6_RUNE",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 16085,
+        "output": 1,
+        "silver": 0,
+        "value": 9728,
+        "fame": 41472,
+        "mats": [
+          {
+            "id": "T6_PLANKS@2",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T6_METALBAR@2",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T6_ARTEFACT_2H_SKULLORB_HELL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 9728,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T6_2H_SKULLORB_HELL@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T6_SOUL",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 28148,
+        "output": 1,
+        "silver": 0,
+        "value": 17920,
+        "fame": 82944,
+        "mats": [
+          {
+            "id": "T6_PLANKS@3",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T6_METALBAR@3",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T6_ARTEFACT_2H_SKULLORB_HELL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 17920,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T6_2H_SKULLORB_HELL@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T6_RELIC",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 49260,
+        "output": 1,
+        "silver": 0,
+        "value": 34304,
+        "fame": 165888,
+        "mats": [
+          {
+            "id": "T6_PLANKS@4",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T6_METALBAR@4",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T6_ARTEFACT_2H_SKULLORB_HELL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T7_MAIN_CURSEDSTAFF",
+    "name": "Grandmaster's Cursed Staff",
+    "tier": 7,
+    "category": "cursestaff",
+    "group": "weapon",
+    "station": "Mage's Tower",
+    "study": true,
+    "weight": 17.1,
+    "journal": "MAGE",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 6893,
+        "output": 1,
+        "silver": 0,
+        "value": 3072,
+        "fame": 15480,
+        "mats": [
+          {
+            "id": "T7_PLANKS",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T7_METALBAR",
+            "qty": 8,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 12064,
+        "output": 1,
+        "silver": 0,
+        "value": 6144,
+        "fame": 30960,
+        "mats": [
+          {
+            "id": "T7_PLANKS@1",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T7_METALBAR@1",
+            "qty": 8,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 6144,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T7_MAIN_CURSEDSTAFF",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T7_RUNE",
+            "qty": 288,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 21111,
+        "output": 1,
+        "silver": 0,
+        "value": 12288,
+        "fame": 61920,
+        "mats": [
+          {
+            "id": "T7_PLANKS@2",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T7_METALBAR@2",
+            "qty": 8,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 12288,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T7_MAIN_CURSEDSTAFF@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T7_SOUL",
+            "qty": 288,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 36945,
+        "output": 1,
+        "silver": 0,
+        "value": 24576,
+        "fame": 123840,
+        "mats": [
+          {
+            "id": "T7_PLANKS@3",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T7_METALBAR@3",
+            "qty": 8,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 24576,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T7_MAIN_CURSEDSTAFF@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T7_RELIC",
+            "qty": 288,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 64653,
+        "output": 1,
+        "silver": 0,
+        "value": 49152,
+        "fame": 247680,
+        "mats": [
+          {
+            "id": "T7_PLANKS@4",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T7_METALBAR@4",
+            "qty": 8,
+            "ret": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T7_MAIN_CURSEDSTAFF_AVALON",
+    "name": "Grandmaster's Shadowcaller",
+    "tier": 7,
+    "category": "cursestaff",
+    "group": "weapon",
+    "station": "Mage's Tower",
+    "study": true,
+    "weight": 17.1,
+    "journal": "MAGE",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 6893,
+        "output": 1,
+        "silver": 0,
+        "value": 14592,
+        "fame": 21672,
+        "mats": [
+          {
+            "id": "T7_PLANKS",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T7_METALBAR",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T7_ARTEFACT_MAIN_CURSEDSTAFF_AVALON",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 12064,
+        "output": 1,
+        "silver": 0,
+        "value": 17664,
+        "fame": 43344,
+        "mats": [
+          {
+            "id": "T7_PLANKS@1",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T7_METALBAR@1",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T7_ARTEFACT_MAIN_CURSEDSTAFF_AVALON",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 17664,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T7_MAIN_CURSEDSTAFF_AVALON",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T7_RUNE",
+            "qty": 288,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 21111,
+        "output": 1,
+        "silver": 0,
+        "value": 23808,
+        "fame": 86688,
+        "mats": [
+          {
+            "id": "T7_PLANKS@2",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T7_METALBAR@2",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T7_ARTEFACT_MAIN_CURSEDSTAFF_AVALON",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 23808,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T7_MAIN_CURSEDSTAFF_AVALON@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T7_SOUL",
+            "qty": 288,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 36945,
+        "output": 1,
+        "silver": 0,
+        "value": 36096,
+        "fame": 173376,
+        "mats": [
+          {
+            "id": "T7_PLANKS@3",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T7_METALBAR@3",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T7_ARTEFACT_MAIN_CURSEDSTAFF_AVALON",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 36096,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T7_MAIN_CURSEDSTAFF_AVALON@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T7_RELIC",
+            "qty": 288,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 64653,
+        "output": 1,
+        "silver": 0,
+        "value": 60672,
+        "fame": 346752,
+        "mats": [
+          {
+            "id": "T7_PLANKS@4",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T7_METALBAR@4",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T7_ARTEFACT_MAIN_CURSEDSTAFF_AVALON",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T7_MAIN_CURSEDSTAFF_CRYSTAL",
+    "name": "Grandmaster's Rotcaller Staff",
+    "tier": 7,
+    "category": "cursestaff",
+    "group": "weapon",
+    "station": "Mage's Tower",
+    "study": true,
+    "weight": 17.1,
+    "journal": "MAGE",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 6893,
+        "output": 1,
+        "silver": 0,
+        "value": 14592,
+        "fame": 21672,
+        "mats": [
+          {
+            "id": "T7_PLANKS",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T7_METALBAR",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T7_ARTEFACT_MAIN_CURSEDSTAFF_CRYSTAL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 12064,
+        "output": 1,
+        "silver": 0,
+        "value": 17664,
+        "fame": 43344,
+        "mats": [
+          {
+            "id": "T7_PLANKS@1",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T7_METALBAR@1",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T7_ARTEFACT_MAIN_CURSEDSTAFF_CRYSTAL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 17664,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T7_MAIN_CURSEDSTAFF_CRYSTAL",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T7_RUNE",
+            "qty": 288,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 21111,
+        "output": 1,
+        "silver": 0,
+        "value": 23808,
+        "fame": 86688,
+        "mats": [
+          {
+            "id": "T7_PLANKS@2",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T7_METALBAR@2",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T7_ARTEFACT_MAIN_CURSEDSTAFF_CRYSTAL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 23808,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T7_MAIN_CURSEDSTAFF_CRYSTAL@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T7_SOUL",
+            "qty": 288,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 36945,
+        "output": 1,
+        "silver": 0,
+        "value": 36096,
+        "fame": 173376,
+        "mats": [
+          {
+            "id": "T7_PLANKS@3",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T7_METALBAR@3",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T7_ARTEFACT_MAIN_CURSEDSTAFF_CRYSTAL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 36096,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T7_MAIN_CURSEDSTAFF_CRYSTAL@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T7_RELIC",
+            "qty": 288,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 64653,
+        "output": 1,
+        "silver": 0,
+        "value": 60672,
+        "fame": 346752,
+        "mats": [
+          {
+            "id": "T7_PLANKS@4",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T7_METALBAR@4",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T7_ARTEFACT_MAIN_CURSEDSTAFF_CRYSTAL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T7_MAIN_CURSEDSTAFF_UNDEAD",
+    "name": "Grandmaster's Lifecurse Staff",
+    "tier": 7,
+    "category": "cursestaff",
+    "group": "weapon",
+    "station": "Mage's Tower",
+    "study": true,
+    "weight": 17.1,
+    "journal": "MAGE",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 6893,
+        "output": 1,
+        "silver": 0,
+        "value": 3840,
+        "fame": 17028,
+        "mats": [
+          {
+            "id": "T7_PLANKS",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T7_METALBAR",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T7_ARTEFACT_MAIN_CURSEDSTAFF_UNDEAD",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 12064,
+        "output": 1,
+        "silver": 0,
+        "value": 6912,
+        "fame": 34056,
+        "mats": [
+          {
+            "id": "T7_PLANKS@1",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T7_METALBAR@1",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T7_ARTEFACT_MAIN_CURSEDSTAFF_UNDEAD",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 6912,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T7_MAIN_CURSEDSTAFF_UNDEAD",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T7_RUNE",
+            "qty": 288,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 21111,
+        "output": 1,
+        "silver": 0,
+        "value": 13056,
+        "fame": 68112,
+        "mats": [
+          {
+            "id": "T7_PLANKS@2",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T7_METALBAR@2",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T7_ARTEFACT_MAIN_CURSEDSTAFF_UNDEAD",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 13056,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T7_MAIN_CURSEDSTAFF_UNDEAD@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T7_SOUL",
+            "qty": 288,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 36945,
+        "output": 1,
+        "silver": 0,
+        "value": 25344,
+        "fame": 136224,
+        "mats": [
+          {
+            "id": "T7_PLANKS@3",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T7_METALBAR@3",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T7_ARTEFACT_MAIN_CURSEDSTAFF_UNDEAD",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 25344,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T7_MAIN_CURSEDSTAFF_UNDEAD@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T7_RELIC",
+            "qty": 288,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 64653,
+        "output": 1,
+        "silver": 0,
+        "value": 49920,
+        "fame": 272448,
+        "mats": [
+          {
+            "id": "T7_PLANKS@4",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T7_METALBAR@4",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T7_ARTEFACT_MAIN_CURSEDSTAFF_UNDEAD",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T7_2H_DEMONICSTAFF",
+    "name": "Grandmaster's Demonic Staff",
+    "tier": 7,
+    "category": "cursestaff",
+    "group": "weapon",
+    "station": "Mage's Tower",
+    "study": true,
+    "weight": 22.8,
+    "journal": "MAGE",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 9191,
+        "output": 1,
+        "silver": 0,
+        "value": 4096,
+        "fame": 20640,
+        "mats": [
+          {
+            "id": "T7_PLANKS",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T7_METALBAR",
+            "qty": 12,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 16085,
+        "output": 1,
+        "silver": 0,
+        "value": 8192,
+        "fame": 41280,
+        "mats": [
+          {
+            "id": "T7_PLANKS@1",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T7_METALBAR@1",
+            "qty": 12,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 8192,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T7_2H_DEMONICSTAFF",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T7_RUNE",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 28148,
+        "output": 1,
+        "silver": 0,
+        "value": 16384,
+        "fame": 82560,
+        "mats": [
+          {
+            "id": "T7_PLANKS@2",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T7_METALBAR@2",
+            "qty": 12,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 16384,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T7_2H_DEMONICSTAFF@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T7_SOUL",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 49260,
+        "output": 1,
+        "silver": 0,
+        "value": 32768,
+        "fame": 165120,
+        "mats": [
+          {
+            "id": "T7_PLANKS@3",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T7_METALBAR@3",
+            "qty": 12,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 32768,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T7_2H_DEMONICSTAFF@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T7_RELIC",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 86205,
+        "output": 1,
+        "silver": 0,
+        "value": 65536,
+        "fame": 330240,
+        "mats": [
+          {
+            "id": "T7_PLANKS@4",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T7_METALBAR@4",
+            "qty": 12,
+            "ret": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T7_2H_CURSEDSTAFF",
+    "name": "Grandmaster's Great Cursed Staff",
+    "tier": 7,
+    "category": "cursestaff",
+    "group": "weapon",
+    "station": "Mage's Tower",
+    "study": true,
+    "weight": 22.8,
+    "journal": "MAGE",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 9191,
+        "output": 1,
+        "silver": 0,
+        "value": 4096,
+        "fame": 20640,
+        "mats": [
+          {
+            "id": "T7_PLANKS",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T7_METALBAR",
+            "qty": 12,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 16085,
+        "output": 1,
+        "silver": 0,
+        "value": 8192,
+        "fame": 41280,
+        "mats": [
+          {
+            "id": "T7_PLANKS@1",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T7_METALBAR@1",
+            "qty": 12,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 8192,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T7_2H_CURSEDSTAFF",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T7_RUNE",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 28148,
+        "output": 1,
+        "silver": 0,
+        "value": 16384,
+        "fame": 82560,
+        "mats": [
+          {
+            "id": "T7_PLANKS@2",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T7_METALBAR@2",
+            "qty": 12,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 16384,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T7_2H_CURSEDSTAFF@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T7_SOUL",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 49260,
+        "output": 1,
+        "silver": 0,
+        "value": 32768,
+        "fame": 165120,
+        "mats": [
+          {
+            "id": "T7_PLANKS@3",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T7_METALBAR@3",
+            "qty": 12,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 32768,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T7_2H_CURSEDSTAFF@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T7_RELIC",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 86205,
+        "output": 1,
+        "silver": 0,
+        "value": 65536,
+        "fame": 330240,
+        "mats": [
+          {
+            "id": "T7_PLANKS@4",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T7_METALBAR@4",
+            "qty": 12,
+            "ret": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T7_2H_CURSEDSTAFF_MORGANA",
+    "name": "Grandmaster's Damnation Staff",
+    "tier": 7,
+    "category": "cursestaff",
+    "group": "weapon",
+    "station": "Mage's Tower",
+    "study": true,
+    "weight": 22.8,
+    "journal": "MAGE",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 9191,
+        "output": 1,
+        "silver": 0,
+        "value": 11264,
+        "fame": 26832,
+        "mats": [
+          {
+            "id": "T7_PLANKS",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T7_METALBAR",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T7_ARTEFACT_2H_CURSEDSTAFF_MORGANA",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 16085,
+        "output": 1,
+        "silver": 0,
+        "value": 15360,
+        "fame": 53664,
+        "mats": [
+          {
+            "id": "T7_PLANKS@1",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T7_METALBAR@1",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T7_ARTEFACT_2H_CURSEDSTAFF_MORGANA",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 15360,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T7_2H_CURSEDSTAFF_MORGANA",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T7_RUNE",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 28148,
+        "output": 1,
+        "silver": 0,
+        "value": 23552,
+        "fame": 107328,
+        "mats": [
+          {
+            "id": "T7_PLANKS@2",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T7_METALBAR@2",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T7_ARTEFACT_2H_CURSEDSTAFF_MORGANA",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 23552,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T7_2H_CURSEDSTAFF_MORGANA@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T7_SOUL",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 49260,
+        "output": 1,
+        "silver": 0,
+        "value": 39936,
+        "fame": 214656,
+        "mats": [
+          {
+            "id": "T7_PLANKS@3",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T7_METALBAR@3",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T7_ARTEFACT_2H_CURSEDSTAFF_MORGANA",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 39936,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T7_2H_CURSEDSTAFF_MORGANA@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T7_RELIC",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 86205,
+        "output": 1,
+        "silver": 0,
+        "value": 72704,
+        "fame": 429312,
+        "mats": [
+          {
+            "id": "T7_PLANKS@4",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T7_METALBAR@4",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T7_ARTEFACT_2H_CURSEDSTAFF_MORGANA",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T7_2H_SKULLORB_HELL",
+    "name": "Grandmaster's Cursed Skull",
+    "tier": 7,
+    "category": "cursestaff",
+    "group": "weapon",
+    "station": "Mage's Tower",
+    "study": true,
+    "weight": 22.8,
+    "journal": "MAGE",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 9191,
+        "output": 1,
+        "silver": 0,
+        "value": 7168,
+        "fame": 24768,
+        "mats": [
+          {
+            "id": "T7_PLANKS",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T7_METALBAR",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T7_ARTEFACT_2H_SKULLORB_HELL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 16085,
+        "output": 1,
+        "silver": 0,
+        "value": 11264,
+        "fame": 49536,
+        "mats": [
+          {
+            "id": "T7_PLANKS@1",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T7_METALBAR@1",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T7_ARTEFACT_2H_SKULLORB_HELL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 11264,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T7_2H_SKULLORB_HELL",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T7_RUNE",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 28148,
+        "output": 1,
+        "silver": 0,
+        "value": 19456,
+        "fame": 99072,
+        "mats": [
+          {
+            "id": "T7_PLANKS@2",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T7_METALBAR@2",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T7_ARTEFACT_2H_SKULLORB_HELL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 19456,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T7_2H_SKULLORB_HELL@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T7_SOUL",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 49260,
+        "output": 1,
+        "silver": 0,
+        "value": 35840,
+        "fame": 198144,
+        "mats": [
+          {
+            "id": "T7_PLANKS@3",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T7_METALBAR@3",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T7_ARTEFACT_2H_SKULLORB_HELL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 35840,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T7_2H_SKULLORB_HELL@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T7_RELIC",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 86205,
+        "output": 1,
+        "silver": 0,
+        "value": 68608,
+        "fame": 396288,
+        "mats": [
+          {
+            "id": "T7_PLANKS@4",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T7_METALBAR@4",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T7_ARTEFACT_2H_SKULLORB_HELL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T8_MAIN_CURSEDSTAFF",
+    "name": "Elder's Cursed Staff",
+    "tier": 8,
+    "category": "cursestaff",
+    "group": "weapon",
+    "station": "Mage's Tower",
+    "study": true,
+    "weight": 25.6,
+    "journal": "MAGE",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 12064,
+        "output": 1,
+        "silver": 0,
+        "value": 6144,
+        "fame": 33480,
+        "mats": [
+          {
+            "id": "T8_PLANKS",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T8_METALBAR",
+            "qty": 8,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 21111,
+        "output": 1,
+        "silver": 0,
+        "value": 12288,
+        "fame": 66960,
+        "mats": [
+          {
+            "id": "T8_PLANKS@1",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T8_METALBAR@1",
+            "qty": 8,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 12288,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T8_MAIN_CURSEDSTAFF",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T8_RUNE",
+            "qty": 288,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 36945,
+        "output": 1,
+        "silver": 0,
+        "value": 24576,
+        "fame": 133920,
+        "mats": [
+          {
+            "id": "T8_PLANKS@2",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T8_METALBAR@2",
+            "qty": 8,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 24576,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T8_MAIN_CURSEDSTAFF@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T8_SOUL",
+            "qty": 288,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 64653,
+        "output": 1,
+        "silver": 0,
+        "value": 49152,
+        "fame": 267840,
+        "mats": [
+          {
+            "id": "T8_PLANKS@3",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T8_METALBAR@3",
+            "qty": 8,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 49152,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T8_MAIN_CURSEDSTAFF@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T8_RELIC",
+            "qty": 288,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 113144,
+        "output": 1,
+        "silver": 0,
+        "value": 98304,
+        "fame": 535680,
+        "mats": [
+          {
+            "id": "T8_PLANKS@4",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T8_METALBAR@4",
+            "qty": 8,
+            "ret": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T8_MAIN_CURSEDSTAFF_AVALON",
+    "name": "Elder's Shadowcaller",
+    "tier": 8,
+    "category": "cursestaff",
+    "group": "weapon",
+    "station": "Mage's Tower",
+    "study": true,
+    "weight": 25.6,
+    "journal": "MAGE",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 12064,
+        "output": 1,
+        "silver": 0,
+        "value": 29184,
+        "fame": 46872,
+        "mats": [
+          {
+            "id": "T8_PLANKS",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T8_METALBAR",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T8_ARTEFACT_MAIN_CURSEDSTAFF_AVALON",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 21111,
+        "output": 1,
+        "silver": 0,
+        "value": 35328,
+        "fame": 93744,
+        "mats": [
+          {
+            "id": "T8_PLANKS@1",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T8_METALBAR@1",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T8_ARTEFACT_MAIN_CURSEDSTAFF_AVALON",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 35328,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T8_MAIN_CURSEDSTAFF_AVALON",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T8_RUNE",
+            "qty": 288,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 36945,
+        "output": 1,
+        "silver": 0,
+        "value": 47616,
+        "fame": 187488,
+        "mats": [
+          {
+            "id": "T8_PLANKS@2",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T8_METALBAR@2",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T8_ARTEFACT_MAIN_CURSEDSTAFF_AVALON",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 47616,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T8_MAIN_CURSEDSTAFF_AVALON@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T8_SOUL",
+            "qty": 288,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 64653,
+        "output": 1,
+        "silver": 0,
+        "value": 72192,
+        "fame": 374976,
+        "mats": [
+          {
+            "id": "T8_PLANKS@3",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T8_METALBAR@3",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T8_ARTEFACT_MAIN_CURSEDSTAFF_AVALON",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 72192,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T8_MAIN_CURSEDSTAFF_AVALON@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T8_RELIC",
+            "qty": 288,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 113144,
+        "output": 1,
+        "silver": 0,
+        "value": 121344,
+        "fame": 749952,
+        "mats": [
+          {
+            "id": "T8_PLANKS@4",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T8_METALBAR@4",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T8_ARTEFACT_MAIN_CURSEDSTAFF_AVALON",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T8_MAIN_CURSEDSTAFF_CRYSTAL",
+    "name": "Elder's Rotcaller Staff",
+    "tier": 8,
+    "category": "cursestaff",
+    "group": "weapon",
+    "station": "Mage's Tower",
+    "study": true,
+    "weight": 25.6,
+    "journal": "MAGE",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 12064,
+        "output": 1,
+        "silver": 0,
+        "value": 29184,
+        "fame": 46872,
+        "mats": [
+          {
+            "id": "T8_PLANKS",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T8_METALBAR",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T8_ARTEFACT_MAIN_CURSEDSTAFF_CRYSTAL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 21111,
+        "output": 1,
+        "silver": 0,
+        "value": 35328,
+        "fame": 93744,
+        "mats": [
+          {
+            "id": "T8_PLANKS@1",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T8_METALBAR@1",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T8_ARTEFACT_MAIN_CURSEDSTAFF_CRYSTAL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 35328,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T8_MAIN_CURSEDSTAFF_CRYSTAL",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T8_RUNE",
+            "qty": 288,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 36945,
+        "output": 1,
+        "silver": 0,
+        "value": 47616,
+        "fame": 187488,
+        "mats": [
+          {
+            "id": "T8_PLANKS@2",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T8_METALBAR@2",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T8_ARTEFACT_MAIN_CURSEDSTAFF_CRYSTAL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 47616,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T8_MAIN_CURSEDSTAFF_CRYSTAL@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T8_SOUL",
+            "qty": 288,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 64653,
+        "output": 1,
+        "silver": 0,
+        "value": 72192,
+        "fame": 374976,
+        "mats": [
+          {
+            "id": "T8_PLANKS@3",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T8_METALBAR@3",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T8_ARTEFACT_MAIN_CURSEDSTAFF_CRYSTAL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 72192,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T8_MAIN_CURSEDSTAFF_CRYSTAL@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T8_RELIC",
+            "qty": 288,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 113144,
+        "output": 1,
+        "silver": 0,
+        "value": 121344,
+        "fame": 749952,
+        "mats": [
+          {
+            "id": "T8_PLANKS@4",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T8_METALBAR@4",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T8_ARTEFACT_MAIN_CURSEDSTAFF_CRYSTAL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T8_MAIN_CURSEDSTAFF_UNDEAD",
+    "name": "Elder's Lifecurse Staff",
+    "tier": 8,
+    "category": "cursestaff",
+    "group": "weapon",
+    "station": "Mage's Tower",
+    "study": true,
+    "weight": 25.6,
+    "journal": "MAGE",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 12064,
+        "output": 1,
+        "silver": 0,
+        "value": 7680,
+        "fame": 36828,
+        "mats": [
+          {
+            "id": "T8_PLANKS",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T8_METALBAR",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T8_ARTEFACT_MAIN_CURSEDSTAFF_UNDEAD",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 21111,
+        "output": 1,
+        "silver": 0,
+        "value": 13824,
+        "fame": 73656,
+        "mats": [
+          {
+            "id": "T8_PLANKS@1",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T8_METALBAR@1",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T8_ARTEFACT_MAIN_CURSEDSTAFF_UNDEAD",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 13824,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T8_MAIN_CURSEDSTAFF_UNDEAD",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T8_RUNE",
+            "qty": 288,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 36945,
+        "output": 1,
+        "silver": 0,
+        "value": 26112,
+        "fame": 147312,
+        "mats": [
+          {
+            "id": "T8_PLANKS@2",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T8_METALBAR@2",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T8_ARTEFACT_MAIN_CURSEDSTAFF_UNDEAD",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 26112,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T8_MAIN_CURSEDSTAFF_UNDEAD@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T8_SOUL",
+            "qty": 288,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 64653,
+        "output": 1,
+        "silver": 0,
+        "value": 50688,
+        "fame": 294624,
+        "mats": [
+          {
+            "id": "T8_PLANKS@3",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T8_METALBAR@3",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T8_ARTEFACT_MAIN_CURSEDSTAFF_UNDEAD",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 50688,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T8_MAIN_CURSEDSTAFF_UNDEAD@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T8_RELIC",
+            "qty": 288,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 113144,
+        "output": 1,
+        "silver": 0,
+        "value": 99840,
+        "fame": 589248,
+        "mats": [
+          {
+            "id": "T8_PLANKS@4",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T8_METALBAR@4",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T8_ARTEFACT_MAIN_CURSEDSTAFF_UNDEAD",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T8_2H_DEMONICSTAFF",
+    "name": "Elder's Demonic Staff",
+    "tier": 8,
+    "category": "cursestaff",
+    "group": "weapon",
+    "station": "Mage's Tower",
+    "study": true,
+    "weight": 34.2,
+    "journal": "MAGE",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 16085,
+        "output": 1,
+        "silver": 0,
+        "value": 8192,
+        "fame": 44640,
+        "mats": [
+          {
+            "id": "T8_PLANKS",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T8_METALBAR",
+            "qty": 12,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 28148,
+        "output": 1,
+        "silver": 0,
+        "value": 16384,
+        "fame": 89280,
+        "mats": [
+          {
+            "id": "T8_PLANKS@1",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T8_METALBAR@1",
+            "qty": 12,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 16384,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T8_2H_DEMONICSTAFF",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T8_RUNE",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 49260,
+        "output": 1,
+        "silver": 0,
+        "value": 32768,
+        "fame": 178560,
+        "mats": [
+          {
+            "id": "T8_PLANKS@2",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T8_METALBAR@2",
+            "qty": 12,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 32768,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T8_2H_DEMONICSTAFF@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T8_SOUL",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 86205,
+        "output": 1,
+        "silver": 0,
+        "value": 65536,
+        "fame": 357120,
+        "mats": [
+          {
+            "id": "T8_PLANKS@3",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T8_METALBAR@3",
+            "qty": 12,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 65536,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T8_2H_DEMONICSTAFF@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T8_RELIC",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 150858,
+        "output": 1,
+        "silver": 0,
+        "value": 131072,
+        "fame": 714240,
+        "mats": [
+          {
+            "id": "T8_PLANKS@4",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T8_METALBAR@4",
+            "qty": 12,
+            "ret": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T8_2H_CURSEDSTAFF",
+    "name": "Elder's Great Cursed Staff",
+    "tier": 8,
+    "category": "cursestaff",
+    "group": "weapon",
+    "station": "Mage's Tower",
+    "study": true,
+    "weight": 34.2,
+    "journal": "MAGE",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 16085,
+        "output": 1,
+        "silver": 0,
+        "value": 8192,
+        "fame": 44640,
+        "mats": [
+          {
+            "id": "T8_PLANKS",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T8_METALBAR",
+            "qty": 12,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 28148,
+        "output": 1,
+        "silver": 0,
+        "value": 16384,
+        "fame": 89280,
+        "mats": [
+          {
+            "id": "T8_PLANKS@1",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T8_METALBAR@1",
+            "qty": 12,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 16384,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T8_2H_CURSEDSTAFF",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T8_RUNE",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 49260,
+        "output": 1,
+        "silver": 0,
+        "value": 32768,
+        "fame": 178560,
+        "mats": [
+          {
+            "id": "T8_PLANKS@2",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T8_METALBAR@2",
+            "qty": 12,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 32768,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T8_2H_CURSEDSTAFF@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T8_SOUL",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 86205,
+        "output": 1,
+        "silver": 0,
+        "value": 65536,
+        "fame": 357120,
+        "mats": [
+          {
+            "id": "T8_PLANKS@3",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T8_METALBAR@3",
+            "qty": 12,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 65536,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T8_2H_CURSEDSTAFF@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T8_RELIC",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 150858,
+        "output": 1,
+        "silver": 0,
+        "value": 131072,
+        "fame": 714240,
+        "mats": [
+          {
+            "id": "T8_PLANKS@4",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T8_METALBAR@4",
+            "qty": 12,
+            "ret": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T8_2H_CURSEDSTAFF_MORGANA",
+    "name": "Elder's Damnation Staff",
+    "tier": 8,
+    "category": "cursestaff",
+    "group": "weapon",
+    "station": "Mage's Tower",
+    "study": true,
+    "weight": 34.2,
+    "journal": "MAGE",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 16085,
+        "output": 1,
+        "silver": 0,
+        "value": 22528,
+        "fame": 58032,
+        "mats": [
+          {
+            "id": "T8_PLANKS",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T8_METALBAR",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T8_ARTEFACT_2H_CURSEDSTAFF_MORGANA",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 28148,
+        "output": 1,
+        "silver": 0,
+        "value": 30720,
+        "fame": 116064,
+        "mats": [
+          {
+            "id": "T8_PLANKS@1",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T8_METALBAR@1",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T8_ARTEFACT_2H_CURSEDSTAFF_MORGANA",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 30720,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T8_2H_CURSEDSTAFF_MORGANA",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T8_RUNE",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 49260,
+        "output": 1,
+        "silver": 0,
+        "value": 47104,
+        "fame": 232128,
+        "mats": [
+          {
+            "id": "T8_PLANKS@2",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T8_METALBAR@2",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T8_ARTEFACT_2H_CURSEDSTAFF_MORGANA",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 47104,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T8_2H_CURSEDSTAFF_MORGANA@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T8_SOUL",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 86205,
+        "output": 1,
+        "silver": 0,
+        "value": 79872,
+        "fame": 464256,
+        "mats": [
+          {
+            "id": "T8_PLANKS@3",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T8_METALBAR@3",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T8_ARTEFACT_2H_CURSEDSTAFF_MORGANA",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 79872,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T8_2H_CURSEDSTAFF_MORGANA@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T8_RELIC",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 150858,
+        "output": 1,
+        "silver": 0,
+        "value": 145408,
+        "fame": 928512,
+        "mats": [
+          {
+            "id": "T8_PLANKS@4",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T8_METALBAR@4",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T8_ARTEFACT_2H_CURSEDSTAFF_MORGANA",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T8_2H_SKULLORB_HELL",
+    "name": "Elder's Cursed Skull",
+    "tier": 8,
+    "category": "cursestaff",
+    "group": "weapon",
+    "station": "Mage's Tower",
+    "study": true,
+    "weight": 34.2,
+    "journal": "MAGE",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 16085,
+        "output": 1,
+        "silver": 0,
+        "value": 14336,
+        "fame": 53568,
+        "mats": [
+          {
+            "id": "T8_PLANKS",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T8_METALBAR",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T8_ARTEFACT_2H_SKULLORB_HELL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 28148,
+        "output": 1,
+        "silver": 0,
+        "value": 22528,
+        "fame": 107136,
+        "mats": [
+          {
+            "id": "T8_PLANKS@1",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T8_METALBAR@1",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T8_ARTEFACT_2H_SKULLORB_HELL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 22528,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T8_2H_SKULLORB_HELL",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T8_RUNE",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 49260,
+        "output": 1,
+        "silver": 0,
+        "value": 38912,
+        "fame": 214272,
+        "mats": [
+          {
+            "id": "T8_PLANKS@2",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T8_METALBAR@2",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T8_ARTEFACT_2H_SKULLORB_HELL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 38912,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T8_2H_SKULLORB_HELL@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T8_SOUL",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 86205,
+        "output": 1,
+        "silver": 0,
+        "value": 71680,
+        "fame": 428544,
+        "mats": [
+          {
+            "id": "T8_PLANKS@3",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T8_METALBAR@3",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T8_ARTEFACT_2H_SKULLORB_HELL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 71680,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T8_2H_SKULLORB_HELL@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T8_RELIC",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 150858,
+        "output": 1,
+        "silver": 0,
+        "value": 137216,
+        "fame": 857088,
+        "mats": [
+          {
+            "id": "T8_PLANKS@4",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T8_METALBAR@4",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T8_ARTEFACT_2H_SKULLORB_HELL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      }
+    ]
+  }
+]

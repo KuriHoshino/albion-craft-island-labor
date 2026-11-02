@@ -1,0 +1,8807 @@
+[
+  {
+    "id": "T2_POTION_ENERGY",
+    "name": "Novice's Energy Potion",
+    "tier": 2,
+    "category": "potion",
+    "group": "potion",
+    "station": "Alchemist's Lab",
+    "study": true,
+    "weight": 0.1,
+    "journal": null,
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 56,
+        "output": 5,
+        "silver": 0,
+        "value": 64,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T2_AGARIC",
+            "qty": 8,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 78,
+        "output": 5,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T2_AGARIC",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@1",
+            "qty": 5,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T2_POTION_ENERGY",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@1",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 123,
+        "output": 5,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T2_AGARIC",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@2",
+            "qty": 5,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T2_POTION_ENERGY@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@2",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 256,
+        "output": 5,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T2_AGARIC",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@3",
+            "qty": 5,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T2_POTION_ENERGY@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@3",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T2_POTION_HEAL",
+    "name": "Novice's Healing Potion",
+    "tier": 2,
+    "category": "potion",
+    "group": "potion",
+    "station": "Alchemist's Lab",
+    "study": true,
+    "weight": 0.1,
+    "journal": null,
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 56,
+        "output": 5,
+        "silver": 0,
+        "value": 64,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T2_AGARIC",
+            "qty": 8,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 78,
+        "output": 5,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T2_AGARIC",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@1",
+            "qty": 5,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T2_POTION_HEAL",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@1",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 123,
+        "output": 5,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T2_AGARIC",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@2",
+            "qty": 5,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T2_POTION_HEAL@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@2",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 256,
+        "output": 5,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T2_AGARIC",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@3",
+            "qty": 5,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T2_POTION_HEAL@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@3",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T3_POTION_ACID",
+    "name": "Journeyman's Acid Potion",
+    "tier": 3,
+    "category": "potion",
+    "group": "potion",
+    "station": "Alchemist's Lab",
+    "study": true,
+    "weight": 0.1,
+    "journal": null,
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 56,
+        "output": 10,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T3_ALCHEMY_RARE_DIREBEAR",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T3_COMFREY",
+            "qty": 16,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 78,
+        "output": 10,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T3_ALCHEMY_RARE_DIREBEAR",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T3_COMFREY",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@1",
+            "qty": 10,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T3_POTION_ACID",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@1",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 123,
+        "output": 10,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T3_ALCHEMY_RARE_DIREBEAR",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T3_COMFREY",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@2",
+            "qty": 10,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T3_POTION_ACID@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@2",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 256,
+        "output": 10,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T3_ALCHEMY_RARE_DIREBEAR",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T3_COMFREY",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@3",
+            "qty": 10,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T3_POTION_ACID@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@3",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T3_POTION_MOB_RESET",
+    "name": "Journeyman's Calming Potion",
+    "tier": 3,
+    "category": "potion",
+    "group": "potion",
+    "station": "Alchemist's Lab",
+    "study": true,
+    "weight": 0.1,
+    "journal": null,
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 56,
+        "output": 10,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T3_ALCHEMY_RARE_PANTHER",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T3_COMFREY",
+            "qty": 16,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 78,
+        "output": 10,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T3_ALCHEMY_RARE_PANTHER",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T3_COMFREY",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@1",
+            "qty": 10,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T3_POTION_MOB_RESET",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@1",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 123,
+        "output": 10,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T3_ALCHEMY_RARE_PANTHER",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T3_COMFREY",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@2",
+            "qty": 10,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T3_POTION_MOB_RESET@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@2",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 256,
+        "output": 10,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T3_ALCHEMY_RARE_PANTHER",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T3_COMFREY",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@3",
+            "qty": 10,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T3_POTION_MOB_RESET@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@3",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T3_POTION_CLEANSE2",
+    "name": "Journeyman's Cleansing Potion",
+    "tier": 3,
+    "category": "potion",
+    "group": "potion",
+    "station": "Alchemist's Lab",
+    "study": true,
+    "weight": 0.1,
+    "journal": null,
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 56,
+        "output": 10,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T3_ALCHEMY_RARE_ENT",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T3_COMFREY",
+            "qty": 16,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 78,
+        "output": 10,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T3_ALCHEMY_RARE_ENT",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T3_COMFREY",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@1",
+            "qty": 10,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T3_POTION_CLEANSE2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@1",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 123,
+        "output": 10,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T3_ALCHEMY_RARE_ENT",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T3_COMFREY",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@2",
+            "qty": 10,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T3_POTION_CLEANSE2@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@2",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 256,
+        "output": 10,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T3_ALCHEMY_RARE_ENT",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T3_COMFREY",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@3",
+            "qty": 10,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T3_POTION_CLEANSE2@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@3",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T3_POTION_REVIVE",
+    "name": "Journeyman's Gigantify Potion",
+    "tier": 3,
+    "category": "potion",
+    "group": "potion",
+    "station": "Alchemist's Lab",
+    "study": true,
+    "weight": 0.1,
+    "journal": null,
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 56,
+        "output": 5,
+        "silver": 0,
+        "value": 64,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T3_COMFREY",
+            "qty": 8,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 78,
+        "output": 5,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T3_COMFREY",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@1",
+            "qty": 5,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T3_POTION_REVIVE",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@1",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 123,
+        "output": 5,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T3_COMFREY",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@2",
+            "qty": 5,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T3_POTION_REVIVE@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@2",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 256,
+        "output": 5,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T3_COMFREY",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@3",
+            "qty": 5,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T3_POTION_REVIVE@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@3",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T3_POTION_STONESKIN",
+    "name": "Journeyman's Resistance Potion",
+    "tier": 3,
+    "category": "potion",
+    "group": "potion",
+    "station": "Alchemist's Lab",
+    "study": true,
+    "weight": 0.1,
+    "journal": null,
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 56,
+        "output": 5,
+        "silver": 0,
+        "value": 64,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T3_COMFREY",
+            "qty": 8,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 78,
+        "output": 5,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T3_COMFREY",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@1",
+            "qty": 5,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T3_POTION_STONESKIN",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@1",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 123,
+        "output": 5,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T3_COMFREY",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@2",
+            "qty": 5,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T3_POTION_STONESKIN@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@2",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 256,
+        "output": 5,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T3_COMFREY",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@3",
+            "qty": 5,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T3_POTION_STONESKIN@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@3",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T3_POTION_SLOWFIELD",
+    "name": "Journeyman's Sticky Potion",
+    "tier": 3,
+    "category": "potion",
+    "group": "potion",
+    "station": "Alchemist's Lab",
+    "study": true,
+    "weight": 0.1,
+    "journal": null,
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 56,
+        "output": 5,
+        "silver": 0,
+        "value": 64,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T3_COMFREY",
+            "qty": 8,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 78,
+        "output": 5,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T3_COMFREY",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@1",
+            "qty": 5,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T3_POTION_SLOWFIELD",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@1",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 123,
+        "output": 5,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T3_COMFREY",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@2",
+            "qty": 5,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T3_POTION_SLOWFIELD@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@2",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 256,
+        "output": 5,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T3_COMFREY",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@3",
+            "qty": 5,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T3_POTION_SLOWFIELD@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@3",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T4_POTION_BERSERK",
+    "name": "Adept's Berserk Potion",
+    "tier": 4,
+    "category": "potion",
+    "group": "potion",
+    "station": "Alchemist's Lab",
+    "study": true,
+    "weight": 0.1,
+    "journal": null,
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 56,
+        "output": 10,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T3_ALCHEMY_RARE_WEREWOLF",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T4_BURDOCK",
+            "qty": 16,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 78,
+        "output": 10,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T3_ALCHEMY_RARE_WEREWOLF",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T4_BURDOCK",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@1",
+            "qty": 10,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T4_POTION_BERSERK",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@1",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 123,
+        "output": 10,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T3_ALCHEMY_RARE_WEREWOLF",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T4_BURDOCK",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@2",
+            "qty": 10,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T4_POTION_BERSERK@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@2",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 256,
+        "output": 10,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T3_ALCHEMY_RARE_WEREWOLF",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T4_BURDOCK",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@3",
+            "qty": 10,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T4_POTION_BERSERK@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@3",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T4_POTION_ENERGY",
+    "name": "Adept's Energy Potion",
+    "tier": 4,
+    "category": "potion",
+    "group": "potion",
+    "station": "Alchemist's Lab",
+    "study": true,
+    "weight": 0.3,
+    "journal": null,
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 210,
+        "output": 5,
+        "silver": 0,
+        "value": 240,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T4_BURDOCK",
+            "qty": 24,
+            "ret": true
+          },
+          {
+            "id": "T4_MILK",
+            "qty": 6,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 277,
+        "output": 5,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T4_BURDOCK",
+            "qty": 24,
+            "ret": true
+          },
+          {
+            "id": "T4_MILK",
+            "qty": 6,
+            "ret": true
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@1",
+            "qty": 15,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T4_POTION_ENERGY",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@1",
+            "qty": 3,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 411,
+        "output": 5,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T4_BURDOCK",
+            "qty": 24,
+            "ret": true
+          },
+          {
+            "id": "T4_MILK",
+            "qty": 6,
+            "ret": true
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@2",
+            "qty": 15,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T4_POTION_ENERGY@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@2",
+            "qty": 3,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 811,
+        "output": 5,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T4_BURDOCK",
+            "qty": 24,
+            "ret": true
+          },
+          {
+            "id": "T4_MILK",
+            "qty": 6,
+            "ret": true
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@3",
+            "qty": 15,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T4_POTION_ENERGY@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@3",
+            "qty": 3,
+            "ret": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T4_POTION_GATHER",
+    "name": "Adept's Gathering Potion",
+    "tier": 4,
+    "category": "potion",
+    "group": "potion",
+    "station": "Alchemist's Lab",
+    "study": true,
+    "weight": 0.1,
+    "journal": null,
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 61,
+        "output": 10,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T3_ALCHEMY_RARE_ELEMENTAL",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T4_BUTTER",
+            "qty": 16,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 84,
+        "output": 10,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T3_ALCHEMY_RARE_ELEMENTAL",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T4_BUTTER",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@1",
+            "qty": 10,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T4_POTION_GATHER",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@1",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 128,
+        "output": 10,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T3_ALCHEMY_RARE_ELEMENTAL",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T4_BUTTER",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@2",
+            "qty": 10,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T4_POTION_GATHER@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@2",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 262,
+        "output": 10,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T3_ALCHEMY_RARE_ELEMENTAL",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T4_BUTTER",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@3",
+            "qty": 10,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T4_POTION_GATHER@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@3",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T4_POTION_HEAL",
+    "name": "Adept's Healing Potion",
+    "tier": 4,
+    "category": "potion",
+    "group": "potion",
+    "station": "Alchemist's Lab",
+    "study": true,
+    "weight": 0.3,
+    "journal": null,
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 210,
+        "output": 5,
+        "silver": 0,
+        "value": 240,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T4_BURDOCK",
+            "qty": 24,
+            "ret": true
+          },
+          {
+            "id": "T3_EGG",
+            "qty": 6,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 277,
+        "output": 5,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T4_BURDOCK",
+            "qty": 24,
+            "ret": true
+          },
+          {
+            "id": "T3_EGG",
+            "qty": 6,
+            "ret": true
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@1",
+            "qty": 15,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T4_POTION_HEAL",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@1",
+            "qty": 3,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 411,
+        "output": 5,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T4_BURDOCK",
+            "qty": 24,
+            "ret": true
+          },
+          {
+            "id": "T3_EGG",
+            "qty": 6,
+            "ret": true
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@2",
+            "qty": 15,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T4_POTION_HEAL@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@2",
+            "qty": 3,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 811,
+        "output": 5,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T4_BURDOCK",
+            "qty": 24,
+            "ret": true
+          },
+          {
+            "id": "T3_EGG",
+            "qty": 6,
+            "ret": true
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@3",
+            "qty": 15,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T4_POTION_HEAL@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@3",
+            "qty": 3,
+            "ret": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T4_POTION_LAVA",
+    "name": "Adept's Hellfire Potion",
+    "tier": 4,
+    "category": "potion",
+    "group": "potion",
+    "station": "Alchemist's Lab",
+    "study": true,
+    "weight": 0.1,
+    "journal": null,
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 56,
+        "output": 10,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T3_ALCHEMY_RARE_IMP",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T4_MILK",
+            "qty": 16,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 78,
+        "output": 10,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T3_ALCHEMY_RARE_IMP",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T4_MILK",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@1",
+            "qty": 10,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T4_POTION_LAVA",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@1",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 123,
+        "output": 10,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T3_ALCHEMY_RARE_IMP",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T4_MILK",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@2",
+            "qty": 10,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T4_POTION_LAVA@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@2",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 256,
+        "output": 10,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T3_ALCHEMY_RARE_IMP",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T4_MILK",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@3",
+            "qty": 10,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T4_POTION_LAVA@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@3",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T4_POTION_LIFEWARD",
+    "name": "Adept's Lifeward Potion",
+    "tier": 4,
+    "category": "potion",
+    "group": "potion",
+    "station": "Alchemist's Lab",
+    "study": true,
+    "weight": 0.1,
+    "journal": null,
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 56,
+        "output": 10,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T4_ALCHEMY_RARE_DRAGONAREA",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T4_BURDOCK",
+            "qty": 16,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 78,
+        "output": 10,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T4_ALCHEMY_RARE_DRAGONAREA",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T4_BURDOCK",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@1",
+            "qty": 10,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T4_POTION_LIFEWARD",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@1",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 123,
+        "output": 10,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T4_ALCHEMY_RARE_DRAGONAREA",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T4_BURDOCK",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@2",
+            "qty": 10,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T4_POTION_LIFEWARD@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@2",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 256,
+        "output": 10,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T4_ALCHEMY_RARE_DRAGONAREA",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T4_BURDOCK",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@3",
+            "qty": 10,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T4_POTION_LIFEWARD@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@3",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T4_POTION_COOLDOWN",
+    "name": "Adept's Poison Potion",
+    "tier": 4,
+    "category": "potion",
+    "group": "potion",
+    "station": "Alchemist's Lab",
+    "study": true,
+    "weight": 0.14,
+    "journal": null,
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 84,
+        "output": 5,
+        "silver": 0,
+        "value": 96,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T4_BURDOCK",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T3_COMFREY",
+            "qty": 4,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 106,
+        "output": 5,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T4_BURDOCK",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T3_COMFREY",
+            "qty": 4,
+            "ret": true
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@1",
+            "qty": 5,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T4_POTION_COOLDOWN",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@1",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 151,
+        "output": 5,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T4_BURDOCK",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T3_COMFREY",
+            "qty": 4,
+            "ret": true
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@2",
+            "qty": 5,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T4_POTION_COOLDOWN@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@2",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 284,
+        "output": 5,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T4_BURDOCK",
+            "qty": 8,
+            "ret": true
+          },
+          {
+            "id": "T3_COMFREY",
+            "qty": 4,
+            "ret": true
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@3",
+            "qty": 5,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T4_POTION_COOLDOWN@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@3",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T4_POTION_TORNADO",
+    "name": "Adept's Tornado in a Bottle",
+    "tier": 4,
+    "category": "potion",
+    "group": "potion",
+    "station": "Alchemist's Lab",
+    "study": true,
+    "weight": 0.1,
+    "journal": null,
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 56,
+        "output": 10,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T3_ALCHEMY_RARE_EAGLE",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T4_BURDOCK",
+            "qty": 16,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 78,
+        "output": 10,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T3_ALCHEMY_RARE_EAGLE",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T4_BURDOCK",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@1",
+            "qty": 10,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T4_POTION_TORNADO",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@1",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 123,
+        "output": 10,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T3_ALCHEMY_RARE_EAGLE",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T4_BURDOCK",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@2",
+            "qty": 10,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T4_POTION_TORNADO@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@2",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 256,
+        "output": 10,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T3_ALCHEMY_RARE_EAGLE",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T4_BURDOCK",
+            "qty": 16,
+            "ret": true
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@3",
+            "qty": 10,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T4_POTION_TORNADO@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@3",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T5_POTION_ACID",
+    "name": "Expert's Acid Potion",
+    "tier": 5,
+    "category": "potion",
+    "group": "potion",
+    "station": "Alchemist's Lab",
+    "study": true,
+    "weight": 0.42,
+    "journal": null,
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 294,
+        "output": 10,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T5_ALCHEMY_RARE_DIREBEAR",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T5_TEASEL",
+            "qty": 48,
+            "ret": true
+          },
+          {
+            "id": "T4_BURDOCK",
+            "qty": 24,
+            "ret": true
+          },
+          {
+            "id": "T4_MILK",
+            "qty": 12,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 361,
+        "output": 10,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T5_ALCHEMY_RARE_DIREBEAR",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T5_TEASEL",
+            "qty": 48,
+            "ret": true
+          },
+          {
+            "id": "T4_BURDOCK",
+            "qty": 24,
+            "ret": true
+          },
+          {
+            "id": "T4_MILK",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@1",
+            "qty": 30,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T5_POTION_ACID",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@1",
+            "qty": 3,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 494,
+        "output": 10,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T5_ALCHEMY_RARE_DIREBEAR",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T5_TEASEL",
+            "qty": 48,
+            "ret": true
+          },
+          {
+            "id": "T4_BURDOCK",
+            "qty": 24,
+            "ret": true
+          },
+          {
+            "id": "T4_MILK",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@2",
+            "qty": 30,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T5_POTION_ACID@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@2",
+            "qty": 3,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 895,
+        "output": 10,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T5_ALCHEMY_RARE_DIREBEAR",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T5_TEASEL",
+            "qty": 48,
+            "ret": true
+          },
+          {
+            "id": "T4_BURDOCK",
+            "qty": 24,
+            "ret": true
+          },
+          {
+            "id": "T4_MILK",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@3",
+            "qty": 30,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T5_POTION_ACID@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@3",
+            "qty": 3,
+            "ret": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T5_POTION_MOB_RESET",
+    "name": "Expert's Calming Potion",
+    "tier": 5,
+    "category": "potion",
+    "group": "potion",
+    "station": "Alchemist's Lab",
+    "study": true,
+    "weight": 0.42,
+    "journal": null,
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 294,
+        "output": 10,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T5_ALCHEMY_RARE_PANTHER",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T5_TEASEL",
+            "qty": 48,
+            "ret": true
+          },
+          {
+            "id": "T4_BURDOCK",
+            "qty": 24,
+            "ret": true
+          },
+          {
+            "id": "T2_AGARIC",
+            "qty": 12,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 361,
+        "output": 10,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T5_ALCHEMY_RARE_PANTHER",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T5_TEASEL",
+            "qty": 48,
+            "ret": true
+          },
+          {
+            "id": "T4_BURDOCK",
+            "qty": 24,
+            "ret": true
+          },
+          {
+            "id": "T2_AGARIC",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@1",
+            "qty": 30,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T5_POTION_MOB_RESET",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@1",
+            "qty": 3,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 494,
+        "output": 10,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T5_ALCHEMY_RARE_PANTHER",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T5_TEASEL",
+            "qty": 48,
+            "ret": true
+          },
+          {
+            "id": "T4_BURDOCK",
+            "qty": 24,
+            "ret": true
+          },
+          {
+            "id": "T2_AGARIC",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@2",
+            "qty": 30,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T5_POTION_MOB_RESET@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@2",
+            "qty": 3,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 895,
+        "output": 10,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T5_ALCHEMY_RARE_PANTHER",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T5_TEASEL",
+            "qty": 48,
+            "ret": true
+          },
+          {
+            "id": "T4_BURDOCK",
+            "qty": 24,
+            "ret": true
+          },
+          {
+            "id": "T2_AGARIC",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@3",
+            "qty": 30,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T5_POTION_MOB_RESET@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@3",
+            "qty": 3,
+            "ret": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T5_POTION_CLEANSE2",
+    "name": "Expert's Cleansing Potion",
+    "tier": 5,
+    "category": "potion",
+    "group": "potion",
+    "station": "Alchemist's Lab",
+    "study": true,
+    "weight": 0.42,
+    "journal": null,
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 298,
+        "output": 10,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T5_ALCHEMY_RARE_ENT",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T5_TEASEL",
+            "qty": 48,
+            "ret": true
+          },
+          {
+            "id": "T3_COMFREY",
+            "qty": 24,
+            "ret": true
+          },
+          {
+            "id": "T4_BUTTER",
+            "qty": 12,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 365,
+        "output": 10,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T5_ALCHEMY_RARE_ENT",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T5_TEASEL",
+            "qty": 48,
+            "ret": true
+          },
+          {
+            "id": "T3_COMFREY",
+            "qty": 24,
+            "ret": true
+          },
+          {
+            "id": "T4_BUTTER",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@1",
+            "qty": 30,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T5_POTION_CLEANSE2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@1",
+            "qty": 3,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 498,
+        "output": 10,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T5_ALCHEMY_RARE_ENT",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T5_TEASEL",
+            "qty": 48,
+            "ret": true
+          },
+          {
+            "id": "T3_COMFREY",
+            "qty": 24,
+            "ret": true
+          },
+          {
+            "id": "T4_BUTTER",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@2",
+            "qty": 30,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T5_POTION_CLEANSE2@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@2",
+            "qty": 3,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 898,
+        "output": 10,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T5_ALCHEMY_RARE_ENT",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T5_TEASEL",
+            "qty": 48,
+            "ret": true
+          },
+          {
+            "id": "T3_COMFREY",
+            "qty": 24,
+            "ret": true
+          },
+          {
+            "id": "T4_BUTTER",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@3",
+            "qty": 30,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T5_POTION_CLEANSE2@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@3",
+            "qty": 3,
+            "ret": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T5_POTION_REVIVE",
+    "name": "Expert's Gigantify Potion",
+    "tier": 5,
+    "category": "potion",
+    "group": "potion",
+    "station": "Alchemist's Lab",
+    "study": true,
+    "weight": 0.42,
+    "journal": null,
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 294,
+        "output": 5,
+        "silver": 0,
+        "value": 336,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T5_TEASEL",
+            "qty": 24,
+            "ret": true
+          },
+          {
+            "id": "T4_BURDOCK",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T5_EGG",
+            "qty": 6,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 361,
+        "output": 5,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T5_TEASEL",
+            "qty": 24,
+            "ret": true
+          },
+          {
+            "id": "T4_BURDOCK",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T5_EGG",
+            "qty": 6,
+            "ret": true
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@1",
+            "qty": 15,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T5_POTION_REVIVE",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@1",
+            "qty": 3,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 494,
+        "output": 5,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T5_TEASEL",
+            "qty": 24,
+            "ret": true
+          },
+          {
+            "id": "T4_BURDOCK",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T5_EGG",
+            "qty": 6,
+            "ret": true
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@2",
+            "qty": 15,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T5_POTION_REVIVE@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@2",
+            "qty": 3,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 895,
+        "output": 5,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T5_TEASEL",
+            "qty": 24,
+            "ret": true
+          },
+          {
+            "id": "T4_BURDOCK",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T5_EGG",
+            "qty": 6,
+            "ret": true
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@3",
+            "qty": 15,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T5_POTION_REVIVE@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@3",
+            "qty": 3,
+            "ret": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T5_POTION_STONESKIN",
+    "name": "Expert's Resistance Potion",
+    "tier": 5,
+    "category": "potion",
+    "group": "potion",
+    "station": "Alchemist's Lab",
+    "study": true,
+    "weight": 0.42,
+    "journal": null,
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 294,
+        "output": 5,
+        "silver": 0,
+        "value": 336,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T5_TEASEL",
+            "qty": 24,
+            "ret": true
+          },
+          {
+            "id": "T4_BURDOCK",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T4_MILK",
+            "qty": 6,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 361,
+        "output": 5,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T5_TEASEL",
+            "qty": 24,
+            "ret": true
+          },
+          {
+            "id": "T4_BURDOCK",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T4_MILK",
+            "qty": 6,
+            "ret": true
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@1",
+            "qty": 15,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T5_POTION_STONESKIN",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@1",
+            "qty": 3,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 494,
+        "output": 5,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T5_TEASEL",
+            "qty": 24,
+            "ret": true
+          },
+          {
+            "id": "T4_BURDOCK",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T4_MILK",
+            "qty": 6,
+            "ret": true
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@2",
+            "qty": 15,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T5_POTION_STONESKIN@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@2",
+            "qty": 3,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 895,
+        "output": 5,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T5_TEASEL",
+            "qty": 24,
+            "ret": true
+          },
+          {
+            "id": "T4_BURDOCK",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T4_MILK",
+            "qty": 6,
+            "ret": true
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@3",
+            "qty": 15,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T5_POTION_STONESKIN@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@3",
+            "qty": 3,
+            "ret": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T5_POTION_SLOWFIELD",
+    "name": "Expert's Sticky Potion",
+    "tier": 5,
+    "category": "potion",
+    "group": "potion",
+    "station": "Alchemist's Lab",
+    "study": true,
+    "weight": 0.42,
+    "journal": null,
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 294,
+        "output": 5,
+        "silver": 0,
+        "value": 336,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T5_TEASEL",
+            "qty": 24,
+            "ret": true
+          },
+          {
+            "id": "T4_BURDOCK",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T5_EGG",
+            "qty": 6,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 361,
+        "output": 5,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T5_TEASEL",
+            "qty": 24,
+            "ret": true
+          },
+          {
+            "id": "T4_BURDOCK",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T5_EGG",
+            "qty": 6,
+            "ret": true
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@1",
+            "qty": 15,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T5_POTION_SLOWFIELD",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@1",
+            "qty": 3,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 494,
+        "output": 5,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T5_TEASEL",
+            "qty": 24,
+            "ret": true
+          },
+          {
+            "id": "T4_BURDOCK",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T5_EGG",
+            "qty": 6,
+            "ret": true
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@2",
+            "qty": 15,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T5_POTION_SLOWFIELD@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@2",
+            "qty": 3,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 895,
+        "output": 5,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T5_TEASEL",
+            "qty": 24,
+            "ret": true
+          },
+          {
+            "id": "T4_BURDOCK",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T5_EGG",
+            "qty": 6,
+            "ret": true
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@3",
+            "qty": 15,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T5_POTION_SLOWFIELD@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@3",
+            "qty": 3,
+            "ret": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T6_POTION_BERSERK",
+    "name": "Master's Berserk Potion",
+    "tier": 6,
+    "category": "potion",
+    "group": "potion",
+    "station": "Alchemist's Lab",
+    "study": true,
+    "weight": 0.42,
+    "journal": null,
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 298,
+        "output": 10,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T5_ALCHEMY_RARE_WEREWOLF",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T6_FOXGLOVE",
+            "qty": 48,
+            "ret": true
+          },
+          {
+            "id": "T2_AGARIC",
+            "qty": 24,
+            "ret": true
+          },
+          {
+            "id": "T6_ALCOHOL",
+            "qty": 12,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 365,
+        "output": 10,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T5_ALCHEMY_RARE_WEREWOLF",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T6_FOXGLOVE",
+            "qty": 48,
+            "ret": true
+          },
+          {
+            "id": "T2_AGARIC",
+            "qty": 24,
+            "ret": true
+          },
+          {
+            "id": "T6_ALCOHOL",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@1",
+            "qty": 30,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T6_POTION_BERSERK",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@1",
+            "qty": 3,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 498,
+        "output": 10,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T5_ALCHEMY_RARE_WEREWOLF",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T6_FOXGLOVE",
+            "qty": 48,
+            "ret": true
+          },
+          {
+            "id": "T2_AGARIC",
+            "qty": 24,
+            "ret": true
+          },
+          {
+            "id": "T6_ALCOHOL",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@2",
+            "qty": 30,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T6_POTION_BERSERK@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@2",
+            "qty": 3,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 898,
+        "output": 10,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T5_ALCHEMY_RARE_WEREWOLF",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T6_FOXGLOVE",
+            "qty": 48,
+            "ret": true
+          },
+          {
+            "id": "T2_AGARIC",
+            "qty": 24,
+            "ret": true
+          },
+          {
+            "id": "T6_ALCOHOL",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@3",
+            "qty": 30,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T6_POTION_BERSERK@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@3",
+            "qty": 3,
+            "ret": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T6_POTION_ENERGY",
+    "name": "Master's Energy Potion",
+    "tier": 6,
+    "category": "potion",
+    "group": "potion",
+    "station": "Alchemist's Lab",
+    "study": true,
+    "weight": 0.87,
+    "journal": null,
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 768,
+        "output": 5,
+        "silver": 0,
+        "value": 864,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T6_FOXGLOVE",
+            "qty": 72,
+            "ret": true
+          },
+          {
+            "id": "T6_MILK",
+            "qty": 18,
+            "ret": true
+          },
+          {
+            "id": "T6_ALCOHOL",
+            "qty": 18,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 968,
+        "output": 5,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T6_FOXGLOVE",
+            "qty": 72,
+            "ret": true
+          },
+          {
+            "id": "T6_MILK",
+            "qty": 18,
+            "ret": true
+          },
+          {
+            "id": "T6_ALCOHOL",
+            "qty": 18,
+            "ret": true
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@1",
+            "qty": 45,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T6_POTION_ENERGY",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@1",
+            "qty": 9,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 1369,
+        "output": 5,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T6_FOXGLOVE",
+            "qty": 72,
+            "ret": true
+          },
+          {
+            "id": "T6_MILK",
+            "qty": 18,
+            "ret": true
+          },
+          {
+            "id": "T6_ALCOHOL",
+            "qty": 18,
+            "ret": true
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@2",
+            "qty": 45,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T6_POTION_ENERGY@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@2",
+            "qty": 9,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 2570,
+        "output": 5,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T6_FOXGLOVE",
+            "qty": 72,
+            "ret": true
+          },
+          {
+            "id": "T6_MILK",
+            "qty": 18,
+            "ret": true
+          },
+          {
+            "id": "T6_ALCOHOL",
+            "qty": 18,
+            "ret": true
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@3",
+            "qty": 45,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T6_POTION_ENERGY@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@3",
+            "qty": 9,
+            "ret": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T6_POTION_GATHER",
+    "name": "Master's Gathering Potion",
+    "tier": 6,
+    "category": "potion",
+    "group": "potion",
+    "station": "Alchemist's Lab",
+    "study": true,
+    "weight": 0.44,
+    "journal": null,
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 310,
+        "output": 10,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T5_ALCHEMY_RARE_ELEMENTAL",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T6_BUTTER",
+            "qty": 48,
+            "ret": true
+          },
+          {
+            "id": "T6_FOXGLOVE",
+            "qty": 24,
+            "ret": true
+          },
+          {
+            "id": "T5_TEASEL",
+            "qty": 12,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 376,
+        "output": 10,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T5_ALCHEMY_RARE_ELEMENTAL",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T6_BUTTER",
+            "qty": 48,
+            "ret": true
+          },
+          {
+            "id": "T6_FOXGLOVE",
+            "qty": 24,
+            "ret": true
+          },
+          {
+            "id": "T5_TEASEL",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@1",
+            "qty": 30,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T6_POTION_GATHER",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@1",
+            "qty": 3,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 510,
+        "output": 10,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T5_ALCHEMY_RARE_ELEMENTAL",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T6_BUTTER",
+            "qty": 48,
+            "ret": true
+          },
+          {
+            "id": "T6_FOXGLOVE",
+            "qty": 24,
+            "ret": true
+          },
+          {
+            "id": "T5_TEASEL",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@2",
+            "qty": 30,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T6_POTION_GATHER@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@2",
+            "qty": 3,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 910,
+        "output": 10,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T5_ALCHEMY_RARE_ELEMENTAL",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T6_BUTTER",
+            "qty": 48,
+            "ret": true
+          },
+          {
+            "id": "T6_FOXGLOVE",
+            "qty": 24,
+            "ret": true
+          },
+          {
+            "id": "T5_TEASEL",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@3",
+            "qty": 30,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T6_POTION_GATHER@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@3",
+            "qty": 3,
+            "ret": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T6_POTION_HEAL",
+    "name": "Master's Healing Potion",
+    "tier": 6,
+    "category": "potion",
+    "group": "potion",
+    "station": "Alchemist's Lab",
+    "study": true,
+    "weight": 0.87,
+    "journal": null,
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 768,
+        "output": 5,
+        "silver": 0,
+        "value": 864,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T6_FOXGLOVE",
+            "qty": 72,
+            "ret": true
+          },
+          {
+            "id": "T5_EGG",
+            "qty": 18,
+            "ret": true
+          },
+          {
+            "id": "T6_ALCOHOL",
+            "qty": 18,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 968,
+        "output": 5,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T6_FOXGLOVE",
+            "qty": 72,
+            "ret": true
+          },
+          {
+            "id": "T5_EGG",
+            "qty": 18,
+            "ret": true
+          },
+          {
+            "id": "T6_ALCOHOL",
+            "qty": 18,
+            "ret": true
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@1",
+            "qty": 45,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T6_POTION_HEAL",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@1",
+            "qty": 9,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 1369,
+        "output": 5,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T6_FOXGLOVE",
+            "qty": 72,
+            "ret": true
+          },
+          {
+            "id": "T5_EGG",
+            "qty": 18,
+            "ret": true
+          },
+          {
+            "id": "T6_ALCOHOL",
+            "qty": 18,
+            "ret": true
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@2",
+            "qty": 45,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T6_POTION_HEAL@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@2",
+            "qty": 9,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 2570,
+        "output": 5,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T6_FOXGLOVE",
+            "qty": 72,
+            "ret": true
+          },
+          {
+            "id": "T5_EGG",
+            "qty": 18,
+            "ret": true
+          },
+          {
+            "id": "T6_ALCOHOL",
+            "qty": 18,
+            "ret": true
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@3",
+            "qty": 45,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T6_POTION_HEAL@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@3",
+            "qty": 9,
+            "ret": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T6_POTION_LAVA",
+    "name": "Master's Hellfire Potion",
+    "tier": 6,
+    "category": "potion",
+    "group": "potion",
+    "station": "Alchemist's Lab",
+    "study": true,
+    "weight": 0.42,
+    "journal": null,
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 294,
+        "output": 10,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T5_ALCHEMY_RARE_IMP",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T6_MILK",
+            "qty": 48,
+            "ret": true
+          },
+          {
+            "id": "T6_FOXGLOVE",
+            "qty": 24,
+            "ret": true
+          },
+          {
+            "id": "T3_EGG",
+            "qty": 12,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 361,
+        "output": 10,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T5_ALCHEMY_RARE_IMP",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T6_MILK",
+            "qty": 48,
+            "ret": true
+          },
+          {
+            "id": "T6_FOXGLOVE",
+            "qty": 24,
+            "ret": true
+          },
+          {
+            "id": "T3_EGG",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@1",
+            "qty": 30,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T6_POTION_LAVA",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@1",
+            "qty": 3,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 494,
+        "output": 10,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T5_ALCHEMY_RARE_IMP",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T6_MILK",
+            "qty": 48,
+            "ret": true
+          },
+          {
+            "id": "T6_FOXGLOVE",
+            "qty": 24,
+            "ret": true
+          },
+          {
+            "id": "T3_EGG",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@2",
+            "qty": 30,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T6_POTION_LAVA@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@2",
+            "qty": 3,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 895,
+        "output": 10,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T5_ALCHEMY_RARE_IMP",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T6_MILK",
+            "qty": 48,
+            "ret": true
+          },
+          {
+            "id": "T6_FOXGLOVE",
+            "qty": 24,
+            "ret": true
+          },
+          {
+            "id": "T3_EGG",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@3",
+            "qty": 30,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T6_POTION_LAVA@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@3",
+            "qty": 3,
+            "ret": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T6_POTION_LIFEWARD",
+    "name": "Master's Lifeward Potion",
+    "tier": 6,
+    "category": "potion",
+    "group": "potion",
+    "station": "Alchemist's Lab",
+    "study": true,
+    "weight": 0.42,
+    "journal": null,
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 294,
+        "output": 10,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T6_ALCHEMY_RARE_DRAGONAREA",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T6_FOXGLOVE",
+            "qty": 48,
+            "ret": true
+          },
+          {
+            "id": "T5_TEASEL",
+            "qty": 24,
+            "ret": true
+          },
+          {
+            "id": "T2_AGARIC",
+            "qty": 12,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 361,
+        "output": 10,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T6_ALCHEMY_RARE_DRAGONAREA",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T6_FOXGLOVE",
+            "qty": 48,
+            "ret": true
+          },
+          {
+            "id": "T5_TEASEL",
+            "qty": 24,
+            "ret": true
+          },
+          {
+            "id": "T2_AGARIC",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@1",
+            "qty": 30,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T6_POTION_LIFEWARD",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@1",
+            "qty": 3,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 494,
+        "output": 10,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T6_ALCHEMY_RARE_DRAGONAREA",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T6_FOXGLOVE",
+            "qty": 48,
+            "ret": true
+          },
+          {
+            "id": "T5_TEASEL",
+            "qty": 24,
+            "ret": true
+          },
+          {
+            "id": "T2_AGARIC",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@2",
+            "qty": 30,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T6_POTION_LIFEWARD@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@2",
+            "qty": 3,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 895,
+        "output": 10,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T6_ALCHEMY_RARE_DRAGONAREA",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T6_FOXGLOVE",
+            "qty": 48,
+            "ret": true
+          },
+          {
+            "id": "T5_TEASEL",
+            "qty": 24,
+            "ret": true
+          },
+          {
+            "id": "T2_AGARIC",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@3",
+            "qty": 30,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T6_POTION_LIFEWARD@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@3",
+            "qty": 3,
+            "ret": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T6_POTION_COOLDOWN",
+    "name": "Master's Poison Potion",
+    "tier": 6,
+    "category": "potion",
+    "group": "potion",
+    "station": "Alchemist's Lab",
+    "study": true,
+    "weight": 0.53,
+    "journal": null,
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 378,
+        "output": 5,
+        "silver": 0,
+        "value": 432,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T6_FOXGLOVE",
+            "qty": 24,
+            "ret": true
+          },
+          {
+            "id": "T5_TEASEL",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T3_COMFREY",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T6_MILK",
+            "qty": 6,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 445,
+        "output": 5,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T6_FOXGLOVE",
+            "qty": 24,
+            "ret": true
+          },
+          {
+            "id": "T5_TEASEL",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T3_COMFREY",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T6_MILK",
+            "qty": 6,
+            "ret": true
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@1",
+            "qty": 15,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T6_POTION_COOLDOWN",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@1",
+            "qty": 3,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 578,
+        "output": 5,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T6_FOXGLOVE",
+            "qty": 24,
+            "ret": true
+          },
+          {
+            "id": "T5_TEASEL",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T3_COMFREY",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T6_MILK",
+            "qty": 6,
+            "ret": true
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@2",
+            "qty": 15,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T6_POTION_COOLDOWN@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@2",
+            "qty": 3,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 979,
+        "output": 5,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T6_FOXGLOVE",
+            "qty": 24,
+            "ret": true
+          },
+          {
+            "id": "T5_TEASEL",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T3_COMFREY",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T6_MILK",
+            "qty": 6,
+            "ret": true
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@3",
+            "qty": 15,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T6_POTION_COOLDOWN@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@3",
+            "qty": 3,
+            "ret": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T6_POTION_TORNADO",
+    "name": "Master's Tornado in a Bottle",
+    "tier": 6,
+    "category": "potion",
+    "group": "potion",
+    "station": "Alchemist's Lab",
+    "study": true,
+    "weight": 0.42,
+    "journal": null,
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 294,
+        "output": 10,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T5_ALCHEMY_RARE_EAGLE",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T6_FOXGLOVE",
+            "qty": 48,
+            "ret": true
+          },
+          {
+            "id": "T5_TEASEL",
+            "qty": 24,
+            "ret": true
+          },
+          {
+            "id": "T3_EGG",
+            "qty": 12,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 361,
+        "output": 10,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T5_ALCHEMY_RARE_EAGLE",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T6_FOXGLOVE",
+            "qty": 48,
+            "ret": true
+          },
+          {
+            "id": "T5_TEASEL",
+            "qty": 24,
+            "ret": true
+          },
+          {
+            "id": "T3_EGG",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@1",
+            "qty": 30,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T6_POTION_TORNADO",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@1",
+            "qty": 3,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 494,
+        "output": 10,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T5_ALCHEMY_RARE_EAGLE",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T6_FOXGLOVE",
+            "qty": 48,
+            "ret": true
+          },
+          {
+            "id": "T5_TEASEL",
+            "qty": 24,
+            "ret": true
+          },
+          {
+            "id": "T3_EGG",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@2",
+            "qty": 30,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T6_POTION_TORNADO@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@2",
+            "qty": 3,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 895,
+        "output": 10,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T5_ALCHEMY_RARE_EAGLE",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T6_FOXGLOVE",
+            "qty": 48,
+            "ret": true
+          },
+          {
+            "id": "T5_TEASEL",
+            "qty": 24,
+            "ret": true
+          },
+          {
+            "id": "T3_EGG",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@3",
+            "qty": 30,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T6_POTION_TORNADO@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@3",
+            "qty": 3,
+            "ret": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T7_POTION_ACID",
+    "name": "Grandmaster's Acid Potion",
+    "tier": 7,
+    "category": "potion",
+    "group": "potion",
+    "station": "Alchemist's Lab",
+    "study": true,
+    "weight": 1.46,
+    "journal": null,
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 1296,
+        "output": 10,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T7_ALCHEMY_RARE_DIREBEAR",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T7_MULLEIN",
+            "qty": 144,
+            "ret": true
+          },
+          {
+            "id": "T6_FOXGLOVE",
+            "qty": 72,
+            "ret": true
+          },
+          {
+            "id": "T6_ALCOHOL",
+            "qty": 72,
+            "ret": true
+          },
+          {
+            "id": "T6_MILK",
+            "qty": 36,
+            "ret": true
+          },
+          {
+            "id": "T7_ALCOHOL",
+            "qty": 36,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 1496,
+        "output": 10,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T7_ALCHEMY_RARE_DIREBEAR",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T7_MULLEIN",
+            "qty": 144,
+            "ret": true
+          },
+          {
+            "id": "T6_FOXGLOVE",
+            "qty": 72,
+            "ret": true
+          },
+          {
+            "id": "T6_ALCOHOL",
+            "qty": 72,
+            "ret": true
+          },
+          {
+            "id": "T6_MILK",
+            "qty": 36,
+            "ret": true
+          },
+          {
+            "id": "T7_ALCOHOL",
+            "qty": 36,
+            "ret": true
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@1",
+            "qty": 90,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T7_POTION_ACID",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@1",
+            "qty": 9,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 1896,
+        "output": 10,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T7_ALCHEMY_RARE_DIREBEAR",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T7_MULLEIN",
+            "qty": 144,
+            "ret": true
+          },
+          {
+            "id": "T6_FOXGLOVE",
+            "qty": 72,
+            "ret": true
+          },
+          {
+            "id": "T6_ALCOHOL",
+            "qty": 72,
+            "ret": true
+          },
+          {
+            "id": "T6_MILK",
+            "qty": 36,
+            "ret": true
+          },
+          {
+            "id": "T7_ALCOHOL",
+            "qty": 36,
+            "ret": true
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@2",
+            "qty": 90,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T7_POTION_ACID@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@2",
+            "qty": 9,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 3097,
+        "output": 10,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T7_ALCHEMY_RARE_DIREBEAR",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T7_MULLEIN",
+            "qty": 144,
+            "ret": true
+          },
+          {
+            "id": "T6_FOXGLOVE",
+            "qty": 72,
+            "ret": true
+          },
+          {
+            "id": "T6_ALCOHOL",
+            "qty": 72,
+            "ret": true
+          },
+          {
+            "id": "T6_MILK",
+            "qty": 36,
+            "ret": true
+          },
+          {
+            "id": "T7_ALCOHOL",
+            "qty": 36,
+            "ret": true
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@3",
+            "qty": 90,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T7_POTION_ACID@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@3",
+            "qty": 9,
+            "ret": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T7_POTION_MOB_RESET",
+    "name": "Grandmaster's Calming Potion",
+    "tier": 7,
+    "category": "potion",
+    "group": "potion",
+    "station": "Alchemist's Lab",
+    "study": true,
+    "weight": 1.44,
+    "journal": null,
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 1272,
+        "output": 10,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T7_ALCHEMY_RARE_PANTHER",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T7_MULLEIN",
+            "qty": 144,
+            "ret": true
+          },
+          {
+            "id": "T6_FOXGLOVE",
+            "qty": 72,
+            "ret": true
+          },
+          {
+            "id": "T3_COMFREY",
+            "qty": 72,
+            "ret": true
+          },
+          {
+            "id": "T2_AGARIC",
+            "qty": 36,
+            "ret": true
+          },
+          {
+            "id": "T7_ALCOHOL",
+            "qty": 36,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 1472,
+        "output": 10,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T7_ALCHEMY_RARE_PANTHER",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T7_MULLEIN",
+            "qty": 144,
+            "ret": true
+          },
+          {
+            "id": "T6_FOXGLOVE",
+            "qty": 72,
+            "ret": true
+          },
+          {
+            "id": "T3_COMFREY",
+            "qty": 72,
+            "ret": true
+          },
+          {
+            "id": "T2_AGARIC",
+            "qty": 36,
+            "ret": true
+          },
+          {
+            "id": "T7_ALCOHOL",
+            "qty": 36,
+            "ret": true
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@1",
+            "qty": 90,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T7_POTION_MOB_RESET",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@1",
+            "qty": 9,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 1873,
+        "output": 10,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T7_ALCHEMY_RARE_PANTHER",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T7_MULLEIN",
+            "qty": 144,
+            "ret": true
+          },
+          {
+            "id": "T6_FOXGLOVE",
+            "qty": 72,
+            "ret": true
+          },
+          {
+            "id": "T3_COMFREY",
+            "qty": 72,
+            "ret": true
+          },
+          {
+            "id": "T2_AGARIC",
+            "qty": 36,
+            "ret": true
+          },
+          {
+            "id": "T7_ALCOHOL",
+            "qty": 36,
+            "ret": true
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@2",
+            "qty": 90,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T7_POTION_MOB_RESET@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@2",
+            "qty": 9,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 3073,
+        "output": 10,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T7_ALCHEMY_RARE_PANTHER",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T7_MULLEIN",
+            "qty": 144,
+            "ret": true
+          },
+          {
+            "id": "T6_FOXGLOVE",
+            "qty": 72,
+            "ret": true
+          },
+          {
+            "id": "T3_COMFREY",
+            "qty": 72,
+            "ret": true
+          },
+          {
+            "id": "T2_AGARIC",
+            "qty": 36,
+            "ret": true
+          },
+          {
+            "id": "T7_ALCOHOL",
+            "qty": 36,
+            "ret": true
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@3",
+            "qty": 90,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T7_POTION_MOB_RESET@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@3",
+            "qty": 9,
+            "ret": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T7_POTION_CLEANSE2",
+    "name": "Grandmaster's Cleansing Potion",
+    "tier": 7,
+    "category": "potion",
+    "group": "potion",
+    "station": "Alchemist's Lab",
+    "study": true,
+    "weight": 1.45,
+    "journal": null,
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 1283,
+        "output": 10,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T7_ALCHEMY_RARE_ENT",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T7_MULLEIN",
+            "qty": 144,
+            "ret": true
+          },
+          {
+            "id": "T4_BURDOCK",
+            "qty": 72,
+            "ret": true
+          },
+          {
+            "id": "T3_COMFREY",
+            "qty": 72,
+            "ret": true
+          },
+          {
+            "id": "T6_BUTTER",
+            "qty": 36,
+            "ret": true
+          },
+          {
+            "id": "T7_ALCOHOL",
+            "qty": 36,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 1484,
+        "output": 10,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T7_ALCHEMY_RARE_ENT",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T7_MULLEIN",
+            "qty": 144,
+            "ret": true
+          },
+          {
+            "id": "T4_BURDOCK",
+            "qty": 72,
+            "ret": true
+          },
+          {
+            "id": "T3_COMFREY",
+            "qty": 72,
+            "ret": true
+          },
+          {
+            "id": "T6_BUTTER",
+            "qty": 36,
+            "ret": true
+          },
+          {
+            "id": "T7_ALCOHOL",
+            "qty": 36,
+            "ret": true
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@1",
+            "qty": 90,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T7_POTION_CLEANSE2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@1",
+            "qty": 9,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 1884,
+        "output": 10,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T7_ALCHEMY_RARE_ENT",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T7_MULLEIN",
+            "qty": 144,
+            "ret": true
+          },
+          {
+            "id": "T4_BURDOCK",
+            "qty": 72,
+            "ret": true
+          },
+          {
+            "id": "T3_COMFREY",
+            "qty": 72,
+            "ret": true
+          },
+          {
+            "id": "T6_BUTTER",
+            "qty": 36,
+            "ret": true
+          },
+          {
+            "id": "T7_ALCOHOL",
+            "qty": 36,
+            "ret": true
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@2",
+            "qty": 90,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T7_POTION_CLEANSE2@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@2",
+            "qty": 9,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 3085,
+        "output": 10,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T7_ALCHEMY_RARE_ENT",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T7_MULLEIN",
+            "qty": 144,
+            "ret": true
+          },
+          {
+            "id": "T4_BURDOCK",
+            "qty": 72,
+            "ret": true
+          },
+          {
+            "id": "T3_COMFREY",
+            "qty": 72,
+            "ret": true
+          },
+          {
+            "id": "T6_BUTTER",
+            "qty": 36,
+            "ret": true
+          },
+          {
+            "id": "T7_ALCOHOL",
+            "qty": 36,
+            "ret": true
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@3",
+            "qty": 90,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T7_POTION_CLEANSE2@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@3",
+            "qty": 9,
+            "ret": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T7_POTION_REVIVE",
+    "name": "Grandmaster's Gigantify Potion",
+    "tier": 7,
+    "category": "potion",
+    "group": "potion",
+    "station": "Alchemist's Lab",
+    "study": true,
+    "weight": 1.15,
+    "journal": null,
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 1020,
+        "output": 5,
+        "silver": 0,
+        "value": 1152,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T7_MULLEIN",
+            "qty": 72,
+            "ret": true
+          },
+          {
+            "id": "T6_FOXGLOVE",
+            "qty": 36,
+            "ret": true
+          },
+          {
+            "id": "T5_EGG",
+            "qty": 18,
+            "ret": true
+          },
+          {
+            "id": "T7_ALCOHOL",
+            "qty": 18,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 1220,
+        "output": 5,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T7_MULLEIN",
+            "qty": 72,
+            "ret": true
+          },
+          {
+            "id": "T6_FOXGLOVE",
+            "qty": 36,
+            "ret": true
+          },
+          {
+            "id": "T5_EGG",
+            "qty": 18,
+            "ret": true
+          },
+          {
+            "id": "T7_ALCOHOL",
+            "qty": 18,
+            "ret": true
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@1",
+            "qty": 45,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T7_POTION_REVIVE",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@1",
+            "qty": 9,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 1620,
+        "output": 5,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T7_MULLEIN",
+            "qty": 72,
+            "ret": true
+          },
+          {
+            "id": "T6_FOXGLOVE",
+            "qty": 36,
+            "ret": true
+          },
+          {
+            "id": "T5_EGG",
+            "qty": 18,
+            "ret": true
+          },
+          {
+            "id": "T7_ALCOHOL",
+            "qty": 18,
+            "ret": true
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@2",
+            "qty": 45,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T7_POTION_REVIVE@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@2",
+            "qty": 9,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 2821,
+        "output": 5,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T7_MULLEIN",
+            "qty": 72,
+            "ret": true
+          },
+          {
+            "id": "T6_FOXGLOVE",
+            "qty": 36,
+            "ret": true
+          },
+          {
+            "id": "T5_EGG",
+            "qty": 18,
+            "ret": true
+          },
+          {
+            "id": "T7_ALCOHOL",
+            "qty": 18,
+            "ret": true
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@3",
+            "qty": 45,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T7_POTION_REVIVE@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@3",
+            "qty": 9,
+            "ret": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T7_POTION_STONESKIN",
+    "name": "Grandmaster's Resistance Potion",
+    "tier": 7,
+    "category": "potion",
+    "group": "potion",
+    "station": "Alchemist's Lab",
+    "study": true,
+    "weight": 1.44,
+    "journal": null,
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 1272,
+        "output": 5,
+        "silver": 0,
+        "value": 1440,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T7_MULLEIN",
+            "qty": 72,
+            "ret": true
+          },
+          {
+            "id": "T6_FOXGLOVE",
+            "qty": 36,
+            "ret": true
+          },
+          {
+            "id": "T4_BURDOCK",
+            "qty": 36,
+            "ret": true
+          },
+          {
+            "id": "T6_MILK",
+            "qty": 18,
+            "ret": true
+          },
+          {
+            "id": "T7_ALCOHOL",
+            "qty": 18,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 1472,
+        "output": 5,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T7_MULLEIN",
+            "qty": 72,
+            "ret": true
+          },
+          {
+            "id": "T6_FOXGLOVE",
+            "qty": 36,
+            "ret": true
+          },
+          {
+            "id": "T4_BURDOCK",
+            "qty": 36,
+            "ret": true
+          },
+          {
+            "id": "T6_MILK",
+            "qty": 18,
+            "ret": true
+          },
+          {
+            "id": "T7_ALCOHOL",
+            "qty": 18,
+            "ret": true
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@1",
+            "qty": 45,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T7_POTION_STONESKIN",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@1",
+            "qty": 9,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 1873,
+        "output": 5,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T7_MULLEIN",
+            "qty": 72,
+            "ret": true
+          },
+          {
+            "id": "T6_FOXGLOVE",
+            "qty": 36,
+            "ret": true
+          },
+          {
+            "id": "T4_BURDOCK",
+            "qty": 36,
+            "ret": true
+          },
+          {
+            "id": "T6_MILK",
+            "qty": 18,
+            "ret": true
+          },
+          {
+            "id": "T7_ALCOHOL",
+            "qty": 18,
+            "ret": true
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@2",
+            "qty": 45,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T7_POTION_STONESKIN@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@2",
+            "qty": 9,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 3073,
+        "output": 5,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T7_MULLEIN",
+            "qty": 72,
+            "ret": true
+          },
+          {
+            "id": "T6_FOXGLOVE",
+            "qty": 36,
+            "ret": true
+          },
+          {
+            "id": "T4_BURDOCK",
+            "qty": 36,
+            "ret": true
+          },
+          {
+            "id": "T6_MILK",
+            "qty": 18,
+            "ret": true
+          },
+          {
+            "id": "T7_ALCOHOL",
+            "qty": 18,
+            "ret": true
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@3",
+            "qty": 45,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T7_POTION_STONESKIN@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@3",
+            "qty": 9,
+            "ret": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T7_POTION_SLOWFIELD",
+    "name": "Grandmaster's Sticky Potion",
+    "tier": 7,
+    "category": "potion",
+    "group": "potion",
+    "station": "Alchemist's Lab",
+    "study": true,
+    "weight": 1.44,
+    "journal": null,
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 1272,
+        "output": 5,
+        "silver": 0,
+        "value": 1440,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T7_MULLEIN",
+            "qty": 72,
+            "ret": true
+          },
+          {
+            "id": "T6_FOXGLOVE",
+            "qty": 36,
+            "ret": true
+          },
+          {
+            "id": "T4_BURDOCK",
+            "qty": 36,
+            "ret": true
+          },
+          {
+            "id": "T5_EGG",
+            "qty": 18,
+            "ret": true
+          },
+          {
+            "id": "T7_ALCOHOL",
+            "qty": 18,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 1472,
+        "output": 5,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T7_MULLEIN",
+            "qty": 72,
+            "ret": true
+          },
+          {
+            "id": "T6_FOXGLOVE",
+            "qty": 36,
+            "ret": true
+          },
+          {
+            "id": "T4_BURDOCK",
+            "qty": 36,
+            "ret": true
+          },
+          {
+            "id": "T5_EGG",
+            "qty": 18,
+            "ret": true
+          },
+          {
+            "id": "T7_ALCOHOL",
+            "qty": 18,
+            "ret": true
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@1",
+            "qty": 45,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T7_POTION_SLOWFIELD",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@1",
+            "qty": 9,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 1873,
+        "output": 5,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T7_MULLEIN",
+            "qty": 72,
+            "ret": true
+          },
+          {
+            "id": "T6_FOXGLOVE",
+            "qty": 36,
+            "ret": true
+          },
+          {
+            "id": "T4_BURDOCK",
+            "qty": 36,
+            "ret": true
+          },
+          {
+            "id": "T5_EGG",
+            "qty": 18,
+            "ret": true
+          },
+          {
+            "id": "T7_ALCOHOL",
+            "qty": 18,
+            "ret": true
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@2",
+            "qty": 45,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T7_POTION_SLOWFIELD@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@2",
+            "qty": 9,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 3073,
+        "output": 5,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T7_MULLEIN",
+            "qty": 72,
+            "ret": true
+          },
+          {
+            "id": "T6_FOXGLOVE",
+            "qty": 36,
+            "ret": true
+          },
+          {
+            "id": "T4_BURDOCK",
+            "qty": 36,
+            "ret": true
+          },
+          {
+            "id": "T5_EGG",
+            "qty": 18,
+            "ret": true
+          },
+          {
+            "id": "T7_ALCOHOL",
+            "qty": 18,
+            "ret": true
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@3",
+            "qty": 45,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T7_POTION_SLOWFIELD@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@3",
+            "qty": 9,
+            "ret": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T8_POTION_BERSERK",
+    "name": "Elder's Berserk Potion",
+    "tier": 8,
+    "category": "potion",
+    "group": "potion",
+    "station": "Alchemist's Lab",
+    "study": true,
+    "weight": 1.47,
+    "journal": null,
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 1307,
+        "output": 10,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T7_ALCHEMY_RARE_WEREWOLF",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T8_YARROW",
+            "qty": 144,
+            "ret": true
+          },
+          {
+            "id": "T3_COMFREY",
+            "qty": 72,
+            "ret": true
+          },
+          {
+            "id": "T6_ALCOHOL",
+            "qty": 72,
+            "ret": true
+          },
+          {
+            "id": "T7_ALCOHOL",
+            "qty": 36,
+            "ret": true
+          },
+          {
+            "id": "T8_ALCOHOL",
+            "qty": 36,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 1507,
+        "output": 10,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T7_ALCHEMY_RARE_WEREWOLF",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T8_YARROW",
+            "qty": 144,
+            "ret": true
+          },
+          {
+            "id": "T3_COMFREY",
+            "qty": 72,
+            "ret": true
+          },
+          {
+            "id": "T6_ALCOHOL",
+            "qty": 72,
+            "ret": true
+          },
+          {
+            "id": "T7_ALCOHOL",
+            "qty": 36,
+            "ret": true
+          },
+          {
+            "id": "T8_ALCOHOL",
+            "qty": 36,
+            "ret": true
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@1",
+            "qty": 90,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T8_POTION_BERSERK",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@1",
+            "qty": 9,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 1908,
+        "output": 10,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T7_ALCHEMY_RARE_WEREWOLF",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T8_YARROW",
+            "qty": 144,
+            "ret": true
+          },
+          {
+            "id": "T3_COMFREY",
+            "qty": 72,
+            "ret": true
+          },
+          {
+            "id": "T6_ALCOHOL",
+            "qty": 72,
+            "ret": true
+          },
+          {
+            "id": "T7_ALCOHOL",
+            "qty": 36,
+            "ret": true
+          },
+          {
+            "id": "T8_ALCOHOL",
+            "qty": 36,
+            "ret": true
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@2",
+            "qty": 90,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T8_POTION_BERSERK@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@2",
+            "qty": 9,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 3108,
+        "output": 10,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T7_ALCHEMY_RARE_WEREWOLF",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T8_YARROW",
+            "qty": 144,
+            "ret": true
+          },
+          {
+            "id": "T3_COMFREY",
+            "qty": 72,
+            "ret": true
+          },
+          {
+            "id": "T6_ALCOHOL",
+            "qty": 72,
+            "ret": true
+          },
+          {
+            "id": "T7_ALCOHOL",
+            "qty": 36,
+            "ret": true
+          },
+          {
+            "id": "T8_ALCOHOL",
+            "qty": 36,
+            "ret": true
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@3",
+            "qty": 90,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T8_POTION_BERSERK@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@3",
+            "qty": 9,
+            "ret": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T8_POTION_GATHER",
+    "name": "Elder's Gathering Potion",
+    "tier": 8,
+    "category": "potion",
+    "group": "potion",
+    "station": "Alchemist's Lab",
+    "study": true,
+    "weight": 1.48,
+    "journal": null,
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 1319,
+        "output": 10,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T7_ALCHEMY_RARE_ELEMENTAL",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T8_BUTTER",
+            "qty": 144,
+            "ret": true
+          },
+          {
+            "id": "T8_YARROW",
+            "qty": 72,
+            "ret": true
+          },
+          {
+            "id": "T7_MULLEIN",
+            "qty": 72,
+            "ret": true
+          },
+          {
+            "id": "T6_FOXGLOVE",
+            "qty": 36,
+            "ret": true
+          },
+          {
+            "id": "T8_ALCOHOL",
+            "qty": 36,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 1520,
+        "output": 10,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T7_ALCHEMY_RARE_ELEMENTAL",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T8_BUTTER",
+            "qty": 144,
+            "ret": true
+          },
+          {
+            "id": "T8_YARROW",
+            "qty": 72,
+            "ret": true
+          },
+          {
+            "id": "T7_MULLEIN",
+            "qty": 72,
+            "ret": true
+          },
+          {
+            "id": "T6_FOXGLOVE",
+            "qty": 36,
+            "ret": true
+          },
+          {
+            "id": "T8_ALCOHOL",
+            "qty": 36,
+            "ret": true
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@1",
+            "qty": 90,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T8_POTION_GATHER",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@1",
+            "qty": 9,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 1920,
+        "output": 10,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T7_ALCHEMY_RARE_ELEMENTAL",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T8_BUTTER",
+            "qty": 144,
+            "ret": true
+          },
+          {
+            "id": "T8_YARROW",
+            "qty": 72,
+            "ret": true
+          },
+          {
+            "id": "T7_MULLEIN",
+            "qty": 72,
+            "ret": true
+          },
+          {
+            "id": "T6_FOXGLOVE",
+            "qty": 36,
+            "ret": true
+          },
+          {
+            "id": "T8_ALCOHOL",
+            "qty": 36,
+            "ret": true
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@2",
+            "qty": 90,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T8_POTION_GATHER@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@2",
+            "qty": 9,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 3121,
+        "output": 10,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T7_ALCHEMY_RARE_ELEMENTAL",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T8_BUTTER",
+            "qty": 144,
+            "ret": true
+          },
+          {
+            "id": "T8_YARROW",
+            "qty": 72,
+            "ret": true
+          },
+          {
+            "id": "T7_MULLEIN",
+            "qty": 72,
+            "ret": true
+          },
+          {
+            "id": "T6_FOXGLOVE",
+            "qty": 36,
+            "ret": true
+          },
+          {
+            "id": "T8_ALCOHOL",
+            "qty": 36,
+            "ret": true
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@3",
+            "qty": 90,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T8_POTION_GATHER@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@3",
+            "qty": 9,
+            "ret": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T8_POTION_LAVA",
+    "name": "Elder's Hellfire Potion",
+    "tier": 8,
+    "category": "potion",
+    "group": "potion",
+    "station": "Alchemist's Lab",
+    "study": true,
+    "weight": 1.44,
+    "journal": null,
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 1272,
+        "output": 10,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T7_ALCHEMY_RARE_IMP",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T8_MILK",
+            "qty": 144,
+            "ret": true
+          },
+          {
+            "id": "T8_YARROW",
+            "qty": 72,
+            "ret": true
+          },
+          {
+            "id": "T7_MULLEIN",
+            "qty": 72,
+            "ret": true
+          },
+          {
+            "id": "T5_EGG",
+            "qty": 36,
+            "ret": true
+          },
+          {
+            "id": "T8_ALCOHOL",
+            "qty": 36,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 1472,
+        "output": 10,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T7_ALCHEMY_RARE_IMP",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T8_MILK",
+            "qty": 144,
+            "ret": true
+          },
+          {
+            "id": "T8_YARROW",
+            "qty": 72,
+            "ret": true
+          },
+          {
+            "id": "T7_MULLEIN",
+            "qty": 72,
+            "ret": true
+          },
+          {
+            "id": "T5_EGG",
+            "qty": 36,
+            "ret": true
+          },
+          {
+            "id": "T8_ALCOHOL",
+            "qty": 36,
+            "ret": true
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@1",
+            "qty": 90,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T8_POTION_LAVA",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@1",
+            "qty": 9,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 1873,
+        "output": 10,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T7_ALCHEMY_RARE_IMP",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T8_MILK",
+            "qty": 144,
+            "ret": true
+          },
+          {
+            "id": "T8_YARROW",
+            "qty": 72,
+            "ret": true
+          },
+          {
+            "id": "T7_MULLEIN",
+            "qty": 72,
+            "ret": true
+          },
+          {
+            "id": "T5_EGG",
+            "qty": 36,
+            "ret": true
+          },
+          {
+            "id": "T8_ALCOHOL",
+            "qty": 36,
+            "ret": true
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@2",
+            "qty": 90,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T8_POTION_LAVA@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@2",
+            "qty": 9,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 3073,
+        "output": 10,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T7_ALCHEMY_RARE_IMP",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T8_MILK",
+            "qty": 144,
+            "ret": true
+          },
+          {
+            "id": "T8_YARROW",
+            "qty": 72,
+            "ret": true
+          },
+          {
+            "id": "T7_MULLEIN",
+            "qty": 72,
+            "ret": true
+          },
+          {
+            "id": "T5_EGG",
+            "qty": 36,
+            "ret": true
+          },
+          {
+            "id": "T8_ALCOHOL",
+            "qty": 36,
+            "ret": true
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@3",
+            "qty": 90,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T8_POTION_LAVA@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@3",
+            "qty": 9,
+            "ret": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T8_POTION_CLEANSE",
+    "name": "Elder's Invisibility Potion",
+    "tier": 8,
+    "category": "potion",
+    "group": "potion",
+    "station": "Alchemist's Lab",
+    "study": true,
+    "weight": 1.44,
+    "journal": null,
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 1272,
+        "output": 5,
+        "silver": 0,
+        "value": 1440,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T8_YARROW",
+            "qty": 72,
+            "ret": true
+          },
+          {
+            "id": "T7_MULLEIN",
+            "qty": 36,
+            "ret": true
+          },
+          {
+            "id": "T5_TEASEL",
+            "qty": 36,
+            "ret": true
+          },
+          {
+            "id": "T8_MILK",
+            "qty": 18,
+            "ret": true
+          },
+          {
+            "id": "T8_ALCOHOL",
+            "qty": 18,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 1472,
+        "output": 5,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T8_YARROW",
+            "qty": 72,
+            "ret": true
+          },
+          {
+            "id": "T7_MULLEIN",
+            "qty": 36,
+            "ret": true
+          },
+          {
+            "id": "T5_TEASEL",
+            "qty": 36,
+            "ret": true
+          },
+          {
+            "id": "T8_MILK",
+            "qty": 18,
+            "ret": true
+          },
+          {
+            "id": "T8_ALCOHOL",
+            "qty": 18,
+            "ret": true
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@1",
+            "qty": 45,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T8_POTION_CLEANSE",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@1",
+            "qty": 9,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 1873,
+        "output": 5,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T8_YARROW",
+            "qty": 72,
+            "ret": true
+          },
+          {
+            "id": "T7_MULLEIN",
+            "qty": 36,
+            "ret": true
+          },
+          {
+            "id": "T5_TEASEL",
+            "qty": 36,
+            "ret": true
+          },
+          {
+            "id": "T8_MILK",
+            "qty": 18,
+            "ret": true
+          },
+          {
+            "id": "T8_ALCOHOL",
+            "qty": 18,
+            "ret": true
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@2",
+            "qty": 45,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T8_POTION_CLEANSE@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@2",
+            "qty": 9,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 3073,
+        "output": 5,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T8_YARROW",
+            "qty": 72,
+            "ret": true
+          },
+          {
+            "id": "T7_MULLEIN",
+            "qty": 36,
+            "ret": true
+          },
+          {
+            "id": "T5_TEASEL",
+            "qty": 36,
+            "ret": true
+          },
+          {
+            "id": "T8_MILK",
+            "qty": 18,
+            "ret": true
+          },
+          {
+            "id": "T8_ALCOHOL",
+            "qty": 18,
+            "ret": true
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@3",
+            "qty": 45,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T8_POTION_CLEANSE@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@3",
+            "qty": 9,
+            "ret": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T8_POTION_LIFEWARD",
+    "name": "Elder's Lifeward Potion",
+    "tier": 8,
+    "category": "potion",
+    "group": "potion",
+    "station": "Alchemist's Lab",
+    "study": true,
+    "weight": 1.46,
+    "journal": null,
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 1296,
+        "output": 10,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T8_ALCHEMY_RARE_DRAGONAREA",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T8_YARROW",
+            "qty": 144,
+            "ret": true
+          },
+          {
+            "id": "T7_MULLEIN",
+            "qty": 72,
+            "ret": true
+          },
+          {
+            "id": "T5_TEASEL",
+            "qty": 72,
+            "ret": true
+          },
+          {
+            "id": "T2_AGARIC",
+            "qty": 36,
+            "ret": true
+          },
+          {
+            "id": "T8_ALCOHOL",
+            "qty": 36,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 1496,
+        "output": 10,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T8_ALCHEMY_RARE_DRAGONAREA",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T8_YARROW",
+            "qty": 144,
+            "ret": true
+          },
+          {
+            "id": "T7_MULLEIN",
+            "qty": 72,
+            "ret": true
+          },
+          {
+            "id": "T5_TEASEL",
+            "qty": 72,
+            "ret": true
+          },
+          {
+            "id": "T2_AGARIC",
+            "qty": 36,
+            "ret": true
+          },
+          {
+            "id": "T8_ALCOHOL",
+            "qty": 36,
+            "ret": true
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@1",
+            "qty": 90,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T8_POTION_LIFEWARD",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@1",
+            "qty": 9,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 1896,
+        "output": 10,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T8_ALCHEMY_RARE_DRAGONAREA",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T8_YARROW",
+            "qty": 144,
+            "ret": true
+          },
+          {
+            "id": "T7_MULLEIN",
+            "qty": 72,
+            "ret": true
+          },
+          {
+            "id": "T5_TEASEL",
+            "qty": 72,
+            "ret": true
+          },
+          {
+            "id": "T2_AGARIC",
+            "qty": 36,
+            "ret": true
+          },
+          {
+            "id": "T8_ALCOHOL",
+            "qty": 36,
+            "ret": true
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@2",
+            "qty": 90,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T8_POTION_LIFEWARD@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@2",
+            "qty": 9,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 3097,
+        "output": 10,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T8_ALCHEMY_RARE_DRAGONAREA",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T8_YARROW",
+            "qty": 144,
+            "ret": true
+          },
+          {
+            "id": "T7_MULLEIN",
+            "qty": 72,
+            "ret": true
+          },
+          {
+            "id": "T5_TEASEL",
+            "qty": 72,
+            "ret": true
+          },
+          {
+            "id": "T2_AGARIC",
+            "qty": 36,
+            "ret": true
+          },
+          {
+            "id": "T8_ALCOHOL",
+            "qty": 36,
+            "ret": true
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@3",
+            "qty": 90,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T8_POTION_LIFEWARD@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@3",
+            "qty": 9,
+            "ret": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T8_POTION_COOLDOWN",
+    "name": "Elder's Poison Potion",
+    "tier": 8,
+    "category": "potion",
+    "group": "potion",
+    "station": "Alchemist's Lab",
+    "study": true,
+    "weight": 1.44,
+    "journal": null,
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 1272,
+        "output": 5,
+        "silver": 0,
+        "value": 1440,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T8_YARROW",
+            "qty": 72,
+            "ret": true
+          },
+          {
+            "id": "T7_MULLEIN",
+            "qty": 36,
+            "ret": true
+          },
+          {
+            "id": "T5_TEASEL",
+            "qty": 36,
+            "ret": true
+          },
+          {
+            "id": "T8_MILK",
+            "qty": 18,
+            "ret": true
+          },
+          {
+            "id": "T8_ALCOHOL",
+            "qty": 18,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 1472,
+        "output": 5,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T8_YARROW",
+            "qty": 72,
+            "ret": true
+          },
+          {
+            "id": "T7_MULLEIN",
+            "qty": 36,
+            "ret": true
+          },
+          {
+            "id": "T5_TEASEL",
+            "qty": 36,
+            "ret": true
+          },
+          {
+            "id": "T8_MILK",
+            "qty": 18,
+            "ret": true
+          },
+          {
+            "id": "T8_ALCOHOL",
+            "qty": 18,
+            "ret": true
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@1",
+            "qty": 45,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T8_POTION_COOLDOWN",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@1",
+            "qty": 9,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 1873,
+        "output": 5,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T8_YARROW",
+            "qty": 72,
+            "ret": true
+          },
+          {
+            "id": "T7_MULLEIN",
+            "qty": 36,
+            "ret": true
+          },
+          {
+            "id": "T5_TEASEL",
+            "qty": 36,
+            "ret": true
+          },
+          {
+            "id": "T8_MILK",
+            "qty": 18,
+            "ret": true
+          },
+          {
+            "id": "T8_ALCOHOL",
+            "qty": 18,
+            "ret": true
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@2",
+            "qty": 45,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T8_POTION_COOLDOWN@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@2",
+            "qty": 9,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 3073,
+        "output": 5,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T8_YARROW",
+            "qty": 72,
+            "ret": true
+          },
+          {
+            "id": "T7_MULLEIN",
+            "qty": 36,
+            "ret": true
+          },
+          {
+            "id": "T5_TEASEL",
+            "qty": 36,
+            "ret": true
+          },
+          {
+            "id": "T8_MILK",
+            "qty": 18,
+            "ret": true
+          },
+          {
+            "id": "T8_ALCOHOL",
+            "qty": 18,
+            "ret": true
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@3",
+            "qty": 45,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T8_POTION_COOLDOWN@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@3",
+            "qty": 9,
+            "ret": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T8_POTION_TORNADO",
+    "name": "Elder's Tornado in a Bottle",
+    "tier": 8,
+    "category": "potion",
+    "group": "potion",
+    "station": "Alchemist's Lab",
+    "study": true,
+    "weight": 1.46,
+    "journal": null,
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 1296,
+        "output": 10,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T7_ALCHEMY_RARE_EAGLE",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T8_YARROW",
+            "qty": 144,
+            "ret": true
+          },
+          {
+            "id": "T7_MULLEIN",
+            "qty": 72,
+            "ret": true
+          },
+          {
+            "id": "T7_ALCOHOL",
+            "qty": 72,
+            "ret": true
+          },
+          {
+            "id": "T5_EGG",
+            "qty": 36,
+            "ret": true
+          },
+          {
+            "id": "T8_ALCOHOL",
+            "qty": 36,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 1496,
+        "output": 10,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T7_ALCHEMY_RARE_EAGLE",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T8_YARROW",
+            "qty": 144,
+            "ret": true
+          },
+          {
+            "id": "T7_MULLEIN",
+            "qty": 72,
+            "ret": true
+          },
+          {
+            "id": "T7_ALCOHOL",
+            "qty": 72,
+            "ret": true
+          },
+          {
+            "id": "T5_EGG",
+            "qty": 36,
+            "ret": true
+          },
+          {
+            "id": "T8_ALCOHOL",
+            "qty": 36,
+            "ret": true
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@1",
+            "qty": 90,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T8_POTION_TORNADO",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@1",
+            "qty": 9,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 1896,
+        "output": 10,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T7_ALCHEMY_RARE_EAGLE",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T8_YARROW",
+            "qty": 144,
+            "ret": true
+          },
+          {
+            "id": "T7_MULLEIN",
+            "qty": 72,
+            "ret": true
+          },
+          {
+            "id": "T7_ALCOHOL",
+            "qty": 72,
+            "ret": true
+          },
+          {
+            "id": "T5_EGG",
+            "qty": 36,
+            "ret": true
+          },
+          {
+            "id": "T8_ALCOHOL",
+            "qty": 36,
+            "ret": true
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@2",
+            "qty": 90,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T8_POTION_TORNADO@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@2",
+            "qty": 9,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 3097,
+        "output": 10,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T7_ALCHEMY_RARE_EAGLE",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T8_YARROW",
+            "qty": 144,
+            "ret": true
+          },
+          {
+            "id": "T7_MULLEIN",
+            "qty": 72,
+            "ret": true
+          },
+          {
+            "id": "T7_ALCOHOL",
+            "qty": 72,
+            "ret": true
+          },
+          {
+            "id": "T5_EGG",
+            "qty": 36,
+            "ret": true
+          },
+          {
+            "id": "T8_ALCOHOL",
+            "qty": 36,
+            "ret": true
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@3",
+            "qty": 90,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 0,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T8_POTION_TORNADO@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T1_ALCHEMY_EXTRACT@3",
+            "qty": 9,
+            "ret": false
+          }
+        ]
+      }
+    ]
+  }
+]

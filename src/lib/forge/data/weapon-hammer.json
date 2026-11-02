@@ -1,0 +1,7771 @@
+[
+  {
+    "id": "T3_MAIN_HAMMER",
+    "name": "Journeyman's Hammer",
+    "tier": 3,
+    "category": "hammer",
+    "group": "weapon",
+    "station": "Warrior's Forge",
+    "study": true,
+    "weight": 3.4,
+    "journal": "WARRIOR",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 735,
+        "output": 1,
+        "silver": 0,
+        "value": 192,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T3_METALBAR",
+            "qty": 24,
+            "ret": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T4_2H_DUALHAMMER_HELL",
+    "name": "Adept's Forge Hammers",
+    "tier": 4,
+    "category": "hammer",
+    "group": "weapon",
+    "station": "Warrior's Forge",
+    "study": true,
+    "weight": 6.8,
+    "journal": "WARRIOR",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 1715,
+        "output": 1,
+        "silver": 0,
+        "value": 896,
+        "fame": 864,
+        "mats": [
+          {
+            "id": "T4_METALBAR",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T4_CLOTH",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T4_ARTEFACT_2H_DUALHAMMER_HELL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 3001,
+        "output": 1,
+        "silver": 0,
+        "value": 1408,
+        "fame": 1728,
+        "mats": [
+          {
+            "id": "T4_METALBAR@1",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T4_CLOTH@1",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T4_ARTEFACT_2H_DUALHAMMER_HELL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 1408,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T4_2H_DUALHAMMER_HELL",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T4_RUNE",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 5252,
+        "output": 1,
+        "silver": 0,
+        "value": 2432,
+        "fame": 3456,
+        "mats": [
+          {
+            "id": "T4_METALBAR@2",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T4_CLOTH@2",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T4_ARTEFACT_2H_DUALHAMMER_HELL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 2432,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T4_2H_DUALHAMMER_HELL@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T4_SOUL",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 9191,
+        "output": 1,
+        "silver": 0,
+        "value": 4480,
+        "fame": 6912,
+        "mats": [
+          {
+            "id": "T4_METALBAR@3",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T4_CLOTH@3",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T4_ARTEFACT_2H_DUALHAMMER_HELL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 4480,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T4_2H_DUALHAMMER_HELL@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T4_RELIC",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 16085,
+        "output": 1,
+        "silver": 0,
+        "value": 8576,
+        "fame": 13824,
+        "mats": [
+          {
+            "id": "T4_METALBAR@4",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T4_CLOTH@4",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T4_ARTEFACT_2H_DUALHAMMER_HELL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T4_2H_HAMMER",
+    "name": "Adept's Great Hammer",
+    "tier": 4,
+    "category": "hammer",
+    "group": "weapon",
+    "station": "Warrior's Forge",
+    "study": true,
+    "weight": 6.8,
+    "journal": "WARRIOR",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 1715,
+        "output": 1,
+        "silver": 0,
+        "value": 512,
+        "fame": 720,
+        "mats": [
+          {
+            "id": "T4_METALBAR",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T4_CLOTH",
+            "qty": 12,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 3001,
+        "output": 1,
+        "silver": 0,
+        "value": 1024,
+        "fame": 1440,
+        "mats": [
+          {
+            "id": "T4_METALBAR@1",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T4_CLOTH@1",
+            "qty": 12,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 1024,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T4_2H_HAMMER",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T4_RUNE",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 5252,
+        "output": 1,
+        "silver": 0,
+        "value": 2048,
+        "fame": 2880,
+        "mats": [
+          {
+            "id": "T4_METALBAR@2",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T4_CLOTH@2",
+            "qty": 12,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 2048,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T4_2H_HAMMER@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T4_SOUL",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 9191,
+        "output": 1,
+        "silver": 0,
+        "value": 4096,
+        "fame": 5760,
+        "mats": [
+          {
+            "id": "T4_METALBAR@3",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T4_CLOTH@3",
+            "qty": 12,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 4096,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T4_2H_HAMMER@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T4_RELIC",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 16085,
+        "output": 1,
+        "silver": 0,
+        "value": 8192,
+        "fame": 11520,
+        "mats": [
+          {
+            "id": "T4_METALBAR@4",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T4_CLOTH@4",
+            "qty": 12,
+            "ret": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T4_2H_HAMMER_AVALON",
+    "name": "Adept's Hand of Justice",
+    "tier": 4,
+    "category": "hammer",
+    "group": "weapon",
+    "station": "Warrior's Forge",
+    "study": true,
+    "weight": 6.8,
+    "journal": "WARRIOR",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 1715,
+        "output": 1,
+        "silver": 0,
+        "value": 2432,
+        "fame": 1008,
+        "mats": [
+          {
+            "id": "T4_METALBAR",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T4_CLOTH",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T4_ARTEFACT_2H_HAMMER_AVALON",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 3001,
+        "output": 1,
+        "silver": 0,
+        "value": 2944,
+        "fame": 2016,
+        "mats": [
+          {
+            "id": "T4_METALBAR@1",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T4_CLOTH@1",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T4_ARTEFACT_2H_HAMMER_AVALON",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 2944,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T4_2H_HAMMER_AVALON",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T4_RUNE",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 5252,
+        "output": 1,
+        "silver": 0,
+        "value": 3968,
+        "fame": 4032,
+        "mats": [
+          {
+            "id": "T4_METALBAR@2",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T4_CLOTH@2",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T4_ARTEFACT_2H_HAMMER_AVALON",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 3968,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T4_2H_HAMMER_AVALON@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T4_SOUL",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 9191,
+        "output": 1,
+        "silver": 0,
+        "value": 6016,
+        "fame": 8064,
+        "mats": [
+          {
+            "id": "T4_METALBAR@3",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T4_CLOTH@3",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T4_ARTEFACT_2H_HAMMER_AVALON",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 6016,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T4_2H_HAMMER_AVALON@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T4_RELIC",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 16085,
+        "output": 1,
+        "silver": 0,
+        "value": 10112,
+        "fame": 16128,
+        "mats": [
+          {
+            "id": "T4_METALBAR@4",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T4_CLOTH@4",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T4_ARTEFACT_2H_HAMMER_AVALON",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T4_2H_HAMMER_CRYSTAL",
+    "name": "Adept's Truebolt Hammer",
+    "tier": 4,
+    "category": "hammer",
+    "group": "weapon",
+    "station": "Warrior's Forge",
+    "study": true,
+    "weight": 6.8,
+    "journal": "WARRIOR",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 1715,
+        "output": 1,
+        "silver": 0,
+        "value": 2432,
+        "fame": 1008,
+        "mats": [
+          {
+            "id": "T4_METALBAR",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T4_CLOTH",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T4_ARTEFACT_2H_HAMMER_CRYSTAL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 3001,
+        "output": 1,
+        "silver": 0,
+        "value": 2944,
+        "fame": 2016,
+        "mats": [
+          {
+            "id": "T4_METALBAR@1",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T4_CLOTH@1",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T4_ARTEFACT_2H_HAMMER_CRYSTAL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 2944,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T4_2H_HAMMER_CRYSTAL",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T4_RUNE",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 5252,
+        "output": 1,
+        "silver": 0,
+        "value": 3968,
+        "fame": 4032,
+        "mats": [
+          {
+            "id": "T4_METALBAR@2",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T4_CLOTH@2",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T4_ARTEFACT_2H_HAMMER_CRYSTAL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 3968,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T4_2H_HAMMER_CRYSTAL@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T4_SOUL",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 9191,
+        "output": 1,
+        "silver": 0,
+        "value": 6016,
+        "fame": 8064,
+        "mats": [
+          {
+            "id": "T4_METALBAR@3",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T4_CLOTH@3",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T4_ARTEFACT_2H_HAMMER_CRYSTAL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 6016,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T4_2H_HAMMER_CRYSTAL@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T4_RELIC",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 16085,
+        "output": 1,
+        "silver": 0,
+        "value": 10112,
+        "fame": 16128,
+        "mats": [
+          {
+            "id": "T4_METALBAR@4",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T4_CLOTH@4",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T4_ARTEFACT_2H_HAMMER_CRYSTAL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T4_2H_HAMMER_UNDEAD",
+    "name": "Adept's Tombhammer",
+    "tier": 4,
+    "category": "hammer",
+    "group": "weapon",
+    "station": "Warrior's Forge",
+    "study": true,
+    "weight": 6.8,
+    "journal": "WARRIOR",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 1715,
+        "output": 1,
+        "silver": 0,
+        "value": 640,
+        "fame": 792,
+        "mats": [
+          {
+            "id": "T4_METALBAR",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T4_CLOTH",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T4_ARTEFACT_2H_HAMMER_UNDEAD",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 3001,
+        "output": 1,
+        "silver": 0,
+        "value": 1152,
+        "fame": 1584,
+        "mats": [
+          {
+            "id": "T4_METALBAR@1",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T4_CLOTH@1",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T4_ARTEFACT_2H_HAMMER_UNDEAD",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 1152,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T4_2H_HAMMER_UNDEAD",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T4_RUNE",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 5252,
+        "output": 1,
+        "silver": 0,
+        "value": 2176,
+        "fame": 3168,
+        "mats": [
+          {
+            "id": "T4_METALBAR@2",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T4_CLOTH@2",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T4_ARTEFACT_2H_HAMMER_UNDEAD",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 2176,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T4_2H_HAMMER_UNDEAD@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T4_SOUL",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 9191,
+        "output": 1,
+        "silver": 0,
+        "value": 4224,
+        "fame": 6336,
+        "mats": [
+          {
+            "id": "T4_METALBAR@3",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T4_CLOTH@3",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T4_ARTEFACT_2H_HAMMER_UNDEAD",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 4224,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T4_2H_HAMMER_UNDEAD@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T4_RELIC",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 16085,
+        "output": 1,
+        "silver": 0,
+        "value": 8320,
+        "fame": 12672,
+        "mats": [
+          {
+            "id": "T4_METALBAR@4",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T4_CLOTH@4",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T4_ARTEFACT_2H_HAMMER_UNDEAD",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T4_MAIN_HAMMER",
+    "name": "Adept's Hammer",
+    "tier": 4,
+    "category": "hammer",
+    "group": "weapon",
+    "station": "Warrior's Forge",
+    "study": true,
+    "weight": 5.1,
+    "journal": "WARRIOR",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 1286,
+        "output": 1,
+        "silver": 0,
+        "value": 384,
+        "fame": 540,
+        "mats": [
+          {
+            "id": "T4_METALBAR",
+            "qty": 24,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 2251,
+        "output": 1,
+        "silver": 0,
+        "value": 768,
+        "fame": 1080,
+        "mats": [
+          {
+            "id": "T4_METALBAR@1",
+            "qty": 24,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 768,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T4_MAIN_HAMMER",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T4_RUNE",
+            "qty": 288,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 3939,
+        "output": 1,
+        "silver": 0,
+        "value": 1536,
+        "fame": 2160,
+        "mats": [
+          {
+            "id": "T4_METALBAR@2",
+            "qty": 24,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 1536,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T4_MAIN_HAMMER@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T4_SOUL",
+            "qty": 288,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 6893,
+        "output": 1,
+        "silver": 0,
+        "value": 3072,
+        "fame": 4320,
+        "mats": [
+          {
+            "id": "T4_METALBAR@3",
+            "qty": 24,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 3072,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T4_MAIN_HAMMER@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T4_RELIC",
+            "qty": 288,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 12064,
+        "output": 1,
+        "silver": 0,
+        "value": 6144,
+        "fame": 8640,
+        "mats": [
+          {
+            "id": "T4_METALBAR@4",
+            "qty": 24,
+            "ret": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T4_2H_POLEHAMMER",
+    "name": "Adept's Polehammer",
+    "tier": 4,
+    "category": "hammer",
+    "group": "weapon",
+    "station": "Warrior's Forge",
+    "study": true,
+    "weight": 6.8,
+    "journal": "WARRIOR",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 1715,
+        "output": 1,
+        "silver": 0,
+        "value": 512,
+        "fame": 720,
+        "mats": [
+          {
+            "id": "T4_METALBAR",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T4_CLOTH",
+            "qty": 12,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 3001,
+        "output": 1,
+        "silver": 0,
+        "value": 1024,
+        "fame": 1440,
+        "mats": [
+          {
+            "id": "T4_METALBAR@1",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T4_CLOTH@1",
+            "qty": 12,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 1024,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T4_2H_POLEHAMMER",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T4_RUNE",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 5252,
+        "output": 1,
+        "silver": 0,
+        "value": 2048,
+        "fame": 2880,
+        "mats": [
+          {
+            "id": "T4_METALBAR@2",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T4_CLOTH@2",
+            "qty": 12,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 2048,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T4_2H_POLEHAMMER@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T4_SOUL",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 9191,
+        "output": 1,
+        "silver": 0,
+        "value": 4096,
+        "fame": 5760,
+        "mats": [
+          {
+            "id": "T4_METALBAR@3",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T4_CLOTH@3",
+            "qty": 12,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 4096,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T4_2H_POLEHAMMER@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T4_RELIC",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 16085,
+        "output": 1,
+        "silver": 0,
+        "value": 8192,
+        "fame": 11520,
+        "mats": [
+          {
+            "id": "T4_METALBAR@4",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T4_CLOTH@4",
+            "qty": 12,
+            "ret": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T4_2H_RAM_KEEPER",
+    "name": "Adept's Grovekeeper",
+    "tier": 4,
+    "category": "hammer",
+    "group": "weapon",
+    "station": "Warrior's Forge",
+    "study": true,
+    "weight": 6.8,
+    "journal": "WARRIOR",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 1715,
+        "output": 1,
+        "silver": 0,
+        "value": 1408,
+        "fame": 936,
+        "mats": [
+          {
+            "id": "T4_METALBAR",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T4_CLOTH",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T4_ARTEFACT_2H_RAM_KEEPER",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 3001,
+        "output": 1,
+        "silver": 0,
+        "value": 1920,
+        "fame": 1872,
+        "mats": [
+          {
+            "id": "T4_METALBAR@1",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T4_CLOTH@1",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T4_ARTEFACT_2H_RAM_KEEPER",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 1920,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T4_2H_RAM_KEEPER",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T4_RUNE",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 5252,
+        "output": 1,
+        "silver": 0,
+        "value": 2944,
+        "fame": 3744,
+        "mats": [
+          {
+            "id": "T4_METALBAR@2",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T4_CLOTH@2",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T4_ARTEFACT_2H_RAM_KEEPER",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 2944,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T4_2H_RAM_KEEPER@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T4_SOUL",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 9191,
+        "output": 1,
+        "silver": 0,
+        "value": 4992,
+        "fame": 7488,
+        "mats": [
+          {
+            "id": "T4_METALBAR@3",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T4_CLOTH@3",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T4_ARTEFACT_2H_RAM_KEEPER",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 4992,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T4_2H_RAM_KEEPER@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T4_RELIC",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 16085,
+        "output": 1,
+        "silver": 0,
+        "value": 9088,
+        "fame": 14976,
+        "mats": [
+          {
+            "id": "T4_METALBAR@4",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T4_CLOTH@4",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T4_ARTEFACT_2H_RAM_KEEPER",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T5_2H_DUALHAMMER_HELL",
+    "name": "Expert's Forge Hammers",
+    "tier": 5,
+    "category": "hammer",
+    "group": "weapon",
+    "station": "Warrior's Forge",
+    "study": true,
+    "weight": 10.1,
+    "journal": "WARRIOR",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 3001,
+        "output": 1,
+        "silver": 0,
+        "value": 1792,
+        "fame": 3456,
+        "mats": [
+          {
+            "id": "T5_METALBAR",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T5_CLOTH",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T5_ARTEFACT_2H_DUALHAMMER_HELL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 5252,
+        "output": 1,
+        "silver": 0,
+        "value": 2816,
+        "fame": 6912,
+        "mats": [
+          {
+            "id": "T5_METALBAR@1",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T5_CLOTH@1",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T5_ARTEFACT_2H_DUALHAMMER_HELL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 2816,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T5_2H_DUALHAMMER_HELL",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T5_RUNE",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 9191,
+        "output": 1,
+        "silver": 0,
+        "value": 4864,
+        "fame": 13824,
+        "mats": [
+          {
+            "id": "T5_METALBAR@2",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T5_CLOTH@2",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T5_ARTEFACT_2H_DUALHAMMER_HELL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 4864,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T5_2H_DUALHAMMER_HELL@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T5_SOUL",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 16085,
+        "output": 1,
+        "silver": 0,
+        "value": 8960,
+        "fame": 27648,
+        "mats": [
+          {
+            "id": "T5_METALBAR@3",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T5_CLOTH@3",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T5_ARTEFACT_2H_DUALHAMMER_HELL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 8960,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T5_2H_DUALHAMMER_HELL@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T5_RELIC",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 28148,
+        "output": 1,
+        "silver": 0,
+        "value": 17152,
+        "fame": 55296,
+        "mats": [
+          {
+            "id": "T5_METALBAR@4",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T5_CLOTH@4",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T5_ARTEFACT_2H_DUALHAMMER_HELL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T5_2H_HAMMER",
+    "name": "Expert's Great Hammer",
+    "tier": 5,
+    "category": "hammer",
+    "group": "weapon",
+    "station": "Warrior's Forge",
+    "study": true,
+    "weight": 10.1,
+    "journal": "WARRIOR",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 3001,
+        "output": 1,
+        "silver": 0,
+        "value": 1024,
+        "fame": 2880,
+        "mats": [
+          {
+            "id": "T5_METALBAR",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T5_CLOTH",
+            "qty": 12,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 5252,
+        "output": 1,
+        "silver": 0,
+        "value": 2048,
+        "fame": 5760,
+        "mats": [
+          {
+            "id": "T5_METALBAR@1",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T5_CLOTH@1",
+            "qty": 12,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 2048,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T5_2H_HAMMER",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T5_RUNE",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 9191,
+        "output": 1,
+        "silver": 0,
+        "value": 4096,
+        "fame": 11520,
+        "mats": [
+          {
+            "id": "T5_METALBAR@2",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T5_CLOTH@2",
+            "qty": 12,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 4096,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T5_2H_HAMMER@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T5_SOUL",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 16085,
+        "output": 1,
+        "silver": 0,
+        "value": 8192,
+        "fame": 23040,
+        "mats": [
+          {
+            "id": "T5_METALBAR@3",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T5_CLOTH@3",
+            "qty": 12,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 8192,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T5_2H_HAMMER@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T5_RELIC",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 28148,
+        "output": 1,
+        "silver": 0,
+        "value": 16384,
+        "fame": 46080,
+        "mats": [
+          {
+            "id": "T5_METALBAR@4",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T5_CLOTH@4",
+            "qty": 12,
+            "ret": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T5_2H_HAMMER_AVALON",
+    "name": "Expert's Hand of Justice",
+    "tier": 5,
+    "category": "hammer",
+    "group": "weapon",
+    "station": "Warrior's Forge",
+    "study": true,
+    "weight": 10.1,
+    "journal": "WARRIOR",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 3001,
+        "output": 1,
+        "silver": 0,
+        "value": 4864,
+        "fame": 4032,
+        "mats": [
+          {
+            "id": "T5_METALBAR",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T5_CLOTH",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T5_ARTEFACT_2H_HAMMER_AVALON",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 5252,
+        "output": 1,
+        "silver": 0,
+        "value": 5888,
+        "fame": 8064,
+        "mats": [
+          {
+            "id": "T5_METALBAR@1",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T5_CLOTH@1",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T5_ARTEFACT_2H_HAMMER_AVALON",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 5888,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T5_2H_HAMMER_AVALON",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T5_RUNE",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 9191,
+        "output": 1,
+        "silver": 0,
+        "value": 7936,
+        "fame": 16128,
+        "mats": [
+          {
+            "id": "T5_METALBAR@2",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T5_CLOTH@2",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T5_ARTEFACT_2H_HAMMER_AVALON",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 7936,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T5_2H_HAMMER_AVALON@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T5_SOUL",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 16085,
+        "output": 1,
+        "silver": 0,
+        "value": 12032,
+        "fame": 32256,
+        "mats": [
+          {
+            "id": "T5_METALBAR@3",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T5_CLOTH@3",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T5_ARTEFACT_2H_HAMMER_AVALON",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 12032,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T5_2H_HAMMER_AVALON@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T5_RELIC",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 28148,
+        "output": 1,
+        "silver": 0,
+        "value": 20224,
+        "fame": 64512,
+        "mats": [
+          {
+            "id": "T5_METALBAR@4",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T5_CLOTH@4",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T5_ARTEFACT_2H_HAMMER_AVALON",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T5_2H_HAMMER_CRYSTAL",
+    "name": "Expert's Truebolt Hammer",
+    "tier": 5,
+    "category": "hammer",
+    "group": "weapon",
+    "station": "Warrior's Forge",
+    "study": true,
+    "weight": 10.1,
+    "journal": "WARRIOR",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 3001,
+        "output": 1,
+        "silver": 0,
+        "value": 4864,
+        "fame": 4032,
+        "mats": [
+          {
+            "id": "T5_METALBAR",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T5_CLOTH",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T5_ARTEFACT_2H_HAMMER_CRYSTAL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 5252,
+        "output": 1,
+        "silver": 0,
+        "value": 5888,
+        "fame": 8064,
+        "mats": [
+          {
+            "id": "T5_METALBAR@1",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T5_CLOTH@1",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T5_ARTEFACT_2H_HAMMER_CRYSTAL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 5888,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T5_2H_HAMMER_CRYSTAL",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T5_RUNE",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 9191,
+        "output": 1,
+        "silver": 0,
+        "value": 7936,
+        "fame": 16128,
+        "mats": [
+          {
+            "id": "T5_METALBAR@2",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T5_CLOTH@2",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T5_ARTEFACT_2H_HAMMER_CRYSTAL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 7936,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T5_2H_HAMMER_CRYSTAL@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T5_SOUL",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 16085,
+        "output": 1,
+        "silver": 0,
+        "value": 12032,
+        "fame": 32256,
+        "mats": [
+          {
+            "id": "T5_METALBAR@3",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T5_CLOTH@3",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T5_ARTEFACT_2H_HAMMER_CRYSTAL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 12032,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T5_2H_HAMMER_CRYSTAL@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T5_RELIC",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 28148,
+        "output": 1,
+        "silver": 0,
+        "value": 20224,
+        "fame": 64512,
+        "mats": [
+          {
+            "id": "T5_METALBAR@4",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T5_CLOTH@4",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T5_ARTEFACT_2H_HAMMER_CRYSTAL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T5_2H_HAMMER_UNDEAD",
+    "name": "Expert's Tombhammer",
+    "tier": 5,
+    "category": "hammer",
+    "group": "weapon",
+    "station": "Warrior's Forge",
+    "study": true,
+    "weight": 10.1,
+    "journal": "WARRIOR",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 3001,
+        "output": 1,
+        "silver": 0,
+        "value": 1280,
+        "fame": 3168,
+        "mats": [
+          {
+            "id": "T5_METALBAR",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T5_CLOTH",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T5_ARTEFACT_2H_HAMMER_UNDEAD",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 5252,
+        "output": 1,
+        "silver": 0,
+        "value": 2304,
+        "fame": 6336,
+        "mats": [
+          {
+            "id": "T5_METALBAR@1",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T5_CLOTH@1",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T5_ARTEFACT_2H_HAMMER_UNDEAD",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 2304,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T5_2H_HAMMER_UNDEAD",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T5_RUNE",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 9191,
+        "output": 1,
+        "silver": 0,
+        "value": 4352,
+        "fame": 12672,
+        "mats": [
+          {
+            "id": "T5_METALBAR@2",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T5_CLOTH@2",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T5_ARTEFACT_2H_HAMMER_UNDEAD",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 4352,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T5_2H_HAMMER_UNDEAD@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T5_SOUL",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 16085,
+        "output": 1,
+        "silver": 0,
+        "value": 8448,
+        "fame": 25344,
+        "mats": [
+          {
+            "id": "T5_METALBAR@3",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T5_CLOTH@3",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T5_ARTEFACT_2H_HAMMER_UNDEAD",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 8448,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T5_2H_HAMMER_UNDEAD@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T5_RELIC",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 28148,
+        "output": 1,
+        "silver": 0,
+        "value": 16640,
+        "fame": 50688,
+        "mats": [
+          {
+            "id": "T5_METALBAR@4",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T5_CLOTH@4",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T5_ARTEFACT_2H_HAMMER_UNDEAD",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T5_MAIN_HAMMER",
+    "name": "Expert's Hammer",
+    "tier": 5,
+    "category": "hammer",
+    "group": "weapon",
+    "station": "Warrior's Forge",
+    "study": true,
+    "weight": 7.6,
+    "journal": "WARRIOR",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 2251,
+        "output": 1,
+        "silver": 0,
+        "value": 768,
+        "fame": 2160,
+        "mats": [
+          {
+            "id": "T5_METALBAR",
+            "qty": 24,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 3939,
+        "output": 1,
+        "silver": 0,
+        "value": 1536,
+        "fame": 4320,
+        "mats": [
+          {
+            "id": "T5_METALBAR@1",
+            "qty": 24,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 1536,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T5_MAIN_HAMMER",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T5_RUNE",
+            "qty": 288,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 6893,
+        "output": 1,
+        "silver": 0,
+        "value": 3072,
+        "fame": 8640,
+        "mats": [
+          {
+            "id": "T5_METALBAR@2",
+            "qty": 24,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 3072,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T5_MAIN_HAMMER@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T5_SOUL",
+            "qty": 288,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 12064,
+        "output": 1,
+        "silver": 0,
+        "value": 6144,
+        "fame": 17280,
+        "mats": [
+          {
+            "id": "T5_METALBAR@3",
+            "qty": 24,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 6144,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T5_MAIN_HAMMER@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T5_RELIC",
+            "qty": 288,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 21111,
+        "output": 1,
+        "silver": 0,
+        "value": 12288,
+        "fame": 34560,
+        "mats": [
+          {
+            "id": "T5_METALBAR@4",
+            "qty": 24,
+            "ret": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T5_2H_POLEHAMMER",
+    "name": "Expert's Polehammer",
+    "tier": 5,
+    "category": "hammer",
+    "group": "weapon",
+    "station": "Warrior's Forge",
+    "study": true,
+    "weight": 10.1,
+    "journal": "WARRIOR",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 3001,
+        "output": 1,
+        "silver": 0,
+        "value": 1024,
+        "fame": 2880,
+        "mats": [
+          {
+            "id": "T5_METALBAR",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T5_CLOTH",
+            "qty": 12,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 5252,
+        "output": 1,
+        "silver": 0,
+        "value": 2048,
+        "fame": 5760,
+        "mats": [
+          {
+            "id": "T5_METALBAR@1",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T5_CLOTH@1",
+            "qty": 12,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 2048,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T5_2H_POLEHAMMER",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T5_RUNE",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 9191,
+        "output": 1,
+        "silver": 0,
+        "value": 4096,
+        "fame": 11520,
+        "mats": [
+          {
+            "id": "T5_METALBAR@2",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T5_CLOTH@2",
+            "qty": 12,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 4096,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T5_2H_POLEHAMMER@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T5_SOUL",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 16085,
+        "output": 1,
+        "silver": 0,
+        "value": 8192,
+        "fame": 23040,
+        "mats": [
+          {
+            "id": "T5_METALBAR@3",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T5_CLOTH@3",
+            "qty": 12,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 8192,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T5_2H_POLEHAMMER@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T5_RELIC",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 28148,
+        "output": 1,
+        "silver": 0,
+        "value": 16384,
+        "fame": 46080,
+        "mats": [
+          {
+            "id": "T5_METALBAR@4",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T5_CLOTH@4",
+            "qty": 12,
+            "ret": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T5_2H_RAM_KEEPER",
+    "name": "Expert's Grovekeeper",
+    "tier": 5,
+    "category": "hammer",
+    "group": "weapon",
+    "station": "Warrior's Forge",
+    "study": true,
+    "weight": 10.1,
+    "journal": "WARRIOR",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 3001,
+        "output": 1,
+        "silver": 0,
+        "value": 2816,
+        "fame": 3744,
+        "mats": [
+          {
+            "id": "T5_METALBAR",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T5_CLOTH",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T5_ARTEFACT_2H_RAM_KEEPER",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 5252,
+        "output": 1,
+        "silver": 0,
+        "value": 3840,
+        "fame": 7488,
+        "mats": [
+          {
+            "id": "T5_METALBAR@1",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T5_CLOTH@1",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T5_ARTEFACT_2H_RAM_KEEPER",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 3840,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T5_2H_RAM_KEEPER",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T5_RUNE",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 9191,
+        "output": 1,
+        "silver": 0,
+        "value": 5888,
+        "fame": 14976,
+        "mats": [
+          {
+            "id": "T5_METALBAR@2",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T5_CLOTH@2",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T5_ARTEFACT_2H_RAM_KEEPER",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 5888,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T5_2H_RAM_KEEPER@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T5_SOUL",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 16085,
+        "output": 1,
+        "silver": 0,
+        "value": 9984,
+        "fame": 29952,
+        "mats": [
+          {
+            "id": "T5_METALBAR@3",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T5_CLOTH@3",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T5_ARTEFACT_2H_RAM_KEEPER",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 9984,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T5_2H_RAM_KEEPER@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T5_RELIC",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 28148,
+        "output": 1,
+        "silver": 0,
+        "value": 18176,
+        "fame": 59904,
+        "mats": [
+          {
+            "id": "T5_METALBAR@4",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T5_CLOTH@4",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T5_ARTEFACT_2H_RAM_KEEPER",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T6_2H_DUALHAMMER_HELL",
+    "name": "Master's Forge Hammers",
+    "tier": 6,
+    "category": "hammer",
+    "group": "weapon",
+    "station": "Warrior's Forge",
+    "study": true,
+    "weight": 15.2,
+    "journal": "WARRIOR",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 5252,
+        "output": 1,
+        "silver": 0,
+        "value": 3584,
+        "fame": 10368,
+        "mats": [
+          {
+            "id": "T6_METALBAR",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T6_CLOTH",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T6_ARTEFACT_2H_DUALHAMMER_HELL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 9191,
+        "output": 1,
+        "silver": 0,
+        "value": 5632,
+        "fame": 20736,
+        "mats": [
+          {
+            "id": "T6_METALBAR@1",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T6_CLOTH@1",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T6_ARTEFACT_2H_DUALHAMMER_HELL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 5632,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T6_2H_DUALHAMMER_HELL",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T6_RUNE",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 16085,
+        "output": 1,
+        "silver": 0,
+        "value": 9728,
+        "fame": 41472,
+        "mats": [
+          {
+            "id": "T6_METALBAR@2",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T6_CLOTH@2",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T6_ARTEFACT_2H_DUALHAMMER_HELL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 9728,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T6_2H_DUALHAMMER_HELL@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T6_SOUL",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 28148,
+        "output": 1,
+        "silver": 0,
+        "value": 17920,
+        "fame": 82944,
+        "mats": [
+          {
+            "id": "T6_METALBAR@3",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T6_CLOTH@3",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T6_ARTEFACT_2H_DUALHAMMER_HELL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 17920,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T6_2H_DUALHAMMER_HELL@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T6_RELIC",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 49260,
+        "output": 1,
+        "silver": 0,
+        "value": 34304,
+        "fame": 165888,
+        "mats": [
+          {
+            "id": "T6_METALBAR@4",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T6_CLOTH@4",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T6_ARTEFACT_2H_DUALHAMMER_HELL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T6_2H_HAMMER",
+    "name": "Master's Great Hammer",
+    "tier": 6,
+    "category": "hammer",
+    "group": "weapon",
+    "station": "Warrior's Forge",
+    "study": true,
+    "weight": 15.2,
+    "journal": "WARRIOR",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 5252,
+        "output": 1,
+        "silver": 0,
+        "value": 2048,
+        "fame": 8640,
+        "mats": [
+          {
+            "id": "T6_METALBAR",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T6_CLOTH",
+            "qty": 12,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 9191,
+        "output": 1,
+        "silver": 0,
+        "value": 4096,
+        "fame": 17280,
+        "mats": [
+          {
+            "id": "T6_METALBAR@1",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T6_CLOTH@1",
+            "qty": 12,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 4096,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T6_2H_HAMMER",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T6_RUNE",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 16085,
+        "output": 1,
+        "silver": 0,
+        "value": 8192,
+        "fame": 34560,
+        "mats": [
+          {
+            "id": "T6_METALBAR@2",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T6_CLOTH@2",
+            "qty": 12,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 8192,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T6_2H_HAMMER@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T6_SOUL",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 28148,
+        "output": 1,
+        "silver": 0,
+        "value": 16384,
+        "fame": 69120,
+        "mats": [
+          {
+            "id": "T6_METALBAR@3",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T6_CLOTH@3",
+            "qty": 12,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 16384,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T6_2H_HAMMER@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T6_RELIC",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 49260,
+        "output": 1,
+        "silver": 0,
+        "value": 32768,
+        "fame": 138240,
+        "mats": [
+          {
+            "id": "T6_METALBAR@4",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T6_CLOTH@4",
+            "qty": 12,
+            "ret": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T6_2H_HAMMER_AVALON",
+    "name": "Master's Hand of Justice",
+    "tier": 6,
+    "category": "hammer",
+    "group": "weapon",
+    "station": "Warrior's Forge",
+    "study": true,
+    "weight": 15.2,
+    "journal": "WARRIOR",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 5252,
+        "output": 1,
+        "silver": 0,
+        "value": 9728,
+        "fame": 12096,
+        "mats": [
+          {
+            "id": "T6_METALBAR",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T6_CLOTH",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T6_ARTEFACT_2H_HAMMER_AVALON",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 9191,
+        "output": 1,
+        "silver": 0,
+        "value": 11776,
+        "fame": 24192,
+        "mats": [
+          {
+            "id": "T6_METALBAR@1",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T6_CLOTH@1",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T6_ARTEFACT_2H_HAMMER_AVALON",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 11776,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T6_2H_HAMMER_AVALON",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T6_RUNE",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 16085,
+        "output": 1,
+        "silver": 0,
+        "value": 15872,
+        "fame": 48384,
+        "mats": [
+          {
+            "id": "T6_METALBAR@2",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T6_CLOTH@2",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T6_ARTEFACT_2H_HAMMER_AVALON",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 15872,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T6_2H_HAMMER_AVALON@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T6_SOUL",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 28148,
+        "output": 1,
+        "silver": 0,
+        "value": 24064,
+        "fame": 96768,
+        "mats": [
+          {
+            "id": "T6_METALBAR@3",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T6_CLOTH@3",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T6_ARTEFACT_2H_HAMMER_AVALON",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 24064,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T6_2H_HAMMER_AVALON@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T6_RELIC",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 49260,
+        "output": 1,
+        "silver": 0,
+        "value": 40448,
+        "fame": 193536,
+        "mats": [
+          {
+            "id": "T6_METALBAR@4",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T6_CLOTH@4",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T6_ARTEFACT_2H_HAMMER_AVALON",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T6_2H_HAMMER_CRYSTAL",
+    "name": "Master's Truebolt Hammer",
+    "tier": 6,
+    "category": "hammer",
+    "group": "weapon",
+    "station": "Warrior's Forge",
+    "study": true,
+    "weight": 15.2,
+    "journal": "WARRIOR",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 5252,
+        "output": 1,
+        "silver": 0,
+        "value": 9728,
+        "fame": 12096,
+        "mats": [
+          {
+            "id": "T6_METALBAR",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T6_CLOTH",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T6_ARTEFACT_2H_HAMMER_CRYSTAL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 9191,
+        "output": 1,
+        "silver": 0,
+        "value": 11776,
+        "fame": 24192,
+        "mats": [
+          {
+            "id": "T6_METALBAR@1",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T6_CLOTH@1",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T6_ARTEFACT_2H_HAMMER_CRYSTAL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 11776,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T6_2H_HAMMER_CRYSTAL",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T6_RUNE",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 16085,
+        "output": 1,
+        "silver": 0,
+        "value": 15872,
+        "fame": 48384,
+        "mats": [
+          {
+            "id": "T6_METALBAR@2",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T6_CLOTH@2",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T6_ARTEFACT_2H_HAMMER_CRYSTAL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 15872,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T6_2H_HAMMER_CRYSTAL@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T6_SOUL",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 28148,
+        "output": 1,
+        "silver": 0,
+        "value": 24064,
+        "fame": 96768,
+        "mats": [
+          {
+            "id": "T6_METALBAR@3",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T6_CLOTH@3",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T6_ARTEFACT_2H_HAMMER_CRYSTAL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 24064,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T6_2H_HAMMER_CRYSTAL@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T6_RELIC",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 49260,
+        "output": 1,
+        "silver": 0,
+        "value": 40448,
+        "fame": 193536,
+        "mats": [
+          {
+            "id": "T6_METALBAR@4",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T6_CLOTH@4",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T6_ARTEFACT_2H_HAMMER_CRYSTAL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T6_2H_HAMMER_UNDEAD",
+    "name": "Master's Tombhammer",
+    "tier": 6,
+    "category": "hammer",
+    "group": "weapon",
+    "station": "Warrior's Forge",
+    "study": true,
+    "weight": 15.2,
+    "journal": "WARRIOR",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 5252,
+        "output": 1,
+        "silver": 0,
+        "value": 2560,
+        "fame": 9504,
+        "mats": [
+          {
+            "id": "T6_METALBAR",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T6_CLOTH",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T6_ARTEFACT_2H_HAMMER_UNDEAD",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 9191,
+        "output": 1,
+        "silver": 0,
+        "value": 4608,
+        "fame": 19008,
+        "mats": [
+          {
+            "id": "T6_METALBAR@1",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T6_CLOTH@1",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T6_ARTEFACT_2H_HAMMER_UNDEAD",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 4608,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T6_2H_HAMMER_UNDEAD",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T6_RUNE",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 16085,
+        "output": 1,
+        "silver": 0,
+        "value": 8704,
+        "fame": 38016,
+        "mats": [
+          {
+            "id": "T6_METALBAR@2",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T6_CLOTH@2",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T6_ARTEFACT_2H_HAMMER_UNDEAD",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 8704,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T6_2H_HAMMER_UNDEAD@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T6_SOUL",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 28148,
+        "output": 1,
+        "silver": 0,
+        "value": 16896,
+        "fame": 76032,
+        "mats": [
+          {
+            "id": "T6_METALBAR@3",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T6_CLOTH@3",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T6_ARTEFACT_2H_HAMMER_UNDEAD",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 16896,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T6_2H_HAMMER_UNDEAD@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T6_RELIC",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 49260,
+        "output": 1,
+        "silver": 0,
+        "value": 33280,
+        "fame": 152064,
+        "mats": [
+          {
+            "id": "T6_METALBAR@4",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T6_CLOTH@4",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T6_ARTEFACT_2H_HAMMER_UNDEAD",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T6_MAIN_HAMMER",
+    "name": "Master's Hammer",
+    "tier": 6,
+    "category": "hammer",
+    "group": "weapon",
+    "station": "Warrior's Forge",
+    "study": true,
+    "weight": 11.4,
+    "journal": "WARRIOR",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 3939,
+        "output": 1,
+        "silver": 0,
+        "value": 1536,
+        "fame": 6480,
+        "mats": [
+          {
+            "id": "T6_METALBAR",
+            "qty": 24,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 6893,
+        "output": 1,
+        "silver": 0,
+        "value": 3072,
+        "fame": 12960,
+        "mats": [
+          {
+            "id": "T6_METALBAR@1",
+            "qty": 24,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 3072,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T6_MAIN_HAMMER",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T6_RUNE",
+            "qty": 288,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 12064,
+        "output": 1,
+        "silver": 0,
+        "value": 6144,
+        "fame": 25920,
+        "mats": [
+          {
+            "id": "T6_METALBAR@2",
+            "qty": 24,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 6144,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T6_MAIN_HAMMER@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T6_SOUL",
+            "qty": 288,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 21111,
+        "output": 1,
+        "silver": 0,
+        "value": 12288,
+        "fame": 51840,
+        "mats": [
+          {
+            "id": "T6_METALBAR@3",
+            "qty": 24,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 12288,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T6_MAIN_HAMMER@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T6_RELIC",
+            "qty": 288,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 36945,
+        "output": 1,
+        "silver": 0,
+        "value": 24576,
+        "fame": 103680,
+        "mats": [
+          {
+            "id": "T6_METALBAR@4",
+            "qty": 24,
+            "ret": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T6_2H_POLEHAMMER",
+    "name": "Master's Polehammer",
+    "tier": 6,
+    "category": "hammer",
+    "group": "weapon",
+    "station": "Warrior's Forge",
+    "study": true,
+    "weight": 15.2,
+    "journal": "WARRIOR",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 5252,
+        "output": 1,
+        "silver": 0,
+        "value": 2048,
+        "fame": 8640,
+        "mats": [
+          {
+            "id": "T6_METALBAR",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T6_CLOTH",
+            "qty": 12,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 9191,
+        "output": 1,
+        "silver": 0,
+        "value": 4096,
+        "fame": 17280,
+        "mats": [
+          {
+            "id": "T6_METALBAR@1",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T6_CLOTH@1",
+            "qty": 12,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 4096,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T6_2H_POLEHAMMER",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T6_RUNE",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 16085,
+        "output": 1,
+        "silver": 0,
+        "value": 8192,
+        "fame": 34560,
+        "mats": [
+          {
+            "id": "T6_METALBAR@2",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T6_CLOTH@2",
+            "qty": 12,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 8192,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T6_2H_POLEHAMMER@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T6_SOUL",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 28148,
+        "output": 1,
+        "silver": 0,
+        "value": 16384,
+        "fame": 69120,
+        "mats": [
+          {
+            "id": "T6_METALBAR@3",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T6_CLOTH@3",
+            "qty": 12,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 16384,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T6_2H_POLEHAMMER@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T6_RELIC",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 49260,
+        "output": 1,
+        "silver": 0,
+        "value": 32768,
+        "fame": 138240,
+        "mats": [
+          {
+            "id": "T6_METALBAR@4",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T6_CLOTH@4",
+            "qty": 12,
+            "ret": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T6_2H_RAM_KEEPER",
+    "name": "Master's Grovekeeper",
+    "tier": 6,
+    "category": "hammer",
+    "group": "weapon",
+    "station": "Warrior's Forge",
+    "study": true,
+    "weight": 15.2,
+    "journal": "WARRIOR",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 5252,
+        "output": 1,
+        "silver": 0,
+        "value": 5632,
+        "fame": 11232,
+        "mats": [
+          {
+            "id": "T6_METALBAR",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T6_CLOTH",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T6_ARTEFACT_2H_RAM_KEEPER",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 9191,
+        "output": 1,
+        "silver": 0,
+        "value": 7680,
+        "fame": 22464,
+        "mats": [
+          {
+            "id": "T6_METALBAR@1",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T6_CLOTH@1",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T6_ARTEFACT_2H_RAM_KEEPER",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 7680,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T6_2H_RAM_KEEPER",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T6_RUNE",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 16085,
+        "output": 1,
+        "silver": 0,
+        "value": 11776,
+        "fame": 44928,
+        "mats": [
+          {
+            "id": "T6_METALBAR@2",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T6_CLOTH@2",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T6_ARTEFACT_2H_RAM_KEEPER",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 11776,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T6_2H_RAM_KEEPER@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T6_SOUL",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 28148,
+        "output": 1,
+        "silver": 0,
+        "value": 19968,
+        "fame": 89856,
+        "mats": [
+          {
+            "id": "T6_METALBAR@3",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T6_CLOTH@3",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T6_ARTEFACT_2H_RAM_KEEPER",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 19968,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T6_2H_RAM_KEEPER@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T6_RELIC",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 49260,
+        "output": 1,
+        "silver": 0,
+        "value": 36352,
+        "fame": 179712,
+        "mats": [
+          {
+            "id": "T6_METALBAR@4",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T6_CLOTH@4",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T6_ARTEFACT_2H_RAM_KEEPER",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T7_2H_DUALHAMMER_HELL",
+    "name": "Grandmaster's Forge Hammers",
+    "tier": 7,
+    "category": "hammer",
+    "group": "weapon",
+    "station": "Warrior's Forge",
+    "study": true,
+    "weight": 22.8,
+    "journal": "WARRIOR",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 9191,
+        "output": 1,
+        "silver": 0,
+        "value": 7168,
+        "fame": 24768,
+        "mats": [
+          {
+            "id": "T7_METALBAR",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T7_CLOTH",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T7_ARTEFACT_2H_DUALHAMMER_HELL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 16085,
+        "output": 1,
+        "silver": 0,
+        "value": 11264,
+        "fame": 49536,
+        "mats": [
+          {
+            "id": "T7_METALBAR@1",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T7_CLOTH@1",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T7_ARTEFACT_2H_DUALHAMMER_HELL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 11264,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T7_2H_DUALHAMMER_HELL",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T7_RUNE",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 28148,
+        "output": 1,
+        "silver": 0,
+        "value": 19456,
+        "fame": 99072,
+        "mats": [
+          {
+            "id": "T7_METALBAR@2",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T7_CLOTH@2",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T7_ARTEFACT_2H_DUALHAMMER_HELL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 19456,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T7_2H_DUALHAMMER_HELL@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T7_SOUL",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 49260,
+        "output": 1,
+        "silver": 0,
+        "value": 35840,
+        "fame": 198144,
+        "mats": [
+          {
+            "id": "T7_METALBAR@3",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T7_CLOTH@3",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T7_ARTEFACT_2H_DUALHAMMER_HELL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 35840,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T7_2H_DUALHAMMER_HELL@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T7_RELIC",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 86205,
+        "output": 1,
+        "silver": 0,
+        "value": 68608,
+        "fame": 396288,
+        "mats": [
+          {
+            "id": "T7_METALBAR@4",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T7_CLOTH@4",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T7_ARTEFACT_2H_DUALHAMMER_HELL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T7_2H_HAMMER",
+    "name": "Grandmaster's Great Hammer",
+    "tier": 7,
+    "category": "hammer",
+    "group": "weapon",
+    "station": "Warrior's Forge",
+    "study": true,
+    "weight": 22.8,
+    "journal": "WARRIOR",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 9191,
+        "output": 1,
+        "silver": 0,
+        "value": 4096,
+        "fame": 20640,
+        "mats": [
+          {
+            "id": "T7_METALBAR",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T7_CLOTH",
+            "qty": 12,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 16085,
+        "output": 1,
+        "silver": 0,
+        "value": 8192,
+        "fame": 41280,
+        "mats": [
+          {
+            "id": "T7_METALBAR@1",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T7_CLOTH@1",
+            "qty": 12,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 8192,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T7_2H_HAMMER",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T7_RUNE",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 28148,
+        "output": 1,
+        "silver": 0,
+        "value": 16384,
+        "fame": 82560,
+        "mats": [
+          {
+            "id": "T7_METALBAR@2",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T7_CLOTH@2",
+            "qty": 12,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 16384,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T7_2H_HAMMER@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T7_SOUL",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 49260,
+        "output": 1,
+        "silver": 0,
+        "value": 32768,
+        "fame": 165120,
+        "mats": [
+          {
+            "id": "T7_METALBAR@3",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T7_CLOTH@3",
+            "qty": 12,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 32768,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T7_2H_HAMMER@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T7_RELIC",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 86205,
+        "output": 1,
+        "silver": 0,
+        "value": 65536,
+        "fame": 330240,
+        "mats": [
+          {
+            "id": "T7_METALBAR@4",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T7_CLOTH@4",
+            "qty": 12,
+            "ret": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T7_2H_HAMMER_AVALON",
+    "name": "Grandmaster's Hand of Justice",
+    "tier": 7,
+    "category": "hammer",
+    "group": "weapon",
+    "station": "Warrior's Forge",
+    "study": true,
+    "weight": 22.8,
+    "journal": "WARRIOR",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 9191,
+        "output": 1,
+        "silver": 0,
+        "value": 19456,
+        "fame": 28896,
+        "mats": [
+          {
+            "id": "T7_METALBAR",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T7_CLOTH",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T7_ARTEFACT_2H_HAMMER_AVALON",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 16085,
+        "output": 1,
+        "silver": 0,
+        "value": 23552,
+        "fame": 57792,
+        "mats": [
+          {
+            "id": "T7_METALBAR@1",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T7_CLOTH@1",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T7_ARTEFACT_2H_HAMMER_AVALON",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 23552,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T7_2H_HAMMER_AVALON",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T7_RUNE",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 28148,
+        "output": 1,
+        "silver": 0,
+        "value": 31744,
+        "fame": 115584,
+        "mats": [
+          {
+            "id": "T7_METALBAR@2",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T7_CLOTH@2",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T7_ARTEFACT_2H_HAMMER_AVALON",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 31744,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T7_2H_HAMMER_AVALON@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T7_SOUL",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 49260,
+        "output": 1,
+        "silver": 0,
+        "value": 48128,
+        "fame": 231168,
+        "mats": [
+          {
+            "id": "T7_METALBAR@3",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T7_CLOTH@3",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T7_ARTEFACT_2H_HAMMER_AVALON",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 48128,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T7_2H_HAMMER_AVALON@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T7_RELIC",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 86205,
+        "output": 1,
+        "silver": 0,
+        "value": 80896,
+        "fame": 462336,
+        "mats": [
+          {
+            "id": "T7_METALBAR@4",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T7_CLOTH@4",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T7_ARTEFACT_2H_HAMMER_AVALON",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T7_2H_HAMMER_CRYSTAL",
+    "name": "Grandmaster's Truebolt Hammer",
+    "tier": 7,
+    "category": "hammer",
+    "group": "weapon",
+    "station": "Warrior's Forge",
+    "study": true,
+    "weight": 22.8,
+    "journal": "WARRIOR",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 9191,
+        "output": 1,
+        "silver": 0,
+        "value": 19456,
+        "fame": 28896,
+        "mats": [
+          {
+            "id": "T7_METALBAR",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T7_CLOTH",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T7_ARTEFACT_2H_HAMMER_CRYSTAL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 16085,
+        "output": 1,
+        "silver": 0,
+        "value": 23552,
+        "fame": 57792,
+        "mats": [
+          {
+            "id": "T7_METALBAR@1",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T7_CLOTH@1",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T7_ARTEFACT_2H_HAMMER_CRYSTAL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 23552,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T7_2H_HAMMER_CRYSTAL",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T7_RUNE",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 28148,
+        "output": 1,
+        "silver": 0,
+        "value": 31744,
+        "fame": 115584,
+        "mats": [
+          {
+            "id": "T7_METALBAR@2",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T7_CLOTH@2",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T7_ARTEFACT_2H_HAMMER_CRYSTAL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 31744,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T7_2H_HAMMER_CRYSTAL@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T7_SOUL",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 49260,
+        "output": 1,
+        "silver": 0,
+        "value": 48128,
+        "fame": 231168,
+        "mats": [
+          {
+            "id": "T7_METALBAR@3",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T7_CLOTH@3",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T7_ARTEFACT_2H_HAMMER_CRYSTAL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 48128,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T7_2H_HAMMER_CRYSTAL@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T7_RELIC",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 86205,
+        "output": 1,
+        "silver": 0,
+        "value": 80896,
+        "fame": 462336,
+        "mats": [
+          {
+            "id": "T7_METALBAR@4",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T7_CLOTH@4",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T7_ARTEFACT_2H_HAMMER_CRYSTAL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T7_2H_HAMMER_UNDEAD",
+    "name": "Grandmaster's Tombhammer",
+    "tier": 7,
+    "category": "hammer",
+    "group": "weapon",
+    "station": "Warrior's Forge",
+    "study": true,
+    "weight": 22.8,
+    "journal": "WARRIOR",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 9191,
+        "output": 1,
+        "silver": 0,
+        "value": 5120,
+        "fame": 22704,
+        "mats": [
+          {
+            "id": "T7_METALBAR",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T7_CLOTH",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T7_ARTEFACT_2H_HAMMER_UNDEAD",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 16085,
+        "output": 1,
+        "silver": 0,
+        "value": 9216,
+        "fame": 45408,
+        "mats": [
+          {
+            "id": "T7_METALBAR@1",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T7_CLOTH@1",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T7_ARTEFACT_2H_HAMMER_UNDEAD",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 9216,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T7_2H_HAMMER_UNDEAD",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T7_RUNE",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 28148,
+        "output": 1,
+        "silver": 0,
+        "value": 17408,
+        "fame": 90816,
+        "mats": [
+          {
+            "id": "T7_METALBAR@2",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T7_CLOTH@2",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T7_ARTEFACT_2H_HAMMER_UNDEAD",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 17408,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T7_2H_HAMMER_UNDEAD@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T7_SOUL",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 49260,
+        "output": 1,
+        "silver": 0,
+        "value": 33792,
+        "fame": 181632,
+        "mats": [
+          {
+            "id": "T7_METALBAR@3",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T7_CLOTH@3",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T7_ARTEFACT_2H_HAMMER_UNDEAD",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 33792,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T7_2H_HAMMER_UNDEAD@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T7_RELIC",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 86205,
+        "output": 1,
+        "silver": 0,
+        "value": 66560,
+        "fame": 363264,
+        "mats": [
+          {
+            "id": "T7_METALBAR@4",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T7_CLOTH@4",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T7_ARTEFACT_2H_HAMMER_UNDEAD",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T7_MAIN_HAMMER",
+    "name": "Grandmaster's Hammer",
+    "tier": 7,
+    "category": "hammer",
+    "group": "weapon",
+    "station": "Warrior's Forge",
+    "study": true,
+    "weight": 17.1,
+    "journal": "WARRIOR",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 6893,
+        "output": 1,
+        "silver": 0,
+        "value": 3072,
+        "fame": 15480,
+        "mats": [
+          {
+            "id": "T7_METALBAR",
+            "qty": 24,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 12064,
+        "output": 1,
+        "silver": 0,
+        "value": 6144,
+        "fame": 30960,
+        "mats": [
+          {
+            "id": "T7_METALBAR@1",
+            "qty": 24,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 6144,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T7_MAIN_HAMMER",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T7_RUNE",
+            "qty": 288,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 21111,
+        "output": 1,
+        "silver": 0,
+        "value": 12288,
+        "fame": 61920,
+        "mats": [
+          {
+            "id": "T7_METALBAR@2",
+            "qty": 24,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 12288,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T7_MAIN_HAMMER@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T7_SOUL",
+            "qty": 288,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 36945,
+        "output": 1,
+        "silver": 0,
+        "value": 24576,
+        "fame": 123840,
+        "mats": [
+          {
+            "id": "T7_METALBAR@3",
+            "qty": 24,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 24576,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T7_MAIN_HAMMER@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T7_RELIC",
+            "qty": 288,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 64653,
+        "output": 1,
+        "silver": 0,
+        "value": 49152,
+        "fame": 247680,
+        "mats": [
+          {
+            "id": "T7_METALBAR@4",
+            "qty": 24,
+            "ret": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T7_2H_POLEHAMMER",
+    "name": "Grandmaster's Polehammer",
+    "tier": 7,
+    "category": "hammer",
+    "group": "weapon",
+    "station": "Warrior's Forge",
+    "study": true,
+    "weight": 22.8,
+    "journal": "WARRIOR",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 9191,
+        "output": 1,
+        "silver": 0,
+        "value": 4096,
+        "fame": 20640,
+        "mats": [
+          {
+            "id": "T7_METALBAR",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T7_CLOTH",
+            "qty": 12,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 16085,
+        "output": 1,
+        "silver": 0,
+        "value": 8192,
+        "fame": 41280,
+        "mats": [
+          {
+            "id": "T7_METALBAR@1",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T7_CLOTH@1",
+            "qty": 12,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 8192,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T7_2H_POLEHAMMER",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T7_RUNE",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 28148,
+        "output": 1,
+        "silver": 0,
+        "value": 16384,
+        "fame": 82560,
+        "mats": [
+          {
+            "id": "T7_METALBAR@2",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T7_CLOTH@2",
+            "qty": 12,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 16384,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T7_2H_POLEHAMMER@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T7_SOUL",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 49260,
+        "output": 1,
+        "silver": 0,
+        "value": 32768,
+        "fame": 165120,
+        "mats": [
+          {
+            "id": "T7_METALBAR@3",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T7_CLOTH@3",
+            "qty": 12,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 32768,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T7_2H_POLEHAMMER@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T7_RELIC",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 86205,
+        "output": 1,
+        "silver": 0,
+        "value": 65536,
+        "fame": 330240,
+        "mats": [
+          {
+            "id": "T7_METALBAR@4",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T7_CLOTH@4",
+            "qty": 12,
+            "ret": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T7_2H_RAM_KEEPER",
+    "name": "Grandmaster's Grovekeeper",
+    "tier": 7,
+    "category": "hammer",
+    "group": "weapon",
+    "station": "Warrior's Forge",
+    "study": true,
+    "weight": 22.8,
+    "journal": "WARRIOR",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 9191,
+        "output": 1,
+        "silver": 0,
+        "value": 11264,
+        "fame": 26832,
+        "mats": [
+          {
+            "id": "T7_METALBAR",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T7_CLOTH",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T7_ARTEFACT_2H_RAM_KEEPER",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 16085,
+        "output": 1,
+        "silver": 0,
+        "value": 15360,
+        "fame": 53664,
+        "mats": [
+          {
+            "id": "T7_METALBAR@1",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T7_CLOTH@1",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T7_ARTEFACT_2H_RAM_KEEPER",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 15360,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T7_2H_RAM_KEEPER",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T7_RUNE",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 28148,
+        "output": 1,
+        "silver": 0,
+        "value": 23552,
+        "fame": 107328,
+        "mats": [
+          {
+            "id": "T7_METALBAR@2",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T7_CLOTH@2",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T7_ARTEFACT_2H_RAM_KEEPER",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 23552,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T7_2H_RAM_KEEPER@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T7_SOUL",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 49260,
+        "output": 1,
+        "silver": 0,
+        "value": 39936,
+        "fame": 214656,
+        "mats": [
+          {
+            "id": "T7_METALBAR@3",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T7_CLOTH@3",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T7_ARTEFACT_2H_RAM_KEEPER",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 39936,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T7_2H_RAM_KEEPER@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T7_RELIC",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 86205,
+        "output": 1,
+        "silver": 0,
+        "value": 72704,
+        "fame": 429312,
+        "mats": [
+          {
+            "id": "T7_METALBAR@4",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T7_CLOTH@4",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T7_ARTEFACT_2H_RAM_KEEPER",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T8_2H_DUALHAMMER_HELL",
+    "name": "Elder's Forge Hammers",
+    "tier": 8,
+    "category": "hammer",
+    "group": "weapon",
+    "station": "Warrior's Forge",
+    "study": true,
+    "weight": 34.2,
+    "journal": "WARRIOR",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 16085,
+        "output": 1,
+        "silver": 0,
+        "value": 14336,
+        "fame": 53568,
+        "mats": [
+          {
+            "id": "T8_METALBAR",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T8_CLOTH",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T8_ARTEFACT_2H_DUALHAMMER_HELL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 28148,
+        "output": 1,
+        "silver": 0,
+        "value": 22528,
+        "fame": 107136,
+        "mats": [
+          {
+            "id": "T8_METALBAR@1",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T8_CLOTH@1",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T8_ARTEFACT_2H_DUALHAMMER_HELL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 22528,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T8_2H_DUALHAMMER_HELL",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T8_RUNE",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 49260,
+        "output": 1,
+        "silver": 0,
+        "value": 38912,
+        "fame": 214272,
+        "mats": [
+          {
+            "id": "T8_METALBAR@2",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T8_CLOTH@2",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T8_ARTEFACT_2H_DUALHAMMER_HELL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 38912,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T8_2H_DUALHAMMER_HELL@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T8_SOUL",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 86205,
+        "output": 1,
+        "silver": 0,
+        "value": 71680,
+        "fame": 428544,
+        "mats": [
+          {
+            "id": "T8_METALBAR@3",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T8_CLOTH@3",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T8_ARTEFACT_2H_DUALHAMMER_HELL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 71680,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T8_2H_DUALHAMMER_HELL@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T8_RELIC",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 150858,
+        "output": 1,
+        "silver": 0,
+        "value": 137216,
+        "fame": 857088,
+        "mats": [
+          {
+            "id": "T8_METALBAR@4",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T8_CLOTH@4",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T8_ARTEFACT_2H_DUALHAMMER_HELL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T8_2H_HAMMER",
+    "name": "Elder's Great Hammer",
+    "tier": 8,
+    "category": "hammer",
+    "group": "weapon",
+    "station": "Warrior's Forge",
+    "study": true,
+    "weight": 34.2,
+    "journal": "WARRIOR",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 16085,
+        "output": 1,
+        "silver": 0,
+        "value": 8192,
+        "fame": 44640,
+        "mats": [
+          {
+            "id": "T8_METALBAR",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T8_CLOTH",
+            "qty": 12,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 28148,
+        "output": 1,
+        "silver": 0,
+        "value": 16384,
+        "fame": 89280,
+        "mats": [
+          {
+            "id": "T8_METALBAR@1",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T8_CLOTH@1",
+            "qty": 12,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 16384,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T8_2H_HAMMER",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T8_RUNE",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 49260,
+        "output": 1,
+        "silver": 0,
+        "value": 32768,
+        "fame": 178560,
+        "mats": [
+          {
+            "id": "T8_METALBAR@2",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T8_CLOTH@2",
+            "qty": 12,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 32768,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T8_2H_HAMMER@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T8_SOUL",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 86205,
+        "output": 1,
+        "silver": 0,
+        "value": 65536,
+        "fame": 357120,
+        "mats": [
+          {
+            "id": "T8_METALBAR@3",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T8_CLOTH@3",
+            "qty": 12,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 65536,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T8_2H_HAMMER@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T8_RELIC",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 150858,
+        "output": 1,
+        "silver": 0,
+        "value": 131072,
+        "fame": 714240,
+        "mats": [
+          {
+            "id": "T8_METALBAR@4",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T8_CLOTH@4",
+            "qty": 12,
+            "ret": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T8_2H_HAMMER_AVALON",
+    "name": "Elder's Hand of Justice",
+    "tier": 8,
+    "category": "hammer",
+    "group": "weapon",
+    "station": "Warrior's Forge",
+    "study": true,
+    "weight": 34.2,
+    "journal": "WARRIOR",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 16085,
+        "output": 1,
+        "silver": 0,
+        "value": 38912,
+        "fame": 62496,
+        "mats": [
+          {
+            "id": "T8_METALBAR",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T8_CLOTH",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T8_ARTEFACT_2H_HAMMER_AVALON",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 28148,
+        "output": 1,
+        "silver": 0,
+        "value": 47104,
+        "fame": 124992,
+        "mats": [
+          {
+            "id": "T8_METALBAR@1",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T8_CLOTH@1",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T8_ARTEFACT_2H_HAMMER_AVALON",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 47104,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T8_2H_HAMMER_AVALON",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T8_RUNE",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 49260,
+        "output": 1,
+        "silver": 0,
+        "value": 63488,
+        "fame": 249984,
+        "mats": [
+          {
+            "id": "T8_METALBAR@2",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T8_CLOTH@2",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T8_ARTEFACT_2H_HAMMER_AVALON",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 63488,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T8_2H_HAMMER_AVALON@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T8_SOUL",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 86205,
+        "output": 1,
+        "silver": 0,
+        "value": 96256,
+        "fame": 499968,
+        "mats": [
+          {
+            "id": "T8_METALBAR@3",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T8_CLOTH@3",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T8_ARTEFACT_2H_HAMMER_AVALON",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 96256,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T8_2H_HAMMER_AVALON@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T8_RELIC",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 150858,
+        "output": 1,
+        "silver": 0,
+        "value": 161792,
+        "fame": 999936,
+        "mats": [
+          {
+            "id": "T8_METALBAR@4",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T8_CLOTH@4",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T8_ARTEFACT_2H_HAMMER_AVALON",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T8_2H_HAMMER_CRYSTAL",
+    "name": "Elder's Truebolt Hammer",
+    "tier": 8,
+    "category": "hammer",
+    "group": "weapon",
+    "station": "Warrior's Forge",
+    "study": true,
+    "weight": 34.2,
+    "journal": "WARRIOR",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 16085,
+        "output": 1,
+        "silver": 0,
+        "value": 38912,
+        "fame": 62496,
+        "mats": [
+          {
+            "id": "T8_METALBAR",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T8_CLOTH",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T8_ARTEFACT_2H_HAMMER_CRYSTAL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 28148,
+        "output": 1,
+        "silver": 0,
+        "value": 47104,
+        "fame": 124992,
+        "mats": [
+          {
+            "id": "T8_METALBAR@1",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T8_CLOTH@1",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T8_ARTEFACT_2H_HAMMER_CRYSTAL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 47104,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T8_2H_HAMMER_CRYSTAL",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T8_RUNE",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 49260,
+        "output": 1,
+        "silver": 0,
+        "value": 63488,
+        "fame": 249984,
+        "mats": [
+          {
+            "id": "T8_METALBAR@2",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T8_CLOTH@2",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T8_ARTEFACT_2H_HAMMER_CRYSTAL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 63488,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T8_2H_HAMMER_CRYSTAL@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T8_SOUL",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 86205,
+        "output": 1,
+        "silver": 0,
+        "value": 96256,
+        "fame": 499968,
+        "mats": [
+          {
+            "id": "T8_METALBAR@3",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T8_CLOTH@3",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T8_ARTEFACT_2H_HAMMER_CRYSTAL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 96256,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T8_2H_HAMMER_CRYSTAL@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T8_RELIC",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 150858,
+        "output": 1,
+        "silver": 0,
+        "value": 161792,
+        "fame": 999936,
+        "mats": [
+          {
+            "id": "T8_METALBAR@4",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T8_CLOTH@4",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T8_ARTEFACT_2H_HAMMER_CRYSTAL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T8_2H_HAMMER_UNDEAD",
+    "name": "Elder's Tombhammer",
+    "tier": 8,
+    "category": "hammer",
+    "group": "weapon",
+    "station": "Warrior's Forge",
+    "study": true,
+    "weight": 34.2,
+    "journal": "WARRIOR",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 16085,
+        "output": 1,
+        "silver": 0,
+        "value": 10240,
+        "fame": 49104,
+        "mats": [
+          {
+            "id": "T8_METALBAR",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T8_CLOTH",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T8_ARTEFACT_2H_HAMMER_UNDEAD",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 28148,
+        "output": 1,
+        "silver": 0,
+        "value": 18432,
+        "fame": 98208,
+        "mats": [
+          {
+            "id": "T8_METALBAR@1",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T8_CLOTH@1",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T8_ARTEFACT_2H_HAMMER_UNDEAD",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 18432,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T8_2H_HAMMER_UNDEAD",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T8_RUNE",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 49260,
+        "output": 1,
+        "silver": 0,
+        "value": 34816,
+        "fame": 196416,
+        "mats": [
+          {
+            "id": "T8_METALBAR@2",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T8_CLOTH@2",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T8_ARTEFACT_2H_HAMMER_UNDEAD",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 34816,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T8_2H_HAMMER_UNDEAD@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T8_SOUL",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 86205,
+        "output": 1,
+        "silver": 0,
+        "value": 67584,
+        "fame": 392832,
+        "mats": [
+          {
+            "id": "T8_METALBAR@3",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T8_CLOTH@3",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T8_ARTEFACT_2H_HAMMER_UNDEAD",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 67584,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T8_2H_HAMMER_UNDEAD@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T8_RELIC",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 150858,
+        "output": 1,
+        "silver": 0,
+        "value": 133120,
+        "fame": 785664,
+        "mats": [
+          {
+            "id": "T8_METALBAR@4",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T8_CLOTH@4",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T8_ARTEFACT_2H_HAMMER_UNDEAD",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T8_MAIN_HAMMER",
+    "name": "Elder's Hammer",
+    "tier": 8,
+    "category": "hammer",
+    "group": "weapon",
+    "station": "Warrior's Forge",
+    "study": true,
+    "weight": 25.6,
+    "journal": "WARRIOR",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 12064,
+        "output": 1,
+        "silver": 0,
+        "value": 6144,
+        "fame": 33480,
+        "mats": [
+          {
+            "id": "T8_METALBAR",
+            "qty": 24,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 21111,
+        "output": 1,
+        "silver": 0,
+        "value": 12288,
+        "fame": 66960,
+        "mats": [
+          {
+            "id": "T8_METALBAR@1",
+            "qty": 24,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 12288,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T8_MAIN_HAMMER",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T8_RUNE",
+            "qty": 288,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 36945,
+        "output": 1,
+        "silver": 0,
+        "value": 24576,
+        "fame": 133920,
+        "mats": [
+          {
+            "id": "T8_METALBAR@2",
+            "qty": 24,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 24576,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T8_MAIN_HAMMER@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T8_SOUL",
+            "qty": 288,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 64653,
+        "output": 1,
+        "silver": 0,
+        "value": 49152,
+        "fame": 267840,
+        "mats": [
+          {
+            "id": "T8_METALBAR@3",
+            "qty": 24,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 49152,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T8_MAIN_HAMMER@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T8_RELIC",
+            "qty": 288,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 113144,
+        "output": 1,
+        "silver": 0,
+        "value": 98304,
+        "fame": 535680,
+        "mats": [
+          {
+            "id": "T8_METALBAR@4",
+            "qty": 24,
+            "ret": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T8_2H_POLEHAMMER",
+    "name": "Elder's Polehammer",
+    "tier": 8,
+    "category": "hammer",
+    "group": "weapon",
+    "station": "Warrior's Forge",
+    "study": true,
+    "weight": 34.2,
+    "journal": "WARRIOR",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 16085,
+        "output": 1,
+        "silver": 0,
+        "value": 8192,
+        "fame": 44640,
+        "mats": [
+          {
+            "id": "T8_METALBAR",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T8_CLOTH",
+            "qty": 12,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 28148,
+        "output": 1,
+        "silver": 0,
+        "value": 16384,
+        "fame": 89280,
+        "mats": [
+          {
+            "id": "T8_METALBAR@1",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T8_CLOTH@1",
+            "qty": 12,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 16384,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T8_2H_POLEHAMMER",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T8_RUNE",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 49260,
+        "output": 1,
+        "silver": 0,
+        "value": 32768,
+        "fame": 178560,
+        "mats": [
+          {
+            "id": "T8_METALBAR@2",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T8_CLOTH@2",
+            "qty": 12,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 32768,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T8_2H_POLEHAMMER@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T8_SOUL",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 86205,
+        "output": 1,
+        "silver": 0,
+        "value": 65536,
+        "fame": 357120,
+        "mats": [
+          {
+            "id": "T8_METALBAR@3",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T8_CLOTH@3",
+            "qty": 12,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 65536,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T8_2H_POLEHAMMER@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T8_RELIC",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 150858,
+        "output": 1,
+        "silver": 0,
+        "value": 131072,
+        "fame": 714240,
+        "mats": [
+          {
+            "id": "T8_METALBAR@4",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T8_CLOTH@4",
+            "qty": 12,
+            "ret": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T8_2H_RAM_KEEPER",
+    "name": "Elder's Grovekeeper",
+    "tier": 8,
+    "category": "hammer",
+    "group": "weapon",
+    "station": "Warrior's Forge",
+    "study": true,
+    "weight": 34.2,
+    "journal": "WARRIOR",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 16085,
+        "output": 1,
+        "silver": 0,
+        "value": 22528,
+        "fame": 58032,
+        "mats": [
+          {
+            "id": "T8_METALBAR",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T8_CLOTH",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T8_ARTEFACT_2H_RAM_KEEPER",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 28148,
+        "output": 1,
+        "silver": 0,
+        "value": 30720,
+        "fame": 116064,
+        "mats": [
+          {
+            "id": "T8_METALBAR@1",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T8_CLOTH@1",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T8_ARTEFACT_2H_RAM_KEEPER",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 30720,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T8_2H_RAM_KEEPER",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T8_RUNE",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 49260,
+        "output": 1,
+        "silver": 0,
+        "value": 47104,
+        "fame": 232128,
+        "mats": [
+          {
+            "id": "T8_METALBAR@2",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T8_CLOTH@2",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T8_ARTEFACT_2H_RAM_KEEPER",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 47104,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T8_2H_RAM_KEEPER@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T8_SOUL",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 86205,
+        "output": 1,
+        "silver": 0,
+        "value": 79872,
+        "fame": 464256,
+        "mats": [
+          {
+            "id": "T8_METALBAR@3",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T8_CLOTH@3",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T8_ARTEFACT_2H_RAM_KEEPER",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 79872,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T8_2H_RAM_KEEPER@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T8_RELIC",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 150858,
+        "output": 1,
+        "silver": 0,
+        "value": 145408,
+        "fame": 928512,
+        "mats": [
+          {
+            "id": "T8_METALBAR@4",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T8_CLOTH@4",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T8_ARTEFACT_2H_RAM_KEEPER",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      }
+    ]
+  }
+]

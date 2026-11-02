@@ -1,0 +1,7901 @@
+[
+  {
+    "id": "T3_2H_KNUCKLES_SET1",
+    "name": "Journeyman's Brawler Gloves",
+    "tier": 3,
+    "category": "knuckles",
+    "group": "weapon",
+    "station": "Warrior's Forge",
+    "study": true,
+    "weight": 4.5,
+    "journal": "WARRIOR",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 980,
+        "output": 1,
+        "silver": 0,
+        "value": 256,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T3_METALBAR",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T3_LEATHER",
+            "qty": 20,
+            "ret": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T4_2H_KNUCKLES_SET2",
+    "name": "Adept's Battle Bracers",
+    "tier": 4,
+    "category": "knuckles",
+    "group": "weapon",
+    "station": "Warrior's Forge",
+    "study": true,
+    "weight": 6.8,
+    "journal": "WARRIOR",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 1715,
+        "output": 1,
+        "silver": 0,
+        "value": 512,
+        "fame": 864,
+        "mats": [
+          {
+            "id": "T4_METALBAR",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T4_LEATHER",
+            "qty": 20,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 3001,
+        "output": 1,
+        "silver": 0,
+        "value": 1024,
+        "fame": 1728,
+        "mats": [
+          {
+            "id": "T4_METALBAR@1",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T4_LEATHER@1",
+            "qty": 20,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 1024,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T4_2H_KNUCKLES_SET2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T4_RUNE",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 5252,
+        "output": 1,
+        "silver": 0,
+        "value": 2048,
+        "fame": 3456,
+        "mats": [
+          {
+            "id": "T4_METALBAR@2",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T4_LEATHER@2",
+            "qty": 20,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 2048,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T4_2H_KNUCKLES_SET2@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T4_SOUL",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 9191,
+        "output": 1,
+        "silver": 0,
+        "value": 4096,
+        "fame": 6912,
+        "mats": [
+          {
+            "id": "T4_METALBAR@3",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T4_LEATHER@3",
+            "qty": 20,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 4096,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T4_2H_KNUCKLES_SET2@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T4_RELIC",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 16085,
+        "output": 1,
+        "silver": 0,
+        "value": 8192,
+        "fame": 13824,
+        "mats": [
+          {
+            "id": "T4_METALBAR@4",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T4_LEATHER@4",
+            "qty": 20,
+            "ret": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T4_2H_KNUCKLES_SET1",
+    "name": "Adept's Brawler Gloves",
+    "tier": 4,
+    "category": "knuckles",
+    "group": "weapon",
+    "station": "Warrior's Forge",
+    "study": true,
+    "weight": 6.8,
+    "journal": "WARRIOR",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 1715,
+        "output": 1,
+        "silver": 0,
+        "value": 512,
+        "fame": 864,
+        "mats": [
+          {
+            "id": "T4_METALBAR",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T4_LEATHER",
+            "qty": 20,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 3001,
+        "output": 1,
+        "silver": 0,
+        "value": 1024,
+        "fame": 1728,
+        "mats": [
+          {
+            "id": "T4_METALBAR@1",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T4_LEATHER@1",
+            "qty": 20,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 1024,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T4_2H_KNUCKLES_SET1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T4_RUNE",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 5252,
+        "output": 1,
+        "silver": 0,
+        "value": 2048,
+        "fame": 3456,
+        "mats": [
+          {
+            "id": "T4_METALBAR@2",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T4_LEATHER@2",
+            "qty": 20,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 2048,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T4_2H_KNUCKLES_SET1@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T4_SOUL",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 9191,
+        "output": 1,
+        "silver": 0,
+        "value": 4096,
+        "fame": 6912,
+        "mats": [
+          {
+            "id": "T4_METALBAR@3",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T4_LEATHER@3",
+            "qty": 20,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 4096,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T4_2H_KNUCKLES_SET1@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T4_RELIC",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 16085,
+        "output": 1,
+        "silver": 0,
+        "value": 8192,
+        "fame": 13824,
+        "mats": [
+          {
+            "id": "T4_METALBAR@4",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T4_LEATHER@4",
+            "qty": 20,
+            "ret": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T4_2H_KNUCKLES_AVALON",
+    "name": "Adept's Fists of Avalon",
+    "tier": 4,
+    "category": "knuckles",
+    "group": "weapon",
+    "station": "Warrior's Forge",
+    "study": true,
+    "weight": 6.8,
+    "journal": "WARRIOR",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 1715,
+        "output": 1,
+        "silver": 0,
+        "value": 2432,
+        "fame": 1008,
+        "mats": [
+          {
+            "id": "T4_METALBAR",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T4_LEATHER",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T4_ARTEFACT_2H_KNUCKLES_AVALON",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 3001,
+        "output": 1,
+        "silver": 0,
+        "value": 2944,
+        "fame": 2016,
+        "mats": [
+          {
+            "id": "T4_METALBAR@1",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T4_LEATHER@1",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T4_ARTEFACT_2H_KNUCKLES_AVALON",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 2944,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T4_2H_KNUCKLES_AVALON",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T4_RUNE",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 5252,
+        "output": 1,
+        "silver": 0,
+        "value": 3968,
+        "fame": 4032,
+        "mats": [
+          {
+            "id": "T4_METALBAR@2",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T4_LEATHER@2",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T4_ARTEFACT_2H_KNUCKLES_AVALON",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 3968,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T4_2H_KNUCKLES_AVALON@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T4_SOUL",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 9191,
+        "output": 1,
+        "silver": 0,
+        "value": 6016,
+        "fame": 8064,
+        "mats": [
+          {
+            "id": "T4_METALBAR@3",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T4_LEATHER@3",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T4_ARTEFACT_2H_KNUCKLES_AVALON",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 6016,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T4_2H_KNUCKLES_AVALON@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T4_RELIC",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 16085,
+        "output": 1,
+        "silver": 0,
+        "value": 10112,
+        "fame": 16128,
+        "mats": [
+          {
+            "id": "T4_METALBAR@4",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T4_LEATHER@4",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T4_ARTEFACT_2H_KNUCKLES_AVALON",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T4_2H_KNUCKLES_CRYSTAL",
+    "name": "Adept's Forcepulse Bracers",
+    "tier": 4,
+    "category": "knuckles",
+    "group": "weapon",
+    "station": "Warrior's Forge",
+    "study": true,
+    "weight": 6.8,
+    "journal": "WARRIOR",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 1715,
+        "output": 1,
+        "silver": 0,
+        "value": 2432,
+        "fame": 1008,
+        "mats": [
+          {
+            "id": "T4_METALBAR",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T4_LEATHER",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T4_ARTEFACT_2H_KNUCKLES_CRYSTAL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 3001,
+        "output": 1,
+        "silver": 0,
+        "value": 2944,
+        "fame": 2016,
+        "mats": [
+          {
+            "id": "T4_METALBAR@1",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T4_LEATHER@1",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T4_ARTEFACT_2H_KNUCKLES_CRYSTAL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 2944,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T4_2H_KNUCKLES_CRYSTAL",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T4_RUNE",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 5252,
+        "output": 1,
+        "silver": 0,
+        "value": 3968,
+        "fame": 4032,
+        "mats": [
+          {
+            "id": "T4_METALBAR@2",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T4_LEATHER@2",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T4_ARTEFACT_2H_KNUCKLES_CRYSTAL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 3968,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T4_2H_KNUCKLES_CRYSTAL@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T4_SOUL",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 9191,
+        "output": 1,
+        "silver": 0,
+        "value": 6016,
+        "fame": 8064,
+        "mats": [
+          {
+            "id": "T4_METALBAR@3",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T4_LEATHER@3",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T4_ARTEFACT_2H_KNUCKLES_CRYSTAL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 6016,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T4_2H_KNUCKLES_CRYSTAL@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T4_RELIC",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 16085,
+        "output": 1,
+        "silver": 0,
+        "value": 10112,
+        "fame": 16128,
+        "mats": [
+          {
+            "id": "T4_METALBAR@4",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T4_LEATHER@4",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T4_ARTEFACT_2H_KNUCKLES_CRYSTAL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T4_2H_KNUCKLES_HELL",
+    "name": "Adept's Hellfire Hands",
+    "tier": 4,
+    "category": "knuckles",
+    "group": "weapon",
+    "station": "Warrior's Forge",
+    "study": true,
+    "weight": 6.8,
+    "journal": "WARRIOR",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 1715,
+        "output": 1,
+        "silver": 0,
+        "value": 896,
+        "fame": 864,
+        "mats": [
+          {
+            "id": "T4_METALBAR",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T4_LEATHER",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T4_ARTEFACT_2H_KNUCKLES_HELL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 3001,
+        "output": 1,
+        "silver": 0,
+        "value": 1408,
+        "fame": 1728,
+        "mats": [
+          {
+            "id": "T4_METALBAR@1",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T4_LEATHER@1",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T4_ARTEFACT_2H_KNUCKLES_HELL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 1408,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T4_2H_KNUCKLES_HELL",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T4_RUNE",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 5252,
+        "output": 1,
+        "silver": 0,
+        "value": 2432,
+        "fame": 3456,
+        "mats": [
+          {
+            "id": "T4_METALBAR@2",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T4_LEATHER@2",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T4_ARTEFACT_2H_KNUCKLES_HELL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 2432,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T4_2H_KNUCKLES_HELL@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T4_SOUL",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 9191,
+        "output": 1,
+        "silver": 0,
+        "value": 4480,
+        "fame": 6912,
+        "mats": [
+          {
+            "id": "T4_METALBAR@3",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T4_LEATHER@3",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T4_ARTEFACT_2H_KNUCKLES_HELL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 4480,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T4_2H_KNUCKLES_HELL@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T4_RELIC",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 16085,
+        "output": 1,
+        "silver": 0,
+        "value": 8576,
+        "fame": 13824,
+        "mats": [
+          {
+            "id": "T4_METALBAR@4",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T4_LEATHER@4",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T4_ARTEFACT_2H_KNUCKLES_HELL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T4_2H_KNUCKLES_KEEPER",
+    "name": "Adept's Ursine Maulers",
+    "tier": 4,
+    "category": "knuckles",
+    "group": "weapon",
+    "station": "Warrior's Forge",
+    "study": true,
+    "weight": 6.8,
+    "journal": "WARRIOR",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 1715,
+        "output": 1,
+        "silver": 0,
+        "value": 640,
+        "fame": 792,
+        "mats": [
+          {
+            "id": "T4_METALBAR",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T4_LEATHER",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T4_ARTEFACT_2H_KNUCKLES_KEEPER",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 3001,
+        "output": 1,
+        "silver": 0,
+        "value": 1152,
+        "fame": 1584,
+        "mats": [
+          {
+            "id": "T4_METALBAR@1",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T4_LEATHER@1",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T4_ARTEFACT_2H_KNUCKLES_KEEPER",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 1152,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T4_2H_KNUCKLES_KEEPER",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T4_RUNE",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 5252,
+        "output": 1,
+        "silver": 0,
+        "value": 2176,
+        "fame": 3168,
+        "mats": [
+          {
+            "id": "T4_METALBAR@2",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T4_LEATHER@2",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T4_ARTEFACT_2H_KNUCKLES_KEEPER",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 2176,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T4_2H_KNUCKLES_KEEPER@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T4_SOUL",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 9191,
+        "output": 1,
+        "silver": 0,
+        "value": 4224,
+        "fame": 6336,
+        "mats": [
+          {
+            "id": "T4_METALBAR@3",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T4_LEATHER@3",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T4_ARTEFACT_2H_KNUCKLES_KEEPER",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 4224,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T4_2H_KNUCKLES_KEEPER@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T4_RELIC",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 16085,
+        "output": 1,
+        "silver": 0,
+        "value": 8320,
+        "fame": 12672,
+        "mats": [
+          {
+            "id": "T4_METALBAR@4",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T4_LEATHER@4",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T4_ARTEFACT_2H_KNUCKLES_KEEPER",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T4_2H_KNUCKLES_MORGANA",
+    "name": "Adept's Ravenstrike Cestus",
+    "tier": 4,
+    "category": "knuckles",
+    "group": "weapon",
+    "station": "Warrior's Forge",
+    "study": true,
+    "weight": 6.8,
+    "journal": "WARRIOR",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 1715,
+        "output": 1,
+        "silver": 0,
+        "value": 1408,
+        "fame": 936,
+        "mats": [
+          {
+            "id": "T4_METALBAR",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T4_LEATHER",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T4_ARTEFACT_2H_KNUCKLES_MORGANA",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 3001,
+        "output": 1,
+        "silver": 0,
+        "value": 1920,
+        "fame": 1872,
+        "mats": [
+          {
+            "id": "T4_METALBAR@1",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T4_LEATHER@1",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T4_ARTEFACT_2H_KNUCKLES_MORGANA",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 1920,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T4_2H_KNUCKLES_MORGANA",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T4_RUNE",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 5252,
+        "output": 1,
+        "silver": 0,
+        "value": 2944,
+        "fame": 3744,
+        "mats": [
+          {
+            "id": "T4_METALBAR@2",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T4_LEATHER@2",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T4_ARTEFACT_2H_KNUCKLES_MORGANA",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 2944,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T4_2H_KNUCKLES_MORGANA@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T4_SOUL",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 9191,
+        "output": 1,
+        "silver": 0,
+        "value": 4992,
+        "fame": 7488,
+        "mats": [
+          {
+            "id": "T4_METALBAR@3",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T4_LEATHER@3",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T4_ARTEFACT_2H_KNUCKLES_MORGANA",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 4992,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T4_2H_KNUCKLES_MORGANA@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T4_RELIC",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 16085,
+        "output": 1,
+        "silver": 0,
+        "value": 9088,
+        "fame": 14976,
+        "mats": [
+          {
+            "id": "T4_METALBAR@4",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T4_LEATHER@4",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T4_ARTEFACT_2H_KNUCKLES_MORGANA",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T4_2H_KNUCKLES_SET3",
+    "name": "Adept's Spiked Gauntlets",
+    "tier": 4,
+    "category": "knuckles",
+    "group": "weapon",
+    "station": "Warrior's Forge",
+    "study": true,
+    "weight": 6.8,
+    "journal": "WARRIOR",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 1715,
+        "output": 1,
+        "silver": 0,
+        "value": 512,
+        "fame": 864,
+        "mats": [
+          {
+            "id": "T4_METALBAR",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T4_LEATHER",
+            "qty": 20,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 3001,
+        "output": 1,
+        "silver": 0,
+        "value": 1024,
+        "fame": 1728,
+        "mats": [
+          {
+            "id": "T4_METALBAR@1",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T4_LEATHER@1",
+            "qty": 20,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 1024,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T4_2H_KNUCKLES_SET3",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T4_RUNE",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 5252,
+        "output": 1,
+        "silver": 0,
+        "value": 2048,
+        "fame": 3456,
+        "mats": [
+          {
+            "id": "T4_METALBAR@2",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T4_LEATHER@2",
+            "qty": 20,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 2048,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T4_2H_KNUCKLES_SET3@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T4_SOUL",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 9191,
+        "output": 1,
+        "silver": 0,
+        "value": 4096,
+        "fame": 6912,
+        "mats": [
+          {
+            "id": "T4_METALBAR@3",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T4_LEATHER@3",
+            "qty": 20,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 4096,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T4_2H_KNUCKLES_SET3@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T4_RELIC",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 16085,
+        "output": 1,
+        "silver": 0,
+        "value": 8192,
+        "fame": 13824,
+        "mats": [
+          {
+            "id": "T4_METALBAR@4",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T4_LEATHER@4",
+            "qty": 20,
+            "ret": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T5_2H_KNUCKLES_SET2",
+    "name": "Expert's Battle Bracers",
+    "tier": 5,
+    "category": "knuckles",
+    "group": "weapon",
+    "station": "Warrior's Forge",
+    "study": true,
+    "weight": 10.1,
+    "journal": "WARRIOR",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 3001,
+        "output": 1,
+        "silver": 0,
+        "value": 1024,
+        "fame": 3456,
+        "mats": [
+          {
+            "id": "T5_METALBAR",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T5_LEATHER",
+            "qty": 20,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 5252,
+        "output": 1,
+        "silver": 0,
+        "value": 2048,
+        "fame": 6912,
+        "mats": [
+          {
+            "id": "T5_METALBAR@1",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T5_LEATHER@1",
+            "qty": 20,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 2048,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T5_2H_KNUCKLES_SET2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T5_RUNE",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 9191,
+        "output": 1,
+        "silver": 0,
+        "value": 4096,
+        "fame": 13824,
+        "mats": [
+          {
+            "id": "T5_METALBAR@2",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T5_LEATHER@2",
+            "qty": 20,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 4096,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T5_2H_KNUCKLES_SET2@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T5_SOUL",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 16085,
+        "output": 1,
+        "silver": 0,
+        "value": 8192,
+        "fame": 27648,
+        "mats": [
+          {
+            "id": "T5_METALBAR@3",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T5_LEATHER@3",
+            "qty": 20,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 8192,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T5_2H_KNUCKLES_SET2@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T5_RELIC",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 28148,
+        "output": 1,
+        "silver": 0,
+        "value": 16384,
+        "fame": 55296,
+        "mats": [
+          {
+            "id": "T5_METALBAR@4",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T5_LEATHER@4",
+            "qty": 20,
+            "ret": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T5_2H_KNUCKLES_SET1",
+    "name": "Expert's Brawler Gloves",
+    "tier": 5,
+    "category": "knuckles",
+    "group": "weapon",
+    "station": "Warrior's Forge",
+    "study": true,
+    "weight": 10.1,
+    "journal": "WARRIOR",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 3001,
+        "output": 1,
+        "silver": 0,
+        "value": 1024,
+        "fame": 3456,
+        "mats": [
+          {
+            "id": "T5_METALBAR",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T5_LEATHER",
+            "qty": 20,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 5252,
+        "output": 1,
+        "silver": 0,
+        "value": 2048,
+        "fame": 6912,
+        "mats": [
+          {
+            "id": "T5_METALBAR@1",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T5_LEATHER@1",
+            "qty": 20,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 2048,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T5_2H_KNUCKLES_SET1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T5_RUNE",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 9191,
+        "output": 1,
+        "silver": 0,
+        "value": 4096,
+        "fame": 13824,
+        "mats": [
+          {
+            "id": "T5_METALBAR@2",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T5_LEATHER@2",
+            "qty": 20,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 4096,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T5_2H_KNUCKLES_SET1@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T5_SOUL",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 16085,
+        "output": 1,
+        "silver": 0,
+        "value": 8192,
+        "fame": 27648,
+        "mats": [
+          {
+            "id": "T5_METALBAR@3",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T5_LEATHER@3",
+            "qty": 20,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 8192,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T5_2H_KNUCKLES_SET1@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T5_RELIC",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 28148,
+        "output": 1,
+        "silver": 0,
+        "value": 16384,
+        "fame": 55296,
+        "mats": [
+          {
+            "id": "T5_METALBAR@4",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T5_LEATHER@4",
+            "qty": 20,
+            "ret": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T5_2H_KNUCKLES_AVALON",
+    "name": "Expert's Fists of Avalon",
+    "tier": 5,
+    "category": "knuckles",
+    "group": "weapon",
+    "station": "Warrior's Forge",
+    "study": true,
+    "weight": 10.1,
+    "journal": "WARRIOR",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 3001,
+        "output": 1,
+        "silver": 0,
+        "value": 4864,
+        "fame": 4032,
+        "mats": [
+          {
+            "id": "T5_METALBAR",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T5_LEATHER",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T5_ARTEFACT_2H_KNUCKLES_AVALON",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 5252,
+        "output": 1,
+        "silver": 0,
+        "value": 5888,
+        "fame": 8064,
+        "mats": [
+          {
+            "id": "T5_METALBAR@1",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T5_LEATHER@1",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T5_ARTEFACT_2H_KNUCKLES_AVALON",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 5888,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T5_2H_KNUCKLES_AVALON",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T5_RUNE",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 9191,
+        "output": 1,
+        "silver": 0,
+        "value": 7936,
+        "fame": 16128,
+        "mats": [
+          {
+            "id": "T5_METALBAR@2",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T5_LEATHER@2",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T5_ARTEFACT_2H_KNUCKLES_AVALON",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 7936,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T5_2H_KNUCKLES_AVALON@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T5_SOUL",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 16085,
+        "output": 1,
+        "silver": 0,
+        "value": 12032,
+        "fame": 32256,
+        "mats": [
+          {
+            "id": "T5_METALBAR@3",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T5_LEATHER@3",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T5_ARTEFACT_2H_KNUCKLES_AVALON",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 12032,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T5_2H_KNUCKLES_AVALON@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T5_RELIC",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 28148,
+        "output": 1,
+        "silver": 0,
+        "value": 20224,
+        "fame": 64512,
+        "mats": [
+          {
+            "id": "T5_METALBAR@4",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T5_LEATHER@4",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T5_ARTEFACT_2H_KNUCKLES_AVALON",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T5_2H_KNUCKLES_CRYSTAL",
+    "name": "Expert's Forcepulse Bracers",
+    "tier": 5,
+    "category": "knuckles",
+    "group": "weapon",
+    "station": "Warrior's Forge",
+    "study": true,
+    "weight": 10.1,
+    "journal": "WARRIOR",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 3001,
+        "output": 1,
+        "silver": 0,
+        "value": 4864,
+        "fame": 4032,
+        "mats": [
+          {
+            "id": "T5_METALBAR",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T5_LEATHER",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T5_ARTEFACT_2H_KNUCKLES_CRYSTAL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 5252,
+        "output": 1,
+        "silver": 0,
+        "value": 5888,
+        "fame": 8064,
+        "mats": [
+          {
+            "id": "T5_METALBAR@1",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T5_LEATHER@1",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T5_ARTEFACT_2H_KNUCKLES_CRYSTAL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 5888,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T5_2H_KNUCKLES_CRYSTAL",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T5_RUNE",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 9191,
+        "output": 1,
+        "silver": 0,
+        "value": 7936,
+        "fame": 16128,
+        "mats": [
+          {
+            "id": "T5_METALBAR@2",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T5_LEATHER@2",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T5_ARTEFACT_2H_KNUCKLES_CRYSTAL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 7936,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T5_2H_KNUCKLES_CRYSTAL@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T5_SOUL",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 16085,
+        "output": 1,
+        "silver": 0,
+        "value": 12032,
+        "fame": 32256,
+        "mats": [
+          {
+            "id": "T5_METALBAR@3",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T5_LEATHER@3",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T5_ARTEFACT_2H_KNUCKLES_CRYSTAL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 12032,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T5_2H_KNUCKLES_CRYSTAL@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T5_RELIC",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 28148,
+        "output": 1,
+        "silver": 0,
+        "value": 20224,
+        "fame": 64512,
+        "mats": [
+          {
+            "id": "T5_METALBAR@4",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T5_LEATHER@4",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T5_ARTEFACT_2H_KNUCKLES_CRYSTAL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T5_2H_KNUCKLES_HELL",
+    "name": "Expert's Hellfire Hands",
+    "tier": 5,
+    "category": "knuckles",
+    "group": "weapon",
+    "station": "Warrior's Forge",
+    "study": true,
+    "weight": 10.1,
+    "journal": "WARRIOR",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 3001,
+        "output": 1,
+        "silver": 0,
+        "value": 1792,
+        "fame": 3456,
+        "mats": [
+          {
+            "id": "T5_METALBAR",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T5_LEATHER",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T5_ARTEFACT_2H_KNUCKLES_HELL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 5252,
+        "output": 1,
+        "silver": 0,
+        "value": 2816,
+        "fame": 6912,
+        "mats": [
+          {
+            "id": "T5_METALBAR@1",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T5_LEATHER@1",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T5_ARTEFACT_2H_KNUCKLES_HELL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 2816,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T5_2H_KNUCKLES_HELL",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T5_RUNE",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 9191,
+        "output": 1,
+        "silver": 0,
+        "value": 4864,
+        "fame": 13824,
+        "mats": [
+          {
+            "id": "T5_METALBAR@2",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T5_LEATHER@2",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T5_ARTEFACT_2H_KNUCKLES_HELL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 4864,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T5_2H_KNUCKLES_HELL@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T5_SOUL",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 16085,
+        "output": 1,
+        "silver": 0,
+        "value": 8960,
+        "fame": 27648,
+        "mats": [
+          {
+            "id": "T5_METALBAR@3",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T5_LEATHER@3",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T5_ARTEFACT_2H_KNUCKLES_HELL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 8960,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T5_2H_KNUCKLES_HELL@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T5_RELIC",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 28148,
+        "output": 1,
+        "silver": 0,
+        "value": 17152,
+        "fame": 55296,
+        "mats": [
+          {
+            "id": "T5_METALBAR@4",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T5_LEATHER@4",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T5_ARTEFACT_2H_KNUCKLES_HELL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T5_2H_KNUCKLES_KEEPER",
+    "name": "Expert's Ursine Maulers",
+    "tier": 5,
+    "category": "knuckles",
+    "group": "weapon",
+    "station": "Warrior's Forge",
+    "study": true,
+    "weight": 10.1,
+    "journal": "WARRIOR",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 3001,
+        "output": 1,
+        "silver": 0,
+        "value": 1280,
+        "fame": 3168,
+        "mats": [
+          {
+            "id": "T5_METALBAR",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T5_LEATHER",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T5_ARTEFACT_2H_KNUCKLES_KEEPER",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 5252,
+        "output": 1,
+        "silver": 0,
+        "value": 2304,
+        "fame": 6336,
+        "mats": [
+          {
+            "id": "T5_METALBAR@1",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T5_LEATHER@1",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T5_ARTEFACT_2H_KNUCKLES_KEEPER",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 2304,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T5_2H_KNUCKLES_KEEPER",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T5_RUNE",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 9191,
+        "output": 1,
+        "silver": 0,
+        "value": 4352,
+        "fame": 12672,
+        "mats": [
+          {
+            "id": "T5_METALBAR@2",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T5_LEATHER@2",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T5_ARTEFACT_2H_KNUCKLES_KEEPER",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 4352,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T5_2H_KNUCKLES_KEEPER@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T5_SOUL",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 16085,
+        "output": 1,
+        "silver": 0,
+        "value": 8448,
+        "fame": 25344,
+        "mats": [
+          {
+            "id": "T5_METALBAR@3",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T5_LEATHER@3",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T5_ARTEFACT_2H_KNUCKLES_KEEPER",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 8448,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T5_2H_KNUCKLES_KEEPER@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T5_RELIC",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 28148,
+        "output": 1,
+        "silver": 0,
+        "value": 16640,
+        "fame": 50688,
+        "mats": [
+          {
+            "id": "T5_METALBAR@4",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T5_LEATHER@4",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T5_ARTEFACT_2H_KNUCKLES_KEEPER",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T5_2H_KNUCKLES_MORGANA",
+    "name": "Expert's Ravenstrike Cestus",
+    "tier": 5,
+    "category": "knuckles",
+    "group": "weapon",
+    "station": "Warrior's Forge",
+    "study": true,
+    "weight": 10.1,
+    "journal": "WARRIOR",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 3001,
+        "output": 1,
+        "silver": 0,
+        "value": 2816,
+        "fame": 3744,
+        "mats": [
+          {
+            "id": "T5_METALBAR",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T5_LEATHER",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T5_ARTEFACT_2H_KNUCKLES_MORGANA",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 5252,
+        "output": 1,
+        "silver": 0,
+        "value": 3840,
+        "fame": 7488,
+        "mats": [
+          {
+            "id": "T5_METALBAR@1",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T5_LEATHER@1",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T5_ARTEFACT_2H_KNUCKLES_MORGANA",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 3840,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T5_2H_KNUCKLES_MORGANA",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T5_RUNE",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 9191,
+        "output": 1,
+        "silver": 0,
+        "value": 5888,
+        "fame": 14976,
+        "mats": [
+          {
+            "id": "T5_METALBAR@2",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T5_LEATHER@2",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T5_ARTEFACT_2H_KNUCKLES_MORGANA",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 5888,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T5_2H_KNUCKLES_MORGANA@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T5_SOUL",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 16085,
+        "output": 1,
+        "silver": 0,
+        "value": 9984,
+        "fame": 29952,
+        "mats": [
+          {
+            "id": "T5_METALBAR@3",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T5_LEATHER@3",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T5_ARTEFACT_2H_KNUCKLES_MORGANA",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 9984,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T5_2H_KNUCKLES_MORGANA@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T5_RELIC",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 28148,
+        "output": 1,
+        "silver": 0,
+        "value": 18176,
+        "fame": 59904,
+        "mats": [
+          {
+            "id": "T5_METALBAR@4",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T5_LEATHER@4",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T5_ARTEFACT_2H_KNUCKLES_MORGANA",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T5_2H_KNUCKLES_SET3",
+    "name": "Expert's Spiked Gauntlets",
+    "tier": 5,
+    "category": "knuckles",
+    "group": "weapon",
+    "station": "Warrior's Forge",
+    "study": true,
+    "weight": 10.1,
+    "journal": "WARRIOR",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 3001,
+        "output": 1,
+        "silver": 0,
+        "value": 1024,
+        "fame": 3456,
+        "mats": [
+          {
+            "id": "T5_METALBAR",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T5_LEATHER",
+            "qty": 20,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 5252,
+        "output": 1,
+        "silver": 0,
+        "value": 2048,
+        "fame": 6912,
+        "mats": [
+          {
+            "id": "T5_METALBAR@1",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T5_LEATHER@1",
+            "qty": 20,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 2048,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T5_2H_KNUCKLES_SET3",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T5_RUNE",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 9191,
+        "output": 1,
+        "silver": 0,
+        "value": 4096,
+        "fame": 13824,
+        "mats": [
+          {
+            "id": "T5_METALBAR@2",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T5_LEATHER@2",
+            "qty": 20,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 4096,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T5_2H_KNUCKLES_SET3@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T5_SOUL",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 16085,
+        "output": 1,
+        "silver": 0,
+        "value": 8192,
+        "fame": 27648,
+        "mats": [
+          {
+            "id": "T5_METALBAR@3",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T5_LEATHER@3",
+            "qty": 20,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 8192,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T5_2H_KNUCKLES_SET3@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T5_RELIC",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 28148,
+        "output": 1,
+        "silver": 0,
+        "value": 16384,
+        "fame": 55296,
+        "mats": [
+          {
+            "id": "T5_METALBAR@4",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T5_LEATHER@4",
+            "qty": 20,
+            "ret": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T6_2H_KNUCKLES_SET2",
+    "name": "Master's Battle Bracers",
+    "tier": 6,
+    "category": "knuckles",
+    "group": "weapon",
+    "station": "Warrior's Forge",
+    "study": true,
+    "weight": 15.2,
+    "journal": "WARRIOR",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 5252,
+        "output": 1,
+        "silver": 0,
+        "value": 2048,
+        "fame": 10368,
+        "mats": [
+          {
+            "id": "T6_METALBAR",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T6_LEATHER",
+            "qty": 20,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 9191,
+        "output": 1,
+        "silver": 0,
+        "value": 4096,
+        "fame": 20736,
+        "mats": [
+          {
+            "id": "T6_METALBAR@1",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T6_LEATHER@1",
+            "qty": 20,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 4096,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T6_2H_KNUCKLES_SET2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T6_RUNE",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 16085,
+        "output": 1,
+        "silver": 0,
+        "value": 8192,
+        "fame": 41472,
+        "mats": [
+          {
+            "id": "T6_METALBAR@2",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T6_LEATHER@2",
+            "qty": 20,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 8192,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T6_2H_KNUCKLES_SET2@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T6_SOUL",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 28148,
+        "output": 1,
+        "silver": 0,
+        "value": 16384,
+        "fame": 82944,
+        "mats": [
+          {
+            "id": "T6_METALBAR@3",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T6_LEATHER@3",
+            "qty": 20,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 16384,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T6_2H_KNUCKLES_SET2@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T6_RELIC",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 49260,
+        "output": 1,
+        "silver": 0,
+        "value": 32768,
+        "fame": 165888,
+        "mats": [
+          {
+            "id": "T6_METALBAR@4",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T6_LEATHER@4",
+            "qty": 20,
+            "ret": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T6_2H_KNUCKLES_SET1",
+    "name": "Master's Brawler Gloves",
+    "tier": 6,
+    "category": "knuckles",
+    "group": "weapon",
+    "station": "Warrior's Forge",
+    "study": true,
+    "weight": 15.2,
+    "journal": "WARRIOR",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 5252,
+        "output": 1,
+        "silver": 0,
+        "value": 2048,
+        "fame": 10368,
+        "mats": [
+          {
+            "id": "T6_METALBAR",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T6_LEATHER",
+            "qty": 20,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 9191,
+        "output": 1,
+        "silver": 0,
+        "value": 4096,
+        "fame": 20736,
+        "mats": [
+          {
+            "id": "T6_METALBAR@1",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T6_LEATHER@1",
+            "qty": 20,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 4096,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T6_2H_KNUCKLES_SET1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T6_RUNE",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 16085,
+        "output": 1,
+        "silver": 0,
+        "value": 8192,
+        "fame": 41472,
+        "mats": [
+          {
+            "id": "T6_METALBAR@2",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T6_LEATHER@2",
+            "qty": 20,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 8192,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T6_2H_KNUCKLES_SET1@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T6_SOUL",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 28148,
+        "output": 1,
+        "silver": 0,
+        "value": 16384,
+        "fame": 82944,
+        "mats": [
+          {
+            "id": "T6_METALBAR@3",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T6_LEATHER@3",
+            "qty": 20,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 16384,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T6_2H_KNUCKLES_SET1@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T6_RELIC",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 49260,
+        "output": 1,
+        "silver": 0,
+        "value": 32768,
+        "fame": 165888,
+        "mats": [
+          {
+            "id": "T6_METALBAR@4",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T6_LEATHER@4",
+            "qty": 20,
+            "ret": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T6_2H_KNUCKLES_AVALON",
+    "name": "Master's Fists of Avalon",
+    "tier": 6,
+    "category": "knuckles",
+    "group": "weapon",
+    "station": "Warrior's Forge",
+    "study": true,
+    "weight": 15.2,
+    "journal": "WARRIOR",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 5252,
+        "output": 1,
+        "silver": 0,
+        "value": 9728,
+        "fame": 12096,
+        "mats": [
+          {
+            "id": "T6_METALBAR",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T6_LEATHER",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T6_ARTEFACT_2H_KNUCKLES_AVALON",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 9191,
+        "output": 1,
+        "silver": 0,
+        "value": 11776,
+        "fame": 24192,
+        "mats": [
+          {
+            "id": "T6_METALBAR@1",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T6_LEATHER@1",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T6_ARTEFACT_2H_KNUCKLES_AVALON",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 11776,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T6_2H_KNUCKLES_AVALON",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T6_RUNE",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 16085,
+        "output": 1,
+        "silver": 0,
+        "value": 15872,
+        "fame": 48384,
+        "mats": [
+          {
+            "id": "T6_METALBAR@2",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T6_LEATHER@2",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T6_ARTEFACT_2H_KNUCKLES_AVALON",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 15872,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T6_2H_KNUCKLES_AVALON@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T6_SOUL",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 28148,
+        "output": 1,
+        "silver": 0,
+        "value": 24064,
+        "fame": 96768,
+        "mats": [
+          {
+            "id": "T6_METALBAR@3",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T6_LEATHER@3",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T6_ARTEFACT_2H_KNUCKLES_AVALON",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 24064,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T6_2H_KNUCKLES_AVALON@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T6_RELIC",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 49260,
+        "output": 1,
+        "silver": 0,
+        "value": 40448,
+        "fame": 193536,
+        "mats": [
+          {
+            "id": "T6_METALBAR@4",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T6_LEATHER@4",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T6_ARTEFACT_2H_KNUCKLES_AVALON",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T6_2H_KNUCKLES_CRYSTAL",
+    "name": "Master's Forcepulse Bracers",
+    "tier": 6,
+    "category": "knuckles",
+    "group": "weapon",
+    "station": "Warrior's Forge",
+    "study": true,
+    "weight": 15.2,
+    "journal": "WARRIOR",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 5252,
+        "output": 1,
+        "silver": 0,
+        "value": 9728,
+        "fame": 12096,
+        "mats": [
+          {
+            "id": "T6_METALBAR",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T6_LEATHER",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T6_ARTEFACT_2H_KNUCKLES_CRYSTAL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 9191,
+        "output": 1,
+        "silver": 0,
+        "value": 11776,
+        "fame": 24192,
+        "mats": [
+          {
+            "id": "T6_METALBAR@1",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T6_LEATHER@1",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T6_ARTEFACT_2H_KNUCKLES_CRYSTAL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 11776,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T6_2H_KNUCKLES_CRYSTAL",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T6_RUNE",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 16085,
+        "output": 1,
+        "silver": 0,
+        "value": 15872,
+        "fame": 48384,
+        "mats": [
+          {
+            "id": "T6_METALBAR@2",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T6_LEATHER@2",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T6_ARTEFACT_2H_KNUCKLES_CRYSTAL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 15872,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T6_2H_KNUCKLES_CRYSTAL@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T6_SOUL",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 28148,
+        "output": 1,
+        "silver": 0,
+        "value": 24064,
+        "fame": 96768,
+        "mats": [
+          {
+            "id": "T6_METALBAR@3",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T6_LEATHER@3",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T6_ARTEFACT_2H_KNUCKLES_CRYSTAL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 24064,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T6_2H_KNUCKLES_CRYSTAL@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T6_RELIC",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 49260,
+        "output": 1,
+        "silver": 0,
+        "value": 40448,
+        "fame": 193536,
+        "mats": [
+          {
+            "id": "T6_METALBAR@4",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T6_LEATHER@4",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T6_ARTEFACT_2H_KNUCKLES_CRYSTAL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T6_2H_KNUCKLES_HELL",
+    "name": "Master's Hellfire Hands",
+    "tier": 6,
+    "category": "knuckles",
+    "group": "weapon",
+    "station": "Warrior's Forge",
+    "study": true,
+    "weight": 15.2,
+    "journal": "WARRIOR",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 5252,
+        "output": 1,
+        "silver": 0,
+        "value": 3584,
+        "fame": 10368,
+        "mats": [
+          {
+            "id": "T6_METALBAR",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T6_LEATHER",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T6_ARTEFACT_2H_KNUCKLES_HELL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 9191,
+        "output": 1,
+        "silver": 0,
+        "value": 5632,
+        "fame": 20736,
+        "mats": [
+          {
+            "id": "T6_METALBAR@1",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T6_LEATHER@1",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T6_ARTEFACT_2H_KNUCKLES_HELL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 5632,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T6_2H_KNUCKLES_HELL",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T6_RUNE",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 16085,
+        "output": 1,
+        "silver": 0,
+        "value": 9728,
+        "fame": 41472,
+        "mats": [
+          {
+            "id": "T6_METALBAR@2",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T6_LEATHER@2",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T6_ARTEFACT_2H_KNUCKLES_HELL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 9728,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T6_2H_KNUCKLES_HELL@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T6_SOUL",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 28148,
+        "output": 1,
+        "silver": 0,
+        "value": 17920,
+        "fame": 82944,
+        "mats": [
+          {
+            "id": "T6_METALBAR@3",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T6_LEATHER@3",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T6_ARTEFACT_2H_KNUCKLES_HELL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 17920,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T6_2H_KNUCKLES_HELL@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T6_RELIC",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 49260,
+        "output": 1,
+        "silver": 0,
+        "value": 34304,
+        "fame": 165888,
+        "mats": [
+          {
+            "id": "T6_METALBAR@4",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T6_LEATHER@4",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T6_ARTEFACT_2H_KNUCKLES_HELL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T6_2H_KNUCKLES_KEEPER",
+    "name": "Master's Ursine Maulers",
+    "tier": 6,
+    "category": "knuckles",
+    "group": "weapon",
+    "station": "Warrior's Forge",
+    "study": true,
+    "weight": 15.2,
+    "journal": "WARRIOR",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 5252,
+        "output": 1,
+        "silver": 0,
+        "value": 2560,
+        "fame": 9504,
+        "mats": [
+          {
+            "id": "T6_METALBAR",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T6_LEATHER",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T6_ARTEFACT_2H_KNUCKLES_KEEPER",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 9191,
+        "output": 1,
+        "silver": 0,
+        "value": 4608,
+        "fame": 19008,
+        "mats": [
+          {
+            "id": "T6_METALBAR@1",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T6_LEATHER@1",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T6_ARTEFACT_2H_KNUCKLES_KEEPER",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 4608,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T6_2H_KNUCKLES_KEEPER",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T6_RUNE",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 16085,
+        "output": 1,
+        "silver": 0,
+        "value": 8704,
+        "fame": 38016,
+        "mats": [
+          {
+            "id": "T6_METALBAR@2",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T6_LEATHER@2",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T6_ARTEFACT_2H_KNUCKLES_KEEPER",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 8704,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T6_2H_KNUCKLES_KEEPER@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T6_SOUL",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 28148,
+        "output": 1,
+        "silver": 0,
+        "value": 16896,
+        "fame": 76032,
+        "mats": [
+          {
+            "id": "T6_METALBAR@3",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T6_LEATHER@3",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T6_ARTEFACT_2H_KNUCKLES_KEEPER",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 16896,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T6_2H_KNUCKLES_KEEPER@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T6_RELIC",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 49260,
+        "output": 1,
+        "silver": 0,
+        "value": 33280,
+        "fame": 152064,
+        "mats": [
+          {
+            "id": "T6_METALBAR@4",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T6_LEATHER@4",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T6_ARTEFACT_2H_KNUCKLES_KEEPER",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T6_2H_KNUCKLES_MORGANA",
+    "name": "Master's Ravenstrike Cestus",
+    "tier": 6,
+    "category": "knuckles",
+    "group": "weapon",
+    "station": "Warrior's Forge",
+    "study": true,
+    "weight": 15.2,
+    "journal": "WARRIOR",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 5252,
+        "output": 1,
+        "silver": 0,
+        "value": 5632,
+        "fame": 11232,
+        "mats": [
+          {
+            "id": "T6_METALBAR",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T6_LEATHER",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T6_ARTEFACT_2H_KNUCKLES_MORGANA",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 9191,
+        "output": 1,
+        "silver": 0,
+        "value": 7680,
+        "fame": 22464,
+        "mats": [
+          {
+            "id": "T6_METALBAR@1",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T6_LEATHER@1",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T6_ARTEFACT_2H_KNUCKLES_MORGANA",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 7680,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T6_2H_KNUCKLES_MORGANA",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T6_RUNE",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 16085,
+        "output": 1,
+        "silver": 0,
+        "value": 11776,
+        "fame": 44928,
+        "mats": [
+          {
+            "id": "T6_METALBAR@2",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T6_LEATHER@2",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T6_ARTEFACT_2H_KNUCKLES_MORGANA",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 11776,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T6_2H_KNUCKLES_MORGANA@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T6_SOUL",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 28148,
+        "output": 1,
+        "silver": 0,
+        "value": 19968,
+        "fame": 89856,
+        "mats": [
+          {
+            "id": "T6_METALBAR@3",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T6_LEATHER@3",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T6_ARTEFACT_2H_KNUCKLES_MORGANA",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 19968,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T6_2H_KNUCKLES_MORGANA@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T6_RELIC",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 49260,
+        "output": 1,
+        "silver": 0,
+        "value": 36352,
+        "fame": 179712,
+        "mats": [
+          {
+            "id": "T6_METALBAR@4",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T6_LEATHER@4",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T6_ARTEFACT_2H_KNUCKLES_MORGANA",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T6_2H_KNUCKLES_SET3",
+    "name": "Master's Spiked Gauntlets",
+    "tier": 6,
+    "category": "knuckles",
+    "group": "weapon",
+    "station": "Warrior's Forge",
+    "study": true,
+    "weight": 15.2,
+    "journal": "WARRIOR",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 5252,
+        "output": 1,
+        "silver": 0,
+        "value": 2048,
+        "fame": 10368,
+        "mats": [
+          {
+            "id": "T6_METALBAR",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T6_LEATHER",
+            "qty": 20,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 9191,
+        "output": 1,
+        "silver": 0,
+        "value": 4096,
+        "fame": 20736,
+        "mats": [
+          {
+            "id": "T6_METALBAR@1",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T6_LEATHER@1",
+            "qty": 20,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 4096,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T6_2H_KNUCKLES_SET3",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T6_RUNE",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 16085,
+        "output": 1,
+        "silver": 0,
+        "value": 8192,
+        "fame": 41472,
+        "mats": [
+          {
+            "id": "T6_METALBAR@2",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T6_LEATHER@2",
+            "qty": 20,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 8192,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T6_2H_KNUCKLES_SET3@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T6_SOUL",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 28148,
+        "output": 1,
+        "silver": 0,
+        "value": 16384,
+        "fame": 82944,
+        "mats": [
+          {
+            "id": "T6_METALBAR@3",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T6_LEATHER@3",
+            "qty": 20,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 16384,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T6_2H_KNUCKLES_SET3@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T6_RELIC",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 49260,
+        "output": 1,
+        "silver": 0,
+        "value": 32768,
+        "fame": 165888,
+        "mats": [
+          {
+            "id": "T6_METALBAR@4",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T6_LEATHER@4",
+            "qty": 20,
+            "ret": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T7_2H_KNUCKLES_SET2",
+    "name": "Grandmaster's Battle Bracers",
+    "tier": 7,
+    "category": "knuckles",
+    "group": "weapon",
+    "station": "Warrior's Forge",
+    "study": true,
+    "weight": 22.8,
+    "journal": "WARRIOR",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 9191,
+        "output": 1,
+        "silver": 0,
+        "value": 4096,
+        "fame": 24768,
+        "mats": [
+          {
+            "id": "T7_METALBAR",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T7_LEATHER",
+            "qty": 20,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 16085,
+        "output": 1,
+        "silver": 0,
+        "value": 8192,
+        "fame": 49536,
+        "mats": [
+          {
+            "id": "T7_METALBAR@1",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T7_LEATHER@1",
+            "qty": 20,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 8192,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T7_2H_KNUCKLES_SET2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T7_RUNE",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 28148,
+        "output": 1,
+        "silver": 0,
+        "value": 16384,
+        "fame": 99072,
+        "mats": [
+          {
+            "id": "T7_METALBAR@2",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T7_LEATHER@2",
+            "qty": 20,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 16384,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T7_2H_KNUCKLES_SET2@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T7_SOUL",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 49260,
+        "output": 1,
+        "silver": 0,
+        "value": 32768,
+        "fame": 198144,
+        "mats": [
+          {
+            "id": "T7_METALBAR@3",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T7_LEATHER@3",
+            "qty": 20,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 32768,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T7_2H_KNUCKLES_SET2@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T7_RELIC",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 86205,
+        "output": 1,
+        "silver": 0,
+        "value": 65536,
+        "fame": 396288,
+        "mats": [
+          {
+            "id": "T7_METALBAR@4",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T7_LEATHER@4",
+            "qty": 20,
+            "ret": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T7_2H_KNUCKLES_SET1",
+    "name": "Grandmaster's Brawler Gloves",
+    "tier": 7,
+    "category": "knuckles",
+    "group": "weapon",
+    "station": "Warrior's Forge",
+    "study": true,
+    "weight": 22.8,
+    "journal": "WARRIOR",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 9191,
+        "output": 1,
+        "silver": 0,
+        "value": 4096,
+        "fame": 24768,
+        "mats": [
+          {
+            "id": "T7_METALBAR",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T7_LEATHER",
+            "qty": 20,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 16085,
+        "output": 1,
+        "silver": 0,
+        "value": 8192,
+        "fame": 49536,
+        "mats": [
+          {
+            "id": "T7_METALBAR@1",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T7_LEATHER@1",
+            "qty": 20,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 8192,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T7_2H_KNUCKLES_SET1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T7_RUNE",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 28148,
+        "output": 1,
+        "silver": 0,
+        "value": 16384,
+        "fame": 99072,
+        "mats": [
+          {
+            "id": "T7_METALBAR@2",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T7_LEATHER@2",
+            "qty": 20,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 16384,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T7_2H_KNUCKLES_SET1@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T7_SOUL",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 49260,
+        "output": 1,
+        "silver": 0,
+        "value": 32768,
+        "fame": 198144,
+        "mats": [
+          {
+            "id": "T7_METALBAR@3",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T7_LEATHER@3",
+            "qty": 20,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 32768,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T7_2H_KNUCKLES_SET1@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T7_RELIC",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 86205,
+        "output": 1,
+        "silver": 0,
+        "value": 65536,
+        "fame": 396288,
+        "mats": [
+          {
+            "id": "T7_METALBAR@4",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T7_LEATHER@4",
+            "qty": 20,
+            "ret": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T7_2H_KNUCKLES_AVALON",
+    "name": "Grandmaster's Fists of Avalon",
+    "tier": 7,
+    "category": "knuckles",
+    "group": "weapon",
+    "station": "Warrior's Forge",
+    "study": true,
+    "weight": 22.8,
+    "journal": "WARRIOR",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 9191,
+        "output": 1,
+        "silver": 0,
+        "value": 19456,
+        "fame": 28896,
+        "mats": [
+          {
+            "id": "T7_METALBAR",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T7_LEATHER",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T7_ARTEFACT_2H_KNUCKLES_AVALON",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 16085,
+        "output": 1,
+        "silver": 0,
+        "value": 23552,
+        "fame": 57792,
+        "mats": [
+          {
+            "id": "T7_METALBAR@1",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T7_LEATHER@1",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T7_ARTEFACT_2H_KNUCKLES_AVALON",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 23552,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T7_2H_KNUCKLES_AVALON",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T7_RUNE",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 28148,
+        "output": 1,
+        "silver": 0,
+        "value": 31744,
+        "fame": 115584,
+        "mats": [
+          {
+            "id": "T7_METALBAR@2",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T7_LEATHER@2",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T7_ARTEFACT_2H_KNUCKLES_AVALON",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 31744,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T7_2H_KNUCKLES_AVALON@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T7_SOUL",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 49260,
+        "output": 1,
+        "silver": 0,
+        "value": 48128,
+        "fame": 231168,
+        "mats": [
+          {
+            "id": "T7_METALBAR@3",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T7_LEATHER@3",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T7_ARTEFACT_2H_KNUCKLES_AVALON",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 48128,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T7_2H_KNUCKLES_AVALON@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T7_RELIC",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 86205,
+        "output": 1,
+        "silver": 0,
+        "value": 80896,
+        "fame": 462336,
+        "mats": [
+          {
+            "id": "T7_METALBAR@4",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T7_LEATHER@4",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T7_ARTEFACT_2H_KNUCKLES_AVALON",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T7_2H_KNUCKLES_CRYSTAL",
+    "name": "Grandmaster's Forcepulse Bracers",
+    "tier": 7,
+    "category": "knuckles",
+    "group": "weapon",
+    "station": "Warrior's Forge",
+    "study": true,
+    "weight": 22.8,
+    "journal": "WARRIOR",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 9191,
+        "output": 1,
+        "silver": 0,
+        "value": 19456,
+        "fame": 28896,
+        "mats": [
+          {
+            "id": "T7_METALBAR",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T7_LEATHER",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T7_ARTEFACT_2H_KNUCKLES_CRYSTAL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 16085,
+        "output": 1,
+        "silver": 0,
+        "value": 23552,
+        "fame": 57792,
+        "mats": [
+          {
+            "id": "T7_METALBAR@1",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T7_LEATHER@1",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T7_ARTEFACT_2H_KNUCKLES_CRYSTAL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 23552,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T7_2H_KNUCKLES_CRYSTAL",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T7_RUNE",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 28148,
+        "output": 1,
+        "silver": 0,
+        "value": 31744,
+        "fame": 115584,
+        "mats": [
+          {
+            "id": "T7_METALBAR@2",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T7_LEATHER@2",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T7_ARTEFACT_2H_KNUCKLES_CRYSTAL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 31744,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T7_2H_KNUCKLES_CRYSTAL@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T7_SOUL",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 49260,
+        "output": 1,
+        "silver": 0,
+        "value": 48128,
+        "fame": 231168,
+        "mats": [
+          {
+            "id": "T7_METALBAR@3",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T7_LEATHER@3",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T7_ARTEFACT_2H_KNUCKLES_CRYSTAL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 48128,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T7_2H_KNUCKLES_CRYSTAL@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T7_RELIC",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 86205,
+        "output": 1,
+        "silver": 0,
+        "value": 80896,
+        "fame": 462336,
+        "mats": [
+          {
+            "id": "T7_METALBAR@4",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T7_LEATHER@4",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T7_ARTEFACT_2H_KNUCKLES_CRYSTAL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T7_2H_KNUCKLES_HELL",
+    "name": "Grandmaster's Hellfire Hands",
+    "tier": 7,
+    "category": "knuckles",
+    "group": "weapon",
+    "station": "Warrior's Forge",
+    "study": true,
+    "weight": 22.8,
+    "journal": "WARRIOR",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 9191,
+        "output": 1,
+        "silver": 0,
+        "value": 7168,
+        "fame": 24768,
+        "mats": [
+          {
+            "id": "T7_METALBAR",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T7_LEATHER",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T7_ARTEFACT_2H_KNUCKLES_HELL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 16085,
+        "output": 1,
+        "silver": 0,
+        "value": 11264,
+        "fame": 49536,
+        "mats": [
+          {
+            "id": "T7_METALBAR@1",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T7_LEATHER@1",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T7_ARTEFACT_2H_KNUCKLES_HELL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 11264,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T7_2H_KNUCKLES_HELL",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T7_RUNE",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 28148,
+        "output": 1,
+        "silver": 0,
+        "value": 19456,
+        "fame": 99072,
+        "mats": [
+          {
+            "id": "T7_METALBAR@2",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T7_LEATHER@2",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T7_ARTEFACT_2H_KNUCKLES_HELL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 19456,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T7_2H_KNUCKLES_HELL@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T7_SOUL",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 49260,
+        "output": 1,
+        "silver": 0,
+        "value": 35840,
+        "fame": 198144,
+        "mats": [
+          {
+            "id": "T7_METALBAR@3",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T7_LEATHER@3",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T7_ARTEFACT_2H_KNUCKLES_HELL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 35840,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T7_2H_KNUCKLES_HELL@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T7_RELIC",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 86205,
+        "output": 1,
+        "silver": 0,
+        "value": 68608,
+        "fame": 396288,
+        "mats": [
+          {
+            "id": "T7_METALBAR@4",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T7_LEATHER@4",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T7_ARTEFACT_2H_KNUCKLES_HELL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T7_2H_KNUCKLES_KEEPER",
+    "name": "Grandmaster's Ursine Maulers",
+    "tier": 7,
+    "category": "knuckles",
+    "group": "weapon",
+    "station": "Warrior's Forge",
+    "study": true,
+    "weight": 22.8,
+    "journal": "WARRIOR",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 9191,
+        "output": 1,
+        "silver": 0,
+        "value": 5120,
+        "fame": 22704,
+        "mats": [
+          {
+            "id": "T7_METALBAR",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T7_LEATHER",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T7_ARTEFACT_2H_KNUCKLES_KEEPER",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 16085,
+        "output": 1,
+        "silver": 0,
+        "value": 9216,
+        "fame": 45408,
+        "mats": [
+          {
+            "id": "T7_METALBAR@1",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T7_LEATHER@1",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T7_ARTEFACT_2H_KNUCKLES_KEEPER",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 9216,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T7_2H_KNUCKLES_KEEPER",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T7_RUNE",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 28148,
+        "output": 1,
+        "silver": 0,
+        "value": 17408,
+        "fame": 90816,
+        "mats": [
+          {
+            "id": "T7_METALBAR@2",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T7_LEATHER@2",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T7_ARTEFACT_2H_KNUCKLES_KEEPER",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 17408,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T7_2H_KNUCKLES_KEEPER@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T7_SOUL",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 49260,
+        "output": 1,
+        "silver": 0,
+        "value": 33792,
+        "fame": 181632,
+        "mats": [
+          {
+            "id": "T7_METALBAR@3",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T7_LEATHER@3",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T7_ARTEFACT_2H_KNUCKLES_KEEPER",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 33792,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T7_2H_KNUCKLES_KEEPER@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T7_RELIC",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 86205,
+        "output": 1,
+        "silver": 0,
+        "value": 66560,
+        "fame": 363264,
+        "mats": [
+          {
+            "id": "T7_METALBAR@4",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T7_LEATHER@4",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T7_ARTEFACT_2H_KNUCKLES_KEEPER",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T7_2H_KNUCKLES_MORGANA",
+    "name": "Grandmaster's Ravenstrike Cestus",
+    "tier": 7,
+    "category": "knuckles",
+    "group": "weapon",
+    "station": "Warrior's Forge",
+    "study": true,
+    "weight": 22.8,
+    "journal": "WARRIOR",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 9191,
+        "output": 1,
+        "silver": 0,
+        "value": 11264,
+        "fame": 26832,
+        "mats": [
+          {
+            "id": "T7_METALBAR",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T7_LEATHER",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T7_ARTEFACT_2H_KNUCKLES_MORGANA",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 16085,
+        "output": 1,
+        "silver": 0,
+        "value": 15360,
+        "fame": 53664,
+        "mats": [
+          {
+            "id": "T7_METALBAR@1",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T7_LEATHER@1",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T7_ARTEFACT_2H_KNUCKLES_MORGANA",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 15360,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T7_2H_KNUCKLES_MORGANA",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T7_RUNE",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 28148,
+        "output": 1,
+        "silver": 0,
+        "value": 23552,
+        "fame": 107328,
+        "mats": [
+          {
+            "id": "T7_METALBAR@2",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T7_LEATHER@2",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T7_ARTEFACT_2H_KNUCKLES_MORGANA",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 23552,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T7_2H_KNUCKLES_MORGANA@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T7_SOUL",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 49260,
+        "output": 1,
+        "silver": 0,
+        "value": 39936,
+        "fame": 214656,
+        "mats": [
+          {
+            "id": "T7_METALBAR@3",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T7_LEATHER@3",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T7_ARTEFACT_2H_KNUCKLES_MORGANA",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 39936,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T7_2H_KNUCKLES_MORGANA@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T7_RELIC",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 86205,
+        "output": 1,
+        "silver": 0,
+        "value": 72704,
+        "fame": 429312,
+        "mats": [
+          {
+            "id": "T7_METALBAR@4",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T7_LEATHER@4",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T7_ARTEFACT_2H_KNUCKLES_MORGANA",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T7_2H_KNUCKLES_SET3",
+    "name": "Grandmaster's Spiked Gauntlets",
+    "tier": 7,
+    "category": "knuckles",
+    "group": "weapon",
+    "station": "Warrior's Forge",
+    "study": true,
+    "weight": 22.8,
+    "journal": "WARRIOR",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 9191,
+        "output": 1,
+        "silver": 0,
+        "value": 4096,
+        "fame": 24768,
+        "mats": [
+          {
+            "id": "T7_METALBAR",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T7_LEATHER",
+            "qty": 20,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 16085,
+        "output": 1,
+        "silver": 0,
+        "value": 8192,
+        "fame": 49536,
+        "mats": [
+          {
+            "id": "T7_METALBAR@1",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T7_LEATHER@1",
+            "qty": 20,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 8192,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T7_2H_KNUCKLES_SET3",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T7_RUNE",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 28148,
+        "output": 1,
+        "silver": 0,
+        "value": 16384,
+        "fame": 99072,
+        "mats": [
+          {
+            "id": "T7_METALBAR@2",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T7_LEATHER@2",
+            "qty": 20,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 16384,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T7_2H_KNUCKLES_SET3@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T7_SOUL",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 49260,
+        "output": 1,
+        "silver": 0,
+        "value": 32768,
+        "fame": 198144,
+        "mats": [
+          {
+            "id": "T7_METALBAR@3",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T7_LEATHER@3",
+            "qty": 20,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 32768,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T7_2H_KNUCKLES_SET3@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T7_RELIC",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 86205,
+        "output": 1,
+        "silver": 0,
+        "value": 65536,
+        "fame": 396288,
+        "mats": [
+          {
+            "id": "T7_METALBAR@4",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T7_LEATHER@4",
+            "qty": 20,
+            "ret": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T8_2H_KNUCKLES_SET2",
+    "name": "Elder's Battle Bracers",
+    "tier": 8,
+    "category": "knuckles",
+    "group": "weapon",
+    "station": "Warrior's Forge",
+    "study": true,
+    "weight": 34.2,
+    "journal": "WARRIOR",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 16085,
+        "output": 1,
+        "silver": 0,
+        "value": 8192,
+        "fame": 53568,
+        "mats": [
+          {
+            "id": "T8_METALBAR",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T8_LEATHER",
+            "qty": 20,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 28148,
+        "output": 1,
+        "silver": 0,
+        "value": 16384,
+        "fame": 107136,
+        "mats": [
+          {
+            "id": "T8_METALBAR@1",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T8_LEATHER@1",
+            "qty": 20,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 16384,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T8_2H_KNUCKLES_SET2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T8_RUNE",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 49260,
+        "output": 1,
+        "silver": 0,
+        "value": 32768,
+        "fame": 214272,
+        "mats": [
+          {
+            "id": "T8_METALBAR@2",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T8_LEATHER@2",
+            "qty": 20,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 32768,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T8_2H_KNUCKLES_SET2@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T8_SOUL",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 86205,
+        "output": 1,
+        "silver": 0,
+        "value": 65536,
+        "fame": 428544,
+        "mats": [
+          {
+            "id": "T8_METALBAR@3",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T8_LEATHER@3",
+            "qty": 20,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 65536,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T8_2H_KNUCKLES_SET2@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T8_RELIC",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 150858,
+        "output": 1,
+        "silver": 0,
+        "value": 131072,
+        "fame": 857088,
+        "mats": [
+          {
+            "id": "T8_METALBAR@4",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T8_LEATHER@4",
+            "qty": 20,
+            "ret": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T8_2H_KNUCKLES_SET1",
+    "name": "Elder's Brawler Gloves",
+    "tier": 8,
+    "category": "knuckles",
+    "group": "weapon",
+    "station": "Warrior's Forge",
+    "study": true,
+    "weight": 34.2,
+    "journal": "WARRIOR",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 16085,
+        "output": 1,
+        "silver": 0,
+        "value": 8192,
+        "fame": 53568,
+        "mats": [
+          {
+            "id": "T8_METALBAR",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T8_LEATHER",
+            "qty": 20,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 28148,
+        "output": 1,
+        "silver": 0,
+        "value": 16384,
+        "fame": 107136,
+        "mats": [
+          {
+            "id": "T8_METALBAR@1",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T8_LEATHER@1",
+            "qty": 20,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 16384,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T8_2H_KNUCKLES_SET1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T8_RUNE",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 49260,
+        "output": 1,
+        "silver": 0,
+        "value": 32768,
+        "fame": 214272,
+        "mats": [
+          {
+            "id": "T8_METALBAR@2",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T8_LEATHER@2",
+            "qty": 20,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 32768,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T8_2H_KNUCKLES_SET1@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T8_SOUL",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 86205,
+        "output": 1,
+        "silver": 0,
+        "value": 65536,
+        "fame": 428544,
+        "mats": [
+          {
+            "id": "T8_METALBAR@3",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T8_LEATHER@3",
+            "qty": 20,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 65536,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T8_2H_KNUCKLES_SET1@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T8_RELIC",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 150858,
+        "output": 1,
+        "silver": 0,
+        "value": 131072,
+        "fame": 857088,
+        "mats": [
+          {
+            "id": "T8_METALBAR@4",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T8_LEATHER@4",
+            "qty": 20,
+            "ret": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T8_2H_KNUCKLES_AVALON",
+    "name": "Elder's Fists of Avalon",
+    "tier": 8,
+    "category": "knuckles",
+    "group": "weapon",
+    "station": "Warrior's Forge",
+    "study": true,
+    "weight": 34.2,
+    "journal": "WARRIOR",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 16085,
+        "output": 1,
+        "silver": 0,
+        "value": 38912,
+        "fame": 62496,
+        "mats": [
+          {
+            "id": "T8_METALBAR",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T8_LEATHER",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T8_ARTEFACT_2H_KNUCKLES_AVALON",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 28148,
+        "output": 1,
+        "silver": 0,
+        "value": 47104,
+        "fame": 124992,
+        "mats": [
+          {
+            "id": "T8_METALBAR@1",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T8_LEATHER@1",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T8_ARTEFACT_2H_KNUCKLES_AVALON",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 47104,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T8_2H_KNUCKLES_AVALON",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T8_RUNE",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 49260,
+        "output": 1,
+        "silver": 0,
+        "value": 63488,
+        "fame": 249984,
+        "mats": [
+          {
+            "id": "T8_METALBAR@2",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T8_LEATHER@2",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T8_ARTEFACT_2H_KNUCKLES_AVALON",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 63488,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T8_2H_KNUCKLES_AVALON@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T8_SOUL",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 86205,
+        "output": 1,
+        "silver": 0,
+        "value": 96256,
+        "fame": 499968,
+        "mats": [
+          {
+            "id": "T8_METALBAR@3",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T8_LEATHER@3",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T8_ARTEFACT_2H_KNUCKLES_AVALON",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 96256,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T8_2H_KNUCKLES_AVALON@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T8_RELIC",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 150858,
+        "output": 1,
+        "silver": 0,
+        "value": 161792,
+        "fame": 999936,
+        "mats": [
+          {
+            "id": "T8_METALBAR@4",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T8_LEATHER@4",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T8_ARTEFACT_2H_KNUCKLES_AVALON",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T8_2H_KNUCKLES_CRYSTAL",
+    "name": "Elder's Forcepulse Bracers",
+    "tier": 8,
+    "category": "knuckles",
+    "group": "weapon",
+    "station": "Warrior's Forge",
+    "study": true,
+    "weight": 34.2,
+    "journal": "WARRIOR",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 16085,
+        "output": 1,
+        "silver": 0,
+        "value": 38912,
+        "fame": 62496,
+        "mats": [
+          {
+            "id": "T8_METALBAR",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T8_LEATHER",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T8_ARTEFACT_2H_KNUCKLES_CRYSTAL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 28148,
+        "output": 1,
+        "silver": 0,
+        "value": 47104,
+        "fame": 124992,
+        "mats": [
+          {
+            "id": "T8_METALBAR@1",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T8_LEATHER@1",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T8_ARTEFACT_2H_KNUCKLES_CRYSTAL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 47104,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T8_2H_KNUCKLES_CRYSTAL",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T8_RUNE",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 49260,
+        "output": 1,
+        "silver": 0,
+        "value": 63488,
+        "fame": 249984,
+        "mats": [
+          {
+            "id": "T8_METALBAR@2",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T8_LEATHER@2",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T8_ARTEFACT_2H_KNUCKLES_CRYSTAL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 63488,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T8_2H_KNUCKLES_CRYSTAL@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T8_SOUL",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 86205,
+        "output": 1,
+        "silver": 0,
+        "value": 96256,
+        "fame": 499968,
+        "mats": [
+          {
+            "id": "T8_METALBAR@3",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T8_LEATHER@3",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T8_ARTEFACT_2H_KNUCKLES_CRYSTAL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 96256,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T8_2H_KNUCKLES_CRYSTAL@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T8_RELIC",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 150858,
+        "output": 1,
+        "silver": 0,
+        "value": 161792,
+        "fame": 999936,
+        "mats": [
+          {
+            "id": "T8_METALBAR@4",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T8_LEATHER@4",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T8_ARTEFACT_2H_KNUCKLES_CRYSTAL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T8_2H_KNUCKLES_HELL",
+    "name": "Elder's Hellfire Hands",
+    "tier": 8,
+    "category": "knuckles",
+    "group": "weapon",
+    "station": "Warrior's Forge",
+    "study": true,
+    "weight": 34.2,
+    "journal": "WARRIOR",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 16085,
+        "output": 1,
+        "silver": 0,
+        "value": 14336,
+        "fame": 53568,
+        "mats": [
+          {
+            "id": "T8_METALBAR",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T8_LEATHER",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T8_ARTEFACT_2H_KNUCKLES_HELL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 28148,
+        "output": 1,
+        "silver": 0,
+        "value": 22528,
+        "fame": 107136,
+        "mats": [
+          {
+            "id": "T8_METALBAR@1",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T8_LEATHER@1",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T8_ARTEFACT_2H_KNUCKLES_HELL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 22528,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T8_2H_KNUCKLES_HELL",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T8_RUNE",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 49260,
+        "output": 1,
+        "silver": 0,
+        "value": 38912,
+        "fame": 214272,
+        "mats": [
+          {
+            "id": "T8_METALBAR@2",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T8_LEATHER@2",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T8_ARTEFACT_2H_KNUCKLES_HELL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 38912,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T8_2H_KNUCKLES_HELL@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T8_SOUL",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 86205,
+        "output": 1,
+        "silver": 0,
+        "value": 71680,
+        "fame": 428544,
+        "mats": [
+          {
+            "id": "T8_METALBAR@3",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T8_LEATHER@3",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T8_ARTEFACT_2H_KNUCKLES_HELL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 71680,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T8_2H_KNUCKLES_HELL@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T8_RELIC",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 150858,
+        "output": 1,
+        "silver": 0,
+        "value": 137216,
+        "fame": 857088,
+        "mats": [
+          {
+            "id": "T8_METALBAR@4",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T8_LEATHER@4",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T8_ARTEFACT_2H_KNUCKLES_HELL",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T8_2H_KNUCKLES_KEEPER",
+    "name": "Elder's Ursine Maulers",
+    "tier": 8,
+    "category": "knuckles",
+    "group": "weapon",
+    "station": "Warrior's Forge",
+    "study": true,
+    "weight": 34.2,
+    "journal": "WARRIOR",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 16085,
+        "output": 1,
+        "silver": 0,
+        "value": 10240,
+        "fame": 49104,
+        "mats": [
+          {
+            "id": "T8_METALBAR",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T8_LEATHER",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T8_ARTEFACT_2H_KNUCKLES_KEEPER",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 28148,
+        "output": 1,
+        "silver": 0,
+        "value": 18432,
+        "fame": 98208,
+        "mats": [
+          {
+            "id": "T8_METALBAR@1",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T8_LEATHER@1",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T8_ARTEFACT_2H_KNUCKLES_KEEPER",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 18432,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T8_2H_KNUCKLES_KEEPER",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T8_RUNE",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 49260,
+        "output": 1,
+        "silver": 0,
+        "value": 34816,
+        "fame": 196416,
+        "mats": [
+          {
+            "id": "T8_METALBAR@2",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T8_LEATHER@2",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T8_ARTEFACT_2H_KNUCKLES_KEEPER",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 34816,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T8_2H_KNUCKLES_KEEPER@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T8_SOUL",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 86205,
+        "output": 1,
+        "silver": 0,
+        "value": 67584,
+        "fame": 392832,
+        "mats": [
+          {
+            "id": "T8_METALBAR@3",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T8_LEATHER@3",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T8_ARTEFACT_2H_KNUCKLES_KEEPER",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 67584,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T8_2H_KNUCKLES_KEEPER@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T8_RELIC",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 150858,
+        "output": 1,
+        "silver": 0,
+        "value": 133120,
+        "fame": 785664,
+        "mats": [
+          {
+            "id": "T8_METALBAR@4",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T8_LEATHER@4",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T8_ARTEFACT_2H_KNUCKLES_KEEPER",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T8_2H_KNUCKLES_MORGANA",
+    "name": "Elder's Ravenstrike Cestus",
+    "tier": 8,
+    "category": "knuckles",
+    "group": "weapon",
+    "station": "Warrior's Forge",
+    "study": true,
+    "weight": 34.2,
+    "journal": "WARRIOR",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 16085,
+        "output": 1,
+        "silver": 0,
+        "value": 22528,
+        "fame": 58032,
+        "mats": [
+          {
+            "id": "T8_METALBAR",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T8_LEATHER",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T8_ARTEFACT_2H_KNUCKLES_MORGANA",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 28148,
+        "output": 1,
+        "silver": 0,
+        "value": 30720,
+        "fame": 116064,
+        "mats": [
+          {
+            "id": "T8_METALBAR@1",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T8_LEATHER@1",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T8_ARTEFACT_2H_KNUCKLES_MORGANA",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 30720,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T8_2H_KNUCKLES_MORGANA",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T8_RUNE",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 49260,
+        "output": 1,
+        "silver": 0,
+        "value": 47104,
+        "fame": 232128,
+        "mats": [
+          {
+            "id": "T8_METALBAR@2",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T8_LEATHER@2",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T8_ARTEFACT_2H_KNUCKLES_MORGANA",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 47104,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T8_2H_KNUCKLES_MORGANA@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T8_SOUL",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 86205,
+        "output": 1,
+        "silver": 0,
+        "value": 79872,
+        "fame": 464256,
+        "mats": [
+          {
+            "id": "T8_METALBAR@3",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T8_LEATHER@3",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T8_ARTEFACT_2H_KNUCKLES_MORGANA",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 79872,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T8_2H_KNUCKLES_MORGANA@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T8_RELIC",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 150858,
+        "output": 1,
+        "silver": 0,
+        "value": 145408,
+        "fame": 928512,
+        "mats": [
+          {
+            "id": "T8_METALBAR@4",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T8_LEATHER@4",
+            "qty": 20,
+            "ret": true
+          },
+          {
+            "id": "T8_ARTEFACT_2H_KNUCKLES_MORGANA",
+            "qty": 1,
+            "ret": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T8_2H_KNUCKLES_SET3",
+    "name": "Elder's Spiked Gauntlets",
+    "tier": 8,
+    "category": "knuckles",
+    "group": "weapon",
+    "station": "Warrior's Forge",
+    "study": true,
+    "weight": 34.2,
+    "journal": "WARRIOR",
+    "variants": [
+      {
+        "enchant": 0,
+        "route": "direct",
+        "focus": 16085,
+        "output": 1,
+        "silver": 0,
+        "value": 8192,
+        "fame": 53568,
+        "mats": [
+          {
+            "id": "T8_METALBAR",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T8_LEATHER",
+            "qty": 20,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "direct",
+        "focus": 28148,
+        "output": 1,
+        "silver": 0,
+        "value": 16384,
+        "fame": 107136,
+        "mats": [
+          {
+            "id": "T8_METALBAR@1",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T8_LEATHER@1",
+            "qty": 20,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 1,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 16384,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T8_2H_KNUCKLES_SET3",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T8_RUNE",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "direct",
+        "focus": 49260,
+        "output": 1,
+        "silver": 0,
+        "value": 32768,
+        "fame": 214272,
+        "mats": [
+          {
+            "id": "T8_METALBAR@2",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T8_LEATHER@2",
+            "qty": 20,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 2,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 32768,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T8_2H_KNUCKLES_SET3@1",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T8_SOUL",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "direct",
+        "focus": 86205,
+        "output": 1,
+        "silver": 0,
+        "value": 65536,
+        "fame": 428544,
+        "mats": [
+          {
+            "id": "T8_METALBAR@3",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T8_LEATHER@3",
+            "qty": 20,
+            "ret": true
+          }
+        ]
+      },
+      {
+        "enchant": 3,
+        "route": "upgrade",
+        "focus": 0,
+        "output": 1,
+        "silver": 0,
+        "value": 65536,
+        "fame": 0,
+        "mats": [
+          {
+            "id": "T8_2H_KNUCKLES_SET3@2",
+            "qty": 1,
+            "ret": false
+          },
+          {
+            "id": "T8_RELIC",
+            "qty": 384,
+            "ret": false
+          }
+        ]
+      },
+      {
+        "enchant": 4,
+        "route": "direct",
+        "focus": 150858,
+        "output": 1,
+        "silver": 0,
+        "value": 131072,
+        "fame": 857088,
+        "mats": [
+          {
+            "id": "T8_METALBAR@4",
+            "qty": 12,
+            "ret": true
+          },
+          {
+            "id": "T8_LEATHER@4",
+            "qty": 20,
+            "ret": true
+          }
+        ]
+      }
+    ]
+  }
+]

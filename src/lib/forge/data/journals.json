@@ -1,0 +1,443 @@
+[
+  {
+    "id": "T2_JOURNAL_FIBER",
+    "tier": 2,
+    "kind": "FIBER",
+    "fame": 450,
+    "name": "T2 Fiber Journal"
+  },
+  {
+    "id": "T3_JOURNAL_FIBER",
+    "tier": 3,
+    "kind": "FIBER",
+    "fame": 900,
+    "name": "T3 Fiber Journal"
+  },
+  {
+    "id": "T4_JOURNAL_FIBER",
+    "tier": 4,
+    "kind": "FIBER",
+    "fame": 1800,
+    "name": "T4 Fiber Journal"
+  },
+  {
+    "id": "T5_JOURNAL_FIBER",
+    "tier": 5,
+    "kind": "FIBER",
+    "fame": 3600,
+    "name": "T5 Fiber Journal"
+  },
+  {
+    "id": "T6_JOURNAL_FIBER",
+    "tier": 6,
+    "kind": "FIBER",
+    "fame": 7200,
+    "name": "T6 Fiber Journal"
+  },
+  {
+    "id": "T7_JOURNAL_FIBER",
+    "tier": 7,
+    "kind": "FIBER",
+    "fame": 14400,
+    "name": "T7 Fiber Journal"
+  },
+  {
+    "id": "T8_JOURNAL_FIBER",
+    "tier": 8,
+    "kind": "FIBER",
+    "fame": 28800,
+    "name": "T8 Fiber Journal"
+  },
+  {
+    "id": "T2_JOURNAL_HIDE",
+    "tier": 2,
+    "kind": "HIDE",
+    "fame": 450,
+    "name": "T2 Hide Journal"
+  },
+  {
+    "id": "T3_JOURNAL_HIDE",
+    "tier": 3,
+    "kind": "HIDE",
+    "fame": 900,
+    "name": "T3 Hide Journal"
+  },
+  {
+    "id": "T4_JOURNAL_HIDE",
+    "tier": 4,
+    "kind": "HIDE",
+    "fame": 1800,
+    "name": "T4 Hide Journal"
+  },
+  {
+    "id": "T5_JOURNAL_HIDE",
+    "tier": 5,
+    "kind": "HIDE",
+    "fame": 3600,
+    "name": "T5 Hide Journal"
+  },
+  {
+    "id": "T6_JOURNAL_HIDE",
+    "tier": 6,
+    "kind": "HIDE",
+    "fame": 7200,
+    "name": "T6 Hide Journal"
+  },
+  {
+    "id": "T7_JOURNAL_HIDE",
+    "tier": 7,
+    "kind": "HIDE",
+    "fame": 14400,
+    "name": "T7 Hide Journal"
+  },
+  {
+    "id": "T8_JOURNAL_HIDE",
+    "tier": 8,
+    "kind": "HIDE",
+    "fame": 28800,
+    "name": "T8 Hide Journal"
+  },
+  {
+    "id": "T2_JOURNAL_HUNTER",
+    "tier": 2,
+    "kind": "HUNTER",
+    "fame": 900,
+    "name": "T2 Hunter Journal"
+  },
+  {
+    "id": "T3_JOURNAL_HUNTER",
+    "tier": 3,
+    "kind": "HUNTER",
+    "fame": 1800,
+    "name": "T3 Hunter Journal"
+  },
+  {
+    "id": "T4_JOURNAL_HUNTER",
+    "tier": 4,
+    "kind": "HUNTER",
+    "fame": 3600,
+    "name": "T4 Hunter Journal"
+  },
+  {
+    "id": "T5_JOURNAL_HUNTER",
+    "tier": 5,
+    "kind": "HUNTER",
+    "fame": 7200,
+    "name": "T5 Hunter Journal"
+  },
+  {
+    "id": "T6_JOURNAL_HUNTER",
+    "tier": 6,
+    "kind": "HUNTER",
+    "fame": 14400,
+    "name": "T6 Hunter Journal"
+  },
+  {
+    "id": "T7_JOURNAL_HUNTER",
+    "tier": 7,
+    "kind": "HUNTER",
+    "fame": 28380,
+    "name": "T7 Hunter Journal"
+  },
+  {
+    "id": "T8_JOURNAL_HUNTER",
+    "tier": 8,
+    "kind": "HUNTER",
+    "fame": 58590,
+    "name": "T8 Hunter Journal"
+  },
+  {
+    "id": "T2_JOURNAL_MAGE",
+    "tier": 2,
+    "kind": "MAGE",
+    "fame": 900,
+    "name": "T2 Mage Journal"
+  },
+  {
+    "id": "T3_JOURNAL_MAGE",
+    "tier": 3,
+    "kind": "MAGE",
+    "fame": 1800,
+    "name": "T3 Mage Journal"
+  },
+  {
+    "id": "T4_JOURNAL_MAGE",
+    "tier": 4,
+    "kind": "MAGE",
+    "fame": 3600,
+    "name": "T4 Mage Journal"
+  },
+  {
+    "id": "T5_JOURNAL_MAGE",
+    "tier": 5,
+    "kind": "MAGE",
+    "fame": 7200,
+    "name": "T5 Mage Journal"
+  },
+  {
+    "id": "T6_JOURNAL_MAGE",
+    "tier": 6,
+    "kind": "MAGE",
+    "fame": 14400,
+    "name": "T6 Mage Journal"
+  },
+  {
+    "id": "T7_JOURNAL_MAGE",
+    "tier": 7,
+    "kind": "MAGE",
+    "fame": 28380,
+    "name": "T7 Mage Journal"
+  },
+  {
+    "id": "T8_JOURNAL_MAGE",
+    "tier": 8,
+    "kind": "MAGE",
+    "fame": 58590,
+    "name": "T8 Mage Journal"
+  },
+  {
+    "id": "T2_JOURNAL_ORE",
+    "tier": 2,
+    "kind": "ORE",
+    "fame": 450,
+    "name": "T2 Ore Journal"
+  },
+  {
+    "id": "T3_JOURNAL_ORE",
+    "tier": 3,
+    "kind": "ORE",
+    "fame": 900,
+    "name": "T3 Ore Journal"
+  },
+  {
+    "id": "T4_JOURNAL_ORE",
+    "tier": 4,
+    "kind": "ORE",
+    "fame": 1800,
+    "name": "T4 Ore Journal"
+  },
+  {
+    "id": "T5_JOURNAL_ORE",
+    "tier": 5,
+    "kind": "ORE",
+    "fame": 3600,
+    "name": "T5 Ore Journal"
+  },
+  {
+    "id": "T6_JOURNAL_ORE",
+    "tier": 6,
+    "kind": "ORE",
+    "fame": 7200,
+    "name": "T6 Ore Journal"
+  },
+  {
+    "id": "T7_JOURNAL_ORE",
+    "tier": 7,
+    "kind": "ORE",
+    "fame": 14400,
+    "name": "T7 Ore Journal"
+  },
+  {
+    "id": "T8_JOURNAL_ORE",
+    "tier": 8,
+    "kind": "ORE",
+    "fame": 28800,
+    "name": "T8 Ore Journal"
+  },
+  {
+    "id": "T2_JOURNAL_STONE",
+    "tier": 2,
+    "kind": "STONE",
+    "fame": 450,
+    "name": "T2 Stone Journal"
+  },
+  {
+    "id": "T3_JOURNAL_STONE",
+    "tier": 3,
+    "kind": "STONE",
+    "fame": 900,
+    "name": "T3 Stone Journal"
+  },
+  {
+    "id": "T4_JOURNAL_STONE",
+    "tier": 4,
+    "kind": "STONE",
+    "fame": 1800,
+    "name": "T4 Stone Journal"
+  },
+  {
+    "id": "T5_JOURNAL_STONE",
+    "tier": 5,
+    "kind": "STONE",
+    "fame": 3600,
+    "name": "T5 Stone Journal"
+  },
+  {
+    "id": "T6_JOURNAL_STONE",
+    "tier": 6,
+    "kind": "STONE",
+    "fame": 7200,
+    "name": "T6 Stone Journal"
+  },
+  {
+    "id": "T7_JOURNAL_STONE",
+    "tier": 7,
+    "kind": "STONE",
+    "fame": 14400,
+    "name": "T7 Stone Journal"
+  },
+  {
+    "id": "T8_JOURNAL_STONE",
+    "tier": 8,
+    "kind": "STONE",
+    "fame": 28800,
+    "name": "T8 Stone Journal"
+  },
+  {
+    "id": "T2_JOURNAL_TOOLMAKER",
+    "tier": 2,
+    "kind": "TOOLMAKER",
+    "fame": 900,
+    "name": "T2 Toolmaker Journal"
+  },
+  {
+    "id": "T3_JOURNAL_TOOLMAKER",
+    "tier": 3,
+    "kind": "TOOLMAKER",
+    "fame": 1800,
+    "name": "T3 Toolmaker Journal"
+  },
+  {
+    "id": "T4_JOURNAL_TOOLMAKER",
+    "tier": 4,
+    "kind": "TOOLMAKER",
+    "fame": 3600,
+    "name": "T4 Toolmaker Journal"
+  },
+  {
+    "id": "T5_JOURNAL_TOOLMAKER",
+    "tier": 5,
+    "kind": "TOOLMAKER",
+    "fame": 7200,
+    "name": "T5 Toolmaker Journal"
+  },
+  {
+    "id": "T6_JOURNAL_TOOLMAKER",
+    "tier": 6,
+    "kind": "TOOLMAKER",
+    "fame": 14400,
+    "name": "T6 Toolmaker Journal"
+  },
+  {
+    "id": "T7_JOURNAL_TOOLMAKER",
+    "tier": 7,
+    "kind": "TOOLMAKER",
+    "fame": 28380,
+    "name": "T7 Toolmaker Journal"
+  },
+  {
+    "id": "T8_JOURNAL_TOOLMAKER",
+    "tier": 8,
+    "kind": "TOOLMAKER",
+    "fame": 58590,
+    "name": "T8 Toolmaker Journal"
+  },
+  {
+    "id": "T2_JOURNAL_WARRIOR",
+    "tier": 2,
+    "kind": "WARRIOR",
+    "fame": 900,
+    "name": "T2 Warrior Journal"
+  },
+  {
+    "id": "T3_JOURNAL_WARRIOR",
+    "tier": 3,
+    "kind": "WARRIOR",
+    "fame": 1800,
+    "name": "T3 Warrior Journal"
+  },
+  {
+    "id": "T4_JOURNAL_WARRIOR",
+    "tier": 4,
+    "kind": "WARRIOR",
+    "fame": 3600,
+    "name": "T4 Warrior Journal"
+  },
+  {
+    "id": "T5_JOURNAL_WARRIOR",
+    "tier": 5,
+    "kind": "WARRIOR",
+    "fame": 7200,
+    "name": "T5 Warrior Journal"
+  },
+  {
+    "id": "T6_JOURNAL_WARRIOR",
+    "tier": 6,
+    "kind": "WARRIOR",
+    "fame": 14400,
+    "name": "T6 Warrior Journal"
+  },
+  {
+    "id": "T7_JOURNAL_WARRIOR",
+    "tier": 7,
+    "kind": "WARRIOR",
+    "fame": 28380,
+    "name": "T7 Warrior Journal"
+  },
+  {
+    "id": "T8_JOURNAL_WARRIOR",
+    "tier": 8,
+    "kind": "WARRIOR",
+    "fame": 58590,
+    "name": "T8 Warrior Journal"
+  },
+  {
+    "id": "T2_JOURNAL_WOOD",
+    "tier": 2,
+    "kind": "WOOD",
+    "fame": 450,
+    "name": "T2 Wood Journal"
+  },
+  {
+    "id": "T3_JOURNAL_WOOD",
+    "tier": 3,
+    "kind": "WOOD",
+    "fame": 900,
+    "name": "T3 Wood Journal"
+  },
+  {
+    "id": "T4_JOURNAL_WOOD",
+    "tier": 4,
+    "kind": "WOOD",
+    "fame": 1800,
+    "name": "T4 Wood Journal"
+  },
+  {
+    "id": "T5_JOURNAL_WOOD",
+    "tier": 5,
+    "kind": "WOOD",
+    "fame": 3600,
+    "name": "T5 Wood Journal"
+  },
+  {
+    "id": "T6_JOURNAL_WOOD",
+    "tier": 6,
+    "kind": "WOOD",
+    "fame": 7200,
+    "name": "T6 Wood Journal"
+  },
+  {
+    "id": "T7_JOURNAL_WOOD",
+    "tier": 7,
+    "kind": "WOOD",
+    "fame": 14400,
+    "name": "T7 Wood Journal"
+  },
+  {
+    "id": "T8_JOURNAL_WOOD",
+    "tier": 8,
+    "kind": "WOOD",
+    "fame": 28800,
+    "name": "T8 Wood Journal"
+  }
+]

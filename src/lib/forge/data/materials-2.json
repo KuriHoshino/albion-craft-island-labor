@@ -1,0 +1,7010 @@
+{
+  "T7_SHOES_CLOTH_SET1@2": {
+    "name": "Grandmaster's Scholar Sandals .2",
+    "weight": 5.7
+  },
+  "T7_SHOES_CLOTH_SET1@3": {
+    "name": "Grandmaster's Scholar Sandals .3",
+    "weight": 5.7
+  },
+  "T7_SHOES_CLOTH_SET1@4": {
+    "name": "Grandmaster's Scholar Sandals .4",
+    "weight": 5.7
+  },
+  "T7_SHOES_CLOTH_AVALON": {
+    "name": "Grandmaster's Sandals of Purity",
+    "weight": 5.7
+  },
+  "T7_ARTEFACT_SHOES_CLOTH_AVALON": {
+    "name": "Grandmaster's Artefact Shoes Cloth Avalon",
+    "weight": 2
+  },
+  "T7_SHOES_CLOTH_AVALON@1": {
+    "name": "Grandmaster's Sandals of Purity .1",
+    "weight": 5.7
+  },
+  "T7_SHOES_CLOTH_AVALON@2": {
+    "name": "Grandmaster's Sandals of Purity .2",
+    "weight": 5.7
+  },
+  "T7_SHOES_CLOTH_AVALON@3": {
+    "name": "Grandmaster's Sandals of Purity .3",
+    "weight": 5.7
+  },
+  "T7_SHOES_CLOTH_AVALON@4": {
+    "name": "Grandmaster's Sandals of Purity .4",
+    "weight": 5.7
+  },
+  "T7_SHOES_CLOTH_FEY": {
+    "name": "Grandmaster's Feyscale Sandals",
+    "weight": 5.7
+  },
+  "T7_ARTEFACT_SHOES_CLOTH_FEY": {
+    "name": "Grandmaster's Artefact Shoes Cloth Fey",
+    "weight": 2
+  },
+  "T7_SHOES_CLOTH_FEY@1": {
+    "name": "Grandmaster's Feyscale Sandals .1",
+    "weight": 5.7
+  },
+  "T7_SHOES_CLOTH_FEY@2": {
+    "name": "Grandmaster's Feyscale Sandals .2",
+    "weight": 5.7
+  },
+  "T7_SHOES_CLOTH_FEY@3": {
+    "name": "Grandmaster's Feyscale Sandals .3",
+    "weight": 5.7
+  },
+  "T7_SHOES_CLOTH_FEY@4": {
+    "name": "Grandmaster's Feyscale Sandals .4",
+    "weight": 5.7
+  },
+  "T7_SHOES_CLOTH_HELL": {
+    "name": "Grandmaster's Fiend Sandals",
+    "weight": 5.7
+  },
+  "T7_ARTEFACT_SHOES_CLOTH_HELL": {
+    "name": "Grandmaster's Artefact Shoes Cloth Hell",
+    "weight": 2
+  },
+  "T7_SHOES_CLOTH_HELL@1": {
+    "name": "Grandmaster's Fiend Sandals .1",
+    "weight": 5.7
+  },
+  "T7_SHOES_CLOTH_HELL@2": {
+    "name": "Grandmaster's Fiend Sandals .2",
+    "weight": 5.7
+  },
+  "T7_SHOES_CLOTH_HELL@3": {
+    "name": "Grandmaster's Fiend Sandals .3",
+    "weight": 5.7
+  },
+  "T7_SHOES_CLOTH_HELL@4": {
+    "name": "Grandmaster's Fiend Sandals .4",
+    "weight": 5.7
+  },
+  "T7_SHOES_CLOTH_KEEPER": {
+    "name": "Grandmaster's Druid Sandals",
+    "weight": 5.7
+  },
+  "T7_ARTEFACT_SHOES_CLOTH_KEEPER": {
+    "name": "Grandmaster's Artefact Shoes Cloth Keeper",
+    "weight": 2
+  },
+  "T7_SHOES_CLOTH_KEEPER@1": {
+    "name": "Grandmaster's Druid Sandals .1",
+    "weight": 5.7
+  },
+  "T7_SHOES_CLOTH_KEEPER@2": {
+    "name": "Grandmaster's Druid Sandals .2",
+    "weight": 5.7
+  },
+  "T7_SHOES_CLOTH_KEEPER@3": {
+    "name": "Grandmaster's Druid Sandals .3",
+    "weight": 5.7
+  },
+  "T7_SHOES_CLOTH_KEEPER@4": {
+    "name": "Grandmaster's Druid Sandals .4",
+    "weight": 5.7
+  },
+  "T7_SHOES_CLOTH_MORGANA": {
+    "name": "Grandmaster's Cultist Sandals",
+    "weight": 5.7
+  },
+  "T7_ARTEFACT_SHOES_CLOTH_MORGANA": {
+    "name": "Grandmaster's Artefact Shoes Cloth Morgana",
+    "weight": 2
+  },
+  "T7_SHOES_CLOTH_MORGANA@1": {
+    "name": "Grandmaster's Cultist Sandals .1",
+    "weight": 5.7
+  },
+  "T7_SHOES_CLOTH_MORGANA@2": {
+    "name": "Grandmaster's Cultist Sandals .2",
+    "weight": 5.7
+  },
+  "T7_SHOES_CLOTH_MORGANA@3": {
+    "name": "Grandmaster's Cultist Sandals .3",
+    "weight": 5.7
+  },
+  "T7_SHOES_CLOTH_MORGANA@4": {
+    "name": "Grandmaster's Cultist Sandals .4",
+    "weight": 5.7
+  },
+  "T7_SHOES_LEATHER_AVALON": {
+    "name": "Grandmaster's Shoes of Tenacity",
+    "weight": 5.7
+  },
+  "T7_ARTEFACT_SHOES_LEATHER_AVALON": {
+    "name": "Grandmaster's Artefact Shoes Leather Avalon",
+    "weight": 2
+  },
+  "T7_SHOES_LEATHER_AVALON@1": {
+    "name": "Grandmaster's Shoes of Tenacity .1",
+    "weight": 5.7
+  },
+  "T7_SHOES_LEATHER_AVALON@2": {
+    "name": "Grandmaster's Shoes of Tenacity .2",
+    "weight": 5.7
+  },
+  "T7_SHOES_LEATHER_AVALON@3": {
+    "name": "Grandmaster's Shoes of Tenacity .3",
+    "weight": 5.7
+  },
+  "T7_SHOES_LEATHER_AVALON@4": {
+    "name": "Grandmaster's Shoes of Tenacity .4",
+    "weight": 5.7
+  },
+  "T7_SHOES_LEATHER_DRAGON": {
+    "name": "Grandmaster's Dragonslayer Shoes",
+    "weight": 5.7
+  },
+  "T7_ARTEFACT_SHOES_LEATHER_DRAGON": {
+    "name": "Grandmaster's Artefact Shoes Leather Dragon",
+    "weight": 2
+  },
+  "T7_SHOES_LEATHER_DRAGON@1": {
+    "name": "Grandmaster's Dragonslayer Shoes .1",
+    "weight": 5.7
+  },
+  "T7_SHOES_LEATHER_DRAGON@2": {
+    "name": "Grandmaster's Dragonslayer Shoes .2",
+    "weight": 5.7
+  },
+  "T7_SHOES_LEATHER_DRAGON@3": {
+    "name": "Grandmaster's Dragonslayer Shoes .3",
+    "weight": 5.7
+  },
+  "T7_SHOES_LEATHER_DRAGON@4": {
+    "name": "Grandmaster's Dragonslayer Shoes .4",
+    "weight": 5.7
+  },
+  "T7_SHOES_LEATHER_FEY": {
+    "name": "Grandmaster's Mistwalker Shoes",
+    "weight": 5.7
+  },
+  "T7_ARTEFACT_SHOES_LEATHER_FEY": {
+    "name": "Grandmaster's Artefact Shoes Leather Fey",
+    "weight": 2
+  },
+  "T7_SHOES_LEATHER_FEY@1": {
+    "name": "Grandmaster's Mistwalker Shoes .1",
+    "weight": 5.7
+  },
+  "T7_SHOES_LEATHER_FEY@2": {
+    "name": "Grandmaster's Mistwalker Shoes .2",
+    "weight": 5.7
+  },
+  "T7_SHOES_LEATHER_FEY@3": {
+    "name": "Grandmaster's Mistwalker Shoes .3",
+    "weight": 5.7
+  },
+  "T7_SHOES_LEATHER_FEY@4": {
+    "name": "Grandmaster's Mistwalker Shoes .4",
+    "weight": 5.7
+  },
+  "T7_SHOES_LEATHER_HELL": {
+    "name": "Grandmaster's Hellion Shoes",
+    "weight": 5.7
+  },
+  "T7_ARTEFACT_SHOES_LEATHER_HELL": {
+    "name": "Grandmaster's Artefact Shoes Leather Hell",
+    "weight": 2
+  },
+  "T7_SHOES_LEATHER_HELL@1": {
+    "name": "Grandmaster's Hellion Shoes .1",
+    "weight": 5.7
+  },
+  "T7_SHOES_LEATHER_HELL@2": {
+    "name": "Grandmaster's Hellion Shoes .2",
+    "weight": 5.7
+  },
+  "T7_SHOES_LEATHER_HELL@3": {
+    "name": "Grandmaster's Hellion Shoes .3",
+    "weight": 5.7
+  },
+  "T7_SHOES_LEATHER_HELL@4": {
+    "name": "Grandmaster's Hellion Shoes .4",
+    "weight": 5.7
+  },
+  "T7_SHOES_LEATHER_MORGANA": {
+    "name": "Grandmaster's Stalker Shoes",
+    "weight": 5.7
+  },
+  "T7_ARTEFACT_SHOES_LEATHER_MORGANA": {
+    "name": "Grandmaster's Artefact Shoes Leather Morgana",
+    "weight": 2
+  },
+  "T7_SHOES_LEATHER_MORGANA@1": {
+    "name": "Grandmaster's Stalker Shoes .1",
+    "weight": 5.7
+  },
+  "T7_SHOES_LEATHER_MORGANA@2": {
+    "name": "Grandmaster's Stalker Shoes .2",
+    "weight": 5.7
+  },
+  "T7_SHOES_LEATHER_MORGANA@3": {
+    "name": "Grandmaster's Stalker Shoes .3",
+    "weight": 5.7
+  },
+  "T7_SHOES_LEATHER_MORGANA@4": {
+    "name": "Grandmaster's Stalker Shoes .4",
+    "weight": 5.7
+  },
+  "T7_SHOES_LEATHER_UNDEAD": {
+    "name": "Grandmaster's Specter Shoes",
+    "weight": 5.7
+  },
+  "T7_ARTEFACT_SHOES_LEATHER_UNDEAD": {
+    "name": "Grandmaster's Artefact Shoes Leather Undead",
+    "weight": 2
+  },
+  "T7_SHOES_LEATHER_UNDEAD@1": {
+    "name": "Grandmaster's Specter Shoes .1",
+    "weight": 5.7
+  },
+  "T7_SHOES_LEATHER_UNDEAD@2": {
+    "name": "Grandmaster's Specter Shoes .2",
+    "weight": 5.7
+  },
+  "T7_SHOES_LEATHER_UNDEAD@3": {
+    "name": "Grandmaster's Specter Shoes .3",
+    "weight": 5.7
+  },
+  "T7_SHOES_LEATHER_UNDEAD@4": {
+    "name": "Grandmaster's Specter Shoes .4",
+    "weight": 5.7
+  },
+  "T7_SHOES_PLATE_AVALON": {
+    "name": "Grandmaster's Boots of Valor",
+    "weight": 5.7
+  },
+  "T7_ARTEFACT_SHOES_PLATE_AVALON": {
+    "name": "Grandmaster's Artefact Shoes Plate Avalon",
+    "weight": 2
+  },
+  "T7_SHOES_PLATE_AVALON@1": {
+    "name": "Grandmaster's Boots of Valor .1",
+    "weight": 5.7
+  },
+  "T7_SHOES_PLATE_AVALON@2": {
+    "name": "Grandmaster's Boots of Valor .2",
+    "weight": 5.7
+  },
+  "T7_SHOES_PLATE_AVALON@3": {
+    "name": "Grandmaster's Boots of Valor .3",
+    "weight": 5.7
+  },
+  "T7_SHOES_PLATE_AVALON@4": {
+    "name": "Grandmaster's Boots of Valor .4",
+    "weight": 5.7
+  },
+  "T7_SHOES_PLATE_FEY": {
+    "name": "Grandmaster's Duskweaver Boots",
+    "weight": 5.7
+  },
+  "T7_ARTEFACT_SHOES_PLATE_FEY": {
+    "name": "Grandmaster's Artefact Shoes Plate Fey",
+    "weight": 2
+  },
+  "T7_SHOES_PLATE_FEY@1": {
+    "name": "Grandmaster's Duskweaver Boots .1",
+    "weight": 5.7
+  },
+  "T7_SHOES_PLATE_FEY@2": {
+    "name": "Grandmaster's Duskweaver Boots .2",
+    "weight": 5.7
+  },
+  "T7_SHOES_PLATE_FEY@3": {
+    "name": "Grandmaster's Duskweaver Boots .3",
+    "weight": 5.7
+  },
+  "T7_SHOES_PLATE_FEY@4": {
+    "name": "Grandmaster's Duskweaver Boots .4",
+    "weight": 5.7
+  },
+  "T7_SHOES_PLATE_HELL": {
+    "name": "Grandmaster's Demon Boots",
+    "weight": 5.7
+  },
+  "T7_ARTEFACT_SHOES_PLATE_HELL": {
+    "name": "Grandmaster's Artefact Shoes Plate Hell",
+    "weight": 2
+  },
+  "T7_SHOES_PLATE_HELL@1": {
+    "name": "Grandmaster's Demon Boots .1",
+    "weight": 5.7
+  },
+  "T7_SHOES_PLATE_HELL@2": {
+    "name": "Grandmaster's Demon Boots .2",
+    "weight": 5.7
+  },
+  "T7_SHOES_PLATE_HELL@3": {
+    "name": "Grandmaster's Demon Boots .3",
+    "weight": 5.7
+  },
+  "T7_SHOES_PLATE_HELL@4": {
+    "name": "Grandmaster's Demon Boots .4",
+    "weight": 5.7
+  },
+  "T7_SHOES_PLATE_KEEPER": {
+    "name": "Grandmaster's Judicator Boots",
+    "weight": 5.7
+  },
+  "T7_ARTEFACT_SHOES_PLATE_KEEPER": {
+    "name": "Grandmaster's Artefact Shoes Plate Keeper",
+    "weight": 2
+  },
+  "T7_SHOES_PLATE_KEEPER@1": {
+    "name": "Grandmaster's Judicator Boots .1",
+    "weight": 5.7
+  },
+  "T7_SHOES_PLATE_KEEPER@2": {
+    "name": "Grandmaster's Judicator Boots .2",
+    "weight": 5.7
+  },
+  "T7_SHOES_PLATE_KEEPER@3": {
+    "name": "Grandmaster's Judicator Boots .3",
+    "weight": 5.7
+  },
+  "T7_SHOES_PLATE_KEEPER@4": {
+    "name": "Grandmaster's Judicator Boots .4",
+    "weight": 5.7
+  },
+  "T7_SHOES_PLATE_UNDEAD": {
+    "name": "Grandmaster's Graveguard Boots",
+    "weight": 5.7
+  },
+  "T7_ARTEFACT_SHOES_PLATE_UNDEAD": {
+    "name": "Grandmaster's Artefact Shoes Plate Undead",
+    "weight": 2
+  },
+  "T7_SHOES_PLATE_UNDEAD@1": {
+    "name": "Grandmaster's Graveguard Boots .1",
+    "weight": 5.7
+  },
+  "T7_SHOES_PLATE_UNDEAD@2": {
+    "name": "Grandmaster's Graveguard Boots .2",
+    "weight": 5.7
+  },
+  "T7_SHOES_PLATE_UNDEAD@3": {
+    "name": "Grandmaster's Graveguard Boots .3",
+    "weight": 5.7
+  },
+  "T7_SHOES_PLATE_UNDEAD@4": {
+    "name": "Grandmaster's Graveguard Boots .4",
+    "weight": 5.7
+  },
+  "T7_ARMOR_PLATE_SET1": {
+    "name": "Grandmaster's Soldier Armor",
+    "weight": 11.4
+  },
+  "T7_ARMOR_PLATE_SET1@1": {
+    "name": "Grandmaster's Soldier Armor .1",
+    "weight": 11.4
+  },
+  "T7_ARMOR_PLATE_SET1@2": {
+    "name": "Grandmaster's Soldier Armor .2",
+    "weight": 11.4
+  },
+  "T7_ARMOR_PLATE_SET1@3": {
+    "name": "Grandmaster's Soldier Armor .3",
+    "weight": 11.4
+  },
+  "T7_ARMOR_PLATE_SET1@4": {
+    "name": "Grandmaster's Soldier Armor .4",
+    "weight": 11.4
+  },
+  "T7_SHOES_PLATE_SET1": {
+    "name": "Grandmaster's Soldier Boots",
+    "weight": 5.7
+  },
+  "T7_SHOES_PLATE_SET1@1": {
+    "name": "Grandmaster's Soldier Boots .1",
+    "weight": 5.7
+  },
+  "T7_SHOES_PLATE_SET1@2": {
+    "name": "Grandmaster's Soldier Boots .2",
+    "weight": 5.7
+  },
+  "T7_SHOES_PLATE_SET1@3": {
+    "name": "Grandmaster's Soldier Boots .3",
+    "weight": 5.7
+  },
+  "T7_SHOES_PLATE_SET1@4": {
+    "name": "Grandmaster's Soldier Boots .4",
+    "weight": 5.7
+  },
+  "T7_HEAD_PLATE_SET1": {
+    "name": "Grandmaster's Soldier Helmet",
+    "weight": 5.7
+  },
+  "T7_HEAD_PLATE_SET1@1": {
+    "name": "Grandmaster's Soldier Helmet .1",
+    "weight": 5.7
+  },
+  "T7_HEAD_PLATE_SET1@2": {
+    "name": "Grandmaster's Soldier Helmet .2",
+    "weight": 5.7
+  },
+  "T7_HEAD_PLATE_SET1@3": {
+    "name": "Grandmaster's Soldier Helmet .3",
+    "weight": 5.7
+  },
+  "T7_HEAD_PLATE_SET1@4": {
+    "name": "Grandmaster's Soldier Helmet .4",
+    "weight": 5.7
+  },
+  "T8_ARMOR_CLOTH_AVALON": {
+    "name": "Elder's Robe of Purity",
+    "weight": 17.1
+  },
+  "T8_ARTEFACT_ARMOR_CLOTH_AVALON": {
+    "name": "Elder's Artefact Armor Cloth Avalon",
+    "weight": 2
+  },
+  "T8_ARMOR_CLOTH_AVALON@1": {
+    "name": "Elder's Robe of Purity .1",
+    "weight": 17.1
+  },
+  "T8_ARMOR_CLOTH_AVALON@2": {
+    "name": "Elder's Robe of Purity .2",
+    "weight": 17.1
+  },
+  "T8_ARMOR_CLOTH_AVALON@3": {
+    "name": "Elder's Robe of Purity .3",
+    "weight": 17.1
+  },
+  "T8_ARMOR_CLOTH_AVALON@4": {
+    "name": "Elder's Robe of Purity .4",
+    "weight": 17.1
+  },
+  "T8_ARMOR_CLOTH_FEY": {
+    "name": "Elder's Feyscale Robe",
+    "weight": 17.1
+  },
+  "T8_ARTEFACT_ARMOR_CLOTH_FEY": {
+    "name": "Elder's Artefact Armor Cloth Fey",
+    "weight": 2
+  },
+  "T8_ARMOR_CLOTH_FEY@1": {
+    "name": "Elder's Feyscale Robe .1",
+    "weight": 17.1
+  },
+  "T8_ARMOR_CLOTH_FEY@2": {
+    "name": "Elder's Feyscale Robe .2",
+    "weight": 17.1
+  },
+  "T8_ARMOR_CLOTH_FEY@3": {
+    "name": "Elder's Feyscale Robe .3",
+    "weight": 17.1
+  },
+  "T8_ARMOR_CLOTH_FEY@4": {
+    "name": "Elder's Feyscale Robe .4",
+    "weight": 17.1
+  },
+  "T8_ARMOR_CLOTH_HELL": {
+    "name": "Elder's Fiend Robe",
+    "weight": 17.1
+  },
+  "T8_ARTEFACT_ARMOR_CLOTH_HELL": {
+    "name": "Elder's Artefact Armor Cloth Hell",
+    "weight": 2
+  },
+  "T8_ARMOR_CLOTH_HELL@1": {
+    "name": "Elder's Fiend Robe .1",
+    "weight": 17.1
+  },
+  "T8_ARMOR_CLOTH_HELL@2": {
+    "name": "Elder's Fiend Robe .2",
+    "weight": 17.1
+  },
+  "T8_ARMOR_CLOTH_HELL@3": {
+    "name": "Elder's Fiend Robe .3",
+    "weight": 17.1
+  },
+  "T8_ARMOR_CLOTH_HELL@4": {
+    "name": "Elder's Fiend Robe .4",
+    "weight": 17.1
+  },
+  "T8_ARMOR_CLOTH_KEEPER": {
+    "name": "Elder's Druid Robe",
+    "weight": 17.1
+  },
+  "T8_ARTEFACT_ARMOR_CLOTH_KEEPER": {
+    "name": "Elder's Artefact Armor Cloth Keeper",
+    "weight": 2
+  },
+  "T8_ARMOR_CLOTH_KEEPER@1": {
+    "name": "Elder's Druid Robe .1",
+    "weight": 17.1
+  },
+  "T8_ARMOR_CLOTH_KEEPER@2": {
+    "name": "Elder's Druid Robe .2",
+    "weight": 17.1
+  },
+  "T8_ARMOR_CLOTH_KEEPER@3": {
+    "name": "Elder's Druid Robe .3",
+    "weight": 17.1
+  },
+  "T8_ARMOR_CLOTH_KEEPER@4": {
+    "name": "Elder's Druid Robe .4",
+    "weight": 17.1
+  },
+  "T8_ARMOR_CLOTH_MORGANA": {
+    "name": "Elder's Cultist Robe",
+    "weight": 17.1
+  },
+  "T8_ARTEFACT_ARMOR_CLOTH_MORGANA": {
+    "name": "Elder's Artefact Armor Cloth Morgana",
+    "weight": 2
+  },
+  "T8_ARMOR_CLOTH_MORGANA@1": {
+    "name": "Elder's Cultist Robe .1",
+    "weight": 17.1
+  },
+  "T8_ARMOR_CLOTH_MORGANA@2": {
+    "name": "Elder's Cultist Robe .2",
+    "weight": 17.1
+  },
+  "T8_ARMOR_CLOTH_MORGANA@3": {
+    "name": "Elder's Cultist Robe .3",
+    "weight": 17.1
+  },
+  "T8_ARMOR_CLOTH_MORGANA@4": {
+    "name": "Elder's Cultist Robe .4",
+    "weight": 17.1
+  },
+  "T8_ARMOR_CLOTH_PROTOTYPE": {
+    "name": "Elder's Prototype Robe",
+    "weight": 17.1
+  },
+  "T8_ARMOR_CLOTH_PROTOTYPE@1": {
+    "name": "Elder's Prototype Robe .1",
+    "weight": 17.1
+  },
+  "T8_ARMOR_CLOTH_PROTOTYPE@2": {
+    "name": "Elder's Prototype Robe .2",
+    "weight": 17.1
+  },
+  "T8_ARMOR_CLOTH_PROTOTYPE@3": {
+    "name": "Elder's Prototype Robe .3",
+    "weight": 17.1
+  },
+  "T8_ARMOR_CLOTH_PROTOTYPE@4": {
+    "name": "Elder's Prototype Robe .4",
+    "weight": 17.1
+  },
+  "T8_ARMOR_LEATHER_AVALON": {
+    "name": "Elder's Jacket of Tenacity",
+    "weight": 17.1
+  },
+  "T8_ARTEFACT_ARMOR_LEATHER_AVALON": {
+    "name": "Elder's Artefact Armor Leather Avalon",
+    "weight": 2
+  },
+  "T8_ARMOR_LEATHER_AVALON@1": {
+    "name": "Elder's Jacket of Tenacity .1",
+    "weight": 17.1
+  },
+  "T8_ARMOR_LEATHER_AVALON@2": {
+    "name": "Elder's Jacket of Tenacity .2",
+    "weight": 17.1
+  },
+  "T8_ARMOR_LEATHER_AVALON@3": {
+    "name": "Elder's Jacket of Tenacity .3",
+    "weight": 17.1
+  },
+  "T8_ARMOR_LEATHER_AVALON@4": {
+    "name": "Elder's Jacket of Tenacity .4",
+    "weight": 17.1
+  },
+  "T8_ARMOR_LEATHER_DRAGON": {
+    "name": "Elder's Dragonslayer Jacket",
+    "weight": 17.1
+  },
+  "T8_ARTEFACT_ARMOR_LEATHER_DRAGON": {
+    "name": "Elder's Artefact Armor Leather Dragon",
+    "weight": 2
+  },
+  "T8_ARMOR_LEATHER_DRAGON@1": {
+    "name": "Elder's Dragonslayer Jacket .1",
+    "weight": 17.1
+  },
+  "T8_ARMOR_LEATHER_DRAGON@2": {
+    "name": "Elder's Dragonslayer Jacket .2",
+    "weight": 17.1
+  },
+  "T8_ARMOR_LEATHER_DRAGON@3": {
+    "name": "Elder's Dragonslayer Jacket .3",
+    "weight": 17.1
+  },
+  "T8_ARMOR_LEATHER_DRAGON@4": {
+    "name": "Elder's Dragonslayer Jacket .4",
+    "weight": 17.1
+  },
+  "T8_ARMOR_LEATHER_FEY": {
+    "name": "Elder's Mistwalker Jacket",
+    "weight": 17.1
+  },
+  "T8_ARTEFACT_ARMOR_LEATHER_FEY": {
+    "name": "Elder's Artefact Armor Leather Fey",
+    "weight": 2
+  },
+  "T8_ARMOR_LEATHER_FEY@1": {
+    "name": "Elder's Mistwalker Jacket .1",
+    "weight": 17.1
+  },
+  "T8_ARMOR_LEATHER_FEY@2": {
+    "name": "Elder's Mistwalker Jacket .2",
+    "weight": 17.1
+  },
+  "T8_ARMOR_LEATHER_FEY@3": {
+    "name": "Elder's Mistwalker Jacket .3",
+    "weight": 17.1
+  },
+  "T8_ARMOR_LEATHER_FEY@4": {
+    "name": "Elder's Mistwalker Jacket .4",
+    "weight": 17.1
+  },
+  "T8_ARMOR_LEATHER_HELL": {
+    "name": "Elder's Hellion Jacket",
+    "weight": 17.1
+  },
+  "T8_ARTEFACT_ARMOR_LEATHER_HELL": {
+    "name": "Elder's Artefact Armor Leather Hell",
+    "weight": 2
+  },
+  "T8_ARMOR_LEATHER_HELL@1": {
+    "name": "Elder's Hellion Jacket .1",
+    "weight": 17.1
+  },
+  "T8_ARMOR_LEATHER_HELL@2": {
+    "name": "Elder's Hellion Jacket .2",
+    "weight": 17.1
+  },
+  "T8_ARMOR_LEATHER_HELL@3": {
+    "name": "Elder's Hellion Jacket .3",
+    "weight": 17.1
+  },
+  "T8_ARMOR_LEATHER_HELL@4": {
+    "name": "Elder's Hellion Jacket .4",
+    "weight": 17.1
+  },
+  "T8_ARMOR_LEATHER_MORGANA": {
+    "name": "Elder's Stalker Jacket",
+    "weight": 17.1
+  },
+  "T8_ARTEFACT_ARMOR_LEATHER_MORGANA": {
+    "name": "Elder's Artefact Armor Leather Morgana",
+    "weight": 2
+  },
+  "T8_ARMOR_LEATHER_MORGANA@1": {
+    "name": "Elder's Stalker Jacket .1",
+    "weight": 17.1
+  },
+  "T8_ARMOR_LEATHER_MORGANA@2": {
+    "name": "Elder's Stalker Jacket .2",
+    "weight": 17.1
+  },
+  "T8_ARMOR_LEATHER_MORGANA@3": {
+    "name": "Elder's Stalker Jacket .3",
+    "weight": 17.1
+  },
+  "T8_ARMOR_LEATHER_MORGANA@4": {
+    "name": "Elder's Stalker Jacket .4",
+    "weight": 17.1
+  },
+  "T8_ARMOR_LEATHER_PROTOTYPE": {
+    "name": "Elder's Prototype Jacket",
+    "weight": 17.1
+  },
+  "T8_ARMOR_LEATHER_PROTOTYPE@1": {
+    "name": "Elder's Prototype Jacket .1",
+    "weight": 17.1
+  },
+  "T8_ARMOR_LEATHER_PROTOTYPE@2": {
+    "name": "Elder's Prototype Jacket .2",
+    "weight": 17.1
+  },
+  "T8_ARMOR_LEATHER_PROTOTYPE@3": {
+    "name": "Elder's Prototype Jacket .3",
+    "weight": 17.1
+  },
+  "T8_ARMOR_LEATHER_PROTOTYPE@4": {
+    "name": "Elder's Prototype Jacket .4",
+    "weight": 17.1
+  },
+  "T8_ARMOR_LEATHER_UNDEAD": {
+    "name": "Elder's Specter Jacket",
+    "weight": 17.1
+  },
+  "T8_ARTEFACT_ARMOR_LEATHER_UNDEAD": {
+    "name": "Elder's Artefact Armor Leather Undead",
+    "weight": 2
+  },
+  "T8_ARMOR_LEATHER_UNDEAD@1": {
+    "name": "Elder's Specter Jacket .1",
+    "weight": 17.1
+  },
+  "T8_ARMOR_LEATHER_UNDEAD@2": {
+    "name": "Elder's Specter Jacket .2",
+    "weight": 17.1
+  },
+  "T8_ARMOR_LEATHER_UNDEAD@3": {
+    "name": "Elder's Specter Jacket .3",
+    "weight": 17.1
+  },
+  "T8_ARMOR_LEATHER_UNDEAD@4": {
+    "name": "Elder's Specter Jacket .4",
+    "weight": 17.1
+  },
+  "T8_ARMOR_PLATE_AVALON": {
+    "name": "Elder's Armor of Valor",
+    "weight": 17.1
+  },
+  "T8_METALBAR": {
+    "name": "Adamantium Bar",
+    "weight": 2.56
+  },
+  "T8_ARTEFACT_ARMOR_PLATE_AVALON": {
+    "name": "Elder's Artefact Armor Plate Avalon",
+    "weight": 2
+  },
+  "T8_ARMOR_PLATE_AVALON@1": {
+    "name": "Elder's Armor of Valor .1",
+    "weight": 17.1
+  },
+  "T8_METALBAR@1": {
+    "name": "Adamantium Bar .1",
+    "weight": 2.56
+  },
+  "T8_ARMOR_PLATE_AVALON@2": {
+    "name": "Elder's Armor of Valor .2",
+    "weight": 17.1
+  },
+  "T8_METALBAR@2": {
+    "name": "Adamantium Bar .2",
+    "weight": 2.56
+  },
+  "T8_ARMOR_PLATE_AVALON@3": {
+    "name": "Elder's Armor of Valor .3",
+    "weight": 17.1
+  },
+  "T8_METALBAR@3": {
+    "name": "Adamantium Bar .3",
+    "weight": 2.56
+  },
+  "T8_ARMOR_PLATE_AVALON@4": {
+    "name": "Elder's Armor of Valor .4",
+    "weight": 17.1
+  },
+  "T8_METALBAR@4": {
+    "name": "Adamantium Bar .4",
+    "weight": 2.56
+  },
+  "T8_ARMOR_PLATE_FEY": {
+    "name": "Elder's Duskweaver Armor",
+    "weight": 17.1
+  },
+  "T8_ARTEFACT_ARMOR_PLATE_FEY": {
+    "name": "Elder's Artefact Armor Plate Fey",
+    "weight": 2
+  },
+  "T8_ARMOR_PLATE_FEY@1": {
+    "name": "Elder's Duskweaver Armor .1",
+    "weight": 17.1
+  },
+  "T8_ARMOR_PLATE_FEY@2": {
+    "name": "Elder's Duskweaver Armor .2",
+    "weight": 17.1
+  },
+  "T8_ARMOR_PLATE_FEY@3": {
+    "name": "Elder's Duskweaver Armor .3",
+    "weight": 17.1
+  },
+  "T8_ARMOR_PLATE_FEY@4": {
+    "name": "Elder's Duskweaver Armor .4",
+    "weight": 17.1
+  },
+  "T8_ARMOR_PLATE_HELL": {
+    "name": "Elder's Demon Armor",
+    "weight": 17.1
+  },
+  "T8_ARTEFACT_ARMOR_PLATE_HELL": {
+    "name": "Elder's Artefact Armor Plate Hell",
+    "weight": 2
+  },
+  "T8_ARMOR_PLATE_HELL@1": {
+    "name": "Elder's Demon Armor .1",
+    "weight": 17.1
+  },
+  "T8_ARMOR_PLATE_HELL@2": {
+    "name": "Elder's Demon Armor .2",
+    "weight": 17.1
+  },
+  "T8_ARMOR_PLATE_HELL@3": {
+    "name": "Elder's Demon Armor .3",
+    "weight": 17.1
+  },
+  "T8_ARMOR_PLATE_HELL@4": {
+    "name": "Elder's Demon Armor .4",
+    "weight": 17.1
+  },
+  "T8_ARMOR_PLATE_KEEPER": {
+    "name": "Elder's Judicator Armor",
+    "weight": 17.1
+  },
+  "T8_ARTEFACT_ARMOR_PLATE_KEEPER": {
+    "name": "Elder's Artefact Armor Plate Keeper",
+    "weight": 2
+  },
+  "T8_ARMOR_PLATE_KEEPER@1": {
+    "name": "Elder's Judicator Armor .1",
+    "weight": 17.1
+  },
+  "T8_ARMOR_PLATE_KEEPER@2": {
+    "name": "Elder's Judicator Armor .2",
+    "weight": 17.1
+  },
+  "T8_ARMOR_PLATE_KEEPER@3": {
+    "name": "Elder's Judicator Armor .3",
+    "weight": 17.1
+  },
+  "T8_ARMOR_PLATE_KEEPER@4": {
+    "name": "Elder's Judicator Armor .4",
+    "weight": 17.1
+  },
+  "T8_ARMOR_PLATE_PROTOTYPE": {
+    "name": "Dragonknight Armor",
+    "weight": 17.1
+  },
+  "T8_ARMOR_PLATE_PROTOTYPE@1": {
+    "name": "Dragonknight Armor .1",
+    "weight": 17.1
+  },
+  "T8_ARMOR_PLATE_PROTOTYPE@2": {
+    "name": "Dragonknight Armor .2",
+    "weight": 17.1
+  },
+  "T8_ARMOR_PLATE_PROTOTYPE@3": {
+    "name": "Dragonknight Armor .3",
+    "weight": 17.1
+  },
+  "T8_ARMOR_PLATE_PROTOTYPE@4": {
+    "name": "Dragonknight Armor .4",
+    "weight": 17.1
+  },
+  "T8_ARMOR_PLATE_UNDEAD": {
+    "name": "Elder's Graveguard Armor",
+    "weight": 17.1
+  },
+  "T8_ARTEFACT_ARMOR_PLATE_UNDEAD": {
+    "name": "Elder's Artefact Armor Plate Undead",
+    "weight": 2
+  },
+  "T8_ARMOR_PLATE_UNDEAD@1": {
+    "name": "Elder's Graveguard Armor .1",
+    "weight": 17.1
+  },
+  "T8_ARMOR_PLATE_UNDEAD@2": {
+    "name": "Elder's Graveguard Armor .2",
+    "weight": 17.1
+  },
+  "T8_ARMOR_PLATE_UNDEAD@3": {
+    "name": "Elder's Graveguard Armor .3",
+    "weight": 17.1
+  },
+  "T8_ARMOR_PLATE_UNDEAD@4": {
+    "name": "Elder's Graveguard Armor .4",
+    "weight": 17.1
+  },
+  "T8_HEAD_LEATHER_SET3": {
+    "name": "Elder's Assassin Hood",
+    "weight": 8.5
+  },
+  "T8_HEAD_LEATHER_SET3@1": {
+    "name": "Elder's Assassin Hood .1",
+    "weight": 8.5
+  },
+  "T8_HEAD_LEATHER_SET3@2": {
+    "name": "Elder's Assassin Hood .2",
+    "weight": 8.5
+  },
+  "T8_HEAD_LEATHER_SET3@3": {
+    "name": "Elder's Assassin Hood .3",
+    "weight": 8.5
+  },
+  "T8_HEAD_LEATHER_SET3@4": {
+    "name": "Elder's Assassin Hood .4",
+    "weight": 8.5
+  },
+  "T8_ARMOR_LEATHER_SET3": {
+    "name": "Elder's Assassin Jacket",
+    "weight": 17.1
+  },
+  "T8_ARMOR_LEATHER_SET3@1": {
+    "name": "Elder's Assassin Jacket .1",
+    "weight": 17.1
+  },
+  "T8_ARMOR_LEATHER_SET3@2": {
+    "name": "Elder's Assassin Jacket .2",
+    "weight": 17.1
+  },
+  "T8_ARMOR_LEATHER_SET3@3": {
+    "name": "Elder's Assassin Jacket .3",
+    "weight": 17.1
+  },
+  "T8_ARMOR_LEATHER_SET3@4": {
+    "name": "Elder's Assassin Jacket .4",
+    "weight": 17.1
+  },
+  "T8_SHOES_LEATHER_SET3": {
+    "name": "Elder's Assassin Shoes",
+    "weight": 8.5
+  },
+  "T8_SHOES_LEATHER_SET3@1": {
+    "name": "Elder's Assassin Shoes .1",
+    "weight": 8.5
+  },
+  "T8_SHOES_LEATHER_SET3@2": {
+    "name": "Elder's Assassin Shoes .2",
+    "weight": 8.5
+  },
+  "T8_SHOES_LEATHER_SET3@3": {
+    "name": "Elder's Assassin Shoes .3",
+    "weight": 8.5
+  },
+  "T8_SHOES_LEATHER_SET3@4": {
+    "name": "Elder's Assassin Shoes .4",
+    "weight": 8.5
+  },
+  "T8_HEAD_CLOTH_SET2": {
+    "name": "Elder's Cleric Cowl",
+    "weight": 8.5
+  },
+  "T8_HEAD_CLOTH_SET2@1": {
+    "name": "Elder's Cleric Cowl .1",
+    "weight": 8.5
+  },
+  "T8_HEAD_CLOTH_SET2@2": {
+    "name": "Elder's Cleric Cowl .2",
+    "weight": 8.5
+  },
+  "T8_HEAD_CLOTH_SET2@3": {
+    "name": "Elder's Cleric Cowl .3",
+    "weight": 8.5
+  },
+  "T8_HEAD_CLOTH_SET2@4": {
+    "name": "Elder's Cleric Cowl .4",
+    "weight": 8.5
+  },
+  "T8_ARMOR_CLOTH_SET2": {
+    "name": "Elder's Cleric Robe",
+    "weight": 17.1
+  },
+  "T8_ARMOR_CLOTH_SET2@1": {
+    "name": "Elder's Cleric Robe .1",
+    "weight": 17.1
+  },
+  "T8_ARMOR_CLOTH_SET2@2": {
+    "name": "Elder's Cleric Robe .2",
+    "weight": 17.1
+  },
+  "T8_ARMOR_CLOTH_SET2@3": {
+    "name": "Elder's Cleric Robe .3",
+    "weight": 17.1
+  },
+  "T8_ARMOR_CLOTH_SET2@4": {
+    "name": "Elder's Cleric Robe .4",
+    "weight": 17.1
+  },
+  "T8_SHOES_CLOTH_SET2": {
+    "name": "Elder's Cleric Sandals",
+    "weight": 8.5
+  },
+  "T8_SHOES_CLOTH_SET2@1": {
+    "name": "Elder's Cleric Sandals .1",
+    "weight": 8.5
+  },
+  "T8_SHOES_CLOTH_SET2@2": {
+    "name": "Elder's Cleric Sandals .2",
+    "weight": 8.5
+  },
+  "T8_SHOES_CLOTH_SET2@3": {
+    "name": "Elder's Cleric Sandals .3",
+    "weight": 8.5
+  },
+  "T8_SHOES_CLOTH_SET2@4": {
+    "name": "Elder's Cleric Sandals .4",
+    "weight": 8.5
+  },
+  "T8_ARMOR_PLATE_SET3": {
+    "name": "Elder's Guardian Armor",
+    "weight": 17.1
+  },
+  "T8_ARMOR_PLATE_SET3@1": {
+    "name": "Elder's Guardian Armor .1",
+    "weight": 17.1
+  },
+  "T8_ARMOR_PLATE_SET3@2": {
+    "name": "Elder's Guardian Armor .2",
+    "weight": 17.1
+  },
+  "T8_ARMOR_PLATE_SET3@3": {
+    "name": "Elder's Guardian Armor .3",
+    "weight": 17.1
+  },
+  "T8_ARMOR_PLATE_SET3@4": {
+    "name": "Elder's Guardian Armor .4",
+    "weight": 17.1
+  },
+  "T8_SHOES_PLATE_SET3": {
+    "name": "Elder's Guardian Boots",
+    "weight": 8.5
+  },
+  "T8_SHOES_PLATE_SET3@1": {
+    "name": "Elder's Guardian Boots .1",
+    "weight": 8.5
+  },
+  "T8_SHOES_PLATE_SET3@2": {
+    "name": "Elder's Guardian Boots .2",
+    "weight": 8.5
+  },
+  "T8_SHOES_PLATE_SET3@3": {
+    "name": "Elder's Guardian Boots .3",
+    "weight": 8.5
+  },
+  "T8_SHOES_PLATE_SET3@4": {
+    "name": "Elder's Guardian Boots .4",
+    "weight": 8.5
+  },
+  "T8_HEAD_PLATE_SET3": {
+    "name": "Elder's Guardian Helmet",
+    "weight": 8.5
+  },
+  "T8_HEAD_PLATE_SET3@1": {
+    "name": "Elder's Guardian Helmet .1",
+    "weight": 8.5
+  },
+  "T8_HEAD_PLATE_SET3@2": {
+    "name": "Elder's Guardian Helmet .2",
+    "weight": 8.5
+  },
+  "T8_HEAD_PLATE_SET3@3": {
+    "name": "Elder's Guardian Helmet .3",
+    "weight": 8.5
+  },
+  "T8_HEAD_PLATE_SET3@4": {
+    "name": "Elder's Guardian Helmet .4",
+    "weight": 8.5
+  },
+  "T8_HEAD_CLOTH_AVALON": {
+    "name": "Elder's Cowl of Purity",
+    "weight": 8.5
+  },
+  "T8_ARTEFACT_HEAD_CLOTH_AVALON": {
+    "name": "Elder's Artefact Head Cloth Avalon",
+    "weight": 2
+  },
+  "T8_HEAD_CLOTH_AVALON@1": {
+    "name": "Elder's Cowl of Purity .1",
+    "weight": 8.5
+  },
+  "T8_HEAD_CLOTH_AVALON@2": {
+    "name": "Elder's Cowl of Purity .2",
+    "weight": 8.5
+  },
+  "T8_HEAD_CLOTH_AVALON@3": {
+    "name": "Elder's Cowl of Purity .3",
+    "weight": 8.5
+  },
+  "T8_HEAD_CLOTH_AVALON@4": {
+    "name": "Elder's Cowl of Purity .4",
+    "weight": 8.5
+  },
+  "T8_HEAD_CLOTH_FEY": {
+    "name": "Elder's Feyscale Hat",
+    "weight": 8.5
+  },
+  "T8_ARTEFACT_HEAD_CLOTH_FEY": {
+    "name": "Elder's Artefact Head Cloth Fey",
+    "weight": 2
+  },
+  "T8_HEAD_CLOTH_FEY@1": {
+    "name": "Elder's Feyscale Hat .1",
+    "weight": 8.5
+  },
+  "T8_HEAD_CLOTH_FEY@2": {
+    "name": "Elder's Feyscale Hat .2",
+    "weight": 8.5
+  },
+  "T8_HEAD_CLOTH_FEY@3": {
+    "name": "Elder's Feyscale Hat .3",
+    "weight": 8.5
+  },
+  "T8_HEAD_CLOTH_FEY@4": {
+    "name": "Elder's Feyscale Hat .4",
+    "weight": 8.5
+  },
+  "T8_HEAD_CLOTH_HELL": {
+    "name": "Elder's Fiend Cowl",
+    "weight": 8.5
+  },
+  "T8_ARTEFACT_HEAD_CLOTH_HELL": {
+    "name": "Elder's Artefact Head Cloth Hell",
+    "weight": 2
+  },
+  "T8_HEAD_CLOTH_HELL@1": {
+    "name": "Elder's Fiend Cowl .1",
+    "weight": 8.5
+  },
+  "T8_HEAD_CLOTH_HELL@2": {
+    "name": "Elder's Fiend Cowl .2",
+    "weight": 8.5
+  },
+  "T8_HEAD_CLOTH_HELL@3": {
+    "name": "Elder's Fiend Cowl .3",
+    "weight": 8.5
+  },
+  "T8_HEAD_CLOTH_HELL@4": {
+    "name": "Elder's Fiend Cowl .4",
+    "weight": 8.5
+  },
+  "T8_HEAD_CLOTH_KEEPER": {
+    "name": "Elder's Druid Cowl",
+    "weight": 8.5
+  },
+  "T8_ARTEFACT_HEAD_CLOTH_KEEPER": {
+    "name": "Elder's Artefact Head Cloth Keeper",
+    "weight": 2
+  },
+  "T8_HEAD_CLOTH_KEEPER@1": {
+    "name": "Elder's Druid Cowl .1",
+    "weight": 8.5
+  },
+  "T8_HEAD_CLOTH_KEEPER@2": {
+    "name": "Elder's Druid Cowl .2",
+    "weight": 8.5
+  },
+  "T8_HEAD_CLOTH_KEEPER@3": {
+    "name": "Elder's Druid Cowl .3",
+    "weight": 8.5
+  },
+  "T8_HEAD_CLOTH_KEEPER@4": {
+    "name": "Elder's Druid Cowl .4",
+    "weight": 8.5
+  },
+  "T8_HEAD_CLOTH_MORGANA": {
+    "name": "Elder's Cultist Cowl",
+    "weight": 8.5
+  },
+  "T8_ARTEFACT_HEAD_CLOTH_MORGANA": {
+    "name": "Elder's Artefact Head Cloth Morgana",
+    "weight": 2
+  },
+  "T8_HEAD_CLOTH_MORGANA@1": {
+    "name": "Elder's Cultist Cowl .1",
+    "weight": 8.5
+  },
+  "T8_HEAD_CLOTH_MORGANA@2": {
+    "name": "Elder's Cultist Cowl .2",
+    "weight": 8.5
+  },
+  "T8_HEAD_CLOTH_MORGANA@3": {
+    "name": "Elder's Cultist Cowl .3",
+    "weight": 8.5
+  },
+  "T8_HEAD_CLOTH_MORGANA@4": {
+    "name": "Elder's Cultist Cowl .4",
+    "weight": 8.5
+  },
+  "T8_HEAD_CLOTH_PROTOTYPE": {
+    "name": "Elder's Prototype Cowl",
+    "weight": 8.5
+  },
+  "T8_HEAD_CLOTH_PROTOTYPE@1": {
+    "name": "Elder's Prototype Cowl .1",
+    "weight": 8.5
+  },
+  "T8_HEAD_CLOTH_PROTOTYPE@2": {
+    "name": "Elder's Prototype Cowl .2",
+    "weight": 8.5
+  },
+  "T8_HEAD_CLOTH_PROTOTYPE@3": {
+    "name": "Elder's Prototype Cowl .3",
+    "weight": 8.5
+  },
+  "T8_HEAD_CLOTH_PROTOTYPE@4": {
+    "name": "Elder's Prototype Cowl .4",
+    "weight": 8.5
+  },
+  "T8_HEAD_LEATHER_AVALON": {
+    "name": "Elder's Hood of Tenacity",
+    "weight": 8.5
+  },
+  "T8_ARTEFACT_HEAD_LEATHER_AVALON": {
+    "name": "Elder's Artefact Head Leather Avalon",
+    "weight": 2
+  },
+  "T8_HEAD_LEATHER_AVALON@1": {
+    "name": "Elder's Hood of Tenacity .1",
+    "weight": 8.5
+  },
+  "T8_HEAD_LEATHER_AVALON@2": {
+    "name": "Elder's Hood of Tenacity .2",
+    "weight": 8.5
+  },
+  "T8_HEAD_LEATHER_AVALON@3": {
+    "name": "Elder's Hood of Tenacity .3",
+    "weight": 8.5
+  },
+  "T8_HEAD_LEATHER_AVALON@4": {
+    "name": "Elder's Hood of Tenacity .4",
+    "weight": 8.5
+  },
+  "T8_HEAD_LEATHER_DRAGON": {
+    "name": "Elder's Dragonslayer Hood",
+    "weight": 8.5
+  },
+  "T8_ARTEFACT_HEAD_LEATHER_DRAGON": {
+    "name": "Elder's Artefact Head Leather Dragon",
+    "weight": 2
+  },
+  "T8_HEAD_LEATHER_DRAGON@1": {
+    "name": "Elder's Dragonslayer Hood .1",
+    "weight": 8.5
+  },
+  "T8_HEAD_LEATHER_DRAGON@2": {
+    "name": "Elder's Dragonslayer Hood .2",
+    "weight": 8.5
+  },
+  "T8_HEAD_LEATHER_DRAGON@3": {
+    "name": "Elder's Dragonslayer Hood .3",
+    "weight": 8.5
+  },
+  "T8_HEAD_LEATHER_DRAGON@4": {
+    "name": "Elder's Dragonslayer Hood .4",
+    "weight": 8.5
+  },
+  "T8_HEAD_LEATHER_FEY": {
+    "name": "Elder's Mistwalker Hood",
+    "weight": 8.5
+  },
+  "T8_ARTEFACT_HEAD_LEATHER_FEY": {
+    "name": "Elder's Artefact Head Leather Fey",
+    "weight": 2
+  },
+  "T8_HEAD_LEATHER_FEY@1": {
+    "name": "Elder's Mistwalker Hood .1",
+    "weight": 8.5
+  },
+  "T8_HEAD_LEATHER_FEY@2": {
+    "name": "Elder's Mistwalker Hood .2",
+    "weight": 8.5
+  },
+  "T8_HEAD_LEATHER_FEY@3": {
+    "name": "Elder's Mistwalker Hood .3",
+    "weight": 8.5
+  },
+  "T8_HEAD_LEATHER_FEY@4": {
+    "name": "Elder's Mistwalker Hood .4",
+    "weight": 8.5
+  },
+  "T8_HEAD_LEATHER_HELL": {
+    "name": "Elder's Hellion Hood",
+    "weight": 8.5
+  },
+  "T8_ARTEFACT_HEAD_LEATHER_HELL": {
+    "name": "Elder's Artefact Head Leather Hell",
+    "weight": 2
+  },
+  "T8_HEAD_LEATHER_HELL@1": {
+    "name": "Elder's Hellion Hood .1",
+    "weight": 8.5
+  },
+  "T8_HEAD_LEATHER_HELL@2": {
+    "name": "Elder's Hellion Hood .2",
+    "weight": 8.5
+  },
+  "T8_HEAD_LEATHER_HELL@3": {
+    "name": "Elder's Hellion Hood .3",
+    "weight": 8.5
+  },
+  "T8_HEAD_LEATHER_HELL@4": {
+    "name": "Elder's Hellion Hood .4",
+    "weight": 8.5
+  },
+  "T8_HEAD_LEATHER_MORGANA": {
+    "name": "Elder's Stalker Hood",
+    "weight": 8.5
+  },
+  "T8_ARTEFACT_HEAD_LEATHER_MORGANA": {
+    "name": "Elder's Artefact Head Leather Morgana",
+    "weight": 2
+  },
+  "T8_HEAD_LEATHER_MORGANA@1": {
+    "name": "Elder's Stalker Hood .1",
+    "weight": 8.5
+  },
+  "T8_HEAD_LEATHER_MORGANA@2": {
+    "name": "Elder's Stalker Hood .2",
+    "weight": 8.5
+  },
+  "T8_HEAD_LEATHER_MORGANA@3": {
+    "name": "Elder's Stalker Hood .3",
+    "weight": 8.5
+  },
+  "T8_HEAD_LEATHER_MORGANA@4": {
+    "name": "Elder's Stalker Hood .4",
+    "weight": 8.5
+  },
+  "T8_HEAD_LEATHER_PROTOTYPE": {
+    "name": "Elder's Prototype Hood",
+    "weight": 8.5
+  },
+  "T8_HEAD_LEATHER_PROTOTYPE@1": {
+    "name": "Elder's Prototype Hood .1",
+    "weight": 8.5
+  },
+  "T8_HEAD_LEATHER_PROTOTYPE@2": {
+    "name": "Elder's Prototype Hood .2",
+    "weight": 8.5
+  },
+  "T8_HEAD_LEATHER_PROTOTYPE@3": {
+    "name": "Elder's Prototype Hood .3",
+    "weight": 8.5
+  },
+  "T8_HEAD_LEATHER_PROTOTYPE@4": {
+    "name": "Elder's Prototype Hood .4",
+    "weight": 8.5
+  },
+  "T8_HEAD_LEATHER_UNDEAD": {
+    "name": "Elder's Specter Hood",
+    "weight": 8.5
+  },
+  "T8_ARTEFACT_HEAD_LEATHER_UNDEAD": {
+    "name": "Elder's Artefact Head Leather Undead",
+    "weight": 2
+  },
+  "T8_HEAD_LEATHER_UNDEAD@1": {
+    "name": "Elder's Specter Hood .1",
+    "weight": 8.5
+  },
+  "T8_HEAD_LEATHER_UNDEAD@2": {
+    "name": "Elder's Specter Hood .2",
+    "weight": 8.5
+  },
+  "T8_HEAD_LEATHER_UNDEAD@3": {
+    "name": "Elder's Specter Hood .3",
+    "weight": 8.5
+  },
+  "T8_HEAD_LEATHER_UNDEAD@4": {
+    "name": "Elder's Specter Hood .4",
+    "weight": 8.5
+  },
+  "T8_HEAD_PLATE_AVALON": {
+    "name": "Elder's Helmet of Valor",
+    "weight": 8.5
+  },
+  "T8_ARTEFACT_HEAD_PLATE_AVALON": {
+    "name": "Elder's Artefact Head Plate Avalon",
+    "weight": 2
+  },
+  "T8_HEAD_PLATE_AVALON@1": {
+    "name": "Elder's Helmet of Valor .1",
+    "weight": 8.5
+  },
+  "T8_HEAD_PLATE_AVALON@2": {
+    "name": "Elder's Helmet of Valor .2",
+    "weight": 8.5
+  },
+  "T8_HEAD_PLATE_AVALON@3": {
+    "name": "Elder's Helmet of Valor .3",
+    "weight": 8.5
+  },
+  "T8_HEAD_PLATE_AVALON@4": {
+    "name": "Elder's Helmet of Valor .4",
+    "weight": 8.5
+  },
+  "T8_HEAD_PLATE_FEY": {
+    "name": "Elder's Duskweaver Helmet",
+    "weight": 8.5
+  },
+  "T8_ARTEFACT_HEAD_PLATE_FEY": {
+    "name": "Elder's Artefact Head Plate Fey",
+    "weight": 2
+  },
+  "T8_HEAD_PLATE_FEY@1": {
+    "name": "Elder's Duskweaver Helmet .1",
+    "weight": 8.5
+  },
+  "T8_HEAD_PLATE_FEY@2": {
+    "name": "Elder's Duskweaver Helmet .2",
+    "weight": 8.5
+  },
+  "T8_HEAD_PLATE_FEY@3": {
+    "name": "Elder's Duskweaver Helmet .3",
+    "weight": 8.5
+  },
+  "T8_HEAD_PLATE_FEY@4": {
+    "name": "Elder's Duskweaver Helmet .4",
+    "weight": 8.5
+  },
+  "T8_HEAD_PLATE_HELL": {
+    "name": "Elder's Demon Helmet",
+    "weight": 8.5
+  },
+  "T8_ARTEFACT_HEAD_PLATE_HELL": {
+    "name": "Elder's Artefact Head Plate Hell",
+    "weight": 2
+  },
+  "T8_HEAD_PLATE_HELL@1": {
+    "name": "Elder's Demon Helmet .1",
+    "weight": 8.5
+  },
+  "T8_HEAD_PLATE_HELL@2": {
+    "name": "Elder's Demon Helmet .2",
+    "weight": 8.5
+  },
+  "T8_HEAD_PLATE_HELL@3": {
+    "name": "Elder's Demon Helmet .3",
+    "weight": 8.5
+  },
+  "T8_HEAD_PLATE_HELL@4": {
+    "name": "Elder's Demon Helmet .4",
+    "weight": 8.5
+  },
+  "T8_HEAD_PLATE_KEEPER": {
+    "name": "Elder's Judicator Helmet",
+    "weight": 8.5
+  },
+  "T8_ARTEFACT_HEAD_PLATE_KEEPER": {
+    "name": "Elder's Artefact Head Plate Keeper",
+    "weight": 2
+  },
+  "T8_HEAD_PLATE_KEEPER@1": {
+    "name": "Elder's Judicator Helmet .1",
+    "weight": 8.5
+  },
+  "T8_HEAD_PLATE_KEEPER@2": {
+    "name": "Elder's Judicator Helmet .2",
+    "weight": 8.5
+  },
+  "T8_HEAD_PLATE_KEEPER@3": {
+    "name": "Elder's Judicator Helmet .3",
+    "weight": 8.5
+  },
+  "T8_HEAD_PLATE_KEEPER@4": {
+    "name": "Elder's Judicator Helmet .4",
+    "weight": 8.5
+  },
+  "T8_HEAD_PLATE_PROTOTYPE": {
+    "name": "Dragonknight Helmet",
+    "weight": 8.5
+  },
+  "T8_HEAD_PLATE_PROTOTYPE@1": {
+    "name": "Dragonknight Helmet .1",
+    "weight": 8.5
+  },
+  "T8_HEAD_PLATE_PROTOTYPE@2": {
+    "name": "Dragonknight Helmet .2",
+    "weight": 8.5
+  },
+  "T8_HEAD_PLATE_PROTOTYPE@3": {
+    "name": "Dragonknight Helmet .3",
+    "weight": 8.5
+  },
+  "T8_HEAD_PLATE_PROTOTYPE@4": {
+    "name": "Dragonknight Helmet .4",
+    "weight": 8.5
+  },
+  "T8_HEAD_PLATE_UNDEAD": {
+    "name": "Elder's Graveguard Helmet",
+    "weight": 8.5
+  },
+  "T8_ARTEFACT_HEAD_PLATE_UNDEAD": {
+    "name": "Elder's Artefact Head Plate Undead",
+    "weight": 2
+  },
+  "T8_HEAD_PLATE_UNDEAD@1": {
+    "name": "Elder's Graveguard Helmet .1",
+    "weight": 8.5
+  },
+  "T8_HEAD_PLATE_UNDEAD@2": {
+    "name": "Elder's Graveguard Helmet .2",
+    "weight": 8.5
+  },
+  "T8_HEAD_PLATE_UNDEAD@3": {
+    "name": "Elder's Graveguard Helmet .3",
+    "weight": 8.5
+  },
+  "T8_HEAD_PLATE_UNDEAD@4": {
+    "name": "Elder's Graveguard Helmet .4",
+    "weight": 8.5
+  },
+  "T8_HEAD_LEATHER_SET2": {
+    "name": "Elder's Hunter Hood",
+    "weight": 8.5
+  },
+  "T8_HEAD_LEATHER_SET2@1": {
+    "name": "Elder's Hunter Hood .1",
+    "weight": 8.5
+  },
+  "T8_HEAD_LEATHER_SET2@2": {
+    "name": "Elder's Hunter Hood .2",
+    "weight": 8.5
+  },
+  "T8_HEAD_LEATHER_SET2@3": {
+    "name": "Elder's Hunter Hood .3",
+    "weight": 8.5
+  },
+  "T8_HEAD_LEATHER_SET2@4": {
+    "name": "Elder's Hunter Hood .4",
+    "weight": 8.5
+  },
+  "T8_ARMOR_LEATHER_SET2": {
+    "name": "Elder's Hunter Jacket",
+    "weight": 17.1
+  },
+  "T8_ARMOR_LEATHER_SET2@1": {
+    "name": "Elder's Hunter Jacket .1",
+    "weight": 17.1
+  },
+  "T8_ARMOR_LEATHER_SET2@2": {
+    "name": "Elder's Hunter Jacket .2",
+    "weight": 17.1
+  },
+  "T8_ARMOR_LEATHER_SET2@3": {
+    "name": "Elder's Hunter Jacket .3",
+    "weight": 17.1
+  },
+  "T8_ARMOR_LEATHER_SET2@4": {
+    "name": "Elder's Hunter Jacket .4",
+    "weight": 17.1
+  },
+  "T8_SHOES_LEATHER_SET2": {
+    "name": "Elder's Hunter Shoes",
+    "weight": 8.5
+  },
+  "T8_SHOES_LEATHER_SET2@1": {
+    "name": "Elder's Hunter Shoes .1",
+    "weight": 8.5
+  },
+  "T8_SHOES_LEATHER_SET2@2": {
+    "name": "Elder's Hunter Shoes .2",
+    "weight": 8.5
+  },
+  "T8_SHOES_LEATHER_SET2@3": {
+    "name": "Elder's Hunter Shoes .3",
+    "weight": 8.5
+  },
+  "T8_SHOES_LEATHER_SET2@4": {
+    "name": "Elder's Hunter Shoes .4",
+    "weight": 8.5
+  },
+  "T8_ARMOR_PLATE_SET2": {
+    "name": "Elder's Knight Armor",
+    "weight": 17.1
+  },
+  "T8_ARMOR_PLATE_SET2@1": {
+    "name": "Elder's Knight Armor .1",
+    "weight": 17.1
+  },
+  "T8_ARMOR_PLATE_SET2@2": {
+    "name": "Elder's Knight Armor .2",
+    "weight": 17.1
+  },
+  "T8_ARMOR_PLATE_SET2@3": {
+    "name": "Elder's Knight Armor .3",
+    "weight": 17.1
+  },
+  "T8_ARMOR_PLATE_SET2@4": {
+    "name": "Elder's Knight Armor .4",
+    "weight": 17.1
+  },
+  "T8_SHOES_PLATE_SET2": {
+    "name": "Elder's Knight Boots",
+    "weight": 8.5
+  },
+  "T8_SHOES_PLATE_SET2@1": {
+    "name": "Elder's Knight Boots .1",
+    "weight": 8.5
+  },
+  "T8_SHOES_PLATE_SET2@2": {
+    "name": "Elder's Knight Boots .2",
+    "weight": 8.5
+  },
+  "T8_SHOES_PLATE_SET2@3": {
+    "name": "Elder's Knight Boots .3",
+    "weight": 8.5
+  },
+  "T8_SHOES_PLATE_SET2@4": {
+    "name": "Elder's Knight Boots .4",
+    "weight": 8.5
+  },
+  "T8_HEAD_PLATE_SET2": {
+    "name": "Elder's Knight Helmet",
+    "weight": 8.5
+  },
+  "T8_HEAD_PLATE_SET2@1": {
+    "name": "Elder's Knight Helmet .1",
+    "weight": 8.5
+  },
+  "T8_HEAD_PLATE_SET2@2": {
+    "name": "Elder's Knight Helmet .2",
+    "weight": 8.5
+  },
+  "T8_HEAD_PLATE_SET2@3": {
+    "name": "Elder's Knight Helmet .3",
+    "weight": 8.5
+  },
+  "T8_HEAD_PLATE_SET2@4": {
+    "name": "Elder's Knight Helmet .4",
+    "weight": 8.5
+  },
+  "T8_HEAD_CLOTH_SET3": {
+    "name": "Elder's Mage Cowl",
+    "weight": 8.5
+  },
+  "T8_HEAD_CLOTH_SET3@1": {
+    "name": "Elder's Mage Cowl .1",
+    "weight": 8.5
+  },
+  "T8_HEAD_CLOTH_SET3@2": {
+    "name": "Elder's Mage Cowl .2",
+    "weight": 8.5
+  },
+  "T8_HEAD_CLOTH_SET3@3": {
+    "name": "Elder's Mage Cowl .3",
+    "weight": 8.5
+  },
+  "T8_HEAD_CLOTH_SET3@4": {
+    "name": "Elder's Mage Cowl .4",
+    "weight": 8.5
+  },
+  "T8_ARMOR_CLOTH_SET3": {
+    "name": "Elder's Mage Robe",
+    "weight": 17.1
+  },
+  "T8_ARMOR_CLOTH_SET3@1": {
+    "name": "Elder's Mage Robe .1",
+    "weight": 17.1
+  },
+  "T8_ARMOR_CLOTH_SET3@2": {
+    "name": "Elder's Mage Robe .2",
+    "weight": 17.1
+  },
+  "T8_ARMOR_CLOTH_SET3@3": {
+    "name": "Elder's Mage Robe .3",
+    "weight": 17.1
+  },
+  "T8_ARMOR_CLOTH_SET3@4": {
+    "name": "Elder's Mage Robe .4",
+    "weight": 17.1
+  },
+  "T8_SHOES_CLOTH_SET3": {
+    "name": "Elder's Mage Sandals",
+    "weight": 8.5
+  },
+  "T8_SHOES_CLOTH_SET3@1": {
+    "name": "Elder's Mage Sandals .1",
+    "weight": 8.5
+  },
+  "T8_SHOES_CLOTH_SET3@2": {
+    "name": "Elder's Mage Sandals .2",
+    "weight": 8.5
+  },
+  "T8_SHOES_CLOTH_SET3@3": {
+    "name": "Elder's Mage Sandals .3",
+    "weight": 8.5
+  },
+  "T8_SHOES_CLOTH_SET3@4": {
+    "name": "Elder's Mage Sandals .4",
+    "weight": 8.5
+  },
+  "T8_HEAD_LEATHER_SET1": {
+    "name": "Elder's Mercenary Hood",
+    "weight": 8.5
+  },
+  "T8_HEAD_LEATHER_SET1@1": {
+    "name": "Elder's Mercenary Hood .1",
+    "weight": 8.5
+  },
+  "T8_HEAD_LEATHER_SET1@2": {
+    "name": "Elder's Mercenary Hood .2",
+    "weight": 8.5
+  },
+  "T8_HEAD_LEATHER_SET1@3": {
+    "name": "Elder's Mercenary Hood .3",
+    "weight": 8.5
+  },
+  "T8_HEAD_LEATHER_SET1@4": {
+    "name": "Elder's Mercenary Hood .4",
+    "weight": 8.5
+  },
+  "T8_ARMOR_LEATHER_SET1": {
+    "name": "Elder's Mercenary Jacket",
+    "weight": 17.1
+  },
+  "T8_ARMOR_LEATHER_SET1@1": {
+    "name": "Elder's Mercenary Jacket .1",
+    "weight": 17.1
+  },
+  "T8_ARMOR_LEATHER_SET1@2": {
+    "name": "Elder's Mercenary Jacket .2",
+    "weight": 17.1
+  },
+  "T8_ARMOR_LEATHER_SET1@3": {
+    "name": "Elder's Mercenary Jacket .3",
+    "weight": 17.1
+  },
+  "T8_ARMOR_LEATHER_SET1@4": {
+    "name": "Elder's Mercenary Jacket .4",
+    "weight": 17.1
+  },
+  "T8_SHOES_LEATHER_SET1": {
+    "name": "Elder's Mercenary Shoes",
+    "weight": 8.5
+  },
+  "T8_SHOES_LEATHER_SET1@1": {
+    "name": "Elder's Mercenary Shoes .1",
+    "weight": 8.5
+  },
+  "T8_SHOES_LEATHER_SET1@2": {
+    "name": "Elder's Mercenary Shoes .2",
+    "weight": 8.5
+  },
+  "T8_SHOES_LEATHER_SET1@3": {
+    "name": "Elder's Mercenary Shoes .3",
+    "weight": 8.5
+  },
+  "T8_SHOES_LEATHER_SET1@4": {
+    "name": "Elder's Mercenary Shoes .4",
+    "weight": 8.5
+  },
+  "T8_HEAD_CLOTH_SET1": {
+    "name": "Elder's Scholar Cowl",
+    "weight": 8.5
+  },
+  "T8_HEAD_CLOTH_SET1@1": {
+    "name": "Elder's Scholar Cowl .1",
+    "weight": 8.5
+  },
+  "T8_HEAD_CLOTH_SET1@2": {
+    "name": "Elder's Scholar Cowl .2",
+    "weight": 8.5
+  },
+  "T8_HEAD_CLOTH_SET1@3": {
+    "name": "Elder's Scholar Cowl .3",
+    "weight": 8.5
+  },
+  "T8_HEAD_CLOTH_SET1@4": {
+    "name": "Elder's Scholar Cowl .4",
+    "weight": 8.5
+  },
+  "T8_ARMOR_CLOTH_SET1": {
+    "name": "Elder's Scholar Robe",
+    "weight": 17.1
+  },
+  "T8_ARMOR_CLOTH_SET1@1": {
+    "name": "Elder's Scholar Robe .1",
+    "weight": 17.1
+  },
+  "T8_ARMOR_CLOTH_SET1@2": {
+    "name": "Elder's Scholar Robe .2",
+    "weight": 17.1
+  },
+  "T8_ARMOR_CLOTH_SET1@3": {
+    "name": "Elder's Scholar Robe .3",
+    "weight": 17.1
+  },
+  "T8_ARMOR_CLOTH_SET1@4": {
+    "name": "Elder's Scholar Robe .4",
+    "weight": 17.1
+  },
+  "T8_SHOES_CLOTH_SET1": {
+    "name": "Elder's Scholar Sandals",
+    "weight": 8.5
+  },
+  "T8_SHOES_CLOTH_SET1@1": {
+    "name": "Elder's Scholar Sandals .1",
+    "weight": 8.5
+  },
+  "T8_SHOES_CLOTH_SET1@2": {
+    "name": "Elder's Scholar Sandals .2",
+    "weight": 8.5
+  },
+  "T8_SHOES_CLOTH_SET1@3": {
+    "name": "Elder's Scholar Sandals .3",
+    "weight": 8.5
+  },
+  "T8_SHOES_CLOTH_SET1@4": {
+    "name": "Elder's Scholar Sandals .4",
+    "weight": 8.5
+  },
+  "T8_SHOES_CLOTH_AVALON": {
+    "name": "Elder's Sandals of Purity",
+    "weight": 8.5
+  },
+  "T8_ARTEFACT_SHOES_CLOTH_AVALON": {
+    "name": "Elder's Artefact Shoes Cloth Avalon",
+    "weight": 2
+  },
+  "T8_SHOES_CLOTH_AVALON@1": {
+    "name": "Elder's Sandals of Purity .1",
+    "weight": 8.5
+  },
+  "T8_SHOES_CLOTH_AVALON@2": {
+    "name": "Elder's Sandals of Purity .2",
+    "weight": 8.5
+  },
+  "T8_SHOES_CLOTH_AVALON@3": {
+    "name": "Elder's Sandals of Purity .3",
+    "weight": 8.5
+  },
+  "T8_SHOES_CLOTH_AVALON@4": {
+    "name": "Elder's Sandals of Purity .4",
+    "weight": 8.5
+  },
+  "T8_SHOES_CLOTH_FEY": {
+    "name": "Elder's Feyscale Sandals",
+    "weight": 8.5
+  },
+  "T8_ARTEFACT_SHOES_CLOTH_FEY": {
+    "name": "Elder's Artefact Shoes Cloth Fey",
+    "weight": 2
+  },
+  "T8_SHOES_CLOTH_FEY@1": {
+    "name": "Elder's Feyscale Sandals .1",
+    "weight": 8.5
+  },
+  "T8_SHOES_CLOTH_FEY@2": {
+    "name": "Elder's Feyscale Sandals .2",
+    "weight": 8.5
+  },
+  "T8_SHOES_CLOTH_FEY@3": {
+    "name": "Elder's Feyscale Sandals .3",
+    "weight": 8.5
+  },
+  "T8_SHOES_CLOTH_FEY@4": {
+    "name": "Elder's Feyscale Sandals .4",
+    "weight": 8.5
+  },
+  "T8_SHOES_CLOTH_HELL": {
+    "name": "Elder's Fiend Sandals",
+    "weight": 8.5
+  },
+  "T8_ARTEFACT_SHOES_CLOTH_HELL": {
+    "name": "Elder's Artefact Shoes Cloth Hell",
+    "weight": 2
+  },
+  "T8_SHOES_CLOTH_HELL@1": {
+    "name": "Elder's Fiend Sandals .1",
+    "weight": 8.5
+  },
+  "T8_SHOES_CLOTH_HELL@2": {
+    "name": "Elder's Fiend Sandals .2",
+    "weight": 8.5
+  },
+  "T8_SHOES_CLOTH_HELL@3": {
+    "name": "Elder's Fiend Sandals .3",
+    "weight": 8.5
+  },
+  "T8_SHOES_CLOTH_HELL@4": {
+    "name": "Elder's Fiend Sandals .4",
+    "weight": 8.5
+  },
+  "T8_SHOES_CLOTH_KEEPER": {
+    "name": "Elder's Druid Sandals",
+    "weight": 8.5
+  },
+  "T8_ARTEFACT_SHOES_CLOTH_KEEPER": {
+    "name": "Elder's Artefact Shoes Cloth Keeper",
+    "weight": 2
+  },
+  "T8_SHOES_CLOTH_KEEPER@1": {
+    "name": "Elder's Druid Sandals .1",
+    "weight": 8.5
+  },
+  "T8_SHOES_CLOTH_KEEPER@2": {
+    "name": "Elder's Druid Sandals .2",
+    "weight": 8.5
+  },
+  "T8_SHOES_CLOTH_KEEPER@3": {
+    "name": "Elder's Druid Sandals .3",
+    "weight": 8.5
+  },
+  "T8_SHOES_CLOTH_KEEPER@4": {
+    "name": "Elder's Druid Sandals .4",
+    "weight": 8.5
+  },
+  "T8_SHOES_CLOTH_MORGANA": {
+    "name": "Elder's Cultist Sandals",
+    "weight": 8.5
+  },
+  "T8_ARTEFACT_SHOES_CLOTH_MORGANA": {
+    "name": "Elder's Artefact Shoes Cloth Morgana",
+    "weight": 2
+  },
+  "T8_SHOES_CLOTH_MORGANA@1": {
+    "name": "Elder's Cultist Sandals .1",
+    "weight": 8.5
+  },
+  "T8_SHOES_CLOTH_MORGANA@2": {
+    "name": "Elder's Cultist Sandals .2",
+    "weight": 8.5
+  },
+  "T8_SHOES_CLOTH_MORGANA@3": {
+    "name": "Elder's Cultist Sandals .3",
+    "weight": 8.5
+  },
+  "T8_SHOES_CLOTH_MORGANA@4": {
+    "name": "Elder's Cultist Sandals .4",
+    "weight": 8.5
+  },
+  "T8_SHOES_CLOTH_PROTOTYPE": {
+    "name": "Elder's Prototype Sandals",
+    "weight": 8.5
+  },
+  "T8_SHOES_CLOTH_PROTOTYPE@1": {
+    "name": "Elder's Prototype Sandals .1",
+    "weight": 8.5
+  },
+  "T8_SHOES_CLOTH_PROTOTYPE@2": {
+    "name": "Elder's Prototype Sandals .2",
+    "weight": 8.5
+  },
+  "T8_SHOES_CLOTH_PROTOTYPE@3": {
+    "name": "Elder's Prototype Sandals .3",
+    "weight": 8.5
+  },
+  "T8_SHOES_CLOTH_PROTOTYPE@4": {
+    "name": "Elder's Prototype Sandals .4",
+    "weight": 8.5
+  },
+  "T8_SHOES_LEATHER_AVALON": {
+    "name": "Elder's Shoes of Tenacity",
+    "weight": 8.5
+  },
+  "T8_ARTEFACT_SHOES_LEATHER_AVALON": {
+    "name": "Elder's Artefact Shoes Leather Avalon",
+    "weight": 2
+  },
+  "T8_SHOES_LEATHER_AVALON@1": {
+    "name": "Elder's Shoes of Tenacity .1",
+    "weight": 8.5
+  },
+  "T8_SHOES_LEATHER_AVALON@2": {
+    "name": "Elder's Shoes of Tenacity .2",
+    "weight": 8.5
+  },
+  "T8_SHOES_LEATHER_AVALON@3": {
+    "name": "Elder's Shoes of Tenacity .3",
+    "weight": 8.5
+  },
+  "T8_SHOES_LEATHER_AVALON@4": {
+    "name": "Elder's Shoes of Tenacity .4",
+    "weight": 8.5
+  },
+  "T8_SHOES_LEATHER_DRAGON": {
+    "name": "Elder's Dragonslayer Shoes",
+    "weight": 8.5
+  },
+  "T8_ARTEFACT_SHOES_LEATHER_DRAGON": {
+    "name": "Elder's Artefact Shoes Leather Dragon",
+    "weight": 2
+  },
+  "T8_SHOES_LEATHER_DRAGON@1": {
+    "name": "Elder's Dragonslayer Shoes .1",
+    "weight": 8.5
+  },
+  "T8_SHOES_LEATHER_DRAGON@2": {
+    "name": "Elder's Dragonslayer Shoes .2",
+    "weight": 8.5
+  },
+  "T8_SHOES_LEATHER_DRAGON@3": {
+    "name": "Elder's Dragonslayer Shoes .3",
+    "weight": 8.5
+  },
+  "T8_SHOES_LEATHER_DRAGON@4": {
+    "name": "Elder's Dragonslayer Shoes .4",
+    "weight": 8.5
+  },
+  "T8_SHOES_LEATHER_FEY": {
+    "name": "Elder's Mistwalker Shoes",
+    "weight": 8.5
+  },
+  "T8_ARTEFACT_SHOES_LEATHER_FEY": {
+    "name": "Elder's Artefact Shoes Leather Fey",
+    "weight": 2
+  },
+  "T8_SHOES_LEATHER_FEY@1": {
+    "name": "Elder's Mistwalker Shoes .1",
+    "weight": 8.5
+  },
+  "T8_SHOES_LEATHER_FEY@2": {
+    "name": "Elder's Mistwalker Shoes .2",
+    "weight": 8.5
+  },
+  "T8_SHOES_LEATHER_FEY@3": {
+    "name": "Elder's Mistwalker Shoes .3",
+    "weight": 8.5
+  },
+  "T8_SHOES_LEATHER_FEY@4": {
+    "name": "Elder's Mistwalker Shoes .4",
+    "weight": 8.5
+  },
+  "T8_SHOES_LEATHER_HELL": {
+    "name": "Elder's Hellion Shoes",
+    "weight": 8.5
+  },
+  "T8_ARTEFACT_SHOES_LEATHER_HELL": {
+    "name": "Elder's Artefact Shoes Leather Hell",
+    "weight": 2
+  },
+  "T8_SHOES_LEATHER_HELL@1": {
+    "name": "Elder's Hellion Shoes .1",
+    "weight": 8.5
+  },
+  "T8_SHOES_LEATHER_HELL@2": {
+    "name": "Elder's Hellion Shoes .2",
+    "weight": 8.5
+  },
+  "T8_SHOES_LEATHER_HELL@3": {
+    "name": "Elder's Hellion Shoes .3",
+    "weight": 8.5
+  },
+  "T8_SHOES_LEATHER_HELL@4": {
+    "name": "Elder's Hellion Shoes .4",
+    "weight": 8.5
+  },
+  "T8_SHOES_LEATHER_MORGANA": {
+    "name": "Elder's Stalker Shoes",
+    "weight": 8.5
+  },
+  "T8_ARTEFACT_SHOES_LEATHER_MORGANA": {
+    "name": "Elder's Artefact Shoes Leather Morgana",
+    "weight": 2
+  },
+  "T8_SHOES_LEATHER_MORGANA@1": {
+    "name": "Elder's Stalker Shoes .1",
+    "weight": 8.5
+  },
+  "T8_SHOES_LEATHER_MORGANA@2": {
+    "name": "Elder's Stalker Shoes .2",
+    "weight": 8.5
+  },
+  "T8_SHOES_LEATHER_MORGANA@3": {
+    "name": "Elder's Stalker Shoes .3",
+    "weight": 8.5
+  },
+  "T8_SHOES_LEATHER_MORGANA@4": {
+    "name": "Elder's Stalker Shoes .4",
+    "weight": 8.5
+  },
+  "T8_SHOES_LEATHER_PROTOTYPE": {
+    "name": "Elder's Prototype Shoes",
+    "weight": 8.5
+  },
+  "T8_SHOES_LEATHER_PROTOTYPE@1": {
+    "name": "Elder's Prototype Shoes .1",
+    "weight": 8.5
+  },
+  "T8_SHOES_LEATHER_PROTOTYPE@2": {
+    "name": "Elder's Prototype Shoes .2",
+    "weight": 8.5
+  },
+  "T8_SHOES_LEATHER_PROTOTYPE@3": {
+    "name": "Elder's Prototype Shoes .3",
+    "weight": 8.5
+  },
+  "T8_SHOES_LEATHER_PROTOTYPE@4": {
+    "name": "Elder's Prototype Shoes .4",
+    "weight": 8.5
+  },
+  "T8_SHOES_LEATHER_UNDEAD": {
+    "name": "Elder's Specter Shoes",
+    "weight": 8.5
+  },
+  "T8_ARTEFACT_SHOES_LEATHER_UNDEAD": {
+    "name": "Elder's Artefact Shoes Leather Undead",
+    "weight": 2
+  },
+  "T8_SHOES_LEATHER_UNDEAD@1": {
+    "name": "Elder's Specter Shoes .1",
+    "weight": 8.5
+  },
+  "T8_SHOES_LEATHER_UNDEAD@2": {
+    "name": "Elder's Specter Shoes .2",
+    "weight": 8.5
+  },
+  "T8_SHOES_LEATHER_UNDEAD@3": {
+    "name": "Elder's Specter Shoes .3",
+    "weight": 8.5
+  },
+  "T8_SHOES_LEATHER_UNDEAD@4": {
+    "name": "Elder's Specter Shoes .4",
+    "weight": 8.5
+  },
+  "T8_SHOES_PLATE_AVALON": {
+    "name": "Elder's Boots of Valor",
+    "weight": 8.5
+  },
+  "T8_ARTEFACT_SHOES_PLATE_AVALON": {
+    "name": "Elder's Artefact Shoes Plate Avalon",
+    "weight": 2
+  },
+  "T8_SHOES_PLATE_AVALON@1": {
+    "name": "Elder's Boots of Valor .1",
+    "weight": 8.5
+  },
+  "T8_SHOES_PLATE_AVALON@2": {
+    "name": "Elder's Boots of Valor .2",
+    "weight": 8.5
+  },
+  "T8_SHOES_PLATE_AVALON@3": {
+    "name": "Elder's Boots of Valor .3",
+    "weight": 8.5
+  },
+  "T8_SHOES_PLATE_AVALON@4": {
+    "name": "Elder's Boots of Valor .4",
+    "weight": 8.5
+  },
+  "T8_SHOES_PLATE_FEY": {
+    "name": "Elder's Duskweaver Boots",
+    "weight": 8.5
+  },
+  "T8_ARTEFACT_SHOES_PLATE_FEY": {
+    "name": "Elder's Artefact Shoes Plate Fey",
+    "weight": 2
+  },
+  "T8_SHOES_PLATE_FEY@1": {
+    "name": "Elder's Duskweaver Boots .1",
+    "weight": 8.5
+  },
+  "T8_SHOES_PLATE_FEY@2": {
+    "name": "Elder's Duskweaver Boots .2",
+    "weight": 8.5
+  },
+  "T8_SHOES_PLATE_FEY@3": {
+    "name": "Elder's Duskweaver Boots .3",
+    "weight": 8.5
+  },
+  "T8_SHOES_PLATE_FEY@4": {
+    "name": "Elder's Duskweaver Boots .4",
+    "weight": 8.5
+  },
+  "T8_SHOES_PLATE_HELL": {
+    "name": "Elder's Demon Boots",
+    "weight": 8.5
+  },
+  "T8_ARTEFACT_SHOES_PLATE_HELL": {
+    "name": "Elder's Artefact Shoes Plate Hell",
+    "weight": 2
+  },
+  "T8_SHOES_PLATE_HELL@1": {
+    "name": "Elder's Demon Boots .1",
+    "weight": 8.5
+  },
+  "T8_SHOES_PLATE_HELL@2": {
+    "name": "Elder's Demon Boots .2",
+    "weight": 8.5
+  },
+  "T8_SHOES_PLATE_HELL@3": {
+    "name": "Elder's Demon Boots .3",
+    "weight": 8.5
+  },
+  "T8_SHOES_PLATE_HELL@4": {
+    "name": "Elder's Demon Boots .4",
+    "weight": 8.5
+  },
+  "T8_SHOES_PLATE_KEEPER": {
+    "name": "Elder's Judicator Boots",
+    "weight": 8.5
+  },
+  "T8_ARTEFACT_SHOES_PLATE_KEEPER": {
+    "name": "Elder's Artefact Shoes Plate Keeper",
+    "weight": 2
+  },
+  "T8_SHOES_PLATE_KEEPER@1": {
+    "name": "Elder's Judicator Boots .1",
+    "weight": 8.5
+  },
+  "T8_SHOES_PLATE_KEEPER@2": {
+    "name": "Elder's Judicator Boots .2",
+    "weight": 8.5
+  },
+  "T8_SHOES_PLATE_KEEPER@3": {
+    "name": "Elder's Judicator Boots .3",
+    "weight": 8.5
+  },
+  "T8_SHOES_PLATE_KEEPER@4": {
+    "name": "Elder's Judicator Boots .4",
+    "weight": 8.5
+  },
+  "T8_SHOES_PLATE_PROTOTYPE": {
+    "name": "Dragonknight Boots",
+    "weight": 8.5
+  },
+  "T8_SHOES_PLATE_PROTOTYPE@1": {
+    "name": "Dragonknight Boots .1",
+    "weight": 8.5
+  },
+  "T8_SHOES_PLATE_PROTOTYPE@2": {
+    "name": "Dragonknight Boots .2",
+    "weight": 8.5
+  },
+  "T8_SHOES_PLATE_PROTOTYPE@3": {
+    "name": "Dragonknight Boots .3",
+    "weight": 8.5
+  },
+  "T8_SHOES_PLATE_PROTOTYPE@4": {
+    "name": "Dragonknight Boots .4",
+    "weight": 8.5
+  },
+  "T8_SHOES_PLATE_UNDEAD": {
+    "name": "Elder's Graveguard Boots",
+    "weight": 8.5
+  },
+  "T8_ARTEFACT_SHOES_PLATE_UNDEAD": {
+    "name": "Elder's Artefact Shoes Plate Undead",
+    "weight": 2
+  },
+  "T8_SHOES_PLATE_UNDEAD@1": {
+    "name": "Elder's Graveguard Boots .1",
+    "weight": 8.5
+  },
+  "T8_SHOES_PLATE_UNDEAD@2": {
+    "name": "Elder's Graveguard Boots .2",
+    "weight": 8.5
+  },
+  "T8_SHOES_PLATE_UNDEAD@3": {
+    "name": "Elder's Graveguard Boots .3",
+    "weight": 8.5
+  },
+  "T8_SHOES_PLATE_UNDEAD@4": {
+    "name": "Elder's Graveguard Boots .4",
+    "weight": 8.5
+  },
+  "T8_ARMOR_PLATE_SET1": {
+    "name": "Elder's Soldier Armor",
+    "weight": 17.1
+  },
+  "T8_ARMOR_PLATE_SET1@1": {
+    "name": "Elder's Soldier Armor .1",
+    "weight": 17.1
+  },
+  "T8_ARMOR_PLATE_SET1@2": {
+    "name": "Elder's Soldier Armor .2",
+    "weight": 17.1
+  },
+  "T8_ARMOR_PLATE_SET1@3": {
+    "name": "Elder's Soldier Armor .3",
+    "weight": 17.1
+  },
+  "T8_ARMOR_PLATE_SET1@4": {
+    "name": "Elder's Soldier Armor .4",
+    "weight": 17.1
+  },
+  "T8_SHOES_PLATE_SET1": {
+    "name": "Elder's Soldier Boots",
+    "weight": 8.5
+  },
+  "T8_SHOES_PLATE_SET1@1": {
+    "name": "Elder's Soldier Boots .1",
+    "weight": 8.5
+  },
+  "T8_SHOES_PLATE_SET1@2": {
+    "name": "Elder's Soldier Boots .2",
+    "weight": 8.5
+  },
+  "T8_SHOES_PLATE_SET1@3": {
+    "name": "Elder's Soldier Boots .3",
+    "weight": 8.5
+  },
+  "T8_SHOES_PLATE_SET1@4": {
+    "name": "Elder's Soldier Boots .4",
+    "weight": 8.5
+  },
+  "T8_HEAD_PLATE_SET1": {
+    "name": "Elder's Soldier Helmet",
+    "weight": 8.5
+  },
+  "T8_HEAD_PLATE_SET1@1": {
+    "name": "Elder's Soldier Helmet .1",
+    "weight": 8.5
+  },
+  "T8_HEAD_PLATE_SET1@2": {
+    "name": "Elder's Soldier Helmet .2",
+    "weight": 8.5
+  },
+  "T8_HEAD_PLATE_SET1@3": {
+    "name": "Elder's Soldier Helmet .3",
+    "weight": 8.5
+  },
+  "T8_HEAD_PLATE_SET1@4": {
+    "name": "Elder's Soldier Helmet .4",
+    "weight": 8.5
+  },
+  "T1_FISHSAUCE_LEVEL1": {
+    "name": "Basic Fish Sauce",
+    "weight": 1
+  },
+  "T1_FISHCHOPS": {
+    "name": "Beginner's Fishchops",
+    "weight": 0.05
+  },
+  "T1_SEAWEED": {
+    "name": "Beginner's Seaweed",
+    "weight": 1
+  },
+  "T1_MEAL_SOUP": {
+    "name": "Carrot Soup",
+    "weight": 1.16
+  },
+  "T1_CARROT": {
+    "name": "Beginner's Carrot",
+    "weight": 0.6
+  },
+  "T1_MEAL_SOUP@1": {
+    "name": "Carrot Soup .1",
+    "weight": 1.16
+  },
+  "T1_FISHSAUCE@1": {
+    "name": "Beginner's Fishsauce .1",
+    "weight": 1
+  },
+  "T1_MEAL_SOUP@2": {
+    "name": "Carrot Soup .2",
+    "weight": 1.16
+  },
+  "T1_FISHSAUCE@2": {
+    "name": "Beginner's Fishsauce .2",
+    "weight": 1.5
+  },
+  "T1_MEAL_SOUP@3": {
+    "name": "Carrot Soup .3",
+    "weight": 1.16
+  },
+  "T1_FISHSAUCE@3": {
+    "name": "Beginner's Fishsauce .3",
+    "weight": 2
+  },
+  "T1_FISHSAUCE_LEVEL2": {
+    "name": "Fancy Fish Sauce",
+    "weight": 1.5
+  },
+  "T1_MEAL_SOUP_FISH": {
+    "name": "Greenmoor Clam Soup",
+    "weight": 1.59
+  },
+  "T3_FISH_FRESHWATER_SWAMP_RARE": {
+    "name": "Journeyman's Fish Freshwater Swamp Rare",
+    "weight": 0.52
+  },
+  "T1_MEAL_SOUP_FISH@1": {
+    "name": "Greenmoor Clam Soup .1",
+    "weight": 1.59
+  },
+  "T1_MEAL_SOUP_FISH@2": {
+    "name": "Greenmoor Clam Soup .2",
+    "weight": 1.59
+  },
+  "T1_MEAL_SOUP_FISH@3": {
+    "name": "Greenmoor Clam Soup .3",
+    "weight": 1.59
+  },
+  "T1_MEAL_GRILLEDFISH": {
+    "name": "Grilled Fish",
+    "weight": 0.3
+  },
+  "T1_MEAL_SEAWEEDSALAD": {
+    "name": "Seaweed Salad",
+    "weight": 0.08
+  },
+  "T1_FISHSAUCE_LEVEL3": {
+    "name": "Special Fish Sauce",
+    "weight": 2
+  },
+  "T2_MEAL_SALAD": {
+    "name": "Bean Salad",
+    "weight": 1.16
+  },
+  "T2_BEAN": {
+    "name": "Novice's Bean",
+    "weight": 0.6
+  },
+  "T2_MEAL_SALAD@1": {
+    "name": "Bean Salad .1",
+    "weight": 1.16
+  },
+  "T2_MEAL_SALAD@2": {
+    "name": "Bean Salad .2",
+    "weight": 1.16
+  },
+  "T2_MEAL_SALAD@3": {
+    "name": "Bean Salad .3",
+    "weight": 1.16
+  },
+  "T2_MEAL_SALAD_FISH": {
+    "name": "Shallowshore Squid Salad",
+    "weight": 1.59
+  },
+  "T3_FISH_SALTWATER_ALL_RARE": {
+    "name": "Journeyman's Fish Saltwater All Rare",
+    "weight": 0.52
+  },
+  "T2_AGARIC": {
+    "name": "Novice's Agaric",
+    "weight": 0.6
+  },
+  "T2_MEAL_SALAD_FISH@1": {
+    "name": "Shallowshore Squid Salad .1",
+    "weight": 1.59
+  },
+  "T2_MEAL_SALAD_FISH@2": {
+    "name": "Shallowshore Squid Salad .2",
+    "weight": 1.59
+  },
+  "T2_MEAL_SALAD_FISH@3": {
+    "name": "Shallowshore Squid Salad .3",
+    "weight": 1.59
+  },
+  "T3_MEAL_OMELETTE_AVALON": {
+    "name": "Avalonian Chicken Omelette",
+    "weight": 1.26
+  },
+  "T3_MEAL_OMELETTE_AVALON@1": {
+    "name": "Avalonian Chicken Omelette .1",
+    "weight": 1.26
+  },
+  "T3_MEAL_OMELETTE_AVALON@2": {
+    "name": "Avalonian Chicken Omelette .2",
+    "weight": 1.26
+  },
+  "T3_MEAL_OMELETTE_AVALON@3": {
+    "name": "Avalonian Chicken Omelette .3",
+    "weight": 1.26
+  },
+  "T3_MEAL_SOUP_FISH": {
+    "name": "Blackbog Clam Soup",
+    "weight": 4.31
+  },
+  "T5_FISH_FRESHWATER_SWAMP_RARE": {
+    "name": "Expert's Fish Freshwater Swamp Rare",
+    "weight": 0.78
+  },
+  "T3_WHEAT": {
+    "name": "Journeyman's Wheat",
+    "weight": 0.6
+  },
+  "T3_COMFREY": {
+    "name": "Journeyman's Comfrey",
+    "weight": 0.6
+  },
+  "T3_MEAT": {
+    "name": "Raw Chicken",
+    "weight": 0.65
+  },
+  "T3_MEAL_SOUP_FISH@1": {
+    "name": "Blackbog Clam Soup .1",
+    "weight": 4.31
+  },
+  "T3_MEAL_SOUP_FISH@2": {
+    "name": "Blackbog Clam Soup .2",
+    "weight": 4.31
+  },
+  "T3_MEAL_SOUP_FISH@3": {
+    "name": "Blackbog Clam Soup .3",
+    "weight": 4.31
+  },
+  "T3_MEAL_OMELETTE": {
+    "name": "Chicken Omelette",
+    "weight": 1.16
+  },
+  "T3_EGG": {
+    "name": "Journeyman's Egg",
+    "weight": 0.6
+  },
+  "T3_MEAL_OMELETTE@1": {
+    "name": "Chicken Omelette .1",
+    "weight": 1.16
+  },
+  "T3_MEAL_OMELETTE@2": {
+    "name": "Chicken Omelette .2",
+    "weight": 1.16
+  },
+  "T3_MEAL_OMELETTE@3": {
+    "name": "Chicken Omelette .3",
+    "weight": 1.16
+  },
+  "T3_MEAL_PIE": {
+    "name": "Chicken Pie",
+    "weight": 1.17
+  },
+  "T3_FLOUR": {
+    "name": "Flour",
+    "weight": 0.65
+  },
+  "T3_MEAL_PIE@1": {
+    "name": "Chicken Pie .1",
+    "weight": 1.17
+  },
+  "T3_MEAL_PIE@2": {
+    "name": "Chicken Pie .2",
+    "weight": 1.17
+  },
+  "T3_MEAL_PIE@3": {
+    "name": "Chicken Pie .3",
+    "weight": 1.17
+  },
+  "T3_MEAL_OMELETTE_DRAGONAREA": {
+    "name": "Dragon Omelette",
+    "weight": 1.26
+  },
+  "T3_FISH_FRESHWATER_DRAGON_AREA_RARE": {
+    "name": "Journeyman's Fish Freshwater Dragon Area Rare",
+    "weight": 0.52
+  },
+  "T4_MILK": {
+    "name": "Adept's Milk",
+    "weight": 0.6
+  },
+  "T3_MEAL_OMELETTE_DRAGONAREA@1": {
+    "name": "Dragon Omelette .1",
+    "weight": 1.26
+  },
+  "T3_MEAL_OMELETTE_DRAGONAREA@2": {
+    "name": "Dragon Omelette .2",
+    "weight": 1.26
+  },
+  "T3_MEAL_OMELETTE_DRAGONAREA@3": {
+    "name": "Dragon Omelette .3",
+    "weight": 1.26
+  },
+  "T3_MEAL_OMELETTE_FISH": {
+    "name": "Lowriver Crab Omelette",
+    "weight": 1.74
+  },
+  "T3_FISH_FRESHWATER_STEPPE_RARE": {
+    "name": "Journeyman's Fish Freshwater Steppe Rare",
+    "weight": 0.52
+  },
+  "T3_MEAL_OMELETTE_FISH@1": {
+    "name": "Lowriver Crab Omelette .1",
+    "weight": 1.74
+  },
+  "T3_MEAL_OMELETTE_FISH@2": {
+    "name": "Lowriver Crab Omelette .2",
+    "weight": 1.74
+  },
+  "T3_MEAL_OMELETTE_FISH@3": {
+    "name": "Lowriver Crab Omelette .3",
+    "weight": 1.74
+  },
+  "T3_FARM_CHICKEN_GROWN": {
+    "name": "Journeyman's Farm Chicken Grown",
+    "weight": 10.83
+  },
+  "T3_MEAL_ROAST": {
+    "name": "Roast Chicken",
+    "weight": 1.31
+  },
+  "T3_MEAL_ROAST@1": {
+    "name": "Roast Chicken .1",
+    "weight": 1.31
+  },
+  "T3_MEAL_ROAST@2": {
+    "name": "Roast Chicken .2",
+    "weight": 1.31
+  },
+  "T3_MEAL_ROAST@3": {
+    "name": "Roast Chicken .3",
+    "weight": 1.31
+  },
+  "T3_MEAL_ROAST_FISH": {
+    "name": "Roasted Whitefog Snapper",
+    "weight": 1.74
+  },
+  "T3_FISH_FRESHWATER_AVALON_RARE": {
+    "name": "Journeyman's Fish Freshwater Avalon Rare",
+    "weight": 0.52
+  },
+  "T3_MEAL_ROAST_FISH@1": {
+    "name": "Roasted Whitefog Snapper .1",
+    "weight": 1.74
+  },
+  "T3_MEAL_ROAST_FISH@2": {
+    "name": "Roasted Whitefog Snapper .2",
+    "weight": 1.74
+  },
+  "T3_MEAL_ROAST_FISH@3": {
+    "name": "Roasted Whitefog Snapper .3",
+    "weight": 1.74
+  },
+  "T3_MEAL_PIE_FISH": {
+    "name": "Upland Coldeye Pie",
+    "weight": 1.8
+  },
+  "T3_FISH_FRESHWATER_MOUNTAIN_RARE": {
+    "name": "Journeyman's Fish Freshwater Mountain Rare",
+    "weight": 0.52
+  },
+  "T3_MEAL_PIE_FISH@1": {
+    "name": "Upland Coldeye Pie .1",
+    "weight": 1.8
+  },
+  "T3_MEAL_PIE_FISH@2": {
+    "name": "Upland Coldeye Pie .2",
+    "weight": 1.8
+  },
+  "T3_MEAL_PIE_FISH@3": {
+    "name": "Upland Coldeye Pie .3",
+    "weight": 1.8
+  },
+  "T3_MEAL_SOUP": {
+    "name": "Wheat Soup",
+    "weight": 3.15
+  },
+  "T3_MEAL_SOUP@1": {
+    "name": "Wheat Soup .1",
+    "weight": 3.15
+  },
+  "T3_MEAL_SOUP@2": {
+    "name": "Wheat Soup .2",
+    "weight": 3.15
+  },
+  "T3_MEAL_SOUP@3": {
+    "name": "Wheat Soup .3",
+    "weight": 3.15
+  },
+  "T4_MEAL_SANDWICH_AVALON": {
+    "name": "Avalonian Goat Sandwich",
+    "weight": 1.32
+  },
+  "T4_MEAL_SANDWICH_AVALON@1": {
+    "name": "Avalonian Goat Sandwich .1",
+    "weight": 1.32
+  },
+  "T4_MEAL_SANDWICH_AVALON@2": {
+    "name": "Avalonian Goat Sandwich .2",
+    "weight": 1.32
+  },
+  "T4_MEAL_SANDWICH_AVALON@3": {
+    "name": "Avalonian Goat Sandwich .3",
+    "weight": 1.32
+  },
+  "T4_MEAL_STEW_AVALON": {
+    "name": "Avalonian Goat Stew",
+    "weight": 1.41
+  },
+  "T4_MEAL_STEW_AVALON@1": {
+    "name": "Avalonian Goat Stew .1",
+    "weight": 1.41
+  },
+  "T4_MEAL_STEW_AVALON@2": {
+    "name": "Avalonian Goat Stew .2",
+    "weight": 1.41
+  },
+  "T4_MEAL_STEW_AVALON@3": {
+    "name": "Avalonian Goat Stew .3",
+    "weight": 1.41
+  },
+  "T4_BREAD": {
+    "name": "Bread",
+    "weight": 0.71
+  },
+  "T4_MEAL_SANDWICH": {
+    "name": "Goat Sandwich",
+    "weight": 1.22
+  },
+  "T4_MEAT": {
+    "name": "Raw Goat",
+    "weight": 0.65
+  },
+  "T4_BUTTER": {
+    "name": "Goat's Butter",
+    "weight": 0.65
+  },
+  "T4_MEAL_SANDWICH@1": {
+    "name": "Goat Sandwich .1",
+    "weight": 1.22
+  },
+  "T4_MEAL_SANDWICH@2": {
+    "name": "Goat Sandwich .2",
+    "weight": 1.22
+  },
+  "T4_MEAL_SANDWICH@3": {
+    "name": "Goat Sandwich .3",
+    "weight": 1.22
+  },
+  "T4_MEAL_STEW": {
+    "name": "Goat Stew",
+    "weight": 1.37
+  },
+  "T4_TURNIP": {
+    "name": "Adept's Turnip",
+    "weight": 0.6
+  },
+  "T4_MEAL_STEW@1": {
+    "name": "Goat Stew .1",
+    "weight": 1.37
+  },
+  "T4_MEAL_STEW@2": {
+    "name": "Goat Stew .2",
+    "weight": 1.37
+  },
+  "T4_MEAL_STEW@3": {
+    "name": "Goat Stew .3",
+    "weight": 1.37
+  },
+  "T4_MEAL_STEW_FISH": {
+    "name": "Greenriver Eel Stew",
+    "weight": 1.74
+  },
+  "T3_FISH_FRESHWATER_FOREST_RARE": {
+    "name": "Journeyman's Fish Freshwater Forest Rare",
+    "weight": 0.52
+  },
+  "T4_BURDOCK": {
+    "name": "Adept's Burdock",
+    "weight": 0.6
+  },
+  "T4_MEAL_STEW_FISH@1": {
+    "name": "Greenriver Eel Stew .1",
+    "weight": 1.74
+  },
+  "T4_MEAL_STEW_FISH@2": {
+    "name": "Greenriver Eel Stew .2",
+    "weight": 1.74
+  },
+  "T4_MEAL_STEW_FISH@3": {
+    "name": "Greenriver Eel Stew .3",
+    "weight": 1.74
+  },
+  "T4_MEAL_SALAD_FISH": {
+    "name": "Midwater Octopus Salad",
+    "weight": 4.31
+  },
+  "T5_FISH_SALTWATER_ALL_RARE": {
+    "name": "Expert's Fish Saltwater All Rare",
+    "weight": 0.78
+  },
+  "T4_MEAL_SALAD_FISH@1": {
+    "name": "Midwater Octopus Salad .1",
+    "weight": 4.31
+  },
+  "T4_MEAL_SALAD_FISH@2": {
+    "name": "Midwater Octopus Salad .2",
+    "weight": 4.31
+  },
+  "T4_MEAL_SALAD_FISH@3": {
+    "name": "Midwater Octopus Salad .3",
+    "weight": 4.31
+  },
+  "T4_FARM_GOAT_GROWN": {
+    "name": "Adept's Farm Goat Grown",
+    "weight": 10.83
+  },
+  "T4_MEAL_SANDWICH_FISH": {
+    "name": "Stonestream Lurcher Sandwich",
+    "weight": 1.8
+  },
+  "T3_FISH_FRESHWATER_HIGHLANDS_RARE": {
+    "name": "Journeyman's Fish Freshwater Highlands Rare",
+    "weight": 0.52
+  },
+  "T4_MEAL_SANDWICH_FISH@1": {
+    "name": "Stonestream Lurcher Sandwich .1",
+    "weight": 1.8
+  },
+  "T4_MEAL_SANDWICH_FISH@2": {
+    "name": "Stonestream Lurcher Sandwich .2",
+    "weight": 1.8
+  },
+  "T4_MEAL_SANDWICH_FISH@3": {
+    "name": "Stonestream Lurcher Sandwich .3",
+    "weight": 1.8
+  },
+  "T4_MEAL_SALAD": {
+    "name": "Turnip Salad",
+    "weight": 3.15
+  },
+  "T4_MEAL_SALAD@1": {
+    "name": "Turnip Salad .1",
+    "weight": 3.15
+  },
+  "T4_MEAL_SALAD@2": {
+    "name": "Turnip Salad .2",
+    "weight": 3.15
+  },
+  "T4_MEAL_SALAD@3": {
+    "name": "Turnip Salad .3",
+    "weight": 3.15
+  },
+  "T5_MEAL_OMELETTE_AVALON": {
+    "name": "Avalonian Goose Omelette",
+    "weight": 3.15
+  },
+  "T5_MEAL_OMELETTE_AVALON@1": {
+    "name": "Avalonian Goose Omelette .1",
+    "weight": 3.15
+  },
+  "T5_MEAL_OMELETTE_AVALON@2": {
+    "name": "Avalonian Goose Omelette .2",
+    "weight": 3.15
+  },
+  "T5_MEAL_OMELETTE_AVALON@3": {
+    "name": "Avalonian Goose Omelette .3",
+    "weight": 3.15
+  },
+  "T5_MEAL_SOUP_FISH": {
+    "name": "Blackbog Clam Soup",
+    "weight": 10.02
+  },
+  "T7_FISH_FRESHWATER_SWAMP_RARE": {
+    "name": "Grandmaster's Fish Freshwater Swamp Rare",
+    "weight": 1.04
+  },
+  "T5_CABBAGE": {
+    "name": "Expert's Cabbage",
+    "weight": 0.6
+  },
+  "T5_TEASEL": {
+    "name": "Expert's Teasel",
+    "weight": 0.6
+  },
+  "T5_MEAT": {
+    "name": "Raw Goose",
+    "weight": 0.65
+  },
+  "T5_MEAL_SOUP_FISH@1": {
+    "name": "Blackbog Clam Soup .1",
+    "weight": 10.02
+  },
+  "T5_MEAL_SOUP_FISH@2": {
+    "name": "Blackbog Clam Soup .2",
+    "weight": 10.02
+  },
+  "T5_MEAL_SOUP_FISH@3": {
+    "name": "Blackbog Clam Soup .3",
+    "weight": 10.02
+  },
+  "T5_MEAL_SOUP": {
+    "name": "Cabbage Soup",
+    "weight": 7.56
+  },
+  "T5_MEAL_SOUP@1": {
+    "name": "Cabbage Soup .1",
+    "weight": 7.56
+  },
+  "T5_MEAL_SOUP@2": {
+    "name": "Cabbage Soup .2",
+    "weight": 7.56
+  },
+  "T5_MEAL_SOUP@3": {
+    "name": "Cabbage Soup .3",
+    "weight": 7.56
+  },
+  "T5_MEAL_OMELETTE_DRAGONAREA": {
+    "name": "Dragon Omelette",
+    "weight": 3.15
+  },
+  "T5_FISH_FRESHWATER_DRAGON_AREA_RARE": {
+    "name": "Expert's Fish Freshwater Dragon Area Rare",
+    "weight": 0.78
+  },
+  "T6_MILK": {
+    "name": "Master's Milk",
+    "weight": 0.6
+  },
+  "T5_EGG": {
+    "name": "Expert's Egg",
+    "weight": 0.6
+  },
+  "T5_MEAL_OMELETTE_DRAGONAREA@1": {
+    "name": "Dragon Omelette .1",
+    "weight": 3.15
+  },
+  "T5_MEAL_OMELETTE_DRAGONAREA@2": {
+    "name": "Dragon Omelette .2",
+    "weight": 3.15
+  },
+  "T5_MEAL_OMELETTE_DRAGONAREA@3": {
+    "name": "Dragon Omelette .3",
+    "weight": 3.15
+  },
+  "T5_MEAL_OMELETTE_FISH": {
+    "name": "Drybrook Crab Omelette",
+    "weight": 4.21
+  },
+  "T5_FISH_FRESHWATER_STEPPE_RARE": {
+    "name": "Expert's Fish Freshwater Steppe Rare",
+    "weight": 0.78
+  },
+  "T5_MEAL_OMELETTE_FISH@1": {
+    "name": "Drybrook Crab Omelette .1",
+    "weight": 4.21
+  },
+  "T5_MEAL_OMELETTE_FISH@2": {
+    "name": "Drybrook Crab Omelette .2",
+    "weight": 4.21
+  },
+  "T5_MEAL_OMELETTE_FISH@3": {
+    "name": "Drybrook Crab Omelette .3",
+    "weight": 4.21
+  },
+  "T5_MEAL_OMELETTE": {
+    "name": "Goose Omelette",
+    "weight": 2.88
+  },
+  "T5_MEAL_OMELETTE@1": {
+    "name": "Goose Omelette .1",
+    "weight": 2.88
+  },
+  "T5_MEAL_OMELETTE@2": {
+    "name": "Goose Omelette .2",
+    "weight": 2.88
+  },
+  "T5_MEAL_OMELETTE@3": {
+    "name": "Goose Omelette .3",
+    "weight": 2.88
+  },
+  "T5_MEAL_PIE": {
+    "name": "Goose Pie",
+    "weight": 3.33
+  },
+  "T5_MEAL_PIE@1": {
+    "name": "Goose Pie .1",
+    "weight": 3.33
+  },
+  "T5_MEAL_PIE@2": {
+    "name": "Goose Pie .2",
+    "weight": 3.33
+  },
+  "T5_MEAL_PIE@3": {
+    "name": "Goose Pie .3",
+    "weight": 3.33
+  },
+  "T5_MEAL_PIE_FISH": {
+    "name": "Mountain Blindeye Pie",
+    "weight": 4.21
+  },
+  "T5_FISH_FRESHWATER_MOUNTAIN_RARE": {
+    "name": "Expert's Fish Freshwater Mountain Rare",
+    "weight": 0.78
+  },
+  "T5_MEAL_PIE_FISH@1": {
+    "name": "Mountain Blindeye Pie .1",
+    "weight": 4.21
+  },
+  "T5_MEAL_PIE_FISH@2": {
+    "name": "Mountain Blindeye Pie .2",
+    "weight": 4.21
+  },
+  "T5_MEAL_PIE_FISH@3": {
+    "name": "Mountain Blindeye Pie .3",
+    "weight": 4.21
+  },
+  "T5_FARM_GOOSE_GROWN": {
+    "name": "Expert's Farm Goose Grown",
+    "weight": 10.83
+  },
+  "T5_MEAL_ROAST": {
+    "name": "Roast Goose",
+    "weight": 3.28
+  },
+  "T5_MEAL_ROAST@1": {
+    "name": "Roast Goose .1",
+    "weight": 3.28
+  },
+  "T5_MEAL_ROAST@2": {
+    "name": "Roast Goose .2",
+    "weight": 3.28
+  },
+  "T5_MEAL_ROAST@3": {
+    "name": "Roast Goose .3",
+    "weight": 3.28
+  },
+  "T5_MEAL_ROAST_FISH": {
+    "name": "Roasted Clearhaze Snapper",
+    "weight": 4.21
+  },
+  "T5_FISH_FRESHWATER_AVALON_RARE": {
+    "name": "Expert's Fish Freshwater Avalon Rare",
+    "weight": 0.78
+  },
+  "T5_MEAL_ROAST_FISH@1": {
+    "name": "Roasted Clearhaze Snapper .1",
+    "weight": 4.21
+  },
+  "T5_MEAL_ROAST_FISH@2": {
+    "name": "Roasted Clearhaze Snapper .2",
+    "weight": 4.21
+  },
+  "T5_MEAL_ROAST_FISH@3": {
+    "name": "Roasted Clearhaze Snapper .3",
+    "weight": 4.21
+  },
+  "T6_MEAL_SANDWICH_AVALON": {
+    "name": "Avalonian Mutton Sandwich",
+    "weight": 3.31
+  },
+  "T6_MEAL_SANDWICH_AVALON@1": {
+    "name": "Avalonian Mutton Sandwich .1",
+    "weight": 3.31
+  },
+  "T6_MEAL_SANDWICH_AVALON@2": {
+    "name": "Avalonian Mutton Sandwich .2",
+    "weight": 3.31
+  },
+  "T6_MEAL_SANDWICH_AVALON@3": {
+    "name": "Avalonian Mutton Sandwich .3",
+    "weight": 3.31
+  },
+  "T6_MEAL_STEW_AVALON": {
+    "name": "Avalonian Mutton Stew",
+    "weight": 3.54
+  },
+  "T6_MEAL_STEW_AVALON@1": {
+    "name": "Avalonian Mutton Stew .1",
+    "weight": 3.54
+  },
+  "T6_MEAL_STEW_AVALON@2": {
+    "name": "Avalonian Mutton Stew .2",
+    "weight": 3.54
+  },
+  "T6_MEAL_STEW_AVALON@3": {
+    "name": "Avalonian Mutton Stew .3",
+    "weight": 3.54
+  },
+  "T6_MEAL_SALAD_FISH": {
+    "name": "Deepwater Kraken Salad",
+    "weight": 10.02
+  },
+  "T7_FISH_SALTWATER_ALL_RARE": {
+    "name": "Grandmaster's Fish Saltwater All Rare",
+    "weight": 1.04
+  },
+  "T6_POTATO": {
+    "name": "Master's Potato",
+    "weight": 0.6
+  },
+  "T6_FOXGLOVE": {
+    "name": "Master's Foxglove",
+    "weight": 0.6
+  },
+  "T6_MEAT": {
+    "name": "Raw Mutton",
+    "weight": 0.65
+  },
+  "T6_MEAL_SALAD_FISH@1": {
+    "name": "Deepwater Kraken Salad .1",
+    "weight": 10.02
+  },
+  "T6_MEAL_SALAD_FISH@2": {
+    "name": "Deepwater Kraken Salad .2",
+    "weight": 10.02
+  },
+  "T6_MEAL_SALAD_FISH@3": {
+    "name": "Deepwater Kraken Salad .3",
+    "weight": 10.02
+  },
+  "T6_MEAL_SANDWICH": {
+    "name": "Mutton Sandwich",
+    "weight": 3.04
+  },
+  "T6_BUTTER": {
+    "name": "Sheep's Butter",
+    "weight": 0.65
+  },
+  "T6_MEAL_SANDWICH@1": {
+    "name": "Mutton Sandwich .1",
+    "weight": 3.04
+  },
+  "T6_MEAL_SANDWICH@2": {
+    "name": "Mutton Sandwich .2",
+    "weight": 3.04
+  },
+  "T6_MEAL_SANDWICH@3": {
+    "name": "Mutton Sandwich .3",
+    "weight": 3.04
+  },
+  "T6_MEAL_STEW": {
+    "name": "Mutton Stew",
+    "weight": 3.4
+  },
+  "T6_MEAL_STEW@1": {
+    "name": "Mutton Stew .1",
+    "weight": 3.4
+  },
+  "T6_MEAL_STEW@2": {
+    "name": "Mutton Stew .2",
+    "weight": 3.4
+  },
+  "T6_MEAL_STEW@3": {
+    "name": "Mutton Stew .3",
+    "weight": 3.4
+  },
+  "T6_MEAL_SALAD": {
+    "name": "Potato Salad",
+    "weight": 7.56
+  },
+  "T6_MEAL_SALAD@1": {
+    "name": "Potato Salad .1",
+    "weight": 7.56
+  },
+  "T6_MEAL_SALAD@2": {
+    "name": "Potato Salad .2",
+    "weight": 7.56
+  },
+  "T6_MEAL_SALAD@3": {
+    "name": "Potato Salad .3",
+    "weight": 7.56
+  },
+  "T6_ALCOHOL": {
+    "name": "Potato Schnapps",
+    "weight": 0.65
+  },
+  "T6_FARM_SHEEP_GROWN": {
+    "name": "Master's Farm Sheep Grown",
+    "weight": 10.83
+  },
+  "T6_MEAL_STEW_FISH": {
+    "name": "Redspring Eel Stew",
+    "weight": 4.21
+  },
+  "T5_FISH_FRESHWATER_FOREST_RARE": {
+    "name": "Expert's Fish Freshwater Forest Rare",
+    "weight": 0.78
+  },
+  "T6_MEAL_STEW_FISH@1": {
+    "name": "Redspring Eel Stew .1",
+    "weight": 4.21
+  },
+  "T6_MEAL_STEW_FISH@2": {
+    "name": "Redspring Eel Stew .2",
+    "weight": 4.21
+  },
+  "T6_MEAL_STEW_FISH@3": {
+    "name": "Redspring Eel Stew .3",
+    "weight": 4.21
+  },
+  "T6_MEAL_SANDWICH_FISH": {
+    "name": "Rushwater Lurcher Sandwich",
+    "weight": 4.31
+  },
+  "T5_FISH_FRESHWATER_HIGHLANDS_RARE": {
+    "name": "Expert's Fish Freshwater Highlands Rare",
+    "weight": 0.78
+  },
+  "T6_MEAL_SANDWICH_FISH@1": {
+    "name": "Rushwater Lurcher Sandwich .1",
+    "weight": 4.31
+  },
+  "T6_MEAL_SANDWICH_FISH@2": {
+    "name": "Rushwater Lurcher Sandwich .2",
+    "weight": 4.31
+  },
+  "T6_MEAL_SANDWICH_FISH@3": {
+    "name": "Rushwater Lurcher Sandwich .3",
+    "weight": 4.31
+  },
+  "T7_MEAL_OMELETTE_AVALON": {
+    "name": "Avalonian Pork Omelette",
+    "weight": 7.55
+  },
+  "T7_MEAL_OMELETTE_AVALON@1": {
+    "name": "Avalonian Pork Omelette .1",
+    "weight": 7.55
+  },
+  "T7_MEAL_OMELETTE_AVALON@2": {
+    "name": "Avalonian Pork Omelette .2",
+    "weight": 7.55
+  },
+  "T7_MEAL_OMELETTE_AVALON@3": {
+    "name": "Avalonian Pork Omelette .3",
+    "weight": 7.55
+  },
+  "T7_ALCOHOL": {
+    "name": "Corn Hooch",
+    "weight": 0.65
+  },
+  "T7_CORN": {
+    "name": "Grandmaster's Corn",
+    "weight": 0.6
+  },
+  "T7_MEAL_OMELETTE_DRAGONAREA": {
+    "name": "Dragon Omelette",
+    "weight": 7.55
+  },
+  "T7_FISH_FRESHWATER_DRAGON_AREA_RARE": {
+    "name": "Grandmaster's Fish Freshwater Dragon Area Rare",
+    "weight": 1.04
+  },
+  "T7_MULLEIN": {
+    "name": "Grandmaster's Mullein",
+    "weight": 0.6
+  },
+  "T7_MEAL_OMELETTE_DRAGONAREA@1": {
+    "name": "Dragon Omelette .1",
+    "weight": 7.55
+  },
+  "T7_MEAL_OMELETTE_DRAGONAREA@2": {
+    "name": "Dragon Omelette .2",
+    "weight": 7.55
+  },
+  "T7_MEAL_OMELETTE_DRAGONAREA@3": {
+    "name": "Dragon Omelette .3",
+    "weight": 7.55
+  },
+  "T7_MEAL_OMELETTE_FISH": {
+    "name": "Dusthole Crab Omelette",
+    "weight": 10.02
+  },
+  "T7_FISH_FRESHWATER_STEPPE_RARE": {
+    "name": "Grandmaster's Fish Freshwater Steppe Rare",
+    "weight": 1.04
+  },
+  "T7_MEAT": {
+    "name": "Raw Pork",
+    "weight": 0.65
+  },
+  "T7_MEAL_OMELETTE_FISH@1": {
+    "name": "Dusthole Crab Omelette .1",
+    "weight": 10.02
+  },
+  "T7_MEAL_OMELETTE_FISH@2": {
+    "name": "Dusthole Crab Omelette .2",
+    "weight": 10.02
+  },
+  "T7_MEAL_OMELETTE_FISH@3": {
+    "name": "Dusthole Crab Omelette .3",
+    "weight": 10.02
+  },
+  "T7_MEAL_PIE_FISH": {
+    "name": "Frostpeak Deadeye Pie",
+    "weight": 10.02
+  },
+  "T7_FISH_FRESHWATER_MOUNTAIN_RARE": {
+    "name": "Grandmaster's Fish Freshwater Mountain Rare",
+    "weight": 1.04
+  },
+  "T7_MEAL_PIE_FISH@1": {
+    "name": "Frostpeak Deadeye Pie .1",
+    "weight": 10.02
+  },
+  "T7_MEAL_PIE_FISH@2": {
+    "name": "Frostpeak Deadeye Pie .2",
+    "weight": 10.02
+  },
+  "T7_MEAL_PIE_FISH@3": {
+    "name": "Frostpeak Deadeye Pie .3",
+    "weight": 10.02
+  },
+  "T7_MEAL_OMELETTE": {
+    "name": "Pork Omelette",
+    "weight": 6.9
+  },
+  "T7_MEAL_OMELETTE@1": {
+    "name": "Pork Omelette .1",
+    "weight": 6.9
+  },
+  "T7_MEAL_OMELETTE@2": {
+    "name": "Pork Omelette .2",
+    "weight": 6.9
+  },
+  "T7_MEAL_OMELETTE@3": {
+    "name": "Pork Omelette .3",
+    "weight": 6.9
+  },
+  "T7_MEAL_PIE": {
+    "name": "Pork Pie",
+    "weight": 7.99
+  },
+  "T7_MEAL_PIE@1": {
+    "name": "Pork Pie .1",
+    "weight": 7.99
+  },
+  "T7_MEAL_PIE@2": {
+    "name": "Pork Pie .2",
+    "weight": 7.99
+  },
+  "T7_MEAL_PIE@3": {
+    "name": "Pork Pie .3",
+    "weight": 7.99
+  },
+  "T7_FARM_PIG_GROWN": {
+    "name": "Grandmaster's Farm Pig Grown",
+    "weight": 10.83
+  },
+  "T7_MEAL_ROAST": {
+    "name": "Roast Pork",
+    "weight": 7.85
+  },
+  "T8_MILK": {
+    "name": "Elder's Milk",
+    "weight": 0.6
+  },
+  "T7_MEAL_ROAST@1": {
+    "name": "Roast Pork .1",
+    "weight": 7.85
+  },
+  "T7_MEAL_ROAST@2": {
+    "name": "Roast Pork .2",
+    "weight": 7.85
+  },
+  "T7_MEAL_ROAST@3": {
+    "name": "Roast Pork .3",
+    "weight": 7.85
+  },
+  "T7_MEAL_ROAST_FISH": {
+    "name": "Roasted Puremist Snapper",
+    "weight": 9.78
+  },
+  "T7_FISH_FRESHWATER_AVALON_RARE": {
+    "name": "Grandmaster's Fish Freshwater Avalon Rare",
+    "weight": 1.04
+  },
+  "T7_MEAL_ROAST_FISH@1": {
+    "name": "Roasted Puremist Snapper .1",
+    "weight": 9.78
+  },
+  "T7_MEAL_ROAST_FISH@2": {
+    "name": "Roasted Puremist Snapper .2",
+    "weight": 9.78
+  },
+  "T7_MEAL_ROAST_FISH@3": {
+    "name": "Roasted Puremist Snapper .3",
+    "weight": 9.78
+  },
+  "T8_MEAL_SANDWICH_AVALON": {
+    "name": "Avalonian Beef Sandwich",
+    "weight": 7.95
+  },
+  "T8_MEAL_SANDWICH_AVALON@1": {
+    "name": "Avalonian Beef Sandwich .1",
+    "weight": 7.95
+  },
+  "T8_MEAL_SANDWICH_AVALON@2": {
+    "name": "Avalonian Beef Sandwich .2",
+    "weight": 7.95
+  },
+  "T8_MEAL_SANDWICH_AVALON@3": {
+    "name": "Avalonian Beef Sandwich .3",
+    "weight": 7.95
+  },
+  "T8_MEAL_STEW_AVALON": {
+    "name": "Avalonian Beef Stew",
+    "weight": 8.5
+  },
+  "T8_MEAL_STEW_AVALON@1": {
+    "name": "Avalonian Beef Stew .1",
+    "weight": 8.5
+  },
+  "T8_MEAL_STEW_AVALON@2": {
+    "name": "Avalonian Beef Stew .2",
+    "weight": 8.5
+  },
+  "T8_MEAL_STEW_AVALON@3": {
+    "name": "Avalonian Beef Stew .3",
+    "weight": 8.5
+  },
+  "T8_MEAL_SANDWICH": {
+    "name": "Beef Sandwich",
+    "weight": 7.3
+  },
+  "T8_MEAT": {
+    "name": "Raw Beef",
+    "weight": 0.65
+  },
+  "T8_BUTTER": {
+    "name": "Cow's Butter",
+    "weight": 0.65
+  },
+  "T8_MEAL_SANDWICH@1": {
+    "name": "Beef Sandwich .1",
+    "weight": 7.3
+  },
+  "T8_MEAL_SANDWICH@2": {
+    "name": "Beef Sandwich .2",
+    "weight": 7.3
+  },
+  "T8_MEAL_SANDWICH@3": {
+    "name": "Beef Sandwich .3",
+    "weight": 7.3
+  },
+  "T8_MEAL_STEW": {
+    "name": "Beef Stew",
+    "weight": 8.17
+  },
+  "T8_PUMPKIN": {
+    "name": "Elder's Pumpkin",
+    "weight": 0.6
+  },
+  "T8_MEAL_STEW@1": {
+    "name": "Beef Stew .1",
+    "weight": 8.17
+  },
+  "T8_MEAL_STEW@2": {
+    "name": "Beef Stew .2",
+    "weight": 8.17
+  },
+  "T8_MEAL_STEW@3": {
+    "name": "Beef Stew .3",
+    "weight": 8.17
+  },
+  "T8_MEAL_STEW_FISH": {
+    "name": "Deadwater Eel Stew",
+    "weight": 9.78
+  },
+  "T7_FISH_FRESHWATER_FOREST_RARE": {
+    "name": "Grandmaster's Fish Freshwater Forest Rare",
+    "weight": 1.04
+  },
+  "T8_YARROW": {
+    "name": "Elder's Yarrow",
+    "weight": 0.6
+  },
+  "T8_MEAL_STEW_FISH@1": {
+    "name": "Deadwater Eel Stew .1",
+    "weight": 9.78
+  },
+  "T8_MEAL_STEW_FISH@2": {
+    "name": "Deadwater Eel Stew .2",
+    "weight": 9.78
+  },
+  "T8_MEAL_STEW_FISH@3": {
+    "name": "Deadwater Eel Stew .3",
+    "weight": 9.78
+  },
+  "T8_MEAL_SPECIAL_FOOD_DRAKE_EGG": {
+    "name": "Drake Egg Omelette",
+    "weight": 7.55
+  },
+  "T8_FARM_DRAKE_BABY": {
+    "name": "Elder's Farm Drake Baby",
+    "weight": 3
+  },
+  "T8_ALCOHOL": {
+    "name": "Pumpkin Moonshine",
+    "weight": 0.65
+  },
+  "T8_FARM_COW_GROWN": {
+    "name": "Elder's Farm Cow Grown",
+    "weight": 10.83
+  },
+  "T8_MEAL_SANDWICH_FISH": {
+    "name": "Thunderfall Lurcher Sandwich",
+    "weight": 10.02
+  },
+  "T7_FISH_FRESHWATER_HIGHLANDS_RARE": {
+    "name": "Grandmaster's Fish Freshwater Highlands Rare",
+    "weight": 1.04
+  },
+  "T8_MEAL_SANDWICH_FISH@1": {
+    "name": "Thunderfall Lurcher Sandwich .1",
+    "weight": 10.02
+  },
+  "T8_MEAL_SANDWICH_FISH@2": {
+    "name": "Thunderfall Lurcher Sandwich .2",
+    "weight": 10.02
+  },
+  "T8_MEAL_SANDWICH_FISH@3": {
+    "name": "Thunderfall Lurcher Sandwich .3",
+    "weight": 10.02
+  },
+  "T4_BACKPACK_GATHERER_FISH": {
+    "name": "Adept's Fisherman Backpack",
+    "weight": 1.7
+  },
+  "T4_BACKPACK_GATHERER_FISH@1": {
+    "name": "Adept's Fisherman Backpack .1",
+    "weight": 1.7
+  },
+  "T4_BACKPACK_GATHERER_FISH@2": {
+    "name": "Adept's Fisherman Backpack .2",
+    "weight": 1.7
+  },
+  "T4_BACKPACK_GATHERER_FISH@3": {
+    "name": "Adept's Fisherman Backpack .3",
+    "weight": 1.7
+  },
+  "T4_BACKPACK_GATHERER_FISH@4": {
+    "name": "Adept's Fisherman Backpack .4",
+    "weight": 1.7
+  },
+  "T4_HEAD_GATHERER_FISH": {
+    "name": "Adept's Fisherman Cap",
+    "weight": 1.7
+  },
+  "T4_HEAD_GATHERER_FISH@1": {
+    "name": "Adept's Fisherman Cap .1",
+    "weight": 1.7
+  },
+  "T4_HEAD_GATHERER_FISH@2": {
+    "name": "Adept's Fisherman Cap .2",
+    "weight": 1.7
+  },
+  "T4_HEAD_GATHERER_FISH@3": {
+    "name": "Adept's Fisherman Cap .3",
+    "weight": 1.7
+  },
+  "T4_HEAD_GATHERER_FISH@4": {
+    "name": "Adept's Fisherman Cap .4",
+    "weight": 1.7
+  },
+  "T4_ARMOR_GATHERER_FISH": {
+    "name": "Adept's Fisherman Garb",
+    "weight": 3.4
+  },
+  "T4_ARMOR_GATHERER_FISH@1": {
+    "name": "Adept's Fisherman Garb .1",
+    "weight": 3.4
+  },
+  "T4_ARMOR_GATHERER_FISH@2": {
+    "name": "Adept's Fisherman Garb .2",
+    "weight": 3.4
+  },
+  "T4_ARMOR_GATHERER_FISH@3": {
+    "name": "Adept's Fisherman Garb .3",
+    "weight": 3.4
+  },
+  "T4_ARMOR_GATHERER_FISH@4": {
+    "name": "Adept's Fisherman Garb .4",
+    "weight": 3.4
+  },
+  "T4_SHOES_GATHERER_FISH": {
+    "name": "Adept's Fisherman Workboots",
+    "weight": 1.7
+  },
+  "T4_SHOES_GATHERER_FISH@1": {
+    "name": "Adept's Fisherman Workboots .1",
+    "weight": 1.7
+  },
+  "T4_SHOES_GATHERER_FISH@2": {
+    "name": "Adept's Fisherman Workboots .2",
+    "weight": 1.7
+  },
+  "T4_SHOES_GATHERER_FISH@3": {
+    "name": "Adept's Fisherman Workboots .3",
+    "weight": 1.7
+  },
+  "T4_SHOES_GATHERER_FISH@4": {
+    "name": "Adept's Fisherman Workboots .4",
+    "weight": 1.7
+  },
+  "T4_BACKPACK_GATHERER_FIBER": {
+    "name": "Adept's Harvester Backpack",
+    "weight": 1.7
+  },
+  "T4_BACKPACK_GATHERER_FIBER@1": {
+    "name": "Adept's Harvester Backpack .1",
+    "weight": 1.7
+  },
+  "T4_BACKPACK_GATHERER_FIBER@2": {
+    "name": "Adept's Harvester Backpack .2",
+    "weight": 1.7
+  },
+  "T4_BACKPACK_GATHERER_FIBER@3": {
+    "name": "Adept's Harvester Backpack .3",
+    "weight": 1.7
+  },
+  "T4_BACKPACK_GATHERER_FIBER@4": {
+    "name": "Adept's Harvester Backpack .4",
+    "weight": 1.7
+  },
+  "T4_HEAD_GATHERER_FIBER": {
+    "name": "Adept's Harvester Cap",
+    "weight": 1.7
+  },
+  "T4_HEAD_GATHERER_FIBER@1": {
+    "name": "Adept's Harvester Cap .1",
+    "weight": 1.7
+  },
+  "T4_HEAD_GATHERER_FIBER@2": {
+    "name": "Adept's Harvester Cap .2",
+    "weight": 1.7
+  },
+  "T4_HEAD_GATHERER_FIBER@3": {
+    "name": "Adept's Harvester Cap .3",
+    "weight": 1.7
+  },
+  "T4_HEAD_GATHERER_FIBER@4": {
+    "name": "Adept's Harvester Cap .4",
+    "weight": 1.7
+  },
+  "T4_ARMOR_GATHERER_FIBER": {
+    "name": "Adept's Harvester Garb",
+    "weight": 3.4
+  },
+  "T4_ARMOR_GATHERER_FIBER@1": {
+    "name": "Adept's Harvester Garb .1",
+    "weight": 3.4
+  },
+  "T4_ARMOR_GATHERER_FIBER@2": {
+    "name": "Adept's Harvester Garb .2",
+    "weight": 3.4
+  },
+  "T4_ARMOR_GATHERER_FIBER@3": {
+    "name": "Adept's Harvester Garb .3",
+    "weight": 3.4
+  },
+  "T4_ARMOR_GATHERER_FIBER@4": {
+    "name": "Adept's Harvester Garb .4",
+    "weight": 3.4
+  },
+  "T4_SHOES_GATHERER_FIBER": {
+    "name": "Adept's Harvester Workboots",
+    "weight": 1.7
+  },
+  "T4_SHOES_GATHERER_FIBER@1": {
+    "name": "Adept's Harvester Workboots .1",
+    "weight": 1.7
+  },
+  "T4_SHOES_GATHERER_FIBER@2": {
+    "name": "Adept's Harvester Workboots .2",
+    "weight": 1.7
+  },
+  "T4_SHOES_GATHERER_FIBER@3": {
+    "name": "Adept's Harvester Workboots .3",
+    "weight": 1.7
+  },
+  "T4_SHOES_GATHERER_FIBER@4": {
+    "name": "Adept's Harvester Workboots .4",
+    "weight": 1.7
+  },
+  "T4_BACKPACK_GATHERER_WOOD": {
+    "name": "Adept's Lumberjack Backpack",
+    "weight": 1.7
+  },
+  "T4_BACKPACK_GATHERER_WOOD@1": {
+    "name": "Adept's Lumberjack Backpack .1",
+    "weight": 1.7
+  },
+  "T4_BACKPACK_GATHERER_WOOD@2": {
+    "name": "Adept's Lumberjack Backpack .2",
+    "weight": 1.7
+  },
+  "T4_BACKPACK_GATHERER_WOOD@3": {
+    "name": "Adept's Lumberjack Backpack .3",
+    "weight": 1.7
+  },
+  "T4_BACKPACK_GATHERER_WOOD@4": {
+    "name": "Adept's Lumberjack Backpack .4",
+    "weight": 1.7
+  },
+  "T4_HEAD_GATHERER_WOOD": {
+    "name": "Adept's Lumberjack Cap",
+    "weight": 1.7
+  },
+  "T4_HEAD_GATHERER_WOOD@1": {
+    "name": "Adept's Lumberjack Cap .1",
+    "weight": 1.7
+  },
+  "T4_HEAD_GATHERER_WOOD@2": {
+    "name": "Adept's Lumberjack Cap .2",
+    "weight": 1.7
+  },
+  "T4_HEAD_GATHERER_WOOD@3": {
+    "name": "Adept's Lumberjack Cap .3",
+    "weight": 1.7
+  },
+  "T4_HEAD_GATHERER_WOOD@4": {
+    "name": "Adept's Lumberjack Cap .4",
+    "weight": 1.7
+  },
+  "T4_ARMOR_GATHERER_WOOD": {
+    "name": "Adept's Lumberjack Garb",
+    "weight": 3.4
+  },
+  "T4_ARMOR_GATHERER_WOOD@1": {
+    "name": "Adept's Lumberjack Garb .1",
+    "weight": 3.4
+  },
+  "T4_ARMOR_GATHERER_WOOD@2": {
+    "name": "Adept's Lumberjack Garb .2",
+    "weight": 3.4
+  },
+  "T4_ARMOR_GATHERER_WOOD@3": {
+    "name": "Adept's Lumberjack Garb .3",
+    "weight": 3.4
+  },
+  "T4_ARMOR_GATHERER_WOOD@4": {
+    "name": "Adept's Lumberjack Garb .4",
+    "weight": 3.4
+  },
+  "T4_SHOES_GATHERER_WOOD": {
+    "name": "Adept's Lumberjack Workboots",
+    "weight": 1.7
+  },
+  "T4_SHOES_GATHERER_WOOD@1": {
+    "name": "Adept's Lumberjack Workboots .1",
+    "weight": 1.7
+  },
+  "T4_SHOES_GATHERER_WOOD@2": {
+    "name": "Adept's Lumberjack Workboots .2",
+    "weight": 1.7
+  },
+  "T4_SHOES_GATHERER_WOOD@3": {
+    "name": "Adept's Lumberjack Workboots .3",
+    "weight": 1.7
+  },
+  "T4_SHOES_GATHERER_WOOD@4": {
+    "name": "Adept's Lumberjack Workboots .4",
+    "weight": 1.7
+  },
+  "T4_BACKPACK_GATHERER_ORE": {
+    "name": "Adept's Miner's Backpack",
+    "weight": 1.7
+  },
+  "T4_BACKPACK_GATHERER_ORE@1": {
+    "name": "Adept's Miner's Backpack .1",
+    "weight": 1.7
+  },
+  "T4_BACKPACK_GATHERER_ORE@2": {
+    "name": "Adept's Miner's Backpack .2",
+    "weight": 1.7
+  },
+  "T4_BACKPACK_GATHERER_ORE@3": {
+    "name": "Adept's Miner's Backpack .3",
+    "weight": 1.7
+  },
+  "T4_BACKPACK_GATHERER_ORE@4": {
+    "name": "Adept's Miner's Backpack .4",
+    "weight": 1.7
+  },
+  "T4_HEAD_GATHERER_ORE": {
+    "name": "Adept's Miner's Cap",
+    "weight": 1.7
+  },
+  "T4_HEAD_GATHERER_ORE@1": {
+    "name": "Adept's Miner's Cap .1",
+    "weight": 1.7
+  },
+  "T4_HEAD_GATHERER_ORE@2": {
+    "name": "Adept's Miner's Cap .2",
+    "weight": 1.7
+  },
+  "T4_HEAD_GATHERER_ORE@3": {
+    "name": "Adept's Miner's Cap .3",
+    "weight": 1.7
+  },
+  "T4_HEAD_GATHERER_ORE@4": {
+    "name": "Adept's Miner's Cap .4",
+    "weight": 1.7
+  },
+  "T4_ARMOR_GATHERER_ORE": {
+    "name": "Adept's Miner's Garb",
+    "weight": 3.4
+  },
+  "T4_ARMOR_GATHERER_ORE@1": {
+    "name": "Adept's Miner's Garb .1",
+    "weight": 3.4
+  },
+  "T4_ARMOR_GATHERER_ORE@2": {
+    "name": "Adept's Miner's Garb .2",
+    "weight": 3.4
+  },
+  "T4_ARMOR_GATHERER_ORE@3": {
+    "name": "Adept's Miner's Garb .3",
+    "weight": 3.4
+  },
+  "T4_ARMOR_GATHERER_ORE@4": {
+    "name": "Adept's Miner's Garb .4",
+    "weight": 3.4
+  },
+  "T4_SHOES_GATHERER_ORE": {
+    "name": "Adept's Miner's Workboots",
+    "weight": 1.7
+  },
+  "T4_SHOES_GATHERER_ORE@1": {
+    "name": "Adept's Miner's Workboots .1",
+    "weight": 1.7
+  },
+  "T4_SHOES_GATHERER_ORE@2": {
+    "name": "Adept's Miner's Workboots .2",
+    "weight": 1.7
+  },
+  "T4_SHOES_GATHERER_ORE@3": {
+    "name": "Adept's Miner's Workboots .3",
+    "weight": 1.7
+  },
+  "T4_SHOES_GATHERER_ORE@4": {
+    "name": "Adept's Miner's Workboots .4",
+    "weight": 1.7
+  },
+  "T4_BACKPACK_GATHERER_ROCK": {
+    "name": "Adept's Quarrier's Backpack",
+    "weight": 1.7
+  },
+  "T4_BACKPACK_GATHERER_ROCK@1": {
+    "name": "Adept's Quarrier's Backpack .1",
+    "weight": 1.7
+  },
+  "T4_BACKPACK_GATHERER_ROCK@2": {
+    "name": "Adept's Quarrier's Backpack .2",
+    "weight": 1.7
+  },
+  "T4_BACKPACK_GATHERER_ROCK@3": {
+    "name": "Adept's Quarrier's Backpack .3",
+    "weight": 1.7
+  },
+  "T4_BACKPACK_GATHERER_ROCK@4": {
+    "name": "Adept's Quarrier's Backpack .4",
+    "weight": 1.7
+  },
+  "T4_HEAD_GATHERER_ROCK": {
+    "name": "Adept's Quarrier's Cap",
+    "weight": 1.7
+  },
+  "T4_HEAD_GATHERER_ROCK@1": {
+    "name": "Adept's Quarrier's Cap .1",
+    "weight": 1.7
+  },
+  "T4_HEAD_GATHERER_ROCK@2": {
+    "name": "Adept's Quarrier's Cap .2",
+    "weight": 1.7
+  },
+  "T4_HEAD_GATHERER_ROCK@3": {
+    "name": "Adept's Quarrier's Cap .3",
+    "weight": 1.7
+  },
+  "T4_HEAD_GATHERER_ROCK@4": {
+    "name": "Adept's Quarrier's Cap .4",
+    "weight": 1.7
+  },
+  "T4_ARMOR_GATHERER_ROCK": {
+    "name": "Adept's Quarrier's Garb",
+    "weight": 3.4
+  },
+  "T4_ARMOR_GATHERER_ROCK@1": {
+    "name": "Adept's Quarrier's Garb .1",
+    "weight": 3.4
+  },
+  "T4_ARMOR_GATHERER_ROCK@2": {
+    "name": "Adept's Quarrier's Garb .2",
+    "weight": 3.4
+  },
+  "T4_ARMOR_GATHERER_ROCK@3": {
+    "name": "Adept's Quarrier's Garb .3",
+    "weight": 3.4
+  },
+  "T4_ARMOR_GATHERER_ROCK@4": {
+    "name": "Adept's Quarrier's Garb .4",
+    "weight": 3.4
+  },
+  "T4_SHOES_GATHERER_ROCK": {
+    "name": "Adept's Quarrier's Workboots",
+    "weight": 1.7
+  },
+  "T4_SHOES_GATHERER_ROCK@1": {
+    "name": "Adept's Quarrier's Workboots .1",
+    "weight": 1.7
+  },
+  "T4_SHOES_GATHERER_ROCK@2": {
+    "name": "Adept's Quarrier's Workboots .2",
+    "weight": 1.7
+  },
+  "T4_SHOES_GATHERER_ROCK@3": {
+    "name": "Adept's Quarrier's Workboots .3",
+    "weight": 1.7
+  },
+  "T4_SHOES_GATHERER_ROCK@4": {
+    "name": "Adept's Quarrier's Workboots .4",
+    "weight": 1.7
+  },
+  "T4_BACKPACK_GATHERER_HIDE": {
+    "name": "Adept's Skinner Backpack",
+    "weight": 1.7
+  },
+  "T4_BACKPACK_GATHERER_HIDE@1": {
+    "name": "Adept's Skinner Backpack .1",
+    "weight": 1.7
+  },
+  "T4_BACKPACK_GATHERER_HIDE@2": {
+    "name": "Adept's Skinner Backpack .2",
+    "weight": 1.7
+  },
+  "T4_BACKPACK_GATHERER_HIDE@3": {
+    "name": "Adept's Skinner Backpack .3",
+    "weight": 1.7
+  },
+  "T4_BACKPACK_GATHERER_HIDE@4": {
+    "name": "Adept's Skinner Backpack .4",
+    "weight": 1.7
+  },
+  "T4_HEAD_GATHERER_HIDE": {
+    "name": "Adept's Skinner Cap",
+    "weight": 1.7
+  },
+  "T4_HEAD_GATHERER_HIDE@1": {
+    "name": "Adept's Skinner Cap .1",
+    "weight": 1.7
+  },
+  "T4_HEAD_GATHERER_HIDE@2": {
+    "name": "Adept's Skinner Cap .2",
+    "weight": 1.7
+  },
+  "T4_HEAD_GATHERER_HIDE@3": {
+    "name": "Adept's Skinner Cap .3",
+    "weight": 1.7
+  },
+  "T4_HEAD_GATHERER_HIDE@4": {
+    "name": "Adept's Skinner Cap .4",
+    "weight": 1.7
+  },
+  "T4_ARMOR_GATHERER_HIDE": {
+    "name": "Adept's Skinner Garb",
+    "weight": 3.4
+  },
+  "T4_ARMOR_GATHERER_HIDE@1": {
+    "name": "Adept's Skinner Garb .1",
+    "weight": 3.4
+  },
+  "T4_ARMOR_GATHERER_HIDE@2": {
+    "name": "Adept's Skinner Garb .2",
+    "weight": 3.4
+  },
+  "T4_ARMOR_GATHERER_HIDE@3": {
+    "name": "Adept's Skinner Garb .3",
+    "weight": 3.4
+  },
+  "T4_ARMOR_GATHERER_HIDE@4": {
+    "name": "Adept's Skinner Garb .4",
+    "weight": 3.4
+  },
+  "T4_SHOES_GATHERER_HIDE": {
+    "name": "Adept's Skinner Workboots",
+    "weight": 1.7
+  },
+  "T4_SHOES_GATHERER_HIDE@1": {
+    "name": "Adept's Skinner Workboots .1",
+    "weight": 1.7
+  },
+  "T4_SHOES_GATHERER_HIDE@2": {
+    "name": "Adept's Skinner Workboots .2",
+    "weight": 1.7
+  },
+  "T4_SHOES_GATHERER_HIDE@3": {
+    "name": "Adept's Skinner Workboots .3",
+    "weight": 1.7
+  },
+  "T4_SHOES_GATHERER_HIDE@4": {
+    "name": "Adept's Skinner Workboots .4",
+    "weight": 1.7
+  },
+  "T5_BACKPACK_GATHERER_FISH": {
+    "name": "Expert's Fisherman Backpack",
+    "weight": 2.5
+  },
+  "T5_BACKPACK_GATHERER_FISH@1": {
+    "name": "Expert's Fisherman Backpack .1",
+    "weight": 2.5
+  },
+  "T5_BACKPACK_GATHERER_FISH@2": {
+    "name": "Expert's Fisherman Backpack .2",
+    "weight": 2.5
+  },
+  "T5_BACKPACK_GATHERER_FISH@3": {
+    "name": "Expert's Fisherman Backpack .3",
+    "weight": 2.5
+  },
+  "T5_BACKPACK_GATHERER_FISH@4": {
+    "name": "Expert's Fisherman Backpack .4",
+    "weight": 2.5
+  },
+  "T5_HEAD_GATHERER_FISH": {
+    "name": "Expert's Fisherman Cap",
+    "weight": 2.5
+  },
+  "T5_HEAD_GATHERER_FISH@1": {
+    "name": "Expert's Fisherman Cap .1",
+    "weight": 2.5
+  },
+  "T5_HEAD_GATHERER_FISH@2": {
+    "name": "Expert's Fisherman Cap .2",
+    "weight": 2.5
+  },
+  "T5_HEAD_GATHERER_FISH@3": {
+    "name": "Expert's Fisherman Cap .3",
+    "weight": 2.5
+  },
+  "T5_HEAD_GATHERER_FISH@4": {
+    "name": "Expert's Fisherman Cap .4",
+    "weight": 2.5
+  },
+  "T5_ARMOR_GATHERER_FISH": {
+    "name": "Expert's Fisherman Garb",
+    "weight": 5.1
+  },
+  "T5_ARMOR_GATHERER_FISH@1": {
+    "name": "Expert's Fisherman Garb .1",
+    "weight": 5.1
+  },
+  "T5_ARMOR_GATHERER_FISH@2": {
+    "name": "Expert's Fisherman Garb .2",
+    "weight": 5.1
+  },
+  "T5_ARMOR_GATHERER_FISH@3": {
+    "name": "Expert's Fisherman Garb .3",
+    "weight": 5.1
+  },
+  "T5_ARMOR_GATHERER_FISH@4": {
+    "name": "Expert's Fisherman Garb .4",
+    "weight": 5.1
+  },
+  "T5_SHOES_GATHERER_FISH": {
+    "name": "Expert's Fisherman Workboots",
+    "weight": 2.5
+  },
+  "T5_SHOES_GATHERER_FISH@1": {
+    "name": "Expert's Fisherman Workboots .1",
+    "weight": 2.5
+  },
+  "T5_SHOES_GATHERER_FISH@2": {
+    "name": "Expert's Fisherman Workboots .2",
+    "weight": 2.5
+  },
+  "T5_SHOES_GATHERER_FISH@3": {
+    "name": "Expert's Fisherman Workboots .3",
+    "weight": 2.5
+  },
+  "T5_SHOES_GATHERER_FISH@4": {
+    "name": "Expert's Fisherman Workboots .4",
+    "weight": 2.5
+  },
+  "T5_BACKPACK_GATHERER_FIBER": {
+    "name": "Expert's Harvester Backpack",
+    "weight": 2.5
+  },
+  "T5_BACKPACK_GATHERER_FIBER@1": {
+    "name": "Expert's Harvester Backpack .1",
+    "weight": 2.5
+  },
+  "T5_BACKPACK_GATHERER_FIBER@2": {
+    "name": "Expert's Harvester Backpack .2",
+    "weight": 2.5
+  },
+  "T5_BACKPACK_GATHERER_FIBER@3": {
+    "name": "Expert's Harvester Backpack .3",
+    "weight": 2.5
+  },
+  "T5_BACKPACK_GATHERER_FIBER@4": {
+    "name": "Expert's Harvester Backpack .4",
+    "weight": 2.5
+  },
+  "T5_HEAD_GATHERER_FIBER": {
+    "name": "Expert's Harvester Cap",
+    "weight": 2.5
+  },
+  "T5_HEAD_GATHERER_FIBER@1": {
+    "name": "Expert's Harvester Cap .1",
+    "weight": 2.5
+  },
+  "T5_HEAD_GATHERER_FIBER@2": {
+    "name": "Expert's Harvester Cap .2",
+    "weight": 2.5
+  },
+  "T5_HEAD_GATHERER_FIBER@3": {
+    "name": "Expert's Harvester Cap .3",
+    "weight": 2.5
+  },
+  "T5_HEAD_GATHERER_FIBER@4": {
+    "name": "Expert's Harvester Cap .4",
+    "weight": 2.5
+  },
+  "T5_ARMOR_GATHERER_FIBER": {
+    "name": "Expert's Harvester Garb",
+    "weight": 5.1
+  },
+  "T5_ARMOR_GATHERER_FIBER@1": {
+    "name": "Expert's Harvester Garb .1",
+    "weight": 5.1
+  },
+  "T5_ARMOR_GATHERER_FIBER@2": {
+    "name": "Expert's Harvester Garb .2",
+    "weight": 5.1
+  },
+  "T5_ARMOR_GATHERER_FIBER@3": {
+    "name": "Expert's Harvester Garb .3",
+    "weight": 5.1
+  },
+  "T5_ARMOR_GATHERER_FIBER@4": {
+    "name": "Expert's Harvester Garb .4",
+    "weight": 5.1
+  },
+  "T5_SHOES_GATHERER_FIBER": {
+    "name": "Expert's Harvester Workboots",
+    "weight": 2.5
+  },
+  "T5_SHOES_GATHERER_FIBER@1": {
+    "name": "Expert's Harvester Workboots .1",
+    "weight": 2.5
+  },
+  "T5_SHOES_GATHERER_FIBER@2": {
+    "name": "Expert's Harvester Workboots .2",
+    "weight": 2.5
+  },
+  "T5_SHOES_GATHERER_FIBER@3": {
+    "name": "Expert's Harvester Workboots .3",
+    "weight": 2.5
+  },
+  "T5_SHOES_GATHERER_FIBER@4": {
+    "name": "Expert's Harvester Workboots .4",
+    "weight": 2.5
+  },
+  "T5_BACKPACK_GATHERER_WOOD": {
+    "name": "Expert's Lumberjack Backpack",
+    "weight": 2.5
+  },
+  "T5_BACKPACK_GATHERER_WOOD@1": {
+    "name": "Expert's Lumberjack Backpack .1",
+    "weight": 2.5
+  },
+  "T5_BACKPACK_GATHERER_WOOD@2": {
+    "name": "Expert's Lumberjack Backpack .2",
+    "weight": 2.5
+  },
+  "T5_BACKPACK_GATHERER_WOOD@3": {
+    "name": "Expert's Lumberjack Backpack .3",
+    "weight": 2.5
+  },
+  "T5_BACKPACK_GATHERER_WOOD@4": {
+    "name": "Expert's Lumberjack Backpack .4",
+    "weight": 2.5
+  },
+  "T5_HEAD_GATHERER_WOOD": {
+    "name": "Expert's Lumberjack Cap",
+    "weight": 2.5
+  },
+  "T5_HEAD_GATHERER_WOOD@1": {
+    "name": "Expert's Lumberjack Cap .1",
+    "weight": 2.5
+  },
+  "T5_HEAD_GATHERER_WOOD@2": {
+    "name": "Expert's Lumberjack Cap .2",
+    "weight": 2.5
+  },
+  "T5_HEAD_GATHERER_WOOD@3": {
+    "name": "Expert's Lumberjack Cap .3",
+    "weight": 2.5
+  },
+  "T5_HEAD_GATHERER_WOOD@4": {
+    "name": "Expert's Lumberjack Cap .4",
+    "weight": 2.5
+  },
+  "T5_ARMOR_GATHERER_WOOD": {
+    "name": "Expert's Lumberjack Garb",
+    "weight": 5.1
+  },
+  "T5_ARMOR_GATHERER_WOOD@1": {
+    "name": "Expert's Lumberjack Garb .1",
+    "weight": 5.1
+  },
+  "T5_ARMOR_GATHERER_WOOD@2": {
+    "name": "Expert's Lumberjack Garb .2",
+    "weight": 5.1
+  },
+  "T5_ARMOR_GATHERER_WOOD@3": {
+    "name": "Expert's Lumberjack Garb .3",
+    "weight": 5.1
+  },
+  "T5_ARMOR_GATHERER_WOOD@4": {
+    "name": "Expert's Lumberjack Garb .4",
+    "weight": 5.1
+  },
+  "T5_SHOES_GATHERER_WOOD": {
+    "name": "Expert's Lumberjack Workboots",
+    "weight": 2.5
+  },
+  "T5_SHOES_GATHERER_WOOD@1": {
+    "name": "Expert's Lumberjack Workboots .1",
+    "weight": 2.5
+  },
+  "T5_SHOES_GATHERER_WOOD@2": {
+    "name": "Expert's Lumberjack Workboots .2",
+    "weight": 2.5
+  },
+  "T5_SHOES_GATHERER_WOOD@3": {
+    "name": "Expert's Lumberjack Workboots .3",
+    "weight": 2.5
+  },
+  "T5_SHOES_GATHERER_WOOD@4": {
+    "name": "Expert's Lumberjack Workboots .4",
+    "weight": 2.5
+  },
+  "T5_BACKPACK_GATHERER_ORE": {
+    "name": "Expert's Miner's Backpack",
+    "weight": 2.5
+  },
+  "T5_BACKPACK_GATHERER_ORE@1": {
+    "name": "Expert's Miner's Backpack .1",
+    "weight": 2.5
+  },
+  "T5_BACKPACK_GATHERER_ORE@2": {
+    "name": "Expert's Miner's Backpack .2",
+    "weight": 2.5
+  },
+  "T5_BACKPACK_GATHERER_ORE@3": {
+    "name": "Expert's Miner's Backpack .3",
+    "weight": 2.5
+  },
+  "T5_BACKPACK_GATHERER_ORE@4": {
+    "name": "Expert's Miner's Backpack .4",
+    "weight": 2.5
+  },
+  "T5_HEAD_GATHERER_ORE": {
+    "name": "Expert's Miner's Cap",
+    "weight": 2.5
+  },
+  "T5_HEAD_GATHERER_ORE@1": {
+    "name": "Expert's Miner's Cap .1",
+    "weight": 2.5
+  },
+  "T5_HEAD_GATHERER_ORE@2": {
+    "name": "Expert's Miner's Cap .2",
+    "weight": 2.5
+  },
+  "T5_HEAD_GATHERER_ORE@3": {
+    "name": "Expert's Miner's Cap .3",
+    "weight": 2.5
+  },
+  "T5_HEAD_GATHERER_ORE@4": {
+    "name": "Expert's Miner's Cap .4",
+    "weight": 2.5
+  },
+  "T5_ARMOR_GATHERER_ORE": {
+    "name": "Expert's Miner's Garb",
+    "weight": 5.1
+  },
+  "T5_ARMOR_GATHERER_ORE@1": {
+    "name": "Expert's Miner's Garb .1",
+    "weight": 5.1
+  },
+  "T5_ARMOR_GATHERER_ORE@2": {
+    "name": "Expert's Miner's Garb .2",
+    "weight": 5.1
+  },
+  "T5_ARMOR_GATHERER_ORE@3": {
+    "name": "Expert's Miner's Garb .3",
+    "weight": 5.1
+  },
+  "T5_ARMOR_GATHERER_ORE@4": {
+    "name": "Expert's Miner's Garb .4",
+    "weight": 5.1
+  },
+  "T5_SHOES_GATHERER_ORE": {
+    "name": "Expert's Miner's Workboots",
+    "weight": 2.5
+  },
+  "T5_SHOES_GATHERER_ORE@1": {
+    "name": "Expert's Miner's Workboots .1",
+    "weight": 2.5
+  },
+  "T5_SHOES_GATHERER_ORE@2": {
+    "name": "Expert's Miner's Workboots .2",
+    "weight": 2.5
+  },
+  "T5_SHOES_GATHERER_ORE@3": {
+    "name": "Expert's Miner's Workboots .3",
+    "weight": 2.5
+  },
+  "T5_SHOES_GATHERER_ORE@4": {
+    "name": "Expert's Miner's Workboots .4",
+    "weight": 2.5
+  },
+  "T5_BACKPACK_GATHERER_ROCK": {
+    "name": "Expert's Quarrier's Backpack",
+    "weight": 2.5
+  },
+  "T5_BACKPACK_GATHERER_ROCK@1": {
+    "name": "Expert's Quarrier's Backpack .1",
+    "weight": 2.5
+  },
+  "T5_BACKPACK_GATHERER_ROCK@2": {
+    "name": "Expert's Quarrier's Backpack .2",
+    "weight": 2.5
+  },
+  "T5_BACKPACK_GATHERER_ROCK@3": {
+    "name": "Expert's Quarrier's Backpack .3",
+    "weight": 2.5
+  },
+  "T5_BACKPACK_GATHERER_ROCK@4": {
+    "name": "Expert's Quarrier's Backpack .4",
+    "weight": 2.5
+  },
+  "T5_HEAD_GATHERER_ROCK": {
+    "name": "Expert's Quarrier's Cap",
+    "weight": 2.5
+  },
+  "T5_HEAD_GATHERER_ROCK@1": {
+    "name": "Expert's Quarrier's Cap .1",
+    "weight": 2.5
+  },
+  "T5_HEAD_GATHERER_ROCK@2": {
+    "name": "Expert's Quarrier's Cap .2",
+    "weight": 2.5
+  },
+  "T5_HEAD_GATHERER_ROCK@3": {
+    "name": "Expert's Quarrier's Cap .3",
+    "weight": 2.5
+  },
+  "T5_HEAD_GATHERER_ROCK@4": {
+    "name": "Expert's Quarrier's Cap .4",
+    "weight": 2.5
+  },
+  "T5_ARMOR_GATHERER_ROCK": {
+    "name": "Expert's Quarrier's Garb",
+    "weight": 5.1
+  },
+  "T5_ARMOR_GATHERER_ROCK@1": {
+    "name": "Expert's Quarrier's Garb .1",
+    "weight": 5.1
+  },
+  "T5_ARMOR_GATHERER_ROCK@2": {
+    "name": "Expert's Quarrier's Garb .2",
+    "weight": 5.1
+  },
+  "T5_ARMOR_GATHERER_ROCK@3": {
+    "name": "Expert's Quarrier's Garb .3",
+    "weight": 5.1
+  },
+  "T5_ARMOR_GATHERER_ROCK@4": {
+    "name": "Expert's Quarrier's Garb .4",
+    "weight": 5.1
+  },
+  "T5_SHOES_GATHERER_ROCK": {
+    "name": "Expert's Quarrier's Workboots",
+    "weight": 2.5
+  },
+  "T5_SHOES_GATHERER_ROCK@1": {
+    "name": "Expert's Quarrier's Workboots .1",
+    "weight": 2.5
+  },
+  "T5_SHOES_GATHERER_ROCK@2": {
+    "name": "Expert's Quarrier's Workboots .2",
+    "weight": 2.5
+  },
+  "T5_SHOES_GATHERER_ROCK@3": {
+    "name": "Expert's Quarrier's Workboots .3",
+    "weight": 2.5
+  },
+  "T5_SHOES_GATHERER_ROCK@4": {
+    "name": "Expert's Quarrier's Workboots .4",
+    "weight": 2.5
+  },
+  "T5_BACKPACK_GATHERER_HIDE": {
+    "name": "Expert's Skinner Backpack",
+    "weight": 2.5
+  },
+  "T5_BACKPACK_GATHERER_HIDE@1": {
+    "name": "Expert's Skinner Backpack .1",
+    "weight": 2.5
+  },
+  "T5_BACKPACK_GATHERER_HIDE@2": {
+    "name": "Expert's Skinner Backpack .2",
+    "weight": 2.5
+  },
+  "T5_BACKPACK_GATHERER_HIDE@3": {
+    "name": "Expert's Skinner Backpack .3",
+    "weight": 2.5
+  },
+  "T5_BACKPACK_GATHERER_HIDE@4": {
+    "name": "Expert's Skinner Backpack .4",
+    "weight": 2.5
+  },
+  "T5_HEAD_GATHERER_HIDE": {
+    "name": "Expert's Skinner Cap",
+    "weight": 2.5
+  },
+  "T5_HEAD_GATHERER_HIDE@1": {
+    "name": "Expert's Skinner Cap .1",
+    "weight": 2.5
+  },
+  "T5_HEAD_GATHERER_HIDE@2": {
+    "name": "Expert's Skinner Cap .2",
+    "weight": 2.5
+  },
+  "T5_HEAD_GATHERER_HIDE@3": {
+    "name": "Expert's Skinner Cap .3",
+    "weight": 2.5
+  },
+  "T5_HEAD_GATHERER_HIDE@4": {
+    "name": "Expert's Skinner Cap .4",
+    "weight": 2.5
+  },
+  "T5_ARMOR_GATHERER_HIDE": {
+    "name": "Expert's Skinner Garb",
+    "weight": 5.1
+  },
+  "T5_ARMOR_GATHERER_HIDE@1": {
+    "name": "Expert's Skinner Garb .1",
+    "weight": 5.1
+  },
+  "T5_ARMOR_GATHERER_HIDE@2": {
+    "name": "Expert's Skinner Garb .2",
+    "weight": 5.1
+  },
+  "T5_ARMOR_GATHERER_HIDE@3": {
+    "name": "Expert's Skinner Garb .3",
+    "weight": 5.1
+  },
+  "T5_ARMOR_GATHERER_HIDE@4": {
+    "name": "Expert's Skinner Garb .4",
+    "weight": 5.1
+  },
+  "T5_SHOES_GATHERER_HIDE": {
+    "name": "Expert's Skinner Workboots",
+    "weight": 2.5
+  },
+  "T5_SHOES_GATHERER_HIDE@1": {
+    "name": "Expert's Skinner Workboots .1",
+    "weight": 2.5
+  },
+  "T5_SHOES_GATHERER_HIDE@2": {
+    "name": "Expert's Skinner Workboots .2",
+    "weight": 2.5
+  },
+  "T5_SHOES_GATHERER_HIDE@3": {
+    "name": "Expert's Skinner Workboots .3",
+    "weight": 2.5
+  },
+  "T5_SHOES_GATHERER_HIDE@4": {
+    "name": "Expert's Skinner Workboots .4",
+    "weight": 2.5
+  },
+  "T6_BACKPACK_GATHERER_FISH": {
+    "name": "Master's Fisherman Backpack",
+    "weight": 3.8
+  },
+  "T6_BACKPACK_GATHERER_FISH@1": {
+    "name": "Master's Fisherman Backpack .1",
+    "weight": 3.8
+  },
+  "T6_BACKPACK_GATHERER_FISH@2": {
+    "name": "Master's Fisherman Backpack .2",
+    "weight": 3.8
+  },
+  "T6_BACKPACK_GATHERER_FISH@3": {
+    "name": "Master's Fisherman Backpack .3",
+    "weight": 3.8
+  },
+  "T6_BACKPACK_GATHERER_FISH@4": {
+    "name": "Master's Fisherman Backpack .4",
+    "weight": 3.8
+  },
+  "T6_HEAD_GATHERER_FISH": {
+    "name": "Master's Fisherman Cap",
+    "weight": 3.8
+  },
+  "T6_HEAD_GATHERER_FISH@1": {
+    "name": "Master's Fisherman Cap .1",
+    "weight": 3.8
+  },
+  "T6_HEAD_GATHERER_FISH@2": {
+    "name": "Master's Fisherman Cap .2",
+    "weight": 3.8
+  },
+  "T6_HEAD_GATHERER_FISH@3": {
+    "name": "Master's Fisherman Cap .3",
+    "weight": 3.8
+  },
+  "T6_HEAD_GATHERER_FISH@4": {
+    "name": "Master's Fisherman Cap .4",
+    "weight": 3.8
+  },
+  "T6_ARMOR_GATHERER_FISH": {
+    "name": "Master's Fisherman Garb",
+    "weight": 7.6
+  },
+  "T6_ARMOR_GATHERER_FISH@1": {
+    "name": "Master's Fisherman Garb .1",
+    "weight": 7.6
+  },
+  "T6_ARMOR_GATHERER_FISH@2": {
+    "name": "Master's Fisherman Garb .2",
+    "weight": 7.6
+  },
+  "T6_ARMOR_GATHERER_FISH@3": {
+    "name": "Master's Fisherman Garb .3",
+    "weight": 7.6
+  },
+  "T6_ARMOR_GATHERER_FISH@4": {
+    "name": "Master's Fisherman Garb .4",
+    "weight": 7.6
+  },
+  "T6_SHOES_GATHERER_FISH": {
+    "name": "Master's Fisherman Workboots",
+    "weight": 3.8
+  },
+  "T6_SHOES_GATHERER_FISH@1": {
+    "name": "Master's Fisherman Workboots .1",
+    "weight": 3.8
+  },
+  "T6_SHOES_GATHERER_FISH@2": {
+    "name": "Master's Fisherman Workboots .2",
+    "weight": 3.8
+  },
+  "T6_SHOES_GATHERER_FISH@3": {
+    "name": "Master's Fisherman Workboots .3",
+    "weight": 3.8
+  },
+  "T6_SHOES_GATHERER_FISH@4": {
+    "name": "Master's Fisherman Workboots .4",
+    "weight": 3.8
+  },
+  "T6_BACKPACK_GATHERER_FIBER": {
+    "name": "Master's Harvester Backpack",
+    "weight": 3.8
+  },
+  "T6_BACKPACK_GATHERER_FIBER@1": {
+    "name": "Master's Harvester Backpack .1",
+    "weight": 3.8
+  },
+  "T6_BACKPACK_GATHERER_FIBER@2": {
+    "name": "Master's Harvester Backpack .2",
+    "weight": 3.8
+  },
+  "T6_BACKPACK_GATHERER_FIBER@3": {
+    "name": "Master's Harvester Backpack .3",
+    "weight": 3.8
+  },
+  "T6_BACKPACK_GATHERER_FIBER@4": {
+    "name": "Master's Harvester Backpack .4",
+    "weight": 3.8
+  },
+  "T6_HEAD_GATHERER_FIBER": {
+    "name": "Master's Harvester Cap",
+    "weight": 3.8
+  },
+  "T6_HEAD_GATHERER_FIBER@1": {
+    "name": "Master's Harvester Cap .1",
+    "weight": 3.8
+  },
+  "T6_HEAD_GATHERER_FIBER@2": {
+    "name": "Master's Harvester Cap .2",
+    "weight": 3.8
+  },
+  "T6_HEAD_GATHERER_FIBER@3": {
+    "name": "Master's Harvester Cap .3",
+    "weight": 3.8
+  },
+  "T6_HEAD_GATHERER_FIBER@4": {
+    "name": "Master's Harvester Cap .4",
+    "weight": 3.8
+  },
+  "T6_ARMOR_GATHERER_FIBER": {
+    "name": "Master's Harvester Garb",
+    "weight": 7.6
+  },
+  "T6_ARMOR_GATHERER_FIBER@1": {
+    "name": "Master's Harvester Garb .1",
+    "weight": 7.6
+  },
+  "T6_ARMOR_GATHERER_FIBER@2": {
+    "name": "Master's Harvester Garb .2",
+    "weight": 7.6
+  },
+  "T6_ARMOR_GATHERER_FIBER@3": {
+    "name": "Master's Harvester Garb .3",
+    "weight": 7.6
+  },
+  "T6_ARMOR_GATHERER_FIBER@4": {
+    "name": "Master's Harvester Garb .4",
+    "weight": 7.6
+  },
+  "T6_SHOES_GATHERER_FIBER": {
+    "name": "Master's Harvester Workboots",
+    "weight": 3.8
+  },
+  "T6_SHOES_GATHERER_FIBER@1": {
+    "name": "Master's Harvester Workboots .1",
+    "weight": 3.8
+  },
+  "T6_SHOES_GATHERER_FIBER@2": {
+    "name": "Master's Harvester Workboots .2",
+    "weight": 3.8
+  },
+  "T6_SHOES_GATHERER_FIBER@3": {
+    "name": "Master's Harvester Workboots .3",
+    "weight": 3.8
+  },
+  "T6_SHOES_GATHERER_FIBER@4": {
+    "name": "Master's Harvester Workboots .4",
+    "weight": 3.8
+  },
+  "T6_BACKPACK_GATHERER_WOOD": {
+    "name": "Master's Lumberjack Backpack",
+    "weight": 3.8
+  },
+  "T6_BACKPACK_GATHERER_WOOD@1": {
+    "name": "Master's Lumberjack Backpack .1",
+    "weight": 3.8
+  },
+  "T6_BACKPACK_GATHERER_WOOD@2": {
+    "name": "Master's Lumberjack Backpack .2",
+    "weight": 3.8
+  },
+  "T6_BACKPACK_GATHERER_WOOD@3": {
+    "name": "Master's Lumberjack Backpack .3",
+    "weight": 3.8
+  },
+  "T6_BACKPACK_GATHERER_WOOD@4": {
+    "name": "Master's Lumberjack Backpack .4",
+    "weight": 3.8
+  },
+  "T6_HEAD_GATHERER_WOOD": {
+    "name": "Master's Lumberjack Cap",
+    "weight": 3.8
+  },
+  "T6_HEAD_GATHERER_WOOD@1": {
+    "name": "Master's Lumberjack Cap .1",
+    "weight": 3.8
+  },
+  "T6_HEAD_GATHERER_WOOD@2": {
+    "name": "Master's Lumberjack Cap .2",
+    "weight": 3.8
+  },
+  "T6_HEAD_GATHERER_WOOD@3": {
+    "name": "Master's Lumberjack Cap .3",
+    "weight": 3.8
+  },
+  "T6_HEAD_GATHERER_WOOD@4": {
+    "name": "Master's Lumberjack Cap .4",
+    "weight": 3.8
+  },
+  "T6_ARMOR_GATHERER_WOOD": {
+    "name": "Master's Lumberjack Garb",
+    "weight": 7.6
+  },
+  "T6_ARMOR_GATHERER_WOOD@1": {
+    "name": "Master's Lumberjack Garb .1",
+    "weight": 7.6
+  },
+  "T6_ARMOR_GATHERER_WOOD@2": {
+    "name": "Master's Lumberjack Garb .2",
+    "weight": 7.6
+  },
+  "T6_ARMOR_GATHERER_WOOD@3": {
+    "name": "Master's Lumberjack Garb .3",
+    "weight": 7.6
+  },
+  "T6_ARMOR_GATHERER_WOOD@4": {
+    "name": "Master's Lumberjack Garb .4",
+    "weight": 7.6
+  },
+  "T6_SHOES_GATHERER_WOOD": {
+    "name": "Master's Lumberjack Workboots",
+    "weight": 3.8
+  },
+  "T6_SHOES_GATHERER_WOOD@1": {
+    "name": "Master's Lumberjack Workboots .1",
+    "weight": 3.8
+  },
+  "T6_SHOES_GATHERER_WOOD@2": {
+    "name": "Master's Lumberjack Workboots .2",
+    "weight": 3.8
+  },
+  "T6_SHOES_GATHERER_WOOD@3": {
+    "name": "Master's Lumberjack Workboots .3",
+    "weight": 3.8
+  },
+  "T6_SHOES_GATHERER_WOOD@4": {
+    "name": "Master's Lumberjack Workboots .4",
+    "weight": 3.8
+  },
+  "T6_BACKPACK_GATHERER_ORE": {
+    "name": "Master's Miner's Backpack",
+    "weight": 3.8
+  },
+  "T6_BACKPACK_GATHERER_ORE@1": {
+    "name": "Master's Miner's Backpack .1",
+    "weight": 3.8
+  },
+  "T6_BACKPACK_GATHERER_ORE@2": {
+    "name": "Master's Miner's Backpack .2",
+    "weight": 3.8
+  },
+  "T6_BACKPACK_GATHERER_ORE@3": {
+    "name": "Master's Miner's Backpack .3",
+    "weight": 3.8
+  },
+  "T6_BACKPACK_GATHERER_ORE@4": {
+    "name": "Master's Miner's Backpack .4",
+    "weight": 3.8
+  },
+  "T6_HEAD_GATHERER_ORE": {
+    "name": "Master's Miner's Cap",
+    "weight": 3.8
+  },
+  "T6_HEAD_GATHERER_ORE@1": {
+    "name": "Master's Miner's Cap .1",
+    "weight": 3.8
+  },
+  "T6_HEAD_GATHERER_ORE@2": {
+    "name": "Master's Miner's Cap .2",
+    "weight": 3.8
+  },
+  "T6_HEAD_GATHERER_ORE@3": {
+    "name": "Master's Miner's Cap .3",
+    "weight": 3.8
+  },
+  "T6_HEAD_GATHERER_ORE@4": {
+    "name": "Master's Miner's Cap .4",
+    "weight": 3.8
+  },
+  "T6_ARMOR_GATHERER_ORE": {
+    "name": "Master's Miner's Garb",
+    "weight": 7.6
+  },
+  "T6_ARMOR_GATHERER_ORE@1": {
+    "name": "Master's Miner's Garb .1",
+    "weight": 7.6
+  },
+  "T6_ARMOR_GATHERER_ORE@2": {
+    "name": "Master's Miner's Garb .2",
+    "weight": 7.6
+  },
+  "T6_ARMOR_GATHERER_ORE@3": {
+    "name": "Master's Miner's Garb .3",
+    "weight": 7.6
+  },
+  "T6_ARMOR_GATHERER_ORE@4": {
+    "name": "Master's Miner's Garb .4",
+    "weight": 7.6
+  },
+  "T6_SHOES_GATHERER_ORE": {
+    "name": "Master's Miner's Workboots",
+    "weight": 3.8
+  },
+  "T6_SHOES_GATHERER_ORE@1": {
+    "name": "Master's Miner's Workboots .1",
+    "weight": 3.8
+  },
+  "T6_SHOES_GATHERER_ORE@2": {
+    "name": "Master's Miner's Workboots .2",
+    "weight": 3.8
+  },
+  "T6_SHOES_GATHERER_ORE@3": {
+    "name": "Master's Miner's Workboots .3",
+    "weight": 3.8
+  },
+  "T6_SHOES_GATHERER_ORE@4": {
+    "name": "Master's Miner's Workboots .4",
+    "weight": 3.8
+  },
+  "T6_BACKPACK_GATHERER_ROCK": {
+    "name": "Master's Quarrier's Backpack",
+    "weight": 3.8
+  },
+  "T6_BACKPACK_GATHERER_ROCK@1": {
+    "name": "Master's Quarrier's Backpack .1",
+    "weight": 3.8
+  },
+  "T6_BACKPACK_GATHERER_ROCK@2": {
+    "name": "Master's Quarrier's Backpack .2",
+    "weight": 3.8
+  },
+  "T6_BACKPACK_GATHERER_ROCK@3": {
+    "name": "Master's Quarrier's Backpack .3",
+    "weight": 3.8
+  },
+  "T6_BACKPACK_GATHERER_ROCK@4": {
+    "name": "Master's Quarrier's Backpack .4",
+    "weight": 3.8
+  },
+  "T6_HEAD_GATHERER_ROCK": {
+    "name": "Master's Quarrier's Cap",
+    "weight": 3.8
+  },
+  "T6_HEAD_GATHERER_ROCK@1": {
+    "name": "Master's Quarrier's Cap .1",
+    "weight": 3.8
+  },
+  "T6_HEAD_GATHERER_ROCK@2": {
+    "name": "Master's Quarrier's Cap .2",
+    "weight": 3.8
+  },
+  "T6_HEAD_GATHERER_ROCK@3": {
+    "name": "Master's Quarrier's Cap .3",
+    "weight": 3.8
+  },
+  "T6_HEAD_GATHERER_ROCK@4": {
+    "name": "Master's Quarrier's Cap .4",
+    "weight": 3.8
+  },
+  "T6_ARMOR_GATHERER_ROCK": {
+    "name": "Master's Quarrier's Garb",
+    "weight": 7.6
+  },
+  "T6_ARMOR_GATHERER_ROCK@1": {
+    "name": "Master's Quarrier's Garb .1",
+    "weight": 7.6
+  },
+  "T6_ARMOR_GATHERER_ROCK@2": {
+    "name": "Master's Quarrier's Garb .2",
+    "weight": 7.6
+  },
+  "T6_ARMOR_GATHERER_ROCK@3": {
+    "name": "Master's Quarrier's Garb .3",
+    "weight": 7.6
+  },
+  "T6_ARMOR_GATHERER_ROCK@4": {
+    "name": "Master's Quarrier's Garb .4",
+    "weight": 7.6
+  },
+  "T6_SHOES_GATHERER_ROCK": {
+    "name": "Master's Quarrier's Workboots",
+    "weight": 3.8
+  },
+  "T6_SHOES_GATHERER_ROCK@1": {
+    "name": "Master's Quarrier's Workboots .1",
+    "weight": 3.8
+  },
+  "T6_SHOES_GATHERER_ROCK@2": {
+    "name": "Master's Quarrier's Workboots .2",
+    "weight": 3.8
+  },
+  "T6_SHOES_GATHERER_ROCK@3": {
+    "name": "Master's Quarrier's Workboots .3",
+    "weight": 3.8
+  },
+  "T6_SHOES_GATHERER_ROCK@4": {
+    "name": "Master's Quarrier's Workboots .4",
+    "weight": 3.8
+  },
+  "T6_BACKPACK_GATHERER_HIDE": {
+    "name": "Master's Skinner Backpack",
+    "weight": 3.8
+  },
+  "T6_BACKPACK_GATHERER_HIDE@1": {
+    "name": "Master's Skinner Backpack .1",
+    "weight": 3.8
+  },
+  "T6_BACKPACK_GATHERER_HIDE@2": {
+    "name": "Master's Skinner Backpack .2",
+    "weight": 3.8
+  },
+  "T6_BACKPACK_GATHERER_HIDE@3": {
+    "name": "Master's Skinner Backpack .3",
+    "weight": 3.8
+  },
+  "T6_BACKPACK_GATHERER_HIDE@4": {
+    "name": "Master's Skinner Backpack .4",
+    "weight": 3.8
+  },
+  "T6_HEAD_GATHERER_HIDE": {
+    "name": "Master's Skinner Cap",
+    "weight": 3.8
+  },
+  "T6_HEAD_GATHERER_HIDE@1": {
+    "name": "Master's Skinner Cap .1",
+    "weight": 3.8
+  },
+  "T6_HEAD_GATHERER_HIDE@2": {
+    "name": "Master's Skinner Cap .2",
+    "weight": 3.8
+  },
+  "T6_HEAD_GATHERER_HIDE@3": {
+    "name": "Master's Skinner Cap .3",
+    "weight": 3.8
+  },
+  "T6_HEAD_GATHERER_HIDE@4": {
+    "name": "Master's Skinner Cap .4",
+    "weight": 3.8
+  },
+  "T6_ARMOR_GATHERER_HIDE": {
+    "name": "Master's Skinner Garb",
+    "weight": 7.6
+  },
+  "T6_ARMOR_GATHERER_HIDE@1": {
+    "name": "Master's Skinner Garb .1",
+    "weight": 7.6
+  },
+  "T6_ARMOR_GATHERER_HIDE@2": {
+    "name": "Master's Skinner Garb .2",
+    "weight": 7.6
+  },
+  "T6_ARMOR_GATHERER_HIDE@3": {
+    "name": "Master's Skinner Garb .3",
+    "weight": 7.6
+  },
+  "T6_ARMOR_GATHERER_HIDE@4": {
+    "name": "Master's Skinner Garb .4",
+    "weight": 7.6
+  },
+  "T6_SHOES_GATHERER_HIDE": {
+    "name": "Master's Skinner Workboots",
+    "weight": 3.8
+  },
+  "T6_SHOES_GATHERER_HIDE@1": {
+    "name": "Master's Skinner Workboots .1",
+    "weight": 3.8
+  },
+  "T6_SHOES_GATHERER_HIDE@2": {
+    "name": "Master's Skinner Workboots .2",
+    "weight": 3.8
+  },
+  "T6_SHOES_GATHERER_HIDE@3": {
+    "name": "Master's Skinner Workboots .3",
+    "weight": 3.8
+  },
+  "T6_SHOES_GATHERER_HIDE@4": {
+    "name": "Master's Skinner Workboots .4",
+    "weight": 3.8
+  },
+  "T7_BACKPACK_GATHERER_FISH": {
+    "name": "Grandmaster's Fisherman Backpack",
+    "weight": 5.7
+  },
+  "T7_BACKPACK_GATHERER_FISH@1": {
+    "name": "Grandmaster's Fisherman Backpack .1",
+    "weight": 5.7
+  },
+  "T7_BACKPACK_GATHERER_FISH@2": {
+    "name": "Grandmaster's Fisherman Backpack .2",
+    "weight": 5.7
+  },
+  "T7_BACKPACK_GATHERER_FISH@3": {
+    "name": "Grandmaster's Fisherman Backpack .3",
+    "weight": 5.7
+  },
+  "T7_BACKPACK_GATHERER_FISH@4": {
+    "name": "Grandmaster's Fisherman Backpack .4",
+    "weight": 5.7
+  },
+  "T7_HEAD_GATHERER_FISH": {
+    "name": "Grandmaster's Fisherman Cap",
+    "weight": 5.7
+  },
+  "T7_HEAD_GATHERER_FISH@1": {
+    "name": "Grandmaster's Fisherman Cap .1",
+    "weight": 5.7
+  },
+  "T7_HEAD_GATHERER_FISH@2": {
+    "name": "Grandmaster's Fisherman Cap .2",
+    "weight": 5.7
+  },
+  "T7_HEAD_GATHERER_FISH@3": {
+    "name": "Grandmaster's Fisherman Cap .3",
+    "weight": 5.7
+  },
+  "T7_HEAD_GATHERER_FISH@4": {
+    "name": "Grandmaster's Fisherman Cap .4",
+    "weight": 5.7
+  },
+  "T7_ARMOR_GATHERER_FISH": {
+    "name": "Grandmaster's Fisherman Garb",
+    "weight": 11.4
+  },
+  "T7_ARMOR_GATHERER_FISH@1": {
+    "name": "Grandmaster's Fisherman Garb .1",
+    "weight": 11.4
+  },
+  "T7_ARMOR_GATHERER_FISH@2": {
+    "name": "Grandmaster's Fisherman Garb .2",
+    "weight": 11.4
+  },
+  "T7_ARMOR_GATHERER_FISH@3": {
+    "name": "Grandmaster's Fisherman Garb .3",
+    "weight": 11.4
+  },
+  "T7_ARMOR_GATHERER_FISH@4": {
+    "name": "Grandmaster's Fisherman Garb .4",
+    "weight": 11.4
+  },
+  "T7_SHOES_GATHERER_FISH": {
+    "name": "Grandmaster's Fisherman Workboots",
+    "weight": 5.7
+  },
+  "T7_SHOES_GATHERER_FISH@1": {
+    "name": "Grandmaster's Fisherman Workboots .1",
+    "weight": 5.7
+  },
+  "T7_SHOES_GATHERER_FISH@2": {
+    "name": "Grandmaster's Fisherman Workboots .2",
+    "weight": 5.7
+  },
+  "T7_SHOES_GATHERER_FISH@3": {
+    "name": "Grandmaster's Fisherman Workboots .3",
+    "weight": 5.7
+  },
+  "T7_SHOES_GATHERER_FISH@4": {
+    "name": "Grandmaster's Fisherman Workboots .4",
+    "weight": 5.7
+  },
+  "T7_BACKPACK_GATHERER_FIBER": {
+    "name": "Grandmaster's Harvester Backpack",
+    "weight": 5.7
+  },
+  "T7_BACKPACK_GATHERER_FIBER@1": {
+    "name": "Grandmaster's Harvester Backpack .1",
+    "weight": 5.7
+  },
+  "T7_BACKPACK_GATHERER_FIBER@2": {
+    "name": "Grandmaster's Harvester Backpack .2",
+    "weight": 5.7
+  },
+  "T7_BACKPACK_GATHERER_FIBER@3": {
+    "name": "Grandmaster's Harvester Backpack .3",
+    "weight": 5.7
+  },
+  "T7_BACKPACK_GATHERER_FIBER@4": {
+    "name": "Grandmaster's Harvester Backpack .4",
+    "weight": 5.7
+  },
+  "T7_HEAD_GATHERER_FIBER": {
+    "name": "Grandmaster's Harvester Cap",
+    "weight": 5.7
+  },
+  "T7_HEAD_GATHERER_FIBER@1": {
+    "name": "Grandmaster's Harvester Cap .1",
+    "weight": 5.7
+  },
+  "T7_HEAD_GATHERER_FIBER@2": {
+    "name": "Grandmaster's Harvester Cap .2",
+    "weight": 5.7
+  },
+  "T7_HEAD_GATHERER_FIBER@3": {
+    "name": "Grandmaster's Harvester Cap .3",
+    "weight": 5.7
+  },
+  "T7_HEAD_GATHERER_FIBER@4": {
+    "name": "Grandmaster's Harvester Cap .4",
+    "weight": 5.7
+  },
+  "T7_ARMOR_GATHERER_FIBER": {
+    "name": "Grandmaster's Harvester Garb",
+    "weight": 11.4
+  },
+  "T7_ARMOR_GATHERER_FIBER@1": {
+    "name": "Grandmaster's Harvester Garb .1",
+    "weight": 11.4
+  },
+  "T7_ARMOR_GATHERER_FIBER@2": {
+    "name": "Grandmaster's Harvester Garb .2",
+    "weight": 11.4
+  },
+  "T7_ARMOR_GATHERER_FIBER@3": {
+    "name": "Grandmaster's Harvester Garb .3",
+    "weight": 11.4
+  },
+  "T7_ARMOR_GATHERER_FIBER@4": {
+    "name": "Grandmaster's Harvester Garb .4",
+    "weight": 11.4
+  },
+  "T7_SHOES_GATHERER_FIBER": {
+    "name": "Grandmaster's Harvester Workboots",
+    "weight": 5.7
+  },
+  "T7_SHOES_GATHERER_FIBER@1": {
+    "name": "Grandmaster's Harvester Workboots .1",
+    "weight": 5.7
+  },
+  "T7_SHOES_GATHERER_FIBER@2": {
+    "name": "Grandmaster's Harvester Workboots .2",
+    "weight": 5.7
+  },
+  "T7_SHOES_GATHERER_FIBER@3": {
+    "name": "Grandmaster's Harvester Workboots .3",
+    "weight": 5.7
+  },
+  "T7_SHOES_GATHERER_FIBER@4": {
+    "name": "Grandmaster's Harvester Workboots .4",
+    "weight": 5.7
+  },
+  "T7_BACKPACK_GATHERER_WOOD": {
+    "name": "Grandmaster's Lumberjack Backpack",
+    "weight": 5.7
+  },
+  "T7_BACKPACK_GATHERER_WOOD@1": {
+    "name": "Grandmaster's Lumberjack Backpack .1",
+    "weight": 5.7
+  },
+  "T7_BACKPACK_GATHERER_WOOD@2": {
+    "name": "Grandmaster's Lumberjack Backpack .2",
+    "weight": 5.7
+  },
+  "T7_BACKPACK_GATHERER_WOOD@3": {
+    "name": "Grandmaster's Lumberjack Backpack .3",
+    "weight": 5.7
+  },
+  "T7_BACKPACK_GATHERER_WOOD@4": {
+    "name": "Grandmaster's Lumberjack Backpack .4",
+    "weight": 5.7
+  },
+  "T7_HEAD_GATHERER_WOOD": {
+    "name": "Grandmaster's Lumberjack Cap",
+    "weight": 5.7
+  },
+  "T7_HEAD_GATHERER_WOOD@1": {
+    "name": "Grandmaster's Lumberjack Cap .1",
+    "weight": 5.7
+  },
+  "T7_HEAD_GATHERER_WOOD@2": {
+    "name": "Grandmaster's Lumberjack Cap .2",
+    "weight": 5.7
+  },
+  "T7_HEAD_GATHERER_WOOD@3": {
+    "name": "Grandmaster's Lumberjack Cap .3",
+    "weight": 5.7
+  },
+  "T7_HEAD_GATHERER_WOOD@4": {
+    "name": "Grandmaster's Lumberjack Cap .4",
+    "weight": 5.7
+  },
+  "T7_ARMOR_GATHERER_WOOD": {
+    "name": "Grandmaster's Lumberjack Garb",
+    "weight": 11.4
+  },
+  "T7_ARMOR_GATHERER_WOOD@1": {
+    "name": "Grandmaster's Lumberjack Garb .1",
+    "weight": 11.4
+  },
+  "T7_ARMOR_GATHERER_WOOD@2": {
+    "name": "Grandmaster's Lumberjack Garb .2",
+    "weight": 11.4
+  },
+  "T7_ARMOR_GATHERER_WOOD@3": {
+    "name": "Grandmaster's Lumberjack Garb .3",
+    "weight": 11.4
+  },
+  "T7_ARMOR_GATHERER_WOOD@4": {
+    "name": "Grandmaster's Lumberjack Garb .4",
+    "weight": 11.4
+  },
+  "T7_SHOES_GATHERER_WOOD": {
+    "name": "Grandmaster's Lumberjack Workboots",
+    "weight": 5.7
+  },
+  "T7_SHOES_GATHERER_WOOD@1": {
+    "name": "Grandmaster's Lumberjack Workboots .1",
+    "weight": 5.7
+  },
+  "T7_SHOES_GATHERER_WOOD@2": {
+    "name": "Grandmaster's Lumberjack Workboots .2",
+    "weight": 5.7
+  },
+  "T7_SHOES_GATHERER_WOOD@3": {
+    "name": "Grandmaster's Lumberjack Workboots .3",
+    "weight": 5.7
+  },
+  "T7_SHOES_GATHERER_WOOD@4": {
+    "name": "Grandmaster's Lumberjack Workboots .4",
+    "weight": 5.7
+  },
+  "T7_BACKPACK_GATHERER_ORE": {
+    "name": "Grandmaster's Miner's Backpack",
+    "weight": 5.7
+  },
+  "T7_BACKPACK_GATHERER_ORE@1": {
+    "name": "Grandmaster's Miner's Backpack .1",
+    "weight": 5.7
+  },
+  "T7_BACKPACK_GATHERER_ORE@2": {
+    "name": "Grandmaster's Miner's Backpack .2",
+    "weight": 5.7
+  },
+  "T7_BACKPACK_GATHERER_ORE@3": {
+    "name": "Grandmaster's Miner's Backpack .3",
+    "weight": 5.7
+  },
+  "T7_BACKPACK_GATHERER_ORE@4": {
+    "name": "Grandmaster's Miner's Backpack .4",
+    "weight": 5.7
+  },
+  "T7_HEAD_GATHERER_ORE": {
+    "name": "Grandmaster's Miner's Cap",
+    "weight": 5.7
+  },
+  "T7_HEAD_GATHERER_ORE@1": {
+    "name": "Grandmaster's Miner's Cap .1",
+    "weight": 5.7
+  },
+  "T7_HEAD_GATHERER_ORE@2": {
+    "name": "Grandmaster's Miner's Cap .2",
+    "weight": 5.7
+  },
+  "T7_HEAD_GATHERER_ORE@3": {
+    "name": "Grandmaster's Miner's Cap .3",
+    "weight": 5.7
+  },
+  "T7_HEAD_GATHERER_ORE@4": {
+    "name": "Grandmaster's Miner's Cap .4",
+    "weight": 5.7
+  },
+  "T7_ARMOR_GATHERER_ORE": {
+    "name": "Grandmaster's Miner's Garb",
+    "weight": 11.4
+  },
+  "T7_ARMOR_GATHERER_ORE@1": {
+    "name": "Grandmaster's Miner's Garb .1",
+    "weight": 11.4
+  },
+  "T7_ARMOR_GATHERER_ORE@2": {
+    "name": "Grandmaster's Miner's Garb .2",
+    "weight": 11.4
+  },
+  "T7_ARMOR_GATHERER_ORE@3": {
+    "name": "Grandmaster's Miner's Garb .3",
+    "weight": 11.4
+  },
+  "T7_ARMOR_GATHERER_ORE@4": {
+    "name": "Grandmaster's Miner's Garb .4",
+    "weight": 11.4
+  },
+  "T7_SHOES_GATHERER_ORE": {
+    "name": "Grandmaster's Miner's Workboots",
+    "weight": 5.7
+  },
+  "T7_SHOES_GATHERER_ORE@1": {
+    "name": "Grandmaster's Miner's Workboots .1",
+    "weight": 5.7
+  },
+  "T7_SHOES_GATHERER_ORE@2": {
+    "name": "Grandmaster's Miner's Workboots .2",
+    "weight": 5.7
+  },
+  "T7_SHOES_GATHERER_ORE@3": {
+    "name": "Grandmaster's Miner's Workboots .3",
+    "weight": 5.7
+  },
+  "T7_SHOES_GATHERER_ORE@4": {
+    "name": "Grandmaster's Miner's Workboots .4",
+    "weight": 5.7
+  },
+  "T7_BACKPACK_GATHERER_ROCK": {
+    "name": "Grandmaster's Quarrier's Backpack",
+    "weight": 5.7
+  },
+  "T7_BACKPACK_GATHERER_ROCK@1": {
+    "name": "Grandmaster's Quarrier's Backpack .1",
+    "weight": 5.7
+  },
+  "T7_BACKPACK_GATHERER_ROCK@2": {
+    "name": "Grandmaster's Quarrier's Backpack .2",
+    "weight": 5.7
+  },
+  "T7_BACKPACK_GATHERER_ROCK@3": {
+    "name": "Grandmaster's Quarrier's Backpack .3",
+    "weight": 5.7
+  },
+  "T7_BACKPACK_GATHERER_ROCK@4": {
+    "name": "Grandmaster's Quarrier's Backpack .4",
+    "weight": 5.7
+  },
+  "T7_HEAD_GATHERER_ROCK": {
+    "name": "Grandmaster's Quarrier's Cap",
+    "weight": 5.7
+  },
+  "T7_HEAD_GATHERER_ROCK@1": {
+    "name": "Grandmaster's Quarrier's Cap .1",
+    "weight": 5.7
+  },
+  "T7_HEAD_GATHERER_ROCK@2": {
+    "name": "Grandmaster's Quarrier's Cap .2",
+    "weight": 5.7
+  },
+  "T7_HEAD_GATHERER_ROCK@3": {
+    "name": "Grandmaster's Quarrier's Cap .3",
+    "weight": 5.7
+  },
+  "T7_HEAD_GATHERER_ROCK@4": {
+    "name": "Grandmaster's Quarrier's Cap .4",
+    "weight": 5.7
+  },
+  "T7_ARMOR_GATHERER_ROCK": {
+    "name": "Grandmaster's Quarrier's Garb",
+    "weight": 11.4
+  },
+  "T7_ARMOR_GATHERER_ROCK@1": {
+    "name": "Grandmaster's Quarrier's Garb .1",
+    "weight": 11.4
+  },
+  "T7_ARMOR_GATHERER_ROCK@2": {
+    "name": "Grandmaster's Quarrier's Garb .2",
+    "weight": 11.4
+  },
+  "T7_ARMOR_GATHERER_ROCK@3": {
+    "name": "Grandmaster's Quarrier's Garb .3",
+    "weight": 11.4
+  },
+  "T7_ARMOR_GATHERER_ROCK@4": {
+    "name": "Grandmaster's Quarrier's Garb .4",
+    "weight": 11.4
+  },
+  "T7_SHOES_GATHERER_ROCK": {
+    "name": "Grandmaster's Quarrier's Workboots",
+    "weight": 5.7
+  },
+  "T7_SHOES_GATHERER_ROCK@1": {
+    "name": "Grandmaster's Quarrier's Workboots .1",
+    "weight": 5.7
+  },
+  "T7_SHOES_GATHERER_ROCK@2": {
+    "name": "Grandmaster's Quarrier's Workboots .2",
+    "weight": 5.7
+  },
+  "T7_SHOES_GATHERER_ROCK@3": {
+    "name": "Grandmaster's Quarrier's Workboots .3",
+    "weight": 5.7
+  },
+  "T7_SHOES_GATHERER_ROCK@4": {
+    "name": "Grandmaster's Quarrier's Workboots .4",
+    "weight": 5.7
+  },
+  "T7_BACKPACK_GATHERER_HIDE": {
+    "name": "Grandmaster's Skinner Backpack",
+    "weight": 5.7
+  },
+  "T7_BACKPACK_GATHERER_HIDE@1": {
+    "name": "Grandmaster's Skinner Backpack .1",
+    "weight": 5.7
+  },
+  "T7_BACKPACK_GATHERER_HIDE@2": {
+    "name": "Grandmaster's Skinner Backpack .2",
+    "weight": 5.7
+  },
+  "T7_BACKPACK_GATHERER_HIDE@3": {
+    "name": "Grandmaster's Skinner Backpack .3",
+    "weight": 5.7
+  },
+  "T7_BACKPACK_GATHERER_HIDE@4": {
+    "name": "Grandmaster's Skinner Backpack .4",
+    "weight": 5.7
+  },
+  "T7_HEAD_GATHERER_HIDE": {
+    "name": "Grandmaster's Skinner Cap",
+    "weight": 5.7
+  },
+  "T7_HEAD_GATHERER_HIDE@1": {
+    "name": "Grandmaster's Skinner Cap .1",
+    "weight": 5.7
+  },
+  "T7_HEAD_GATHERER_HIDE@2": {
+    "name": "Grandmaster's Skinner Cap .2",
+    "weight": 5.7
+  },
+  "T7_HEAD_GATHERER_HIDE@3": {
+    "name": "Grandmaster's Skinner Cap .3",
+    "weight": 5.7
+  },
+  "T7_HEAD_GATHERER_HIDE@4": {
+    "name": "Grandmaster's Skinner Cap .4",
+    "weight": 5.7
+  },
+  "T7_ARMOR_GATHERER_HIDE": {
+    "name": "Grandmaster's Skinner Garb",
+    "weight": 11.4
+  },
+  "T7_ARMOR_GATHERER_HIDE@1": {
+    "name": "Grandmaster's Skinner Garb .1",
+    "weight": 11.4
+  },
+  "T7_ARMOR_GATHERER_HIDE@2": {
+    "name": "Grandmaster's Skinner Garb .2",
+    "weight": 11.4
+  },
+  "T7_ARMOR_GATHERER_HIDE@3": {
+    "name": "Grandmaster's Skinner Garb .3",
+    "weight": 11.4
+  },
+  "T7_ARMOR_GATHERER_HIDE@4": {
+    "name": "Grandmaster's Skinner Garb .4",
+    "weight": 11.4
+  },
+  "T7_SHOES_GATHERER_HIDE": {
+    "name": "Grandmaster's Skinner Workboots",
+    "weight": 5.7
+  },
+  "T7_SHOES_GATHERER_HIDE@1": {
+    "name": "Grandmaster's Skinner Workboots .1",
+    "weight": 5.7
+  },
+  "T7_SHOES_GATHERER_HIDE@2": {
+    "name": "Grandmaster's Skinner Workboots .2",
+    "weight": 5.7
+  },
+  "T7_SHOES_GATHERER_HIDE@3": {
+    "name": "Grandmaster's Skinner Workboots .3",
+    "weight": 5.7
+  },
+  "T7_SHOES_GATHERER_HIDE@4": {
+    "name": "Grandmaster's Skinner Workboots .4",
+    "weight": 5.7
+  },
+  "T8_BACKPACK_GATHERER_FISH": {
+    "name": "Elder's Fisherman Backpack",
+    "weight": 8.5
+  },
+  "T8_BACKPACK_GATHERER_FISH@1": {
+    "name": "Elder's Fisherman Backpack .1",
+    "weight": 8.5
+  },
+  "T8_BACKPACK_GATHERER_FISH@2": {
+    "name": "Elder's Fisherman Backpack .2",
+    "weight": 8.5
+  },
+  "T8_BACKPACK_GATHERER_FISH@3": {
+    "name": "Elder's Fisherman Backpack .3",
+    "weight": 8.5
+  },
+  "T8_BACKPACK_GATHERER_FISH@4": {
+    "name": "Elder's Fisherman Backpack .4",
+    "weight": 8.5
+  },
+  "T8_HEAD_GATHERER_FISH": {
+    "name": "Elder's Fisherman Cap",
+    "weight": 8.5
+  },
+  "T8_HEAD_GATHERER_FISH@1": {
+    "name": "Elder's Fisherman Cap .1",
+    "weight": 8.5
+  },
+  "T8_HEAD_GATHERER_FISH@2": {
+    "name": "Elder's Fisherman Cap .2",
+    "weight": 8.5
+  },
+  "T8_HEAD_GATHERER_FISH@3": {
+    "name": "Elder's Fisherman Cap .3",
+    "weight": 8.5
+  },
+  "T8_HEAD_GATHERER_FISH@4": {
+    "name": "Elder's Fisherman Cap .4",
+    "weight": 8.5
+  },
+  "T8_ARMOR_GATHERER_FISH": {
+    "name": "Elder's Fisherman Garb",
+    "weight": 17.1
+  },
+  "T8_ARMOR_GATHERER_FISH@1": {
+    "name": "Elder's Fisherman Garb .1",
+    "weight": 17.1
+  },
+  "T8_ARMOR_GATHERER_FISH@2": {
+    "name": "Elder's Fisherman Garb .2",
+    "weight": 17.1
+  },
+  "T8_ARMOR_GATHERER_FISH@3": {
+    "name": "Elder's Fisherman Garb .3",
+    "weight": 17.1
+  },
+  "T8_ARMOR_GATHERER_FISH@4": {
+    "name": "Elder's Fisherman Garb .4",
+    "weight": 17.1
+  },
+  "T8_SHOES_GATHERER_FISH": {
+    "name": "Elder's Fisherman Workboots",
+    "weight": 8.5
+  },
+  "T8_SHOES_GATHERER_FISH@1": {
+    "name": "Elder's Fisherman Workboots .1",
+    "weight": 8.5
+  },
+  "T8_SHOES_GATHERER_FISH@2": {
+    "name": "Elder's Fisherman Workboots .2",
+    "weight": 8.5
+  },
+  "T8_SHOES_GATHERER_FISH@3": {
+    "name": "Elder's Fisherman Workboots .3",
+    "weight": 8.5
+  },
+  "T8_SHOES_GATHERER_FISH@4": {
+    "name": "Elder's Fisherman Workboots .4",
+    "weight": 8.5
+  },
+  "T8_BACKPACK_GATHERER_FIBER": {
+    "name": "Elder's Harvester Backpack",
+    "weight": 8.5
+  },
+  "T8_BACKPACK_GATHERER_FIBER@1": {
+    "name": "Elder's Harvester Backpack .1",
+    "weight": 8.5
+  },
+  "T8_BACKPACK_GATHERER_FIBER@2": {
+    "name": "Elder's Harvester Backpack .2",
+    "weight": 8.5
+  },
+  "T8_BACKPACK_GATHERER_FIBER@3": {
+    "name": "Elder's Harvester Backpack .3",
+    "weight": 8.5
+  },
+  "T8_BACKPACK_GATHERER_FIBER@4": {
+    "name": "Elder's Harvester Backpack .4",
+    "weight": 8.5
+  },
+  "T8_HEAD_GATHERER_FIBER": {
+    "name": "Elder's Harvester Cap",
+    "weight": 8.5
+  },
+  "T8_HEAD_GATHERER_FIBER@1": {
+    "name": "Elder's Harvester Cap .1",
+    "weight": 8.5
+  },
+  "T8_HEAD_GATHERER_FIBER@2": {
+    "name": "Elder's Harvester Cap .2",
+    "weight": 8.5
+  },
+  "T8_HEAD_GATHERER_FIBER@3": {
+    "name": "Elder's Harvester Cap .3",
+    "weight": 8.5
+  },
+  "T8_HEAD_GATHERER_FIBER@4": {
+    "name": "Elder's Harvester Cap .4",
+    "weight": 8.5
+  },
+  "T8_ARMOR_GATHERER_FIBER": {
+    "name": "Elder's Harvester Garb",
+    "weight": 17.1
+  },
+  "T8_ARMOR_GATHERER_FIBER@1": {
+    "name": "Elder's Harvester Garb .1",
+    "weight": 17.1
+  },
+  "T8_ARMOR_GATHERER_FIBER@2": {
+    "name": "Elder's Harvester Garb .2",
+    "weight": 17.1
+  },
+  "T8_ARMOR_GATHERER_FIBER@3": {
+    "name": "Elder's Harvester Garb .3",
+    "weight": 17.1
+  },
+  "T8_ARMOR_GATHERER_FIBER@4": {
+    "name": "Elder's Harvester Garb .4",
+    "weight": 17.1
+  },
+  "T8_SHOES_GATHERER_FIBER": {
+    "name": "Elder's Harvester Workboots",
+    "weight": 8.5
+  },
+  "T8_SHOES_GATHERER_FIBER@1": {
+    "name": "Elder's Harvester Workboots .1",
+    "weight": 8.5
+  },
+  "T8_SHOES_GATHERER_FIBER@2": {
+    "name": "Elder's Harvester Workboots .2",
+    "weight": 8.5
+  },
+  "T8_SHOES_GATHERER_FIBER@3": {
+    "name": "Elder's Harvester Workboots .3",
+    "weight": 8.5
+  },
+  "T8_SHOES_GATHERER_FIBER@4": {
+    "name": "Elder's Harvester Workboots .4",
+    "weight": 8.5
+  },
+  "T8_BACKPACK_GATHERER_WOOD": {
+    "name": "Elder's Lumberjack Backpack",
+    "weight": 8.5
+  },
+  "T8_BACKPACK_GATHERER_WOOD@1": {
+    "name": "Elder's Lumberjack Backpack .1",
+    "weight": 8.5
+  },
+  "T8_BACKPACK_GATHERER_WOOD@2": {
+    "name": "Elder's Lumberjack Backpack .2",
+    "weight": 8.5
+  },
+  "T8_BACKPACK_GATHERER_WOOD@3": {
+    "name": "Elder's Lumberjack Backpack .3",
+    "weight": 8.5
+  },
+  "T8_BACKPACK_GATHERER_WOOD@4": {
+    "name": "Elder's Lumberjack Backpack .4",
+    "weight": 8.5
+  },
+  "T8_HEAD_GATHERER_WOOD": {
+    "name": "Elder's Lumberjack Cap",
+    "weight": 8.5
+  },
+  "T8_HEAD_GATHERER_WOOD@1": {
+    "name": "Elder's Lumberjack Cap .1",
+    "weight": 8.5
+  },
+  "T8_HEAD_GATHERER_WOOD@2": {
+    "name": "Elder's Lumberjack Cap .2",
+    "weight": 8.5
+  },
+  "T8_HEAD_GATHERER_WOOD@3": {
+    "name": "Elder's Lumberjack Cap .3",
+    "weight": 8.5
+  },
+  "T8_HEAD_GATHERER_WOOD@4": {
+    "name": "Elder's Lumberjack Cap .4",
+    "weight": 8.5
+  },
+  "T8_ARMOR_GATHERER_WOOD": {
+    "name": "Elder's Lumberjack Garb",
+    "weight": 17.1
+  },
+  "T8_ARMOR_GATHERER_WOOD@1": {
+    "name": "Elder's Lumberjack Garb .1",
+    "weight": 17.1
+  },
+  "T8_ARMOR_GATHERER_WOOD@2": {
+    "name": "Elder's Lumberjack Garb .2",
+    "weight": 17.1
+  },
+  "T8_ARMOR_GATHERER_WOOD@3": {
+    "name": "Elder's Lumberjack Garb .3",
+    "weight": 17.1
+  },
+  "T8_ARMOR_GATHERER_WOOD@4": {
+    "name": "Elder's Lumberjack Garb .4",
+    "weight": 17.1
+  },
+  "T8_SHOES_GATHERER_WOOD": {
+    "name": "Elder's Lumberjack Workboots",
+    "weight": 8.5
+  },
+  "T8_SHOES_GATHERER_WOOD@1": {
+    "name": "Elder's Lumberjack Workboots .1",
+    "weight": 8.5
+  },
+  "T8_SHOES_GATHERER_WOOD@2": {
+    "name": "Elder's Lumberjack Workboots .2",
+    "weight": 8.5
+  },
+  "T8_SHOES_GATHERER_WOOD@3": {
+    "name": "Elder's Lumberjack Workboots .3",
+    "weight": 8.5
+  },
+  "T8_SHOES_GATHERER_WOOD@4": {
+    "name": "Elder's Lumberjack Workboots .4",
+    "weight": 8.5
+  },
+  "T8_BACKPACK_GATHERER_ORE": {
+    "name": "Elder's Miner's Backpack",
+    "weight": 8.5
+  },
+  "T8_BACKPACK_GATHERER_ORE@1": {
+    "name": "Elder's Miner's Backpack .1",
+    "weight": 8.5
+  },
+  "T8_BACKPACK_GATHERER_ORE@2": {
+    "name": "Elder's Miner's Backpack .2",
+    "weight": 8.5
+  },
+  "T8_BACKPACK_GATHERER_ORE@3": {
+    "name": "Elder's Miner's Backpack .3",
+    "weight": 8.5
+  },
+  "T8_BACKPACK_GATHERER_ORE@4": {
+    "name": "Elder's Miner's Backpack .4",
+    "weight": 8.5
+  },
+  "T8_HEAD_GATHERER_ORE": {
+    "name": "Elder's Miner's Cap",
+    "weight": 8.5
+  },
+  "T8_HEAD_GATHERER_ORE@1": {
+    "name": "Elder's Miner's Cap .1",
+    "weight": 8.5
+  },
+  "T8_HEAD_GATHERER_ORE@2": {
+    "name": "Elder's Miner's Cap .2",
+    "weight": 8.5
+  },
+  "T8_HEAD_GATHERER_ORE@3": {
+    "name": "Elder's Miner's Cap .3",
+    "weight": 8.5
+  },
+  "T8_HEAD_GATHERER_ORE@4": {
+    "name": "Elder's Miner's Cap .4",
+    "weight": 8.5
+  },
+  "T8_ARMOR_GATHERER_ORE": {
+    "name": "Elder's Miner's Garb",
+    "weight": 17.1
+  },
+  "T8_ARMOR_GATHERER_ORE@1": {
+    "name": "Elder's Miner's Garb .1",
+    "weight": 17.1
+  },
+  "T8_ARMOR_GATHERER_ORE@2": {
+    "name": "Elder's Miner's Garb .2",
+    "weight": 17.1
+  },
+  "T8_ARMOR_GATHERER_ORE@3": {
+    "name": "Elder's Miner's Garb .3",
+    "weight": 17.1
+  },
+  "T8_ARMOR_GATHERER_ORE@4": {
+    "name": "Elder's Miner's Garb .4",
+    "weight": 17.1
+  },
+  "T8_SHOES_GATHERER_ORE": {
+    "name": "Elder's Miner's Workboots",
+    "weight": 8.5
+  },
+  "T8_SHOES_GATHERER_ORE@1": {
+    "name": "Elder's Miner's Workboots .1",
+    "weight": 8.5
+  },
+  "T8_SHOES_GATHERER_ORE@2": {
+    "name": "Elder's Miner's Workboots .2",
+    "weight": 8.5
+  },
+  "T8_SHOES_GATHERER_ORE@3": {
+    "name": "Elder's Miner's Workboots .3",
+    "weight": 8.5
+  },
+  "T8_SHOES_GATHERER_ORE@4": {
+    "name": "Elder's Miner's Workboots .4",
+    "weight": 8.5
+  },
+  "T8_BACKPACK_GATHERER_ROCK": {
+    "name": "Elder's Quarrier's Backpack",
+    "weight": 8.5
+  },
+  "T8_BACKPACK_GATHERER_ROCK@1": {
+    "name": "Elder's Quarrier's Backpack .1",
+    "weight": 8.5
+  },
+  "T8_BACKPACK_GATHERER_ROCK@2": {
+    "name": "Elder's Quarrier's Backpack .2",
+    "weight": 8.5
+  },
+  "T8_BACKPACK_GATHERER_ROCK@3": {
+    "name": "Elder's Quarrier's Backpack .3",
+    "weight": 8.5
+  },
+  "T8_BACKPACK_GATHERER_ROCK@4": {
+    "name": "Elder's Quarrier's Backpack .4",
+    "weight": 8.5
+  },
+  "T8_HEAD_GATHERER_ROCK": {
+    "name": "Elder's Quarrier's Cap",
+    "weight": 8.5
+  },
+  "T8_HEAD_GATHERER_ROCK@1": {
+    "name": "Elder's Quarrier's Cap .1",
+    "weight": 8.5
+  },
+  "T8_HEAD_GATHERER_ROCK@2": {
+    "name": "Elder's Quarrier's Cap .2",
+    "weight": 8.5
+  },
+  "T8_HEAD_GATHERER_ROCK@3": {
+    "name": "Elder's Quarrier's Cap .3",
+    "weight": 8.5
+  },
+  "T8_HEAD_GATHERER_ROCK@4": {
+    "name": "Elder's Quarrier's Cap .4",
+    "weight": 8.5
+  },
+  "T8_ARMOR_GATHERER_ROCK": {
+    "name": "Elder's Quarrier's Garb",
+    "weight": 17.1
+  },
+  "T8_ARMOR_GATHERER_ROCK@1": {
+    "name": "Elder's Quarrier's Garb .1",
+    "weight": 17.1
+  },
+  "T8_ARMOR_GATHERER_ROCK@2": {
+    "name": "Elder's Quarrier's Garb .2",
+    "weight": 17.1
+  },
+  "T8_ARMOR_GATHERER_ROCK@3": {
+    "name": "Elder's Quarrier's Garb .3",
+    "weight": 17.1
+  },
+  "T8_ARMOR_GATHERER_ROCK@4": {
+    "name": "Elder's Quarrier's Garb .4",
+    "weight": 17.1
+  },
+  "T8_SHOES_GATHERER_ROCK": {
+    "name": "Elder's Quarrier's Workboots",
+    "weight": 8.5
+  },
+  "T8_SHOES_GATHERER_ROCK@1": {
+    "name": "Elder's Quarrier's Workboots .1",
+    "weight": 8.5
+  },
+  "T8_SHOES_GATHERER_ROCK@2": {
+    "name": "Elder's Quarrier's Workboots .2",
+    "weight": 8.5
+  },
+  "T8_SHOES_GATHERER_ROCK@3": {
+    "name": "Elder's Quarrier's Workboots .3",
+    "weight": 8.5
+  },
+  "T8_SHOES_GATHERER_ROCK@4": {
+    "name": "Elder's Quarrier's Workboots .4",
+    "weight": 8.5
+  },
+  "T8_BACKPACK_GATHERER_HIDE": {
+    "name": "Elder's Skinner Backpack",
+    "weight": 8.5
+  },
+  "T8_BACKPACK_GATHERER_HIDE@1": {
+    "name": "Elder's Skinner Backpack .1",
+    "weight": 8.5
+  },
+  "T8_BACKPACK_GATHERER_HIDE@2": {
+    "name": "Elder's Skinner Backpack .2",
+    "weight": 8.5
+  },
+  "T8_BACKPACK_GATHERER_HIDE@3": {
+    "name": "Elder's Skinner Backpack .3",
+    "weight": 8.5
+  },
+  "T8_BACKPACK_GATHERER_HIDE@4": {
+    "name": "Elder's Skinner Backpack .4",
+    "weight": 8.5
+  },
+  "T8_HEAD_GATHERER_HIDE": {
+    "name": "Elder's Skinner Cap",
+    "weight": 8.5
+  },
+  "T8_HEAD_GATHERER_HIDE@1": {
+    "name": "Elder's Skinner Cap .1",
+    "weight": 8.5
+  },
+  "T8_HEAD_GATHERER_HIDE@2": {
+    "name": "Elder's Skinner Cap .2",
+    "weight": 8.5
+  },
+  "T8_HEAD_GATHERER_HIDE@3": {
+    "name": "Elder's Skinner Cap .3",
+    "weight": 8.5
+  },
+  "T8_HEAD_GATHERER_HIDE@4": {
+    "name": "Elder's Skinner Cap .4",
+    "weight": 8.5
+  },
+  "T8_ARMOR_GATHERER_HIDE": {
+    "name": "Elder's Skinner Garb",
+    "weight": 17.1
+  },
+  "T8_ARMOR_GATHERER_HIDE@1": {
+    "name": "Elder's Skinner Garb .1",
+    "weight": 17.1
+  },
+  "T8_ARMOR_GATHERER_HIDE@2": {
+    "name": "Elder's Skinner Garb .2",
+    "weight": 17.1
+  },
+  "T8_ARMOR_GATHERER_HIDE@3": {
+    "name": "Elder's Skinner Garb .3",
+    "weight": 17.1
+  },
+  "T8_ARMOR_GATHERER_HIDE@4": {
+    "name": "Elder's Skinner Garb .4",
+    "weight": 17.1
+  },
+  "T8_SHOES_GATHERER_HIDE": {
+    "name": "Elder's Skinner Workboots",
+    "weight": 8.5
+  },
+  "T8_SHOES_GATHERER_HIDE@1": {
+    "name": "Elder's Skinner Workboots .1",
+    "weight": 8.5
+  },
+  "T8_SHOES_GATHERER_HIDE@2": {
+    "name": "Elder's Skinner Workboots .2",
+    "weight": 8.5
+  },
+  "T8_SHOES_GATHERER_HIDE@3": {
+    "name": "Elder's Skinner Workboots .3",
+    "weight": 8.5
+  },
+  "T8_SHOES_GATHERER_HIDE@4": {
+    "name": "Elder's Skinner Workboots .4",
+    "weight": 8.5
+  },
+  "T2_OFF_SHIELD": {
+    "name": "Novice's Shield",
+    "weight": 0.8
+  },
+  "T2_PLANKS": {
+    "name": "Birch Planks",
+    "weight": 0.23
+  },
+  "T2_OFF_BOOK": {
+    "name": "Novice's Tome of Spells",
+    "weight": 0.8
+  },
+  "T3_OFF_SHIELD": {
+    "name": "Journeyman's Shield",
+    "weight": 1.1
+  },
+  "T3_PLANKS": {
+    "name": "Chestnut Planks",
+    "weight": 0.34
+  },
+  "T3_OFF_BOOK": {
+    "name": "Journeyman's Tome of Spells",
+    "weight": 1.1
+  },
+  "T3_OFF_TORCH": {
+    "name": "Journeyman's Torch",
+    "weight": 1.1
+  },
+  "T4_OFF_CENSER_AVALON": {
+    "name": "Adept's Celestial Censer",
+    "weight": 1.7
+  },
+  "T4_ARTEFACT_OFF_CENSER_AVALON": {
+    "name": "Adept's Artefact Censer Avalon",
+    "weight": 2
+  },
+  "T4_OFF_CENSER_AVALON@1": {
+    "name": "Adept's Celestial Censer .1",
+    "weight": 1.7
+  },
+  "T4_OFF_CENSER_AVALON@2": {
+    "name": "Adept's Celestial Censer .2",
+    "weight": 1.7
+  },
+  "T4_OFF_CENSER_AVALON@3": {
+    "name": "Adept's Celestial Censer .3",
+    "weight": 1.7
+  },
+  "T4_OFF_CENSER_AVALON@4": {
+    "name": "Adept's Celestial Censer .4",
+    "weight": 1.7
+  },
+  "T4_OFF_LAMP_UNDEAD": {
+    "name": "Adept's Cryptcandle",
+    "weight": 1.7
+  },
+  "T4_PLANKS": {
+    "name": "Pine Planks",
+    "weight": 0.51
+  },
+  "T4_ARTEFACT_OFF_LAMP_UNDEAD": {
+    "name": "Adept's Artefact Lamp Undead",
+    "weight": 2
+  },
+  "T4_OFF_LAMP_UNDEAD@1": {
+    "name": "Adept's Cryptcandle .1",
+    "weight": 1.7
+  },
+  "T4_PLANKS@1": {
+    "name": "Pine Planks .1",
+    "weight": 0.51
+  },
+  "T4_OFF_LAMP_UNDEAD@2": {
+    "name": "Adept's Cryptcandle .2",
+    "weight": 1.7
+  },
+  "T4_PLANKS@2": {
+    "name": "Pine Planks .2",
+    "weight": 0.51
+  },
+  "T4_OFF_LAMP_UNDEAD@3": {
+    "name": "Adept's Cryptcandle .3",
+    "weight": 1.7
+  },
+  "T4_PLANKS@3": {
+    "name": "Pine Planks .3",
+    "weight": 0.51
+  },
+  "T4_OFF_LAMP_UNDEAD@4": {
+    "name": "Adept's Cryptcandle .4",
+    "weight": 1.7
+  },
+  "T4_PLANKS@4": {
+    "name": "Pine Planks .4",
+    "weight": 0.51
+  },
+  "T4_OFF_DEMONSKULL_HELL": {
+    "name": "Adept's Muisak",
+    "weight": 1.7
+  },
+  "T4_ARTEFACT_OFF_DEMONSKULL_HELL": {
+    "name": "Adept's Artefact Demonskull Hell",
+    "weight": 2
+  },
+  "T4_OFF_DEMONSKULL_HELL@1": {
+    "name": "Adept's Muisak .1",
+    "weight": 1.7
+  },
+  "T4_OFF_DEMONSKULL_HELL@2": {
+    "name": "Adept's Muisak .2",
+    "weight": 1.7
+  },
+  "T4_OFF_DEMONSKULL_HELL@3": {
+    "name": "Adept's Muisak .3",
+    "weight": 1.7
+  },
+  "T4_OFF_DEMONSKULL_HELL@4": {
+    "name": "Adept's Muisak .4",
+    "weight": 1.7
+  },
+  "T4_OFF_ORB_MORGANA": {
+    "name": "Adept's Eye of Secrets",
+    "weight": 1.7
+  },
+  "T4_ARTEFACT_OFF_ORB_MORGANA": {
+    "name": "Adept's Artefact Orb Morgana",
+    "weight": 2
+  },
+  "T4_OFF_ORB_MORGANA@1": {
+    "name": "Adept's Eye of Secrets .1",
+    "weight": 1.7
+  },
+  "T4_OFF_ORB_MORGANA@2": {
+    "name": "Adept's Eye of Secrets .2",
+    "weight": 1.7
+  },
+  "T4_OFF_ORB_MORGANA@3": {
+    "name": "Adept's Eye of Secrets .3",
+    "weight": 1.7
+  },
+  "T4_OFF_ORB_MORGANA@4": {
+    "name": "Adept's Eye of Secrets .4",
+    "weight": 1.7
+  },
+  "T4_OFF_JESTERCANE_HELL": {
+    "name": "Adept's Leering Cane",
+    "weight": 1.7
+  },
+  "T4_ARTEFACT_OFF_JESTERCANE_HELL": {
+    "name": "Adept's Artefact Jestercane Hell",
+    "weight": 2
+  },
+  "T4_OFF_JESTERCANE_HELL@1": {
+    "name": "Adept's Leering Cane .1",
+    "weight": 1.7
+  },
+  "T4_OFF_JESTERCANE_HELL@2": {
+    "name": "Adept's Leering Cane .2",
+    "weight": 1.7
+  },
+  "T4_OFF_JESTERCANE_HELL@3": {
+    "name": "Adept's Leering Cane .3",
+    "weight": 1.7
+  },
+  "T4_OFF_JESTERCANE_HELL@4": {
+    "name": "Adept's Leering Cane .4",
+    "weight": 1.7
+  },
+  "T4_OFF_HORN_KEEPER": {
+    "name": "Adept's Mistcaller",
+    "weight": 1.7
+  },
+  "T4_ARTEFACT_OFF_HORN_KEEPER": {
+    "name": "Adept's Artefact Horn Keeper",
+    "weight": 2
+  },
+  "T4_OFF_HORN_KEEPER@1": {
+    "name": "Adept's Mistcaller .1",
+    "weight": 1.7
+  },
+  "T4_OFF_HORN_KEEPER@2": {
+    "name": "Adept's Mistcaller .2",
+    "weight": 1.7
+  },
+  "T4_OFF_HORN_KEEPER@3": {
+    "name": "Adept's Mistcaller .3",
+    "weight": 1.7
+  },
+  "T4_OFF_HORN_KEEPER@4": {
+    "name": "Adept's Mistcaller .4",
+    "weight": 1.7
+  },
+  "T4_OFF_TALISMAN_AVALON": {
+    "name": "Adept's Sacred Scepter",
+    "weight": 1.7
+  },
+  "T4_ARTEFACT_OFF_TALISMAN_AVALON": {
+    "name": "Adept's Artefact Talisman Avalon",
+    "weight": 2
+  },
+  "T4_OFF_TALISMAN_AVALON@1": {
+    "name": "Adept's Sacred Scepter .1",
+    "weight": 1.7
+  },
+  "T4_OFF_TALISMAN_AVALON@2": {
+    "name": "Adept's Sacred Scepter .2",
+    "weight": 1.7
+  },
+  "T4_OFF_TALISMAN_AVALON@3": {
+    "name": "Adept's Sacred Scepter .3",
+    "weight": 1.7
+  },
+  "T4_OFF_TALISMAN_AVALON@4": {
+    "name": "Adept's Sacred Scepter .4",
+    "weight": 1.7
+  },
+  "T4_OFF_SHIELD": {
+    "name": "Adept's Shield",
+    "weight": 1.7
+  },
+  "T4_OFF_SHIELD@1": {
+    "name": "Adept's Shield .1",
+    "weight": 1.7
+  },
+  "T4_OFF_SHIELD@2": {
+    "name": "Adept's Shield .2",
+    "weight": 1.7
+  },
+  "T4_OFF_SHIELD@3": {
+    "name": "Adept's Shield .3",
+    "weight": 1.7
+  },
+  "T4_OFF_SHIELD@4": {
+    "name": "Adept's Shield .4",
+    "weight": 1.7
+  },
+  "T4_OFF_SHIELD_AVALON": {
+    "name": "Adept's Astral Aegis",
+    "weight": 1.7
+  },
+  "T4_ARTEFACT_OFF_SHIELD_AVALON": {
+    "name": "Adept's Artefact Shield Avalon",
+    "weight": 2
+  },
+  "T4_OFF_SHIELD_AVALON@1": {
+    "name": "Adept's Astral Aegis .1",
+    "weight": 1.7
+  },
+  "T4_OFF_SHIELD_AVALON@2": {
+    "name": "Adept's Astral Aegis .2",
+    "weight": 1.7
+  },
+  "T4_OFF_SHIELD_AVALON@3": {
+    "name": "Adept's Astral Aegis .3",
+    "weight": 1.7
+  },
+  "T4_OFF_SHIELD_AVALON@4": {
+    "name": "Adept's Astral Aegis .4",
+    "weight": 1.7
+  },
+  "T4_OFF_SHIELD_CRYSTAL": {
+    "name": "Adept's Unbreakable Ward",
+    "weight": 1.7
+  },
+  "T4_ARTEFACT_OFF_SHIELD_CRYSTAL": {
+    "name": "Adept's Artefact Shield Crystal",
+    "weight": 2
+  },
+  "T4_OFF_SHIELD_CRYSTAL@1": {
+    "name": "Adept's Unbreakable Ward .1",
+    "weight": 1.7
+  },
+  "T4_OFF_SHIELD_CRYSTAL@2": {
+    "name": "Adept's Unbreakable Ward .2",
+    "weight": 1.7
+  },
+  "T4_OFF_SHIELD_CRYSTAL@3": {
+    "name": "Adept's Unbreakable Ward .3",
+    "weight": 1.7
+  },
+  "T4_OFF_SHIELD_CRYSTAL@4": {
+    "name": "Adept's Unbreakable Ward .4",
+    "weight": 1.7
+  },
+  "T4_OFF_SHIELD_HELL": {
+    "name": "Adept's Caitiff Shield",
+    "weight": 1.7
+  },
+  "T4_ARTEFACT_OFF_SHIELD_HELL": {
+    "name": "Adept's Artefact Shield Hell",
+    "weight": 2
+  },
+  "T4_OFF_SHIELD_HELL@1": {
+    "name": "Adept's Caitiff Shield .1",
+    "weight": 1.7
+  },
+  "T4_OFF_SHIELD_HELL@2": {
+    "name": "Adept's Caitiff Shield .2",
+    "weight": 1.7
+  },
+  "T4_OFF_SHIELD_HELL@3": {
+    "name": "Adept's Caitiff Shield .3",
+    "weight": 1.7
+  },
+  "T4_OFF_SHIELD_HELL@4": {
+    "name": "Adept's Caitiff Shield .4",
+    "weight": 1.7
+  },
+  "T4_OFF_SPIKEDSHIELD_MORGANA": {
+    "name": "Adept's Facebreaker",
+    "weight": 1.7
+  },
+  "T4_ARTEFACT_OFF_SPIKEDSHIELD_MORGANA": {
+    "name": "Adept's Artefact Spikedshield Morgana",
+    "weight": 2
+  },
+  "T4_OFF_SPIKEDSHIELD_MORGANA@1": {
+    "name": "Adept's Facebreaker .1",
+    "weight": 1.7
+  },
+  "T4_OFF_SPIKEDSHIELD_MORGANA@2": {
+    "name": "Adept's Facebreaker .2",
+    "weight": 1.7
+  },
+  "T4_OFF_SPIKEDSHIELD_MORGANA@3": {
+    "name": "Adept's Facebreaker .3",
+    "weight": 1.7
+  },
+  "T4_OFF_SPIKEDSHIELD_MORGANA@4": {
+    "name": "Adept's Facebreaker .4",
+    "weight": 1.7
+  },
+  "T4_OFF_TOTEM_KEEPER": {
+    "name": "Adept's Taproot",
+    "weight": 1.7
+  },
+  "T4_ARTEFACT_OFF_TOTEM_KEEPER": {
+    "name": "Adept's Artefact Totem Keeper",
+    "weight": 2
+  },
+  "T4_OFF_TOTEM_KEEPER@1": {
+    "name": "Adept's Taproot .1",
+    "weight": 1.7
+  },
+  "T4_OFF_TOTEM_KEEPER@2": {
+    "name": "Adept's Taproot .2",
+    "weight": 1.7
+  },
+  "T4_OFF_TOTEM_KEEPER@3": {
+    "name": "Adept's Taproot .3",
+    "weight": 1.7
+  },
+  "T4_OFF_TOTEM_KEEPER@4": {
+    "name": "Adept's Taproot .4",
+    "weight": 1.7
+  },
+  "T4_OFF_TOME_CRYSTAL": {
+    "name": "Adept's Timelocked Grimoire",
+    "weight": 1.7
+  },
+  "T4_ARTEFACT_OFF_TOME_CRYSTAL": {
+    "name": "Adept's Artefact Tome Crystal",
+    "weight": 2
+  },
+  "T4_OFF_TOME_CRYSTAL@1": {
+    "name": "Adept's Timelocked Grimoire .1",
+    "weight": 1.7
+  },
+  "T4_OFF_TOME_CRYSTAL@2": {
+    "name": "Adept's Timelocked Grimoire .2",
+    "weight": 1.7
+  },
+  "T4_OFF_TOME_CRYSTAL@3": {
+    "name": "Adept's Timelocked Grimoire .3",
+    "weight": 1.7
+  },
+  "T4_OFF_TOME_CRYSTAL@4": {
+    "name": "Adept's Timelocked Grimoire .4",
+    "weight": 1.7
+  },
+  "T4_OFF_BOOK": {
+    "name": "Adept's Tome of Spells",
+    "weight": 1.7
+  },
+  "T4_OFF_BOOK@1": {
+    "name": "Adept's Tome of Spells .1",
+    "weight": 1.7
+  },
+  "T4_OFF_BOOK@2": {
+    "name": "Adept's Tome of Spells .2",
+    "weight": 1.7
+  },
+  "T4_OFF_BOOK@3": {
+    "name": "Adept's Tome of Spells .3",
+    "weight": 1.7
+  },
+  "T4_OFF_BOOK@4": {
+    "name": "Adept's Tome of Spells .4",
+    "weight": 1.7
+  },
+  "T4_OFF_TORCH": {
+    "name": "Adept's Torch",
+    "weight": 1.7
+  },
+  "T4_OFF_TORCH@1": {
+    "name": "Adept's Torch .1",
+    "weight": 1.7
+  },
+  "T4_OFF_TORCH@2": {
+    "name": "Adept's Torch .2",
+    "weight": 1.7
+  },
+  "T4_OFF_TORCH@3": {
+    "name": "Adept's Torch .3",
+    "weight": 1.7
+  },
+  "T4_OFF_TORCH@4": {
+    "name": "Adept's Torch .4",
+    "weight": 1.7
+  },
+  "T4_OFF_TORCH_CRYSTAL": {
+    "name": "Adept's Blueflame Torch",
+    "weight": 1.7
+  },
+  "T4_ARTEFACT_OFF_TORCH_CRYSTAL": {
+    "name": "Adept's Artefact Torch Crystal",
+    "weight": 2
+  },
+  "T4_OFF_TORCH_CRYSTAL@1": {
+    "name": "Adept's Blueflame Torch .1",
+    "weight": 1.7
+  },
+  "T4_OFF_TORCH_CRYSTAL@2": {
+    "name": "Adept's Blueflame Torch .2",
+    "weight": 1.7
+  },
+  "T4_OFF_TORCH_CRYSTAL@3": {
+    "name": "Adept's Blueflame Torch .3",
+    "weight": 1.7
+  },
+  "T4_OFF_TORCH_CRYSTAL@4": {
+    "name": "Adept's Blueflame Torch .4",
+    "weight": 1.7
+  },
+  "T4_OFF_TOWERSHIELD_UNDEAD": {
+    "name": "Adept's Sarcophagus",
+    "weight": 1.7
+  },
+  "T4_ARTEFACT_OFF_TOWERSHIELD_UNDEAD": {
+    "name": "Adept's Artefact Towershield Undead",
+    "weight": 2
+  },
+  "T4_OFF_TOWERSHIELD_UNDEAD@1": {
+    "name": "Adept's Sarcophagus .1",
+    "weight": 1.7
+  },
+  "T4_OFF_TOWERSHIELD_UNDEAD@2": {
+    "name": "Adept's Sarcophagus .2",
+    "weight": 1.7
+  },
+  "T4_OFF_TOWERSHIELD_UNDEAD@3": {
+    "name": "Adept's Sarcophagus .3",
+    "weight": 1.7
+  },
+  "T4_OFF_TOWERSHIELD_UNDEAD@4": {
+    "name": "Adept's Sarcophagus .4",
+    "weight": 1.7
+  },
+  "T5_OFF_CENSER_AVALON": {
+    "name": "Expert's Celestial Censer",
+    "weight": 2.5
+  },
+  "T5_ARTEFACT_OFF_CENSER_AVALON": {
+    "name": "Expert's Artefact Censer Avalon",
+    "weight": 2
+  },
+  "T5_OFF_CENSER_AVALON@1": {
+    "name": "Expert's Celestial Censer .1",
+    "weight": 2.5
+  },
+  "T5_OFF_CENSER_AVALON@2": {
+    "name": "Expert's Celestial Censer .2",
+    "weight": 2.5
+  },
+  "T5_OFF_CENSER_AVALON@3": {
+    "name": "Expert's Celestial Censer .3",
+    "weight": 2.5
+  },
+  "T5_OFF_CENSER_AVALON@4": {
+    "name": "Expert's Celestial Censer .4",
+    "weight": 2.5
+  },
+  "T5_OFF_LAMP_UNDEAD": {
+    "name": "Expert's Cryptcandle",
+    "weight": 2.5
+  },
+  "T5_PLANKS": {
+    "name": "Cedar Planks",
+    "weight": 0.76
+  },
+  "T5_ARTEFACT_OFF_LAMP_UNDEAD": {
+    "name": "Expert's Artefact Lamp Undead",
+    "weight": 2
+  },
+  "T5_OFF_LAMP_UNDEAD@1": {
+    "name": "Expert's Cryptcandle .1",
+    "weight": 2.5
+  },
+  "T5_PLANKS@1": {
+    "name": "Cedar Planks .1",
+    "weight": 0.76
+  },
+  "T5_OFF_LAMP_UNDEAD@2": {
+    "name": "Expert's Cryptcandle .2",
+    "weight": 2.5
+  },
+  "T5_PLANKS@2": {
+    "name": "Cedar Planks .2",
+    "weight": 0.76
+  },
+  "T5_OFF_LAMP_UNDEAD@3": {
+    "name": "Expert's Cryptcandle .3",
+    "weight": 2.5
+  },
+  "T5_PLANKS@3": {
+    "name": "Cedar Planks .3",
+    "weight": 0.76
+  },
+  "T5_OFF_LAMP_UNDEAD@4": {
+    "name": "Expert's Cryptcandle .4",
+    "weight": 2.5
+  },
+  "T5_PLANKS@4": {
+    "name": "Cedar Planks .4",
+    "weight": 0.76
+  },
+  "T5_OFF_DEMONSKULL_HELL": {
+    "name": "Expert's Muisak",
+    "weight": 2.5
+  },
+  "T5_ARTEFACT_OFF_DEMONSKULL_HELL": {
+    "name": "Expert's Artefact Demonskull Hell",
+    "weight": 2
+  },
+  "T5_OFF_DEMONSKULL_HELL@1": {
+    "name": "Expert's Muisak .1",
+    "weight": 2.5
+  },
+  "T5_OFF_DEMONSKULL_HELL@2": {
+    "name": "Expert's Muisak .2",
+    "weight": 2.5
+  },
+  "T5_OFF_DEMONSKULL_HELL@3": {
+    "name": "Expert's Muisak .3",
+    "weight": 2.5
+  },
+  "T5_OFF_DEMONSKULL_HELL@4": {
+    "name": "Expert's Muisak .4",
+    "weight": 2.5
+  },
+  "T5_OFF_ORB_MORGANA": {
+    "name": "Expert's Eye of Secrets",
+    "weight": 2.5
+  },
+  "T5_ARTEFACT_OFF_ORB_MORGANA": {
+    "name": "Expert's Artefact Orb Morgana",
+    "weight": 2
+  },
+  "T5_OFF_ORB_MORGANA@1": {
+    "name": "Expert's Eye of Secrets .1",
+    "weight": 2.5
+  },
+  "T5_OFF_ORB_MORGANA@2": {
+    "name": "Expert's Eye of Secrets .2",
+    "weight": 2.5
+  },
+  "T5_OFF_ORB_MORGANA@3": {
+    "name": "Expert's Eye of Secrets .3",
+    "weight": 2.5
+  },
+  "T5_OFF_ORB_MORGANA@4": {
+    "name": "Expert's Eye of Secrets .4",
+    "weight": 2.5
+  },
+  "T5_OFF_JESTERCANE_HELL": {
+    "name": "Expert's Leering Cane",
+    "weight": 2.5
+  },
+  "T5_ARTEFACT_OFF_JESTERCANE_HELL": {
+    "name": "Expert's Artefact Jestercane Hell",
+    "weight": 2
+  },
+  "T5_OFF_JESTERCANE_HELL@1": {
+    "name": "Expert's Leering Cane .1",
+    "weight": 2.5
+  },
+  "T5_OFF_JESTERCANE_HELL@2": {
+    "name": "Expert's Leering Cane .2",
+    "weight": 2.5
+  },
+  "T5_OFF_JESTERCANE_HELL@3": {
+    "name": "Expert's Leering Cane .3",
+    "weight": 2.5
+  },
+  "T5_OFF_JESTERCANE_HELL@4": {
+    "name": "Expert's Leering Cane .4",
+    "weight": 2.5
+  },
+  "T5_OFF_HORN_KEEPER": {
+    "name": "Expert's Mistcaller",
+    "weight": 2.5
+  },
+  "T5_ARTEFACT_OFF_HORN_KEEPER": {
+    "name": "Expert's Artefact Horn Keeper",
+    "weight": 2
+  },
+  "T5_OFF_HORN_KEEPER@1": {
+    "name": "Expert's Mistcaller .1",
+    "weight": 2.5
+  },
+  "T5_OFF_HORN_KEEPER@2": {
+    "name": "Expert's Mistcaller .2",
+    "weight": 2.5
+  },
+  "T5_OFF_HORN_KEEPER@3": {
+    "name": "Expert's Mistcaller .3",
+    "weight": 2.5
+  },
+  "T5_OFF_HORN_KEEPER@4": {
+    "name": "Expert's Mistcaller .4",
+    "weight": 2.5
+  },
+  "T5_OFF_TALISMAN_AVALON": {
+    "name": "Expert's Sacred Scepter",
+    "weight": 2.5
+  },
+  "T5_ARTEFACT_OFF_TALISMAN_AVALON": {
+    "name": "Expert's Artefact Talisman Avalon",
+    "weight": 2
+  },
+  "T5_OFF_TALISMAN_AVALON@1": {
+    "name": "Expert's Sacred Scepter .1",
+    "weight": 2.5
+  },
+  "T5_OFF_TALISMAN_AVALON@2": {
+    "name": "Expert's Sacred Scepter .2",
+    "weight": 2.5
+  },
+  "T5_OFF_TALISMAN_AVALON@3": {
+    "name": "Expert's Sacred Scepter .3",
+    "weight": 2.5
+  },
+  "T5_OFF_TALISMAN_AVALON@4": {
+    "name": "Expert's Sacred Scepter .4",
+    "weight": 2.5
+  },
+  "T5_OFF_SHIELD": {
+    "name": "Expert's Shield",
+    "weight": 2.5
+  },
+  "T5_OFF_SHIELD@1": {
+    "name": "Expert's Shield .1",
+    "weight": 2.5
+  },
+  "T5_OFF_SHIELD@2": {
+    "name": "Expert's Shield .2",
+    "weight": 2.5
+  },
+  "T5_OFF_SHIELD@3": {
+    "name": "Expert's Shield .3",
+    "weight": 2.5
+  },
+  "T5_OFF_SHIELD@4": {
+    "name": "Expert's Shield .4",
+    "weight": 2.5
+  },
+  "T5_OFF_SHIELD_AVALON": {
+    "name": "Expert's Astral Aegis",
+    "weight": 2.5
+  },
+  "T5_ARTEFACT_OFF_SHIELD_AVALON": {
+    "name": "Expert's Artefact Shield Avalon",
+    "weight": 2
+  },
+  "T5_OFF_SHIELD_AVALON@1": {
+    "name": "Expert's Astral Aegis .1",
+    "weight": 2.5
+  },
+  "T5_OFF_SHIELD_AVALON@2": {
+    "name": "Expert's Astral Aegis .2",
+    "weight": 2.5
+  },
+  "T5_OFF_SHIELD_AVALON@3": {
+    "name": "Expert's Astral Aegis .3",
+    "weight": 2.5
+  },
+  "T5_OFF_SHIELD_AVALON@4": {
+    "name": "Expert's Astral Aegis .4",
+    "weight": 2.5
+  },
+  "T5_OFF_SHIELD_CRYSTAL": {
+    "name": "Expert's Unbreakable Ward",
+    "weight": 2.5
+  },
+  "T5_ARTEFACT_OFF_SHIELD_CRYSTAL": {
+    "name": "Expert's Artefact Shield Crystal",
+    "weight": 2
+  },
+  "T5_OFF_SHIELD_CRYSTAL@1": {
+    "name": "Expert's Unbreakable Ward .1",
+    "weight": 2.5
+  },
+  "T5_OFF_SHIELD_CRYSTAL@2": {
+    "name": "Expert's Unbreakable Ward .2",
+    "weight": 2.5
+  },
+  "T5_OFF_SHIELD_CRYSTAL@3": {
+    "name": "Expert's Unbreakable Ward .3",
+    "weight": 2.5
+  },
+  "T5_OFF_SHIELD_CRYSTAL@4": {
+    "name": "Expert's Unbreakable Ward .4",
+    "weight": 2.5
+  },
+  "T5_OFF_SHIELD_HELL": {
+    "name": "Expert's Caitiff Shield",
+    "weight": 2.5
+  },
+  "T5_ARTEFACT_OFF_SHIELD_HELL": {
+    "name": "Expert's Artefact Shield Hell",
+    "weight": 2
+  },
+  "T5_OFF_SHIELD_HELL@1": {
+    "name": "Expert's Caitiff Shield .1",
+    "weight": 2.5
+  },
+  "T5_OFF_SHIELD_HELL@2": {
+    "name": "Expert's Caitiff Shield .2",
+    "weight": 2.5
+  },
+  "T5_OFF_SHIELD_HELL@3": {
+    "name": "Expert's Caitiff Shield .3",
+    "weight": 2.5
+  },
+  "T5_OFF_SHIELD_HELL@4": {
+    "name": "Expert's Caitiff Shield .4",
+    "weight": 2.5
+  },
+  "T5_OFF_SPIKEDSHIELD_MORGANA": {
+    "name": "Expert's Facebreaker",
+    "weight": 2.5
+  },
+  "T5_ARTEFACT_OFF_SPIKEDSHIELD_MORGANA": {
+    "name": "Expert's Artefact Spikedshield Morgana",
+    "weight": 2
+  },
+  "T5_OFF_SPIKEDSHIELD_MORGANA@1": {
+    "name": "Expert's Facebreaker .1",
+    "weight": 2.5
+  },
+  "T5_OFF_SPIKEDSHIELD_MORGANA@2": {
+    "name": "Expert's Facebreaker .2",
+    "weight": 2.5
+  },
+  "T5_OFF_SPIKEDSHIELD_MORGANA@3": {
+    "name": "Expert's Facebreaker .3",
+    "weight": 2.5
+  },
+  "T5_OFF_SPIKEDSHIELD_MORGANA@4": {
+    "name": "Expert's Facebreaker .4",
+    "weight": 2.5
+  },
+  "T5_OFF_TOTEM_KEEPER": {
+    "name": "Expert's Taproot",
+    "weight": 2.5
+  },
+  "T5_ARTEFACT_OFF_TOTEM_KEEPER": {
+    "name": "Expert's Artefact Totem Keeper",
+    "weight": 2
+  },
+  "T5_OFF_TOTEM_KEEPER@1": {
+    "name": "Expert's Taproot .1",
+    "weight": 2.5
+  },
+  "T5_OFF_TOTEM_KEEPER@2": {
+    "name": "Expert's Taproot .2",
+    "weight": 2.5
+  },
+  "T5_OFF_TOTEM_KEEPER@3": {
+    "name": "Expert's Taproot .3",
+    "weight": 2.5
+  },
+  "T5_OFF_TOTEM_KEEPER@4": {
+    "name": "Expert's Taproot .4",
+    "weight": 2.5
+  },
+  "T5_OFF_TOME_CRYSTAL": {
+    "name": "Expert's Timelocked Grimoire",
+    "weight": 2.5
+  },
+  "T5_ARTEFACT_OFF_TOME_CRYSTAL": {
+    "name": "Expert's Artefact Tome Crystal",
+    "weight": 2
+  },
+  "T5_OFF_TOME_CRYSTAL@1": {
+    "name": "Expert's Timelocked Grimoire .1",
+    "weight": 2.5
+  },
+  "T5_OFF_TOME_CRYSTAL@2": {
+    "name": "Expert's Timelocked Grimoire .2",
+    "weight": 2.5
+  },
+  "T5_OFF_TOME_CRYSTAL@3": {
+    "name": "Expert's Timelocked Grimoire .3",
+    "weight": 2.5
+  },
+  "T5_OFF_TOME_CRYSTAL@4": {
+    "name": "Expert's Timelocked Grimoire .4",
+    "weight": 2.5
+  },
+  "T5_OFF_BOOK": {
+    "name": "Expert's Tome of Spells",
+    "weight": 2.5
+  },
+  "T5_OFF_BOOK@1": {
+    "name": "Expert's Tome of Spells .1",
+    "weight": 2.5
+  },
+  "T5_OFF_BOOK@2": {
+    "name": "Expert's Tome of Spells .2",
+    "weight": 2.5
+  },
+  "T5_OFF_BOOK@3": {
+    "name": "Expert's Tome of Spells .3",
+    "weight": 2.5
+  },
+  "T5_OFF_BOOK@4": {
+    "name": "Expert's Tome of Spells .4",
+    "weight": 2.5
+  },
+  "T5_OFF_TORCH": {
+    "name": "Expert's Torch",
+    "weight": 2.5
+  },
+  "T5_OFF_TORCH@1": {
+    "name": "Expert's Torch .1",
+    "weight": 2.5
+  },
+  "T5_OFF_TORCH@2": {
+    "name": "Expert's Torch .2",
+    "weight": 2.5
+  },
+  "T5_OFF_TORCH@3": {
+    "name": "Expert's Torch .3",
+    "weight": 2.5
+  },
+  "T5_OFF_TORCH@4": {
+    "name": "Expert's Torch .4",
+    "weight": 2.5
+  },
+  "T5_OFF_TORCH_CRYSTAL": {
+    "name": "Expert's Blueflame Torch",
+    "weight": 2.5
+  },
+  "T5_ARTEFACT_OFF_TORCH_CRYSTAL": {
+    "name": "Expert's Artefact Torch Crystal",
+    "weight": 2
+  },
+  "T5_OFF_TORCH_CRYSTAL@1": {
+    "name": "Expert's Blueflame Torch .1",
+    "weight": 2.5
+  },
+  "T5_OFF_TORCH_CRYSTAL@2": {
+    "name": "Expert's Blueflame Torch .2",
+    "weight": 2.5
+  },
+  "T5_OFF_TORCH_CRYSTAL@3": {
+    "name": "Expert's Blueflame Torch .3",
+    "weight": 2.5
+  },
+  "T5_OFF_TORCH_CRYSTAL@4": {
+    "name": "Expert's Blueflame Torch .4",
+    "weight": 2.5
+  },
+  "T5_OFF_TOWERSHIELD_UNDEAD": {
+    "name": "Expert's Sarcophagus",
+    "weight": 2.5
+  },
+  "T5_ARTEFACT_OFF_TOWERSHIELD_UNDEAD": {
+    "name": "Expert's Artefact Towershield Undead",
+    "weight": 2
+  },
+  "T5_OFF_TOWERSHIELD_UNDEAD@1": {
+    "name": "Expert's Sarcophagus .1",
+    "weight": 2.5
+  },
+  "T5_OFF_TOWERSHIELD_UNDEAD@2": {
+    "name": "Expert's Sarcophagus .2",
+    "weight": 2.5
+  },
+  "T5_OFF_TOWERSHIELD_UNDEAD@3": {
+    "name": "Expert's Sarcophagus .3",
+    "weight": 2.5
+  },
+  "T5_OFF_TOWERSHIELD_UNDEAD@4": {
+    "name": "Expert's Sarcophagus .4",
+    "weight": 2.5
+  },
+  "T6_OFF_CENSER_AVALON": {
+    "name": "Master's Celestial Censer",
+    "weight": 3.8
+  },
+  "T6_ARTEFACT_OFF_CENSER_AVALON": {
+    "name": "Master's Artefact Censer Avalon",
+    "weight": 2
+  },
+  "T6_OFF_CENSER_AVALON@1": {
+    "name": "Master's Celestial Censer .1",
+    "weight": 3.8
+  },
+  "T6_OFF_CENSER_AVALON@2": {
+    "name": "Master's Celestial Censer .2",
+    "weight": 3.8
+  },
+  "T6_OFF_CENSER_AVALON@3": {
+    "name": "Master's Celestial Censer .3",
+    "weight": 3.8
+  },
+  "T6_OFF_CENSER_AVALON@4": {
+    "name": "Master's Celestial Censer .4",
+    "weight": 3.8
+  },
+  "T6_OFF_LAMP_UNDEAD": {
+    "name": "Master's Cryptcandle",
+    "weight": 3.8
+  },
+  "T6_PLANKS": {
+    "name": "Bloodoak Planks",
+    "weight": 1.14
+  },
+  "T6_ARTEFACT_OFF_LAMP_UNDEAD": {
+    "name": "Master's Artefact Lamp Undead",
+    "weight": 2
+  },
+  "T6_OFF_LAMP_UNDEAD@1": {
+    "name": "Master's Cryptcandle .1",
+    "weight": 3.8
+  },
+  "T6_PLANKS@1": {
+    "name": "Bloodoak Planks .1",
+    "weight": 1.14
+  },
+  "T6_OFF_LAMP_UNDEAD@2": {
+    "name": "Master's Cryptcandle .2",
+    "weight": 3.8
+  },
+  "T6_PLANKS@2": {
+    "name": "Bloodoak Planks .2",
+    "weight": 1.14
+  },
+  "T6_OFF_LAMP_UNDEAD@3": {
+    "name": "Master's Cryptcandle .3",
+    "weight": 3.8
+  },
+  "T6_PLANKS@3": {
+    "name": "Bloodoak Planks .3",
+    "weight": 1.14
+  },
+  "T6_OFF_LAMP_UNDEAD@4": {
+    "name": "Master's Cryptcandle .4",
+    "weight": 3.8
+  },
+  "T6_PLANKS@4": {
+    "name": "Bloodoak Planks .4",
+    "weight": 1.14
+  },
+  "T6_OFF_DEMONSKULL_HELL": {
+    "name": "Master's Muisak",
+    "weight": 3.8
+  },
+  "T6_ARTEFACT_OFF_DEMONSKULL_HELL": {
+    "name": "Master's Artefact Demonskull Hell",
+    "weight": 2
+  },
+  "T6_OFF_DEMONSKULL_HELL@1": {
+    "name": "Master's Muisak .1",
+    "weight": 3.8
+  },
+  "T6_OFF_DEMONSKULL_HELL@2": {
+    "name": "Master's Muisak .2",
+    "weight": 3.8
+  },
+  "T6_OFF_DEMONSKULL_HELL@3": {
+    "name": "Master's Muisak .3",
+    "weight": 3.8
+  },
+  "T6_OFF_DEMONSKULL_HELL@4": {
+    "name": "Master's Muisak .4",
+    "weight": 3.8
+  },
+  "T6_OFF_ORB_MORGANA": {
+    "name": "Master's Eye of Secrets",
+    "weight": 3.8
+  },
+  "T6_ARTEFACT_OFF_ORB_MORGANA": {
+    "name": "Master's Artefact Orb Morgana",
+    "weight": 2
+  },
+  "T6_OFF_ORB_MORGANA@1": {
+    "name": "Master's Eye of Secrets .1",
+    "weight": 3.8
+  },
+  "T6_OFF_ORB_MORGANA@2": {
+    "name": "Master's Eye of Secrets .2",
+    "weight": 3.8
+  },
+  "T6_OFF_ORB_MORGANA@3": {
+    "name": "Master's Eye of Secrets .3",
+    "weight": 3.8
+  },
+  "T6_OFF_ORB_MORGANA@4": {
+    "name": "Master's Eye of Secrets .4",
+    "weight": 3.8
+  },
+  "T6_OFF_JESTERCANE_HELL": {
+    "name": "Master's Leering Cane",
+    "weight": 3.8
+  },
+  "T6_ARTEFACT_OFF_JESTERCANE_HELL": {
+    "name": "Master's Artefact Jestercane Hell",
+    "weight": 2
+  },
+  "T6_OFF_JESTERCANE_HELL@1": {
+    "name": "Master's Leering Cane .1",
+    "weight": 3.8
+  },
+  "T6_OFF_JESTERCANE_HELL@2": {
+    "name": "Master's Leering Cane .2",
+    "weight": 3.8
+  },
+  "T6_OFF_JESTERCANE_HELL@3": {
+    "name": "Master's Leering Cane .3",
+    "weight": 3.8
+  },
+  "T6_OFF_JESTERCANE_HELL@4": {
+    "name": "Master's Leering Cane .4",
+    "weight": 3.8
+  },
+  "T6_OFF_HORN_KEEPER": {
+    "name": "Master's Mistcaller",
+    "weight": 3.8
+  },
+  "T6_ARTEFACT_OFF_HORN_KEEPER": {
+    "name": "Master's Artefact Horn Keeper",
+    "weight": 2
+  },
+  "T6_OFF_HORN_KEEPER@1": {
+    "name": "Master's Mistcaller .1",
+    "weight": 3.8
+  },
+  "T6_OFF_HORN_KEEPER@2": {
+    "name": "Master's Mistcaller .2",
+    "weight": 3.8
+  },
+  "T6_OFF_HORN_KEEPER@3": {
+    "name": "Master's Mistcaller .3",
+    "weight": 3.8
+  },
+  "T6_OFF_HORN_KEEPER@4": {
+    "name": "Master's Mistcaller .4",
+    "weight": 3.8
+  },
+  "T6_OFF_TALISMAN_AVALON": {
+    "name": "Master's Sacred Scepter",
+    "weight": 3.8
+  },
+  "T6_ARTEFACT_OFF_TALISMAN_AVALON": {
+    "name": "Master's Artefact Talisman Avalon",
+    "weight": 2
+  },
+  "T6_OFF_TALISMAN_AVALON@1": {
+    "name": "Master's Sacred Scepter .1",
+    "weight": 3.8
+  },
+  "T6_OFF_TALISMAN_AVALON@2": {
+    "name": "Master's Sacred Scepter .2",
+    "weight": 3.8
+  },
+  "T6_OFF_TALISMAN_AVALON@3": {
+    "name": "Master's Sacred Scepter .3",
+    "weight": 3.8
+  }
+}
