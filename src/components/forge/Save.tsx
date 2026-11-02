@@ -5,9 +5,10 @@ import { useCurrentUserState } from "@/lib/auth/use-current-user"
 import { snapshotFrom } from "@/lib/forge/desk"
 import { deleteCraftGroup, listCraftGroups, loadCraftGroup, saveCraftGroup, type CraftGroupCard } from "@/lib/forge/groups"
 import { getItem } from "@/lib/forge/lookup"
-import { GITHUB_DATA_URL, syncCatalogFromGitHub } from "@/lib/forge/remote"
+import { syncCatalogFromGitHub } from "@/lib/forge/remote"
 import { useForge } from "@/lib/forge/store"
 import { fieldClass } from "./fields"
+import { ItemPicker } from "./Picker"
 
 function summaryOf(lines: { itemId: string }[]) {
   const names = lines.slice(0, 3).map((line) => getItem(line.itemId)?.name ?? line.itemId)
@@ -32,16 +33,18 @@ export function SaveLab() {
   const [note, setNote] = useState("")
   const [recipeNote, setRecipeNote] = useState("")
   const [recipeBusy, setRecipeBusy] = useState(false)
-  const catalogNote = useForge((s) => s.catalogNote)
+  const setItemName = useForge((s) => s.setItemName)
+  const [picked, setPicked] = useState("")
+  const [draft, setDraft] = useState("")
 
   async function reloadRecipes() {
     setRecipeBusy(true)
     setRecipeNote("")
     try {
       await syncCatalogFromGitHub(true)
-      setRecipeNote("Loaded the recipe files from GitHub.")
-    } catch (error) {
-      setRecipeNote(error instanceof Error ? error.message : "Could not read GitHub.")
+      setRecipeNote("Recipes updated.")
+    } catch {
+      setRecipeNote("Could not update recipes. Try again in a minute.")
     } finally {
       setRecipeBusy(false)
     }
@@ -122,30 +125,51 @@ export function SaveLab() {
   return (
     <div className="flex flex-col gap-4">
       <section className="rounded-lg border border-line bg-panel p-4">
-        <h2 className="font-display text-2xl">Fix recipes on GitHub</h2>
-        <p className="mt-2 max-w-xl text-sm text-muted">
-          Names, materials, and focus live in JSON on GitHub. Edit a file there, commit it to main, then reload. That
-          still works after this app is published.
-        </p>
-        <div className="mt-4 flex flex-wrap gap-2">
-          <a
-            href={GITHUB_DATA_URL}
-            target="_blank"
-            rel="noreferrer"
-            className="inline-flex h-11 items-center rounded-lg border border-line px-4 text-sm text-parchment"
-          >
-            Open the recipe files
-          </a>
-          <button
-            type="button"
-            disabled={recipeBusy}
-            onClick={() => void reloadRecipes()}
-            className="h-11 rounded-lg bg-brass px-4 text-sm font-semibold text-ink disabled:opacity-60"
-          >
-            {recipeBusy ? "Loading GitHub…" : "Reload recipes"}
-          </button>
+        <h2 className="font-display text-2xl">Fix a name</h2>
+        <p className="mt-2 max-w-xl text-sm text-muted">Pick the item and type the name you want. It stays on this device.</p>
+        <div className="mt-4">
+          <ItemPicker
+            compact
+            onPick={(id) => {
+              setPicked(id)
+              setDraft(getItem(id)?.name ?? "")
+            }}
+          />
         </div>
-        {recipeNote || catalogNote ? <p className="mt-3 text-sm text-muted">{recipeNote || catalogNote}</p> : null}
+        {picked ? (
+          <div className="mt-4 flex flex-col gap-3 sm:flex-row sm:items-end">
+            <label className="flex min-w-0 flex-1 flex-col gap-1 text-sm text-muted">
+              Name
+              <input className={fieldClass} value={draft} maxLength={80} onChange={(event) => setDraft(event.target.value)} />
+            </label>
+            <button
+              type="button"
+              onClick={() => setItemName(picked, draft)}
+              className="h-11 rounded-lg bg-brass px-4 text-sm font-semibold text-ink"
+            >
+              Save name
+            </button>
+            <button
+              type="button"
+              onClick={() => {
+                setItemName(picked, "")
+                setDraft(getItem(picked)?.name ?? "")
+              }}
+              className="h-11 rounded-lg border border-line px-4 text-sm text-parchment"
+            >
+              Use original
+            </button>
+          </div>
+        ) : null}
+        <button
+          type="button"
+          disabled={recipeBusy}
+          onClick={() => void reloadRecipes()}
+          className="mt-4 text-sm text-muted underline-offset-2 hover:underline disabled:opacity-60"
+        >
+          {recipeBusy ? "Updating…" : "Update recipes"}
+        </button>
+        {recipeNote ? <p className="mt-2 text-sm text-muted">{recipeNote}</p> : null}
       </section>
       <section className="rounded-lg border border-line bg-panel p-4">
         <div className="flex flex-wrap items-start justify-between gap-3">

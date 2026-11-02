@@ -152,12 +152,12 @@ export async function syncCatalogFromGitHub(force = false) {
     if (!force) {
       const cached = await idbGet().catch(() => undefined)
       if (cached?.sha === sha && cached.items?.length) {
-        applySnap(cached, "Recipes match the latest GitHub commit.")
+        applySnap(cached, "Recipes are up to date.")
         return
       }
     }
     const snap = await downloadSnap(sha)
-    applySnap(snap, "Recipes reloaded from GitHub. Edits on that repo are live.")
+    applySnap(snap, "Recipes updated.")
     await idbPut(snap).catch(() => undefined)
   } finally {
     syncing = false

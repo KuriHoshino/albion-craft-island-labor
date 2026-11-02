@@ -8,12 +8,25 @@ function indexItems(list: CraftItem[]) {
 }
 
 let byId = indexItems(items)
+let nameBook: Record<string, string> = {}
 onCatalogChange(() => {
   byId = indexItems(items)
 })
 
+export function setNameBook(next: Record<string, string> | undefined) {
+  nameBook = next ?? {}
+}
+
+function named(id: string, fallback: string) {
+  const custom = nameBook[id]?.trim()
+  return custom || fallback
+}
+
 export function getItem(id: string): CraftItem | undefined {
-  return byId.get(id)
+  const item = byId.get(id)
+  if (!item) return undefined
+  const name = named(item.id, item.name)
+  return name === item.name ? item : { ...item, name }
 }
 
 export function variantOf(item: CraftItem, enchant: number, route: Variant["route"]): Variant {
@@ -34,7 +47,7 @@ export function marketId(itemId: string, enchant: number): string {
 }
 
 export function matName(id: string): string {
-  return materials[id]?.name ?? id
+  return named(id, materials[id]?.name ?? id)
 }
 
 export function matWeight(id: string): number {
@@ -62,8 +75,9 @@ export function searchItems(
   if (!q && (group === "all" || needsLine)) return []
   const hits: CraftItem[] = []
   for (const item of list) {
-    if (q && !item.name.toLowerCase().includes(q) && !item.id.toLowerCase().includes(q)) continue
-    hits.push(item)
+    const name = named(item.id, item.name)
+    if (q && !name.toLowerCase().includes(q) && !item.id.toLowerCase().includes(q)) continue
+    hits.push(name === item.name ? item : { ...item, name })
     if (q && hits.length >= 200) break
   }
   return hits

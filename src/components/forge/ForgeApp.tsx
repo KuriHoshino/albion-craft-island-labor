@@ -120,9 +120,8 @@ export function ForgeApp() {
         {view === "codex" ? <Codex /> : null}
         {view === "save" ? <SaveLab /> : null}
         <p className="mt-8 max-w-2xl text-xs text-muted">
-          Return rate, focus, study fame, nutrition, and repair follow the current Albion rules. Recipes come from the
-          public game data and can be fixed on GitHub after this app is published. Prices are the live order book from
-          the Albion Online Data Project and refresh about once a minute. Not affiliated with Sandbox Interactive.
+          Return rate, focus, study fame, nutrition, and repair follow the current Albion rules. Prices refresh about
+          once a minute. Not affiliated with Sandbox Interactive.
         </p>
       </main>
     </div>

@@ -5,7 +5,7 @@ import { fetchMarketPrices } from "./prices"
 import type { BuyMode, Place, SellMode } from "./formulas"
 import type { ServerId, HoBiome, HoRegion } from "./rules"
 import { MARKETS } from "./rules"
-import { getItem, journalFor, marketId, variantOf } from "./lookup"
+import { getItem, journalFor, marketId, setNameBook, variantOf } from "./lookup"
 import type { DeskSnapshot } from "./desk"
 
 export type Quote = PriceQuote
@@ -58,6 +58,8 @@ type ForgeState = {
   loading: boolean
   catalogRev: number
   catalogNote: string | null
+  names: Record<string, string>
+  setItemName: (id: string, name: string) => void
   setView: (view: View) => void
   patch: (partial: Partial<Omit<ForgeState, "lines" | "prices">>) => void
   patchLine: (uid: string, partial: Partial<Line>) => void
@@ -147,6 +149,15 @@ export const useForge = create<ForgeState>()(
       loading: false,
       catalogRev: 0,
       catalogNote: null,
+      names: {},
+      setItemName: (id, name) => {
+        const trimmed = name.trim()
+        const names = { ...get().names }
+        if (!trimmed) delete names[id]
+        else names[id] = trimmed
+        setNameBook(names)
+        set({ names, catalogRev: get().catalogRev + 1 })
+      },
       setView: (view) => set({ view }),
       patch: (partial) => set(partial),
       patchLine: (uid, partial) =>
@@ -281,11 +292,14 @@ export const useForge = create<ForgeState>()(
         active: state.active,
         loadedId: state.loadedId,
         loadedName: state.loadedName,
+        names: state.names,
         prices: state.prices,
         priceAt: state.priceAt,
       }),
       merge: (persisted, current) => {
         const saved = (persisted ?? {}) as Partial<ForgeState>
+        const names = saved.names ?? current.names
+        setNameBook(names)
         const lines = (saved.lines ?? current.lines)
           .map((line) => ({
             ...blankLine(line.itemId),
