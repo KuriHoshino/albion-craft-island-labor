@@ -1,7 +1,7 @@
 [
   {
     "id": "T2_POTION_ENERGY",
-    "name": "Novice's Energy Potion",
+    "name": "Minor Energy Potion",
     "tier": 2,
     "category": "potion",
     "group": "potion",
@@ -156,7 +156,7 @@
   },
   {
     "id": "T2_POTION_HEAL",
-    "name": "Novice's Healing Potion",
+    "name": "Minor Healing Potion",
     "tier": 2,
     "category": "potion",
     "group": "potion",
@@ -311,7 +311,7 @@
   },
   {
     "id": "T3_POTION_ACID",
-    "name": "Journeyman's Acid Potion",
+    "name": "Minor Acid Potion",
     "tier": 3,
     "category": "potion",
     "group": "potion",
@@ -486,7 +486,7 @@
   },
   {
     "id": "T3_POTION_MOB_RESET",
-    "name": "Journeyman's Calming Potion",
+    "name": "Minor Calming Potion",
     "tier": 3,
     "category": "potion",
     "group": "potion",
@@ -661,7 +661,7 @@
   },
   {
     "id": "T3_POTION_CLEANSE2",
-    "name": "Journeyman's Cleansing Potion",
+    "name": "Minor Cleansing Potion",
     "tier": 3,
     "category": "potion",
     "group": "potion",
@@ -836,7 +836,7 @@
   },
   {
     "id": "T3_POTION_REVIVE",
-    "name": "Journeyman's Gigantify Potion",
+    "name": "Minor Gigantify Potion",
     "tier": 3,
     "category": "potion",
     "group": "potion",
@@ -991,7 +991,7 @@
   },
   {
     "id": "T3_POTION_STONESKIN",
-    "name": "Journeyman's Resistance Potion",
+    "name": "Minor Resistance Potion",
     "tier": 3,
     "category": "potion",
     "group": "potion",
@@ -1146,7 +1146,7 @@
   },
   {
     "id": "T3_POTION_SLOWFIELD",
-    "name": "Journeyman's Sticky Potion",
+    "name": "Minor Sticky Potion",
     "tier": 3,
     "category": "potion",
     "group": "potion",
@@ -1301,7 +1301,7 @@
   },
   {
     "id": "T4_POTION_BERSERK",
-    "name": "Adept's Berserk Potion",
+    "name": "Minor Berserk Potion",
     "tier": 4,
     "category": "potion",
     "group": "potion",
@@ -1476,7 +1476,7 @@
   },
   {
     "id": "T4_POTION_ENERGY",
-    "name": "Adept's Energy Potion",
+    "name": "Energy Potion",
     "tier": 4,
     "category": "potion",
     "group": "potion",
@@ -1651,7 +1651,7 @@
   },
   {
     "id": "T4_POTION_GATHER",
-    "name": "Adept's Gathering Potion",
+    "name": "Minor Gathering Potion",
     "tier": 4,
     "category": "potion",
     "group": "potion",
@@ -1826,7 +1826,7 @@
   },
   {
     "id": "T4_POTION_HEAL",
-    "name": "Adept's Healing Potion",
+    "name": "Healing Potion",
     "tier": 4,
     "category": "potion",
     "group": "potion",
@@ -2001,7 +2001,7 @@
   },
   {
     "id": "T4_POTION_LAVA",
-    "name": "Adept's Hellfire Potion",
+    "name": "Minor Hellfire Potion",
     "tier": 4,
     "category": "potion",
     "group": "potion",
@@ -2176,7 +2176,7 @@
   },
   {
     "id": "T4_POTION_LIFEWARD",
-    "name": "Adept's Lifeward Potion",
+    "name": "Minor Lifeward Potion",
     "tier": 4,
     "category": "potion",
     "group": "potion",
@@ -2351,7 +2351,7 @@
   },
   {
     "id": "T4_POTION_COOLDOWN",
-    "name": "Adept's Poison Potion",
+    "name": "Minor Poison Potion",
     "tier": 4,
     "category": "potion",
     "group": "potion",
@@ -2526,7 +2526,7 @@
   },
   {
     "id": "T4_POTION_TORNADO",
-    "name": "Adept's Tornado in a Bottle",
+    "name": "Minor Tornado in a Bottle",
     "tier": 4,
     "category": "potion",
     "group": "potion",
@@ -2701,7 +2701,7 @@
   },
   {
     "id": "T5_POTION_ACID",
-    "name": "Expert's Acid Potion",
+    "name": "Acid Potion",
     "tier": 5,
     "category": "potion",
     "group": "potion",
@@ -2916,7 +2916,7 @@
   },
   {
     "id": "T5_POTION_MOB_RESET",
-    "name": "Expert's Calming Potion",
+    "name": "Calming Potion",
     "tier": 5,
     "category": "potion",
     "group": "potion",
@@ -3131,7 +3131,7 @@
   },
   {
     "id": "T5_POTION_CLEANSE2",
-    "name": "Expert's Cleansing Potion",
+    "name": "Cleansing Potion",
     "tier": 5,
     "category": "potion",
     "group": "potion",
@@ -3346,7 +3346,7 @@
   },
   {
     "id": "T5_POTION_REVIVE",
-    "name": "Expert's Gigantify Potion",
+    "name": "Gigantify Potion",
     "tier": 5,
     "category": "potion",
     "group": "potion",
@@ -3541,7 +3541,7 @@
   },
   {
     "id": "T5_POTION_STONESKIN",
-    "name": "Expert's Resistance Potion",
+    "name": "Resistance Potion",
     "tier": 5,
     "category": "potion",
     "group": "potion",
@@ -3736,7 +3736,7 @@
   },
   {
     "id": "T5_POTION_SLOWFIELD",
-    "name": "Expert's Sticky Potion",
+    "name": "Sticky Potion",
     "tier": 5,
     "category": "potion",
     "group": "potion",
@@ -3931,7 +3931,7 @@
   },
   {
     "id": "T6_POTION_BERSERK",
-    "name": "Master's Berserk Potion",
+    "name": "Berserk Potion",
     "tier": 6,
     "category": "potion",
     "group": "potion",
@@ -4146,7 +4146,7 @@
   },
   {
     "id": "T6_POTION_ENERGY",
-    "name": "Master's Energy Potion",
+    "name": "Major Energy Potion",
     "tier": 6,
     "category": "potion",
     "group": "potion",
@@ -4341,7 +4341,7 @@
   },
   {
     "id": "T6_POTION_GATHER",
-    "name": "Master's Gathering Potion",
+    "name": "Gathering Potion",
     "tier": 6,
     "category": "potion",
     "group": "potion",
@@ -4556,7 +4556,7 @@
   },
   {
     "id": "T6_POTION_HEAL",
-    "name": "Master's Healing Potion",
+    "name": "Major Healing Potion",
     "tier": 6,
     "category": "potion",
     "group": "potion",
@@ -4751,7 +4751,7 @@
   },
   {
     "id": "T6_POTION_LAVA",
-    "name": "Master's Hellfire Potion",
+    "name": "Hellfire Potion",
     "tier": 6,
     "category": "potion",
     "group": "potion",
@@ -4966,7 +4966,7 @@
   },
   {
     "id": "T6_POTION_LIFEWARD",
-    "name": "Master's Lifeward Potion",
+    "name": "Lifeward Potion",
     "tier": 6,
     "category": "potion",
     "group": "potion",
@@ -5181,7 +5181,7 @@
   },
   {
     "id": "T6_POTION_COOLDOWN",
-    "name": "Master's Poison Potion",
+    "name": "Poison Potion",
     "tier": 6,
     "category": "potion",
     "group": "potion",
@@ -5396,7 +5396,7 @@
   },
   {
     "id": "T6_POTION_TORNADO",
-    "name": "Master's Tornado in a Bottle",
+    "name": "Tornado in a Bottle",
     "tier": 6,
     "category": "potion",
     "group": "potion",
@@ -5611,7 +5611,7 @@
   },
   {
     "id": "T7_POTION_ACID",
-    "name": "Grandmaster's Acid Potion",
+    "name": "Major Acid Potion",
     "tier": 7,
     "category": "potion",
     "group": "potion",
@@ -5866,7 +5866,7 @@
   },
   {
     "id": "T7_POTION_MOB_RESET",
-    "name": "Grandmaster's Calming Potion",
+    "name": "Major Calming Potion",
     "tier": 7,
     "category": "potion",
     "group": "potion",
@@ -6121,7 +6121,7 @@
   },
   {
     "id": "T7_POTION_CLEANSE2",
-    "name": "Grandmaster's Cleansing Potion",
+    "name": "Major Cleansing Potion",
     "tier": 7,
     "category": "potion",
     "group": "potion",
@@ -6376,7 +6376,7 @@
   },
   {
     "id": "T7_POTION_REVIVE",
-    "name": "Grandmaster's Gigantify Potion",
+    "name": "Major Gigantify Potion",
     "tier": 7,
     "category": "potion",
     "group": "potion",
@@ -6591,7 +6591,7 @@
   },
   {
     "id": "T7_POTION_STONESKIN",
-    "name": "Grandmaster's Resistance Potion",
+    "name": "Major Resistance Potion",
     "tier": 7,
     "category": "potion",
     "group": "potion",
@@ -6826,7 +6826,7 @@
   },
   {
     "id": "T7_POTION_SLOWFIELD",
-    "name": "Grandmaster's Sticky Potion",
+    "name": "Major Sticky Potion",
     "tier": 7,
     "category": "potion",
     "group": "potion",
@@ -7061,7 +7061,7 @@
   },
   {
     "id": "T8_POTION_BERSERK",
-    "name": "Elder's Berserk Potion",
+    "name": "Major Berserk Potion",
     "tier": 8,
     "category": "potion",
     "group": "potion",
@@ -7316,7 +7316,7 @@
   },
   {
     "id": "T8_POTION_GATHER",
-    "name": "Elder's Gathering Potion",
+    "name": "Major Gathering Potion",
     "tier": 8,
     "category": "potion",
     "group": "potion",
@@ -7571,7 +7571,7 @@
   },
   {
     "id": "T8_POTION_LAVA",
-    "name": "Elder's Hellfire Potion",
+    "name": "Major Hellfire Potion",
     "tier": 8,
     "category": "potion",
     "group": "potion",
@@ -7826,7 +7826,7 @@
   },
   {
     "id": "T8_POTION_CLEANSE",
-    "name": "Elder's Invisibility Potion",
+    "name": "Invisibility Potion",
     "tier": 8,
     "category": "potion",
     "group": "potion",
@@ -8061,7 +8061,7 @@
   },
   {
     "id": "T8_POTION_LIFEWARD",
-    "name": "Elder's Lifeward Potion",
+    "name": "Major Lifeward Potion",
     "tier": 8,
     "category": "potion",
     "group": "potion",
@@ -8316,7 +8316,7 @@
   },
   {
     "id": "T8_POTION_COOLDOWN",
-    "name": "Elder's Poison Potion",
+    "name": "Major Poison Potion",
     "tier": 8,
     "category": "potion",
     "group": "potion",
@@ -8551,7 +8551,7 @@
   },
   {
     "id": "T8_POTION_TORNADO",
-    "name": "Elder's Tornado in a Bottle",
+    "name": "Major Tornado in a Bottle",
     "tier": 8,
     "category": "potion",
     "group": "potion",

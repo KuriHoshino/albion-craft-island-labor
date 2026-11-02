@@ -423,6 +423,7 @@ export function CitiesLab() {
 export function Codex() {
   const addLine = useForge((s) => s.addLine)
   const setView = useForge((s) => s.setView)
+  useForge((s) => s.catalogRev)
   const [itemId, setItemId] = useState("T4_MAIN_SWORD")
   const [enchant, setEnchant] = useState(0)
   const [route, setRoute] = useState<"direct" | "upgrade">("direct")
@@ -505,7 +506,7 @@ export function Codex() {
               }}
               className="mt-4 h-11 rounded-lg bg-brass px-4 text-sm font-semibold text-ink"
             >
-              Add to the bench
+              Add to craft
             </button>
           </>
         ) : (

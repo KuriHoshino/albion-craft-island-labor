@@ -10,12 +10,13 @@ import {
 } from "lucide-react"
 import { SERVERS } from "@/lib/forge/rules"
 import { priceWatchKey, useForge, type View } from "@/lib/forge/store"
+import { syncCatalogFromGitHub } from "@/lib/forge/remote"
 import { Bench } from "./Bench"
 import { SaveLab } from "./Save"
 import { CitiesLab, Codex, RerollLab, ReturnFocusLab, StudyLab } from "./Labs"
 
 const NAV: { id: View; label: string; icon: typeof Hammer }[] = [
-  { id: "bench", label: "Bench", icon: Hammer },
+  { id: "bench", label: "Craft", icon: Hammer },
   { id: "returns", label: "Return & focus", icon: Percent },
   { id: "study", label: "Study & repair", icon: GraduationCap },
   { id: "reroll", label: "Reroll", icon: Dices },
@@ -29,6 +30,10 @@ export function ForgeApp() {
   const setView = useForge((s) => s.setView)
   const server = useForge((s) => s.server)
   const patch = useForge((s) => s.patch)
+
+  useEffect(() => {
+    void syncCatalogFromGitHub().catch(() => undefined)
+  }, [])
 
   useEffect(() => {
     let timer = 0
@@ -116,8 +121,8 @@ export function ForgeApp() {
         {view === "save" ? <SaveLab /> : null}
         <p className="mt-8 max-w-2xl text-xs text-muted">
           Return rate, focus, study fame, nutrition, and repair follow the current Albion rules. Recipes come from the
-          public game data. Prices are the live order book from the Albion Online Data Project and refresh about once a
-          minute. Not affiliated with Sandbox Interactive.
+          public game data and can be fixed on GitHub after this app is published. Prices are the live order book from
+          the Albion Online Data Project and refresh about once a minute. Not affiliated with Sandbox Interactive.
         </p>
       </main>
     </div>

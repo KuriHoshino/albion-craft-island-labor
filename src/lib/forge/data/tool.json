@@ -35,7 +35,7 @@
   },
   {
     "id": "T2_2H_TOOL_SIEGEHAMMER",
-    "name": "Novice's Demolition Hammer",
+    "name": "Novice's Siege Hammer",
     "tier": 2,
     "category": "tools",
     "group": "tool",
@@ -239,7 +239,7 @@
   },
   {
     "id": "T3_2H_TOOL_SIEGEHAMMER",
-    "name": "Journeyman's Demolition Hammer",
+    "name": "Journeyman's Siege Hammer",
     "tier": 3,
     "category": "tools",
     "group": "tool",
@@ -477,7 +477,7 @@
   },
   {
     "id": "T4_2H_TOOL_SIEGEHAMMER",
-    "name": "Adept's Demolition Hammer",
+    "name": "Adept's Siege Hammer",
     "tier": 4,
     "category": "tools",
     "group": "tool",
@@ -715,7 +715,7 @@
   },
   {
     "id": "T5_2H_TOOL_SIEGEHAMMER",
-    "name": "Expert's Demolition Hammer",
+    "name": "Expert's Siege Hammer",
     "tier": 5,
     "category": "tools",
     "group": "tool",
@@ -953,7 +953,7 @@
   },
   {
     "id": "T6_2H_TOOL_SIEGEHAMMER",
-    "name": "Master's Demolition Hammer",
+    "name": "Master's Siege Hammer",
     "tier": 6,
     "category": "tools",
     "group": "tool",
@@ -1191,7 +1191,7 @@
   },
   {
     "id": "T7_2H_TOOL_SIEGEHAMMER",
-    "name": "Grandmaster's Demolition Hammer",
+    "name": "Grandmaster's Siege Hammer",
     "tier": 7,
     "category": "tools",
     "group": "tool",
@@ -1429,7 +1429,7 @@
   },
   {
     "id": "T8_2H_TOOL_SIEGEHAMMER",
-    "name": "Elder's Demolition Hammer",
+    "name": "Elder's Siege Hammer",
     "tier": 8,
     "category": "tools",
     "group": "tool",

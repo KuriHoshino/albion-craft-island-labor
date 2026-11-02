@@ -60,7 +60,7 @@ export type CraftItem = {
 export type MatInfo = { name: string; weight: number }
 export type JournalInfo = { id: string; tier: number; kind: string; fame: number; name: string }
 
-export const items: CraftItem[] = [
+export let items: CraftItem[] = [
   ...(accessory_json as CraftItem[]),
   ...(armor_cloth_json as CraftItem[]),
   ...(armor_leather_json as CraftItem[]),
@@ -91,7 +91,7 @@ export const items: CraftItem[] = [
   ...(weapon_sword_json as CraftItem[]),
 ]
 
-export const materials: Record<string, MatInfo> = {
+export let materials: Record<string, MatInfo> = {
   ...materials_1_json,
   ...materials_2_json,
   ...materials_3_json,
@@ -100,4 +100,24 @@ export const materials: Record<string, MatInfo> = {
   ...materials_mounts_json,
 }
 
-export const journals = journalsData as JournalInfo[]
+export let journals = journalsData as JournalInfo[]
+
+const catalogListeners = new Set<() => void>()
+
+export function onCatalogChange(listener: () => void) {
+  catalogListeners.add(listener)
+  return () => {
+    catalogListeners.delete(listener)
+  }
+}
+
+export function installCatalog(next: {
+  items: CraftItem[]
+  materials: Record<string, MatInfo>
+  journals: JournalInfo[]
+}) {
+  items = next.items
+  materials = next.materials
+  journals = next.journals
+  for (const listener of catalogListeners) listener()
+}

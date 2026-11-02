@@ -318,7 +318,7 @@
   },
   {
     "id": "T4_BAG_INSIGHT",
-    "name": "Adept's Bag · Insight",
+    "name": "Adept's Satchel of Insight",
     "tier": 4,
     "category": "bag",
     "group": "accessory",
@@ -886,7 +886,7 @@
   },
   {
     "id": "T5_BAG_INSIGHT",
-    "name": "Expert's Bag · Insight",
+    "name": "Expert's Satchel of Insight",
     "tier": 5,
     "category": "bag",
     "group": "accessory",
@@ -1454,7 +1454,7 @@
   },
   {
     "id": "T6_BAG_INSIGHT",
-    "name": "Master's Bag · Insight",
+    "name": "Master's Satchel of Insight",
     "tier": 6,
     "category": "bag",
     "group": "accessory",
@@ -2022,7 +2022,7 @@
   },
   {
     "id": "T7_BAG_INSIGHT",
-    "name": "Grandmaster's Bag · Insight",
+    "name": "Grandmaster's Satchel of Insight",
     "tier": 7,
     "category": "bag",
     "group": "accessory",
@@ -2590,7 +2590,7 @@
   },
   {
     "id": "T8_BAG_INSIGHT",
-    "name": "Elder's Bag · Insight",
+    "name": "Elder's Satchel of Insight",
     "tier": 8,
     "category": "bag",
     "group": "accessory",

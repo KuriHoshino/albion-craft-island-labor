@@ -294,22 +294,16 @@ export const WEAPON_LINE: Record<string, { label: string; station: (typeof FORGE
   holystaff: { label: "Holy Staffs", station: "Mage's Tower" },
 }
 
-export const ARMOR_LINE: Record<string, { label: string; station: (typeof FORGE_STATIONS)[number]; categories: string[] }> = {
-  plate: {
-    label: "Plate",
-    station: "Warrior's Forge",
-    categories: ["plate_helmet", "plate_armor", "plate_shoes"],
-  },
-  leather: {
-    label: "Leather",
-    station: "Hunter's Lodge",
-    categories: ["leather_helmet", "leather_armor", "leather_shoes"],
-  },
-  cloth: {
-    label: "Cloth",
-    station: "Mage's Tower",
-    categories: ["cloth_helmet", "cloth_armor", "cloth_shoes"],
-  },
+export const ARMOR_LINE: Record<string, { label: string; station: (typeof FORGE_STATIONS)[number] }> = {
+  plate_helmet: { label: "Plate Helmets", station: "Warrior's Forge" },
+  plate_armor: { label: "Plate Armor", station: "Warrior's Forge" },
+  plate_shoes: { label: "Plate Boots", station: "Warrior's Forge" },
+  leather_helmet: { label: "Leather Helmets", station: "Hunter's Lodge" },
+  leather_armor: { label: "Leather Armor", station: "Hunter's Lodge" },
+  leather_shoes: { label: "Leather Boots", station: "Hunter's Lodge" },
+  cloth_helmet: { label: "Cloth Helmets", station: "Mage's Tower" },
+  cloth_armor: { label: "Cloth Armor", station: "Mage's Tower" },
+  cloth_shoes: { label: "Cloth Boots", station: "Mage's Tower" },
 }
 
 export const OFFHAND_LINE: Record<string, { label: string }> = {
@@ -325,7 +319,7 @@ export const TOOL_LINE: Record<string, { label: string }> = {
   knife: { label: "Skinning Knives" },
   hammer: { label: "Stone Hammers" },
   fishingrod: { label: "Fishing Rods" },
-  siegehammer: { label: "Demolition Hammers" },
+  siegehammer: { label: "Siege Hammers" },
 }
 
 export const MOUNT_LINE: Record<string, { label: string }> = {
@@ -373,12 +367,7 @@ function itemStem(id: string): string {
 
 export function gearLine(item: { id?: string; group: string; category: string }): string | null {
   if (item.group === "weapon") return WEAPON_LINE[item.category] ? item.category : null
-  if (item.group === "armor") {
-    for (const [id, line] of Object.entries(ARMOR_LINE)) {
-      if (line.categories.includes(item.category)) return id
-    }
-    return null
-  }
+  if (item.group === "armor") return ARMOR_LINE[item.category] ? item.category : null
   if (item.group === "mount") return MOUNT_LINE[item.category] ? item.category : null
   if (!item.id) return null
   if (item.group === "offhand") return OFFHAND_STEM[itemStem(item.id)] ?? null

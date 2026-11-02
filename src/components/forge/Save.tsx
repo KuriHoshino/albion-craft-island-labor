@@ -5,6 +5,7 @@ import { useCurrentUserState } from "@/lib/auth/use-current-user"
 import { snapshotFrom } from "@/lib/forge/desk"
 import { deleteCraftGroup, listCraftGroups, loadCraftGroup, saveCraftGroup, type CraftGroupCard } from "@/lib/forge/groups"
 import { getItem } from "@/lib/forge/lookup"
+import { GITHUB_DATA_URL, syncCatalogFromGitHub } from "@/lib/forge/remote"
 import { useForge } from "@/lib/forge/store"
 import { fieldClass } from "./fields"
 
@@ -29,6 +30,22 @@ export function SaveLab() {
   const [groups, setGroups] = useState<CraftGroupCard[]>([])
   const [busy, setBusy] = useState(false)
   const [note, setNote] = useState("")
+  const [recipeNote, setRecipeNote] = useState("")
+  const [recipeBusy, setRecipeBusy] = useState(false)
+  const catalogNote = useForge((s) => s.catalogNote)
+
+  async function reloadRecipes() {
+    setRecipeBusy(true)
+    setRecipeNote("")
+    try {
+      await syncCatalogFromGitHub(true)
+      setRecipeNote("Loaded the recipe files from GitHub.")
+    } catch (error) {
+      setRecipeNote(error instanceof Error ? error.message : "Could not read GitHub.")
+    } finally {
+      setRecipeBusy(false)
+    }
+  }
 
   const refresh = useCallback(async () => {
     if (!user) {
@@ -104,6 +121,32 @@ export function SaveLab() {
 
   return (
     <div className="flex flex-col gap-4">
+      <section className="rounded-lg border border-line bg-panel p-4">
+        <h2 className="font-display text-2xl">Fix recipes on GitHub</h2>
+        <p className="mt-2 max-w-xl text-sm text-muted">
+          Names, materials, and focus live in JSON on GitHub. Edit a file there, commit it to main, then reload. That
+          still works after this app is published.
+        </p>
+        <div className="mt-4 flex flex-wrap gap-2">
+          <a
+            href={GITHUB_DATA_URL}
+            target="_blank"
+            rel="noreferrer"
+            className="inline-flex h-11 items-center rounded-lg border border-line px-4 text-sm text-parchment"
+          >
+            Open the recipe files
+          </a>
+          <button
+            type="button"
+            disabled={recipeBusy}
+            onClick={() => void reloadRecipes()}
+            className="h-11 rounded-lg bg-brass px-4 text-sm font-semibold text-ink disabled:opacity-60"
+          >
+            {recipeBusy ? "Loading GitHub…" : "Reload recipes"}
+          </button>
+        </div>
+        {recipeNote || catalogNote ? <p className="mt-3 text-sm text-muted">{recipeNote || catalogNote}</p> : null}
+      </section>
       <section className="rounded-lg border border-line bg-panel p-4">
         <div className="flex flex-wrap items-start justify-between gap-3">
           <div>

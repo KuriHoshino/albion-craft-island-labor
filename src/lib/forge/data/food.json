@@ -937,7 +937,7 @@
   },
   {
     "id": "T3_MEAL_SOUP_FISH",
-    "name": "Blackbog Clam Soup",
+    "name": "Murkwater Clam Soup",
     "tier": 3,
     "category": "food",
     "group": "food",
@@ -1542,7 +1542,7 @@
   },
   {
     "id": "T3_MEAL_OMELETTE_DRAGONAREA",
-    "name": "Dragon Omelette",
+    "name": "Carefree Leyfin Omelette",
     "tier": 3,
     "category": "food",
     "group": "food",
@@ -4605,7 +4605,7 @@
   },
   {
     "id": "T5_MEAL_OMELETTE_DRAGONAREA",
-    "name": "Dragon Omelette",
+    "name": "Brightsoul Leyfin Omelette",
     "tier": 5,
     "category": "food",
     "group": "food",
@@ -7653,7 +7653,7 @@
   },
   {
     "id": "T7_MEAL_OMELETTE_DRAGONAREA",
-    "name": "Dragon Omelette",
+    "name": "Dragonbound Leyfin Omelette",
     "tier": 7,
     "category": "food",
     "group": "food",
@@ -9933,7 +9933,7 @@
   },
   {
     "id": "T8_MEAL_SPECIAL_FOOD_DRAKE_EGG",
-    "name": "Drake Egg Omelette",
+    "name": "Drake Egg Biscuits",
     "tier": 8,
     "category": "food",
     "group": "food",

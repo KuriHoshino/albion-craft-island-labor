@@ -1948,7 +1948,7 @@
   },
   {
     "id": "T4_BACKPACK_GATHERER_ORE",
-    "name": "Adept's Miner's Backpack",
+    "name": "Adept's Miner Backpack",
     "tier": 4,
     "category": "gatherergear",
     "group": "gather",
@@ -2129,7 +2129,7 @@
   },
   {
     "id": "T4_HEAD_GATHERER_ORE",
-    "name": "Adept's Miner's Cap",
+    "name": "Adept's Miner Cap",
     "tier": 4,
     "category": "gatherergear",
     "group": "gather",
@@ -2285,7 +2285,7 @@
   },
   {
     "id": "T4_ARMOR_GATHERER_ORE",
-    "name": "Adept's Miner's Garb",
+    "name": "Adept's Miner Garb",
     "tier": 4,
     "category": "gatherergear",
     "group": "gather",
@@ -2441,7 +2441,7 @@
   },
   {
     "id": "T4_SHOES_GATHERER_ORE",
-    "name": "Adept's Miner's Workboots",
+    "name": "Adept's Miner Workboots",
     "tier": 4,
     "category": "gatherergear",
     "group": "gather",
@@ -2597,7 +2597,7 @@
   },
   {
     "id": "T4_BACKPACK_GATHERER_ROCK",
-    "name": "Adept's Quarrier's Backpack",
+    "name": "Adept's Quarrier Backpack",
     "tier": 4,
     "category": "gatherergear",
     "group": "gather",
@@ -2778,7 +2778,7 @@
   },
   {
     "id": "T4_HEAD_GATHERER_ROCK",
-    "name": "Adept's Quarrier's Cap",
+    "name": "Adept's Quarrier Cap",
     "tier": 4,
     "category": "gatherergear",
     "group": "gather",
@@ -2934,7 +2934,7 @@
   },
   {
     "id": "T4_ARMOR_GATHERER_ROCK",
-    "name": "Adept's Quarrier's Garb",
+    "name": "Adept's Quarrier Garb",
     "tier": 4,
     "category": "gatherergear",
     "group": "gather",
@@ -3090,7 +3090,7 @@
   },
   {
     "id": "T4_SHOES_GATHERER_ROCK",
-    "name": "Adept's Quarrier's Workboots",
+    "name": "Adept's Quarrier Workboots",
     "tier": 4,
     "category": "gatherergear",
     "group": "gather",
@@ -5842,7 +5842,7 @@
   },
   {
     "id": "T5_BACKPACK_GATHERER_ORE",
-    "name": "Expert's Miner's Backpack",
+    "name": "Expert's Miner Backpack",
     "tier": 5,
     "category": "gatherergear",
     "group": "gather",
@@ -6023,7 +6023,7 @@
   },
   {
     "id": "T5_HEAD_GATHERER_ORE",
-    "name": "Expert's Miner's Cap",
+    "name": "Expert's Miner Cap",
     "tier": 5,
     "category": "gatherergear",
     "group": "gather",
@@ -6179,7 +6179,7 @@
   },
   {
     "id": "T5_ARMOR_GATHERER_ORE",
-    "name": "Expert's Miner's Garb",
+    "name": "Expert's Miner Garb",
     "tier": 5,
     "category": "gatherergear",
     "group": "gather",
@@ -6335,7 +6335,7 @@
   },
   {
     "id": "T5_SHOES_GATHERER_ORE",
-    "name": "Expert's Miner's Workboots",
+    "name": "Expert's Miner Workboots",
     "tier": 5,
     "category": "gatherergear",
     "group": "gather",
@@ -6491,7 +6491,7 @@
   },
   {
     "id": "T5_BACKPACK_GATHERER_ROCK",
-    "name": "Expert's Quarrier's Backpack",
+    "name": "Expert's Quarrier Backpack",
     "tier": 5,
     "category": "gatherergear",
     "group": "gather",
@@ -6672,7 +6672,7 @@
   },
   {
     "id": "T5_HEAD_GATHERER_ROCK",
-    "name": "Expert's Quarrier's Cap",
+    "name": "Expert's Quarrier Cap",
     "tier": 5,
     "category": "gatherergear",
     "group": "gather",
@@ -6828,7 +6828,7 @@
   },
   {
     "id": "T5_ARMOR_GATHERER_ROCK",
-    "name": "Expert's Quarrier's Garb",
+    "name": "Expert's Quarrier Garb",
     "tier": 5,
     "category": "gatherergear",
     "group": "gather",
@@ -6984,7 +6984,7 @@
   },
   {
     "id": "T5_SHOES_GATHERER_ROCK",
-    "name": "Expert's Quarrier's Workboots",
+    "name": "Expert's Quarrier Workboots",
     "tier": 5,
     "category": "gatherergear",
     "group": "gather",
@@ -9736,7 +9736,7 @@
   },
   {
     "id": "T6_BACKPACK_GATHERER_ORE",
-    "name": "Master's Miner's Backpack",
+    "name": "Master's Miner Backpack",
     "tier": 6,
     "category": "gatherergear",
     "group": "gather",
@@ -9917,7 +9917,7 @@
   },
   {
     "id": "T6_HEAD_GATHERER_ORE",
-    "name": "Master's Miner's Cap",
+    "name": "Master's Miner Cap",
     "tier": 6,
     "category": "gatherergear",
     "group": "gather",
@@ -10073,7 +10073,7 @@
   },
   {
     "id": "T6_ARMOR_GATHERER_ORE",
-    "name": "Master's Miner's Garb",
+    "name": "Master's Miner Garb",
     "tier": 6,
     "category": "gatherergear",
     "group": "gather",
@@ -10229,7 +10229,7 @@
   },
   {
     "id": "T6_SHOES_GATHERER_ORE",
-    "name": "Master's Miner's Workboots",
+    "name": "Master's Miner Workboots",
     "tier": 6,
     "category": "gatherergear",
     "group": "gather",
@@ -10385,7 +10385,7 @@
   },
   {
     "id": "T6_BACKPACK_GATHERER_ROCK",
-    "name": "Master's Quarrier's Backpack",
+    "name": "Master's Quarrier Backpack",
     "tier": 6,
     "category": "gatherergear",
     "group": "gather",
@@ -10566,7 +10566,7 @@
   },
   {
     "id": "T6_HEAD_GATHERER_ROCK",
-    "name": "Master's Quarrier's Cap",
+    "name": "Master's Quarrier Cap",
     "tier": 6,
     "category": "gatherergear",
     "group": "gather",
@@ -10722,7 +10722,7 @@
   },
   {
     "id": "T6_ARMOR_GATHERER_ROCK",
-    "name": "Master's Quarrier's Garb",
+    "name": "Master's Quarrier Garb",
     "tier": 6,
     "category": "gatherergear",
     "group": "gather",
@@ -10878,7 +10878,7 @@
   },
   {
     "id": "T6_SHOES_GATHERER_ROCK",
-    "name": "Master's Quarrier's Workboots",
+    "name": "Master's Quarrier Workboots",
     "tier": 6,
     "category": "gatherergear",
     "group": "gather",
@@ -13630,7 +13630,7 @@
   },
   {
     "id": "T7_BACKPACK_GATHERER_ORE",
-    "name": "Grandmaster's Miner's Backpack",
+    "name": "Grandmaster's Miner Backpack",
     "tier": 7,
     "category": "gatherergear",
     "group": "gather",
@@ -13811,7 +13811,7 @@
   },
   {
     "id": "T7_HEAD_GATHERER_ORE",
-    "name": "Grandmaster's Miner's Cap",
+    "name": "Grandmaster's Miner Cap",
     "tier": 7,
     "category": "gatherergear",
     "group": "gather",
@@ -13967,7 +13967,7 @@
   },
   {
     "id": "T7_ARMOR_GATHERER_ORE",
-    "name": "Grandmaster's Miner's Garb",
+    "name": "Grandmaster's Miner Garb",
     "tier": 7,
     "category": "gatherergear",
     "group": "gather",
@@ -14123,7 +14123,7 @@
   },
   {
     "id": "T7_SHOES_GATHERER_ORE",
-    "name": "Grandmaster's Miner's Workboots",
+    "name": "Grandmaster's Miner Workboots",
     "tier": 7,
     "category": "gatherergear",
     "group": "gather",
@@ -14279,7 +14279,7 @@
   },
   {
     "id": "T7_BACKPACK_GATHERER_ROCK",
-    "name": "Grandmaster's Quarrier's Backpack",
+    "name": "Grandmaster's Quarrier Backpack",
     "tier": 7,
     "category": "gatherergear",
     "group": "gather",
@@ -14460,7 +14460,7 @@
   },
   {
     "id": "T7_HEAD_GATHERER_ROCK",
-    "name": "Grandmaster's Quarrier's Cap",
+    "name": "Grandmaster's Quarrier Cap",
     "tier": 7,
     "category": "gatherergear",
     "group": "gather",
@@ -14616,7 +14616,7 @@
   },
   {
     "id": "T7_ARMOR_GATHERER_ROCK",
-    "name": "Grandmaster's Quarrier's Garb",
+    "name": "Grandmaster's Quarrier Garb",
     "tier": 7,
     "category": "gatherergear",
     "group": "gather",
@@ -14772,7 +14772,7 @@
   },
   {
     "id": "T7_SHOES_GATHERER_ROCK",
-    "name": "Grandmaster's Quarrier's Workboots",
+    "name": "Grandmaster's Quarrier Workboots",
     "tier": 7,
     "category": "gatherergear",
     "group": "gather",
@@ -17524,7 +17524,7 @@
   },
   {
     "id": "T8_BACKPACK_GATHERER_ORE",
-    "name": "Elder's Miner's Backpack",
+    "name": "Elder's Miner Backpack",
     "tier": 8,
     "category": "gatherergear",
     "group": "gather",
@@ -17705,7 +17705,7 @@
   },
   {
     "id": "T8_HEAD_GATHERER_ORE",
-    "name": "Elder's Miner's Cap",
+    "name": "Elder's Miner Cap",
     "tier": 8,
     "category": "gatherergear",
     "group": "gather",
@@ -17861,7 +17861,7 @@
   },
   {
     "id": "T8_ARMOR_GATHERER_ORE",
-    "name": "Elder's Miner's Garb",
+    "name": "Elder's Miner Garb",
     "tier": 8,
     "category": "gatherergear",
     "group": "gather",
@@ -18017,7 +18017,7 @@
   },
   {
     "id": "T8_SHOES_GATHERER_ORE",
-    "name": "Elder's Miner's Workboots",
+    "name": "Elder's Miner Workboots",
     "tier": 8,
     "category": "gatherergear",
     "group": "gather",
@@ -18173,7 +18173,7 @@
   },
   {
     "id": "T8_BACKPACK_GATHERER_ROCK",
-    "name": "Elder's Quarrier's Backpack",
+    "name": "Elder's Quarrier Backpack",
     "tier": 8,
     "category": "gatherergear",
     "group": "gather",
@@ -18354,7 +18354,7 @@
   },
   {
     "id": "T8_HEAD_GATHERER_ROCK",
-    "name": "Elder's Quarrier's Cap",
+    "name": "Elder's Quarrier Cap",
     "tier": 8,
     "category": "gatherergear",
     "group": "gather",
@@ -18510,7 +18510,7 @@
   },
   {
     "id": "T8_ARMOR_GATHERER_ROCK",
-    "name": "Elder's Quarrier's Garb",
+    "name": "Elder's Quarrier Garb",
     "tier": 8,
     "category": "gatherergear",
     "group": "gather",
@@ -18666,7 +18666,7 @@
   },
   {
     "id": "T8_SHOES_GATHERER_ROCK",
-    "name": "Elder's Quarrier's Workboots",
+    "name": "Elder's Quarrier Workboots",
     "tier": 8,
     "category": "gatherergear",
     "group": "gather",

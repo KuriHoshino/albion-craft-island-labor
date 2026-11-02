@@ -59,7 +59,7 @@
   },
   {
     "id": "T2_STONEBLOCK",
-    "name": "Rough Stone",
+    "name": "Limestone Block",
     "tier": 2,
     "category": "rock",
     "group": "refine",
@@ -214,7 +214,7 @@
   },
   {
     "id": "T3_STONEBLOCK",
-    "name": "Limestone Block",
+    "name": "Sandstone Block",
     "tier": 3,
     "category": "rock",
     "group": "refine",
@@ -552,7 +552,7 @@
   },
   {
     "id": "T4_STONEBLOCK",
-    "name": "Sandstone Block",
+    "name": "Travertine Block",
     "tier": 4,
     "category": "rock",
     "group": "refine",
@@ -586,7 +586,7 @@
   },
   {
     "id": "T4_STONEBLOCK#alt",
-    "name": "Sandstone Block · transmute",
+    "name": "Travertine Block · transmute",
     "tier": 4,
     "category": "rock",
     "group": "refine",
@@ -1210,7 +1210,7 @@
   },
   {
     "id": "T5_METALBAR",
-    "name": "Titanium Bar",
+    "name": "Titanium Steel Bar",
     "tier": 5,
     "category": "ore",
     "group": "refine",
@@ -1328,7 +1328,7 @@
   },
   {
     "id": "T5_STONEBLOCK",
-    "name": "Travertine Block",
+    "name": "Granite Block",
     "tier": 5,
     "category": "rock",
     "group": "refine",
@@ -1362,7 +1362,7 @@
   },
   {
     "id": "T5_STONEBLOCK#alt",
-    "name": "Travertine Block · transmute",
+    "name": "Granite Block · transmute",
     "tier": 5,
     "category": "rock",
     "group": "refine",
@@ -1514,7 +1514,7 @@
   },
   {
     "id": "T6_STONEBLOCK",
-    "name": "Granite Block",
+    "name": "Slate Block",
     "tier": 6,
     "category": "rock",
     "group": "refine",
@@ -1548,7 +1548,7 @@
   },
   {
     "id": "T6_STONEBLOCK#alt",
-    "name": "Granite Block · transmute",
+    "name": "Slate Block · transmute",
     "tier": 6,
     "category": "rock",
     "group": "refine",
@@ -1818,7 +1818,7 @@
   },
   {
     "id": "T6_METALBAR",
-    "name": "Runite Bar",
+    "name": "Runite Steel Bar",
     "tier": 6,
     "category": "ore",
     "group": "refine",
@@ -2054,7 +2054,7 @@
   },
   {
     "id": "T7_METALBAR",
-    "name": "Meteorite Bar",
+    "name": "Meteorite Steel Bar",
     "tier": 7,
     "category": "ore",
     "group": "refine",
@@ -2408,7 +2408,7 @@
   },
   {
     "id": "T7_STONEBLOCK",
-    "name": "Slate Block",
+    "name": "Basalt Block",
     "tier": 7,
     "category": "rock",
     "group": "refine",
@@ -2442,7 +2442,7 @@
   },
   {
     "id": "T7_STONEBLOCK#alt",
-    "name": "Slate Block · transmute",
+    "name": "Basalt Block · transmute",
     "tier": 7,
     "category": "rock",
     "group": "refine",
@@ -2476,7 +2476,7 @@
   },
   {
     "id": "T8_METALBAR",
-    "name": "Adamantium Bar",
+    "name": "Adamantium Steel Bar",
     "tier": 8,
     "category": "ore",
     "group": "refine",
@@ -2712,7 +2712,7 @@
   },
   {
     "id": "T8_STONEBLOCK",
-    "name": "Basalt Block",
+    "name": "Marble Block",
     "tier": 8,
     "category": "rock",
     "group": "refine",
@@ -2746,7 +2746,7 @@
   },
   {
     "id": "T8_STONEBLOCK#alt",
-    "name": "Basalt Block · transmute",
+    "name": "Marble Block · transmute",
     "tier": 8,
     "category": "rock",
     "group": "refine",

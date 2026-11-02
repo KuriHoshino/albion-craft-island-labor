@@ -56,6 +56,8 @@ type ForgeState = {
   priceAt: number | null
   priceError: string | null
   loading: boolean
+  catalogRev: number
+  catalogNote: string | null
   setView: (view: View) => void
   patch: (partial: Partial<Omit<ForgeState, "lines" | "prices">>) => void
   patchLine: (uid: string, partial: Partial<Line>) => void
@@ -143,6 +145,8 @@ export const useForge = create<ForgeState>()(
       priceAt: null,
       priceError: null,
       loading: false,
+      catalogRev: 0,
+      catalogNote: null,
       setView: (view) => set({ view }),
       patch: (partial) => set(partial),
       patchLine: (uid, partial) =>

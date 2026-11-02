@@ -1,8 +1,16 @@
-import { items, journals, materials, type CraftItem, type Variant } from "./catalog"
+import { items, journals, materials, onCatalogChange, type CraftItem, type Variant } from "./catalog"
 import { gearLine } from "./rules"
 
-const byId = new Map<string, CraftItem>()
-for (const item of items) byId.set(item.id, item)
+function indexItems(list: CraftItem[]) {
+  const map = new Map<string, CraftItem>()
+  for (const item of list) map.set(item.id, item)
+  return map
+}
+
+let byId = indexItems(items)
+onCatalogChange(() => {
+  byId = indexItems(items)
+})
 
 export function getItem(id: string): CraftItem | undefined {
   return byId.get(id)

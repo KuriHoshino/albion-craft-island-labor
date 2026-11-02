@@ -1,6 +1,7 @@
 import { useMemo, useState } from "react"
 import { ARMOR_LINE, FORGE_STATIONS, GATHER_LINE, GROUP_LABEL, MOUNT_LINE, OFFHAND_LINE, TOOL_LINE, WEAPON_LINE, gearLineLabel } from "@/lib/forge/rules"
 import { searchItems } from "@/lib/forge/lookup"
+import { useForge } from "@/lib/forge/store"
 import { fieldClass } from "./fields"
 
 const GROUPS = ["all", "refine", "weapon", "armor", "offhand", "mount", "accessory", "tool", "gather", "food", "potion"]
@@ -63,20 +64,33 @@ export function ItemPicker({
       .filter(([, entry]) => !forge || !station || !("station" in entry) || entry.station === station)
       .map(([id, entry]) => ({ id, label: entry.label }))
   }, [group, station, forge])
+  const catalogRev = useForge((s) => s.catalogRev)
   const hits = useMemo(
     () => searchItems(query, group, split ? { station: forge ? station : "", line, tier: tier || undefined } : undefined),
-    [query, group, split, forge, station, line, tier],
+    [query, group, split, forge, station, line, tier, catalogRev],
   )
   const sections = useMemo(() => {
-    const buckets = new Map<number, typeof hits>()
+    const slotOrder = Object.keys(ARMOR_LINE)
+    const buckets = new Map<string, { title: string; rows: typeof hits }>()
     for (const item of hits) {
-      const rows = buckets.get(item.tier) ?? []
-      rows.push(item)
-      rows.sort((a, b) => a.name.localeCompare(b.name))
-      buckets.set(item.tier, rows)
+      const slot = group === "armor" ? item.category : ""
+      const key = group === "armor" ? `${item.tier}|${slot}` : String(item.tier)
+      const title = group === "armor" ? `Tier ${item.tier} · ${ARMOR_LINE[item.category]?.label ?? "Armor"}` : `Tier ${item.tier}`
+      const bucket = buckets.get(key) ?? { title, rows: [] }
+      bucket.rows.push(item)
+      bucket.rows.sort((a, b) => a.name.localeCompare(b.name))
+      buckets.set(key, bucket)
     }
-    return [...buckets.entries()].sort((a, b) => a[0] - b[0])
-  }, [hits])
+    return [...buckets.entries()]
+      .sort((a, b) => {
+        const [tierA, slotA = ""] = a[0].split("|")
+        const [tierB, slotB = ""] = b[0].split("|")
+        const byTier = Number(tierA) - Number(tierB)
+        if (byTier) return byTier
+        return slotOrder.indexOf(slotA) - slotOrder.indexOf(slotB)
+      })
+      .map(([, bucket]) => bucket)
+  }, [hits, group])
 
   function pickGroup(id: string) {
     setGroup(id)
@@ -157,7 +171,7 @@ export function ItemPicker({
         <p className="text-sm text-muted">
           {split && !query.trim() && !station && !line && !tier
             ? group === "armor"
-              ? "Pick a tier, or Plate, Leather, or Cloth."
+              ? "Pick a tier, or Helmets, Armor, and Boots for plate, leather, and cloth."
               : group === "offhand"
                 ? "Pick a tier, or Shields, Torches, or Tomes."
                 : group === "tool"
@@ -173,15 +187,15 @@ export function ItemPicker({
         </p>
       ) : (
         <ul className={compact ? "flex flex-col" : "flex max-h-80 flex-col overflow-auto rounded-lg border border-line"}>
-          {sections.map(([rank, rows]) => (
-            <li key={rank}>
+          {sections.map((section) => (
+            <li key={section.title}>
               {split && sections.length > 1 ? (
                 <p className="border-b border-line bg-panel px-3 py-2 text-xs font-semibold tracking-wide text-brass uppercase">
-                  Tier {rank}
+                  {section.title}
                 </p>
               ) : null}
               <ul>
-                {rows.map((item) => (
+                {section.rows.map((item) => (
                   <li key={item.id}>
                     <button
                       type="button"
