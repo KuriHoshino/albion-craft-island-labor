@@ -75,7 +75,7 @@ function evaluateLine(line: Line, state: ReturnType<typeof useForge.getState>) {
     journalFame: journal?.fame ?? null,
     journalEmpty: journal ? matLook(`${journal.id}_EMPTY`, state.buyCity, buySide) : null,
     journalFull: journal ? matLook(`${journal.id}_FULL`, state.sellCity, sellSide) : null,
-    useJournal: line.journal,
+    useJournal: line.journal && Boolean(item.journal),
   })
   return { math, stoodIn: notes }
 }
@@ -352,9 +352,11 @@ export function Bench() {
             <Toggle on={line.focus} onClick={() => state.patchLine(line.uid, { focus: !line.focus })}>
               Use focus
             </Toggle>
-            <Toggle on={line.journal} onClick={() => state.patchLine(line.uid, { journal: !line.journal })}>
-              Fill journals
-            </Toggle>
+            {item.journal ? (
+              <Toggle on={line.journal} onClick={() => state.patchLine(line.uid, { journal: !line.journal })}>
+                Fill journals
+              </Toggle>
+            ) : null}
             <Toggle on={state.premium} onClick={() => state.patch({ premium: !state.premium })}>
               Premium
             </Toggle>
@@ -389,9 +391,15 @@ export function Bench() {
               className="inline-flex h-11 items-center gap-2 rounded-lg bg-brass px-3 text-sm font-semibold text-ink"
             >
               <RefreshCw className={"size-4 " + (state.loading ? "animate-spin" : "")} />
-              {state.loading ? "Loading" : "Live prices"}
+              {state.loading && state.priceAt == null ? "Loading" : "Live prices"}
             </button>
           </div>
+          <p className="mt-2 text-xs text-muted">
+            {state.priceAt
+              ? `Live order book, refreshed ${new Date(state.priceAt).toLocaleTimeString()}. It checks again every minute.`
+              : "Fetching the live order book."}
+            {state.loading && state.priceAt != null ? " Updating." : ""}
+          </p>
           {state.priceError ? <p className="mt-2 text-sm text-ember">{state.priceError}</p> : null}
           <div className="mt-3 grid grid-cols-2 gap-3">
             <Select
@@ -452,7 +460,6 @@ export function Bench() {
             itemId={productId}
             itemName={`${item.name} .${variant.enchant}`}
             quality={state.quality}
-            refreshKey={state.priceAt}
           />
           <div className="mt-4 flex flex-col gap-2">
             <PriceRow
@@ -465,11 +472,12 @@ export function Bench() {
             />
             {variant.mats.map((mat) => {
               const quote = lookup(state.prices, mat.id, state.buyCity, 1, state.buyMode === "instant" ? "sell" : "buy", null)
+              const note = mat.ret ? "" : " · no return"
               return (
                 <PriceRow
                   key={mat.id}
                   role="Resource"
-                  name={`${matName(mat.id)} × ${exact(mat.qty)}${mat.ret ? "" : " · no return"}`}
+                  name={`${matName(mat.id)} × ${exact(mat.qty)}${note}`}
                   market={quote.price}
                   hint={quote.from}
                   value={line.matOverrides[mat.id] ?? null}
@@ -479,8 +487,9 @@ export function Bench() {
             })}
           </div>
           <p className="mt-3 text-xs text-muted">
-            Blank prices use the Albion Online Data Project. A typed number overrides that quote. Tax is 4% with Premium
-            and 8% without. Sell orders also pay a 2.5% setup fee. Black Market and direct trades use “No tax”.
+            Prices are the cheapest sell and the highest buy on the Albion Online Data Project order book. A typed
+            number overrides that quote and stops following the market. Tax is 4% with Premium and 8% without. Sell
+            orders also pay a 2.5% setup fee. Black Market and direct trades use “No tax”.
           </p>
         </section>
 
@@ -528,8 +537,8 @@ export function Bench() {
             <Stat label="Item value" value={exact(variant.value)} />
             <Stat label="Nutrition" value={exact(math.nutrition)} />
             <Stat label="Fame" value={exact(math.fameTotal)} />
-            <Stat label="Study fame / item" value={exact(math.studyEach)} />
-            <Stat label="Journals" value={line.journal ? exact(math.journals) : "Off"} />
+            <Stat label="Study fame / item" value={item.study ? exact(math.studyEach) : "—"} />
+            <Stat label="Journals" value={line.journal && item.journal ? exact(math.journals) : "Off"} />
           </dl>
           <ul className="mt-3 text-xs text-muted">
             {math.parts.map((part) => (
@@ -595,10 +604,11 @@ function PriceRow({
         {name}
         {hint ? <span className="ml-2 text-xs text-muted">using {hint}</span> : null}
       </span>
+      <span className="tabular-nums text-base text-parchment">{market == null ? "No live order" : silver(market)}</span>
       <input
         className={fieldClass}
         inputMode="decimal"
-        placeholder={market == null ? "No quote" : silver(market)}
+        placeholder="Type a price to override"
         value={value ?? ""}
         onChange={(event) => onChange(event.target.value === "" ? null : Number(event.target.value))}
         aria-label={`${role}: ${name}`}

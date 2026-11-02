@@ -146,12 +146,14 @@ export function wholeReturn(value: number): number {
  */
 export function materialLots(runs: number, perCraft: number, rrr: number): { buy: number; leftover: number } {
   const n = Math.floor(Math.max(0, runs))
-  const rate = Math.min(1, Math.max(0, rrr))
+  const rate = Math.max(0, rrr)
   if (n <= 0 || perCraft <= 0) return { buy: 0, leftover: 0 }
+  if (rate <= 0) return { buy: perCraft * n, leftover: 0 }
   const per = perCraft * rate
   const before = wholeReturn((n - 1) * per)
   const all = wholeReturn(n * per)
-  return { buy: Math.ceil(perCraft * n - before), leftover: all - before }
+  const reusable = Math.min(before, perCraft * (n - 1))
+  return { buy: Math.ceil(perCraft * n - reusable), leftover: all - reusable }
 }
 
 export function sellNet(price: number, mode: SellMode, premium: boolean) {
@@ -235,19 +237,21 @@ export function craftMath(opts: {
   useJournal: boolean
 }): CraftMath {
   const runs = Math.max(0, opts.runs)
-  const { total, parts } = productionBonus(opts)
+  const bonus = productionBonus(opts)
+  const total = bonus.total
+  const parts = bonus.parts
   const rrr = returnRate(total)
-  const baseFocus = opts.focusOverride != null && opts.focusOverride >= 0 ? opts.focusOverride : opts.variant.focus
-  const spec = focusFromSpecs(baseFocus, opts.mastery, opts.specialist, opts.siblings)
-  const focusEach = opts.focus ? spec.cost : 0
   const items = (opts.variant.output || 1) * runs
   const fameEach = opts.variant.fame * (opts.premium ? PREMIUM_FAME : 1)
   const fameTotal = fameEach * items
+  const fee = stationFee(opts.variant.value, items, opts.tier, opts.stationRate)
+  const nut = nutrition(opts.variant.value, items, opts.tier)
+  const baseFocus = opts.focusOverride != null && opts.focusOverride >= 0 ? opts.focusOverride : opts.variant.focus
+  const spec = focusFromSpecs(baseFocus, opts.mastery, opts.specialist, opts.siblings)
+  const focusEach = opts.focus ? spec.cost : 0
   const dailyMult = opts.daily === 20 ? 1.2 : opts.daily === 10 ? 1.1 : 1
   const studyEach =
     opts.variant.fame * STUDY_FACTOR * dailyMult * (opts.focus ? STUDY_FOCUS : 1) * (opts.premium ? PREMIUM_FAME : 1)
-  const fee = stationFee(opts.variant.value, items, opts.tier, opts.stationRate)
-  const nut = nutrition(opts.variant.value, items, opts.tier)
   const missing: string[] = []
   let materialCost = 0
   let materialKnown = true
@@ -257,9 +261,12 @@ export function craftMath(opts: {
   const leftovers: CraftMath["leftovers"] = []
 
   for (const mat of opts.variant.mats) {
-    const lots = mat.ret ? materialLots(runs, mat.qty, rrr) : { buy: mat.qty * Math.floor(Math.max(0, runs)), leftover: 0 }
-    const sold = opts.leftover === "sell" && mat.ret ? wholeReturn(mat.qty * Math.floor(Math.max(0, runs)) * Math.min(1, Math.max(0, rrr))) : lots.leftover
-    const bought = opts.leftover === "sell" && mat.ret ? mat.qty * Math.floor(Math.max(0, runs)) : lots.buy
+    const rate = mat.ret ? rrr : 0
+    const returns = rate > 0
+    const lots = returns ? materialLots(runs, mat.qty, rate) : { buy: mat.qty * Math.floor(Math.max(0, runs)), leftover: 0 }
+    const n = Math.floor(Math.max(0, runs))
+    const sold = opts.leftover === "sell" && returns ? wholeReturn(mat.qty * n * rate) : lots.leftover
+    const bought = opts.leftover === "sell" && returns ? mat.qty * n : lots.buy
     const unit = opts.matUnit(mat.id)
     if (unit == null) {
       materialKnown = false

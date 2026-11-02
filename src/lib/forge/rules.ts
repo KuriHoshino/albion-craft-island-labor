@@ -269,6 +269,7 @@ export const GROUP_LABEL: Record<string, string> = {
   gather: "Gathering gear",
   food: "Food",
   potion: "Potions",
+  mount: "Mounts",
 }
 
 export const FORGE_STATIONS = ["Warrior's Forge", "Hunter's Lodge", "Mage's Tower"] as const
@@ -327,6 +328,15 @@ export const TOOL_LINE: Record<string, { label: string }> = {
   siegehammer: { label: "Demolition Hammers" },
 }
 
+export const MOUNT_LINE: Record<string, { label: string }> = {
+  horse: { label: "Riding Horses" },
+  armored: { label: "Armored Horses" },
+  ox: { label: "Transport Oxen" },
+  rare: { label: "Rare mounts" },
+  faction: { label: "Faction mounts" },
+  battle: { label: "Battle mounts" },
+}
+
 export const GATHER_LINE: Record<string, { label: string }> = {
   fiber: { label: "Harvester" },
   wood: { label: "Lumberjack" },
@@ -369,6 +379,7 @@ export function gearLine(item: { id?: string; group: string; category: string })
     }
     return null
   }
+  if (item.group === "mount") return MOUNT_LINE[item.category] ? item.category : null
   if (!item.id) return null
   if (item.group === "offhand") return OFFHAND_STEM[itemStem(item.id)] ?? null
   if (item.group === "gather") {
@@ -391,6 +402,7 @@ export function gearLineLabel(item: { id?: string; group: string; category: stri
     OFFHAND_LINE[id]?.label ??
     TOOL_LINE[id]?.label ??
     GATHER_LINE[id]?.label ??
+    MOUNT_LINE[id]?.label ??
     null
   )
 }

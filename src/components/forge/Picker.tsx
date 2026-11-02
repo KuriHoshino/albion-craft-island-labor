@@ -1,9 +1,9 @@
 import { useMemo, useState } from "react"
-import { ARMOR_LINE, FORGE_STATIONS, GATHER_LINE, GROUP_LABEL, OFFHAND_LINE, TOOL_LINE, WEAPON_LINE, gearLineLabel } from "@/lib/forge/rules"
+import { ARMOR_LINE, FORGE_STATIONS, GATHER_LINE, GROUP_LABEL, MOUNT_LINE, OFFHAND_LINE, TOOL_LINE, WEAPON_LINE, gearLineLabel } from "@/lib/forge/rules"
 import { searchItems } from "@/lib/forge/lookup"
 import { fieldClass } from "./fields"
 
-const GROUPS = ["all", "refine", "weapon", "armor", "offhand", "accessory", "tool", "gather", "food", "potion"]
+const GROUPS = ["all", "refine", "weapon", "armor", "offhand", "mount", "accessory", "tool", "gather", "food", "potion"]
 const TIERS = [2, 3, 4, 5, 6, 7, 8]
 
 function Chip({
@@ -42,7 +42,7 @@ export function ItemPicker({
   const [line, setLine] = useState("")
   const [tier, setTier] = useState(0)
   const forge = group === "weapon" || group === "armor"
-  const split = forge || group === "offhand" || group === "tool" || group === "gather"
+  const split = forge || group === "offhand" || group === "tool" || group === "gather" || group === "mount"
   const lines = useMemo(() => {
     const book =
       group === "weapon"
@@ -55,7 +55,9 @@ export function ItemPicker({
               ? TOOL_LINE
               : group === "gather"
                 ? GATHER_LINE
-                : null
+                : group === "mount"
+                  ? MOUNT_LINE
+                  : null
     if (!book) return []
     return Object.entries(book)
       .filter(([, entry]) => !forge || !station || !("station" in entry) || entry.station === station)
@@ -129,7 +131,9 @@ export function ItemPicker({
                     ? "All tools"
                     : group === "gather"
                       ? "All gathering gear"
-                      : "All weapons"}
+                      : group === "mount"
+                        ? "All mounts"
+                        : "All weapons"}
             </Chip>
             {lines.map((entry) => (
               <Chip key={entry.id} on={line === entry.id} onClick={() => setLine(line === entry.id ? "" : entry.id)}>
@@ -160,7 +164,9 @@ export function ItemPicker({
                   ? "Pick a tier, or a tool such as Pickaxes or Sickles."
                   : group === "gather"
                     ? "Pick a tier, or a set such as Miner or Lumberjack."
-                    : "Pick a tier, or a weapon line such as Swords or Bows."
+                    : group === "mount"
+                      ? "Pick a tier, or Riding Horses, Oxen, or Rare mounts. Saddling is the craft."
+                      : "Pick a tier, or a weapon line such as Swords or Bows."
             : query.trim() || group !== "all"
               ? "No recipes match."
               : "Type a name, or pick a category."}

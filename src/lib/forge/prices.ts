@@ -17,19 +17,23 @@ const Input = z.object({
 
 export type PriceQuote = { sell: number; buy: number; sellDate: string; buyDate: string }
 
-type RawRow = {
+type BookLevel = { price: number; amount: number; updated_at?: string }
+type BookRow = {
   item_id: string
   city: string
   quality: number
-  sell_price_min: number
-  buy_price_max: number
-  sell_price_min_date: string
-  buy_price_max_date: string
+  sell?: BookLevel[]
+  buy?: BookLevel[]
+}
+
+function bestLevel(levels: BookLevel[] | undefined) {
+  const level = levels?.find((row) => row.price > 0)
+  return { price: level?.price || 0, at: level?.updated_at || "" }
 }
 
 async function pullChunk(host: string, ids: string[], locations: string[], qualities: number[]) {
   const loc = locations.map((name) => encodeURIComponent(name)).join(",")
-  const url = `${host}/api/v2/stats/prices/${ids.join(",")}.json?locations=${loc}&qualities=${qualities.join(",")}`
+  const url = `${host}/api/v2/stats/orderbook/${ids.join(",")}.json?locations=${loc}&qualities=${qualities.join(",")}`
   const res = await fetch(url, {
     headers: {
       Accept: "application/json",
@@ -41,7 +45,7 @@ async function pullChunk(host: string, ids: string[], locations: string[], quali
     const text = await res.text()
     throw new Error(text.slice(0, 180) || `Market data ${res.status}`)
   }
-  return (await res.json()) as RawRow[]
+  return (await res.json()) as BookRow[]
 }
 
 export const fetchMarketPrices = createServerFn({ method: "POST" })
@@ -54,13 +58,15 @@ export const fetchMarketPrices = createServerFn({ method: "POST" })
       const chunk = ids.slice(i, i + 40)
       const rows = await pullChunk(host, chunk, [...data.locations], data.qualities)
       for (const row of rows) {
+        const ask = bestLevel(row.sell)
+        const bid = bestLevel(row.buy)
         const item = (quotes[row.item_id] ??= {})
         const city = (item[row.city] ??= {})
         city[String(row.quality)] = {
-          sell: row.sell_price_min || 0,
-          buy: row.buy_price_max || 0,
-          sellDate: row.sell_price_min_date || "",
-          buyDate: row.buy_price_max_date || "",
+          sell: ask.price,
+          buy: bid.price,
+          sellDate: ask.at,
+          buyDate: bid.at,
         }
       }
       if (i + 40 < ids.length) await new Promise((r) => setTimeout(r, 250))
@@ -70,7 +76,6 @@ export const fetchMarketPrices = createServerFn({ method: "POST" })
 
 export type HourPoint = { time: string; price: number; count: number }
 export type HourSeries = { city: string; points: HourPoint[] }
-export type CityQuote = { sell: number; buy: number }
 
 const HourInput = z.object({
   server: z.enum(["asia", "europe", "americas"]),
@@ -107,9 +112,8 @@ export const fetchHourlyPrices = createServerFn({ method: "POST" })
     const loc = [...new Set(data.locations)].map((name) => encodeURIComponent(name)).join(",")
     const host = HOST[data.server]
     const chartUrl = `${host}/api/v2/stats/charts/${data.itemId}.json?locations=${loc}&qualities=${data.quality}&time-scale=1`
-    const priceUrl = `${host}/api/v2/stats/prices/${data.itemId}.json?locations=${loc}&qualities=${data.quality}`
-    const [chartRes, priceRes] = await Promise.all([readJson(chartUrl), readJson(priceUrl)])
-    if (chartRes.status === 429 && priceRes.status === 429) {
+    const chartRes = await readJson(chartUrl)
+    if (chartRes.status === 429) {
       throw new Error("The data project is busy. Wait a moment, then refresh.")
     }
     const series: HourSeries[] = []
@@ -127,15 +131,5 @@ export const fetchHourlyPrices = createServerFn({ method: "POST" })
         if (points.length) series.push({ city: row.location, points })
       }
     }
-    const quotes: Record<string, CityQuote> = {}
-    if (priceRes.status === 200) {
-      for (const row of priceRes.body as RawRow[]) {
-        if (!row.city) continue
-        quotes[row.city] = {
-          sell: row.sell_price_min || 0,
-          buy: row.buy_price_max || 0,
-        }
-      }
-    }
-    return { series, quotes, fetchedAt: Date.now() }
+    return { series, fetchedAt: Date.now() }
   })

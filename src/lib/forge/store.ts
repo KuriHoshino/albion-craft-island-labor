@@ -35,7 +35,7 @@ export type Line = {
   focusOverride: number | null
 }
 
-export type View = "bench" | "returns" | "focus" | "study" | "reroll" | "cities" | "codex" | "save"
+export type View = "bench" | "returns" | "study" | "reroll" | "cities" | "codex" | "save"
 
 type ForgeState = {
   view: View
@@ -116,6 +116,11 @@ function collectIds(lines: Line[]): string[] {
 }
 
 let loadingFlag = false
+let loadAgain = false
+
+export function priceWatchKey(state: { server: string; lines: Line[] }) {
+  return `${state.server}|${collectIds(state.lines).slice().sort().join(",")}`
+}
 
 export const useForge = create<ForgeState>()(
   persist(
@@ -161,7 +166,7 @@ export const useForge = create<ForgeState>()(
           line.siblings = current.siblings
           line.runs = current.runs
         }
-        set({ lines: [...get().lines, line], active: line.uid, view: "bench" })
+        set({ lines: [...get().lines, line], active: line.uid })
       },
       removeLine: (uid) => {
         const lines = get().lines.filter((line) => line.uid !== uid)
@@ -206,26 +211,38 @@ export const useForge = create<ForgeState>()(
         void get().loadPrices()
       },
       loadPrices: async () => {
-        if (loadingFlag) return
+        if (loadingFlag) {
+          loadAgain = true
+          return
+        }
         loadingFlag = true
         set({ loading: true, priceError: null })
+        const server = get().server
+        const itemIds = collectIds(get().lines)
         try {
-          const state = get()
-          const itemIds = collectIds(state.lines)
           if (!itemIds.length) {
             set({ loading: false })
             return
           }
           const result = await fetchMarketPrices({
             data: {
-              server: state.server,
+              server,
               itemIds,
               locations: [...MARKETS],
               qualities: [1, 2, 3, 4, 5],
             },
           })
+          if (get().server !== server) {
+            loadAgain = true
+            return
+          }
+          const live = new Set(collectIds(get().lines))
+          const next: PriceBook = {}
+          for (const id of itemIds) {
+            if (live.has(id)) next[id] = result.quotes[id] ?? {}
+          }
           set({
-            prices: { ...state.prices, ...mergeBooks(state.prices, result.quotes) },
+            prices: replaceIds(get().prices, next, Object.keys(next)),
             priceAt: result.fetchedAt,
             loading: false,
             priceError: null,
@@ -235,6 +252,10 @@ export const useForge = create<ForgeState>()(
           set({ loading: false, priceError: message })
         } finally {
           loadingFlag = false
+          if (loadAgain) {
+            loadAgain = false
+            void get().loadPrices()
+          }
         }
       },
     }),
@@ -261,14 +282,19 @@ export const useForge = create<ForgeState>()(
       }),
       merge: (persisted, current) => {
         const saved = (persisted ?? {}) as Partial<ForgeState>
-        const lines = (saved.lines ?? current.lines).map((line) => ({
-          ...blankLine(line.itemId),
-          ...line,
-        }))
+        const lines = (saved.lines ?? current.lines)
+          .map((line) => ({
+            ...blankLine(line.itemId),
+            ...line,
+          }))
+          .filter((line) => getItem(line.itemId))
+        const kept = lines.length ? lines : [blankLine()]
+        const active = kept.some((line) => line.uid === saved.active) ? saved.active : kept[0].uid
         return {
           ...current,
           ...saved,
-          lines,
+          lines: kept,
+          active: active ?? kept[0].uid,
           loadedId: saved.loadedId ?? null,
           loadedName: saved.loadedName || "My craft",
         }
@@ -277,19 +303,10 @@ export const useForge = create<ForgeState>()(
   ),
 )
 
-function mergeBooks(prev: PriceBook, next: PriceBook): PriceBook {
+function replaceIds(prev: PriceBook, next: PriceBook, ids: string[]): PriceBook {
   const out: PriceBook = { ...prev }
-  for (const [id, cities] of Object.entries(next)) {
-    out[id] = { ...(prev[id] ?? {}), ...cities }
-  }
+  for (const id of ids) out[id] = next[id] ?? {}
   return out
-}
-
-let booted = false
-export function bootPrices() {
-  if (booted) return
-  booted = true
-  void useForge.getState().loadPrices()
 }
 
 export function readQuote(book: PriceBook, id: string, city: string, quality: number): Quote | null {

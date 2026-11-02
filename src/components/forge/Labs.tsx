@@ -163,6 +163,15 @@ export function ReturnsLab() {
   )
 }
 
+export function ReturnFocusLab() {
+  return (
+    <div className="flex flex-col gap-4">
+      <ReturnsLab />
+      <FocusLab />
+    </div>
+  )
+}
+
 export function FocusLab() {
   const [base, setBase] = useState(1286)
   const [mastery, setMastery] = useState(10)

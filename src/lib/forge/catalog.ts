@@ -6,6 +6,7 @@ import armor_plate_json from "./data/armor-plate.json"
 import food_json from "./data/food.json"
 import gather_json from "./data/gather.json"
 import offhand_json from "./data/offhand.json"
+import mount_json from "./data/mount.json"
 import potion_json from "./data/potion.json"
 import refine_json from "./data/refine.json"
 import tool_json from "./data/tool.json"
@@ -31,10 +32,31 @@ import materials_2_json from "./data/materials-2.json"
 import materials_3_json from "./data/materials-3.json"
 import materials_4_json from "./data/materials-4.json"
 import materials_5_json from "./data/materials-5.json"
+import materials_mounts_json from "./data/materials-mounts.json"
 
 export type MatUse = { id: string; qty: number; ret: boolean }
-export type Variant = { enchant: number; route: "direct" | "upgrade"; focus: number; output: number; silver: number; value: number; fame: number; mats: MatUse[] }
-export type CraftItem = { id: string; name: string; tier: number; category: string; group: string; station: string; study: boolean; weight: number; journal: string | null; variants: Variant[] }
+export type Variant = {
+  enchant: number
+  route: "direct" | "upgrade"
+  focus: number
+  output: number
+  silver: number
+  value: number
+  fame: number
+  mats: MatUse[]
+}
+export type CraftItem = {
+  id: string
+  name: string
+  tier: number
+  category: string
+  group: string
+  station: string
+  study: boolean
+  weight: number
+  journal: string | null
+  variants: Variant[]
+}
 export type MatInfo = { name: string; weight: number }
 export type JournalInfo = { id: string; tier: number; kind: string; fame: number; name: string }
 
@@ -46,6 +68,7 @@ export const items: CraftItem[] = [
   ...(food_json as CraftItem[]),
   ...(gather_json as CraftItem[]),
   ...(offhand_json as CraftItem[]),
+  ...(mount_json as CraftItem[]),
   ...(potion_json as CraftItem[]),
   ...(refine_json as CraftItem[]),
   ...(tool_json as CraftItem[]),
@@ -68,6 +91,13 @@ export const items: CraftItem[] = [
   ...(weapon_sword_json as CraftItem[]),
 ]
 
-export const materials: Record<string, MatInfo> = { ...materials_1_json, ...materials_2_json, ...materials_3_json, ...materials_4_json, ...materials_5_json }
+export const materials: Record<string, MatInfo> = {
+  ...materials_1_json,
+  ...materials_2_json,
+  ...materials_3_json,
+  ...materials_4_json,
+  ...materials_5_json,
+  ...materials_mounts_json,
+}
 
 export const journals = journalsData as JournalInfo[]

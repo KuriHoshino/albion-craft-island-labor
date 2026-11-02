@@ -3,22 +3,20 @@ import {
   Bookmark,
   BookOpen,
   Dices,
-  Flame,
   GraduationCap,
   Hammer,
   Map,
   Percent,
 } from "lucide-react"
 import { SERVERS } from "@/lib/forge/rules"
-import { bootPrices, useForge, type View } from "@/lib/forge/store"
+import { priceWatchKey, useForge, type View } from "@/lib/forge/store"
 import { Bench } from "./Bench"
 import { SaveLab } from "./Save"
-import { CitiesLab, Codex, FocusLab, RerollLab, ReturnsLab, StudyLab } from "./Labs"
+import { CitiesLab, Codex, RerollLab, ReturnFocusLab, StudyLab } from "./Labs"
 
 const NAV: { id: View; label: string; icon: typeof Hammer }[] = [
   { id: "bench", label: "Bench", icon: Hammer },
-  { id: "returns", label: "Returns", icon: Percent },
-  { id: "focus", label: "Focus", icon: Flame },
+  { id: "returns", label: "Return & focus", icon: Percent },
   { id: "study", label: "Study & repair", icon: GraduationCap },
   { id: "reroll", label: "Reroll", icon: Dices },
   { id: "cities", label: "Cities", icon: Map },
@@ -33,10 +31,35 @@ export function ForgeApp() {
   const patch = useForge((s) => s.patch)
 
   useEffect(() => {
-    const unsub = useForge.persist.onFinishHydration(() => bootPrices())
-    if (useForge.persist.hasHydrated()) bootPrices()
+    let timer = 0
+    const load = () => {
+      if (document.visibilityState === "hidden") return
+      void useForge.getState().loadPrices()
+    }
+    const boot = () => {
+      load()
+      timer = window.setInterval(load, 60_000)
+    }
+    const unsubHydrate = useForge.persist.onFinishHydration(boot)
+    if (useForge.persist.hasHydrated()) boot()
     else void useForge.persist.rehydrate()
-    return unsub
+    let last = priceWatchKey(useForge.getState())
+    const unsub = useForge.subscribe((state) => {
+      const next = priceWatchKey(state)
+      if (next === last) return
+      last = next
+      load()
+    })
+    const onVisible = () => {
+      if (document.visibilityState === "visible") load()
+    }
+    document.addEventListener("visibilitychange", onVisible)
+    return () => {
+      unsubHydrate()
+      unsub()
+      document.removeEventListener("visibilitychange", onVisible)
+      window.clearInterval(timer)
+    }
   }, [])
 
   return (
@@ -85,8 +108,7 @@ export function ForgeApp() {
       </header>
       <main className="mx-auto max-w-6xl px-4 py-4 pb-10">
         {view === "bench" ? <Bench /> : null}
-        {view === "returns" ? <ReturnsLab /> : null}
-        {view === "focus" ? <FocusLab /> : null}
+        {view === "returns" ? <ReturnFocusLab /> : null}
         {view === "study" ? <StudyLab /> : null}
         {view === "reroll" ? <RerollLab /> : null}
         {view === "cities" ? <CitiesLab /> : null}
@@ -94,8 +116,8 @@ export function ForgeApp() {
         {view === "save" ? <SaveLab /> : null}
         <p className="mt-8 max-w-2xl text-xs text-muted">
           Return rate, focus, study fame, nutrition, and repair follow the current Albion rules. Recipes come from the
-          public game data. Prices come from the Albion Online Data Project and can be a few minutes old. Not affiliated
-          with Sandbox Interactive.
+          public game data. Prices are the live order book from the Albion Online Data Project and refresh about once a
+          minute. Not affiliated with Sandbox Interactive.
         </p>
       </main>
     </div>

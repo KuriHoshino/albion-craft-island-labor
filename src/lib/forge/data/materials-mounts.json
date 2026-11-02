@@ -1,0 +1,310 @@
+{
+  "T3_FARM_HORSE_GROWN": {
+    "name": "Journeyman's Horse",
+    "weight": 15.0
+  },
+  "T3_LEATHER": {
+    "name": "Thick Leather",
+    "weight": 0.34
+  },
+  "T4_FARM_HORSE_GROWN": {
+    "name": "Adept's Horse",
+    "weight": 15.0
+  },
+  "T4_LEATHER": {
+    "name": "Worked Leather",
+    "weight": 0.51
+  },
+  "T5_FARM_HORSE_GROWN": {
+    "name": "Expert's Horse",
+    "weight": 15.0
+  },
+  "T5_LEATHER": {
+    "name": "Cured Leather",
+    "weight": 0.76
+  },
+  "T6_FARM_HORSE_GROWN": {
+    "name": "Master's Horse",
+    "weight": 15.0
+  },
+  "T6_LEATHER": {
+    "name": "Hardened Leather",
+    "weight": 1.14
+  },
+  "T7_FARM_HORSE_GROWN": {
+    "name": "Grandmaster's Horse",
+    "weight": 15.0
+  },
+  "T7_LEATHER": {
+    "name": "Reinforced Leather",
+    "weight": 1.71
+  },
+  "T8_FARM_HORSE_GROWN": {
+    "name": "Elder's Horse",
+    "weight": 15.0
+  },
+  "T8_LEATHER": {
+    "name": "Fortified Leather",
+    "weight": 2.56
+  },
+  "T5_CLOTH": {
+    "name": "Ornate Cloth",
+    "weight": 0.76
+  },
+  "T5_METALBAR": {
+    "name": "Titanium Steel Bar",
+    "weight": 0.76
+  },
+  "T6_CLOTH": {
+    "name": "Lavish Cloth",
+    "weight": 1.14
+  },
+  "T6_METALBAR": {
+    "name": "Runite Steel Bar",
+    "weight": 1.14
+  },
+  "T7_CLOTH": {
+    "name": "Opulent Cloth",
+    "weight": 1.71
+  },
+  "T7_METALBAR": {
+    "name": "Meteorite Steel Bar",
+    "weight": 1.71
+  },
+  "T8_CLOTH": {
+    "name": "Baroque Cloth",
+    "weight": 2.56
+  },
+  "T8_METALBAR": {
+    "name": "Adamantium Steel Bar",
+    "weight": 2.56
+  },
+  "T3_FARM_OX_GROWN": {
+    "name": "Journeyman's Ox",
+    "weight": 15.0
+  },
+  "T3_PLANKS": {
+    "name": "Chestnut Planks",
+    "weight": 0.34
+  },
+  "T4_FARM_OX_GROWN": {
+    "name": "Adept's Ox",
+    "weight": 15.0
+  },
+  "T4_PLANKS": {
+    "name": "Pine Planks",
+    "weight": 0.51
+  },
+  "T5_FARM_OX_GROWN": {
+    "name": "Expert's Ox",
+    "weight": 15.0
+  },
+  "T5_PLANKS": {
+    "name": "Cedar Planks",
+    "weight": 0.76
+  },
+  "T6_FARM_OX_GROWN": {
+    "name": "Master's Ox",
+    "weight": 15.0
+  },
+  "T6_PLANKS": {
+    "name": "Bloodoak Planks",
+    "weight": 1.14
+  },
+  "T7_FARM_OX_GROWN": {
+    "name": "Grandmaster's Ox",
+    "weight": 15.0
+  },
+  "T7_PLANKS": {
+    "name": "Ashenbark Planks",
+    "weight": 1.71
+  },
+  "T8_FARM_OX_GROWN": {
+    "name": "Elder's Ox",
+    "weight": 15.0
+  },
+  "T8_PLANKS": {
+    "name": "Whitewood Planks",
+    "weight": 2.56
+  },
+  "T4_FARM_GIANTSTAG_GROWN": {
+    "name": "Adept's Tame Giant Stag",
+    "weight": 15.0
+  },
+  "T6_FARM_GIANTSTAG_MOOSE_GROWN": {
+    "name": "Tame Moose",
+    "weight": 30.0
+  },
+  "T6_FARM_DIREWOLF_GROWN": {
+    "name": "Tame Direwolf",
+    "weight": 30.0
+  },
+  "T7_FARM_DIREBOAR_GROWN": {
+    "name": "Tame Direboar",
+    "weight": 45.0
+  },
+  "T7_FARM_SWAMPDRAGON_GROWN": {
+    "name": "Tame Swamp Dragon",
+    "weight": 45.0
+  },
+  "T8_FARM_DIREBEAR_GROWN": {
+    "name": "Tame Direbear",
+    "weight": 60.0
+  },
+  "T8_FARM_MAMMOTH_GROWN": {
+    "name": "Tame Mammoth",
+    "weight": 60.0
+  },
+  "T5_FARM_MOABIRD_FW_BRIDGEWATCH_GROWN": {
+    "name": "Tame Moabird",
+    "weight": 15.0
+  },
+  "T1_FACTION_STEPPE_TOKEN_1": {
+    "name": "Beastheart",
+    "weight": 2.56
+  },
+  "T5_FARM_DIREBEAR_FW_FORTSTERLING_GROWN": {
+    "name": "Tame Winter Bear",
+    "weight": 15.0
+  },
+  "T1_FACTION_MOUNTAIN_TOKEN_1": {
+    "name": "Mountainheart",
+    "weight": 2.56
+  },
+  "T5_FARM_DIREBOAR_FW_LYMHURST_GROWN": {
+    "name": "Tame Wild Boar",
+    "weight": 15.0
+  },
+  "T1_FACTION_FOREST_TOKEN_1": {
+    "name": "Treeheart",
+    "weight": 2.56
+  },
+  "T5_FARM_RAM_FW_MARTLOCK_GROWN": {
+    "name": "Tame Bighorn Ram",
+    "weight": 15.0
+  },
+  "T1_FACTION_HIGHLAND_TOKEN_1": {
+    "name": "Rockheart",
+    "weight": 2.56
+  },
+  "T5_FARM_SWAMPDRAGON_FW_THETFORD_GROWN": {
+    "name": "Tame Swamp Salamander",
+    "weight": 15.0
+  },
+  "T1_FACTION_SWAMP_TOKEN_1": {
+    "name": "Vineheart",
+    "weight": 2.56
+  },
+  "T5_FARM_GREYWOLF_FW_CAERLEON_GROWN": {
+    "name": "Tame Greywolf",
+    "weight": 15.0
+  },
+  "T1_FACTION_CAERLEON_TOKEN_1": {
+    "name": "Shadowheart",
+    "weight": 2.56
+  },
+  "T5_FARM_OWL_FW_BRECILIEN_GROWN": {
+    "name": "Tame Mystic Owl",
+    "weight": 15.0
+  },
+  "QUESTITEM_TOKEN_MISTS": {
+    "name": "Faerie Fire",
+    "weight": 2.56
+  },
+  "T8_FARM_MOABIRD_FW_BRIDGEWATCH_GROWN": {
+    "name": "Tame Elite Terrorbird",
+    "weight": 15.0
+  },
+  "T8_FARM_DIREBEAR_FW_FORTSTERLING_GROWN": {
+    "name": "Tame Elite Winter Bear",
+    "weight": 15.0
+  },
+  "T8_FARM_DIREBOAR_FW_LYMHURST_GROWN": {
+    "name": "Tame Elite Wild Boar",
+    "weight": 15.0
+  },
+  "T8_FARM_RAM_FW_MARTLOCK_GROWN": {
+    "name": "Tame Elite Bighorn Ram",
+    "weight": 15.0
+  },
+  "T8_FARM_SWAMPDRAGON_FW_THETFORD_GROWN": {
+    "name": "Tame Elite Swamp Salamander",
+    "weight": 15.0
+  },
+  "T8_FARM_GREYWOLF_FW_CAERLEON_GROWN": {
+    "name": "Tame Elite Greywolf",
+    "weight": 15.0
+  },
+  "T8_FARM_OWL_FW_BRECILIEN_GROWN": {
+    "name": "Tame Elite Mystic Owl",
+    "weight": 15.0
+  },
+  "T5_FARM_SPIDER_HELL_GROWN": {
+    "name": "Tame Hellspinner",
+    "weight": 15.0
+  },
+  "T8_FARM_SPIDER_HELL_GROWN": {
+    "name": "Tame Soulspinner",
+    "weight": 15.0
+  },
+  "T8_FARM_DRAKE_GROWN": {
+    "name": "Tame Firewing Drake",
+    "weight": 15.0
+  },
+  "T8_MOUNT_MAMMOTH_TRANSPORT": {
+    "name": "Elder's Transport Mammoth",
+    "weight": 119.6
+  },
+  "UNIQUE_GVGTOKEN_GENERIC": {
+    "name": "Siphoned Energy",
+    "weight": 0.01
+  },
+  "T7_MOUNT_SWAMPDRAGON": {
+    "name": "Saddled Swamp Dragon",
+    "weight": 79.7
+  },
+  "T6_MOUNT_OX": {
+    "name": "Master's Transport Ox",
+    "weight": 53.2
+  },
+  "T8_MOUNT_HORSE": {
+    "name": "Elder's Riding Horse",
+    "weight": 119.6
+  },
+  "T8_MOUNTUPGRADE_HORSE_CURSE": {
+    "name": "Spectral Mask",
+    "weight": 2.0
+  },
+  "T5_FARM_COUGAR_GROWN": {
+    "name": "Tame Swiftclaw",
+    "weight": 15.0
+  },
+  "T5_MOUNT_COUGAR_KEEPER@1": {
+    "name": "Swiftclaw .1",
+    "weight": 35.4
+  },
+  "T8_MOUNTUPGRADE_COUGAR_KEEPER": {
+    "name": "Sacred Bone Marrow",
+    "weight": 2.0
+  },
+  "T8_MOUNT_ARMORED_HORSE": {
+    "name": "Elder's Armored Horse",
+    "weight": 119.6
+  },
+  "T8_MOUNTUPGRADE_HORSE_MORGANA": {
+    "name": "Infernal Horseshoes",
+    "weight": 2.0
+  },
+  "T8_FARM_RABBIT_EASTER_GROWN": {
+    "name": "Tame Spring Cottontail",
+    "weight": 15.0
+  },
+  "T8_FARM_RABBIT_EASTER_GROWN_DARK": {
+    "name": "\"Tame\" Caerleon Cottontail",
+    "weight": 15.0
+  },
+  "QUESTITEM_TOKEN_AVALON": {
+    "name": "Avalonian Energy",
+    "weight": 0.01
+  }
+}

@@ -1,7 +1,8 @@
 import { useEffect, useMemo, useState } from "react"
 import { CartesianGrid, Line, LineChart, ResponsiveContainer, Tooltip, XAxis, YAxis } from "recharts"
-import { fetchHourlyPrices, type CityQuote, type HourSeries } from "@/lib/forge/prices"
+import { fetchHourlyPrices, type HourSeries } from "@/lib/forge/prices"
 import { MARKETS, type ServerId } from "@/lib/forge/rules"
+import { useForge } from "@/lib/forge/store"
 import { silver } from "./fields"
 
 const STROKE: Record<string, string> = {
@@ -26,45 +27,47 @@ export function HourlyChart({
   itemId,
   itemName,
   quality,
-  refreshKey,
 }: {
   server: ServerId
   itemId: string
   itemName: string
   quality: number
-  refreshKey: number | null
 }) {
   const [series, setSeries] = useState<HourSeries[]>([])
-  const [quotes, setQuotes] = useState<Record<string, CityQuote>>({})
   const [error, setError] = useState("")
   const [loading, setLoading] = useState(false)
   const [at, setAt] = useState<number | null>(null)
+  const book = useForge((s) => s.prices)
 
   useEffect(() => {
     if (!itemId) return
     let cancel = false
-    setLoading(true)
-    setError("")
-    void fetchHourlyPrices({
-      data: { server, itemId, locations: [...MARKETS], quality },
-    })
-      .then((result) => {
-        if (cancel) return
-        setSeries(result.series)
-        setQuotes(result.quotes)
-        setAt(result.fetchedAt)
+    const load = () => {
+      setLoading(true)
+      setError("")
+      void fetchHourlyPrices({
+        data: { server, itemId, locations: [...MARKETS], quality },
       })
-      .catch((err: unknown) => {
-        if (cancel) return
-        setError(err instanceof Error ? err.message : "Could not load hourly prices")
-      })
-      .finally(() => {
-        if (!cancel) setLoading(false)
-      })
+        .then((result) => {
+          if (cancel) return
+          setSeries(result.series)
+          setAt(result.fetchedAt)
+        })
+        .catch((err: unknown) => {
+          if (cancel) return
+          setError(err instanceof Error ? err.message : "Could not load hourly prices")
+        })
+        .finally(() => {
+          if (!cancel) setLoading(false)
+        })
+    }
+    load()
+    const timer = window.setInterval(load, 5 * 60 * 1000)
     return () => {
       cancel = true
+      window.clearInterval(timer)
     }
-  }, [server, itemId, quality, refreshKey])
+  }, [server, itemId, quality])
 
   const rows = useMemo(() => {
     const byTime = new Map<string, Record<string, number | string | null>>()
@@ -100,7 +103,7 @@ export function HourlyChart({
         Albion Online Data Project, every city. Sell and buy are the live order book. The chart is each hour that actually sold.
       </p>
       {error ? <p className="mt-2 text-sm text-ember">{error}</p> : null}
-      {!error && !loading && rows.length === 0 && Object.keys(quotes).length === 0 ? (
+      {!error && !loading && rows.length === 0 && !book[itemId] ? (
         <p className="mt-2 text-sm text-muted">No price for this item yet.</p>
       ) : null}
       {rows.length > 0 ? (
@@ -150,10 +153,10 @@ export function HourlyChart({
           </ResponsiveContainer>
         </div>
       ) : null}
-      {!loading && (rows.length > 0 || Object.keys(quotes).length > 0) ? (
+      {!loading && (rows.length > 0 || book[itemId]) ? (
         <ul className="mt-2 grid gap-1 text-xs text-muted sm:grid-cols-2">
           {MARKETS.map((city) => {
-            const quote = quotes[city]
+            const quote = book[itemId]?.[city]?.[String(quality)]
             const last = lastByCity.get(city)
             const sell = quote && quote.sell > 0 ? quote.sell : null
             const buy = quote && quote.buy > 0 ? quote.buy : null
