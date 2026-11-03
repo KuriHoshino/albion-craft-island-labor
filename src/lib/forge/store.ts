@@ -37,6 +37,10 @@ export type Line = {
   focusOverride: number | null
   /** City stamped onto this recipe's shopping rows. */
   shopCity?: string
+  /** Sell city for this item. Falls back to the desk sell city. */
+  sellAt?: string
+  /** Buy city for one resource or journal. Falls back to the shopping city. */
+  matCities?: Record<string, string>
 }
 
 export type View = "bench" | "returns" | "study" | "reroll" | "codex" | "farm" | "labor" | "recent"

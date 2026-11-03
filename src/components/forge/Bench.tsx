@@ -37,10 +37,12 @@ function evaluateLine(line: Line, state: ReturnType<typeof useForge.getState>) {
   const buySide = state.buyMode === "instant" ? "sell" : "buy"
   const sellSide = state.sellMode === "instant" ? "buy" : "sell"
   const productId = marketId(item.id, variant.enchant)
-  const product = lookup(state.prices, productId, state.sellCity, state.quality, sellSide, line.productOverride)
+  const sellAt = line.sellAt || state.sellCity
+  const product = lookup(state.prices, productId, sellAt, state.quality, sellSide, line.productOverride)
   const notes: string[] = []
   if (product.from) notes.push(`${item.name} from ${product.from}`)
   const buyAt = line.shopCity || state.buyCity
+  const boughtIn = (id: string) => line.matCities?.[id] || buyAt
   const matLook = (id: string, city: string, side: "sell" | "buy") => {
     const found = lookup(state.prices, id, city, 1, side, line.matOverrides[id] ?? null)
     if (found.from) notes.push(`${id} from ${found.from}`)
@@ -54,8 +56,8 @@ function evaluateLine(line: Line, state: ReturnType<typeof useForge.getState>) {
       {
         tier,
         fame: journal.fame,
-        empty: matLook(`${journal.id}_EMPTY`, buyAt, buySide),
-        full: matLook(`${journal.id}_FULL`, state.sellCity, sellSide),
+        empty: matLook(`${journal.id}_EMPTY`, boughtIn(`${journal.id}_EMPTY`), buySide),
+        full: matLook(`${journal.id}_FULL`, line.matCities?.[`${journal.id}_FULL`] || sellAt, sellSide),
       },
     ]
   })
@@ -83,8 +85,8 @@ function evaluateLine(line: Line, state: ReturnType<typeof useForge.getState>) {
     leftover: state.leftover,
     stationRate: state.stationRate,
     productUnit: product.price,
-    matUnit: (id) => matLook(id, buyAt, buySide),
-    matSellUnit: (id) => matLook(id, state.sellCity, sellSide),
+    matUnit: (id) => matLook(id, boughtIn(id), buySide),
+    matSellUnit: (id) => matLook(id, sellAt, sellSide),
     journalFills,
   })
   return { math, stoodIn: notes }
@@ -104,8 +106,9 @@ export function Bench() {
   const buySide = state.buyMode === "instant" ? "sell" : "buy"
   const sellSide = state.sellMode === "instant" ? "buy" : "sell"
   const buyAt = line ? line.shopCity || state.buyCity : state.buyCity
-  const emptyJournal = journal && line ? lookup(state.prices, `${journal.id}_EMPTY`, buyAt, 1, buySide, line.matOverrides[`${journal.id}_EMPTY`] ?? null) : { price: null, from: null }
-  const fullJournal = journal && line ? lookup(state.prices, `${journal.id}_FULL`, state.sellCity, 1, sellSide, line.matOverrides[`${journal.id}_FULL`] ?? null) : { price: null, from: null }
+  const sellAt = line?.sellAt || state.sellCity
+  const emptyJournal = journal && line ? lookup(state.prices, `${journal.id}_EMPTY`, line.matCities?.[`${journal.id}_EMPTY`] || buyAt, 1, buySide, line.matOverrides[`${journal.id}_EMPTY`] ?? null) : { price: null, from: null }
+  const fullJournal = journal && line ? lookup(state.prices, `${journal.id}_FULL`, line.matCities?.[`${journal.id}_FULL`] || sellAt, 1, sellSide, line.matOverrides[`${journal.id}_FULL`] ?? null) : { price: null, from: null }
   const routes = item && line ? item.variants.filter((entry) => entry.enchant === (variant?.enchant ?? line.enchant)) : []
   const hasUpgrade = routes.some((entry) => entry.route === "upgrade")
 
@@ -123,8 +126,8 @@ export function Bench() {
     for (const entry of state.lines) {
       const result = evaluateLine(entry, state)
       if (!result) continue
-      const city = entry.shopCity || state.buyCity
       for (const mat of result.math.consumed) {
+        const city = entry.matCities?.[mat.id] || entry.shopCity || state.buyCity
         const key = `${mat.id}|${city}`
         const current = rows.get(key) ?? { id: mat.id, city, qty: 0, cost: 0 }
         const cost = current.cost == null || mat.cost == null ? null : current.cost + mat.cost
@@ -434,8 +437,11 @@ export function Bench() {
             />
             <Select
               label="Sell in"
-              value={state.sellCity}
-              onChange={(sellCity) => state.patch({ sellCity })}
+              value={sellAt}
+              onChange={(sellCity) => {
+                state.patch({ sellCity })
+                state.patchLine(line.uid, { sellAt: sellCity })
+              }}
               options={MARKETS.map((city) => ({ value: city, label: city }))}
             />
             <Select
@@ -498,13 +504,22 @@ export function Bench() {
             <PriceRow
               role="Item price"
               name={`${item.name} .${variant.enchant}`}
-              market={lookup(state.prices, productId, state.sellCity, state.quality, state.sellMode === "instant" ? "buy" : "sell", null).price}
-              hint={lookup(state.prices, productId, state.sellCity, state.quality, state.sellMode === "instant" ? "buy" : "sell", null).from}
+              market={lookup(state.prices, productId, sellAt, state.quality, state.sellMode === "instant" ? "buy" : "sell", null).price}
+              hint={lookup(state.prices, productId, sellAt, state.quality, state.sellMode === "instant" ? "buy" : "sell", null).from}
               value={line.productOverride}
               onChange={(productOverride) => state.patchLine(line.uid, { productOverride })}
+              cityLabel="Sell in"
+              city={sellAt}
+              cities={citiesWith(state.prices, productId, state.quality, state.sellMode === "instant" ? "buy" : "sell", sellAt)}
+              onCity={(city) => {
+                state.patch({ sellCity: city })
+                state.patchLine(line.uid, { sellAt: city })
+              }}
             />
             {variant.mats.map((mat) => {
-              const quote = lookup(state.prices, mat.id, line.shopCity || state.buyCity, 1, state.buyMode === "instant" ? "sell" : "buy", null)
+              const buySide = state.buyMode === "instant" ? "sell" : "buy"
+              const city = line.matCities?.[mat.id] || line.shopCity || state.buyCity
+              const quote = lookup(state.prices, mat.id, city, 1, buySide, null)
               const note = mat.ret ? "" : " · no return"
               return (
                 <PriceRow
@@ -515,6 +530,12 @@ export function Bench() {
                   hint={quote.from}
                   value={line.matOverrides[mat.id] ?? null}
                   onChange={(value) => state.setMatOverride(line.uid, mat.id, value)}
+                  cityLabel="Buy in"
+                  city={city}
+                  cities={citiesWith(state.prices, mat.id, 1, buySide, city)}
+                  onCity={(next) =>
+                    state.patchLine(line.uid, { matCities: { ...line.matCities, [mat.id]: next } })
+                  }
                 />
               )
             })}
@@ -559,6 +580,12 @@ export function Bench() {
                     hint={emptyJournal.from}
                     value={line.matOverrides[`${journal.id}_EMPTY`] ?? null}
                     onChange={(value) => state.setMatOverride(line.uid, `${journal.id}_EMPTY`, value)}
+                    cityLabel="Buy in"
+                    city={line.matCities?.[`${journal.id}_EMPTY`] || buyAt}
+                    cities={citiesWith(state.prices, `${journal.id}_EMPTY`, 1, buySide, line.matCities?.[`${journal.id}_EMPTY`] || buyAt)}
+                    onCity={(next) =>
+                      state.patchLine(line.uid, { matCities: { ...line.matCities, [`${journal.id}_EMPTY`]: next } })
+                    }
                   />
                   <PriceRow
                     role="Full journal price"
@@ -567,6 +594,12 @@ export function Bench() {
                     hint={fullJournal.from}
                     value={line.matOverrides[`${journal.id}_FULL`] ?? null}
                     onChange={(value) => state.setMatOverride(line.uid, `${journal.id}_FULL`, value)}
+                    cityLabel="Sell in"
+                    city={line.matCities?.[`${journal.id}_FULL`] || sellAt}
+                    cities={citiesWith(state.prices, `${journal.id}_FULL`, 1, sellSide, line.matCities?.[`${journal.id}_FULL`] || sellAt)}
+                    onCity={(next) =>
+                      state.patchLine(line.uid, { matCities: { ...line.matCities, [`${journal.id}_FULL`]: next } })
+                    }
                   />
                 </div>
               </div>
@@ -677,6 +710,22 @@ function Stat({ label, value }: { label: string; value: string }) {
   )
 }
 
+function citiesWith(
+  book: PriceBook,
+  id: string,
+  quality: number,
+  side: "sell" | "buy",
+  current: string,
+) {
+  const listed = MARKETS.filter((city) => moneySide(readQuote(book, id, city, quality), side) != null)
+  const cities = listed.length ? listed : [...MARKETS]
+  if (!cities.includes(current as (typeof MARKETS)[number])) cities.unshift(current as (typeof MARKETS)[number])
+  return cities.map((city) => {
+    const price = moneySide(readQuote(book, id, city, quality), side)
+    return { value: city, label: price == null ? city : `${city} · ${silver(price)}` }
+  })
+}
+
 function PriceRow({
   role,
   name,
@@ -684,6 +733,10 @@ function PriceRow({
   hint,
   value,
   onChange,
+  cityLabel,
+  city,
+  cities,
+  onCity,
 }: {
   role: string
   name: string
@@ -691,6 +744,10 @@ function PriceRow({
   hint: string | null
   value: number | null
   onChange: (value: number | null) => void
+  cityLabel: string
+  city: string
+  cities: { value: string; label: string }[]
+  onCity: (city: string) => void
 }) {
   const locked = value != null && market != null && value === market
   return (
@@ -700,6 +757,7 @@ function PriceRow({
         {name}
         {hint ? <span className="ml-2 text-xs text-muted">using {hint}</span> : null}
       </span>
+      <Select label={cityLabel} value={city} onChange={onCity} options={cities} />
       <span className="flex items-center gap-2">
         <span className="tabular-nums text-base text-parchment">{market == null ? "No live order" : silver(market)}</span>
         <button
