@@ -1,5 +1,5 @@
 import { useMemo, useState } from "react"
-import { RefreshCw, Trash2 } from "lucide-react"
+import { RefreshCw, Trash2, Check } from "lucide-react"
 import { craftMath } from "@/lib/forge/formulas"
 import { enchantsOf, getItem, journalFor, marketId, matName, matWeight, variantOf } from "@/lib/forge/lookup"
 import { CRAFT_CITIES, HO_BIOMES, MARKETS, biomeById, biomeFavors } from "@/lib/forge/rules"
@@ -477,6 +477,12 @@ export function Bench() {
             itemId={productId}
             itemName={`${item.name} .${variant.enchant}`}
             quality={state.quality}
+            side={state.sellMode === "instant" ? "buy" : "sell"}
+            usedCity={state.sellCity}
+            onUse={(city, price) => {
+              state.patch({ sellCity: city })
+              state.patchLine(line.uid, { productOverride: price })
+            }}
           />
           <div className="mt-4 flex flex-col gap-2">
             <PriceRow
@@ -675,14 +681,29 @@ function PriceRow({
   value: number | null
   onChange: (value: number | null) => void
 }) {
+  const locked = value != null && market != null && value === market
   return (
-    <label className="flex min-w-0 flex-col gap-1 text-sm">
+    <div className="flex min-w-0 flex-col gap-1 text-sm">
       <span className="text-muted">{role}</span>
       <span className="truncate text-parchment">
         {name}
         {hint ? <span className="ml-2 text-xs text-muted">using {hint}</span> : null}
       </span>
-      <span className="tabular-nums text-base text-parchment">{market == null ? "No live order" : silver(market)}</span>
+      <span className="flex items-center gap-2">
+        <span className="tabular-nums text-base text-parchment">{market == null ? "No live order" : silver(market)}</span>
+        <button
+          type="button"
+          disabled={market == null}
+          onClick={() => market != null && onChange(market)}
+          aria-label={`Put ${role} into the box`}
+          className={
+            "grid size-8 shrink-0 place-items-center rounded-md border " +
+            (locked ? "border-brass text-brass" : "border-line text-muted")
+          }
+        >
+          <Check className="size-4" />
+        </button>
+      </span>
       <input
         className={fieldClass}
         inputMode="decimal"
@@ -691,7 +712,7 @@ function PriceRow({
         onChange={(event) => onChange(event.target.value === "" ? null : Number(event.target.value))}
         aria-label={`${role}: ${name}`}
       />
-    </label>
+    </div>
   )
 }
 

@@ -1,9 +1,10 @@
+import { Check } from "lucide-react"
 import { useEffect, useMemo, useRef, useState } from "react"
 import { CartesianGrid, Line, LineChart, ResponsiveContainer, Tooltip, XAxis, YAxis } from "recharts"
 import { fetchHourlyPrices, loadHourlyPrices, type HourSeries } from "@/lib/forge/prices"
 import { MARKETS, type ServerId } from "@/lib/forge/rules"
 import { useForge } from "@/lib/forge/store"
-import { silver } from "./fields"
+import { silver, exact } from "./fields"
 
 const STROKE: Record<string, string> = {
   Thetford: "#8fbf7a",
@@ -14,6 +15,20 @@ const STROKE: Record<string, string> = {
   Caerleon: "#e07a5f",
   Brecilien: "#b79ad6",
   "Black Market": "#d6b36a",
+}
+
+function soldInDay(points: { time: string; count: number }[]) {
+  if (!points.length) return null
+  const newest = points[points.length - 1]
+  const end = Date.parse(newest.time.endsWith("Z") ? newest.time : `${newest.time}Z`)
+  if (Number.isNaN(end)) return null
+  const start = end - 24 * 60 * 60 * 1000
+  let sold = 0
+  for (const point of points) {
+    const time = Date.parse(point.time.endsWith("Z") ? point.time : `${point.time}Z`)
+    if (!Number.isNaN(time) && time >= start) sold += point.count
+  }
+  return sold
 }
 
 function hourLabel(stamp: string) {
@@ -27,11 +42,17 @@ export function HourlyChart({
   itemId,
   itemName,
   quality,
+  side,
+  usedCity,
+  onUse,
 }: {
   server: ServerId
   itemId: string
   itemName: string
   quality: number
+  side: "sell" | "buy"
+  usedCity: string
+  onUse: (city: string, price: number) => void
 }) {
   const [series, setSeries] = useState<HourSeries[]>([])
   const [error, setError] = useState("")
@@ -105,7 +126,7 @@ export function HourlyChart({
         </p>
       </div>
       <p className="mt-1 text-xs text-muted">
-        Albion Online Data Project history and the live order book. Albion Free Market uses the same prices. The last hour is the current sell.
+        Check a city to put its price in the item box. Sold is the last 24 hours on the data project.
       </p>
       {error ? <p className="mt-2 text-sm text-ember">{error}</p> : null}
       {!error && !loading && rows.length === 0 && !book[itemId] ? (
@@ -159,27 +180,44 @@ export function HourlyChart({
         </div>
       ) : null}
       {!loading && (rows.length > 0 || book[itemId]) ? (
-        <ul className="mt-2 grid gap-1 text-xs text-muted sm:grid-cols-2">
+        <ul className="mt-3 flex flex-col gap-1">
           {MARKETS.map((city) => {
             const quote = book[itemId]?.[city]?.[String(quality)]
             const last = lastByCity.get(city)
             const sell = quote && quote.sell > 0 ? quote.sell : null
             const buy = quote && quote.buy > 0 ? quote.buy : null
-            const text =
-              sell != null || buy != null
-                ? [sell != null ? `sell ${silver(sell)}` : null, buy != null ? `buy ${silver(buy)}` : null]
-                    .filter(Boolean)
-                    .join(" · ")
-                : last
-                  ? `last sale ${silver(last.price)}`
-                  : "No price"
+            const price = side === "sell" ? sell : buy
+            const sold = soldInDay(series.find((entry) => entry.city === city)?.points ?? [])
+            const using = usedCity === city
             return (
-              <li key={city} className="flex items-baseline justify-between gap-2">
-                <span className="inline-flex items-center gap-1.5">
-                  <span className="inline-block size-2 shrink-0 rounded-full" style={{ background: STROKE[city] }} />
-                  {city}
-                </span>
-                <span className="text-right tabular-nums">{text}</span>
+              <li key={city} className="flex items-start gap-2 rounded-lg border border-line px-2 py-1.5 text-xs">
+                <button
+                  type="button"
+                  disabled={price == null}
+                  onClick={() => price != null && onUse(city, price)}
+                  aria-label={`Use ${city} price`}
+                  className={
+                    "mt-0.5 grid size-8 shrink-0 place-items-center rounded-md border " +
+                    (using ? "border-brass text-brass" : "border-line text-muted")
+                  }
+                >
+                  <Check className="size-4" />
+                </button>
+                <div className="min-w-0 flex-1">
+                  <p className="inline-flex items-center gap-1.5 text-parchment">
+                    <span className="inline-block size-2 shrink-0 rounded-full" style={{ background: STROKE[city] }} />
+                    {city}
+                  </p>
+                  <p className="tabular-nums text-muted">
+                    {sell != null ? `sell ${silver(sell)}` : "sell —"}
+                    {" · "}
+                    {buy != null ? `buy ${silver(buy)}` : "buy —"}
+                  </p>
+                  <p className="tabular-nums text-muted">
+                    {sold == null ? "No sales recorded" : `${exact(sold)} sold / day`}
+                    {price == null && last ? ` · last ${silver(last.price)}` : ""}
+                  </p>
+                </div>
               </li>
             )
           })}
