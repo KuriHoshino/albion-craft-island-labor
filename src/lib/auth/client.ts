@@ -121,7 +121,11 @@ export async function signIn(
   });
 
   if (inLivePreview()) {
-    if (!popup) throw new Error("Pop-up blocked — allow pop-ups for sign-in");
+    if (!popup) {
+      // Pop-ups are blocked. Send this window to Google through the broker.
+      window.location.assign(`/auth/popup?providerId=${encodeURIComponent(providerId)}`);
+      return;
+    }
     const token = await waitForPopupToken(popup);
     if (!token) throw new Error("Sign-in was cancelled or failed");
     setBearerToken(token);
