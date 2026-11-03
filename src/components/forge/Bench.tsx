@@ -4,7 +4,7 @@ import { craftMath } from "@/lib/forge/formulas"
 import { enchantsOf, getItem, journalFor, marketId, matName, matWeight, variantOf } from "@/lib/forge/lookup"
 import { CRAFT_CITIES, HO_BIOMES, MARKETS, biomeById, biomeFavors } from "@/lib/forge/rules"
 import { moneySide, readQuote, useForge, type Line, type PriceBook } from "@/lib/forge/store"
-import { Num, Select, Toggle, exact, fieldClass, pct, silver } from "./fields"
+import { Num, Select, Toggle, exact, fieldClass, pct, priceAge, silver } from "./fields"
 import { HourlyChart } from "./Hourly"
 import { ItemPicker } from "./Picker"
 
@@ -548,6 +548,7 @@ export function Bench() {
               cityLabel="Sell in"
               city={sellAt}
               cities={citiesWith(state.prices, productId, state.quality, state.sellMode === "instant" ? "buy" : "sell", sellAt)}
+              age={quoteAge(state.prices, productId, sellAt, state.quality, state.sellMode === "instant" ? "buy" : "sell")}
               onCity={(city) => {
                 state.patch({ sellCity: city })
                 state.patchLine(line.uid, { sellAt: city })
@@ -570,6 +571,7 @@ export function Bench() {
                   cityLabel="Buy in"
                   city={city}
                   cities={citiesWith(state.prices, mat.id, 1, buySide, city)}
+                  age={quoteAge(state.prices, mat.id, city, 1, buySide)}
                   onCity={(next) =>
                     state.patchLine(line.uid, { matCities: { ...line.matCities, [mat.id]: next } })
                   }
@@ -633,6 +635,7 @@ export function Bench() {
                     cityLabel="Buy in"
                     city={line.matCities?.[`${journal.id}_EMPTY`] || buyAt}
                     cities={citiesWith(state.prices, `${journal.id}_EMPTY`, 1, buySide, line.matCities?.[`${journal.id}_EMPTY`] || buyAt)}
+                    age={quoteAge(state.prices, `${journal.id}_EMPTY`, line.matCities?.[`${journal.id}_EMPTY`] || buyAt, 1, buySide)}
                     onCity={(next) =>
                       state.patchLine(line.uid, { matCities: { ...line.matCities, [`${journal.id}_EMPTY`]: next } })
                     }
@@ -659,6 +662,7 @@ export function Bench() {
                     cityLabel="Sell in"
                     city={line.matCities?.[`${journal.id}_FULL`] || sellAt}
                     cities={citiesWith(state.prices, `${journal.id}_FULL`, 1, sellSide, line.matCities?.[`${journal.id}_FULL`] || sellAt)}
+                    age={quoteAge(state.prices, `${journal.id}_FULL`, line.matCities?.[`${journal.id}_FULL`] || sellAt, 1, sellSide)}
                     onCity={(next) =>
                       state.patchLine(line.uid, { matCities: { ...line.matCities, [`${journal.id}_FULL`]: next } })
                     }
@@ -795,9 +799,17 @@ function citiesWith(
   const cities = listed.length ? listed : [...MARKETS]
   if (!cities.includes(current as (typeof MARKETS)[number])) cities.unshift(current as (typeof MARKETS)[number])
   return cities.map((city) => {
-    const price = moneySide(readQuote(book, id, city, quality), side)
-    return { value: city, label: price == null ? city : `${city} · ${silver(price)}` }
+    const quote = readQuote(book, id, city, quality)
+    const price = moneySide(quote, side)
+    const age = priceAge(side === "sell" ? quote?.sellDate : quote?.buyDate)
+    if (price == null) return { value: city, label: city }
+    return { value: city, label: age ? `${city} · ${silver(price)} · ${age}` : `${city} · ${silver(price)}` }
   })
+}
+
+function quoteAge(book: PriceBook, id: string, city: string, quality: number, side: "sell" | "buy") {
+  const quote = readQuote(book, id, city, quality)
+  return priceAge(side === "sell" ? quote?.sellDate : quote?.buyDate)
 }
 
 function PriceRow({
@@ -811,6 +823,7 @@ function PriceRow({
   city,
   cities,
   onCity,
+  age,
 }: {
   role: string
   name: string
@@ -822,6 +835,7 @@ function PriceRow({
   city: string
   cities: { value: string; label: string }[]
   onCity: (city: string) => void
+  age?: string
 }) {
   const locked = value != null && market != null && value === market
   return (
@@ -833,7 +847,9 @@ function PriceRow({
       </span>
       <Select label={cityLabel} value={city} onChange={onCity} options={cities} />
       <span className="flex items-center gap-2">
-        <span className="tabular-nums text-base text-parchment">{market == null ? "No live order" : silver(market)}</span>
+        <span className="tabular-nums text-base text-parchment">
+          {market == null ? "No live order" : age ? `${silver(market)} · ${age}` : silver(market)}
+        </span>
         <button
           type="button"
           disabled={market == null}

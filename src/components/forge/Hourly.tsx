@@ -3,7 +3,7 @@ import { useEffect, useMemo, useRef, useState } from "react"
 import { fetchHourlyPrices, loadHourlyPrices, type HourSeries } from "@/lib/forge/prices"
 import { MARKETS, type ServerId } from "@/lib/forge/rules"
 import { useForge, type PriceBook } from "@/lib/forge/store"
-import { silver, exact } from "./fields"
+import { silver, exact, priceAge } from "./fields"
 
 const STROKE: Record<string, string> = {
   Thetford: "#8fbf7a",
@@ -152,7 +152,14 @@ function CityGrid({
     const sell = quote && quote.sell > 0 ? quote.sell : null
     const buy = quote && quote.buy > 0 ? quote.buy : null
     const price = side === "sell" ? sell : buy
-    return { city, sell, buy, price }
+    return {
+      city,
+      sell,
+      buy,
+      price,
+      sellAge: priceAge(quote?.sellDate),
+      buyAge: priceAge(quote?.buyDate),
+    }
   })
   const lowest = rows.reduce<number | null>((best, row) => {
     if (row.price == null) return best
@@ -186,9 +193,9 @@ function CityGrid({
                 {cheap ? <span className="text-sage">lowest</span> : null}
               </p>
               <p className="tabular-nums text-muted">
-                {row.sell != null ? `sell ${silver(row.sell)}` : "sell —"}
+                {row.sell != null ? `sell ${silver(row.sell)}${row.sellAge ? ` · ${row.sellAge}` : ""}` : "sell —"}
                 {" · "}
-                {row.buy != null ? `buy ${silver(row.buy)}` : "buy —"}
+                {row.buy != null ? `buy ${silver(row.buy)}${row.buyAge ? ` · ${row.buyAge}` : ""}` : "buy —"}
               </p>
               <p className="tabular-nums text-muted">
                 {sold == null ? "No sales recorded" : `${exact(sold)} sold / day`}

@@ -21,6 +21,19 @@ export function exact(value: number): string {
   return value.toLocaleString("en-US", { maximumFractionDigits: 2 })
 }
 
+/** How old a market timestamp is, such as "2h ago". */
+export function priceAge(stamp: string | undefined): string {
+  if (!stamp) return ""
+  const time = Date.parse(stamp.endsWith("Z") || stamp.includes("+") ? stamp : `${stamp}Z`)
+  if (Number.isNaN(time)) return ""
+  const mins = Math.max(0, Math.floor((Date.now() - time) / 60000))
+  if (mins < 1) return "just now"
+  if (mins < 60) return `${mins}m ago`
+  const hours = Math.floor(mins / 60)
+  if (hours < 48) return `${hours}h ago`
+  return `${Math.floor(hours / 24)}d ago`
+}
+
 export function pct(value: number): string {
   return `${(value * 100).toFixed(2)}%`
 }
