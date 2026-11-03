@@ -1,6 +1,5 @@
 import { Check } from "lucide-react"
 import { useEffect, useMemo, useRef, useState } from "react"
-import { CartesianGrid, Line, LineChart, ResponsiveContainer, Tooltip, XAxis, YAxis } from "recharts"
 import { fetchHourlyPrices, loadHourlyPrices, type HourSeries } from "@/lib/forge/prices"
 import { MARKETS, type ServerId } from "@/lib/forge/rules"
 import { useForge } from "@/lib/forge/store"
@@ -95,19 +94,6 @@ export function HourlyChart({
     }
   }, [server, itemId, quality])
 
-  const rows = useMemo(() => {
-    const byTime = new Map<string, Record<string, number | string | null>>()
-    for (const entry of series) {
-      for (const point of entry.points) {
-        const row = byTime.get(point.time) ?? { time: point.time, label: hourLabel(point.time) }
-        row[entry.city] = point.price
-        row[`${entry.city} sold`] = point.count
-        byTime.set(point.time, row)
-      }
-    }
-    return [...byTime.values()].sort((a, b) => String(a.time).localeCompare(String(b.time)))
-  }, [series])
-
   const lastByCity = useMemo(() => {
     const map = new Map<string, { price: number; count: number; time: string }>()
     for (const entry of series) {
@@ -119,67 +105,14 @@ export function HourlyChart({
 
   return (
     <div className="mt-4">
-      <div className="flex flex-wrap items-baseline justify-between gap-2">
-        <p className="text-sm text-parchment">Hourly average, {itemName}</p>
-        <p className="text-xs text-muted">
-          {loading ? "Loading the data project…" : at ? `Updated ${hourLabel(new Date(at).toISOString())}` : ""}
-        </p>
-      </div>
-      <p className="mt-1 text-xs text-muted">
-        Check a city to put its name on the shopping list. Sold is the last 24 hours on the data project.
+      <p className="text-xs text-muted">
+        {loading ? "Loading the data project…" : at ? `Updated ${hourLabel(new Date(at).toISOString())}` : itemName}
       </p>
       {error ? <p className="mt-2 text-sm text-ember">{error}</p> : null}
-      {!error && !loading && rows.length === 0 && !book[itemId] ? (
+      {!error && !loading && series.length === 0 && !book[itemId] ? (
         <p className="mt-2 text-sm text-muted">No price for this item yet.</p>
       ) : null}
-      {rows.length > 0 ? (
-        <div className="mt-3 h-56 w-full">
-          <ResponsiveContainer width="100%" height="100%">
-            <LineChart data={rows} margin={{ top: 8, right: 8, left: 0, bottom: 0 }}>
-              <CartesianGrid stroke="rgba(232,220,196,0.12)" vertical={false} />
-              <XAxis dataKey="label" tick={{ fill: "#a89880", fontSize: 11 }} interval="preserveStartEnd" minTickGap={28} />
-              <YAxis
-                tick={{ fill: "#a89880", fontSize: 11 }}
-                width={72}
-                tickFormatter={(value: number) => silver(value)}
-              />
-              <Tooltip
-                content={({ active, payload, label }) => {
-                  if (!active || !payload?.length) return null
-                  return (
-                    <div className="rounded-lg border border-line bg-ink px-3 py-2 text-xs text-parchment">
-                      <p>{label}</p>
-                      {payload.map((entry) => {
-                        const row = entry.payload as Record<string, number | string | null>
-                        const sold = row[`${entry.name} sold`]
-                        return (
-                          <p key={String(entry.name)} style={{ color: entry.color }}>
-                            {entry.name}: {silver(Number(entry.value))}
-                            {sold != null ? ` · ${sold} sold` : ""}
-                          </p>
-                        )
-                      })}
-                    </div>
-                  )
-                }}
-              />
-              {MARKETS.map((city) => (
-                <Line
-                  key={city}
-                  type="monotone"
-                  dataKey={city}
-                  name={city}
-                  stroke={STROKE[city]}
-                  strokeWidth={1.75}
-                  dot={false}
-                  connectNulls={false}
-                />
-              ))}
-            </LineChart>
-          </ResponsiveContainer>
-        </div>
-      ) : null}
-      {!loading && (rows.length > 0 || book[itemId]) ? (
+      {!loading && (series.length > 0 || book[itemId]) ? (
         <ul className="mt-3 grid grid-cols-2 gap-2">
           {MARKETS.map((city) => {
             const quote = book[itemId]?.[city]?.[String(quality)]
