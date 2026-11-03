@@ -1,7 +1,7 @@
 import { useMemo, useState } from "react"
 import { RefreshCw, Trash2 } from "lucide-react"
 import { craftMath } from "@/lib/forge/formulas"
-import { enchantsOf, getItem, journalFor, journalTiers, marketId, matName, matWeight, variantOf } from "@/lib/forge/lookup"
+import { enchantsOf, getItem, journalFor, marketId, matName, matWeight, variantOf } from "@/lib/forge/lookup"
 import { CRAFT_CITIES, HO_BIOMES, MARKETS, biomeById, biomeFavors } from "@/lib/forge/rules"
 import { moneySide, readQuote, useForge, type Line, type PriceBook } from "@/lib/forge/store"
 import { Num, Select, Toggle, exact, fieldClass, pct, silver } from "./fields"
@@ -45,11 +45,7 @@ function evaluateLine(line: Line, state: ReturnType<typeof useForge.getState>) {
     if (found.from) notes.push(`${id} from ${found.from}`)
     return found.price
   }
-  const chosen = line.journal
-    ? (line.journalTiers?.length ? line.journalTiers : line.journalTier ? [line.journalTier] : []).filter(
-        (tier, index, list) => tier >= 2 && tier <= 8 && list.indexOf(tier) === index,
-      )
-    : []
+  const chosen = line.journal ? [item.tier].filter((tier) => tier >= 2 && tier <= 8) : []
   const journalFills = chosen.flatMap((tier) => {
     const journal = journalFor(item.journal, tier)
     if (!journal) return []
@@ -103,6 +99,11 @@ export function Bench() {
   const evaluated = useMemo(() => (line ? evaluateLine(line, state) : null), [line, state])
   const math = evaluated?.math ?? null
   const variant = item && line ? variantOf(item, line.enchant, line.route) : undefined
+  const journal = item ? journalFor(item.journal, item.tier) : undefined
+  const buySide = state.buyMode === "instant" ? "sell" : "buy"
+  const sellSide = state.sellMode === "instant" ? "buy" : "sell"
+  const emptyJournal = journal && line ? lookup(state.prices, `${journal.id}_EMPTY`, state.buyCity, 1, buySide, line.matOverrides[`${journal.id}_EMPTY`] ?? null) : { price: null, from: null }
+  const fullJournal = journal && line ? lookup(state.prices, `${journal.id}_FULL`, state.sellCity, 1, sellSide, line.matOverrides[`${journal.id}_FULL`] ?? null) : { price: null, from: null }
   const routes = item && line ? item.variants.filter((entry) => entry.enchant === (variant?.enchant ?? line.enchant)) : []
   const hasUpgrade = routes.some((entry) => entry.route === "upgrade")
 
@@ -486,15 +487,13 @@ export function Bench() {
               value={line.productOverride}
               onChange={(productOverride) => state.patchLine(line.uid, { productOverride })}
             />
-            {line.route === "upgrade" && [1, 2, 3].includes(variant.enchant)
-              ? null
-              : variant.mats.map((mat) => {
+            {variant.mats.map((mat) => {
               const quote = lookup(state.prices, mat.id, state.buyCity, 1, state.buyMode === "instant" ? "sell" : "buy", null)
               const note = mat.ret ? "" : " · no return"
               return (
                 <PriceRow
                   key={mat.id}
-                  role="Resource"
+                  role={line.route === "upgrade" && (mat.id.includes("RUNE") || mat.id.includes("SOUL") || mat.id.includes("RELIC")) ? "Enchant" : "Resource"}
                   name={`${matName(mat.id)} × ${exact(mat.qty)}${note}`}
                   market={quote.price}
                   hint={quote.from}
@@ -503,109 +502,54 @@ export function Bench() {
                 />
               )
             })}
-            {line.route === "upgrade"
-              ? [1, 2, 3].map((enchant) => {
-                  const upgrade = item.variants.find((entry) => entry.enchant === enchant && entry.route === "upgrade")
-                  if (!upgrade) return null
-                  return (
-                    <div key={enchant} className="col-span-2 flex flex-col gap-2 border-t border-line pt-3">
-                      <p className="text-sm text-brass">Upgrade .{enchant}</p>
-                      {upgrade.mats.map((mat) => {
-                        const quote = lookup(
-                          state.prices,
-                          mat.id,
-                          state.buyCity,
-                          1,
-                          state.buyMode === "instant" ? "sell" : "buy",
-                          null,
-                        )
-                        return (
-                          <PriceRow
-                            key={`${enchant}-${mat.id}`}
-                            role="Resource"
-                            name={`${matName(mat.id)} × ${exact(mat.qty)}`}
-                            market={quote.price}
-                            hint={quote.from}
-                            value={line.matOverrides[mat.id] ?? null}
-                            onChange={(value) => state.setMatOverride(line.uid, mat.id, value)}
-                          />
-                        )
-                      })}
-                    </div>
-                  )
-                })
-              : null}
-            {item.journal ? (
-              <>
-                <p className="text-xs text-muted">
-                  Add a journal for any tier. Empty is the buy price. Full is the sell price. Fame is split across the ones you add.
-                </p>
-                {journalTiers(item.journal).map((entry) => {
-                  const current = line.journalTiers?.length
-                    ? line.journalTiers
-                    : line.journal && line.journalTier
-                      ? [line.journalTier]
-                      : []
-                  const added = current.includes(entry.tier)
-                  const buySide = state.buyMode === "instant" ? "sell" : "buy"
-                  const sellSide = state.sellMode === "instant" ? "buy" : "sell"
-                  const empty = lookup(state.prices, `${entry.id}_EMPTY`, state.buyCity, 1, buySide, line.matOverrides[`${entry.id}_EMPTY`] ?? null)
-                  const full = lookup(state.prices, `${entry.id}_FULL`, state.sellCity, 1, sellSide, line.matOverrides[`${entry.id}_FULL`] ?? null)
-                  const filled = math.journalRows.find((row) => row.tier === entry.tier)
-                  return (
-                    <div key={entry.id} className="rounded-lg border border-line p-3">
-                      <div className="flex items-center justify-between gap-3">
-                        <p className="text-sm text-parchment">
-                          T{entry.tier} {entry.name}
-                          {filled ? <span className="ml-2 text-muted">{exact(filled.count)} filled</span> : null}
-                        </p>
-                        <button
-                          type="button"
-                          onClick={() => {
-                            const current = line.journalTiers?.length
-                              ? line.journalTiers
-                              : line.journal && line.journalTier
-                                ? [line.journalTier]
-                                : []
-                            const next = current.includes(entry.tier)
-                              ? current.filter((tier) => tier !== entry.tier)
-                              : [...current, entry.tier].sort((a, b) => a - b)
-                            state.patchLine(line.uid, {
-                              journalTiers: next,
-                              journal: next.length > 0,
-                              journalTier: next[0] ?? line.journalTier,
-                            })
-                          }}
-                          className={
-                            "h-11 rounded-lg border px-3 text-sm " +
-                            (added ? "border-brass text-brass" : "border-line text-muted")
-                          }
-                        >
-                          {added ? "Added" : "Add"}
-                        </button>
-                      </div>
-                      <div className="mt-2 grid grid-cols-2 gap-2">
-                        <PriceRow
-                          role="Journal price"
-                          name="Empty"
-                          market={empty.price}
-                          hint={empty.from}
-                          value={line.matOverrides[`${entry.id}_EMPTY`] ?? null}
-                          onChange={(value) => state.setMatOverride(line.uid, `${entry.id}_EMPTY`, value)}
-                        />
-                        <PriceRow
-                          role="Full journal price"
-                          name="Full"
-                          market={full.price}
-                          hint={full.from}
-                          value={line.matOverrides[`${entry.id}_FULL`] ?? null}
-                          onChange={(value) => state.setMatOverride(line.uid, `${entry.id}_FULL`, value)}
-                        />
-                      </div>
-                    </div>
-                  )
-                })}
-              </>
+            {line.route === "upgrade" ? (
+              <p className="text-xs text-muted">
+                .{variant.enchant || 0} only. .1 is runes, .2 is souls, .3 is relics. Capes, helmets, and boots are 96. Body armor and bags are 192. One-hand weapons are 288. Two-hand weapons are 384.
+              </p>
+            ) : null}
+            {journal ? (
+              <div className="rounded-lg border border-line p-3">
+                <div className="flex items-center justify-between gap-3">
+                  <p className="text-sm text-parchment">
+                    T{journal.tier} {journal.name}
+                    {math.journalRows[0] ? <span className="ml-2 text-muted">{exact(math.journalRows[0].count)} filled</span> : null}
+                  </p>
+                  <button
+                    type="button"
+                    onClick={() =>
+                      state.patchLine(line.uid, {
+                        journal: !line.journal,
+                        journalTier: item.tier,
+                        journalTiers: line.journal ? [] : [item.tier],
+                      })
+                    }
+                    className={
+                      "h-11 rounded-lg border px-3 text-sm " +
+                      (line.journal ? "border-brass text-brass" : "border-line text-muted")
+                    }
+                  >
+                    {line.journal ? "Added" : "Add"}
+                  </button>
+                </div>
+                <div className="mt-2 grid grid-cols-2 gap-2">
+                  <PriceRow
+                    role="Journal price"
+                    name="Empty"
+                    market={emptyJournal.price}
+                    hint={emptyJournal.from}
+                    value={line.matOverrides[`${journal.id}_EMPTY`] ?? null}
+                    onChange={(value) => state.setMatOverride(line.uid, `${journal.id}_EMPTY`, value)}
+                  />
+                  <PriceRow
+                    role="Full journal price"
+                    name="Full"
+                    market={fullJournal.price}
+                    hint={fullJournal.from}
+                    value={line.matOverrides[`${journal.id}_FULL`] ?? null}
+                    onChange={(value) => state.setMatOverride(line.uid, `${journal.id}_FULL`, value)}
+                  />
+                </div>
+              </div>
             ) : null}
           </div>
           <p className="mt-3 text-xs text-muted">

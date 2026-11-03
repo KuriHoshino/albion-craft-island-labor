@@ -5,7 +5,7 @@ import { fetchMarketPrices } from "./prices"
 import type { BuyMode, Place, SellMode } from "./formulas"
 import type { ServerId, HoBiome, HoRegion } from "./rules"
 import { MARKETS } from "./rules"
-import { getItem, journalTiers, marketId, setNameBook, variantOf } from "./lookup"
+import { getItem, journalFor, marketId, setNameBook, variantOf } from "./lookup"
 import type { DeskSnapshot } from "./desk"
 
 export type Quote = PriceQuote
@@ -145,15 +145,9 @@ function collectIds(lines: Line[]): string[] {
     const variant = variantOf(item, line.enchant, line.route)
     ids.add(marketId(item.id, variant.enchant))
     for (const mat of variant.mats) ids.add(mat.id)
-    if (line.route === "upgrade") {
-      for (const enchant of [1, 2, 3]) {
-        const upgrade = item.variants.find((entry) => entry.enchant === enchant && entry.route === "upgrade")
-        if (!upgrade) continue
-        for (const mat of upgrade.mats) ids.add(mat.id)
-      }
-    }
     if (item.journal) {
-      for (const journal of journalTiers(item.journal)) {
+      const journal = journalFor(item.journal, item.tier)
+      if (journal) {
         ids.add(`${journal.id}_EMPTY`)
         ids.add(`${journal.id}_FULL`)
       }
