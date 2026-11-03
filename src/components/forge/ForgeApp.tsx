@@ -4,7 +4,6 @@ import { signIn } from "@/lib/auth/client"
 import { SignedIn, SignedOut, UserButton } from "@/lib/auth/gates"
 import { useCurrentUserState } from "@/lib/auth/use-current-user"
 import { loadCraftRecents, saveCraftRecents } from "@/lib/forge/groups"
-import { SERVERS } from "@/lib/forge/rules"
 import { priceWatchKey, useForge, type RecentSearch, type View } from "@/lib/forge/store"
 import { syncCatalogFromGitHub } from "@/lib/forge/remote"
 import { Bench } from "./Bench"
@@ -30,8 +29,6 @@ export function ForgeApp() {
   const storedView = useForge((s) => s.view)
   const view = NAV.some((entry) => entry.id === storedView) ? storedView : "bench"
   const setView = useForge((s) => s.setView)
-  const server = useForge((s) => s.server)
-  const patch = useForge((s) => s.patch)
   const boot = useBootScreen()
   const { user } = useCurrentUserState()
   useCloudRecents(user && !user.isDevFallback ? user.id : null)
@@ -85,20 +82,12 @@ export function ForgeApp() {
             <p className="mt-1 text-xs text-muted">Albion crafting desk</p>
           </div>
           <div className="flex items-end gap-3">
-            <label className="text-xs text-muted">
+            <p className="text-xs text-muted">
               Server
-              <select
-                className="mt-1 block h-11 rounded-lg border border-line bg-panel px-3 text-base text-parchment"
-                value={server}
-                onChange={(event) => patch({ server: event.target.value as typeof server })}
-              >
-                {SERVERS.map((entry) => (
-                  <option key={entry.id} value={entry.id}>
-                    {entry.label}
-                  </option>
-                ))}
-              </select>
-            </label>
+              <span className="mt-1 flex h-11 items-center rounded-lg border border-line bg-panel px-3 text-base text-parchment">
+                Asia
+              </span>
+            </p>
             <SignedOut>
               <button
                 type="button"

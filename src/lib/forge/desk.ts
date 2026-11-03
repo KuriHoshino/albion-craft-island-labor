@@ -2,7 +2,7 @@ import { z } from "zod"
 import type { Line } from "./store"
 
 export const DeskSchema = z.object({
-  server: z.enum(["asia", "europe", "americas"]),
+  server: z.enum(["asia", "europe", "americas"]).transform(() => "asia" as const),
   premium: z.boolean(),
   buyCity: z.string().min(1).max(40),
   sellCity: z.string().min(1).max(40),

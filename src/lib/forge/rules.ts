@@ -1,8 +1,4 @@
-export const SERVERS = [
-  { id: "asia", label: "Asia" },
-  { id: "europe", label: "Europe" },
-  { id: "americas", label: "Americas" },
-] as const
+export const SERVERS = [{ id: "asia", label: "Asia" }] as const
 
 export type ServerId = (typeof SERVERS)[number]["id"]
 

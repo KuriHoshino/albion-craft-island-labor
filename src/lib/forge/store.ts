@@ -263,7 +263,7 @@ export const useForge = create<ForgeState>()(
         const lines = desk.lines.map((line) => ({ ...blankLine(line.itemId), ...line }))
         const active = lines.some((line) => line.uid === desk.active) ? desk.active : lines[0].uid
         set({
-          server: desk.server,
+          server: "asia",
           premium: desk.premium,
           buyCity: desk.buyCity,
           sellCity: desk.sellCity,
@@ -402,6 +402,9 @@ export const useForge = create<ForgeState>()(
         return {
           ...current,
           ...saved,
+          server: "asia",
+          prices: saved.server === "asia" ? (saved.prices ?? current.prices) : {},
+          priceAt: saved.server === "asia" ? (saved.priceAt ?? null) : null,
           lines: kept,
           active: active ?? kept[0].uid,
           loadedId: saved.loadedId ?? null,

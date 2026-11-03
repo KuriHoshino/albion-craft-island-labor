@@ -1,16 +1,13 @@
 import { createServerFn } from "@tanstack/react-start"
 import { z } from "zod"
 import { liveId } from "./lookup"
-import { MARKETS, SERVERS } from "./rules"
+import { MARKETS } from "./rules"
 
-const HOST: Record<(typeof SERVERS)[number]["id"], string> = {
-  americas: "https://west.albion-online-data.com",
-  europe: "https://europe.albion-online-data.com",
-  asia: "https://east.albion-online-data.com",
-}
+const HOST = "https://east.albion-online-data.com"
+const AFM_QUERY = "east"
 
 const Input = z.object({
-  server: z.enum(["asia", "europe", "americas"]),
+  server: z.string().transform(() => "asia" as const),
   itemIds: z.array(z.string().regex(/^[A-Z0-9_@]+$/)).max(400),
   locations: z.array(z.enum(MARKETS)).min(1).max(8),
   qualities: z.array(z.number().int().min(1).max(5)).min(1).max(5),
@@ -35,12 +32,6 @@ type PriceRow = {
   sell_price_min_date?: string
   buy_price_max?: number
   buy_price_max_date?: string
-}
-
-const AFM_SERVER: Record<(typeof SERVERS)[number]["id"], string> = {
-  americas: "west",
-  europe: "europe",
-  asia: "east",
 }
 
 const AFM_CITY: Record<string, (typeof MARKETS)[number]> = {
@@ -87,8 +78,8 @@ function hasLivePrice(quotes: Record<string, Record<string, Record<string, Price
   return false
 }
 
-async function pullAfm(server: (typeof SERVERS)[number]["id"], itemId: string) {
-  const url = `https://albionfreemarket.com/pricecheck/${encodeURIComponent(itemId)}?s=${AFM_SERVER[server]}`
+async function pullAfm(itemId: string) {
+  const url = `https://albionfreemarket.com/pricecheck/${encodeURIComponent(itemId)}?s=${AFM_QUERY}`
   const res = await fetch(url, {
     headers: { Accept: "text/html" },
     signal: AbortSignal.timeout(15000),
@@ -136,7 +127,7 @@ async function pullBook(host: string, ids: string[], locations: string[], qualit
 export async function loadMarketPrices(data: z.infer<typeof Input>) {
   const ids = [...new Set(data.itemIds)]
   const apiIds = ids.map(liveId)
-  const host = HOST[data.server]
+  const host = HOST
   const quotes: Record<string, Record<string, Record<string, PriceQuote>>> = {}
   for (let i = 0; i < apiIds.length; i += 40) {
     const chunk = apiIds.slice(i, i + 40)
@@ -192,7 +183,7 @@ export async function loadMarketPrices(data: z.infer<typeof Input>) {
   const missing = ids.filter((id) => !hasLivePrice(quotes, id)).slice(0, 12)
   for (const id of missing) {
     try {
-      const rows = await pullAfm(data.server, id)
+      const rows = await pullAfm(id)
       if (!rows.length) continue
       const item = (quotes[id] ??= {})
       for (const row of rows) {
@@ -225,7 +216,7 @@ export type HourPoint = { time: string; price: number; count: number }
 export type HourSeries = { city: string; points: HourPoint[] }
 
 const HourInput = z.object({
-  server: z.enum(["asia", "europe", "americas"]),
+  server: z.string().transform(() => "asia" as const),
   itemId: z.string().regex(/^[A-Z0-9_@]+$/),
   locations: z.array(z.enum(MARKETS)).min(1).max(MARKETS.length),
   quality: z.number().int().min(1).max(5),
@@ -295,7 +286,7 @@ async function readJson(url: string): Promise<{ status: number; body: unknown }>
 
 export async function loadHourlyPrices(data: z.infer<typeof HourInput>) {
   const loc = [...new Set(data.locations)].map((name) => encodeURIComponent(name)).join(",")
-  const host = HOST[data.server]
+  const host = HOST
   const historyUrl = `${host}/api/v2/stats/history/${data.itemId}.json?locations=${loc}&qualities=${data.quality}&time-scale=1`
   const historyRes = await readJson(historyUrl).catch(() => ({ status: 0, body: null }))
   if (historyRes.status === 429) throw new Error("The data project is busy. The chart retries in a minute.")
