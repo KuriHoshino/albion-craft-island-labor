@@ -121,12 +121,52 @@ const HourInput = z.object({
   quality: z.number().int().min(1).max(5),
 })
 
-type ChartRow = {
-  location: string
-  data?: {
-    timestamps?: string[]
-    prices_avg?: number[]
-    item_count?: number[]
+type HistPoint = { timestamp?: string; avg_price?: number; item_count?: number }
+type HistRow = {
+  location?: string
+  data?:
+    | HistPoint[]
+    | {
+        timestamps?: string[]
+        prices_avg?: number[]
+        item_count?: number[]
+      }
+}
+
+function hourStamp(stamp: string) {
+  const date = new Date(stamp.endsWith("Z") ? stamp : `${stamp}Z`)
+  if (Number.isNaN(date.getTime())) return ""
+  date.setUTCMinutes(0, 0, 0)
+  return date.toISOString().replace(".000Z", "")
+}
+
+function addHour(series: Map<string, HourPoint[]>, city: string, time: string, price: number, count: number) {
+  if (!city || !time || price <= 0) return
+  const points = series.get(city) ?? []
+  const found = points.find((point) => point.time === time)
+  if (found) {
+    found.price = price
+    if (count > 0) found.count = count
+  } else {
+    points.push({ time, price, count })
+  }
+  series.set(city, points)
+}
+
+function readHistory(rows: HistRow[], series: Map<string, HourPoint[]>) {
+  for (const row of rows) {
+    const city = row.location || ""
+    const data = row.data
+    if (Array.isArray(data)) {
+      for (const point of data) {
+        addHour(series, city, point.timestamp || "", point.avg_price || 0, point.item_count || 0)
+      }
+      continue
+    }
+    const times = data?.timestamps ?? []
+    const prices = data?.prices_avg ?? []
+    const counts = data?.item_count ?? []
+    for (let i = 0; i < times.length; i++) addHour(series, city, times[i] || "", prices[i] || 0, counts[i] || 0)
   }
 }
 
@@ -148,25 +188,34 @@ export const fetchHourlyPrices = createServerFn({ method: "POST" })
   .handler(async ({ data }) => {
     const loc = [...new Set(data.locations)].map((name) => encodeURIComponent(name)).join(",")
     const host = HOST[data.server]
+    const historyUrl = `${host}/api/v2/stats/history/${data.itemId}.json?locations=${loc}&qualities=${data.quality}&time-scale=1`
     const chartUrl = `${host}/api/v2/stats/charts/${data.itemId}.json?locations=${loc}&qualities=${data.quality}&time-scale=1`
-    const chartRes = await readJson(chartUrl)
-    if (chartRes.status === 429) {
+    const [historyRes, chartRes] = await Promise.all([
+      readJson(historyUrl).catch(() => ({ status: 0, body: null })),
+      readJson(chartUrl).catch(() => ({ status: 0, body: null })),
+    ])
+    if (historyRes.status === 429 && chartRes.status === 429) {
       throw new Error("The data project is busy. Wait a moment, then refresh.")
     }
+    const bucket = new Map<string, HourPoint[]>()
+    if (historyRes.status === 200 && Array.isArray(historyRes.body)) readHistory(historyRes.body as HistRow[], bucket)
+    if (chartRes.status === 200 && Array.isArray(chartRes.body)) readHistory(chartRes.body as HistRow[], bucket)
+    const listed = await pullPrices(host, [data.itemId], [...data.locations], [data.quality])
+    const book = await pullBook(host, [data.itemId], [...data.locations], [data.quality])
+    for (const row of listed) {
+      if ((row.quality ?? data.quality) !== data.quality) continue
+      const stamp = hourStamp(row.sell_price_min_date || "")
+      addHour(bucket, row.city, stamp, row.sell_price_min || 0, 0)
+    }
+    for (const row of book) {
+      if (row.quality !== data.quality) continue
+      const ask = bestLevel(row.sell)
+      addHour(bucket, row.city, hourStamp(ask.at || new Date().toISOString()), ask.price, 0)
+    }
     const series: HourSeries[] = []
-    if (chartRes.status === 200) {
-      for (const row of chartRes.body as ChartRow[]) {
-        const times = row.data?.timestamps ?? []
-        const prices = row.data?.prices_avg ?? []
-        const counts = row.data?.item_count ?? []
-        const points: HourPoint[] = []
-        for (let i = 0; i < times.length; i++) {
-          const price = prices[i] ?? 0
-          if (!times[i] || price <= 0) continue
-          points.push({ time: times[i], price, count: counts[i] ?? 0 })
-        }
-        if (points.length) series.push({ city: row.location, points })
-      }
+    for (const [city, points] of bucket) {
+      points.sort((a, b) => a.time.localeCompare(b.time))
+      if (points.length) series.push({ city, points })
     }
     return { series, fetchedAt: Date.now() }
   })

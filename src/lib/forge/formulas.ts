@@ -312,7 +312,7 @@ export function craftMath(opts: {
   let journalProfit: number | null = null
   let journals = 0
   if (opts.useJournal && opts.journalFame && opts.journalFame > 0) {
-    journals = (opts.variant.fame * items) / opts.journalFame
+    journals = fameTotal / opts.journalFame
     if (opts.journalEmpty == null || opts.journalFull == null) {
       journalProfit = null
       missing.push("journal")

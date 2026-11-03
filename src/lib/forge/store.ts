@@ -30,6 +30,7 @@ export type Line = {
   specialist: number
   siblings: number
   journal: boolean
+  journalTier: number
   productOverride: number | null
   matOverrides: Record<string, number>
   focusOverride: number | null
@@ -124,6 +125,7 @@ export function blankLine(itemId = "T4_MAIN_SWORD"): Line {
     specialist: 0,
     siblings: 0,
     journal: false,
+    journalTier: 4,
     productOverride: null,
     matOverrides: {},
     focusOverride: null,
@@ -142,7 +144,7 @@ function collectIds(lines: Line[]): string[] {
     ids.add(marketId(item.id, variant.enchant))
     for (const mat of variant.mats) ids.add(mat.id)
     if (line.journal && item.journal) {
-      const journal = journalFor(item.journal, item.tier)
+      const journal = journalFor(item.journal, line.journalTier || item.tier)
       if (journal) {
         ids.add(`${journal.id}_EMPTY`)
         ids.add(`${journal.id}_FULL`)
@@ -215,6 +217,8 @@ export const useForge = create<ForgeState>()(
           line.siblings = current.siblings
           line.runs = current.runs
         }
+        const item = getItem(line.itemId)
+        if (item?.journal) line.journalTier = Math.min(8, Math.max(2, item.tier))
         set({ lines: [...get().lines, line], active: line.uid, recents: rememberSearch(get().recents, line) })
       },
       removeLine: (uid) => {

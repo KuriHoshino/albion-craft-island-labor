@@ -59,6 +59,11 @@ export function journalFor(kind: string | null, tier: number) {
   return journals.find((j) => j.kind === kind && j.tier === tier)
 }
 
+export function journalTiers(kind: string | null) {
+  if (!kind) return []
+  return journals.filter((j) => j.kind === kind).sort((a, b) => a.tier - b.tier)
+}
+
 export function searchItems(
   query: string,
   group: string,

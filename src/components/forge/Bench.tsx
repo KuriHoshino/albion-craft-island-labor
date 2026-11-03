@@ -1,7 +1,7 @@
 import { useMemo, useState } from "react"
 import { RefreshCw, Trash2 } from "lucide-react"
 import { craftMath } from "@/lib/forge/formulas"
-import { enchantsOf, getItem, journalFor, marketId, matName, matWeight, variantOf } from "@/lib/forge/lookup"
+import { enchantsOf, getItem, journalFor, journalTiers, marketId, matName, matWeight, variantOf } from "@/lib/forge/lookup"
 import { CRAFT_CITIES, HO_BIOMES, MARKETS, biomeById, biomeFavors } from "@/lib/forge/rules"
 import { moneySide, readQuote, useForge, type Line, type PriceBook } from "@/lib/forge/store"
 import { Num, Select, Toggle, exact, fieldClass, pct, silver } from "./fields"
@@ -45,7 +45,8 @@ function evaluateLine(line: Line, state: ReturnType<typeof useForge.getState>) {
     if (found.from) notes.push(`${id} from ${found.from}`)
     return found.price
   }
-  const journal = line.journal ? journalFor(item.journal, item.tier) : undefined
+  const journalTier = Math.min(8, Math.max(2, line.journalTier || item.tier))
+  const journal = line.journal ? journalFor(item.journal, journalTier) : undefined
   const math = craftMath({
     variant,
     tier: item.tier,
@@ -365,6 +366,19 @@ export function Bench() {
                 Fill journals
               </Toggle>
             ) : null}
+            {item.journal && line.journal ? (
+              <div className="min-w-36 flex-1">
+                <Select
+                  label="Journal"
+                  value={String(Math.min(8, Math.max(2, line.journalTier || item.tier)))}
+                  onChange={(value) => state.patchLine(line.uid, { journalTier: Number(value) })}
+                  options={journalTiers(item.journal).map((entry) => ({
+                    value: String(entry.tier),
+                    label: `T${entry.tier}`,
+                  }))}
+                />
+              </div>
+            ) : null}
             <Toggle on={state.premium} onClick={() => state.patch({ premium: !state.premium })}>
               Premium
             </Toggle>
@@ -548,7 +562,7 @@ export function Bench() {
             <Stat label="Focus for batch" value={focusBatch > 0 ? exact(focusBatch) : "—"} />
             <Stat label="Silver / focus" value={silver(perFocus)} />
             <Stat label="Study fame / item" value={item.study ? exact(math.studyEach) : "—"} />
-            <Stat label="Journals" value={line.journal && item.journal ? exact(math.journals) : "Off"} />
+            <Stat label="Journals" value={line.journal && item.journal ? `${exact(math.journals)} · T${Math.min(8, Math.max(2, line.journalTier || item.tier))}` : "Off"} />
           </dl>
           <p className="mt-3 text-xs text-muted">
             {focusEach <= 0

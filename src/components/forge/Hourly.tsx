@@ -62,7 +62,7 @@ export function HourlyChart({
         })
     }
     load()
-    const timer = window.setInterval(load, 5 * 60 * 1000)
+    const timer = window.setInterval(load, 60_000)
     return () => {
       cancel = true
       window.clearInterval(timer)
@@ -100,7 +100,7 @@ export function HourlyChart({
         </p>
       </div>
       <p className="mt-1 text-xs text-muted">
-        Albion Online Data Project, every city. Sell and buy are the live order book. The chart is each hour that actually sold.
+        Albion Online Data Project history and the live order book. Albion Free Market uses the same prices. The last hour is the current sell.
       </p>
       {error ? <p className="mt-2 text-sm text-ember">{error}</p> : null}
       {!error && !loading && rows.length === 0 && !book[itemId] ? (
