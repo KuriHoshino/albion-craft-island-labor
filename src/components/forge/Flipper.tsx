@@ -6,7 +6,7 @@ import { fetchMarketPrices, loadMarketPrices } from "@/lib/forge/prices"
 import { MARKETS } from "@/lib/forge/rules"
 import { useForge, type PriceBook } from "@/lib/forge/store"
 import { stackBuy, stackSell } from "@/lib/forge/formulas"
-import { exact, pct, silver } from "./fields"
+import { exact, orderAge, pct, silver } from "./fields"
 
 const GROUPS = [
   { id: "weapon", label: "Weapons" },
@@ -70,7 +70,8 @@ export function FlipLab() {
     const stoneUnit = (id: string) => {
       const typed = stoneOverrides[id]
       if (typed != null && Number.isFinite(typed) && typed > 0) return typed
-      const city = stoneCities[id] || buys[0] || "Thetford"
+      const picked = stoneCities[id] || buys.find((place) => place !== "Black Market") || "Thetford"
+      const city = picked === "Black Market" ? "Thetford" : picked
       return order(stoneBook, id, city, 1, stoneSide) ?? (book ? order(book, id, city, 1, stoneSide) : null)
     }
     const next: FlipRow[] = []
@@ -265,7 +266,8 @@ export function FlipLab() {
                 { id: `T${tier}_SOUL`, name: `T${tier} soul · .2` },
                 { id: `T${tier}_RELIC`, name: `T${tier} relic · .3` },
               ].map((stone) => {
-                const city = stoneCities[stone.id] || buys[0] || "Thetford"
+                const picked = stoneCities[stone.id] || buys.find((place) => place !== "Black Market") || "Thetford"
+                const city = picked === "Black Market" ? "Thetford" : picked
                 const market = order(stoneBook, stone.id, city, 1, stoneSide)
                 const locked = stoneOverrides[stone.id] != null && market != null && stoneOverrides[stone.id] === market
                 return (
@@ -278,11 +280,13 @@ export function FlipLab() {
                         value={city}
                         onChange={(event) => setStoneCities((current) => ({ ...current, [stone.id]: event.target.value }))}
                       >
-                        {MARKETS.map((place) => {
+                        {MARKETS.filter((place) => place !== "Black Market").map((place) => {
                           const price = order(stoneBook, stone.id, place, 1, stoneSide)
+                          const quote = stoneBook[stone.id]?.[place]?.["1"]
+                          const age = orderAge(stoneSide === "sell" ? quote?.sellDate : quote?.buyDate)
                           return (
                             <option key={place} value={place}>
-                              {price == null ? place : `${place} · ${silver(price)}`}
+                              {price == null ? place : `${place} · ${silver(price)}${age ? ` · ${age}` : ""}`}
                             </option>
                           )
                         })}

@@ -23,6 +23,7 @@ function lookup(
   if (!cities) return { price: null, from: null }
   let best: { price: number; city: string } | null = null
   for (const [name, qualities] of Object.entries(cities)) {
+    if (name === "Black Market") continue
     const quote = moneySide(qualities[String(quality)] ?? null, side)
     if (quote == null) continue
     if (!best || (side === "sell" ? quote < best.price : quote > best.price)) best = { price: quote, city: name }
@@ -46,7 +47,10 @@ function evaluateLine(line: Line, state: ReturnType<typeof useForge.getState>) {
   const notes: string[] = []
   if (product.from) notes.push(`${item.name} from ${product.from}`)
   const buyAt = line.shopCity || state.buyCity
-  const boughtIn = (id: string) => line.matCities?.[id] || buyAt
+  const boughtIn = (id: string) => {
+    const city = line.matCities?.[id] || buyAt
+    return city === "Black Market" ? CRAFT_CITIES[0] : city
+  }
   const matLook = (id: string, city: string, side: "sell" | "buy") => {
     const found = lookup(state.prices, id, city, 1, side, line.matOverrides[id] ?? null)
     if (found.from) notes.push(`${id} from ${found.from}`)
@@ -128,7 +132,7 @@ export function Bench() {
       for (const city of MARKETS) {
         const sell = moneySide(readQuote(state.prices, id, city, quality), "sell")
         if (sell == null) continue
-        if (!low || sell < low.price) low = { city, price: sell }
+        if (city !== "Black Market" && (!low || sell < low.price)) low = { city, price: sell }
         if (!high || sell > high.price) high = { city, price: sell }
       }
       return { low, high }
@@ -160,7 +164,8 @@ export function Bench() {
       const result = evaluateLine(entry, state)
       if (!result) continue
       for (const mat of result.math.consumed) {
-        const chosen = entry.matCities?.[mat.id] || entry.shopCity || state.buyCity
+        const picked = entry.matCities?.[mat.id] || entry.shopCity || state.buyCity
+        const chosen = picked === "Black Market" ? CRAFT_CITIES[0] : picked
         const side = entry.matModes?.[mat.id] ?? (state.buyMode === "instant" ? "sell" : "buy")
         const city = buyPlace(state.prices, mat.id, chosen, 1, side)
         const key = `${mat.id}|${city}`
@@ -176,7 +181,8 @@ export function Bench() {
           const book = made ? journalFor(made.journal, fill.tier) : undefined
           if (!book) continue
           const id = `${book.id}_EMPTY`
-          const chosen = entry.matCities?.[id] || entry.shopCity || state.buyCity
+          const picked = entry.matCities?.[id] || entry.shopCity || state.buyCity
+          const chosen = picked === "Black Market" ? CRAFT_CITIES[0] : picked
           const city = buyPlace(state.prices, id, chosen, 1, side)
           const key = `${id}|${city}`
           const current = rows.get(key) ?? { id, city, qty: 0, cost: 0 }
@@ -477,12 +483,12 @@ export function Bench() {
           <div className="mt-3 grid grid-cols-2 gap-3">
             <Select
               label="Buy in"
-              value={line.shopCity || state.buyCity}
+              value={(CRAFT_CITIES as readonly string[]).includes(line.shopCity || state.buyCity) ? line.shopCity || state.buyCity : CRAFT_CITIES[0]}
               onChange={(buyCity) => {
                 state.patch({ buyCity })
                 state.patchLine(line.uid, { shopCity: buyCity })
               }}
-              options={MARKETS.map((city) => ({ value: city, label: city }))}
+              options={CRAFT_CITIES.map((city) => ({ value: city, label: city }))}
             />
             <Select
               label="Sell in"
@@ -593,7 +599,8 @@ export function Bench() {
               <div className="mt-3 grid gap-3 md:grid-cols-2">
                 {variant.mats.map((mat) => {
                   const side = line.matModes?.[mat.id] ?? buySide
-                  const city = line.matCities?.[mat.id] || buyAt
+                  const picked = line.matCities?.[mat.id] || buyAt
+                  const city = picked === "Black Market" ? CRAFT_CITIES[0] : picked
                   const quote = lookup(state.prices, mat.id, city, 1, side, null)
                   const quoteRow = readQuote(state.prices, mat.id, city, 1)
                   const bought = math?.consumed.find((row) => row.id === mat.id)
@@ -602,6 +609,8 @@ export function Bench() {
                     <MatCard
                       key={mat.id}
                       name={matName(mat.id)}
+                      itemId={mat.id}
+                      prices={state.prices}
                       amount={bought?.qty ?? mat.qty * line.runs}
                       leftover={left?.qty ?? 0}
                       city={city}
@@ -619,9 +628,14 @@ export function Bench() {
                 {line.journal && journal ? (
                   <MatCard
                     name={`${journal.name} (Empty)`}
+                    itemId={`${journal.id}_EMPTY`}
+                    prices={state.prices}
                     amount={math?.journalRows[0]?.count ?? 0}
                     leftover={0}
-                    city={line.matCities?.[`${journal.id}_EMPTY`] || buyAt}
+                    city={(() => {
+                      const picked = line.matCities?.[`${journal.id}_EMPTY`] || buyAt
+                      return picked === "Black Market" ? CRAFT_CITIES[0] : picked
+                    })()}
                     side={line.matModes?.[`${journal.id}_EMPTY`] ?? buySide}
                     market={
                       lookup(
@@ -795,6 +809,8 @@ function Stat({ label, value }: { label: string; value: string }) {
 
 function MatCard({
   name,
+  itemId,
+  prices,
   amount,
   leftover,
   city,
@@ -808,6 +824,8 @@ function MatCard({
   onPrice,
 }: {
   name: string
+  itemId: string
+  prices: PriceBook
   amount: number
   leftover: number
   city: string
@@ -830,12 +848,19 @@ function MatCard({
       </p>
       <label className="mt-3 block text-xs text-muted">
         Buy location
-        <select className={fieldClass + " mt-1"} value={city} onChange={(event) => onCity(event.target.value)}>
-          {MARKETS.map((marketCity) => (
-            <option key={marketCity} value={marketCity}>
-              {marketCity} Market
-            </option>
-          ))}
+        <select className={fieldClass + " mt-1"} value={(CRAFT_CITIES as readonly string[]).includes(city) ? city : CRAFT_CITIES[0]} onChange={(event) => onCity(event.target.value)}>
+          {CRAFT_CITIES.map((marketCity) => {
+            const quote = readQuote(prices, itemId, marketCity, 1)
+            const price = moneySide(quote, side)
+            const stamp = orderAge(side === "sell" ? quote?.sellDate : quote?.buyDate)
+            const label =
+              price == null ? `${marketCity} Market` : `${marketCity} Market · ${silver(price)}${stamp ? ` · ${stamp}` : ""}`
+            return (
+              <option key={marketCity} value={marketCity}>
+                {label}
+              </option>
+            )
+          })}
         </select>
       </label>
       <label className="mt-2 block text-xs text-muted">
