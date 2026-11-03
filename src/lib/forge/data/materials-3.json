@@ -1144,7 +1144,7 @@
     "weight": 0.1
   },
   "T1_ALCHEMY_EXTRACT@1": {
-    "name": "Beginner's Alchemy Extract .1",
+    "name": "Basic Arcane Extract",
     "weight": 1
   },
   "T2_POTION_ENERGY@2": {
@@ -1152,7 +1152,7 @@
     "weight": 0.1
   },
   "T1_ALCHEMY_EXTRACT@2": {
-    "name": "Beginner's Alchemy Extract .2",
+    "name": "Refined Arcane Extract",
     "weight": 1.5
   },
   "T2_POTION_ENERGY@3": {
@@ -1160,7 +1160,7 @@
     "weight": 0.1
   },
   "T1_ALCHEMY_EXTRACT@3": {
-    "name": "Beginner's Alchemy Extract .3",
+    "name": "Pure Arcane Extract",
     "weight": 2
   },
   "T2_POTION_HEAL": {

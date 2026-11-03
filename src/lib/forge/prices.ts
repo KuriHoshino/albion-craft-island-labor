@@ -105,11 +105,23 @@ function bestLevel(levels: BookLevel[] | undefined, side: "sell" | "buy") {
   return { price: best?.price || 0, at: best?.updated_at || "" }
 }
 
-/** Refined and raw .1–.4 resources are listed as T6_CLOTH_LEVEL2@2, not T6_CLOTH@2. */
+const MARKET_AT_1 = new Set([
+  "T8_MOUNT_MAMMOTH_BATTLE",
+  "T5_MOUNT_COUGAR_KEEPER",
+  "T8_MOUNT_COUGAR_KEEPER",
+  "T8_MOUNT_ARMORED_HORSE_MORGANA",
+  "T8_MOUNT_HORSE_UNDEAD",
+  "T8_MOUNT_RABBIT_EASTER_DARK",
+])
+
+/** Market ids that differ from the recipe id. */
 function aodpId(id: string): string {
-  const match = id.match(/^(T\d+)_(CLOTH|LEATHER|PLANKS|METALBAR|STONEBLOCK|ORE|WOOD|FIBER|HIDE|ROCK)@([1-4])$/)
-  if (!match) return id
-  return `${match[1]}_${match[2]}_LEVEL${match[3]}@${match[3]}`
+  const resource = id.match(/^(T\d+)_(CLOTH|LEATHER|PLANKS|METALBAR|STONEBLOCK|ORE|WOOD|FIBER|HIDE|ROCK)@([1-4])$/)
+  if (resource) return `${resource[1]}_${resource[2]}_LEVEL${resource[3]}@${resource[3]}`
+  const sauce = id.match(/^(T1_FISHSAUCE|T1_ALCHEMY_EXTRACT)@([1-3])$/)
+  if (sauce) return `${sauce[1]}_LEVEL${sauce[2]}`
+  if (MARKET_AT_1.has(id)) return `${id}@1`
+  return id
 }
 
 async function pullJson(url: string): Promise<unknown> {
