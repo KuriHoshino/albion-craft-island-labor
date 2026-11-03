@@ -96,9 +96,20 @@ async function pullAfm(server: (typeof SERVERS)[number]["id"], itemId: string) {
   return parseAfm(await res.text())
 }
 
-function bestLevel(levels: BookLevel[] | undefined) {
-  const level = levels?.find((row) => row.price > 0)
-  return { price: level?.price || 0, at: level?.updated_at || "" }
+function bestLevel(levels: BookLevel[] | undefined, side: "sell" | "buy") {
+  let best: BookLevel | undefined
+  for (const row of levels ?? []) {
+    if (!row.price || row.price <= 0) continue
+    if (!best || (side === "sell" ? row.price < best.price : row.price > best.price)) best = row
+  }
+  return { price: best?.price || 0, at: best?.updated_at || "" }
+}
+
+/** Refined and raw .1–.4 resources are listed as T6_CLOTH_LEVEL2@2, not T6_CLOTH@2. */
+function aodpId(id: string): string {
+  const match = id.match(/^(T\d+)_(CLOTH|LEATHER|PLANKS|METALBAR|STONEBLOCK|ORE|WOOD|FIBER|HIDE|ROCK)@([1-4])$/)
+  if (!match) return id
+  return `${match[1]}_${match[2]}_LEVEL${match[3]}@${match[3]}`
 }
 
 async function pullJson(url: string): Promise<unknown> {
@@ -128,10 +139,11 @@ async function pullBook(host: string, ids: string[], locations: string[], qualit
 
 export async function loadMarketPrices(data: z.infer<typeof Input>) {
   const ids = [...new Set(data.itemIds)]
+  const apiIds = ids.map(aodpId)
   const host = HOST[data.server]
   const quotes: Record<string, Record<string, Record<string, PriceQuote>>> = {}
-  for (let i = 0; i < ids.length; i += 40) {
-    const chunk = ids.slice(i, i + 40)
+  for (let i = 0; i < apiIds.length; i += 40) {
+    const chunk = apiIds.slice(i, i + 40)
     const locations = [...data.locations]
     const qualities = data.qualities
     let book: BookRow[] = []
@@ -162,8 +174,8 @@ export async function loadMarketPrices(data: z.infer<typeof Input>) {
       }
     }
     for (const row of book) {
-      const ask = bestLevel(row.sell)
-      const bid = bestLevel(row.buy)
+      const ask = bestLevel(row.sell, "sell")
+      const bid = bestLevel(row.buy, "buy")
       if (!ask.price && !bid.price) continue
       const item = (quotes[row.item_id] ??= {})
       const city = (item[row.city] ??= {})
@@ -175,7 +187,11 @@ export async function loadMarketPrices(data: z.infer<typeof Input>) {
         buyDate: bid.price ? bid.at : prev.buyDate,
       }
     }
-    if (i + 40 < ids.length) await new Promise((r) => setTimeout(r, 250))
+    if (i + 40 < apiIds.length) await new Promise((r) => setTimeout(r, 250))
+  }
+  for (let index = 0; index < ids.length; index += 1) {
+    const api = apiIds[index]
+    if (api !== ids[index] && quotes[api]) quotes[ids[index]] = quotes[api]
   }
   const missing = ids.filter((id) => !hasLivePrice(quotes, id)).slice(0, 12)
   for (const id of missing) {

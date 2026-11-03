@@ -17,18 +17,7 @@ function lookup(
   override: number | null | undefined,
 ): { price: number | null; from: string | null } {
   if (override != null && Number.isFinite(override)) return { price: override, from: null }
-  const direct = moneySide(readQuote(book, id, city, quality), side)
-  if (direct != null) return { price: direct, from: null }
-  const cities = book[id]
-  if (!cities) return { price: null, from: null }
-  let best: { price: number; city: string } | null = null
-  for (const [name, qualities] of Object.entries(cities)) {
-    if (name === "Black Market") continue
-    const quote = moneySide(qualities[String(quality)] ?? null, side)
-    if (quote == null) continue
-    if (!best || (side === "sell" ? quote < best.price : quote > best.price)) best = { price: quote, city: name }
-  }
-  return best ? { price: best.price, from: best.city } : { price: null, from: null }
+  return { price: moneySide(readQuote(book, id, city, quality), side), from: null }
 }
 
 function buyPlace(book: PriceBook, id: string, city: string, quality: number, side: "sell" | "buy") {
