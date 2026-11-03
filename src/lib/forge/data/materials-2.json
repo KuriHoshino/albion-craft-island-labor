@@ -575,26 +575,6 @@
     "name": "Elder's Cultist Robe",
     "weight": 17.1
   },
-  "T8_ARMOR_CLOTH_PROTOTYPE": {
-    "name": "Elder's Prototype Robe",
-    "weight": 17.1
-  },
-  "T8_ARMOR_CLOTH_PROTOTYPE@1": {
-    "name": "Elder's Prototype Robe .1",
-    "weight": 17.1
-  },
-  "T8_ARMOR_CLOTH_PROTOTYPE@2": {
-    "name": "Elder's Prototype Robe .2",
-    "weight": 17.1
-  },
-  "T8_ARMOR_CLOTH_PROTOTYPE@3": {
-    "name": "Elder's Prototype Robe .3",
-    "weight": 17.1
-  },
-  "T8_ARMOR_CLOTH_PROTOTYPE@4": {
-    "name": "Elder's Prototype Robe .4",
-    "weight": 17.1
-  },
   "T8_ARMOR_LEATHER_AVALON": {
     "name": "Elder's Jacket of Tenacity",
     "weight": 17.1
@@ -713,26 +693,6 @@
   },
   "T8_ARMOR_LEATHER_MORGANA@4": {
     "name": "Elder's Stalker Jacket",
-    "weight": 17.1
-  },
-  "T8_ARMOR_LEATHER_PROTOTYPE": {
-    "name": "Elder's Prototype Jacket",
-    "weight": 17.1
-  },
-  "T8_ARMOR_LEATHER_PROTOTYPE@1": {
-    "name": "Elder's Prototype Jacket .1",
-    "weight": 17.1
-  },
-  "T8_ARMOR_LEATHER_PROTOTYPE@2": {
-    "name": "Elder's Prototype Jacket .2",
-    "weight": 17.1
-  },
-  "T8_ARMOR_LEATHER_PROTOTYPE@3": {
-    "name": "Elder's Prototype Jacket .3",
-    "weight": 17.1
-  },
-  "T8_ARMOR_LEATHER_PROTOTYPE@4": {
-    "name": "Elder's Prototype Jacket .4",
     "weight": 17.1
   },
   "T8_ARMOR_LEATHER_UNDEAD": {
@@ -1199,26 +1159,6 @@
     "name": "Elder's Cultist Cowl",
     "weight": 8.5
   },
-  "T8_HEAD_CLOTH_PROTOTYPE": {
-    "name": "Elder's Prototype Cowl",
-    "weight": 8.5
-  },
-  "T8_HEAD_CLOTH_PROTOTYPE@1": {
-    "name": "Elder's Prototype Cowl .1",
-    "weight": 8.5
-  },
-  "T8_HEAD_CLOTH_PROTOTYPE@2": {
-    "name": "Elder's Prototype Cowl .2",
-    "weight": 8.5
-  },
-  "T8_HEAD_CLOTH_PROTOTYPE@3": {
-    "name": "Elder's Prototype Cowl .3",
-    "weight": 8.5
-  },
-  "T8_HEAD_CLOTH_PROTOTYPE@4": {
-    "name": "Elder's Prototype Cowl .4",
-    "weight": 8.5
-  },
   "T8_HEAD_LEATHER_AVALON": {
     "name": "Elder's Hood of Tenacity",
     "weight": 8.5
@@ -1337,26 +1277,6 @@
   },
   "T8_HEAD_LEATHER_MORGANA@4": {
     "name": "Elder's Stalker Hood",
-    "weight": 8.5
-  },
-  "T8_HEAD_LEATHER_PROTOTYPE": {
-    "name": "Elder's Prototype Hood",
-    "weight": 8.5
-  },
-  "T8_HEAD_LEATHER_PROTOTYPE@1": {
-    "name": "Elder's Prototype Hood .1",
-    "weight": 8.5
-  },
-  "T8_HEAD_LEATHER_PROTOTYPE@2": {
-    "name": "Elder's Prototype Hood .2",
-    "weight": 8.5
-  },
-  "T8_HEAD_LEATHER_PROTOTYPE@3": {
-    "name": "Elder's Prototype Hood .3",
-    "weight": 8.5
-  },
-  "T8_HEAD_LEATHER_PROTOTYPE@4": {
-    "name": "Elder's Prototype Hood .4",
     "weight": 8.5
   },
   "T8_HEAD_LEATHER_UNDEAD": {
@@ -1923,26 +1843,6 @@
     "name": "Elder's Cultist Sandals",
     "weight": 8.5
   },
-  "T8_SHOES_CLOTH_PROTOTYPE": {
-    "name": "Elder's Prototype Sandals",
-    "weight": 8.5
-  },
-  "T8_SHOES_CLOTH_PROTOTYPE@1": {
-    "name": "Elder's Prototype Sandals .1",
-    "weight": 8.5
-  },
-  "T8_SHOES_CLOTH_PROTOTYPE@2": {
-    "name": "Elder's Prototype Sandals .2",
-    "weight": 8.5
-  },
-  "T8_SHOES_CLOTH_PROTOTYPE@3": {
-    "name": "Elder's Prototype Sandals .3",
-    "weight": 8.5
-  },
-  "T8_SHOES_CLOTH_PROTOTYPE@4": {
-    "name": "Elder's Prototype Sandals .4",
-    "weight": 8.5
-  },
   "T8_SHOES_LEATHER_AVALON": {
     "name": "Elder's Shoes of Tenacity",
     "weight": 8.5
@@ -2061,26 +1961,6 @@
   },
   "T8_SHOES_LEATHER_MORGANA@4": {
     "name": "Elder's Stalker Shoes",
-    "weight": 8.5
-  },
-  "T8_SHOES_LEATHER_PROTOTYPE": {
-    "name": "Elder's Prototype Shoes",
-    "weight": 8.5
-  },
-  "T8_SHOES_LEATHER_PROTOTYPE@1": {
-    "name": "Elder's Prototype Shoes .1",
-    "weight": 8.5
-  },
-  "T8_SHOES_LEATHER_PROTOTYPE@2": {
-    "name": "Elder's Prototype Shoes .2",
-    "weight": 8.5
-  },
-  "T8_SHOES_LEATHER_PROTOTYPE@3": {
-    "name": "Elder's Prototype Shoes .3",
-    "weight": 8.5
-  },
-  "T8_SHOES_LEATHER_PROTOTYPE@4": {
-    "name": "Elder's Prototype Shoes .4",
     "weight": 8.5
   },
   "T8_SHOES_LEATHER_UNDEAD": {
