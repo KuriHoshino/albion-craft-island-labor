@@ -56,6 +56,12 @@ export function variantOf(item: CraftItem, enchant: number, route: Variant["rout
   return mats.length ? { ...found, mats } : found
 }
 
+/** Runes, souls, and relics to enchant a flat item up to this level. */
+export function enchantStones(item: CraftItem, enchant: number) {
+  if (enchant < 1) return []
+  return variantOf(item, enchant, "upgrade").mats.filter((mat) => isEnchantStone(mat.id))
+}
+
 export function enchantsOf(item: CraftItem): number[] {
   return [...new Set(item.variants.map((v) => v.enchant))].sort((a, b) => a - b)
 }

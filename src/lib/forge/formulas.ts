@@ -253,6 +253,7 @@ export function craftMath(opts: {
   flip?: boolean
   flipUnit?: number | null
   flipItemId?: string
+  flipMats?: { id: string; qty: number }[]
 }): CraftMath {
   const runs = Math.max(0, opts.runs)
   const bonus = productionBonus(opts)
@@ -279,14 +280,22 @@ export function craftMath(opts: {
   const leftovers: CraftMath["leftovers"] = []
 
   if (opts.flip) {
-    const unit = opts.flipUnit ?? null
-    if (unit == null) {
-      materialKnown = false
-      missing.push(opts.flipItemId || "product")
+    const n = Math.max(0, opts.runs)
+    const buys = [
+      ...(opts.flipItemId ? [{ id: opts.flipItemId, qty: opts.variant.output || 1 }] : []),
+      ...(opts.flipMats ?? []),
+    ]
+    for (const mat of buys) {
+      const bought = mat.qty * n
+      const unit = opts.matUnit(mat.id)
+      if (unit == null) {
+        materialKnown = false
+        missing.push(mat.id)
+      }
+      const priced = unit == null ? null : stackBuy(unit, bought, opts.buyMode).cost
+      if (priced != null) materialCost += priced
+      consumed.push({ id: mat.id, qty: bought, unit, cost: priced })
     }
-    const priced = unit == null ? null : stackBuy(unit, items, opts.buyMode).cost
-    if (priced != null) materialCost += priced
-    if (opts.flipItemId) consumed.push({ id: opts.flipItemId, qty: items, unit, cost: priced })
   }
 
   for (const mat of opts.flip ? [] : opts.variant.mats) {
