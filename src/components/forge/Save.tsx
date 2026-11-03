@@ -5,7 +5,7 @@ import { useCurrentUserState } from "@/lib/auth/use-current-user"
 import { snapshotFrom } from "@/lib/forge/desk"
 import { deleteCraftGroup, listCraftGroups, loadCraftGroup, saveCraftGroup, type CraftGroupCard } from "@/lib/forge/groups"
 import { getItem } from "@/lib/forge/lookup"
-import { syncCatalogFromGitHub } from "@/lib/forge/remote"
+import { GITHUB_DATA_URL, syncCatalogFromGitHub } from "@/lib/forge/remote"
 import { useForge } from "@/lib/forge/store"
 import { fieldClass } from "./fields"
 import { ItemPicker } from "./Picker"
@@ -161,6 +161,13 @@ export function SaveLab() {
             </button>
           </div>
         ) : null}
+        <p className="mt-4 text-sm text-muted">
+          After you publish, edit the recipe files on{" "}
+          <a className="text-brass underline-offset-2 hover:underline" href={GITHUB_DATA_URL} target="_blank" rel="noreferrer">
+            GitHub
+          </a>
+          . Press update to load the fix. A change to the calculator code still needs a new publish.
+        </p>
         <button
           type="button"
           disabled={recipeBusy}
