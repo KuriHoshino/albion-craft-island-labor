@@ -502,9 +502,13 @@ export function Bench() {
                 />
               )
             })}
-            {line.route === "upgrade" ? (
+            {line.route === "upgrade" && variant.enchant >= 1 ? (
               <p className="text-xs text-muted">
-                .{variant.enchant || 0} only. .1 is runes, .2 is souls, .3 is relics. Capes, helmets, and boots are 96. Body armor and bags are 192. One-hand weapons are 288. Two-hand weapons are 384.
+                .{variant.enchant} includes every stone up to here.
+                {variant.enchant >= 1 ? " Runes for .1." : ""}
+                {variant.enchant >= 2 ? " Souls for .2." : ""}
+                {variant.enchant >= 3 ? " Relics for .3." : ""}
+                {" "}Plus the flat item.
               </p>
             ) : null}
             {journal ? (

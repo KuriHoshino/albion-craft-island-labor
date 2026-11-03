@@ -29,12 +29,31 @@ export function getItem(id: string): CraftItem | undefined {
   return name === item.name ? item : { ...item, name }
 }
 
+function isEnchantStone(id: string) {
+  return id.includes("RUNE") || id.includes("SOUL") || id.includes("RELIC")
+}
+
+/** Upgrade .3 needs the runes, souls, and relics from .1 through .3, plus the flat item. */
 export function variantOf(item: CraftItem, enchant: number, route: Variant["route"]): Variant {
-  return (
+  const found =
     item.variants.find((v) => v.enchant === enchant && v.route === route) ??
     item.variants.find((v) => v.enchant === enchant) ??
     item.variants[0]
-  )
+  if (found.route !== "upgrade" || found.enchant < 1) return found
+  const mats: Variant["mats"] = []
+  const seen = new Set<string>()
+  for (let level = 1; level <= found.enchant; level += 1) {
+    const step = item.variants.find((v) => v.enchant === level && v.route === "upgrade")
+    if (!step) continue
+    for (const mat of step.mats) {
+      const stone = isEnchantStone(mat.id)
+      if (level !== 1 && !stone) continue
+      if (seen.has(mat.id)) continue
+      mats.push(mat)
+      seen.add(mat.id)
+    }
+  }
+  return mats.length ? { ...found, mats } : found
 }
 
 export function enchantsOf(item: CraftItem): number[] {

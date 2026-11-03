@@ -5,10 +5,10 @@
     "tier": 2,
     "category": "offhand",
     "group": "offhand",
-    "station": "Station",
+    "station": "Warrior's Forge",
     "study": true,
     "weight": 0.8,
-    "journal": null,
+    "journal": "WARRIOR",
     "variants": [
       {
         "enchant": 0,
@@ -39,10 +39,10 @@
     "tier": 2,
     "category": "offhand",
     "group": "offhand",
-    "station": "Station",
+    "station": "Mage's Tower",
     "study": true,
     "weight": 0.8,
-    "journal": null,
+    "journal": "MAGE",
     "variants": [
       {
         "enchant": 0,
@@ -73,10 +73,10 @@
     "tier": 3,
     "category": "offhand",
     "group": "offhand",
-    "station": "Station",
+    "station": "Warrior's Forge",
     "study": true,
     "weight": 1.1,
-    "journal": null,
+    "journal": "WARRIOR",
     "variants": [
       {
         "enchant": 0,
@@ -107,10 +107,10 @@
     "tier": 3,
     "category": "offhand",
     "group": "offhand",
-    "station": "Station",
+    "station": "Mage's Tower",
     "study": true,
     "weight": 1.1,
-    "journal": null,
+    "journal": "MAGE",
     "variants": [
       {
         "enchant": 0,
@@ -141,10 +141,10 @@
     "tier": 3,
     "category": "offhand",
     "group": "offhand",
-    "station": "Station",
+    "station": "Hunter's Lodge",
     "study": true,
     "weight": 1.1,
-    "journal": null,
+    "journal": "HUNTER",
     "variants": [
       {
         "enchant": 0,
@@ -175,10 +175,10 @@
     "tier": 4,
     "category": "offhand",
     "group": "offhand",
-    "station": "Station",
+    "station": "Mage's Tower",
     "study": true,
     "weight": 1.7,
-    "journal": null,
+    "journal": "MAGE",
     "variants": [
       {
         "enchant": 0,
@@ -381,10 +381,10 @@
     "tier": 4,
     "category": "offhand",
     "group": "offhand",
-    "station": "Station",
+    "station": "Hunter's Lodge",
     "study": true,
     "weight": 1.7,
-    "journal": null,
+    "journal": "HUNTER",
     "variants": [
       {
         "enchant": 0,
@@ -587,10 +587,10 @@
     "tier": 4,
     "category": "offhand",
     "group": "offhand",
-    "station": "Station",
+    "station": "Mage's Tower",
     "study": true,
     "weight": 1.7,
-    "journal": null,
+    "journal": "MAGE",
     "variants": [
       {
         "enchant": 0,
@@ -793,10 +793,10 @@
     "tier": 4,
     "category": "offhand",
     "group": "offhand",
-    "station": "Station",
+    "station": "Mage's Tower",
     "study": true,
     "weight": 1.7,
-    "journal": null,
+    "journal": "MAGE",
     "variants": [
       {
         "enchant": 0,
@@ -999,10 +999,10 @@
     "tier": 4,
     "category": "offhand",
     "group": "offhand",
-    "station": "Station",
+    "station": "Hunter's Lodge",
     "study": true,
     "weight": 1.7,
-    "journal": null,
+    "journal": "HUNTER",
     "variants": [
       {
         "enchant": 0,
@@ -1205,10 +1205,10 @@
     "tier": 4,
     "category": "offhand",
     "group": "offhand",
-    "station": "Station",
+    "station": "Hunter's Lodge",
     "study": true,
     "weight": 1.7,
-    "journal": null,
+    "journal": "HUNTER",
     "variants": [
       {
         "enchant": 0,
@@ -1411,10 +1411,10 @@
     "tier": 4,
     "category": "offhand",
     "group": "offhand",
-    "station": "Station",
+    "station": "Hunter's Lodge",
     "study": true,
     "weight": 1.7,
-    "journal": null,
+    "journal": "HUNTER",
     "variants": [
       {
         "enchant": 0,
@@ -1617,10 +1617,10 @@
     "tier": 4,
     "category": "offhand",
     "group": "offhand",
-    "station": "Station",
+    "station": "Warrior's Forge",
     "study": true,
     "weight": 1.7,
-    "journal": null,
+    "journal": "WARRIOR",
     "variants": [
       {
         "enchant": 0,
@@ -1798,10 +1798,10 @@
     "tier": 4,
     "category": "offhand",
     "group": "offhand",
-    "station": "Station",
+    "station": "Warrior's Forge",
     "study": true,
     "weight": 1.7,
-    "journal": null,
+    "journal": "WARRIOR",
     "variants": [
       {
         "enchant": 0,
@@ -2004,10 +2004,10 @@
     "tier": 4,
     "category": "offhand",
     "group": "offhand",
-    "station": "Station",
+    "station": "Warrior's Forge",
     "study": true,
     "weight": 1.7,
-    "journal": null,
+    "journal": "WARRIOR",
     "variants": [
       {
         "enchant": 0,
@@ -2210,10 +2210,10 @@
     "tier": 4,
     "category": "offhand",
     "group": "offhand",
-    "station": "Station",
+    "station": "Warrior's Forge",
     "study": true,
     "weight": 1.7,
-    "journal": null,
+    "journal": "WARRIOR",
     "variants": [
       {
         "enchant": 0,
@@ -2416,10 +2416,10 @@
     "tier": 4,
     "category": "offhand",
     "group": "offhand",
-    "station": "Station",
+    "station": "Warrior's Forge",
     "study": true,
     "weight": 1.7,
-    "journal": null,
+    "journal": "WARRIOR",
     "variants": [
       {
         "enchant": 0,
@@ -2622,10 +2622,10 @@
     "tier": 4,
     "category": "offhand",
     "group": "offhand",
-    "station": "Station",
+    "station": "Mage's Tower",
     "study": true,
     "weight": 1.7,
-    "journal": null,
+    "journal": "MAGE",
     "variants": [
       {
         "enchant": 0,
@@ -2828,10 +2828,10 @@
     "tier": 4,
     "category": "offhand",
     "group": "offhand",
-    "station": "Station",
+    "station": "Mage's Tower",
     "study": true,
     "weight": 1.7,
-    "journal": null,
+    "journal": "MAGE",
     "variants": [
       {
         "enchant": 0,
@@ -3034,10 +3034,10 @@
     "tier": 4,
     "category": "offhand",
     "group": "offhand",
-    "station": "Station",
+    "station": "Mage's Tower",
     "study": true,
     "weight": 1.7,
-    "journal": null,
+    "journal": "MAGE",
     "variants": [
       {
         "enchant": 0,
@@ -3215,10 +3215,10 @@
     "tier": 4,
     "category": "offhand",
     "group": "offhand",
-    "station": "Station",
+    "station": "Hunter's Lodge",
     "study": true,
     "weight": 1.7,
-    "journal": null,
+    "journal": "HUNTER",
     "variants": [
       {
         "enchant": 0,
@@ -3396,10 +3396,10 @@
     "tier": 4,
     "category": "offhand",
     "group": "offhand",
-    "station": "Station",
+    "station": "Hunter's Lodge",
     "study": true,
     "weight": 1.7,
-    "journal": null,
+    "journal": "HUNTER",
     "variants": [
       {
         "enchant": 0,
@@ -3602,10 +3602,10 @@
     "tier": 4,
     "category": "offhand",
     "group": "offhand",
-    "station": "Station",
+    "station": "Warrior's Forge",
     "study": true,
     "weight": 1.7,
-    "journal": null,
+    "journal": "WARRIOR",
     "variants": [
       {
         "enchant": 0,
@@ -3808,10 +3808,10 @@
     "tier": 5,
     "category": "offhand",
     "group": "offhand",
-    "station": "Station",
+    "station": "Mage's Tower",
     "study": true,
     "weight": 2.5,
-    "journal": null,
+    "journal": "MAGE",
     "variants": [
       {
         "enchant": 0,
@@ -4014,10 +4014,10 @@
     "tier": 5,
     "category": "offhand",
     "group": "offhand",
-    "station": "Station",
+    "station": "Hunter's Lodge",
     "study": true,
     "weight": 2.5,
-    "journal": null,
+    "journal": "HUNTER",
     "variants": [
       {
         "enchant": 0,
@@ -4220,10 +4220,10 @@
     "tier": 5,
     "category": "offhand",
     "group": "offhand",
-    "station": "Station",
+    "station": "Mage's Tower",
     "study": true,
     "weight": 2.5,
-    "journal": null,
+    "journal": "MAGE",
     "variants": [
       {
         "enchant": 0,
@@ -4426,10 +4426,10 @@
     "tier": 5,
     "category": "offhand",
     "group": "offhand",
-    "station": "Station",
+    "station": "Mage's Tower",
     "study": true,
     "weight": 2.5,
-    "journal": null,
+    "journal": "MAGE",
     "variants": [
       {
         "enchant": 0,
@@ -4632,10 +4632,10 @@
     "tier": 5,
     "category": "offhand",
     "group": "offhand",
-    "station": "Station",
+    "station": "Hunter's Lodge",
     "study": true,
     "weight": 2.5,
-    "journal": null,
+    "journal": "HUNTER",
     "variants": [
       {
         "enchant": 0,
@@ -4838,10 +4838,10 @@
     "tier": 5,
     "category": "offhand",
     "group": "offhand",
-    "station": "Station",
+    "station": "Hunter's Lodge",
     "study": true,
     "weight": 2.5,
-    "journal": null,
+    "journal": "HUNTER",
     "variants": [
       {
         "enchant": 0,
@@ -5044,10 +5044,10 @@
     "tier": 5,
     "category": "offhand",
     "group": "offhand",
-    "station": "Station",
+    "station": "Hunter's Lodge",
     "study": true,
     "weight": 2.5,
-    "journal": null,
+    "journal": "HUNTER",
     "variants": [
       {
         "enchant": 0,
@@ -5250,10 +5250,10 @@
     "tier": 5,
     "category": "offhand",
     "group": "offhand",
-    "station": "Station",
+    "station": "Warrior's Forge",
     "study": true,
     "weight": 2.5,
-    "journal": null,
+    "journal": "WARRIOR",
     "variants": [
       {
         "enchant": 0,
@@ -5431,10 +5431,10 @@
     "tier": 5,
     "category": "offhand",
     "group": "offhand",
-    "station": "Station",
+    "station": "Warrior's Forge",
     "study": true,
     "weight": 2.5,
-    "journal": null,
+    "journal": "WARRIOR",
     "variants": [
       {
         "enchant": 0,
@@ -5637,10 +5637,10 @@
     "tier": 5,
     "category": "offhand",
     "group": "offhand",
-    "station": "Station",
+    "station": "Warrior's Forge",
     "study": true,
     "weight": 2.5,
-    "journal": null,
+    "journal": "WARRIOR",
     "variants": [
       {
         "enchant": 0,
@@ -5843,10 +5843,10 @@
     "tier": 5,
     "category": "offhand",
     "group": "offhand",
-    "station": "Station",
+    "station": "Warrior's Forge",
     "study": true,
     "weight": 2.5,
-    "journal": null,
+    "journal": "WARRIOR",
     "variants": [
       {
         "enchant": 0,
@@ -6049,10 +6049,10 @@
     "tier": 5,
     "category": "offhand",
     "group": "offhand",
-    "station": "Station",
+    "station": "Warrior's Forge",
     "study": true,
     "weight": 2.5,
-    "journal": null,
+    "journal": "WARRIOR",
     "variants": [
       {
         "enchant": 0,
@@ -6255,10 +6255,10 @@
     "tier": 5,
     "category": "offhand",
     "group": "offhand",
-    "station": "Station",
+    "station": "Mage's Tower",
     "study": true,
     "weight": 2.5,
-    "journal": null,
+    "journal": "MAGE",
     "variants": [
       {
         "enchant": 0,
@@ -6461,10 +6461,10 @@
     "tier": 5,
     "category": "offhand",
     "group": "offhand",
-    "station": "Station",
+    "station": "Mage's Tower",
     "study": true,
     "weight": 2.5,
-    "journal": null,
+    "journal": "MAGE",
     "variants": [
       {
         "enchant": 0,
@@ -6667,10 +6667,10 @@
     "tier": 5,
     "category": "offhand",
     "group": "offhand",
-    "station": "Station",
+    "station": "Mage's Tower",
     "study": true,
     "weight": 2.5,
-    "journal": null,
+    "journal": "MAGE",
     "variants": [
       {
         "enchant": 0,
@@ -6848,10 +6848,10 @@
     "tier": 5,
     "category": "offhand",
     "group": "offhand",
-    "station": "Station",
+    "station": "Hunter's Lodge",
     "study": true,
     "weight": 2.5,
-    "journal": null,
+    "journal": "HUNTER",
     "variants": [
       {
         "enchant": 0,
@@ -7029,10 +7029,10 @@
     "tier": 5,
     "category": "offhand",
     "group": "offhand",
-    "station": "Station",
+    "station": "Hunter's Lodge",
     "study": true,
     "weight": 2.5,
-    "journal": null,
+    "journal": "HUNTER",
     "variants": [
       {
         "enchant": 0,
@@ -7235,10 +7235,10 @@
     "tier": 5,
     "category": "offhand",
     "group": "offhand",
-    "station": "Station",
+    "station": "Warrior's Forge",
     "study": true,
     "weight": 2.5,
-    "journal": null,
+    "journal": "WARRIOR",
     "variants": [
       {
         "enchant": 0,
@@ -7441,10 +7441,10 @@
     "tier": 6,
     "category": "offhand",
     "group": "offhand",
-    "station": "Station",
+    "station": "Mage's Tower",
     "study": true,
     "weight": 3.8,
-    "journal": null,
+    "journal": "MAGE",
     "variants": [
       {
         "enchant": 0,
@@ -7647,10 +7647,10 @@
     "tier": 6,
     "category": "offhand",
     "group": "offhand",
-    "station": "Station",
+    "station": "Hunter's Lodge",
     "study": true,
     "weight": 3.8,
-    "journal": null,
+    "journal": "HUNTER",
     "variants": [
       {
         "enchant": 0,
@@ -7853,10 +7853,10 @@
     "tier": 6,
     "category": "offhand",
     "group": "offhand",
-    "station": "Station",
+    "station": "Mage's Tower",
     "study": true,
     "weight": 3.8,
-    "journal": null,
+    "journal": "MAGE",
     "variants": [
       {
         "enchant": 0,
@@ -8059,10 +8059,10 @@
     "tier": 6,
     "category": "offhand",
     "group": "offhand",
-    "station": "Station",
+    "station": "Mage's Tower",
     "study": true,
     "weight": 3.8,
-    "journal": null,
+    "journal": "MAGE",
     "variants": [
       {
         "enchant": 0,
@@ -8265,10 +8265,10 @@
     "tier": 6,
     "category": "offhand",
     "group": "offhand",
-    "station": "Station",
+    "station": "Hunter's Lodge",
     "study": true,
     "weight": 3.8,
-    "journal": null,
+    "journal": "HUNTER",
     "variants": [
       {
         "enchant": 0,
@@ -8471,10 +8471,10 @@
     "tier": 6,
     "category": "offhand",
     "group": "offhand",
-    "station": "Station",
+    "station": "Hunter's Lodge",
     "study": true,
     "weight": 3.8,
-    "journal": null,
+    "journal": "HUNTER",
     "variants": [
       {
         "enchant": 0,
@@ -8677,10 +8677,10 @@
     "tier": 6,
     "category": "offhand",
     "group": "offhand",
-    "station": "Station",
+    "station": "Hunter's Lodge",
     "study": true,
     "weight": 3.8,
-    "journal": null,
+    "journal": "HUNTER",
     "variants": [
       {
         "enchant": 0,
@@ -8883,10 +8883,10 @@
     "tier": 6,
     "category": "offhand",
     "group": "offhand",
-    "station": "Station",
+    "station": "Warrior's Forge",
     "study": true,
     "weight": 3.8,
-    "journal": null,
+    "journal": "WARRIOR",
     "variants": [
       {
         "enchant": 0,
@@ -9064,10 +9064,10 @@
     "tier": 6,
     "category": "offhand",
     "group": "offhand",
-    "station": "Station",
+    "station": "Warrior's Forge",
     "study": true,
     "weight": 3.8,
-    "journal": null,
+    "journal": "WARRIOR",
     "variants": [
       {
         "enchant": 0,
@@ -9270,10 +9270,10 @@
     "tier": 6,
     "category": "offhand",
     "group": "offhand",
-    "station": "Station",
+    "station": "Warrior's Forge",
     "study": true,
     "weight": 3.8,
-    "journal": null,
+    "journal": "WARRIOR",
     "variants": [
       {
         "enchant": 0,
@@ -9476,10 +9476,10 @@
     "tier": 6,
     "category": "offhand",
     "group": "offhand",
-    "station": "Station",
+    "station": "Warrior's Forge",
     "study": true,
     "weight": 3.8,
-    "journal": null,
+    "journal": "WARRIOR",
     "variants": [
       {
         "enchant": 0,
@@ -9682,10 +9682,10 @@
     "tier": 6,
     "category": "offhand",
     "group": "offhand",
-    "station": "Station",
+    "station": "Warrior's Forge",
     "study": true,
     "weight": 3.8,
-    "journal": null,
+    "journal": "WARRIOR",
     "variants": [
       {
         "enchant": 0,
@@ -9888,10 +9888,10 @@
     "tier": 6,
     "category": "offhand",
     "group": "offhand",
-    "station": "Station",
+    "station": "Mage's Tower",
     "study": true,
     "weight": 3.8,
-    "journal": null,
+    "journal": "MAGE",
     "variants": [
       {
         "enchant": 0,
@@ -10094,10 +10094,10 @@
     "tier": 6,
     "category": "offhand",
     "group": "offhand",
-    "station": "Station",
+    "station": "Mage's Tower",
     "study": true,
     "weight": 3.8,
-    "journal": null,
+    "journal": "MAGE",
     "variants": [
       {
         "enchant": 0,
@@ -10300,10 +10300,10 @@
     "tier": 6,
     "category": "offhand",
     "group": "offhand",
-    "station": "Station",
+    "station": "Mage's Tower",
     "study": true,
     "weight": 3.8,
-    "journal": null,
+    "journal": "MAGE",
     "variants": [
       {
         "enchant": 0,
@@ -10481,10 +10481,10 @@
     "tier": 6,
     "category": "offhand",
     "group": "offhand",
-    "station": "Station",
+    "station": "Hunter's Lodge",
     "study": true,
     "weight": 3.8,
-    "journal": null,
+    "journal": "HUNTER",
     "variants": [
       {
         "enchant": 0,
@@ -10662,10 +10662,10 @@
     "tier": 6,
     "category": "offhand",
     "group": "offhand",
-    "station": "Station",
+    "station": "Hunter's Lodge",
     "study": true,
     "weight": 3.8,
-    "journal": null,
+    "journal": "HUNTER",
     "variants": [
       {
         "enchant": 0,
@@ -10868,10 +10868,10 @@
     "tier": 6,
     "category": "offhand",
     "group": "offhand",
-    "station": "Station",
+    "station": "Warrior's Forge",
     "study": true,
     "weight": 3.8,
-    "journal": null,
+    "journal": "WARRIOR",
     "variants": [
       {
         "enchant": 0,
@@ -11074,10 +11074,10 @@
     "tier": 7,
     "category": "offhand",
     "group": "offhand",
-    "station": "Station",
+    "station": "Mage's Tower",
     "study": true,
     "weight": 5.7,
-    "journal": null,
+    "journal": "MAGE",
     "variants": [
       {
         "enchant": 0,
@@ -11280,10 +11280,10 @@
     "tier": 7,
     "category": "offhand",
     "group": "offhand",
-    "station": "Station",
+    "station": "Hunter's Lodge",
     "study": true,
     "weight": 5.7,
-    "journal": null,
+    "journal": "HUNTER",
     "variants": [
       {
         "enchant": 0,
@@ -11486,10 +11486,10 @@
     "tier": 7,
     "category": "offhand",
     "group": "offhand",
-    "station": "Station",
+    "station": "Mage's Tower",
     "study": true,
     "weight": 5.7,
-    "journal": null,
+    "journal": "MAGE",
     "variants": [
       {
         "enchant": 0,
@@ -11692,10 +11692,10 @@
     "tier": 7,
     "category": "offhand",
     "group": "offhand",
-    "station": "Station",
+    "station": "Mage's Tower",
     "study": true,
     "weight": 5.7,
-    "journal": null,
+    "journal": "MAGE",
     "variants": [
       {
         "enchant": 0,
@@ -11898,10 +11898,10 @@
     "tier": 7,
     "category": "offhand",
     "group": "offhand",
-    "station": "Station",
+    "station": "Hunter's Lodge",
     "study": true,
     "weight": 5.7,
-    "journal": null,
+    "journal": "HUNTER",
     "variants": [
       {
         "enchant": 0,
@@ -12104,10 +12104,10 @@
     "tier": 7,
     "category": "offhand",
     "group": "offhand",
-    "station": "Station",
+    "station": "Hunter's Lodge",
     "study": true,
     "weight": 5.7,
-    "journal": null,
+    "journal": "HUNTER",
     "variants": [
       {
         "enchant": 0,
@@ -12310,10 +12310,10 @@
     "tier": 7,
     "category": "offhand",
     "group": "offhand",
-    "station": "Station",
+    "station": "Hunter's Lodge",
     "study": true,
     "weight": 5.7,
-    "journal": null,
+    "journal": "HUNTER",
     "variants": [
       {
         "enchant": 0,
@@ -12516,10 +12516,10 @@
     "tier": 7,
     "category": "offhand",
     "group": "offhand",
-    "station": "Station",
+    "station": "Warrior's Forge",
     "study": true,
     "weight": 5.7,
-    "journal": null,
+    "journal": "WARRIOR",
     "variants": [
       {
         "enchant": 0,
@@ -12697,10 +12697,10 @@
     "tier": 7,
     "category": "offhand",
     "group": "offhand",
-    "station": "Station",
+    "station": "Warrior's Forge",
     "study": true,
     "weight": 5.7,
-    "journal": null,
+    "journal": "WARRIOR",
     "variants": [
       {
         "enchant": 0,
@@ -12903,10 +12903,10 @@
     "tier": 7,
     "category": "offhand",
     "group": "offhand",
-    "station": "Station",
+    "station": "Warrior's Forge",
     "study": true,
     "weight": 5.7,
-    "journal": null,
+    "journal": "WARRIOR",
     "variants": [
       {
         "enchant": 0,
@@ -13109,10 +13109,10 @@
     "tier": 7,
     "category": "offhand",
     "group": "offhand",
-    "station": "Station",
+    "station": "Warrior's Forge",
     "study": true,
     "weight": 5.7,
-    "journal": null,
+    "journal": "WARRIOR",
     "variants": [
       {
         "enchant": 0,
@@ -13315,10 +13315,10 @@
     "tier": 7,
     "category": "offhand",
     "group": "offhand",
-    "station": "Station",
+    "station": "Warrior's Forge",
     "study": true,
     "weight": 5.7,
-    "journal": null,
+    "journal": "WARRIOR",
     "variants": [
       {
         "enchant": 0,
@@ -13521,10 +13521,10 @@
     "tier": 7,
     "category": "offhand",
     "group": "offhand",
-    "station": "Station",
+    "station": "Mage's Tower",
     "study": true,
     "weight": 5.7,
-    "journal": null,
+    "journal": "MAGE",
     "variants": [
       {
         "enchant": 0,
@@ -13727,10 +13727,10 @@
     "tier": 7,
     "category": "offhand",
     "group": "offhand",
-    "station": "Station",
+    "station": "Mage's Tower",
     "study": true,
     "weight": 5.7,
-    "journal": null,
+    "journal": "MAGE",
     "variants": [
       {
         "enchant": 0,
@@ -13933,10 +13933,10 @@
     "tier": 7,
     "category": "offhand",
     "group": "offhand",
-    "station": "Station",
+    "station": "Mage's Tower",
     "study": true,
     "weight": 5.7,
-    "journal": null,
+    "journal": "MAGE",
     "variants": [
       {
         "enchant": 0,
@@ -14114,10 +14114,10 @@
     "tier": 7,
     "category": "offhand",
     "group": "offhand",
-    "station": "Station",
+    "station": "Hunter's Lodge",
     "study": true,
     "weight": 5.7,
-    "journal": null,
+    "journal": "HUNTER",
     "variants": [
       {
         "enchant": 0,
@@ -14295,10 +14295,10 @@
     "tier": 7,
     "category": "offhand",
     "group": "offhand",
-    "station": "Station",
+    "station": "Hunter's Lodge",
     "study": true,
     "weight": 5.7,
-    "journal": null,
+    "journal": "HUNTER",
     "variants": [
       {
         "enchant": 0,
@@ -14501,10 +14501,10 @@
     "tier": 7,
     "category": "offhand",
     "group": "offhand",
-    "station": "Station",
+    "station": "Warrior's Forge",
     "study": true,
     "weight": 5.7,
-    "journal": null,
+    "journal": "WARRIOR",
     "variants": [
       {
         "enchant": 0,
@@ -14707,10 +14707,10 @@
     "tier": 8,
     "category": "offhand",
     "group": "offhand",
-    "station": "Station",
+    "station": "Mage's Tower",
     "study": true,
     "weight": 8.5,
-    "journal": null,
+    "journal": "MAGE",
     "variants": [
       {
         "enchant": 0,
@@ -14913,10 +14913,10 @@
     "tier": 8,
     "category": "offhand",
     "group": "offhand",
-    "station": "Station",
+    "station": "Hunter's Lodge",
     "study": true,
     "weight": 8.5,
-    "journal": null,
+    "journal": "HUNTER",
     "variants": [
       {
         "enchant": 0,
@@ -15119,10 +15119,10 @@
     "tier": 8,
     "category": "offhand",
     "group": "offhand",
-    "station": "Station",
+    "station": "Mage's Tower",
     "study": true,
     "weight": 8.5,
-    "journal": null,
+    "journal": "MAGE",
     "variants": [
       {
         "enchant": 0,
@@ -15325,10 +15325,10 @@
     "tier": 8,
     "category": "offhand",
     "group": "offhand",
-    "station": "Station",
+    "station": "Mage's Tower",
     "study": true,
     "weight": 8.5,
-    "journal": null,
+    "journal": "MAGE",
     "variants": [
       {
         "enchant": 0,
@@ -15531,10 +15531,10 @@
     "tier": 8,
     "category": "offhand",
     "group": "offhand",
-    "station": "Station",
+    "station": "Hunter's Lodge",
     "study": true,
     "weight": 8.5,
-    "journal": null,
+    "journal": "HUNTER",
     "variants": [
       {
         "enchant": 0,
@@ -15737,10 +15737,10 @@
     "tier": 8,
     "category": "offhand",
     "group": "offhand",
-    "station": "Station",
+    "station": "Hunter's Lodge",
     "study": true,
     "weight": 8.5,
-    "journal": null,
+    "journal": "HUNTER",
     "variants": [
       {
         "enchant": 0,
@@ -15943,10 +15943,10 @@
     "tier": 8,
     "category": "offhand",
     "group": "offhand",
-    "station": "Station",
+    "station": "Hunter's Lodge",
     "study": true,
     "weight": 8.5,
-    "journal": null,
+    "journal": "HUNTER",
     "variants": [
       {
         "enchant": 0,
@@ -16149,10 +16149,10 @@
     "tier": 8,
     "category": "offhand",
     "group": "offhand",
-    "station": "Station",
+    "station": "Warrior's Forge",
     "study": true,
     "weight": 8.5,
-    "journal": null,
+    "journal": "WARRIOR",
     "variants": [
       {
         "enchant": 0,
@@ -16330,10 +16330,10 @@
     "tier": 8,
     "category": "offhand",
     "group": "offhand",
-    "station": "Station",
+    "station": "Warrior's Forge",
     "study": true,
     "weight": 8.5,
-    "journal": null,
+    "journal": "WARRIOR",
     "variants": [
       {
         "enchant": 0,
@@ -16536,10 +16536,10 @@
     "tier": 8,
     "category": "offhand",
     "group": "offhand",
-    "station": "Station",
+    "station": "Warrior's Forge",
     "study": true,
     "weight": 8.5,
-    "journal": null,
+    "journal": "WARRIOR",
     "variants": [
       {
         "enchant": 0,
@@ -16742,10 +16742,10 @@
     "tier": 8,
     "category": "offhand",
     "group": "offhand",
-    "station": "Station",
+    "station": "Warrior's Forge",
     "study": true,
     "weight": 8.5,
-    "journal": null,
+    "journal": "WARRIOR",
     "variants": [
       {
         "enchant": 0,
@@ -16948,10 +16948,10 @@
     "tier": 8,
     "category": "offhand",
     "group": "offhand",
-    "station": "Station",
+    "station": "Warrior's Forge",
     "study": true,
     "weight": 8.5,
-    "journal": null,
+    "journal": "WARRIOR",
     "variants": [
       {
         "enchant": 0,
@@ -17154,10 +17154,10 @@
     "tier": 8,
     "category": "offhand",
     "group": "offhand",
-    "station": "Station",
+    "station": "Mage's Tower",
     "study": true,
     "weight": 8.5,
-    "journal": null,
+    "journal": "MAGE",
     "variants": [
       {
         "enchant": 0,
@@ -17360,10 +17360,10 @@
     "tier": 8,
     "category": "offhand",
     "group": "offhand",
-    "station": "Station",
+    "station": "Mage's Tower",
     "study": true,
     "weight": 8.5,
-    "journal": null,
+    "journal": "MAGE",
     "variants": [
       {
         "enchant": 0,
@@ -17566,10 +17566,10 @@
     "tier": 8,
     "category": "offhand",
     "group": "offhand",
-    "station": "Station",
+    "station": "Mage's Tower",
     "study": true,
     "weight": 8.5,
-    "journal": null,
+    "journal": "MAGE",
     "variants": [
       {
         "enchant": 0,
@@ -17747,10 +17747,10 @@
     "tier": 8,
     "category": "offhand",
     "group": "offhand",
-    "station": "Station",
+    "station": "Hunter's Lodge",
     "study": true,
     "weight": 8.5,
-    "journal": null,
+    "journal": "HUNTER",
     "variants": [
       {
         "enchant": 0,
@@ -17928,10 +17928,10 @@
     "tier": 8,
     "category": "offhand",
     "group": "offhand",
-    "station": "Station",
+    "station": "Hunter's Lodge",
     "study": true,
     "weight": 8.5,
-    "journal": null,
+    "journal": "HUNTER",
     "variants": [
       {
         "enchant": 0,
@@ -18134,10 +18134,10 @@
     "tier": 8,
     "category": "offhand",
     "group": "offhand",
-    "station": "Station",
+    "station": "Warrior's Forge",
     "study": true,
     "weight": 8.5,
-    "journal": null,
+    "journal": "WARRIOR",
     "variants": [
       {
         "enchant": 0,
