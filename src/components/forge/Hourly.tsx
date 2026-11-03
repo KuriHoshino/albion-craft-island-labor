@@ -161,9 +161,9 @@ function CityGrid({
       buyAge: priceAge(quote?.buyDate),
     }
   })
-  const lowest = rows.reduce<number | null>((best, row) => {
-    if (row.price == null) return best
-    if (best == null || row.price < best) return row.price
+  const lowestSell = rows.reduce<number | null>((best, row) => {
+    if (row.sell == null) return best
+    if (best == null || row.sell < best) return row.sell
     return best
   }, null)
   return (
@@ -172,25 +172,25 @@ function CityGrid({
         const last = lastByCity.get(row.city)
         const sold = soldInDay(series.find((entry) => entry.city === row.city)?.points ?? [])
         const using = usedCity === row.city
-        const cheap = row.price != null && row.price === lowest
+        const cheapSell = row.sell != null && row.sell === lowestSell
         return (
           <li key={row.city} className="flex items-start gap-2 rounded-lg border border-line px-2 py-1.5 text-xs">
             <button
               type="button"
               onClick={() => onUse(row.city, row.price)}
-              aria-label={`Buy in ${row.city}`}
+              aria-label={cheapSell ? `Lowest sell price is ${row.city}` : `Use ${row.city}`}
               className={
                 "mt-0.5 grid size-8 shrink-0 place-items-center rounded-md border " +
-                (using ? "border-brass text-brass" : "border-line text-muted")
+                (cheapSell ? "border-ember text-ember " : using ? "border-brass text-brass " : "border-line text-muted ")
               }
             >
-              <Check className={"size-4" + (cheap ? " text-sage" : "")} />
+              <Check className="size-4" />
             </button>
             <div className="min-w-0 flex-1">
               <p className="inline-flex items-center gap-1.5 text-parchment">
                 <span className="inline-block size-2 shrink-0 rounded-full" style={{ background: STROKE[row.city] }} />
                 <span className="truncate">{row.city}</span>
-                {cheap ? <span className="text-sage">lowest</span> : null}
+                {cheapSell ? <span className="text-ember">lowest sell</span> : null}
               </p>
               <p className="tabular-nums text-muted">
                 {row.sell != null ? `sell ${silver(row.sell)}${row.sellAge ? ` · ${row.sellAge}` : ""}` : "sell —"}
