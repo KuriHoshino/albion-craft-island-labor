@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useRef, useState } from "react"
 import { CartesianGrid, Line, LineChart, ResponsiveContainer, Tooltip, XAxis, YAxis } from "recharts"
-import { fetchHourlyPrices, type HourSeries } from "@/lib/forge/prices"
+import { fetchHourlyPrices, loadHourlyPrices, type HourSeries } from "@/lib/forge/prices"
 import { MARKETS, type ServerId } from "@/lib/forge/rules"
 import { useForge } from "@/lib/forge/store"
 import { silver } from "./fields"
@@ -46,9 +46,10 @@ export function HourlyChart({
     let cancel = false
     const load = () => {
       setLoading(true)
-      void fetchHourlyPrices({
-        data: { server, itemId, locations: [...MARKETS], quality },
-      })
+      const request = { server, itemId, locations: [...MARKETS], quality }
+      const pending =
+        import.meta.env.VITE_PAGES === "1" ? loadHourlyPrices(request) : fetchHourlyPrices({ data: request })
+      void pending
         .then((result) => {
           if (cancel) return
           filled.current = result.series.length > 0

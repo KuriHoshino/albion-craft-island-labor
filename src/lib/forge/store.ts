@@ -1,7 +1,7 @@
 import { create } from "zustand"
 import { createJSONStorage, persist } from "zustand/middleware"
 import type { PriceQuote } from "./prices"
-import { fetchMarketPrices } from "./prices"
+import { fetchMarketPrices, loadMarketPrices } from "./prices"
 import type { BuyMode, Place, SellMode } from "./formulas"
 import type { ServerId, HoBiome, HoRegion } from "./rules"
 import { MARKETS } from "./rules"
@@ -295,14 +295,16 @@ export const useForge = create<ForgeState>()(
             set({ loading: false })
             return
           }
-          const result = await fetchMarketPrices({
-            data: {
-              server,
-              itemIds,
-              locations: [...MARKETS],
-              qualities: [1, 2, 3, 4, 5],
-            },
-          })
+          const request = {
+            server,
+            itemIds,
+            locations: [...MARKETS],
+            qualities: [1, 2, 3, 4, 5],
+          }
+          const result =
+            import.meta.env.VITE_PAGES === "1"
+              ? await loadMarketPrices(request)
+              : await fetchMarketPrices({ data: request })
           if (get().server !== server) {
             loadAgain = true
             return

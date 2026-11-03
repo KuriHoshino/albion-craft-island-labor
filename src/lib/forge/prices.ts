@@ -43,7 +43,7 @@ function bestLevel(levels: BookLevel[] | undefined) {
 
 async function pullJson(url: string): Promise<unknown> {
   const res = await fetch(url, {
-    headers: { Accept: "application/json", "Accept-Encoding": "gzip, deflate" },
+    headers: { Accept: "application/json" },
     signal: AbortSignal.timeout(20000),
   })
   if (res.status === 429) throw new Error("The data project is busy. Prices retry in a minute.")
@@ -66,46 +66,48 @@ async function pullBook(host: string, ids: string[], locations: string[], qualit
   return (await pullJson(url)) as BookRow[]
 }
 
+export async function loadMarketPrices(data: z.infer<typeof Input>) {
+  const ids = [...new Set(data.itemIds)]
+  const host = HOST[data.server]
+  const quotes: Record<string, Record<string, Record<string, PriceQuote>>> = {}
+  for (let i = 0; i < ids.length; i += 40) {
+    const chunk = ids.slice(i, i + 40)
+    const locations = [...data.locations]
+    const qualities = data.qualities
+    const book = await pullBook(host, chunk, locations, qualities)
+    const listed = book.length ? [] : await pullPrices(host, chunk, locations, qualities)
+    for (const row of listed) {
+      const item = (quotes[row.item_id] ??= {})
+      const city = (item[row.city] ??= {})
+      city[String(row.quality)] = {
+        sell: row.sell_price_min || 0,
+        buy: row.buy_price_max || 0,
+        sellDate: row.sell_price_min_date || "",
+        buyDate: row.buy_price_max_date || "",
+      }
+    }
+    for (const row of book) {
+      const ask = bestLevel(row.sell)
+      const bid = bestLevel(row.buy)
+      if (!ask.price && !bid.price) continue
+      const item = (quotes[row.item_id] ??= {})
+      const city = (item[row.city] ??= {})
+      const prev = city[String(row.quality)] ?? { sell: 0, buy: 0, sellDate: "", buyDate: "" }
+      city[String(row.quality)] = {
+        sell: ask.price || prev.sell,
+        buy: bid.price || prev.buy,
+        sellDate: ask.price ? ask.at : prev.sellDate,
+        buyDate: bid.price ? bid.at : prev.buyDate,
+      }
+    }
+    if (i + 40 < ids.length) await new Promise((r) => setTimeout(r, 250))
+  }
+  return { quotes, fetchedAt: Date.now() }
+}
+
 export const fetchMarketPrices = createServerFn({ method: "POST" })
   .validator((input: unknown) => Input.parse(input))
-  .handler(async ({ data }) => {
-    const ids = [...new Set(data.itemIds)]
-    const host = HOST[data.server]
-    const quotes: Record<string, Record<string, Record<string, PriceQuote>>> = {}
-    for (let i = 0; i < ids.length; i += 40) {
-      const chunk = ids.slice(i, i + 40)
-      const locations = [...data.locations]
-      const qualities = data.qualities
-      const book = await pullBook(host, chunk, locations, qualities)
-      const listed = book.length ? [] : await pullPrices(host, chunk, locations, qualities)
-      for (const row of listed) {
-        const item = (quotes[row.item_id] ??= {})
-        const city = (item[row.city] ??= {})
-        city[String(row.quality)] = {
-          sell: row.sell_price_min || 0,
-          buy: row.buy_price_max || 0,
-          sellDate: row.sell_price_min_date || "",
-          buyDate: row.buy_price_max_date || "",
-        }
-      }
-      for (const row of book) {
-        const ask = bestLevel(row.sell)
-        const bid = bestLevel(row.buy)
-        if (!ask.price && !bid.price) continue
-        const item = (quotes[row.item_id] ??= {})
-        const city = (item[row.city] ??= {})
-        const prev = city[String(row.quality)] ?? { sell: 0, buy: 0, sellDate: "", buyDate: "" }
-        city[String(row.quality)] = {
-          sell: ask.price || prev.sell,
-          buy: bid.price || prev.buy,
-          sellDate: ask.price ? ask.at : prev.sellDate,
-          buyDate: bid.price ? bid.at : prev.buyDate,
-        }
-      }
-      if (i + 40 < ids.length) await new Promise((r) => setTimeout(r, 250))
-    }
-    return { quotes, fetchedAt: Date.now() }
-  })
+  .handler(async ({ data }) => loadMarketPrices(data))
 
 export type HourPoint = { time: string; price: number; count: number }
 export type HourSeries = { city: string; points: HourPoint[] }
@@ -179,20 +181,22 @@ async function readJson(url: string): Promise<{ status: number; body: unknown }>
   return { status: res.status, body: await res.json() }
 }
 
+export async function loadHourlyPrices(data: z.infer<typeof HourInput>) {
+  const loc = [...new Set(data.locations)].map((name) => encodeURIComponent(name)).join(",")
+  const host = HOST[data.server]
+  const historyUrl = `${host}/api/v2/stats/history/${data.itemId}.json?locations=${loc}&qualities=${data.quality}&time-scale=1`
+  const historyRes = await readJson(historyUrl).catch(() => ({ status: 0, body: null }))
+  if (historyRes.status === 429) throw new Error("The data project is busy. The chart retries in a minute.")
+  const bucket = new Map<string, HourPoint[]>()
+  if (historyRes.status === 200 && Array.isArray(historyRes.body)) readHistory(historyRes.body as HistRow[], bucket)
+  const series: HourSeries[] = []
+  for (const [city, points] of bucket) {
+    points.sort((a, b) => a.time.localeCompare(b.time))
+    if (points.length) series.push({ city, points })
+  }
+  return { series, fetchedAt: Date.now() }
+}
+
 export const fetchHourlyPrices = createServerFn({ method: "POST" })
   .validator((input: unknown) => HourInput.parse(input))
-  .handler(async ({ data }) => {
-    const loc = [...new Set(data.locations)].map((name) => encodeURIComponent(name)).join(",")
-    const host = HOST[data.server]
-    const historyUrl = `${host}/api/v2/stats/history/${data.itemId}.json?locations=${loc}&qualities=${data.quality}&time-scale=1`
-    const historyRes = await readJson(historyUrl).catch(() => ({ status: 0, body: null }))
-    if (historyRes.status === 429) throw new Error("The data project is busy. The chart retries in a minute.")
-    const bucket = new Map<string, HourPoint[]>()
-    if (historyRes.status === 200 && Array.isArray(historyRes.body)) readHistory(historyRes.body as HistRow[], bucket)
-    const series: HourSeries[] = []
-    for (const [city, points] of bucket) {
-      points.sort((a, b) => a.time.localeCompare(b.time))
-      if (points.length) series.push({ city, points })
-    }
-    return { series, fetchedAt: Date.now() }
-  })
+  .handler(async ({ data }) => loadHourlyPrices(data))
