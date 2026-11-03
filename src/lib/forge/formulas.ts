@@ -11,7 +11,6 @@ import {
   REPAIR_SILVER,
   SETUP_FEE,
   STUDY_FACTOR,
-  STUDY_FOCUS,
   TAX_PREMIUM,
   TAX_STANDARD,
   biomeById,
@@ -267,7 +266,7 @@ export function craftMath(opts: {
   const focusEach = opts.focus ? spec.cost : 0
   const dailyMult = opts.daily === 20 ? 1.2 : opts.daily === 10 ? 1.1 : 1
   const studyEach =
-    opts.variant.fame * STUDY_FACTOR * dailyMult * (opts.focus ? STUDY_FOCUS : 1) * (opts.premium ? PREMIUM_FAME : 1)
+    opts.variant.fame * STUDY_FACTOR * dailyMult * (opts.premium ? PREMIUM_FAME : 1)
   const missing: string[] = []
   let materialCost = 0
   let materialKnown = true
