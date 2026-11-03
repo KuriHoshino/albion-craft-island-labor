@@ -35,7 +35,7 @@ export type Line = {
   focusOverride: number | null
 }
 
-export type View = "bench" | "returns" | "study" | "reroll" | "cities" | "codex" | "save"
+export type View = "bench" | "returns" | "study" | "reroll" | "codex" | "farm" | "labor" | "save"
 
 type ForgeState = {
   view: View

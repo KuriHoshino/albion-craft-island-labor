@@ -137,6 +137,14 @@ export function Bench() {
 
   const productId = marketId(item.id, variant.enchant)
   const profitClass = math.profit == null ? "text-parchment" : math.profit >= 0 ? "text-sage" : "text-ember"
+  const focused = evaluateLine({ ...line, focus: true }, state)
+  const plain = evaluateLine({ ...line, focus: false }, state)
+  const focusEach = focused?.math.focusEach ?? 0
+  const focusBatch = focusEach * line.runs
+  const focusGain =
+    focused?.math.profit != null && plain?.math.profit != null ? focused.math.profit - plain.math.profit : null
+  const perFocus = focusGain != null && focusBatch > 0 ? focusGain / focusBatch : null
+  const fromPool = perFocus == null ? null : perFocus * 10000
 
   async function copyList() {
     const text = shop.rows
@@ -177,7 +185,7 @@ export function Bench() {
             onClick={() => setPicking((open) => !open)}
             className="h-11 shrink-0 rounded-full border border-line px-3 text-sm text-parchment"
           >
-            Add craft
+            Add Craft
           </button>
         </div>
 
@@ -537,9 +545,22 @@ export function Bench() {
             <Stat label="Item value" value={exact(variant.value)} />
             <Stat label="Nutrition" value={exact(math.nutrition)} />
             <Stat label="Fame" value={exact(math.fameTotal)} />
+            <Stat label="Focus each" value={focusEach > 0 ? exact(focusEach) : "—"} />
+            <Stat label="Focus for batch" value={focusBatch > 0 ? exact(focusBatch) : "—"} />
+            <Stat label="Silver / focus" value={silver(perFocus)} />
             <Stat label="Study fame / item" value={item.study ? exact(math.studyEach) : "—"} />
             <Stat label="Journals" value={line.journal && item.journal ? exact(math.journals) : "Off"} />
           </dl>
+          <p className="mt-3 text-xs text-muted">
+            {focusEach <= 0
+              ? "This craft has no focus cost."
+              : line.focus
+                ? "This profit includes the focus return bonus."
+                : "This profit does not spend focus."}{" "}
+            {focusGain == null
+              ? "Need prices to value the focus."
+              : `Using focus ${focusGain >= 0 ? "adds" : "loses"} ${silver(Math.abs(focusGain))} on this batch, ${silver(perFocus)} per focus. 10,000 focus is about ${silver(fromPool)}.`}
+          </p>
           <ul className="mt-3 text-xs text-muted">
             {math.parts.map((part) => (
               <li key={part.label}>

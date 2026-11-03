@@ -92,11 +92,29 @@ export function returnRate(bonus: number): number {
   return bonus / (100 + bonus)
 }
 
-/** Focus cost = base × 0.5 ^ (efficiency / 10000). */
+/** Focus cost = base × 0.5 ^ (efficiency / 10000). The station shows the nearest whole point. */
 export function focusFromSpecs(base: number, mastery: number, specialist: number, siblings: number) {
   const efficiency = Math.max(0, mastery) * 30 + Math.max(0, specialist) * 280 + Math.max(0, siblings) * 30
-  const cost = base * Math.pow(0.5, efficiency / 10000)
-  return { efficiency, cost }
+  const raw = base * Math.pow(0.5, efficiency / 10000)
+  return { efficiency, cost: Math.round(raw) }
+}
+
+/**
+ * Refining has no mastery node. Every T4–T8 spec adds 30, and the tier you refine adds another 250.
+ * T2 and T3 have no specialization, so they stay at the base cost.
+ */
+export function focusFromRefine(base: number, specs: Record<number, number>, tier: number) {
+  const nodes = [4, 5, 6, 7, 8]
+  let efficiency = 0
+  if (nodes.includes(tier)) {
+    for (const level of nodes) {
+      const spec = Math.min(100, Math.max(0, specs[level] ?? 0))
+      efficiency += spec * 30
+      if (level === tier) efficiency += spec * 250
+    }
+  }
+  const raw = base * Math.pow(0.5, efficiency / 10000)
+  return { efficiency, cost: Math.round(raw) }
 }
 
 export function nutrition(itemValue: number, itemsCrafted: number, tier: number): number {

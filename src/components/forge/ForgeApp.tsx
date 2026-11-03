@@ -5,28 +5,33 @@ import {
   Dices,
   GraduationCap,
   Hammer,
-  Map,
   Percent,
+  Sprout,
+  Users,
 } from "lucide-react"
 import { SERVERS } from "@/lib/forge/rules"
 import { priceWatchKey, useForge, type View } from "@/lib/forge/store"
 import { syncCatalogFromGitHub } from "@/lib/forge/remote"
 import { Bench } from "./Bench"
+import { FarmLab } from "./Farm"
+import { LaborLab } from "./Labor"
 import { SaveLab } from "./Save"
-import { CitiesLab, Codex, RerollLab, ReturnFocusLab, StudyLab } from "./Labs"
+import { Codex, RerollLab, ReturnFocusLab, StudyLab } from "./Labs"
 
 const NAV: { id: View; label: string; icon: typeof Hammer }[] = [
-  { id: "bench", label: "Craft", icon: Hammer },
+  { id: "codex", label: "Codex", icon: BookOpen },
+  { id: "bench", label: "Add Craft", icon: Hammer },
+  { id: "farm", label: "Farming and Breeding", icon: Sprout },
+  { id: "labor", label: "Laborers", icon: Users },
   { id: "returns", label: "Return & focus", icon: Percent },
   { id: "study", label: "Study & repair", icon: GraduationCap },
   { id: "reroll", label: "Reroll", icon: Dices },
-  { id: "cities", label: "Cities", icon: Map },
-  { id: "codex", label: "Codex", icon: BookOpen },
   { id: "save", label: "Save", icon: Bookmark },
 ]
 
 export function ForgeApp() {
-  const view = useForge((s) => s.view)
+  const storedView = useForge((s) => s.view)
+  const view = NAV.some((entry) => entry.id === storedView) ? storedView : "bench"
   const setView = useForge((s) => s.setView)
   const server = useForge((s) => s.server)
   const patch = useForge((s) => s.patch)
@@ -34,6 +39,10 @@ export function ForgeApp() {
   useEffect(() => {
     void syncCatalogFromGitHub().catch(() => undefined)
   }, [])
+
+  useEffect(() => {
+    if (!NAV.some((entry) => entry.id === storedView)) setView("bench")
+  }, [storedView, setView])
 
   useEffect(() => {
     let timer = 0
@@ -113,10 +122,11 @@ export function ForgeApp() {
       </header>
       <main className="mx-auto max-w-6xl px-4 py-4 pb-10">
         {view === "bench" ? <Bench /> : null}
+        {view === "farm" ? <FarmLab /> : null}
+        {view === "labor" ? <LaborLab /> : null}
         {view === "returns" ? <ReturnFocusLab /> : null}
         {view === "study" ? <StudyLab /> : null}
         {view === "reroll" ? <RerollLab /> : null}
-        {view === "cities" ? <CitiesLab /> : null}
         {view === "codex" ? <Codex /> : null}
         {view === "save" ? <SaveLab /> : null}
         <p className="mt-8 max-w-2xl text-xs text-muted">

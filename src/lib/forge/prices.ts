@@ -26,26 +26,48 @@ type BookRow = {
   buy?: BookLevel[]
 }
 
+type PriceRow = {
+  item_id: string
+  city: string
+  quality: number
+  sell_price_min?: number
+  sell_price_min_date?: string
+  buy_price_max?: number
+  buy_price_max_date?: string
+}
+
 function bestLevel(levels: BookLevel[] | undefined) {
   const level = levels?.find((row) => row.price > 0)
   return { price: level?.price || 0, at: level?.updated_at || "" }
 }
 
-async function pullChunk(host: string, ids: string[], locations: string[], qualities: number[]) {
-  const loc = locations.map((name) => encodeURIComponent(name)).join(",")
-  const url = `${host}/api/v2/stats/orderbook/${ids.join(",")}.json?locations=${loc}&qualities=${qualities.join(",")}`
+async function pullJson(url: string): Promise<unknown> {
   const res = await fetch(url, {
-    headers: {
-      Accept: "application/json",
-      "Accept-Encoding": "gzip, deflate, br",
-    },
+    headers: { Accept: "application/json" },
     signal: AbortSignal.timeout(20000),
   })
+  if (res.status === 429) throw new Error("The data project is busy. Prices retry in a minute.")
   if (!res.ok) {
     const text = await res.text()
     throw new Error(text.slice(0, 180) || `Market data ${res.status}`)
   }
-  return (await res.json()) as BookRow[]
+  return res.json()
+}
+
+async function pullPrices(host: string, ids: string[], locations: string[], qualities: number[]) {
+  const loc = locations.map((name) => encodeURIComponent(name)).join(",")
+  const url = `${host}/api/v2/stats/prices/${ids.join(",")}.json?locations=${loc}&qualities=${qualities.join(",")}`
+  return (await pullJson(url)) as PriceRow[]
+}
+
+async function pullBook(host: string, ids: string[], locations: string[], qualities: number[]) {
+  const loc = locations.map((name) => encodeURIComponent(name)).join(",")
+  const url = `${host}/api/v2/stats/orderbook/${ids.join(",")}.json?locations=${loc}&qualities=${qualities.join(",")}`
+  try {
+    return (await pullJson(url)) as BookRow[]
+  } catch {
+    return [] as BookRow[]
+  }
 }
 
 export const fetchMarketPrices = createServerFn({ method: "POST" })
@@ -56,17 +78,32 @@ export const fetchMarketPrices = createServerFn({ method: "POST" })
     const quotes: Record<string, Record<string, Record<string, PriceQuote>>> = {}
     for (let i = 0; i < ids.length; i += 40) {
       const chunk = ids.slice(i, i + 40)
-      const rows = await pullChunk(host, chunk, [...data.locations], data.qualities)
-      for (const row of rows) {
-        const ask = bestLevel(row.sell)
-        const bid = bestLevel(row.buy)
+      const locations = [...data.locations]
+      const qualities = data.qualities
+      const listed = await pullPrices(host, chunk, locations, qualities)
+      const book = await pullBook(host, chunk, locations, qualities)
+      for (const row of listed) {
         const item = (quotes[row.item_id] ??= {})
         const city = (item[row.city] ??= {})
         city[String(row.quality)] = {
-          sell: ask.price,
-          buy: bid.price,
-          sellDate: ask.at,
-          buyDate: bid.at,
+          sell: row.sell_price_min || 0,
+          buy: row.buy_price_max || 0,
+          sellDate: row.sell_price_min_date || "",
+          buyDate: row.buy_price_max_date || "",
+        }
+      }
+      for (const row of book) {
+        const ask = bestLevel(row.sell)
+        const bid = bestLevel(row.buy)
+        if (!ask.price && !bid.price) continue
+        const item = (quotes[row.item_id] ??= {})
+        const city = (item[row.city] ??= {})
+        const prev = city[String(row.quality)] ?? { sell: 0, buy: 0, sellDate: "", buyDate: "" }
+        city[String(row.quality)] = {
+          sell: ask.price || prev.sell,
+          buy: bid.price || prev.buy,
+          sellDate: ask.price ? ask.at : prev.sellDate,
+          buyDate: bid.price ? bid.at : prev.buyDate,
         }
       }
       if (i + 40 < ids.length) await new Promise((r) => setTimeout(r, 250))
@@ -95,7 +132,7 @@ type ChartRow = {
 
 async function readJson(url: string): Promise<{ status: number; body: unknown }> {
   const res = await fetch(url, {
-    headers: { Accept: "application/json", "Accept-Encoding": "gzip, deflate, br" },
+    headers: { Accept: "application/json" },
     signal: AbortSignal.timeout(20000),
   })
   if (res.status === 429) return { status: 429, body: null }

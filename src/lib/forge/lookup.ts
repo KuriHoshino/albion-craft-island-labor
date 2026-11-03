@@ -71,7 +71,7 @@ export function searchItems(
   if (filter?.line) list = list.filter((item) => gearLine(item) === filter.line)
   if (filter?.tier) list = list.filter((item) => item.tier === filter.tier)
   const narrowed = Boolean(filter?.station || filter?.line || filter?.tier)
-  const needsLine = (group === "weapon" || group === "armor" || group === "offhand" || group === "tool" || group === "gather" || group === "mount") && !narrowed
+  const needsLine = (group === "weapon" || group === "armor" || group === "offhand" || group === "tool" || group === "gather" || group === "mount" || group === "refine") && !narrowed
   if (!q && (group === "all" || needsLine)) return []
   const hits: CraftItem[] = []
   for (const item of list) {

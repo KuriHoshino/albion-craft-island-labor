@@ -272,6 +272,14 @@ export const GROUP_LABEL: Record<string, string> = {
   mount: "Mounts",
 }
 
+export const REFINE_LINE: Record<string, { label: string }> = {
+  ore: { label: "Metal bars" },
+  wood: { label: "Planks" },
+  hide: { label: "Leather" },
+  fiber: { label: "Cloth" },
+  rock: { label: "Stone blocks" },
+}
+
 export const FORGE_STATIONS = ["Warrior's Forge", "Hunter's Lodge", "Mage's Tower"] as const
 
 export const WEAPON_LINE: Record<string, { label: string; station: (typeof FORGE_STATIONS)[number] }> = {
@@ -368,6 +376,7 @@ function itemStem(id: string): string {
 export function gearLine(item: { id?: string; group: string; category: string }): string | null {
   if (item.group === "weapon") return WEAPON_LINE[item.category] ? item.category : null
   if (item.group === "armor") return ARMOR_LINE[item.category] ? item.category : null
+  if (item.group === "refine") return REFINE_LINE[item.category] ? item.category : null
   if (item.group === "mount") return MOUNT_LINE[item.category] ? item.category : null
   if (!item.id) return null
   if (item.group === "offhand") return OFFHAND_STEM[itemStem(item.id)] ?? null
@@ -388,6 +397,7 @@ export function gearLineLabel(item: { id?: string; group: string; category: stri
   return (
     WEAPON_LINE[id]?.label ??
     ARMOR_LINE[id]?.label ??
+    REFINE_LINE[id]?.label ??
     OFFHAND_LINE[id]?.label ??
     TOOL_LINE[id]?.label ??
     GATHER_LINE[id]?.label ??

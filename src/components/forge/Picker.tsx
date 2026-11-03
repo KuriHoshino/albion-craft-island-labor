@@ -1,5 +1,5 @@
 import { useMemo, useState } from "react"
-import { ARMOR_LINE, FORGE_STATIONS, GATHER_LINE, GROUP_LABEL, MOUNT_LINE, OFFHAND_LINE, TOOL_LINE, WEAPON_LINE, gearLineLabel } from "@/lib/forge/rules"
+import { ARMOR_LINE, FORGE_STATIONS, GATHER_LINE, GROUP_LABEL, MOUNT_LINE, OFFHAND_LINE, REFINE_LINE, TOOL_LINE, WEAPON_LINE, gearLineLabel } from "@/lib/forge/rules"
 import { searchItems } from "@/lib/forge/lookup"
 import { useForge } from "@/lib/forge/store"
 import { fieldClass } from "./fields"
@@ -43,7 +43,7 @@ export function ItemPicker({
   const [line, setLine] = useState("")
   const [tier, setTier] = useState(0)
   const forge = group === "weapon" || group === "armor"
-  const split = forge || group === "offhand" || group === "tool" || group === "gather" || group === "mount"
+  const split = forge || group === "offhand" || group === "tool" || group === "gather" || group === "mount" || group === "refine"
   const lines = useMemo(() => {
     const book =
       group === "weapon"
@@ -58,7 +58,9 @@ export function ItemPicker({
                 ? GATHER_LINE
                 : group === "mount"
                   ? MOUNT_LINE
-                  : null
+                  : group === "refine"
+                    ? REFINE_LINE
+                    : null
     if (!book) return []
     return Object.entries(book)
       .filter(([, entry]) => !forge || !station || !("station" in entry) || entry.station === station)
@@ -147,7 +149,9 @@ export function ItemPicker({
                       ? "All gathering gear"
                       : group === "mount"
                         ? "All mounts"
-                        : "All weapons"}
+                        : group === "refine"
+                          ? "All refining"
+                          : "All weapons"}
             </Chip>
             {lines.map((entry) => (
               <Chip key={entry.id} on={line === entry.id} onClick={() => setLine(line === entry.id ? "" : entry.id)}>
@@ -180,7 +184,9 @@ export function ItemPicker({
                     ? "Pick a tier, or a set such as Miner or Lumberjack."
                     : group === "mount"
                       ? "Pick a tier, or Riding Horses, Oxen, or Rare mounts. Saddling is the craft."
-                      : "Pick a tier, or a weapon line such as Swords or Bows."
+                      : group === "refine"
+                        ? "Pick a tier, or Metal bars, Planks, Leather, Cloth, or Stone blocks."
+                        : "Pick a tier, or a weapon line such as Swords or Bows."
             : query.trim() || group !== "all"
               ? "No recipes match."
               : "Type a name, or pick a category."}

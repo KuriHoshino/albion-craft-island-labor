@@ -1,6 +1,6 @@
 import { useMemo, useState } from "react"
 import {
-  focusFromSpecs,
+  focusFromRefine,
   productionBonus,
   repairSilver,
   rerollPlan,
@@ -8,8 +8,8 @@ import {
   REROLL_NAMES,
   wholeReturn,
 } from "@/lib/forge/formulas"
-import { enchantsOf, getItem, matName, variantOf } from "@/lib/forge/lookup"
-import { CRAFT_CITIES, GROUP_LABEL, HO_BIOMES, specialtyBonus } from "@/lib/forge/rules"
+import { enchantsOf, getItem, matName, searchItems, variantOf } from "@/lib/forge/lookup"
+import { CRAFT_CITIES, GROUP_LABEL, HO_BIOMES, REFINE_LINE, specialtyBonus } from "@/lib/forge/rules"
 import { useForge } from "@/lib/forge/store"
 import { Num, Select, Toggle, exact, pct, silver } from "./fields"
 import { ItemPicker } from "./Picker"
@@ -33,11 +33,21 @@ const CATEGORIES = [
   ["rock", "Stone refining"],
 ] as const
 
+const REFINE_HOME: Record<string, string> = {
+  ore: "Thetford",
+  fiber: "Lymhurst",
+  rock: "Bridgewatch",
+  hide: "Martlock",
+  wood: "Fort Sterling",
+}
+
 export function ReturnsLab() {
   const [place, setPlace] = useState<"city" | "island" | "hideout">("city")
-  const [city, setCity] = useState("Lymhurst")
-  const [category, setCategory] = useState("sword")
-  const [focus, setFocus] = useState(false)
+  const [city, setCity] = useState("Thetford")
+  const [resource, setResource] = useState("ore")
+  const [tier, setTier] = useState(6)
+  const [enchant, setEnchant] = useState(4)
+  const [focus, setFocus] = useState(true)
   const [daily, setDaily] = useState(0)
   const [power, setPower] = useState(4)
   const [quality, setQuality] = useState(4)
@@ -45,10 +55,11 @@ export function ReturnsLab() {
   const [biome, setBiome] = useState("forest")
   const [extra, setExtra] = useState(0)
   const [runs, setRuns] = useState(10)
+  const [specs, setSpecs] = useState<Record<number, number>>({ 4: 0, 5: 0, 6: 0, 7: 0, 8: 0 })
   const bonus = productionBonus({
     place,
     city,
-    category,
+    category: resource,
     focus,
     daily,
     power,
@@ -58,152 +69,167 @@ export function ReturnsLab() {
     region,
   })
   const rrr = returnRate(bonus.total)
-  const grossBars = 16 * runs
-  const grossLeather = 8 * runs
-  const back = (gross: number) => wholeReturn(gross * rrr)
+  const item = useMemo(
+    () => searchItems("", "refine", { line: resource, tier }).find((entry) => !entry.id.includes("#")),
+    [resource, tier],
+  )
+  const enchants = item ? enchantsOf(item) : [0]
+  const enchantLevel = enchants.includes(enchant) ? enchant : (enchants[0] ?? 0)
+  const variant = item ? variantOf(item, enchantLevel, "direct") : undefined
+  const spec = variant ? focusFromRefine(variant.focus, specs, tier) : undefined
 
   return (
-    <div className="grid gap-4 lg:grid-cols-2">
-      <section className="rounded-lg border border-line bg-panel p-4">
-        <h2 className="font-display text-2xl">Return rate</h2>
-        <p className="mt-2 text-sm text-muted">
-          A hideout specialty craft is map quality + hideout level + an extra 3.75 per level after the first. Other crafts
-          get only the level bonus. Refining also gets the level specialty. Quality does not change refining. Roads use
-          quality 1.
-        </p>
-        <div className="mt-4 grid grid-cols-2 gap-3">
-          <Select
-            label="Where"
-            value={place}
-            onChange={(value) => setPlace(value as "city" | "island" | "hideout")}
-            options={[
-              { value: "city", label: "Royal city" },
-              { value: "island", label: "Island" },
-              { value: "hideout", label: "Hideout" },
-            ]}
-          />
-          <Select
-            label="Craft"
-            value={category}
-            onChange={setCategory}
-            options={CATEGORIES.map(([id, label]) => ({ value: id, label }))}
-          />
-          {place === "hideout" ? (
-            <>
+    <div className="flex flex-col gap-4">
+      <div className="grid gap-4 lg:grid-cols-2">
+        <section className="rounded-lg border border-line bg-panel p-4">
+          <h2 className="font-display text-2xl">Refining return</h2>
+          <p className="mt-2 text-sm text-muted">
+            Pick the resource, the tier, and the enchantment. Each tier spec is 0–100. This tier adds 250, and every tier
+            adds 30. The focus number is the whole point the station shows.
+          </p>
+          <div className="mt-4 grid grid-cols-2 gap-3">
+            <Select
+              label="Where"
+              value={place}
+              onChange={(value) => setPlace(value as "city" | "island" | "hideout")}
+              options={[
+                { value: "city", label: "Royal city" },
+                { value: "island", label: "Island" },
+                { value: "hideout", label: "Hideout" },
+              ]}
+            />
+            <Select
+              label="Resource"
+              value={resource}
+              onChange={(value) => {
+                setResource(value)
+                setCity(REFINE_HOME[value] ?? "Thetford")
+              }}
+              options={Object.entries(REFINE_LINE).map(([id, entry]) => ({ value: id, label: entry.label }))}
+            />
+            <Select
+              label="Tier"
+              value={String(tier)}
+              onChange={(value) => setTier(Number(value))}
+              options={[2, 3, 4, 5, 6, 7, 8].map((level) => ({ value: String(level), label: `T${level}` }))}
+            />
+            <Select
+              label="Enchantment"
+              value={String(enchantLevel)}
+              onChange={(value) => setEnchant(Number(value))}
+              options={enchants.map((level) => ({ value: String(level), label: `.${level}` }))}
+            />
+            {place === "hideout" ? (
+              <>
+                <Select
+                  label="City"
+                  value={biome}
+                  onChange={setBiome}
+                  options={HO_BIOMES.map((entry) => ({ value: entry.id, label: entry.label }))}
+                />
+                <Select
+                  label="Region"
+                  value={region}
+                  onChange={(value) => setRegion(value as "outlands" | "roads")}
+                  options={[
+                    { value: "outlands", label: "Outlands" },
+                    { value: "roads", label: "Roads" },
+                  ]}
+                />
+                <Select
+                  label="Map quality"
+                  value={String(region === "roads" ? 1 : quality)}
+                  onChange={(value) => setQuality(Number(value))}
+                  options={(region === "roads" ? [1] : [1, 2, 3, 4, 5, 6]).map((level) => ({
+                    value: String(level),
+                    label: region === "roads" ? "Q1 (Roads)" : `Q${level}`,
+                  }))}
+                />
+                <Num label="Hideout level" min={1} value={power} onChange={setPower} />
+              </>
+            ) : (
               <Select
                 label="City"
-                value={biome}
-                onChange={setBiome}
-                options={HO_BIOMES.map((entry) => ({ value: entry.id, label: entry.label }))}
+                value={city}
+                onChange={setCity}
+                options={CRAFT_CITIES.map((name) => ({ value: name, label: name }))}
               />
-              <Select
-                label="Region"
-                value={region}
-                onChange={(value) => setRegion(value as "outlands" | "roads")}
-                options={[
-                  { value: "outlands", label: "Outlands" },
-                  { value: "roads", label: "Roads" },
-                ]}
-              />
-              <Select
-                label="Map quality"
-                value={String(region === "roads" ? 1 : quality)}
-                onChange={(value) => setQuality(Number(value))}
-                options={(region === "roads" ? [1] : [1, 2, 3, 4, 5, 6]).map((level) => ({
-                  value: String(level),
-                  label: region === "roads" ? "Q1 (Roads)" : `Q${level}`,
-                }))}
-              />
-              <Num label="Hideout level" min={1} value={power} onChange={setPower} />
-            </>
-          ) : (
+            )}
             <Select
-              label="City"
-              value={city}
-              onChange={setCity}
-              options={CRAFT_CITIES.map((name) => ({ value: name, label: name }))}
+              label="Daily craft bonus"
+              value={String(daily)}
+              onChange={(value) => setDaily(Number(value))}
+              options={[
+                { value: "0", label: "None" },
+                { value: "10", label: "×1.10" },
+                { value: "20", label: "×1.20" },
+              ]}
             />
+            <Num label="Extra bonus" min={0} value={extra} onChange={setExtra} />
+            <Num label="Crafts" min={1} value={runs} onChange={setRuns} />
+            {[4, 5, 6, 7, 8].map((level) => (
+              <Num
+                key={level}
+                label={`T${level} spec`}
+                min={0}
+                value={specs[level] ?? 0}
+                onChange={(value) => setSpecs((current) => ({ ...current, [level]: Math.min(100, value) }))}
+              />
+            ))}
+          </div>
+          <div className="mt-3">
+            <Toggle on={focus} onClick={() => setFocus((on) => !on)}>Use focus</Toggle>
+          </div>
+        </section>
+        <section className="rounded-lg border border-line bg-panel p-4">
+          <p className="text-sm text-muted">Resource return rate</p>
+          <p className="font-sans text-4xl font-semibold tabular-nums tracking-tight text-brass">{pct(rrr)}</p>
+          <p className="mt-1 text-sm text-muted">Production bonus {exact(bonus.total)}</p>
+          <ul className="mt-4">
+            {bonus.parts.map((part) => (
+              <li key={part.label} className="flex justify-between border-b border-line py-2 text-sm">
+                <span>{part.label}</span>
+                <span className="tabular-nums">+{exact(part.value)}</span>
+              </li>
+            ))}
+          </ul>
+          {item && variant && spec ? (
+            <div className="mt-4 border-t border-line pt-4">
+              <div className="flex items-baseline justify-between gap-3">
+                <p className="text-parchment">
+                  T{tier} {item.name} .{enchantLevel}
+                </p>
+                <p className="tabular-nums text-brass">{focus ? `${exact(spec.cost)} focus` : "No focus"}</p>
+              </div>
+              <ul className="mt-2">
+                {variant.mats.map((mat) => {
+                  const back = mat.ret ? wholeReturn(mat.qty * runs * rrr) : 0
+                  return (
+                    <li key={mat.id + String(mat.qty)} className="flex justify-between gap-3 border-b border-line py-2 text-sm">
+                      <span>
+                        {matName(mat.id)} × {exact(mat.qty)}
+                      </span>
+                      <span className="tabular-nums text-muted">{mat.ret ? `${exact(back)} back` : "not returned"}</span>
+                    </li>
+                  )
+                })}
+              </ul>
+              <p className="mt-2 text-xs text-muted">
+                Base {exact(variant.focus)} · efficiency {exact(spec.efficiency)}
+                {focus ? ` · ${exact(spec.cost * runs)} focus for ${runs}` : ""}
+              </p>
+            </div>
+          ) : (
+            <p className="mt-4 text-sm text-muted">That tier is not in this resource.</p>
           )}
-          <Select
-            label="Daily craft bonus"
-            value={String(daily)}
-            onChange={(value) => setDaily(Number(value))}
-            options={[
-              { value: "0", label: "None" },
-              { value: "10", label: "×1.10" },
-              { value: "20", label: "×1.20" },
-            ]}
-          />
-          <Num label="Extra bonus" min={0} value={extra} onChange={setExtra} />
-          <Num label="Crafts" min={1} value={runs} onChange={setRuns} />
-        </div>
-        <div className="mt-3">
-          <Toggle on={focus} onClick={() => setFocus((on) => !on)}>Use focus</Toggle>
-        </div>
-      </section>
-      <section className="rounded-lg border border-line bg-panel p-4">
-        <p className="text-sm text-muted">Resource return rate</p>
-        <p className="font-sans text-4xl font-semibold tabular-nums tracking-tight text-brass">{pct(rrr)}</p>
-        <p className="mt-1 text-sm text-muted">Production bonus {exact(bonus.total)}</p>
-        <ul className="mt-4">
-          {bonus.parts.map((part) => (
-            <li key={part.label} className="flex justify-between border-b border-line py-2 text-sm">
-              <span>{part.label}</span>
-              <span className="tabular-nums">+{exact(part.value)}</span>
-            </li>
-          ))}
-        </ul>
-        <p className="mt-4 text-sm text-muted">
-          A T4 broadsword is 16 steel bars and 8 worked leather. Over {runs} runs that is {exact(grossBars)} bars and{" "}
-          {exact(grossLeather)} leather before returns, about {exact(back(grossBars))} bars and {exact(back(grossLeather))}{" "}
-          leather come back.
-        </p>
-      </section>
+        </section>
+      </div>
     </div>
   )
 }
 
 export function ReturnFocusLab() {
-  return (
-    <div className="flex flex-col gap-4">
-      <ReturnsLab />
-      <FocusLab />
-    </div>
-  )
-}
-
-export function FocusLab() {
-  const [base, setBase] = useState(1286)
-  const [mastery, setMastery] = useState(10)
-  const [specialist, setSpecialist] = useState(0)
-  const [siblings, setSiblings] = useState(0)
-  const result = focusFromSpecs(base, mastery, specialist, siblings)
-  return (
-    <div className="grid gap-4 lg:grid-cols-2">
-      <section className="rounded-lg border border-line bg-panel p-4">
-        <h2 className="font-display text-2xl">Focus cost</h2>
-        <p className="mt-2 text-sm text-muted">
-          Focus cost = base × 0.5 ^ (efficiency / 10000). Mastery is 30 efficiency per level, specialist is 280, and each
-          other specialization in the node is 30.
-        </p>
-        <div className="mt-4 grid grid-cols-2 gap-3">
-          <Num label="Base focus" min={0} value={base} onChange={setBase} />
-          <Num label="Mastery" min={0} value={mastery} onChange={setMastery} />
-          <Num label="Specialist" min={0} value={specialist} onChange={setSpecialist} />
-          <Num label="Other specs" min={0} value={siblings} onChange={setSiblings} />
-        </div>
-      </section>
-      <section className="rounded-lg border border-line bg-panel p-4">
-        <p className="text-sm text-muted">Focus per craft</p>
-        <p className="font-sans text-4xl font-semibold tabular-nums tracking-tight text-brass">{exact(result.cost)}</p>
-        <p className="mt-2 text-sm text-muted">Efficiency {exact(result.efficiency)}</p>
-        <p className="mt-4 text-sm text-muted">
-          Mastery 10 and nothing else is efficiency 300, which brings a broadsword from 1,286 to about 1,259.5. Specialist 100
-          on the item itself is 28,000 efficiency before mastery.
-        </p>
-      </section>
-    </div>
-  )
+  return <ReturnsLab />
 }
 
 export function StudyLab() {
@@ -506,7 +532,7 @@ export function Codex() {
               }}
               className="mt-4 h-11 rounded-lg bg-brass px-4 text-sm font-semibold text-ink"
             >
-              Add to craft
+              Add Craft
             </button>
           </>
         ) : (

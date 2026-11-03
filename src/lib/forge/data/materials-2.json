@@ -875,26 +875,6 @@
     "name": "Elder's Judicator Armor",
     "weight": 17.1
   },
-  "T8_ARMOR_PLATE_PROTOTYPE": {
-    "name": "Dragonknight Armor",
-    "weight": 17.1
-  },
-  "T8_ARMOR_PLATE_PROTOTYPE@1": {
-    "name": "Dragonknight Armor",
-    "weight": 17.1
-  },
-  "T8_ARMOR_PLATE_PROTOTYPE@2": {
-    "name": "Dragonknight Armor",
-    "weight": 17.1
-  },
-  "T8_ARMOR_PLATE_PROTOTYPE@3": {
-    "name": "Dragonknight Armor",
-    "weight": 17.1
-  },
-  "T8_ARMOR_PLATE_PROTOTYPE@4": {
-    "name": "Dragonknight Armor",
-    "weight": 17.1
-  },
   "T8_ARMOR_PLATE_UNDEAD": {
     "name": "Elder's Graveguard Armor",
     "weight": 17.1
@@ -1497,26 +1477,6 @@
   },
   "T8_HEAD_PLATE_KEEPER@4": {
     "name": "Elder's Judicator Helmet",
-    "weight": 8.5
-  },
-  "T8_HEAD_PLATE_PROTOTYPE": {
-    "name": "Dragonknight Helmet",
-    "weight": 8.5
-  },
-  "T8_HEAD_PLATE_PROTOTYPE@1": {
-    "name": "Dragonknight Helmet",
-    "weight": 8.5
-  },
-  "T8_HEAD_PLATE_PROTOTYPE@2": {
-    "name": "Dragonknight Helmet",
-    "weight": 8.5
-  },
-  "T8_HEAD_PLATE_PROTOTYPE@3": {
-    "name": "Dragonknight Helmet",
-    "weight": 8.5
-  },
-  "T8_HEAD_PLATE_PROTOTYPE@4": {
-    "name": "Dragonknight Helmet",
     "weight": 8.5
   },
   "T8_HEAD_PLATE_UNDEAD": {
@@ -2241,26 +2201,6 @@
   },
   "T8_SHOES_PLATE_KEEPER@4": {
     "name": "Elder's Judicator Boots",
-    "weight": 8.5
-  },
-  "T8_SHOES_PLATE_PROTOTYPE": {
-    "name": "Dragonknight Boots",
-    "weight": 8.5
-  },
-  "T8_SHOES_PLATE_PROTOTYPE@1": {
-    "name": "Dragonknight Boots",
-    "weight": 8.5
-  },
-  "T8_SHOES_PLATE_PROTOTYPE@2": {
-    "name": "Dragonknight Boots",
-    "weight": 8.5
-  },
-  "T8_SHOES_PLATE_PROTOTYPE@3": {
-    "name": "Dragonknight Boots",
-    "weight": 8.5
-  },
-  "T8_SHOES_PLATE_PROTOTYPE@4": {
-    "name": "Dragonknight Boots",
     "weight": 8.5
   },
   "T8_SHOES_PLATE_UNDEAD": {
