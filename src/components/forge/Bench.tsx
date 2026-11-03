@@ -2,7 +2,7 @@ import { useMemo, useState } from "react"
 import { RefreshCw, Trash2 } from "lucide-react"
 import { craftMath } from "@/lib/forge/formulas"
 import { enchantsOf, getItem, journalFor, marketId, matName, matWeight, variantOf } from "@/lib/forge/lookup"
-import { CRAFT_CITIES, HO_BIOMES, MARKETS, biomeById, biomeFavors, specialtyBonus } from "@/lib/forge/rules"
+import { CRAFT_CITIES, HO_BIOMES, MARKETS, biomeById, biomeFavors } from "@/lib/forge/rules"
 import { moneySide, readQuote, useForge, type Line, type PriceBook } from "@/lib/forge/store"
 import { Num, Select, Toggle, exact, fieldClass, pct, silver } from "./fields"
 import { HourlyChart } from "./Hourly"
@@ -97,7 +97,7 @@ export function Bench() {
     if (!item || !line || !variant) return []
     return CRAFT_CITIES.map((city) => {
       const result = evaluateLine({ ...line, place: "city", city }, state)
-      return { city, profit: result?.math.profit ?? null, rrr: result?.math.rrr ?? 0, bonus: specialtyBonus(city, item.category) }
+      return { city, profit: result?.math.profit ?? null, rrr: result?.math.rrr ?? 0 }
     }).sort((a, b) => (b.profit ?? -Infinity) - (a.profit ?? -Infinity))
   }, [item, line, variant, state])
 
@@ -537,7 +537,6 @@ export function Bench() {
           </p>
           <dl className="mt-4 grid grid-cols-2 gap-x-3 gap-y-2 text-sm">
             <Stat label="Return rate" value={pct(math.rrr)} />
-            <Stat label="Production bonus" value={exact(math.bonus)} />
             <Stat label="Material" value={silver(math.materialCost)} />
             <Stat label="Station fee" value={silver(math.fee)} />
             <Stat label="Revenue" value={silver(math.revenue)} />
@@ -561,13 +560,6 @@ export function Bench() {
               ? "Need prices to value the focus."
               : `Using focus ${focusGain >= 0 ? "adds" : "loses"} ${silver(Math.abs(focusGain))} on this batch, ${silver(perFocus)} per focus. 10,000 focus is about ${silver(fromPool)}.`}
           </p>
-          <ul className="mt-3 text-xs text-muted">
-            {math.parts.map((part) => (
-              <li key={part.label}>
-                {part.label} +{exact(part.value)}
-              </li>
-            ))}
-          </ul>
         </section>
         <section className="rounded-lg border border-line bg-panel p-4">
           <h3 className="text-sm font-semibold text-parchment">Same recipe, other cities</h3>
@@ -581,7 +573,7 @@ export function Bench() {
                 >
                   <span className={city.city === line.city && line.place === "city" ? "text-brass" : "text-parchment"}>
                     {city.city}
-                    {city.bonus ? <span className="ml-2 text-xs text-muted">+{city.bonus}</span> : null}
+                    <span className="ml-2 text-xs text-muted">{pct(city.rrr)}</span>
                   </span>
                   <span className="tabular-nums text-muted">{city.profit == null ? pct(city.rrr) : silver(city.profit)}</span>
                 </button>

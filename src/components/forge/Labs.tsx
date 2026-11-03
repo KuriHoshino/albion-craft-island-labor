@@ -184,15 +184,6 @@ export function ReturnsLab() {
         <section className="rounded-lg border border-line bg-panel p-4">
           <p className="text-sm text-muted">Resource return rate</p>
           <p className="font-sans text-4xl font-semibold tabular-nums tracking-tight text-brass">{pct(rrr)}</p>
-          <p className="mt-1 text-sm text-muted">Production bonus {exact(bonus.total)}</p>
-          <ul className="mt-4">
-            {bonus.parts.map((part) => (
-              <li key={part.label} className="flex justify-between border-b border-line py-2 text-sm">
-                <span>{part.label}</span>
-                <span className="tabular-nums">+{exact(part.value)}</span>
-              </li>
-            ))}
-          </ul>
           {item && variant && spec ? (
             <div className="mt-4 border-t border-line pt-4">
               <div className="flex items-baseline justify-between gap-3">
@@ -399,13 +390,9 @@ export function CitiesLab() {
             <li key={row.city} className="flex items-baseline justify-between gap-3 border-b border-line py-2 text-sm">
               <span>
                 <span className="font-display text-xl">{row.city}</span>
-                <span className="mt-0.5 block text-xs text-muted">
-                  {row.spec ? `Specialty +${exact(row.spec)}` : "No specialty"}
-                </span>
+                <span className="mt-0.5 block text-xs text-muted">{row.spec ? "Specialty" : "No specialty"}</span>
               </span>
-              <span className="tabular-nums text-muted">
-                +{exact(row.total)} · {pct(row.rrr)}
-              </span>
+              <span className="tabular-nums text-muted">{pct(row.rrr)}</span>
             </li>
           ))}
         </ul>
@@ -431,16 +418,7 @@ export function CitiesLab() {
           />
           <Num label="Hideout level" min={1} value={power} onChange={setPower} />
         </div>
-        <p className="mt-4 font-sans text-3xl font-semibold tabular-nums text-brass">+{exact(hideout.total)}</p>
-        <p className="text-sm text-muted">Return rate {pct(returnRate(hideout.total))}</p>
-        <ul className="mt-3">
-          {hideout.parts.map((part) => (
-            <li key={part.label} className="flex justify-between border-b border-line py-2 text-sm">
-              <span>{part.label}</span>
-              <span className="tabular-nums">+{exact(part.value)}</span>
-            </li>
-          ))}
-        </ul>
+        <p className="mt-4 font-sans text-3xl font-semibold tabular-nums text-brass">{pct(returnRate(hideout.total))}</p>
       </section>
     </div>
   )
