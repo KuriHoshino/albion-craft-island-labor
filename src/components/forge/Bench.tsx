@@ -40,6 +40,7 @@ function evaluateLine(line: Line, state: ReturnType<typeof useForge.getState>) {
   const product = lookup(state.prices, productId, state.sellCity, state.quality, sellSide, line.productOverride)
   const notes: string[] = []
   if (product.from) notes.push(`${item.name} from ${product.from}`)
+  const buyAt = line.shopCity || state.buyCity
   const matLook = (id: string, city: string, side: "sell" | "buy") => {
     const found = lookup(state.prices, id, city, 1, side, line.matOverrides[id] ?? null)
     if (found.from) notes.push(`${id} from ${found.from}`)
@@ -53,7 +54,7 @@ function evaluateLine(line: Line, state: ReturnType<typeof useForge.getState>) {
       {
         tier,
         fame: journal.fame,
-        empty: matLook(`${journal.id}_EMPTY`, state.buyCity, buySide),
+        empty: matLook(`${journal.id}_EMPTY`, buyAt, buySide),
         full: matLook(`${journal.id}_FULL`, state.sellCity, sellSide),
       },
     ]
@@ -82,7 +83,7 @@ function evaluateLine(line: Line, state: ReturnType<typeof useForge.getState>) {
     leftover: state.leftover,
     stationRate: state.stationRate,
     productUnit: product.price,
-    matUnit: (id) => matLook(id, state.buyCity, buySide),
+    matUnit: (id) => matLook(id, buyAt, buySide),
     matSellUnit: (id) => matLook(id, state.sellCity, sellSide),
     journalFills,
   })
@@ -102,7 +103,8 @@ export function Bench() {
   const journal = item ? journalFor(item.journal, item.tier) : undefined
   const buySide = state.buyMode === "instant" ? "sell" : "buy"
   const sellSide = state.sellMode === "instant" ? "buy" : "sell"
-  const emptyJournal = journal && line ? lookup(state.prices, `${journal.id}_EMPTY`, state.buyCity, 1, buySide, line.matOverrides[`${journal.id}_EMPTY`] ?? null) : { price: null, from: null }
+  const buyAt = line ? line.shopCity || state.buyCity : state.buyCity
+  const emptyJournal = journal && line ? lookup(state.prices, `${journal.id}_EMPTY`, buyAt, 1, buySide, line.matOverrides[`${journal.id}_EMPTY`] ?? null) : { price: null, from: null }
   const fullJournal = journal && line ? lookup(state.prices, `${journal.id}_FULL`, state.sellCity, 1, sellSide, line.matOverrides[`${journal.id}_FULL`] ?? null) : { price: null, from: null }
   const routes = item && line ? item.variants.filter((entry) => entry.enchant === (variant?.enchant ?? line.enchant)) : []
   const hasUpgrade = routes.some((entry) => entry.route === "upgrade")
@@ -116,21 +118,23 @@ export function Bench() {
   }, [item, line, variant, state])
 
   const shop = useMemo(() => {
-    const rows = new Map<string, { qty: number; cost: number | null }>()
+    const rows = new Map<string, { id: string; city: string; qty: number; cost: number | null }>()
     let weight = 0
     for (const entry of state.lines) {
       const result = evaluateLine(entry, state)
       if (!result) continue
+      const city = entry.shopCity || state.buyCity
       for (const mat of result.math.consumed) {
-        const current = rows.get(mat.id) ?? { qty: 0, cost: 0 }
+        const key = `${mat.id}|${city}`
+        const current = rows.get(key) ?? { id: mat.id, city, qty: 0, cost: 0 }
         const cost = current.cost == null || mat.cost == null ? null : current.cost + mat.cost
-        rows.set(mat.id, { qty: current.qty + mat.qty, cost })
+        rows.set(key, { id: mat.id, city, qty: current.qty + mat.qty, cost })
         weight += mat.qty * matWeight(mat.id)
       }
     }
     return {
       weight,
-      rows: [...rows.entries()].sort((a, b) => b[1].qty - a[1].qty),
+      rows: [...rows.values()].sort((a, b) => b.qty - a.qty),
     }
   }, [state])
 
@@ -162,7 +166,7 @@ export function Bench() {
 
   async function copyList() {
     const text = shop.rows
-      .map(([id, row]) => `${Math.ceil(row.qty)}  ${matName(id)}`)
+      .map((row) => `${Math.ceil(row.qty)}  ${matName(row.id)}  · ${row.city}`)
       .join("\n")
     try {
       await navigator.clipboard.writeText(text)
@@ -421,8 +425,11 @@ export function Bench() {
           <div className="mt-3 grid grid-cols-2 gap-3">
             <Select
               label="Buy in"
-              value={state.buyCity}
-              onChange={(buyCity) => state.patch({ buyCity })}
+              value={line.shopCity || state.buyCity}
+              onChange={(buyCity) => {
+                state.patch({ buyCity })
+                state.patchLine(line.uid, { shopCity: buyCity })
+              }}
               options={MARKETS.map((city) => ({ value: city, label: city }))}
             />
             <Select
@@ -478,10 +485,13 @@ export function Bench() {
             itemName={`${item.name} .${variant.enchant}`}
             quality={state.quality}
             side={state.sellMode === "instant" ? "buy" : "sell"}
-            usedCity={state.sellCity}
+            usedCity={line.shopCity || state.buyCity}
             onUse={(city, price) => {
-              state.patch({ sellCity: city })
-              state.patchLine(line.uid, { productOverride: price })
+              state.patch({ buyCity: city })
+              state.patchLine(line.uid, {
+                shopCity: city,
+                ...(price != null ? { productOverride: price } : {}),
+              })
             }}
           />
           <div className="mt-4 flex flex-col gap-2">
@@ -494,7 +504,7 @@ export function Bench() {
               onChange={(productOverride) => state.patchLine(line.uid, { productOverride })}
             />
             {variant.mats.map((mat) => {
-              const quote = lookup(state.prices, mat.id, state.buyCity, 1, state.buyMode === "instant" ? "sell" : "buy", null)
+              const quote = lookup(state.prices, mat.id, line.shopCity || state.buyCity, 1, state.buyMode === "instant" ? "sell" : "buy", null)
               const note = mat.ret ? "" : " · no return"
               return (
                 <PriceRow
@@ -580,11 +590,12 @@ export function Bench() {
             Plan profit {silver(planProfit)} · about {exact(shop.weight)} kg
           </p>
           <ul className="mt-3 flex flex-col">
-            {shop.rows.map(([id, row]) => (
-              <li key={id} className="flex items-baseline justify-between gap-3 border-b border-line py-2 text-sm last:border-b-0">
+            {shop.rows.map((row) => (
+              <li key={`${row.id}|${row.city}`} className="flex items-baseline justify-between gap-3 border-b border-line py-2 text-sm last:border-b-0">
                 <span>
-                  {matName(id)}
+                  {matName(row.id)}
                   <span className="ml-2 text-muted">buy {Math.ceil(row.qty)}</span>
+                  <span className="ml-2 text-brass">{row.city}</span>
                 </span>
                 <span className="tabular-nums text-muted">{silver(row.cost)}</span>
               </li>

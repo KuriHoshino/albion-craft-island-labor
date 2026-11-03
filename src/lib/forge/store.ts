@@ -35,6 +35,8 @@ export type Line = {
   productOverride: number | null
   matOverrides: Record<string, number>
   focusOverride: number | null
+  /** City stamped onto this recipe's shopping rows. */
+  shopCity?: string
 }
 
 export type View = "bench" | "returns" | "study" | "reroll" | "codex" | "farm" | "labor" | "recent"

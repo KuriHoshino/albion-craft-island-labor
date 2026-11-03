@@ -52,7 +52,7 @@ export function HourlyChart({
   quality: number
   side: "sell" | "buy"
   usedCity: string
-  onUse: (city: string, price: number) => void
+  onUse: (city: string, price: number | null) => void
 }) {
   const [series, setSeries] = useState<HourSeries[]>([])
   const [error, setError] = useState("")
@@ -126,7 +126,7 @@ export function HourlyChart({
         </p>
       </div>
       <p className="mt-1 text-xs text-muted">
-        Check a city to put its price in the item box. Sold is the last 24 hours on the data project.
+        Check a city to put its name on the shopping list. Sold is the last 24 hours on the data project.
       </p>
       {error ? <p className="mt-2 text-sm text-ember">{error}</p> : null}
       {!error && !loading && rows.length === 0 && !book[itemId] ? (
@@ -180,7 +180,7 @@ export function HourlyChart({
         </div>
       ) : null}
       {!loading && (rows.length > 0 || book[itemId]) ? (
-        <ul className="mt-3 flex flex-col gap-1">
+        <ul className="mt-3 grid grid-cols-2 gap-2">
           {MARKETS.map((city) => {
             const quote = book[itemId]?.[city]?.[String(quality)]
             const last = lastByCity.get(city)
@@ -193,9 +193,8 @@ export function HourlyChart({
               <li key={city} className="flex items-start gap-2 rounded-lg border border-line px-2 py-1.5 text-xs">
                 <button
                   type="button"
-                  disabled={price == null}
-                  onClick={() => price != null && onUse(city, price)}
-                  aria-label={`Use ${city} price`}
+                  onClick={() => onUse(city, price)}
+                  aria-label={`Buy in ${city}`}
                   className={
                     "mt-0.5 grid size-8 shrink-0 place-items-center rounded-md border " +
                     (using ? "border-brass text-brass" : "border-line text-muted")
@@ -206,7 +205,7 @@ export function HourlyChart({
                 <div className="min-w-0 flex-1">
                   <p className="inline-flex items-center gap-1.5 text-parchment">
                     <span className="inline-block size-2 shrink-0 rounded-full" style={{ background: STROKE[city] }} />
-                    {city}
+                    <span className="truncate">{city}</span>
                   </p>
                   <p className="tabular-nums text-muted">
                     {sell != null ? `sell ${silver(sell)}` : "sell —"}
