@@ -103,3 +103,50 @@ export const deleteCraftGroup = createServerFn({ method: "POST" })
     await sql`delete from craft_groups where id = ${data.id} and user_id = ${context.userId}`
     return { ok: true }
   })
+
+const RecentRow = z.object({
+  id: z.string().min(1).max(40),
+  itemId: z.string().min(1).max(80),
+  enchant: z.number().int().min(0).max(4),
+  route: z.enum(["direct", "upgrade"]),
+  city: z.string().min(1).max(40),
+  place: z.enum(["city", "island", "hideout"]),
+  saved: z.boolean(),
+  at: z.number().int(),
+})
+
+export type CloudRecent = z.infer<typeof RecentRow>
+
+export const loadCraftRecents = createServerFn({ method: "GET" })
+  .middleware([authMiddleware])
+  .handler(async ({ context }) => {
+    const { getSql } = await import("@/lib/db")
+    const sql = await getSql()
+    const rows = await sql<{ payload: string }>`
+      select payload from craft_recents where user_id = ${context.userId}
+    `
+    const raw = rows[0]?.payload
+    if (!raw) return [] as CloudRecent[]
+    try {
+      const parsed = z.array(RecentRow).max(40).safeParse(JSON.parse(raw))
+      return parsed.success ? parsed.data : []
+    } catch {
+      return [] as CloudRecent[]
+    }
+  })
+
+export const saveCraftRecents = createServerFn({ method: "POST" })
+  .middleware([authMiddleware])
+  .validator((input: unknown) => z.object({ recents: z.array(RecentRow).max(40) }).parse(input))
+  .handler(async ({ context, data }) => {
+    const { getSql } = await import("@/lib/db")
+    const sql = await getSql()
+    const payload = JSON.stringify(data.recents)
+    await sql`
+      insert into craft_recents (user_id, payload)
+      values (${context.userId}, ${payload})
+      on conflict (user_id) do update
+      set payload = ${payload}, updated_at = now()
+    `
+    return { ok: true }
+  })

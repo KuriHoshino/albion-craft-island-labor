@@ -12,6 +12,15 @@ function when(value: number | string) {
   return date.toLocaleString(undefined, { month: "short", day: "numeric", hour: "numeric", minute: "2-digit" })
 }
 
+function lineFromRecent(row: RecentSearch) {
+  const line = blankLine(row.itemId)
+  line.enchant = row.enchant
+  line.route = row.route
+  line.city = row.city
+  line.place = row.place
+  return line
+}
+
 function titleOf(row: RecentSearch) {
   const name = getItem(row.itemId)?.name ?? row.itemId
   return `${name} .${row.enchant}`
@@ -48,17 +57,16 @@ export function RecentLab() {
   const pinned = recents.filter((row) => row.saved)
 
   async function pin(row: RecentSearch) {
-    saveRecent(row.id)
     if (!user) {
-      setNote("Saved on this device. Sign in with Google to keep it on your account.")
+      setNote("Sign in with Google to save this. The last 10 stay on this browser after a reload.")
       return
     }
-    const line = blankLine(row.itemId)
-    line.enchant = row.enchant
-    line.route = row.route
-    line.city = row.city
-    line.place = row.place
+    saveRecent(row.id)
     const state = useForge.getState()
+    const found = state.lines.find(
+      (entry) => entry.itemId === row.itemId && entry.enchant === row.enchant && entry.route === row.route,
+    )
+    const line = found ?? lineFromRecent(row)
     setBusy(true)
     try {
       await saveCraftGroup({
@@ -113,7 +121,7 @@ export function RecentLab() {
       <section className="rounded-lg border border-line bg-panel p-4">
         <h2 className="font-display text-2xl">Recent crafts</h2>
         <p className="mt-2 max-w-xl text-sm text-muted">
-          Each craft you add is listed here. Unsaved searches drop off after 10. Save one to keep it.
+          The last 10 crafts stay on this browser after a reload. Sign in with Google and Save keeps the craft, and this list, on your account.
         </p>
         {note ? <p className="mt-3 text-sm text-muted">{note}</p> : null}
       </section>

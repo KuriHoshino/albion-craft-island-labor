@@ -2,8 +2,10 @@ import { useEffect, useState } from "react"
 import { BookOpen, Clock, Dices, GraduationCap, Hammer, Percent, Sprout, Users } from "lucide-react"
 import { signIn } from "@/lib/auth/client"
 import { SignedIn, SignedOut, UserButton } from "@/lib/auth/gates"
+import { useCurrentUserState } from "@/lib/auth/use-current-user"
+import { loadCraftRecents, saveCraftRecents } from "@/lib/forge/groups"
 import { SERVERS } from "@/lib/forge/rules"
-import { priceWatchKey, useForge, type View } from "@/lib/forge/store"
+import { priceWatchKey, useForge, type RecentSearch, type View } from "@/lib/forge/store"
 import { syncCatalogFromGitHub } from "@/lib/forge/remote"
 import { Bench } from "./Bench"
 import { FarmLab } from "./Farm"
@@ -29,6 +31,8 @@ export function ForgeApp() {
   const server = useForge((s) => s.server)
   const patch = useForge((s) => s.patch)
   const boot = useBootScreen()
+  const { user } = useCurrentUserState()
+  useCloudRecents(user && !user.isDevFallback ? user.id : null)
 
   useEffect(() => {
     void syncCatalogFromGitHub().catch(() => undefined)
@@ -198,4 +202,54 @@ function useBootScreen() {
       <p className="mt-2 text-sm text-muted">{loading ? "Reading the order book" : "Opening the desk"}</p>
     </div>
   )
+}
+
+function mergeRecents(local: RecentSearch[], remote: RecentSearch[]): RecentSearch[] {
+  const map = new Map<string, RecentSearch>()
+  for (const row of [...remote, ...local]) {
+    const key = `${row.itemId}|${row.enchant}|${row.route}|${row.city}`
+    const prev = map.get(key)
+    if (!prev || row.at >= prev.at) map.set(key, { ...row, saved: row.saved || Boolean(prev?.saved) })
+    else if (row.saved) map.set(key, { ...prev, saved: true })
+  }
+  return [...map.values()]
+}
+
+function useCloudRecents(userId: string | null) {
+  useEffect(() => {
+    if (!userId) return
+    let stop = false
+    let timer = 0
+    let lastSent = ""
+    const send = (recents: RecentSearch[]) => {
+      const saved = recents.filter((row) => row.saved)
+      const loose = recents.filter((row) => !row.saved).slice(0, 10)
+      const payload = [...loose, ...saved].slice(0, 40)
+      const body = JSON.stringify(payload)
+      if (body === lastSent) return
+      lastSent = body
+      void saveCraftRecents({ data: { recents } }).catch(() => {
+        lastSent = ""
+      })
+    }
+    void loadCraftRecents()
+      .then((remote) => {
+        if (stop) return
+        const merged = mergeRecents(useForge.getState().recents ?? [], remote)
+        lastSent = JSON.stringify(merged)
+        useForge.getState().setRecents(merged)
+        if (JSON.stringify(remote) !== lastSent) send(merged)
+      })
+      .catch(() => undefined)
+    const unsub = useForge.subscribe((state, prev) => {
+      if (state.recents === prev.recents) return
+      window.clearTimeout(timer)
+      timer = window.setTimeout(() => send(state.recents ?? []), 600)
+    })
+    return () => {
+      stop = true
+      unsub()
+      window.clearTimeout(timer)
+    }
+  }, [userId])
 }

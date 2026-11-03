@@ -91,6 +91,7 @@ type ForgeState = {
   openRecent: (id: string) => void
   saveRecent: (id: string) => void
   dropRecent: (id: string) => void
+  setRecents: (recents: RecentSearch[]) => void
   loadPrices: () => Promise<void>
 }
 
@@ -287,6 +288,7 @@ export const useForge = create<ForgeState>()(
           recents: (get().recents ?? []).map((entry) => (entry.id === id ? { ...entry, saved: true } : entry)),
         }),
       dropRecent: (id) => set({ recents: (get().recents ?? []).filter((entry) => entry.id !== id) }),
+      setRecents: (recents) => set({ recents: capRecents(recents) }),
       loadPrices: async () => {
         if (loadingFlag) {
           loadAgain = true
@@ -373,6 +375,7 @@ export const useForge = create<ForgeState>()(
         loadedId: state.loadedId,
         loadedName: state.loadedName,
         names: state.names,
+        recents: capRecents(state.recents ?? []),
         prices: state.prices,
         priceAt: state.priceAt,
       }),
@@ -395,6 +398,7 @@ export const useForge = create<ForgeState>()(
           active: active ?? kept[0].uid,
           loadedId: saved.loadedId ?? null,
           loadedName: saved.loadedName || "My craft",
+          recents: capRecents(Array.isArray(saved.recents) ? saved.recents : current.recents),
         }
       },
     },
@@ -405,6 +409,15 @@ function replaceIds(prev: PriceBook, next: PriceBook, ids: string[]): PriceBook 
   const out: PriceBook = { ...prev }
   for (const id of ids) out[id] = next[id] ?? {}
   return out
+}
+
+function capRecents(rows: RecentSearch[] | undefined): RecentSearch[] {
+  const clean = (rows ?? []).filter(
+    (row) => row && typeof row.id === "string" && typeof row.itemId === "string" && typeof row.at === "number",
+  )
+  const saved = clean.filter((row) => row.saved)
+  const loose = clean.filter((row) => !row.saved).sort((a, b) => b.at - a.at).slice(0, 10)
+  return [...loose, ...saved]
 }
 
 export function readQuote(book: PriceBook, id: string, city: string, quality: number): Quote | null {
