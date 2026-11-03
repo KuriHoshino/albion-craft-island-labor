@@ -47,11 +47,11 @@
     "name": "Adept's Bag",
     "weight": 3.4
   },
-  "T4_CLOTH@1": {
+  "T4_CLOTH_LEVEL1@1": {
     "name": "Uncommon Fine Cloth",
     "weight": 0.51
   },
-  "T4_LEATHER@1": {
+  "T4_LEATHER_LEVEL1@1": {
     "name": "Uncommon Worked Leather",
     "weight": 0.51
   },
@@ -63,11 +63,11 @@
     "name": "Adept's Bag",
     "weight": 3.4
   },
-  "T4_CLOTH@2": {
+  "T4_CLOTH_LEVEL2@2": {
     "name": "Rare Fine Cloth",
     "weight": 0.51
   },
-  "T4_LEATHER@2": {
+  "T4_LEATHER_LEVEL2@2": {
     "name": "Rare Worked Leather",
     "weight": 0.51
   },
@@ -79,11 +79,11 @@
     "name": "Adept's Bag",
     "weight": 3.4
   },
-  "T4_CLOTH@3": {
+  "T4_CLOTH_LEVEL3@3": {
     "name": "Exceptional Fine Cloth",
     "weight": 0.51
   },
-  "T4_LEATHER@3": {
+  "T4_LEATHER_LEVEL3@3": {
     "name": "Exceptional Worked Leather",
     "weight": 0.51
   },
@@ -95,11 +95,11 @@
     "name": "Adept's Bag",
     "weight": 3.4
   },
-  "T4_CLOTH@4": {
+  "T4_CLOTH_LEVEL4@4": {
     "name": "Pristine Fine Cloth",
     "weight": 0.51
   },
-  "T4_LEATHER@4": {
+  "T4_LEATHER_LEVEL4@4": {
     "name": "Pristine Worked Leather",
     "weight": 0.51
   },
@@ -163,11 +163,11 @@
     "name": "Expert's Bag",
     "weight": 5.1
   },
-  "T5_CLOTH@1": {
+  "T5_CLOTH_LEVEL1@1": {
     "name": "Uncommon Ornate Cloth",
     "weight": 0.76
   },
-  "T5_LEATHER@1": {
+  "T5_LEATHER_LEVEL1@1": {
     "name": "Uncommon Cured Leather",
     "weight": 0.76
   },
@@ -179,11 +179,11 @@
     "name": "Expert's Bag",
     "weight": 5.1
   },
-  "T5_CLOTH@2": {
+  "T5_CLOTH_LEVEL2@2": {
     "name": "Rare Ornate Cloth",
     "weight": 0.76
   },
-  "T5_LEATHER@2": {
+  "T5_LEATHER_LEVEL2@2": {
     "name": "Rare Cured Leather",
     "weight": 0.76
   },
@@ -195,11 +195,11 @@
     "name": "Expert's Bag",
     "weight": 5.1
   },
-  "T5_CLOTH@3": {
+  "T5_CLOTH_LEVEL3@3": {
     "name": "Exceptional Ornate Cloth",
     "weight": 0.76
   },
-  "T5_LEATHER@3": {
+  "T5_LEATHER_LEVEL3@3": {
     "name": "Exceptional Cured Leather",
     "weight": 0.76
   },
@@ -211,11 +211,11 @@
     "name": "Expert's Bag",
     "weight": 5.1
   },
-  "T5_CLOTH@4": {
+  "T5_CLOTH_LEVEL4@4": {
     "name": "Pristine Ornate Cloth",
     "weight": 0.76
   },
-  "T5_LEATHER@4": {
+  "T5_LEATHER_LEVEL4@4": {
     "name": "Pristine Cured Leather",
     "weight": 0.76
   },
@@ -275,11 +275,11 @@
     "name": "Master's Bag",
     "weight": 7.6
   },
-  "T6_CLOTH@1": {
+  "T6_CLOTH_LEVEL1@1": {
     "name": "Uncommon Lavish Cloth",
     "weight": 1.14
   },
-  "T6_LEATHER@1": {
+  "T6_LEATHER_LEVEL1@1": {
     "name": "Uncommon Hardened Leather",
     "weight": 1.14
   },
@@ -291,11 +291,11 @@
     "name": "Master's Bag",
     "weight": 7.6
   },
-  "T6_CLOTH@2": {
+  "T6_CLOTH_LEVEL2@2": {
     "name": "Rare Lavish Cloth",
     "weight": 1.14
   },
-  "T6_LEATHER@2": {
+  "T6_LEATHER_LEVEL2@2": {
     "name": "Rare Hardened Leather",
     "weight": 1.14
   },
@@ -307,11 +307,11 @@
     "name": "Master's Bag",
     "weight": 7.6
   },
-  "T6_CLOTH@3": {
+  "T6_CLOTH_LEVEL3@3": {
     "name": "Exceptional Lavish Cloth",
     "weight": 1.14
   },
-  "T6_LEATHER@3": {
+  "T6_LEATHER_LEVEL3@3": {
     "name": "Exceptional Hardened Leather",
     "weight": 1.14
   },
@@ -323,11 +323,11 @@
     "name": "Master's Bag",
     "weight": 7.6
   },
-  "T6_CLOTH@4": {
+  "T6_CLOTH_LEVEL4@4": {
     "name": "Pristine Lavish Cloth",
     "weight": 1.14
   },
-  "T6_LEATHER@4": {
+  "T6_LEATHER_LEVEL4@4": {
     "name": "Pristine Hardened Leather",
     "weight": 1.14
   },
@@ -387,11 +387,11 @@
     "name": "Grandmaster's Bag",
     "weight": 11.4
   },
-  "T7_CLOTH@1": {
+  "T7_CLOTH_LEVEL1@1": {
     "name": "Uncommon Opulent Cloth",
     "weight": 1.71
   },
-  "T7_LEATHER@1": {
+  "T7_LEATHER_LEVEL1@1": {
     "name": "Uncommon Reinforced Leather",
     "weight": 1.71
   },
@@ -403,11 +403,11 @@
     "name": "Grandmaster's Bag",
     "weight": 11.4
   },
-  "T7_CLOTH@2": {
+  "T7_CLOTH_LEVEL2@2": {
     "name": "Rare Opulent Cloth",
     "weight": 1.71
   },
-  "T7_LEATHER@2": {
+  "T7_LEATHER_LEVEL2@2": {
     "name": "Rare Reinforced Leather",
     "weight": 1.71
   },
@@ -419,11 +419,11 @@
     "name": "Grandmaster's Bag",
     "weight": 11.4
   },
-  "T7_CLOTH@3": {
+  "T7_CLOTH_LEVEL3@3": {
     "name": "Exceptional Opulent Cloth",
     "weight": 1.71
   },
-  "T7_LEATHER@3": {
+  "T7_LEATHER_LEVEL3@3": {
     "name": "Exceptional Reinforced Leather",
     "weight": 1.71
   },
@@ -435,11 +435,11 @@
     "name": "Grandmaster's Bag",
     "weight": 11.4
   },
-  "T7_CLOTH@4": {
+  "T7_CLOTH_LEVEL4@4": {
     "name": "Pristine Opulent Cloth",
     "weight": 1.71
   },
-  "T7_LEATHER@4": {
+  "T7_LEATHER_LEVEL4@4": {
     "name": "Pristine Reinforced Leather",
     "weight": 1.71
   },
@@ -499,11 +499,11 @@
     "name": "Elder's Bag",
     "weight": 17.1
   },
-  "T8_CLOTH@1": {
+  "T8_CLOTH_LEVEL1@1": {
     "name": "Uncommon Baroque Cloth",
     "weight": 2.56
   },
-  "T8_LEATHER@1": {
+  "T8_LEATHER_LEVEL1@1": {
     "name": "Uncommon Fortified Leather",
     "weight": 2.56
   },
@@ -515,11 +515,11 @@
     "name": "Elder's Bag",
     "weight": 17.1
   },
-  "T8_CLOTH@2": {
+  "T8_CLOTH_LEVEL2@2": {
     "name": "Rare Baroque Cloth",
     "weight": 2.56
   },
-  "T8_LEATHER@2": {
+  "T8_LEATHER_LEVEL2@2": {
     "name": "Rare Fortified Leather",
     "weight": 2.56
   },
@@ -531,11 +531,11 @@
     "name": "Elder's Bag",
     "weight": 17.1
   },
-  "T8_CLOTH@3": {
+  "T8_CLOTH_LEVEL3@3": {
     "name": "Exceptional Baroque Cloth",
     "weight": 2.56
   },
-  "T8_LEATHER@3": {
+  "T8_LEATHER_LEVEL3@3": {
     "name": "Exceptional Fortified Leather",
     "weight": 2.56
   },
@@ -547,11 +547,11 @@
     "name": "Elder's Bag",
     "weight": 17.1
   },
-  "T8_CLOTH@4": {
+  "T8_CLOTH_LEVEL4@4": {
     "name": "Pristine Baroque Cloth",
     "weight": 2.56
   },
-  "T8_LEATHER@4": {
+  "T8_LEATHER_LEVEL4@4": {
     "name": "Pristine Fortified Leather",
     "weight": 2.56
   },
@@ -955,7 +955,7 @@
     "name": "Adept's Armor of Valor",
     "weight": 3.4
   },
-  "T4_METALBAR@1": {
+  "T4_METALBAR_LEVEL1@1": {
     "name": "Uncommon Steel Bar",
     "weight": 0.51
   },
@@ -963,7 +963,7 @@
     "name": "Adept's Armor of Valor",
     "weight": 3.4
   },
-  "T4_METALBAR@2": {
+  "T4_METALBAR_LEVEL2@2": {
     "name": "Rare Steel Bar",
     "weight": 0.51
   },
@@ -971,7 +971,7 @@
     "name": "Adept's Armor of Valor",
     "weight": 3.4
   },
-  "T4_METALBAR@3": {
+  "T4_METALBAR_LEVEL3@3": {
     "name": "Exceptional Steel Bar",
     "weight": 0.51
   },
@@ -979,7 +979,7 @@
     "name": "Adept's Armor of Valor",
     "weight": 3.4
   },
-  "T4_METALBAR@4": {
+  "T4_METALBAR_LEVEL4@4": {
     "name": "Pristine Steel Bar",
     "weight": 0.51
   },
@@ -2667,7 +2667,7 @@
     "name": "Expert's Armor of Valor",
     "weight": 5.1
   },
-  "T5_METALBAR@1": {
+  "T5_METALBAR_LEVEL1@1": {
     "name": "Uncommon Titanium Steel Bar",
     "weight": 0.76
   },
@@ -2675,7 +2675,7 @@
     "name": "Expert's Armor of Valor",
     "weight": 5.1
   },
-  "T5_METALBAR@2": {
+  "T5_METALBAR_LEVEL2@2": {
     "name": "Rare Titanium Steel Bar",
     "weight": 0.76
   },
@@ -2683,7 +2683,7 @@
     "name": "Expert's Armor of Valor",
     "weight": 5.1
   },
-  "T5_METALBAR@3": {
+  "T5_METALBAR_LEVEL3@3": {
     "name": "Exceptional Titanium Steel Bar",
     "weight": 0.76
   },
@@ -2691,7 +2691,7 @@
     "name": "Expert's Armor of Valor",
     "weight": 5.1
   },
-  "T5_METALBAR@4": {
+  "T5_METALBAR_LEVEL4@4": {
     "name": "Pristine Titanium Steel Bar",
     "weight": 0.76
   },
@@ -4379,7 +4379,7 @@
     "name": "Master's Armor of Valor",
     "weight": 7.6
   },
-  "T6_METALBAR@1": {
+  "T6_METALBAR_LEVEL1@1": {
     "name": "Uncommon Runite Steel Bar",
     "weight": 1.14
   },
@@ -4387,7 +4387,7 @@
     "name": "Master's Armor of Valor",
     "weight": 7.6
   },
-  "T6_METALBAR@2": {
+  "T6_METALBAR_LEVEL2@2": {
     "name": "Rare Runite Steel Bar",
     "weight": 1.14
   },
@@ -4395,7 +4395,7 @@
     "name": "Master's Armor of Valor",
     "weight": 7.6
   },
-  "T6_METALBAR@3": {
+  "T6_METALBAR_LEVEL3@3": {
     "name": "Exceptional Runite Steel Bar",
     "weight": 1.14
   },
@@ -4403,7 +4403,7 @@
     "name": "Master's Armor of Valor",
     "weight": 7.6
   },
-  "T6_METALBAR@4": {
+  "T6_METALBAR_LEVEL4@4": {
     "name": "Pristine Runite Steel Bar",
     "weight": 1.14
   },
@@ -6091,7 +6091,7 @@
     "name": "Grandmaster's Armor of Valor",
     "weight": 11.4
   },
-  "T7_METALBAR@1": {
+  "T7_METALBAR_LEVEL1@1": {
     "name": "Uncommon Meteorite Steel Bar",
     "weight": 1.71
   },
@@ -6099,7 +6099,7 @@
     "name": "Grandmaster's Armor of Valor",
     "weight": 11.4
   },
-  "T7_METALBAR@2": {
+  "T7_METALBAR_LEVEL2@2": {
     "name": "Rare Meteorite Steel Bar",
     "weight": 1.71
   },
@@ -6107,7 +6107,7 @@
     "name": "Grandmaster's Armor of Valor",
     "weight": 11.4
   },
-  "T7_METALBAR@3": {
+  "T7_METALBAR_LEVEL3@3": {
     "name": "Exceptional Meteorite Steel Bar",
     "weight": 1.71
   },
@@ -6115,7 +6115,7 @@
     "name": "Grandmaster's Armor of Valor",
     "weight": 11.4
   },
-  "T7_METALBAR@4": {
+  "T7_METALBAR_LEVEL4@4": {
     "name": "Pristine Meteorite Steel Bar",
     "weight": 1.71
   },

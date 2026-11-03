@@ -735,7 +735,7 @@
     "name": "Elder's Armor of Valor",
     "weight": 17.1
   },
-  "T8_METALBAR@1": {
+  "T8_METALBAR_LEVEL1@1": {
     "name": "Uncommon Adamantium Steel Bar",
     "weight": 2.56
   },
@@ -743,7 +743,7 @@
     "name": "Elder's Armor of Valor",
     "weight": 17.1
   },
-  "T8_METALBAR@2": {
+  "T8_METALBAR_LEVEL2@2": {
     "name": "Rare Adamantium Steel Bar",
     "weight": 2.56
   },
@@ -751,7 +751,7 @@
     "name": "Elder's Armor of Valor",
     "weight": 17.1
   },
-  "T8_METALBAR@3": {
+  "T8_METALBAR_LEVEL3@3": {
     "name": "Exceptional Adamantium Steel Bar",
     "weight": 2.56
   },
@@ -759,7 +759,7 @@
     "name": "Elder's Armor of Valor",
     "weight": 17.1
   },
-  "T8_METALBAR@4": {
+  "T8_METALBAR_LEVEL4@4": {
     "name": "Pristine Adamantium Steel Bar",
     "weight": 2.56
   },
@@ -2191,25 +2191,13 @@
     "name": "Carrot Soup",
     "weight": 1.16
   },
-  "T1_FISHSAUCE@1": {
-    "name": "Basic Fish Sauce",
-    "weight": 1
-  },
   "T1_MEAL_SOUP@2": {
     "name": "Carrot Soup",
     "weight": 1.16
   },
-  "T1_FISHSAUCE@2": {
-    "name": "Fancy Fish Sauce",
-    "weight": 1.5
-  },
   "T1_MEAL_SOUP@3": {
     "name": "Carrot Soup",
     "weight": 1.16
-  },
-  "T1_FISHSAUCE@3": {
-    "name": "Special Fish Sauce",
-    "weight": 2
   },
   "T1_FISHSAUCE_LEVEL2": {
     "name": "Fancy Fish Sauce",
@@ -5803,7 +5791,7 @@
     "name": "Adept's Cryptcandle",
     "weight": 1.7
   },
-  "T4_PLANKS@1": {
+  "T4_PLANKS_LEVEL1@1": {
     "name": "Uncommon Pine Planks",
     "weight": 0.51
   },
@@ -5811,7 +5799,7 @@
     "name": "Adept's Cryptcandle",
     "weight": 1.7
   },
-  "T4_PLANKS@2": {
+  "T4_PLANKS_LEVEL2@2": {
     "name": "Rare Pine Planks",
     "weight": 0.51
   },
@@ -5819,7 +5807,7 @@
     "name": "Adept's Cryptcandle",
     "weight": 1.7
   },
-  "T4_PLANKS@3": {
+  "T4_PLANKS_LEVEL3@3": {
     "name": "Exceptional Pine Planks",
     "weight": 0.51
   },
@@ -5827,7 +5815,7 @@
     "name": "Adept's Cryptcandle",
     "weight": 1.7
   },
-  "T4_PLANKS@4": {
+  "T4_PLANKS_LEVEL4@4": {
     "name": "Pristine Pine Planks",
     "weight": 0.51
   },
@@ -6243,7 +6231,7 @@
     "name": "Expert's Cryptcandle",
     "weight": 2.5
   },
-  "T5_PLANKS@1": {
+  "T5_PLANKS_LEVEL1@1": {
     "name": "Uncommon Cedar Planks",
     "weight": 0.76
   },
@@ -6251,7 +6239,7 @@
     "name": "Expert's Cryptcandle",
     "weight": 2.5
   },
-  "T5_PLANKS@2": {
+  "T5_PLANKS_LEVEL2@2": {
     "name": "Rare Cedar Planks",
     "weight": 0.76
   },
@@ -6259,7 +6247,7 @@
     "name": "Expert's Cryptcandle",
     "weight": 2.5
   },
-  "T5_PLANKS@3": {
+  "T5_PLANKS_LEVEL3@3": {
     "name": "Exceptional Cedar Planks",
     "weight": 0.76
   },
@@ -6267,7 +6255,7 @@
     "name": "Expert's Cryptcandle",
     "weight": 2.5
   },
-  "T5_PLANKS@4": {
+  "T5_PLANKS_LEVEL4@4": {
     "name": "Pristine Cedar Planks",
     "weight": 0.76
   },
@@ -6683,7 +6671,7 @@
     "name": "Master's Cryptcandle",
     "weight": 3.8
   },
-  "T6_PLANKS@1": {
+  "T6_PLANKS_LEVEL1@1": {
     "name": "Uncommon Bloodoak Planks",
     "weight": 1.14
   },
@@ -6691,7 +6679,7 @@
     "name": "Master's Cryptcandle",
     "weight": 3.8
   },
-  "T6_PLANKS@2": {
+  "T6_PLANKS_LEVEL2@2": {
     "name": "Rare Bloodoak Planks",
     "weight": 1.14
   },
@@ -6699,7 +6687,7 @@
     "name": "Master's Cryptcandle",
     "weight": 3.8
   },
-  "T6_PLANKS@3": {
+  "T6_PLANKS_LEVEL3@3": {
     "name": "Exceptional Bloodoak Planks",
     "weight": 1.14
   },
@@ -6707,7 +6695,7 @@
     "name": "Master's Cryptcandle",
     "weight": 3.8
   },
-  "T6_PLANKS@4": {
+  "T6_PLANKS_LEVEL4@4": {
     "name": "Pristine Bloodoak Planks",
     "weight": 1.14
   },

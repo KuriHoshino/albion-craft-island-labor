@@ -1,5 +1,6 @@
 import { createServerFn } from "@tanstack/react-start"
 import { z } from "zod"
+import { liveId } from "./lookup"
 import { MARKETS, SERVERS } from "./rules"
 
 const HOST: Record<(typeof SERVERS)[number]["id"], string> = {
@@ -105,24 +106,7 @@ function bestLevel(levels: BookLevel[] | undefined, side: "sell" | "buy") {
   return { price: best?.price || 0, at: best?.updated_at || "" }
 }
 
-const MARKET_AT_1 = new Set([
-  "T8_MOUNT_MAMMOTH_BATTLE",
-  "T5_MOUNT_COUGAR_KEEPER",
-  "T8_MOUNT_COUGAR_KEEPER",
-  "T8_MOUNT_ARMORED_HORSE_MORGANA",
-  "T8_MOUNT_HORSE_UNDEAD",
-  "T8_MOUNT_RABBIT_EASTER_DARK",
-])
-
-/** Market ids that differ from the recipe id. */
-function aodpId(id: string): string {
-  const resource = id.match(/^(T\d+)_(CLOTH|LEATHER|PLANKS|METALBAR|STONEBLOCK|ORE|WOOD|FIBER|HIDE|ROCK)@([1-4])$/)
-  if (resource) return `${resource[1]}_${resource[2]}_LEVEL${resource[3]}@${resource[3]}`
-  const sauce = id.match(/^(T1_FISHSAUCE|T1_ALCHEMY_EXTRACT)@([1-3])$/)
-  if (sauce) return `${sauce[1]}_LEVEL${sauce[2]}`
-  if (MARKET_AT_1.has(id)) return `${id}@1`
-  return id
-}
+/** Market ids that differ from the recipe id are translated by liveId. */
 
 async function pullJson(url: string): Promise<unknown> {
   const res = await fetch(url, {
@@ -151,7 +135,7 @@ async function pullBook(host: string, ids: string[], locations: string[], qualit
 
 export async function loadMarketPrices(data: z.infer<typeof Input>) {
   const ids = [...new Set(data.itemIds)]
-  const apiIds = ids.map(aodpId)
+  const apiIds = ids.map(liveId)
   const host = HOST[data.server]
   const quotes: Record<string, Record<string, Record<string, PriceQuote>>> = {}
   for (let i = 0; i < apiIds.length; i += 40) {

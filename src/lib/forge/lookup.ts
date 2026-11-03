@@ -66,17 +66,38 @@ export function enchantsOf(item: CraftItem): number[] {
   return [...new Set(item.variants.map((v) => v.enchant))].sort((a, b) => a - b)
 }
 
+const SOLD_AS_ENCHANT_1 = new Set([
+  "T8_MOUNT_MAMMOTH_BATTLE",
+  "T5_MOUNT_COUGAR_KEEPER",
+  "T8_MOUNT_COUGAR_KEEPER",
+  "T8_MOUNT_ARMORED_HORSE_MORGANA",
+  "T8_MOUNT_HORSE_UNDEAD",
+  "T8_MOUNT_RABBIT_EASTER_DARK",
+])
+
+/** The id the live market uses. Recipe ids and market ids are not always the same. */
+export function liveId(id: string): string {
+  const bare = id.split("#")[0]
+  const resource = bare.match(/^(T\d+)_(CLOTH|LEATHER|PLANKS|METALBAR|STONEBLOCK|ORE|WOOD|FIBER|HIDE|ROCK)@([1-4])$/)
+  if (resource) return `${resource[1]}_${resource[2]}_LEVEL${resource[3]}@${resource[3]}`
+  const sauce = bare.match(/^(T1_FISHSAUCE|T1_ALCHEMY_EXTRACT)@([1-3])$/)
+  if (sauce) return `${sauce[1]}_LEVEL${sauce[2]}`
+  if (SOLD_AS_ENCHANT_1.has(bare)) return `${bare}@1`
+  return bare
+}
+
 export function marketId(itemId: string, enchant: number): string {
-  const base = itemId.split("#")[0]
-  return enchant > 0 ? `${base}@${enchant}` : base
+  const base = itemId.split("#")[0].replace(/@\d+$/, "")
+  if (enchant > 0) return liveId(`${base}@${enchant}`)
+  return liveId(itemId.split("#")[0])
 }
 
 export function matName(id: string): string {
-  return named(id, materials[id]?.name ?? id)
+  return named(id, materials[id]?.name ?? materials[liveId(id)]?.name ?? liveId(id))
 }
 
 export function matWeight(id: string): number {
-  return materials[id]?.weight ?? 0
+  return materials[id]?.weight ?? materials[liveId(id)]?.weight ?? 0
 }
 
 export function journalFor(kind: string | null, tier: number) {

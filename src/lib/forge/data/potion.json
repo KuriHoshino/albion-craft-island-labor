@@ -41,7 +41,7 @@
             "ret": true
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@1",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL1",
             "qty": 5,
             "ret": true
           }
@@ -62,7 +62,7 @@
             "ret": false
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@1",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL1",
             "qty": 1,
             "ret": false
           }
@@ -83,7 +83,7 @@
             "ret": true
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@2",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL2",
             "qty": 5,
             "ret": true
           }
@@ -104,7 +104,7 @@
             "ret": false
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@2",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL2",
             "qty": 1,
             "ret": false
           }
@@ -125,7 +125,7 @@
             "ret": true
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@3",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL3",
             "qty": 5,
             "ret": true
           }
@@ -146,7 +146,7 @@
             "ret": false
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@3",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL3",
             "qty": 1,
             "ret": false
           }
@@ -196,7 +196,7 @@
             "ret": true
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@1",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL1",
             "qty": 5,
             "ret": true
           }
@@ -217,7 +217,7 @@
             "ret": false
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@1",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL1",
             "qty": 1,
             "ret": false
           }
@@ -238,7 +238,7 @@
             "ret": true
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@2",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL2",
             "qty": 5,
             "ret": true
           }
@@ -259,7 +259,7 @@
             "ret": false
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@2",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL2",
             "qty": 1,
             "ret": false
           }
@@ -280,7 +280,7 @@
             "ret": true
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@3",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL3",
             "qty": 5,
             "ret": true
           }
@@ -301,7 +301,7 @@
             "ret": false
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@3",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL3",
             "qty": 1,
             "ret": false
           }
@@ -361,7 +361,7 @@
             "ret": true
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@1",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL1",
             "qty": 10,
             "ret": true
           }
@@ -382,7 +382,7 @@
             "ret": false
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@1",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL1",
             "qty": 1,
             "ret": false
           }
@@ -408,7 +408,7 @@
             "ret": true
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@2",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL2",
             "qty": 10,
             "ret": true
           }
@@ -429,7 +429,7 @@
             "ret": false
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@2",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL2",
             "qty": 1,
             "ret": false
           }
@@ -455,7 +455,7 @@
             "ret": true
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@3",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL3",
             "qty": 10,
             "ret": true
           }
@@ -476,7 +476,7 @@
             "ret": false
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@3",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL3",
             "qty": 1,
             "ret": false
           }
@@ -536,7 +536,7 @@
             "ret": true
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@1",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL1",
             "qty": 10,
             "ret": true
           }
@@ -557,7 +557,7 @@
             "ret": false
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@1",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL1",
             "qty": 1,
             "ret": false
           }
@@ -583,7 +583,7 @@
             "ret": true
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@2",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL2",
             "qty": 10,
             "ret": true
           }
@@ -604,7 +604,7 @@
             "ret": false
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@2",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL2",
             "qty": 1,
             "ret": false
           }
@@ -630,7 +630,7 @@
             "ret": true
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@3",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL3",
             "qty": 10,
             "ret": true
           }
@@ -651,7 +651,7 @@
             "ret": false
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@3",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL3",
             "qty": 1,
             "ret": false
           }
@@ -711,7 +711,7 @@
             "ret": true
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@1",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL1",
             "qty": 10,
             "ret": true
           }
@@ -732,7 +732,7 @@
             "ret": false
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@1",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL1",
             "qty": 1,
             "ret": false
           }
@@ -758,7 +758,7 @@
             "ret": true
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@2",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL2",
             "qty": 10,
             "ret": true
           }
@@ -779,7 +779,7 @@
             "ret": false
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@2",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL2",
             "qty": 1,
             "ret": false
           }
@@ -805,7 +805,7 @@
             "ret": true
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@3",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL3",
             "qty": 10,
             "ret": true
           }
@@ -826,7 +826,7 @@
             "ret": false
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@3",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL3",
             "qty": 1,
             "ret": false
           }
@@ -876,7 +876,7 @@
             "ret": true
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@1",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL1",
             "qty": 5,
             "ret": true
           }
@@ -897,7 +897,7 @@
             "ret": false
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@1",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL1",
             "qty": 1,
             "ret": false
           }
@@ -918,7 +918,7 @@
             "ret": true
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@2",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL2",
             "qty": 5,
             "ret": true
           }
@@ -939,7 +939,7 @@
             "ret": false
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@2",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL2",
             "qty": 1,
             "ret": false
           }
@@ -960,7 +960,7 @@
             "ret": true
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@3",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL3",
             "qty": 5,
             "ret": true
           }
@@ -981,7 +981,7 @@
             "ret": false
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@3",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL3",
             "qty": 1,
             "ret": false
           }
@@ -1031,7 +1031,7 @@
             "ret": true
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@1",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL1",
             "qty": 5,
             "ret": true
           }
@@ -1052,7 +1052,7 @@
             "ret": false
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@1",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL1",
             "qty": 1,
             "ret": false
           }
@@ -1073,7 +1073,7 @@
             "ret": true
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@2",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL2",
             "qty": 5,
             "ret": true
           }
@@ -1094,7 +1094,7 @@
             "ret": false
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@2",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL2",
             "qty": 1,
             "ret": false
           }
@@ -1115,7 +1115,7 @@
             "ret": true
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@3",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL3",
             "qty": 5,
             "ret": true
           }
@@ -1136,7 +1136,7 @@
             "ret": false
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@3",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL3",
             "qty": 1,
             "ret": false
           }
@@ -1186,7 +1186,7 @@
             "ret": true
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@1",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL1",
             "qty": 5,
             "ret": true
           }
@@ -1207,7 +1207,7 @@
             "ret": false
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@1",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL1",
             "qty": 1,
             "ret": false
           }
@@ -1228,7 +1228,7 @@
             "ret": true
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@2",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL2",
             "qty": 5,
             "ret": true
           }
@@ -1249,7 +1249,7 @@
             "ret": false
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@2",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL2",
             "qty": 1,
             "ret": false
           }
@@ -1270,7 +1270,7 @@
             "ret": true
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@3",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL3",
             "qty": 5,
             "ret": true
           }
@@ -1291,7 +1291,7 @@
             "ret": false
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@3",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL3",
             "qty": 1,
             "ret": false
           }
@@ -1351,7 +1351,7 @@
             "ret": true
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@1",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL1",
             "qty": 10,
             "ret": true
           }
@@ -1372,7 +1372,7 @@
             "ret": false
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@1",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL1",
             "qty": 1,
             "ret": false
           }
@@ -1398,7 +1398,7 @@
             "ret": true
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@2",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL2",
             "qty": 10,
             "ret": true
           }
@@ -1419,7 +1419,7 @@
             "ret": false
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@2",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL2",
             "qty": 1,
             "ret": false
           }
@@ -1445,7 +1445,7 @@
             "ret": true
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@3",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL3",
             "qty": 10,
             "ret": true
           }
@@ -1466,7 +1466,7 @@
             "ret": false
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@3",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL3",
             "qty": 1,
             "ret": false
           }
@@ -1526,7 +1526,7 @@
             "ret": true
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@1",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL1",
             "qty": 15,
             "ret": true
           }
@@ -1547,7 +1547,7 @@
             "ret": false
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@1",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL1",
             "qty": 3,
             "ret": false
           }
@@ -1573,7 +1573,7 @@
             "ret": true
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@2",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL2",
             "qty": 15,
             "ret": true
           }
@@ -1594,7 +1594,7 @@
             "ret": false
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@2",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL2",
             "qty": 3,
             "ret": false
           }
@@ -1620,7 +1620,7 @@
             "ret": true
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@3",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL3",
             "qty": 15,
             "ret": true
           }
@@ -1641,7 +1641,7 @@
             "ret": false
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@3",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL3",
             "qty": 3,
             "ret": false
           }
@@ -1701,7 +1701,7 @@
             "ret": true
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@1",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL1",
             "qty": 10,
             "ret": true
           }
@@ -1722,7 +1722,7 @@
             "ret": false
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@1",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL1",
             "qty": 1,
             "ret": false
           }
@@ -1748,7 +1748,7 @@
             "ret": true
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@2",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL2",
             "qty": 10,
             "ret": true
           }
@@ -1769,7 +1769,7 @@
             "ret": false
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@2",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL2",
             "qty": 1,
             "ret": false
           }
@@ -1795,7 +1795,7 @@
             "ret": true
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@3",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL3",
             "qty": 10,
             "ret": true
           }
@@ -1816,7 +1816,7 @@
             "ret": false
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@3",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL3",
             "qty": 1,
             "ret": false
           }
@@ -1876,7 +1876,7 @@
             "ret": true
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@1",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL1",
             "qty": 15,
             "ret": true
           }
@@ -1897,7 +1897,7 @@
             "ret": false
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@1",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL1",
             "qty": 3,
             "ret": false
           }
@@ -1923,7 +1923,7 @@
             "ret": true
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@2",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL2",
             "qty": 15,
             "ret": true
           }
@@ -1944,7 +1944,7 @@
             "ret": false
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@2",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL2",
             "qty": 3,
             "ret": false
           }
@@ -1970,7 +1970,7 @@
             "ret": true
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@3",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL3",
             "qty": 15,
             "ret": true
           }
@@ -1991,7 +1991,7 @@
             "ret": false
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@3",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL3",
             "qty": 3,
             "ret": false
           }
@@ -2051,7 +2051,7 @@
             "ret": true
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@1",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL1",
             "qty": 10,
             "ret": true
           }
@@ -2072,7 +2072,7 @@
             "ret": false
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@1",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL1",
             "qty": 1,
             "ret": false
           }
@@ -2098,7 +2098,7 @@
             "ret": true
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@2",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL2",
             "qty": 10,
             "ret": true
           }
@@ -2119,7 +2119,7 @@
             "ret": false
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@2",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL2",
             "qty": 1,
             "ret": false
           }
@@ -2145,7 +2145,7 @@
             "ret": true
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@3",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL3",
             "qty": 10,
             "ret": true
           }
@@ -2166,7 +2166,7 @@
             "ret": false
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@3",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL3",
             "qty": 1,
             "ret": false
           }
@@ -2226,7 +2226,7 @@
             "ret": true
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@1",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL1",
             "qty": 10,
             "ret": true
           }
@@ -2247,7 +2247,7 @@
             "ret": false
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@1",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL1",
             "qty": 1,
             "ret": false
           }
@@ -2273,7 +2273,7 @@
             "ret": true
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@2",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL2",
             "qty": 10,
             "ret": true
           }
@@ -2294,7 +2294,7 @@
             "ret": false
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@2",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL2",
             "qty": 1,
             "ret": false
           }
@@ -2320,7 +2320,7 @@
             "ret": true
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@3",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL3",
             "qty": 10,
             "ret": true
           }
@@ -2341,7 +2341,7 @@
             "ret": false
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@3",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL3",
             "qty": 1,
             "ret": false
           }
@@ -2401,7 +2401,7 @@
             "ret": true
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@1",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL1",
             "qty": 5,
             "ret": true
           }
@@ -2422,7 +2422,7 @@
             "ret": false
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@1",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL1",
             "qty": 1,
             "ret": false
           }
@@ -2448,7 +2448,7 @@
             "ret": true
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@2",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL2",
             "qty": 5,
             "ret": true
           }
@@ -2469,7 +2469,7 @@
             "ret": false
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@2",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL2",
             "qty": 1,
             "ret": false
           }
@@ -2495,7 +2495,7 @@
             "ret": true
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@3",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL3",
             "qty": 5,
             "ret": true
           }
@@ -2516,7 +2516,7 @@
             "ret": false
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@3",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL3",
             "qty": 1,
             "ret": false
           }
@@ -2576,7 +2576,7 @@
             "ret": true
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@1",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL1",
             "qty": 10,
             "ret": true
           }
@@ -2597,7 +2597,7 @@
             "ret": false
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@1",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL1",
             "qty": 1,
             "ret": false
           }
@@ -2623,7 +2623,7 @@
             "ret": true
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@2",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL2",
             "qty": 10,
             "ret": true
           }
@@ -2644,7 +2644,7 @@
             "ret": false
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@2",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL2",
             "qty": 1,
             "ret": false
           }
@@ -2670,7 +2670,7 @@
             "ret": true
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@3",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL3",
             "qty": 10,
             "ret": true
           }
@@ -2691,7 +2691,7 @@
             "ret": false
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@3",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL3",
             "qty": 1,
             "ret": false
           }
@@ -2771,7 +2771,7 @@
             "ret": true
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@1",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL1",
             "qty": 30,
             "ret": true
           }
@@ -2792,7 +2792,7 @@
             "ret": false
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@1",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL1",
             "qty": 3,
             "ret": false
           }
@@ -2828,7 +2828,7 @@
             "ret": true
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@2",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL2",
             "qty": 30,
             "ret": true
           }
@@ -2849,7 +2849,7 @@
             "ret": false
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@2",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL2",
             "qty": 3,
             "ret": false
           }
@@ -2885,7 +2885,7 @@
             "ret": true
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@3",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL3",
             "qty": 30,
             "ret": true
           }
@@ -2906,7 +2906,7 @@
             "ret": false
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@3",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL3",
             "qty": 3,
             "ret": false
           }
@@ -2986,7 +2986,7 @@
             "ret": true
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@1",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL1",
             "qty": 30,
             "ret": true
           }
@@ -3007,7 +3007,7 @@
             "ret": false
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@1",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL1",
             "qty": 3,
             "ret": false
           }
@@ -3043,7 +3043,7 @@
             "ret": true
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@2",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL2",
             "qty": 30,
             "ret": true
           }
@@ -3064,7 +3064,7 @@
             "ret": false
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@2",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL2",
             "qty": 3,
             "ret": false
           }
@@ -3100,7 +3100,7 @@
             "ret": true
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@3",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL3",
             "qty": 30,
             "ret": true
           }
@@ -3121,7 +3121,7 @@
             "ret": false
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@3",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL3",
             "qty": 3,
             "ret": false
           }
@@ -3201,7 +3201,7 @@
             "ret": true
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@1",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL1",
             "qty": 30,
             "ret": true
           }
@@ -3222,7 +3222,7 @@
             "ret": false
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@1",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL1",
             "qty": 3,
             "ret": false
           }
@@ -3258,7 +3258,7 @@
             "ret": true
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@2",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL2",
             "qty": 30,
             "ret": true
           }
@@ -3279,7 +3279,7 @@
             "ret": false
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@2",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL2",
             "qty": 3,
             "ret": false
           }
@@ -3315,7 +3315,7 @@
             "ret": true
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@3",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL3",
             "qty": 30,
             "ret": true
           }
@@ -3336,7 +3336,7 @@
             "ret": false
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@3",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL3",
             "qty": 3,
             "ret": false
           }
@@ -3406,7 +3406,7 @@
             "ret": true
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@1",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL1",
             "qty": 15,
             "ret": true
           }
@@ -3427,7 +3427,7 @@
             "ret": false
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@1",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL1",
             "qty": 3,
             "ret": false
           }
@@ -3458,7 +3458,7 @@
             "ret": true
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@2",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL2",
             "qty": 15,
             "ret": true
           }
@@ -3479,7 +3479,7 @@
             "ret": false
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@2",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL2",
             "qty": 3,
             "ret": false
           }
@@ -3510,7 +3510,7 @@
             "ret": true
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@3",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL3",
             "qty": 15,
             "ret": true
           }
@@ -3531,7 +3531,7 @@
             "ret": false
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@3",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL3",
             "qty": 3,
             "ret": false
           }
@@ -3601,7 +3601,7 @@
             "ret": true
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@1",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL1",
             "qty": 15,
             "ret": true
           }
@@ -3622,7 +3622,7 @@
             "ret": false
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@1",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL1",
             "qty": 3,
             "ret": false
           }
@@ -3653,7 +3653,7 @@
             "ret": true
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@2",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL2",
             "qty": 15,
             "ret": true
           }
@@ -3674,7 +3674,7 @@
             "ret": false
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@2",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL2",
             "qty": 3,
             "ret": false
           }
@@ -3705,7 +3705,7 @@
             "ret": true
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@3",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL3",
             "qty": 15,
             "ret": true
           }
@@ -3726,7 +3726,7 @@
             "ret": false
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@3",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL3",
             "qty": 3,
             "ret": false
           }
@@ -3796,7 +3796,7 @@
             "ret": true
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@1",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL1",
             "qty": 15,
             "ret": true
           }
@@ -3817,7 +3817,7 @@
             "ret": false
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@1",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL1",
             "qty": 3,
             "ret": false
           }
@@ -3848,7 +3848,7 @@
             "ret": true
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@2",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL2",
             "qty": 15,
             "ret": true
           }
@@ -3869,7 +3869,7 @@
             "ret": false
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@2",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL2",
             "qty": 3,
             "ret": false
           }
@@ -3900,7 +3900,7 @@
             "ret": true
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@3",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL3",
             "qty": 15,
             "ret": true
           }
@@ -3921,7 +3921,7 @@
             "ret": false
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@3",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL3",
             "qty": 3,
             "ret": false
           }
@@ -4001,7 +4001,7 @@
             "ret": true
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@1",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL1",
             "qty": 30,
             "ret": true
           }
@@ -4022,7 +4022,7 @@
             "ret": false
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@1",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL1",
             "qty": 3,
             "ret": false
           }
@@ -4058,7 +4058,7 @@
             "ret": true
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@2",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL2",
             "qty": 30,
             "ret": true
           }
@@ -4079,7 +4079,7 @@
             "ret": false
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@2",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL2",
             "qty": 3,
             "ret": false
           }
@@ -4115,7 +4115,7 @@
             "ret": true
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@3",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL3",
             "qty": 30,
             "ret": true
           }
@@ -4136,7 +4136,7 @@
             "ret": false
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@3",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL3",
             "qty": 3,
             "ret": false
           }
@@ -4206,7 +4206,7 @@
             "ret": true
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@1",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL1",
             "qty": 45,
             "ret": true
           }
@@ -4227,7 +4227,7 @@
             "ret": false
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@1",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL1",
             "qty": 9,
             "ret": false
           }
@@ -4258,7 +4258,7 @@
             "ret": true
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@2",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL2",
             "qty": 45,
             "ret": true
           }
@@ -4279,7 +4279,7 @@
             "ret": false
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@2",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL2",
             "qty": 9,
             "ret": false
           }
@@ -4310,7 +4310,7 @@
             "ret": true
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@3",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL3",
             "qty": 45,
             "ret": true
           }
@@ -4331,7 +4331,7 @@
             "ret": false
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@3",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL3",
             "qty": 9,
             "ret": false
           }
@@ -4411,7 +4411,7 @@
             "ret": true
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@1",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL1",
             "qty": 30,
             "ret": true
           }
@@ -4432,7 +4432,7 @@
             "ret": false
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@1",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL1",
             "qty": 3,
             "ret": false
           }
@@ -4468,7 +4468,7 @@
             "ret": true
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@2",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL2",
             "qty": 30,
             "ret": true
           }
@@ -4489,7 +4489,7 @@
             "ret": false
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@2",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL2",
             "qty": 3,
             "ret": false
           }
@@ -4525,7 +4525,7 @@
             "ret": true
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@3",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL3",
             "qty": 30,
             "ret": true
           }
@@ -4546,7 +4546,7 @@
             "ret": false
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@3",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL3",
             "qty": 3,
             "ret": false
           }
@@ -4616,7 +4616,7 @@
             "ret": true
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@1",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL1",
             "qty": 45,
             "ret": true
           }
@@ -4637,7 +4637,7 @@
             "ret": false
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@1",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL1",
             "qty": 9,
             "ret": false
           }
@@ -4668,7 +4668,7 @@
             "ret": true
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@2",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL2",
             "qty": 45,
             "ret": true
           }
@@ -4689,7 +4689,7 @@
             "ret": false
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@2",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL2",
             "qty": 9,
             "ret": false
           }
@@ -4720,7 +4720,7 @@
             "ret": true
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@3",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL3",
             "qty": 45,
             "ret": true
           }
@@ -4741,7 +4741,7 @@
             "ret": false
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@3",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL3",
             "qty": 9,
             "ret": false
           }
@@ -4821,7 +4821,7 @@
             "ret": true
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@1",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL1",
             "qty": 30,
             "ret": true
           }
@@ -4842,7 +4842,7 @@
             "ret": false
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@1",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL1",
             "qty": 3,
             "ret": false
           }
@@ -4878,7 +4878,7 @@
             "ret": true
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@2",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL2",
             "qty": 30,
             "ret": true
           }
@@ -4899,7 +4899,7 @@
             "ret": false
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@2",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL2",
             "qty": 3,
             "ret": false
           }
@@ -4935,7 +4935,7 @@
             "ret": true
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@3",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL3",
             "qty": 30,
             "ret": true
           }
@@ -4956,7 +4956,7 @@
             "ret": false
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@3",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL3",
             "qty": 3,
             "ret": false
           }
@@ -5036,7 +5036,7 @@
             "ret": true
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@1",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL1",
             "qty": 30,
             "ret": true
           }
@@ -5057,7 +5057,7 @@
             "ret": false
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@1",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL1",
             "qty": 3,
             "ret": false
           }
@@ -5093,7 +5093,7 @@
             "ret": true
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@2",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL2",
             "qty": 30,
             "ret": true
           }
@@ -5114,7 +5114,7 @@
             "ret": false
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@2",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL2",
             "qty": 3,
             "ret": false
           }
@@ -5150,7 +5150,7 @@
             "ret": true
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@3",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL3",
             "qty": 30,
             "ret": true
           }
@@ -5171,7 +5171,7 @@
             "ret": false
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@3",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL3",
             "qty": 3,
             "ret": false
           }
@@ -5251,7 +5251,7 @@
             "ret": true
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@1",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL1",
             "qty": 15,
             "ret": true
           }
@@ -5272,7 +5272,7 @@
             "ret": false
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@1",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL1",
             "qty": 3,
             "ret": false
           }
@@ -5308,7 +5308,7 @@
             "ret": true
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@2",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL2",
             "qty": 15,
             "ret": true
           }
@@ -5329,7 +5329,7 @@
             "ret": false
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@2",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL2",
             "qty": 3,
             "ret": false
           }
@@ -5365,7 +5365,7 @@
             "ret": true
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@3",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL3",
             "qty": 15,
             "ret": true
           }
@@ -5386,7 +5386,7 @@
             "ret": false
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@3",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL3",
             "qty": 3,
             "ret": false
           }
@@ -5466,7 +5466,7 @@
             "ret": true
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@1",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL1",
             "qty": 30,
             "ret": true
           }
@@ -5487,7 +5487,7 @@
             "ret": false
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@1",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL1",
             "qty": 3,
             "ret": false
           }
@@ -5523,7 +5523,7 @@
             "ret": true
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@2",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL2",
             "qty": 30,
             "ret": true
           }
@@ -5544,7 +5544,7 @@
             "ret": false
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@2",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL2",
             "qty": 3,
             "ret": false
           }
@@ -5580,7 +5580,7 @@
             "ret": true
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@3",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL3",
             "qty": 30,
             "ret": true
           }
@@ -5601,7 +5601,7 @@
             "ret": false
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@3",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL3",
             "qty": 3,
             "ret": false
           }
@@ -5701,7 +5701,7 @@
             "ret": true
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@1",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL1",
             "qty": 90,
             "ret": true
           }
@@ -5722,7 +5722,7 @@
             "ret": false
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@1",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL1",
             "qty": 9,
             "ret": false
           }
@@ -5768,7 +5768,7 @@
             "ret": true
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@2",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL2",
             "qty": 90,
             "ret": true
           }
@@ -5789,7 +5789,7 @@
             "ret": false
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@2",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL2",
             "qty": 9,
             "ret": false
           }
@@ -5835,7 +5835,7 @@
             "ret": true
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@3",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL3",
             "qty": 90,
             "ret": true
           }
@@ -5856,7 +5856,7 @@
             "ret": false
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@3",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL3",
             "qty": 9,
             "ret": false
           }
@@ -5956,7 +5956,7 @@
             "ret": true
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@1",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL1",
             "qty": 90,
             "ret": true
           }
@@ -5977,7 +5977,7 @@
             "ret": false
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@1",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL1",
             "qty": 9,
             "ret": false
           }
@@ -6023,7 +6023,7 @@
             "ret": true
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@2",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL2",
             "qty": 90,
             "ret": true
           }
@@ -6044,7 +6044,7 @@
             "ret": false
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@2",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL2",
             "qty": 9,
             "ret": false
           }
@@ -6090,7 +6090,7 @@
             "ret": true
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@3",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL3",
             "qty": 90,
             "ret": true
           }
@@ -6111,7 +6111,7 @@
             "ret": false
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@3",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL3",
             "qty": 9,
             "ret": false
           }
@@ -6211,7 +6211,7 @@
             "ret": true
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@1",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL1",
             "qty": 90,
             "ret": true
           }
@@ -6232,7 +6232,7 @@
             "ret": false
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@1",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL1",
             "qty": 9,
             "ret": false
           }
@@ -6278,7 +6278,7 @@
             "ret": true
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@2",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL2",
             "qty": 90,
             "ret": true
           }
@@ -6299,7 +6299,7 @@
             "ret": false
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@2",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL2",
             "qty": 9,
             "ret": false
           }
@@ -6345,7 +6345,7 @@
             "ret": true
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@3",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL3",
             "qty": 90,
             "ret": true
           }
@@ -6366,7 +6366,7 @@
             "ret": false
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@3",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL3",
             "qty": 9,
             "ret": false
           }
@@ -6446,7 +6446,7 @@
             "ret": true
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@1",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL1",
             "qty": 45,
             "ret": true
           }
@@ -6467,7 +6467,7 @@
             "ret": false
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@1",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL1",
             "qty": 9,
             "ret": false
           }
@@ -6503,7 +6503,7 @@
             "ret": true
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@2",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL2",
             "qty": 45,
             "ret": true
           }
@@ -6524,7 +6524,7 @@
             "ret": false
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@2",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL2",
             "qty": 9,
             "ret": false
           }
@@ -6560,7 +6560,7 @@
             "ret": true
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@3",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL3",
             "qty": 45,
             "ret": true
           }
@@ -6581,7 +6581,7 @@
             "ret": false
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@3",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL3",
             "qty": 9,
             "ret": false
           }
@@ -6671,7 +6671,7 @@
             "ret": true
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@1",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL1",
             "qty": 45,
             "ret": true
           }
@@ -6692,7 +6692,7 @@
             "ret": false
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@1",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL1",
             "qty": 9,
             "ret": false
           }
@@ -6733,7 +6733,7 @@
             "ret": true
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@2",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL2",
             "qty": 45,
             "ret": true
           }
@@ -6754,7 +6754,7 @@
             "ret": false
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@2",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL2",
             "qty": 9,
             "ret": false
           }
@@ -6795,7 +6795,7 @@
             "ret": true
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@3",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL3",
             "qty": 45,
             "ret": true
           }
@@ -6816,7 +6816,7 @@
             "ret": false
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@3",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL3",
             "qty": 9,
             "ret": false
           }
@@ -6906,7 +6906,7 @@
             "ret": true
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@1",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL1",
             "qty": 45,
             "ret": true
           }
@@ -6927,7 +6927,7 @@
             "ret": false
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@1",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL1",
             "qty": 9,
             "ret": false
           }
@@ -6968,7 +6968,7 @@
             "ret": true
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@2",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL2",
             "qty": 45,
             "ret": true
           }
@@ -6989,7 +6989,7 @@
             "ret": false
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@2",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL2",
             "qty": 9,
             "ret": false
           }
@@ -7030,7 +7030,7 @@
             "ret": true
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@3",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL3",
             "qty": 45,
             "ret": true
           }
@@ -7051,7 +7051,7 @@
             "ret": false
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@3",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL3",
             "qty": 9,
             "ret": false
           }
@@ -7151,7 +7151,7 @@
             "ret": true
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@1",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL1",
             "qty": 90,
             "ret": true
           }
@@ -7172,7 +7172,7 @@
             "ret": false
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@1",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL1",
             "qty": 9,
             "ret": false
           }
@@ -7218,7 +7218,7 @@
             "ret": true
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@2",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL2",
             "qty": 90,
             "ret": true
           }
@@ -7239,7 +7239,7 @@
             "ret": false
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@2",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL2",
             "qty": 9,
             "ret": false
           }
@@ -7285,7 +7285,7 @@
             "ret": true
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@3",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL3",
             "qty": 90,
             "ret": true
           }
@@ -7306,7 +7306,7 @@
             "ret": false
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@3",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL3",
             "qty": 9,
             "ret": false
           }
@@ -7406,7 +7406,7 @@
             "ret": true
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@1",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL1",
             "qty": 90,
             "ret": true
           }
@@ -7427,7 +7427,7 @@
             "ret": false
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@1",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL1",
             "qty": 9,
             "ret": false
           }
@@ -7473,7 +7473,7 @@
             "ret": true
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@2",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL2",
             "qty": 90,
             "ret": true
           }
@@ -7494,7 +7494,7 @@
             "ret": false
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@2",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL2",
             "qty": 9,
             "ret": false
           }
@@ -7540,7 +7540,7 @@
             "ret": true
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@3",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL3",
             "qty": 90,
             "ret": true
           }
@@ -7561,7 +7561,7 @@
             "ret": false
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@3",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL3",
             "qty": 9,
             "ret": false
           }
@@ -7661,7 +7661,7 @@
             "ret": true
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@1",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL1",
             "qty": 90,
             "ret": true
           }
@@ -7682,7 +7682,7 @@
             "ret": false
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@1",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL1",
             "qty": 9,
             "ret": false
           }
@@ -7728,7 +7728,7 @@
             "ret": true
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@2",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL2",
             "qty": 90,
             "ret": true
           }
@@ -7749,7 +7749,7 @@
             "ret": false
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@2",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL2",
             "qty": 9,
             "ret": false
           }
@@ -7795,7 +7795,7 @@
             "ret": true
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@3",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL3",
             "qty": 90,
             "ret": true
           }
@@ -7816,7 +7816,7 @@
             "ret": false
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@3",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL3",
             "qty": 9,
             "ret": false
           }
@@ -7906,7 +7906,7 @@
             "ret": true
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@1",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL1",
             "qty": 45,
             "ret": true
           }
@@ -7927,7 +7927,7 @@
             "ret": false
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@1",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL1",
             "qty": 9,
             "ret": false
           }
@@ -7968,7 +7968,7 @@
             "ret": true
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@2",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL2",
             "qty": 45,
             "ret": true
           }
@@ -7989,7 +7989,7 @@
             "ret": false
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@2",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL2",
             "qty": 9,
             "ret": false
           }
@@ -8030,7 +8030,7 @@
             "ret": true
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@3",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL3",
             "qty": 45,
             "ret": true
           }
@@ -8051,7 +8051,7 @@
             "ret": false
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@3",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL3",
             "qty": 9,
             "ret": false
           }
@@ -8151,7 +8151,7 @@
             "ret": true
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@1",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL1",
             "qty": 90,
             "ret": true
           }
@@ -8172,7 +8172,7 @@
             "ret": false
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@1",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL1",
             "qty": 9,
             "ret": false
           }
@@ -8218,7 +8218,7 @@
             "ret": true
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@2",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL2",
             "qty": 90,
             "ret": true
           }
@@ -8239,7 +8239,7 @@
             "ret": false
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@2",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL2",
             "qty": 9,
             "ret": false
           }
@@ -8285,7 +8285,7 @@
             "ret": true
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@3",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL3",
             "qty": 90,
             "ret": true
           }
@@ -8306,7 +8306,7 @@
             "ret": false
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@3",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL3",
             "qty": 9,
             "ret": false
           }
@@ -8396,7 +8396,7 @@
             "ret": true
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@1",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL1",
             "qty": 45,
             "ret": true
           }
@@ -8417,7 +8417,7 @@
             "ret": false
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@1",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL1",
             "qty": 9,
             "ret": false
           }
@@ -8458,7 +8458,7 @@
             "ret": true
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@2",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL2",
             "qty": 45,
             "ret": true
           }
@@ -8479,7 +8479,7 @@
             "ret": false
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@2",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL2",
             "qty": 9,
             "ret": false
           }
@@ -8520,7 +8520,7 @@
             "ret": true
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@3",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL3",
             "qty": 45,
             "ret": true
           }
@@ -8541,7 +8541,7 @@
             "ret": false
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@3",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL3",
             "qty": 9,
             "ret": false
           }
@@ -8641,7 +8641,7 @@
             "ret": true
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@1",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL1",
             "qty": 90,
             "ret": true
           }
@@ -8662,7 +8662,7 @@
             "ret": false
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@1",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL1",
             "qty": 9,
             "ret": false
           }
@@ -8708,7 +8708,7 @@
             "ret": true
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@2",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL2",
             "qty": 90,
             "ret": true
           }
@@ -8729,7 +8729,7 @@
             "ret": false
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@2",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL2",
             "qty": 9,
             "ret": false
           }
@@ -8775,7 +8775,7 @@
             "ret": true
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@3",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL3",
             "qty": 90,
             "ret": true
           }
@@ -8796,7 +8796,7 @@
             "ret": false
           },
           {
-            "id": "T1_ALCHEMY_EXTRACT@3",
+            "id": "T1_ALCHEMY_EXTRACT_LEVEL3",
             "qty": 9,
             "ret": false
           }

@@ -295,7 +295,7 @@
     "name": "Grandmaster's Cryptcandle",
     "weight": 5.7
   },
-  "T7_PLANKS@1": {
+  "T7_PLANKS_LEVEL1@1": {
     "name": "Uncommon Ashenbark Planks",
     "weight": 1.71
   },
@@ -303,7 +303,7 @@
     "name": "Grandmaster's Cryptcandle",
     "weight": 5.7
   },
-  "T7_PLANKS@2": {
+  "T7_PLANKS_LEVEL2@2": {
     "name": "Rare Ashenbark Planks",
     "weight": 1.71
   },
@@ -311,7 +311,7 @@
     "name": "Grandmaster's Cryptcandle",
     "weight": 5.7
   },
-  "T7_PLANKS@3": {
+  "T7_PLANKS_LEVEL3@3": {
     "name": "Exceptional Ashenbark Planks",
     "weight": 1.71
   },
@@ -319,7 +319,7 @@
     "name": "Grandmaster's Cryptcandle",
     "weight": 5.7
   },
-  "T7_PLANKS@4": {
+  "T7_PLANKS_LEVEL4@4": {
     "name": "Pristine Ashenbark Planks",
     "weight": 1.71
   },
@@ -735,7 +735,7 @@
     "name": "Elder's Cryptcandle",
     "weight": 8.5
   },
-  "T8_PLANKS@1": {
+  "T8_PLANKS_LEVEL1@1": {
     "name": "Uncommon Whitewood Planks",
     "weight": 2.56
   },
@@ -743,7 +743,7 @@
     "name": "Elder's Cryptcandle",
     "weight": 8.5
   },
-  "T8_PLANKS@2": {
+  "T8_PLANKS_LEVEL2@2": {
     "name": "Rare Whitewood Planks",
     "weight": 2.56
   },
@@ -751,7 +751,7 @@
     "name": "Elder's Cryptcandle",
     "weight": 8.5
   },
-  "T8_PLANKS@3": {
+  "T8_PLANKS_LEVEL3@3": {
     "name": "Exceptional Whitewood Planks",
     "weight": 2.56
   },
@@ -759,7 +759,7 @@
     "name": "Elder's Cryptcandle",
     "weight": 8.5
   },
-  "T8_PLANKS@4": {
+  "T8_PLANKS_LEVEL4@4": {
     "name": "Pristine Whitewood Planks",
     "weight": 2.56
   },
@@ -1143,7 +1143,7 @@
     "name": "Minor Energy Potion",
     "weight": 0.1
   },
-  "T1_ALCHEMY_EXTRACT@1": {
+  "T1_ALCHEMY_EXTRACT_LEVEL1": {
     "name": "Basic Arcane Extract",
     "weight": 1
   },
@@ -1151,7 +1151,7 @@
     "name": "Minor Energy Potion",
     "weight": 0.1
   },
-  "T1_ALCHEMY_EXTRACT@2": {
+  "T1_ALCHEMY_EXTRACT_LEVEL2": {
     "name": "Refined Arcane Extract",
     "weight": 1.5
   },
@@ -1159,7 +1159,7 @@
     "name": "Minor Energy Potion",
     "weight": 0.1
   },
-  "T1_ALCHEMY_EXTRACT@3": {
+  "T1_ALCHEMY_EXTRACT_LEVEL3": {
     "name": "Pure Arcane Extract",
     "weight": 2
   },
@@ -1983,19 +1983,19 @@
     "name": "Hemp",
     "weight": 0.51
   },
-  "T4_FIBER@1": {
+  "T4_FIBER_LEVEL1@1": {
     "name": "Uncommon Hemp",
     "weight": 0.51
   },
-  "T4_FIBER@2": {
+  "T4_FIBER_LEVEL2@2": {
     "name": "Rare Hemp",
     "weight": 0.51
   },
-  "T4_FIBER@3": {
+  "T4_FIBER_LEVEL3@3": {
     "name": "Exceptional Hemp",
     "weight": 0.51
   },
-  "T4_FIBER@4": {
+  "T4_FIBER_LEVEL4@4": {
     "name": "Pristine Hemp",
     "weight": 0.51
   },
@@ -2003,19 +2003,19 @@
     "name": "Pine Logs",
     "weight": 0.51
   },
-  "T4_WOOD@1": {
+  "T4_WOOD_LEVEL1@1": {
     "name": "Uncommon Pine Logs",
     "weight": 0.51
   },
-  "T4_WOOD@2": {
+  "T4_WOOD_LEVEL2@2": {
     "name": "Rare Pine Logs",
     "weight": 0.51
   },
-  "T4_WOOD@3": {
+  "T4_WOOD_LEVEL3@3": {
     "name": "Exceptional Pine Logs",
     "weight": 0.51
   },
-  "T4_WOOD@4": {
+  "T4_WOOD_LEVEL4@4": {
     "name": "Pristine Pine Logs",
     "weight": 0.51
   },
@@ -2027,7 +2027,7 @@
     "name": "Travertine",
     "weight": 0.51
   },
-  "T4_ROCK@1": {
+  "T4_ROCK_LEVEL1@1": {
     "name": "Uncommon Travertine",
     "weight": 0.51
   },
@@ -2035,19 +2035,19 @@
     "name": "Iron Ore",
     "weight": 0.51
   },
-  "T4_ORE@1": {
+  "T4_ORE_LEVEL1@1": {
     "name": "Uncommon Iron Ore",
     "weight": 0.51
   },
-  "T4_ORE@2": {
+  "T4_ORE_LEVEL2@2": {
     "name": "Rare Iron Ore",
     "weight": 0.51
   },
-  "T4_ORE@3": {
+  "T4_ORE_LEVEL3@3": {
     "name": "Exceptional Iron Ore",
     "weight": 0.51
   },
-  "T4_ORE@4": {
+  "T4_ORE_LEVEL4@4": {
     "name": "Pristine Iron Ore",
     "weight": 0.51
   },
@@ -2055,19 +2055,19 @@
     "name": "Medium Hide",
     "weight": 0.51
   },
-  "T4_HIDE@1": {
+  "T4_HIDE_LEVEL1@1": {
     "name": "Uncommon Medium Hide",
     "weight": 0.51
   },
-  "T4_HIDE@2": {
+  "T4_HIDE_LEVEL2@2": {
     "name": "Rare Medium Hide",
     "weight": 0.51
   },
-  "T4_HIDE@3": {
+  "T4_HIDE_LEVEL3@3": {
     "name": "Exceptional Medium Hide",
     "weight": 0.51
   },
-  "T4_HIDE@4": {
+  "T4_HIDE_LEVEL4@4": {
     "name": "Pristine Medium Hide",
     "weight": 0.51
   },
@@ -2075,19 +2075,19 @@
     "name": "Cedar Logs",
     "weight": 0.76
   },
-  "T5_WOOD@1": {
+  "T5_WOOD_LEVEL1@1": {
     "name": "Uncommon Cedar Logs",
     "weight": 0.76
   },
-  "T5_WOOD@2": {
+  "T5_WOOD_LEVEL2@2": {
     "name": "Rare Cedar Logs",
     "weight": 0.76
   },
-  "T5_WOOD@3": {
+  "T5_WOOD_LEVEL3@3": {
     "name": "Exceptional Cedar Logs",
     "weight": 0.76
   },
-  "T5_WOOD@4": {
+  "T5_WOOD_LEVEL4@4": {
     "name": "Pristine Cedar Logs",
     "weight": 0.76
   },
@@ -2095,19 +2095,19 @@
     "name": "Heavy Hide",
     "weight": 0.76
   },
-  "T5_HIDE@1": {
+  "T5_HIDE_LEVEL1@1": {
     "name": "Uncommon Heavy Hide",
     "weight": 0.76
   },
-  "T5_HIDE@2": {
+  "T5_HIDE_LEVEL2@2": {
     "name": "Rare Heavy Hide",
     "weight": 0.76
   },
-  "T5_HIDE@3": {
+  "T5_HIDE_LEVEL3@3": {
     "name": "Exceptional Heavy Hide",
     "weight": 0.76
   },
-  "T5_HIDE@4": {
+  "T5_HIDE_LEVEL4@4": {
     "name": "Pristine Heavy Hide",
     "weight": 0.76
   },
@@ -2115,19 +2115,19 @@
     "name": "Skyflower",
     "weight": 0.76
   },
-  "T5_FIBER@1": {
+  "T5_FIBER_LEVEL1@1": {
     "name": "Uncommon Skyflower",
     "weight": 0.76
   },
-  "T5_FIBER@2": {
+  "T5_FIBER_LEVEL2@2": {
     "name": "Rare Skyflower",
     "weight": 0.76
   },
-  "T5_FIBER@3": {
+  "T5_FIBER_LEVEL3@3": {
     "name": "Exceptional Skyflower",
     "weight": 0.76
   },
-  "T5_FIBER@4": {
+  "T5_FIBER_LEVEL4@4": {
     "name": "Pristine Skyflower",
     "weight": 0.76
   },
@@ -2135,19 +2135,19 @@
     "name": "Titanium Ore",
     "weight": 0.76
   },
-  "T5_ORE@1": {
+  "T5_ORE_LEVEL1@1": {
     "name": "Uncommon Titanium Ore",
     "weight": 0.76
   },
-  "T5_ORE@2": {
+  "T5_ORE_LEVEL2@2": {
     "name": "Rare Titanium Ore",
     "weight": 0.76
   },
-  "T5_ORE@3": {
+  "T5_ORE_LEVEL3@3": {
     "name": "Exceptional Titanium Ore",
     "weight": 0.76
   },
-  "T5_ORE@4": {
+  "T5_ORE_LEVEL4@4": {
     "name": "Pristine Titanium Ore",
     "weight": 0.76
   },
@@ -2159,7 +2159,7 @@
     "name": "Granite",
     "weight": 0.76
   },
-  "T5_ROCK@1": {
+  "T5_ROCK_LEVEL1@1": {
     "name": "Uncommon Granite",
     "weight": 0.76
   },
@@ -2167,19 +2167,19 @@
     "name": "Bloodoak Logs",
     "weight": 1.14
   },
-  "T6_WOOD@1": {
+  "T6_WOOD_LEVEL1@1": {
     "name": "Uncommon Bloodoak Logs",
     "weight": 1.14
   },
-  "T6_WOOD@2": {
+  "T6_WOOD_LEVEL2@2": {
     "name": "Rare Bloodoak Logs",
     "weight": 1.14
   },
-  "T6_WOOD@3": {
+  "T6_WOOD_LEVEL3@3": {
     "name": "Exceptional Bloodoak Logs",
     "weight": 1.14
   },
-  "T6_WOOD@4": {
+  "T6_WOOD_LEVEL4@4": {
     "name": "Pristine Bloodoak Logs",
     "weight": 1.14
   },
@@ -2191,7 +2191,7 @@
     "name": "Slate",
     "weight": 1.14
   },
-  "T6_ROCK@1": {
+  "T6_ROCK_LEVEL1@1": {
     "name": "Uncommon Slate",
     "weight": 1.14
   },
@@ -2199,19 +2199,19 @@
     "name": "Robust Hide",
     "weight": 1.14
   },
-  "T6_HIDE@1": {
+  "T6_HIDE_LEVEL1@1": {
     "name": "Uncommon Robust Hide",
     "weight": 1.14
   },
-  "T6_HIDE@2": {
+  "T6_HIDE_LEVEL2@2": {
     "name": "Rare Robust Hide",
     "weight": 1.14
   },
-  "T6_HIDE@3": {
+  "T6_HIDE_LEVEL3@3": {
     "name": "Exceptional Robust Hide",
     "weight": 1.14
   },
-  "T6_HIDE@4": {
+  "T6_HIDE_LEVEL4@4": {
     "name": "Pristine Robust Hide",
     "weight": 1.14
   },
@@ -2219,19 +2219,19 @@
     "name": "Amberleaf Cotton",
     "weight": 1.14
   },
-  "T6_FIBER@1": {
+  "T6_FIBER_LEVEL1@1": {
     "name": "Uncommon Amberleaf Cotton",
     "weight": 1.14
   },
-  "T6_FIBER@2": {
+  "T6_FIBER_LEVEL2@2": {
     "name": "Rare Amberleaf Cotton",
     "weight": 1.14
   },
-  "T6_FIBER@3": {
+  "T6_FIBER_LEVEL3@3": {
     "name": "Exceptional Amberleaf Cotton",
     "weight": 1.14
   },
-  "T6_FIBER@4": {
+  "T6_FIBER_LEVEL4@4": {
     "name": "Pristine Amberleaf Cotton",
     "weight": 1.14
   },
@@ -2239,19 +2239,19 @@
     "name": "Runite Ore",
     "weight": 1.14
   },
-  "T6_ORE@1": {
+  "T6_ORE_LEVEL1@1": {
     "name": "Uncommon Runite Ore",
     "weight": 1.14
   },
-  "T6_ORE@2": {
+  "T6_ORE_LEVEL2@2": {
     "name": "Rare Runite Ore",
     "weight": 1.14
   },
-  "T6_ORE@3": {
+  "T6_ORE_LEVEL3@3": {
     "name": "Exceptional Runite Ore",
     "weight": 1.14
   },
-  "T6_ORE@4": {
+  "T6_ORE_LEVEL4@4": {
     "name": "Pristine Runite Ore",
     "weight": 1.14
   },
@@ -2259,19 +2259,19 @@
     "name": "Ashenbark Logs",
     "weight": 1.71
   },
-  "T7_WOOD@1": {
+  "T7_WOOD_LEVEL1@1": {
     "name": "Uncommon Ashenbark Logs",
     "weight": 1.71
   },
-  "T7_WOOD@2": {
+  "T7_WOOD_LEVEL2@2": {
     "name": "Rare Ashenbark Logs",
     "weight": 1.71
   },
-  "T7_WOOD@3": {
+  "T7_WOOD_LEVEL3@3": {
     "name": "Exceptional Ashenbark Logs",
     "weight": 1.71
   },
-  "T7_WOOD@4": {
+  "T7_WOOD_LEVEL4@4": {
     "name": "Pristine Ashenbark Logs",
     "weight": 1.71
   },
@@ -2279,19 +2279,19 @@
     "name": "Meteorite Ore",
     "weight": 1.71
   },
-  "T7_ORE@1": {
+  "T7_ORE_LEVEL1@1": {
     "name": "Uncommon Meteorite Ore",
     "weight": 1.71
   },
-  "T7_ORE@2": {
+  "T7_ORE_LEVEL2@2": {
     "name": "Rare Meteorite Ore",
     "weight": 1.71
   },
-  "T7_ORE@3": {
+  "T7_ORE_LEVEL3@3": {
     "name": "Exceptional Meteorite Ore",
     "weight": 1.71
   },
-  "T7_ORE@4": {
+  "T7_ORE_LEVEL4@4": {
     "name": "Pristine Meteorite Ore",
     "weight": 1.71
   },
@@ -2299,19 +2299,19 @@
     "name": "Sunflax",
     "weight": 1.71
   },
-  "T7_FIBER@1": {
+  "T7_FIBER_LEVEL1@1": {
     "name": "Uncommon Sunflax",
     "weight": 1.71
   },
-  "T7_FIBER@2": {
+  "T7_FIBER_LEVEL2@2": {
     "name": "Rare Sunflax",
     "weight": 1.71
   },
-  "T7_FIBER@3": {
+  "T7_FIBER_LEVEL3@3": {
     "name": "Exceptional Sunflax",
     "weight": 1.71
   },
-  "T7_FIBER@4": {
+  "T7_FIBER_LEVEL4@4": {
     "name": "Pristine Sunflax",
     "weight": 1.71
   },
@@ -2319,19 +2319,19 @@
     "name": "Thick Hide",
     "weight": 1.71
   },
-  "T7_HIDE@1": {
+  "T7_HIDE_LEVEL1@1": {
     "name": "Uncommon Thick Hide",
     "weight": 1.71
   },
-  "T7_HIDE@2": {
+  "T7_HIDE_LEVEL2@2": {
     "name": "Rare Thick Hide",
     "weight": 1.71
   },
-  "T7_HIDE@3": {
+  "T7_HIDE_LEVEL3@3": {
     "name": "Exceptional Thick Hide",
     "weight": 1.71
   },
-  "T7_HIDE@4": {
+  "T7_HIDE_LEVEL4@4": {
     "name": "Pristine Thick Hide",
     "weight": 1.71
   },
@@ -2343,7 +2343,7 @@
     "name": "Basalt",
     "weight": 1.71
   },
-  "T7_ROCK@1": {
+  "T7_ROCK_LEVEL1@1": {
     "name": "Uncommon Basalt",
     "weight": 1.71
   },
@@ -2351,19 +2351,19 @@
     "name": "Adamantium Ore",
     "weight": 2.56
   },
-  "T8_ORE@1": {
+  "T8_ORE_LEVEL1@1": {
     "name": "Uncommon Adamantium Ore",
     "weight": 2.56
   },
-  "T8_ORE@2": {
+  "T8_ORE_LEVEL2@2": {
     "name": "Rare Adamantium Ore",
     "weight": 2.56
   },
-  "T8_ORE@3": {
+  "T8_ORE_LEVEL3@3": {
     "name": "Exceptional Adamantium Ore",
     "weight": 2.56
   },
-  "T8_ORE@4": {
+  "T8_ORE_LEVEL4@4": {
     "name": "Pristine Adamantium Ore",
     "weight": 2.56
   },
@@ -2371,19 +2371,19 @@
     "name": "Ghost Hemp",
     "weight": 2.56
   },
-  "T8_FIBER@1": {
+  "T8_FIBER_LEVEL1@1": {
     "name": "Uncommon Ghost Hemp",
     "weight": 2.56
   },
-  "T8_FIBER@2": {
+  "T8_FIBER_LEVEL2@2": {
     "name": "Rare Ghost Hemp",
     "weight": 2.56
   },
-  "T8_FIBER@3": {
+  "T8_FIBER_LEVEL3@3": {
     "name": "Exceptional Ghost Hemp",
     "weight": 2.56
   },
-  "T8_FIBER@4": {
+  "T8_FIBER_LEVEL4@4": {
     "name": "Pristine Ghost Hemp",
     "weight": 2.56
   },
@@ -2395,7 +2395,7 @@
     "name": "Marble",
     "weight": 2.56
   },
-  "T8_ROCK@1": {
+  "T8_ROCK_LEVEL1@1": {
     "name": "Uncommon Marble",
     "weight": 2.56
   },
@@ -2403,19 +2403,19 @@
     "name": "Resilient Hide",
     "weight": 2.56
   },
-  "T8_HIDE@1": {
+  "T8_HIDE_LEVEL1@1": {
     "name": "Uncommon Resilient Hide",
     "weight": 2.56
   },
-  "T8_HIDE@2": {
+  "T8_HIDE_LEVEL2@2": {
     "name": "Rare Resilient Hide",
     "weight": 2.56
   },
-  "T8_HIDE@3": {
+  "T8_HIDE_LEVEL3@3": {
     "name": "Exceptional Resilient Hide",
     "weight": 2.56
   },
-  "T8_HIDE@4": {
+  "T8_HIDE_LEVEL4@4": {
     "name": "Pristine Resilient Hide",
     "weight": 2.56
   },
@@ -2423,19 +2423,19 @@
     "name": "Whitewood Logs",
     "weight": 2.56
   },
-  "T8_WOOD@1": {
+  "T8_WOOD_LEVEL1@1": {
     "name": "Uncommon Whitewood Logs",
     "weight": 2.56
   },
-  "T8_WOOD@2": {
+  "T8_WOOD_LEVEL2@2": {
     "name": "Rare Whitewood Logs",
     "weight": 2.56
   },
-  "T8_WOOD@3": {
+  "T8_WOOD_LEVEL3@3": {
     "name": "Exceptional Whitewood Logs",
     "weight": 2.56
   },
-  "T8_WOOD@4": {
+  "T8_WOOD_LEVEL4@4": {
     "name": "Pristine Whitewood Logs",
     "weight": 2.56
   },

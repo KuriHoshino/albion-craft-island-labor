@@ -283,7 +283,7 @@
     ]
   },
   {
-    "id": "T8_MOUNT_MAMMOTH_BATTLE",
+    "id": "T8_MOUNT_MAMMOTH_BATTLE@1",
     "name": "Elder's Command Mammoth",
     "tier": 8,
     "category": "battle",
@@ -1349,7 +1349,7 @@
     ]
   },
   {
-    "id": "T5_MOUNT_COUGAR_KEEPER",
+    "id": "T5_MOUNT_COUGAR_KEEPER@1",
     "name": "Swiftclaw",
     "tier": 5,
     "category": "rare",
@@ -1728,7 +1728,7 @@
     ]
   },
   {
-    "id": "T8_MOUNT_ARMORED_HORSE_MORGANA",
+    "id": "T8_MOUNT_ARMORED_HORSE_MORGANA@1",
     "name": "Morgana Nightmare",
     "tier": 8,
     "category": "rare",
@@ -1762,7 +1762,7 @@
     ]
   },
   {
-    "id": "T8_MOUNT_COUGAR_KEEPER",
+    "id": "T8_MOUNT_COUGAR_KEEPER@1",
     "name": "Rageclaw",
     "tier": 8,
     "category": "rare",
@@ -1796,7 +1796,7 @@
     ]
   },
   {
-    "id": "T8_MOUNT_HORSE_UNDEAD",
+    "id": "T8_MOUNT_HORSE_UNDEAD@1",
     "name": "Spectral Bonehorse",
     "tier": 8,
     "category": "rare",
@@ -1830,7 +1830,7 @@
     ]
   },
   {
-    "id": "T8_MOUNT_RABBIT_EASTER_DARK",
+    "id": "T8_MOUNT_RABBIT_EASTER_DARK@1",
     "name": "Caerleon Cottontail",
     "tier": 8,
     "category": "rare",

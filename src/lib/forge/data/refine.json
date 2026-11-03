@@ -356,7 +356,7 @@
         "fame": 45,
         "mats": [
           {
-            "id": "T4_FIBER@1",
+            "id": "T4_FIBER_LEVEL1@1",
             "qty": 2,
             "ret": true
           },
@@ -377,7 +377,7 @@
         "fame": 90,
         "mats": [
           {
-            "id": "T4_FIBER@2",
+            "id": "T4_FIBER_LEVEL2@2",
             "qty": 2,
             "ret": true
           },
@@ -398,7 +398,7 @@
         "fame": 180,
         "mats": [
           {
-            "id": "T4_FIBER@3",
+            "id": "T4_FIBER_LEVEL3@3",
             "qty": 2,
             "ret": true
           },
@@ -419,7 +419,7 @@
         "fame": 360,
         "mats": [
           {
-            "id": "T4_FIBER@4",
+            "id": "T4_FIBER_LEVEL4@4",
             "qty": 2,
             "ret": true
           },
@@ -474,7 +474,7 @@
         "fame": 45,
         "mats": [
           {
-            "id": "T4_WOOD@1",
+            "id": "T4_WOOD_LEVEL1@1",
             "qty": 2,
             "ret": true
           },
@@ -495,7 +495,7 @@
         "fame": 90,
         "mats": [
           {
-            "id": "T4_WOOD@2",
+            "id": "T4_WOOD_LEVEL2@2",
             "qty": 2,
             "ret": true
           },
@@ -516,7 +516,7 @@
         "fame": 180,
         "mats": [
           {
-            "id": "T4_WOOD@3",
+            "id": "T4_WOOD_LEVEL3@3",
             "qty": 2,
             "ret": true
           },
@@ -537,7 +537,7 @@
         "fame": 360,
         "mats": [
           {
-            "id": "T4_WOOD@4",
+            "id": "T4_WOOD_LEVEL4@4",
             "qty": 2,
             "ret": true
           },
@@ -605,7 +605,7 @@
         "fame": 22.5,
         "mats": [
           {
-            "id": "T4_ROCK@1",
+            "id": "T4_ROCK_LEVEL1@1",
             "qty": 2,
             "ret": true
           },
@@ -660,7 +660,7 @@
         "fame": 45,
         "mats": [
           {
-            "id": "T4_ORE@1",
+            "id": "T4_ORE_LEVEL1@1",
             "qty": 2,
             "ret": true
           },
@@ -681,7 +681,7 @@
         "fame": 90,
         "mats": [
           {
-            "id": "T4_ORE@2",
+            "id": "T4_ORE_LEVEL2@2",
             "qty": 2,
             "ret": true
           },
@@ -702,7 +702,7 @@
         "fame": 180,
         "mats": [
           {
-            "id": "T4_ORE@3",
+            "id": "T4_ORE_LEVEL3@3",
             "qty": 2,
             "ret": true
           },
@@ -723,7 +723,7 @@
         "fame": 360,
         "mats": [
           {
-            "id": "T4_ORE@4",
+            "id": "T4_ORE_LEVEL4@4",
             "qty": 2,
             "ret": true
           },
@@ -778,7 +778,7 @@
         "fame": 45,
         "mats": [
           {
-            "id": "T4_HIDE@1",
+            "id": "T4_HIDE_LEVEL1@1",
             "qty": 2,
             "ret": true
           },
@@ -799,7 +799,7 @@
         "fame": 90,
         "mats": [
           {
-            "id": "T4_HIDE@2",
+            "id": "T4_HIDE_LEVEL2@2",
             "qty": 2,
             "ret": true
           },
@@ -820,7 +820,7 @@
         "fame": 180,
         "mats": [
           {
-            "id": "T4_HIDE@3",
+            "id": "T4_HIDE_LEVEL3@3",
             "qty": 2,
             "ret": true
           },
@@ -841,7 +841,7 @@
         "fame": 360,
         "mats": [
           {
-            "id": "T4_HIDE@4",
+            "id": "T4_HIDE_LEVEL4@4",
             "qty": 2,
             "ret": true
           },
@@ -896,12 +896,12 @@
         "fame": 180,
         "mats": [
           {
-            "id": "T5_WOOD@1",
+            "id": "T5_WOOD_LEVEL1@1",
             "qty": 3,
             "ret": true
           },
           {
-            "id": "T4_PLANKS@1",
+            "id": "T4_PLANKS_LEVEL1@1",
             "qty": 1,
             "ret": true
           }
@@ -917,12 +917,12 @@
         "fame": 360,
         "mats": [
           {
-            "id": "T5_WOOD@2",
+            "id": "T5_WOOD_LEVEL2@2",
             "qty": 3,
             "ret": true
           },
           {
-            "id": "T4_PLANKS@2",
+            "id": "T4_PLANKS_LEVEL2@2",
             "qty": 1,
             "ret": true
           }
@@ -938,12 +938,12 @@
         "fame": 720,
         "mats": [
           {
-            "id": "T5_WOOD@3",
+            "id": "T5_WOOD_LEVEL3@3",
             "qty": 3,
             "ret": true
           },
           {
-            "id": "T4_PLANKS@3",
+            "id": "T4_PLANKS_LEVEL3@3",
             "qty": 1,
             "ret": true
           }
@@ -959,12 +959,12 @@
         "fame": 1440,
         "mats": [
           {
-            "id": "T5_WOOD@4",
+            "id": "T5_WOOD_LEVEL4@4",
             "qty": 3,
             "ret": true
           },
           {
-            "id": "T4_PLANKS@4",
+            "id": "T4_PLANKS_LEVEL4@4",
             "qty": 1,
             "ret": true
           }
@@ -1014,12 +1014,12 @@
         "fame": 180,
         "mats": [
           {
-            "id": "T5_HIDE@1",
+            "id": "T5_HIDE_LEVEL1@1",
             "qty": 3,
             "ret": true
           },
           {
-            "id": "T4_LEATHER@1",
+            "id": "T4_LEATHER_LEVEL1@1",
             "qty": 1,
             "ret": true
           }
@@ -1035,12 +1035,12 @@
         "fame": 360,
         "mats": [
           {
-            "id": "T5_HIDE@2",
+            "id": "T5_HIDE_LEVEL2@2",
             "qty": 3,
             "ret": true
           },
           {
-            "id": "T4_LEATHER@2",
+            "id": "T4_LEATHER_LEVEL2@2",
             "qty": 1,
             "ret": true
           }
@@ -1056,12 +1056,12 @@
         "fame": 720,
         "mats": [
           {
-            "id": "T5_HIDE@3",
+            "id": "T5_HIDE_LEVEL3@3",
             "qty": 3,
             "ret": true
           },
           {
-            "id": "T4_LEATHER@3",
+            "id": "T4_LEATHER_LEVEL3@3",
             "qty": 1,
             "ret": true
           }
@@ -1077,12 +1077,12 @@
         "fame": 1440,
         "mats": [
           {
-            "id": "T5_HIDE@4",
+            "id": "T5_HIDE_LEVEL4@4",
             "qty": 3,
             "ret": true
           },
           {
-            "id": "T4_LEATHER@4",
+            "id": "T4_LEATHER_LEVEL4@4",
             "qty": 1,
             "ret": true
           }
@@ -1132,12 +1132,12 @@
         "fame": 180,
         "mats": [
           {
-            "id": "T5_FIBER@1",
+            "id": "T5_FIBER_LEVEL1@1",
             "qty": 3,
             "ret": true
           },
           {
-            "id": "T4_CLOTH@1",
+            "id": "T4_CLOTH_LEVEL1@1",
             "qty": 1,
             "ret": true
           }
@@ -1153,12 +1153,12 @@
         "fame": 360,
         "mats": [
           {
-            "id": "T5_FIBER@2",
+            "id": "T5_FIBER_LEVEL2@2",
             "qty": 3,
             "ret": true
           },
           {
-            "id": "T4_CLOTH@2",
+            "id": "T4_CLOTH_LEVEL2@2",
             "qty": 1,
             "ret": true
           }
@@ -1174,12 +1174,12 @@
         "fame": 720,
         "mats": [
           {
-            "id": "T5_FIBER@3",
+            "id": "T5_FIBER_LEVEL3@3",
             "qty": 3,
             "ret": true
           },
           {
-            "id": "T4_CLOTH@3",
+            "id": "T4_CLOTH_LEVEL3@3",
             "qty": 1,
             "ret": true
           }
@@ -1195,12 +1195,12 @@
         "fame": 1440,
         "mats": [
           {
-            "id": "T5_FIBER@4",
+            "id": "T5_FIBER_LEVEL4@4",
             "qty": 3,
             "ret": true
           },
           {
-            "id": "T4_CLOTH@4",
+            "id": "T4_CLOTH_LEVEL4@4",
             "qty": 1,
             "ret": true
           }
@@ -1250,12 +1250,12 @@
         "fame": 180,
         "mats": [
           {
-            "id": "T5_ORE@1",
+            "id": "T5_ORE_LEVEL1@1",
             "qty": 3,
             "ret": true
           },
           {
-            "id": "T4_METALBAR@1",
+            "id": "T4_METALBAR_LEVEL1@1",
             "qty": 1,
             "ret": true
           }
@@ -1271,12 +1271,12 @@
         "fame": 360,
         "mats": [
           {
-            "id": "T5_ORE@2",
+            "id": "T5_ORE_LEVEL2@2",
             "qty": 3,
             "ret": true
           },
           {
-            "id": "T4_METALBAR@2",
+            "id": "T4_METALBAR_LEVEL2@2",
             "qty": 1,
             "ret": true
           }
@@ -1292,12 +1292,12 @@
         "fame": 720,
         "mats": [
           {
-            "id": "T5_ORE@3",
+            "id": "T5_ORE_LEVEL3@3",
             "qty": 3,
             "ret": true
           },
           {
-            "id": "T4_METALBAR@3",
+            "id": "T4_METALBAR_LEVEL3@3",
             "qty": 1,
             "ret": true
           }
@@ -1313,12 +1313,12 @@
         "fame": 1440,
         "mats": [
           {
-            "id": "T5_ORE@4",
+            "id": "T5_ORE_LEVEL4@4",
             "qty": 3,
             "ret": true
           },
           {
-            "id": "T4_METALBAR@4",
+            "id": "T4_METALBAR_LEVEL4@4",
             "qty": 1,
             "ret": true
           }
@@ -1381,7 +1381,7 @@
         "fame": 90,
         "mats": [
           {
-            "id": "T5_ROCK@1",
+            "id": "T5_ROCK_LEVEL1@1",
             "qty": 3,
             "ret": true
           },
@@ -1436,12 +1436,12 @@
         "fame": 540,
         "mats": [
           {
-            "id": "T6_WOOD@1",
+            "id": "T6_WOOD_LEVEL1@1",
             "qty": 4,
             "ret": true
           },
           {
-            "id": "T5_PLANKS@1",
+            "id": "T5_PLANKS_LEVEL1@1",
             "qty": 1,
             "ret": true
           }
@@ -1457,12 +1457,12 @@
         "fame": 1080,
         "mats": [
           {
-            "id": "T6_WOOD@2",
+            "id": "T6_WOOD_LEVEL2@2",
             "qty": 4,
             "ret": true
           },
           {
-            "id": "T5_PLANKS@2",
+            "id": "T5_PLANKS_LEVEL2@2",
             "qty": 1,
             "ret": true
           }
@@ -1478,12 +1478,12 @@
         "fame": 2160,
         "mats": [
           {
-            "id": "T6_WOOD@3",
+            "id": "T6_WOOD_LEVEL3@3",
             "qty": 4,
             "ret": true
           },
           {
-            "id": "T5_PLANKS@3",
+            "id": "T5_PLANKS_LEVEL3@3",
             "qty": 1,
             "ret": true
           }
@@ -1499,12 +1499,12 @@
         "fame": 4320,
         "mats": [
           {
-            "id": "T6_WOOD@4",
+            "id": "T6_WOOD_LEVEL4@4",
             "qty": 4,
             "ret": true
           },
           {
-            "id": "T5_PLANKS@4",
+            "id": "T5_PLANKS_LEVEL4@4",
             "qty": 1,
             "ret": true
           }
@@ -1567,7 +1567,7 @@
         "fame": 270,
         "mats": [
           {
-            "id": "T6_ROCK@1",
+            "id": "T6_ROCK_LEVEL1@1",
             "qty": 4,
             "ret": true
           },
@@ -1622,12 +1622,12 @@
         "fame": 540,
         "mats": [
           {
-            "id": "T6_HIDE@1",
+            "id": "T6_HIDE_LEVEL1@1",
             "qty": 4,
             "ret": true
           },
           {
-            "id": "T5_LEATHER@1",
+            "id": "T5_LEATHER_LEVEL1@1",
             "qty": 1,
             "ret": true
           }
@@ -1643,12 +1643,12 @@
         "fame": 1080,
         "mats": [
           {
-            "id": "T6_HIDE@2",
+            "id": "T6_HIDE_LEVEL2@2",
             "qty": 4,
             "ret": true
           },
           {
-            "id": "T5_LEATHER@2",
+            "id": "T5_LEATHER_LEVEL2@2",
             "qty": 1,
             "ret": true
           }
@@ -1664,12 +1664,12 @@
         "fame": 2160,
         "mats": [
           {
-            "id": "T6_HIDE@3",
+            "id": "T6_HIDE_LEVEL3@3",
             "qty": 4,
             "ret": true
           },
           {
-            "id": "T5_LEATHER@3",
+            "id": "T5_LEATHER_LEVEL3@3",
             "qty": 1,
             "ret": true
           }
@@ -1685,12 +1685,12 @@
         "fame": 4320,
         "mats": [
           {
-            "id": "T6_HIDE@4",
+            "id": "T6_HIDE_LEVEL4@4",
             "qty": 4,
             "ret": true
           },
           {
-            "id": "T5_LEATHER@4",
+            "id": "T5_LEATHER_LEVEL4@4",
             "qty": 1,
             "ret": true
           }
@@ -1740,12 +1740,12 @@
         "fame": 540,
         "mats": [
           {
-            "id": "T6_FIBER@1",
+            "id": "T6_FIBER_LEVEL1@1",
             "qty": 4,
             "ret": true
           },
           {
-            "id": "T5_CLOTH@1",
+            "id": "T5_CLOTH_LEVEL1@1",
             "qty": 1,
             "ret": true
           }
@@ -1761,12 +1761,12 @@
         "fame": 1080,
         "mats": [
           {
-            "id": "T6_FIBER@2",
+            "id": "T6_FIBER_LEVEL2@2",
             "qty": 4,
             "ret": true
           },
           {
-            "id": "T5_CLOTH@2",
+            "id": "T5_CLOTH_LEVEL2@2",
             "qty": 1,
             "ret": true
           }
@@ -1782,12 +1782,12 @@
         "fame": 2160,
         "mats": [
           {
-            "id": "T6_FIBER@3",
+            "id": "T6_FIBER_LEVEL3@3",
             "qty": 4,
             "ret": true
           },
           {
-            "id": "T5_CLOTH@3",
+            "id": "T5_CLOTH_LEVEL3@3",
             "qty": 1,
             "ret": true
           }
@@ -1803,12 +1803,12 @@
         "fame": 4320,
         "mats": [
           {
-            "id": "T6_FIBER@4",
+            "id": "T6_FIBER_LEVEL4@4",
             "qty": 4,
             "ret": true
           },
           {
-            "id": "T5_CLOTH@4",
+            "id": "T5_CLOTH_LEVEL4@4",
             "qty": 1,
             "ret": true
           }
@@ -1858,12 +1858,12 @@
         "fame": 540,
         "mats": [
           {
-            "id": "T6_ORE@1",
+            "id": "T6_ORE_LEVEL1@1",
             "qty": 4,
             "ret": true
           },
           {
-            "id": "T5_METALBAR@1",
+            "id": "T5_METALBAR_LEVEL1@1",
             "qty": 1,
             "ret": true
           }
@@ -1879,12 +1879,12 @@
         "fame": 1080,
         "mats": [
           {
-            "id": "T6_ORE@2",
+            "id": "T6_ORE_LEVEL2@2",
             "qty": 4,
             "ret": true
           },
           {
-            "id": "T5_METALBAR@2",
+            "id": "T5_METALBAR_LEVEL2@2",
             "qty": 1,
             "ret": true
           }
@@ -1900,12 +1900,12 @@
         "fame": 2160,
         "mats": [
           {
-            "id": "T6_ORE@3",
+            "id": "T6_ORE_LEVEL3@3",
             "qty": 4,
             "ret": true
           },
           {
-            "id": "T5_METALBAR@3",
+            "id": "T5_METALBAR_LEVEL3@3",
             "qty": 1,
             "ret": true
           }
@@ -1921,12 +1921,12 @@
         "fame": 4320,
         "mats": [
           {
-            "id": "T6_ORE@4",
+            "id": "T6_ORE_LEVEL4@4",
             "qty": 4,
             "ret": true
           },
           {
-            "id": "T5_METALBAR@4",
+            "id": "T5_METALBAR_LEVEL4@4",
             "qty": 1,
             "ret": true
           }
@@ -1976,12 +1976,12 @@
         "fame": 1290,
         "mats": [
           {
-            "id": "T7_WOOD@1",
+            "id": "T7_WOOD_LEVEL1@1",
             "qty": 5,
             "ret": true
           },
           {
-            "id": "T6_PLANKS@1",
+            "id": "T6_PLANKS_LEVEL1@1",
             "qty": 1,
             "ret": true
           }
@@ -1997,12 +1997,12 @@
         "fame": 2580,
         "mats": [
           {
-            "id": "T7_WOOD@2",
+            "id": "T7_WOOD_LEVEL2@2",
             "qty": 5,
             "ret": true
           },
           {
-            "id": "T6_PLANKS@2",
+            "id": "T6_PLANKS_LEVEL2@2",
             "qty": 1,
             "ret": true
           }
@@ -2018,12 +2018,12 @@
         "fame": 5160,
         "mats": [
           {
-            "id": "T7_WOOD@3",
+            "id": "T7_WOOD_LEVEL3@3",
             "qty": 5,
             "ret": true
           },
           {
-            "id": "T6_PLANKS@3",
+            "id": "T6_PLANKS_LEVEL3@3",
             "qty": 1,
             "ret": true
           }
@@ -2039,12 +2039,12 @@
         "fame": 10320,
         "mats": [
           {
-            "id": "T7_WOOD@4",
+            "id": "T7_WOOD_LEVEL4@4",
             "qty": 5,
             "ret": true
           },
           {
-            "id": "T6_PLANKS@4",
+            "id": "T6_PLANKS_LEVEL4@4",
             "qty": 1,
             "ret": true
           }
@@ -2094,12 +2094,12 @@
         "fame": 1290,
         "mats": [
           {
-            "id": "T7_ORE@1",
+            "id": "T7_ORE_LEVEL1@1",
             "qty": 5,
             "ret": true
           },
           {
-            "id": "T6_METALBAR@1",
+            "id": "T6_METALBAR_LEVEL1@1",
             "qty": 1,
             "ret": true
           }
@@ -2115,12 +2115,12 @@
         "fame": 2580,
         "mats": [
           {
-            "id": "T7_ORE@2",
+            "id": "T7_ORE_LEVEL2@2",
             "qty": 5,
             "ret": true
           },
           {
-            "id": "T6_METALBAR@2",
+            "id": "T6_METALBAR_LEVEL2@2",
             "qty": 1,
             "ret": true
           }
@@ -2136,12 +2136,12 @@
         "fame": 5160,
         "mats": [
           {
-            "id": "T7_ORE@3",
+            "id": "T7_ORE_LEVEL3@3",
             "qty": 5,
             "ret": true
           },
           {
-            "id": "T6_METALBAR@3",
+            "id": "T6_METALBAR_LEVEL3@3",
             "qty": 1,
             "ret": true
           }
@@ -2157,12 +2157,12 @@
         "fame": 10320,
         "mats": [
           {
-            "id": "T7_ORE@4",
+            "id": "T7_ORE_LEVEL4@4",
             "qty": 5,
             "ret": true
           },
           {
-            "id": "T6_METALBAR@4",
+            "id": "T6_METALBAR_LEVEL4@4",
             "qty": 1,
             "ret": true
           }
@@ -2212,12 +2212,12 @@
         "fame": 1290,
         "mats": [
           {
-            "id": "T7_FIBER@1",
+            "id": "T7_FIBER_LEVEL1@1",
             "qty": 5,
             "ret": true
           },
           {
-            "id": "T6_CLOTH@1",
+            "id": "T6_CLOTH_LEVEL1@1",
             "qty": 1,
             "ret": true
           }
@@ -2233,12 +2233,12 @@
         "fame": 2580,
         "mats": [
           {
-            "id": "T7_FIBER@2",
+            "id": "T7_FIBER_LEVEL2@2",
             "qty": 5,
             "ret": true
           },
           {
-            "id": "T6_CLOTH@2",
+            "id": "T6_CLOTH_LEVEL2@2",
             "qty": 1,
             "ret": true
           }
@@ -2254,12 +2254,12 @@
         "fame": 5160,
         "mats": [
           {
-            "id": "T7_FIBER@3",
+            "id": "T7_FIBER_LEVEL3@3",
             "qty": 5,
             "ret": true
           },
           {
-            "id": "T6_CLOTH@3",
+            "id": "T6_CLOTH_LEVEL3@3",
             "qty": 1,
             "ret": true
           }
@@ -2275,12 +2275,12 @@
         "fame": 10320,
         "mats": [
           {
-            "id": "T7_FIBER@4",
+            "id": "T7_FIBER_LEVEL4@4",
             "qty": 5,
             "ret": true
           },
           {
-            "id": "T6_CLOTH@4",
+            "id": "T6_CLOTH_LEVEL4@4",
             "qty": 1,
             "ret": true
           }
@@ -2330,12 +2330,12 @@
         "fame": 1290,
         "mats": [
           {
-            "id": "T7_HIDE@1",
+            "id": "T7_HIDE_LEVEL1@1",
             "qty": 5,
             "ret": true
           },
           {
-            "id": "T6_LEATHER@1",
+            "id": "T6_LEATHER_LEVEL1@1",
             "qty": 1,
             "ret": true
           }
@@ -2351,12 +2351,12 @@
         "fame": 2580,
         "mats": [
           {
-            "id": "T7_HIDE@2",
+            "id": "T7_HIDE_LEVEL2@2",
             "qty": 5,
             "ret": true
           },
           {
-            "id": "T6_LEATHER@2",
+            "id": "T6_LEATHER_LEVEL2@2",
             "qty": 1,
             "ret": true
           }
@@ -2372,12 +2372,12 @@
         "fame": 5160,
         "mats": [
           {
-            "id": "T7_HIDE@3",
+            "id": "T7_HIDE_LEVEL3@3",
             "qty": 5,
             "ret": true
           },
           {
-            "id": "T6_LEATHER@3",
+            "id": "T6_LEATHER_LEVEL3@3",
             "qty": 1,
             "ret": true
           }
@@ -2393,12 +2393,12 @@
         "fame": 10320,
         "mats": [
           {
-            "id": "T7_HIDE@4",
+            "id": "T7_HIDE_LEVEL4@4",
             "qty": 5,
             "ret": true
           },
           {
-            "id": "T6_LEATHER@4",
+            "id": "T6_LEATHER_LEVEL4@4",
             "qty": 1,
             "ret": true
           }
@@ -2461,7 +2461,7 @@
         "fame": 645,
         "mats": [
           {
-            "id": "T7_ROCK@1",
+            "id": "T7_ROCK_LEVEL1@1",
             "qty": 5,
             "ret": true
           },
@@ -2516,12 +2516,12 @@
         "fame": 2790,
         "mats": [
           {
-            "id": "T8_ORE@1",
+            "id": "T8_ORE_LEVEL1@1",
             "qty": 5,
             "ret": true
           },
           {
-            "id": "T7_METALBAR@1",
+            "id": "T7_METALBAR_LEVEL1@1",
             "qty": 1,
             "ret": true
           }
@@ -2537,12 +2537,12 @@
         "fame": 5580,
         "mats": [
           {
-            "id": "T8_ORE@2",
+            "id": "T8_ORE_LEVEL2@2",
             "qty": 5,
             "ret": true
           },
           {
-            "id": "T7_METALBAR@2",
+            "id": "T7_METALBAR_LEVEL2@2",
             "qty": 1,
             "ret": true
           }
@@ -2558,12 +2558,12 @@
         "fame": 11160,
         "mats": [
           {
-            "id": "T8_ORE@3",
+            "id": "T8_ORE_LEVEL3@3",
             "qty": 5,
             "ret": true
           },
           {
-            "id": "T7_METALBAR@3",
+            "id": "T7_METALBAR_LEVEL3@3",
             "qty": 1,
             "ret": true
           }
@@ -2579,12 +2579,12 @@
         "fame": 22320,
         "mats": [
           {
-            "id": "T8_ORE@4",
+            "id": "T8_ORE_LEVEL4@4",
             "qty": 5,
             "ret": true
           },
           {
-            "id": "T7_METALBAR@4",
+            "id": "T7_METALBAR_LEVEL4@4",
             "qty": 1,
             "ret": true
           }
@@ -2634,12 +2634,12 @@
         "fame": 2790,
         "mats": [
           {
-            "id": "T8_FIBER@1",
+            "id": "T8_FIBER_LEVEL1@1",
             "qty": 5,
             "ret": true
           },
           {
-            "id": "T7_CLOTH@1",
+            "id": "T7_CLOTH_LEVEL1@1",
             "qty": 1,
             "ret": true
           }
@@ -2655,12 +2655,12 @@
         "fame": 5580,
         "mats": [
           {
-            "id": "T8_FIBER@2",
+            "id": "T8_FIBER_LEVEL2@2",
             "qty": 5,
             "ret": true
           },
           {
-            "id": "T7_CLOTH@2",
+            "id": "T7_CLOTH_LEVEL2@2",
             "qty": 1,
             "ret": true
           }
@@ -2676,12 +2676,12 @@
         "fame": 11160,
         "mats": [
           {
-            "id": "T8_FIBER@3",
+            "id": "T8_FIBER_LEVEL3@3",
             "qty": 5,
             "ret": true
           },
           {
-            "id": "T7_CLOTH@3",
+            "id": "T7_CLOTH_LEVEL3@3",
             "qty": 1,
             "ret": true
           }
@@ -2697,12 +2697,12 @@
         "fame": 22320,
         "mats": [
           {
-            "id": "T8_FIBER@4",
+            "id": "T8_FIBER_LEVEL4@4",
             "qty": 5,
             "ret": true
           },
           {
-            "id": "T7_CLOTH@4",
+            "id": "T7_CLOTH_LEVEL4@4",
             "qty": 1,
             "ret": true
           }
@@ -2765,7 +2765,7 @@
         "fame": 1395,
         "mats": [
           {
-            "id": "T8_ROCK@1",
+            "id": "T8_ROCK_LEVEL1@1",
             "qty": 5,
             "ret": true
           },
@@ -2820,12 +2820,12 @@
         "fame": 2790,
         "mats": [
           {
-            "id": "T8_HIDE@1",
+            "id": "T8_HIDE_LEVEL1@1",
             "qty": 5,
             "ret": true
           },
           {
-            "id": "T7_LEATHER@1",
+            "id": "T7_LEATHER_LEVEL1@1",
             "qty": 1,
             "ret": true
           }
@@ -2841,12 +2841,12 @@
         "fame": 5580,
         "mats": [
           {
-            "id": "T8_HIDE@2",
+            "id": "T8_HIDE_LEVEL2@2",
             "qty": 5,
             "ret": true
           },
           {
-            "id": "T7_LEATHER@2",
+            "id": "T7_LEATHER_LEVEL2@2",
             "qty": 1,
             "ret": true
           }
@@ -2862,12 +2862,12 @@
         "fame": 11160,
         "mats": [
           {
-            "id": "T8_HIDE@3",
+            "id": "T8_HIDE_LEVEL3@3",
             "qty": 5,
             "ret": true
           },
           {
-            "id": "T7_LEATHER@3",
+            "id": "T7_LEATHER_LEVEL3@3",
             "qty": 1,
             "ret": true
           }
@@ -2883,12 +2883,12 @@
         "fame": 22320,
         "mats": [
           {
-            "id": "T8_HIDE@4",
+            "id": "T8_HIDE_LEVEL4@4",
             "qty": 5,
             "ret": true
           },
           {
-            "id": "T7_LEATHER@4",
+            "id": "T7_LEATHER_LEVEL4@4",
             "qty": 1,
             "ret": true
           }
@@ -2938,12 +2938,12 @@
         "fame": 2790,
         "mats": [
           {
-            "id": "T8_WOOD@1",
+            "id": "T8_WOOD_LEVEL1@1",
             "qty": 5,
             "ret": true
           },
           {
-            "id": "T7_PLANKS@1",
+            "id": "T7_PLANKS_LEVEL1@1",
             "qty": 1,
             "ret": true
           }
@@ -2959,12 +2959,12 @@
         "fame": 5580,
         "mats": [
           {
-            "id": "T8_WOOD@2",
+            "id": "T8_WOOD_LEVEL2@2",
             "qty": 5,
             "ret": true
           },
           {
-            "id": "T7_PLANKS@2",
+            "id": "T7_PLANKS_LEVEL2@2",
             "qty": 1,
             "ret": true
           }
@@ -2980,12 +2980,12 @@
         "fame": 11160,
         "mats": [
           {
-            "id": "T8_WOOD@3",
+            "id": "T8_WOOD_LEVEL3@3",
             "qty": 5,
             "ret": true
           },
           {
-            "id": "T7_PLANKS@3",
+            "id": "T7_PLANKS_LEVEL3@3",
             "qty": 1,
             "ret": true
           }
@@ -3001,12 +3001,12 @@
         "fame": 22320,
         "mats": [
           {
-            "id": "T8_WOOD@4",
+            "id": "T8_WOOD_LEVEL4@4",
             "qty": 5,
             "ret": true
           },
           {
-            "id": "T7_PLANKS@4",
+            "id": "T7_PLANKS_LEVEL4@4",
             "qty": 1,
             "ret": true
           }
