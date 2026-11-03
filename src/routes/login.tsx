@@ -8,7 +8,7 @@ function Login() {
     <main className="grid min-h-screen place-items-center bg-ink p-6 text-parchment">
       <div className="w-full max-w-sm space-y-3">
         <h1 className="font-display text-3xl">Sign in</h1>
-        <p className="text-sm text-muted">Save craft groups to your account and open them on another device.</p>
+        <p className="text-sm text-muted">Sign in with Google to keep saved crafts on your account.</p>
         {authEnabled ? (
           GROK_PROVIDERS.map((provider) => (
             <button

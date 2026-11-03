@@ -1,32 +1,25 @@
 import { useEffect } from "react"
-import {
-  Bookmark,
-  BookOpen,
-  Dices,
-  GraduationCap,
-  Hammer,
-  Percent,
-  Sprout,
-  Users,
-} from "lucide-react"
+import { BookOpen, Clock, Dices, GraduationCap, Hammer, Percent, Sprout, Users } from "lucide-react"
+import { signIn } from "@/lib/auth/client"
+import { SignedIn, SignedOut, UserButton } from "@/lib/auth/gates"
 import { SERVERS } from "@/lib/forge/rules"
 import { priceWatchKey, useForge, type View } from "@/lib/forge/store"
 import { syncCatalogFromGitHub } from "@/lib/forge/remote"
 import { Bench } from "./Bench"
 import { FarmLab } from "./Farm"
 import { LaborLab } from "./Labor"
-import { SaveLab } from "./Save"
+import { RecentLab } from "./Recent"
 import { Codex, RerollLab, ReturnFocusLab, StudyLab } from "./Labs"
 
 const NAV: { id: View; label: string; icon: typeof Hammer }[] = [
   { id: "codex", label: "Codex", icon: BookOpen },
   { id: "bench", label: "Add Craft", icon: Hammer },
+  { id: "recent", label: "Recent", icon: Clock },
   { id: "farm", label: "Farming and Breeding", icon: Sprout },
   { id: "labor", label: "Laborers", icon: Users },
   { id: "returns", label: "Return & focus", icon: Percent },
   { id: "study", label: "Study & repair", icon: GraduationCap },
   { id: "reroll", label: "Reroll", icon: Dices },
-  { id: "save", label: "Save", icon: Bookmark },
 ]
 
 export function ForgeApp() {
@@ -84,20 +77,34 @@ export function ForgeApp() {
             <p className="font-display text-xl leading-none">Hearthforge</p>
             <p className="mt-1 text-xs text-muted">Albion crafting desk</p>
           </div>
-          <label className="text-xs text-muted">
-            Server
-            <select
-              className="mt-1 block h-11 rounded-lg border border-line bg-panel px-3 text-base text-parchment"
-              value={server}
-              onChange={(event) => patch({ server: event.target.value as typeof server })}
-            >
-              {SERVERS.map((entry) => (
-                <option key={entry.id} value={entry.id}>
-                  {entry.label}
-                </option>
-              ))}
-            </select>
-          </label>
+          <div className="flex items-end gap-3">
+            <label className="text-xs text-muted">
+              Server
+              <select
+                className="mt-1 block h-11 rounded-lg border border-line bg-panel px-3 text-base text-parchment"
+                value={server}
+                onChange={(event) => patch({ server: event.target.value as typeof server })}
+              >
+                {SERVERS.map((entry) => (
+                  <option key={entry.id} value={entry.id}>
+                    {entry.label}
+                  </option>
+                ))}
+              </select>
+            </label>
+            <SignedOut>
+              <button
+                type="button"
+                onClick={() => signIn("grok-google", { callbackURL: "/" })}
+                className="h-11 rounded-lg border border-line px-3 text-sm text-parchment"
+              >
+                Sign in with Google
+              </button>
+            </SignedOut>
+            <SignedIn>
+              <UserButton />
+            </SignedIn>
+          </div>
         </div>
         <nav className="mx-auto flex max-w-6xl gap-2 overflow-x-auto px-4 pb-3">
           {NAV.map((entry) => {
@@ -128,7 +135,7 @@ export function ForgeApp() {
         {view === "study" ? <StudyLab /> : null}
         {view === "reroll" ? <RerollLab /> : null}
         {view === "codex" ? <Codex /> : null}
-        {view === "save" ? <SaveLab /> : null}
+        {view === "recent" ? <RecentLab /> : null}
         <p className="mt-8 max-w-2xl text-xs text-muted">
           Return rate, focus, study fame, nutrition, and repair follow the current Albion rules. Prices refresh about
           once a minute. Not affiliated with Sandbox Interactive.

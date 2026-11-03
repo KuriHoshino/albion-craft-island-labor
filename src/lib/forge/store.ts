@@ -35,7 +35,18 @@ export type Line = {
   focusOverride: number | null
 }
 
-export type View = "bench" | "returns" | "study" | "reroll" | "codex" | "farm" | "labor" | "save"
+export type View = "bench" | "returns" | "study" | "reroll" | "codex" | "farm" | "labor" | "recent"
+
+export type RecentSearch = {
+  id: string
+  itemId: string
+  enchant: number
+  route: "direct" | "upgrade"
+  city: string
+  place: Place
+  saved: boolean
+  at: number
+}
 
 type ForgeState = {
   view: View
@@ -59,6 +70,7 @@ type ForgeState = {
   catalogRev: number
   catalogNote: string | null
   names: Record<string, string>
+  recents: RecentSearch[]
   setItemName: (id: string, name: string) => void
   setView: (view: View) => void
   patch: (partial: Partial<Omit<ForgeState, "lines" | "prices">>) => void
@@ -68,7 +80,28 @@ type ForgeState = {
   removeLine: (uid: string) => void
   setMatOverride: (uid: string, id: string, value: number | null) => void
   applyDesk: (desk: DeskSnapshot, meta: { id: string | null; name: string }) => void
+  openRecent: (id: string) => void
+  saveRecent: (id: string) => void
+  dropRecent: (id: string) => void
   loadPrices: () => Promise<void>
+}
+
+function rememberSearch(current: RecentSearch[] | undefined, line: Line): RecentSearch[] {
+  const next: RecentSearch = {
+    id: Math.random().toString(36).slice(2, 10),
+    itemId: line.itemId,
+    enchant: line.enchant,
+    route: line.route,
+    city: line.city,
+    place: line.place,
+    saved: false,
+    at: Date.now(),
+  }
+  const kept = (current ?? []).filter(
+    (row) => row.saved || row.itemId !== next.itemId || row.enchant !== next.enchant || row.route !== next.route,
+  )
+  const loose = [next, ...kept.filter((row) => !row.saved)].slice(0, 10)
+  return [...loose, ...kept.filter((row) => row.saved)]
 }
 
 export function blankLine(itemId = "T4_MAIN_SWORD"): Line {
@@ -150,6 +183,7 @@ export const useForge = create<ForgeState>()(
       catalogRev: 0,
       catalogNote: null,
       names: {},
+      recents: [],
       setItemName: (id, name) => {
         const trimmed = name.trim()
         const names = { ...get().names }
@@ -181,7 +215,7 @@ export const useForge = create<ForgeState>()(
           line.siblings = current.siblings
           line.runs = current.runs
         }
-        set({ lines: [...get().lines, line], active: line.uid })
+        set({ lines: [...get().lines, line], active: line.uid, recents: rememberSearch(get().recents, line) })
       },
       removeLine: (uid) => {
         const lines = get().lines.filter((line) => line.uid !== uid)
@@ -225,6 +259,21 @@ export const useForge = create<ForgeState>()(
         })
         void get().loadPrices()
       },
+      openRecent: (id) => {
+        const row = (get().recents ?? []).find((entry) => entry.id === id)
+        if (!row) return
+        const line = blankLine(row.itemId)
+        line.enchant = row.enchant
+        line.route = row.route
+        line.city = row.city
+        line.place = row.place
+        set({ lines: [...get().lines, line], active: line.uid, view: "bench" })
+      },
+      saveRecent: (id) =>
+        set({
+          recents: (get().recents ?? []).map((entry) => (entry.id === id ? { ...entry, saved: true } : entry)),
+        }),
+      dropRecent: (id) => set({ recents: (get().recents ?? []).filter((entry) => entry.id !== id) }),
       loadPrices: async () => {
         if (loadingFlag) {
           loadAgain = true
