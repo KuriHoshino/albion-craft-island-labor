@@ -14,6 +14,15 @@ const GROUPS = [
   { id: "tool", label: "Tools" },
 ]
 
+const ENCHANTS = [
+  { level: 1, label: ".1 runes" },
+  { level: 2, label: ".2 souls" },
+  { level: 3, label: ".3 relics" },
+  { level: 4, label: ".4 market" },
+]
+
+type StoneQuote = { name: string; city: string; price: number }
+
 type FlipRow = {
   key: string
   name: string
@@ -34,18 +43,29 @@ function order(book: PriceBook, id: string, city: string, quality: number, side:
   return price && price > 0 ? price : null
 }
 
+function cheapest(book: PriceBook, id: string, cities: string[]) {
+  let best: { city: string; price: number } | null = null
+  for (const city of cities) {
+    const price = order(book, id, city, 1, "sell")
+    if (price == null) continue
+    if (!best || price < best.price) best = { city, price }
+  }
+  return best
+}
+
 export function FlipLab() {
   const server = useForge((s) => s.server)
   const premium = useForge((s) => s.premium)
   const patch = useForge((s) => s.patch)
   const [group, setGroup] = useState("weapon")
   const [tier, setTier] = useState(6)
-  const [enchant, setEnchant] = useState(0)
+  const [enchants, setEnchants] = useState<number[]>([1, 2, 3, 4])
   const [quality, setQuality] = useState(1)
   const [minProfit, setMinProfit] = useState(0)
   const [buys, setBuys] = useState<string[]>(["Thetford", "Lymhurst", "Bridgewatch", "Martlock", "Fort Sterling", "Caerleon", "Brecilien"])
   const [sells, setSells] = useState<string[]>(["Black Market"])
   const [rows, setRows] = useState<FlipRow[]>([])
+  const [stones, setStones] = useState<StoneQuote[]>([])
   const [loading, setLoading] = useState(false)
   const [error, setError] = useState("")
   const [scanned, setScanned] = useState(0)
@@ -58,16 +78,17 @@ export function FlipLab() {
 
   async function scan() {
     const pool = items.filter((item) => item.group === group && item.tier === tier)
-    const ids = new Set<string>()
+    const levels = enchants.length ? enchants : [1]
+    const ids = new Set<string>([`T${tier}_RUNE`, `T${tier}_SOUL`, `T${tier}_RELIC`])
     for (const item of pool) {
-      ids.add(marketId(item.id, enchant))
-      if (enchant > 0) {
-        ids.add(marketId(item.id, 0))
-        for (const stone of enchantStones(item, enchant)) ids.add(stone.id)
+      for (const level of levels) {
+        if (!item.variants.some((variant) => variant.enchant === level) && level !== 0) continue
+        ids.add(marketId(item.id, level))
+        if (level > 0 && level < 4) ids.add(marketId(item.id, 0))
       }
     }
-    const itemIds = [...ids].slice(0, 400)
-    if (!itemIds.length || !buys.length || !sells.length) {
+    const idList = [...ids]
+    if (!idList.length || !buys.length || !sells.length) {
       setRows([])
       setError("Pick a buy city and a sell city.")
       return
@@ -75,54 +96,74 @@ export function FlipLab() {
     setLoading(true)
     setError("")
     try {
-      const request = { server, itemIds, locations: [...MARKETS], qualities: [quality] }
-      const result = import.meta.env.VITE_PAGES === "1" ? await loadMarketPrices(request) : await fetchMarketPrices({ data: request })
-      const book = result.quotes as PriceBook
+      const requestBase = { server, locations: [...MARKETS], qualities: [quality] }
+      const book: PriceBook = {}
+      for (let index = 0; index < idList.length; index += 350) {
+        const request = { ...requestBase, itemIds: idList.slice(index, index + 350) }
+        const result = import.meta.env.VITE_PAGES === "1" ? await loadMarketPrices(request) : await fetchMarketPrices({ data: request })
+        Object.assign(book, result.quotes)
+      }
       const next: FlipRow[] = []
       for (const item of pool) {
-        const stones = enchant > 0 ? enchantStones(item, enchant) : []
-        const buyId = stones.length ? marketId(item.id, 0) : marketId(item.id, enchant)
-        const sellId = marketId(item.id, enchant)
-        for (const buyCity of buys) {
-          const buyPrice = order(book, buyId, buyCity, stones.length ? quality : quality, "sell")
-          if (buyPrice == null) continue
-          let upgradeCost = 0
-          let missing = false
-          for (const stone of stones) {
-            const stonePrice = order(book, stone.id, buyCity, 1, "sell")
-            if (stonePrice == null) {
-              missing = true
-              break
+        for (const level of levels) {
+          if (level > 0 && !item.variants.some((variant) => variant.enchant === level)) continue
+          const upgradeStones = level > 0 && level < 4 ? enchantStones(item, level) : []
+          const marketOnly = level === 4 || upgradeStones.length === 0
+          const buyId = marketOnly ? marketId(item.id, level) : marketId(item.id, 0)
+          const sellId = marketId(item.id, level)
+          for (const buyCity of buys) {
+            const buyPrice = order(book, buyId, buyCity, quality, "sell")
+            if (buyPrice == null) continue
+            let upgradeCost = 0
+            let missing = false
+            for (const stone of marketOnly ? [] : upgradeStones) {
+              const stonePrice = order(book, stone.id, buyCity, 1, "sell")
+              if (stonePrice == null) {
+                missing = true
+                break
+              }
+              upgradeCost += stonePrice * stone.qty
             }
-            upgradeCost += stonePrice * stone.qty
-          }
-          if (missing) continue
-          for (const sellCity of sells) {
-            if (sellCity === buyCity) continue
-            const sellPrice = order(book, sellId, sellCity, quality, "buy")
-            if (sellPrice == null) continue
-            const net = stackSell(sellPrice, 1, sellCity === "Black Market" ? "notax" : "instant", premium).net
-            const cost = stackBuy(buyPrice, 1, "instant").cost + upgradeCost
-            const profit = net - cost
-            const weight = Math.max(item.weight, 0.1)
-            next.push({
-              key: `${item.id}|${buyCity}|${sellCity}`,
-              name: item.name,
-              enchant,
-              buyCity,
-              buyPrice,
-              sellCity,
-              sellPrice,
-              upgrade: stones.length ? `.0 + stones` : "Direct",
-              profit,
-              per100: (profit / weight) * 100,
-              roi: cost > 0 ? profit / cost : 0,
-            })
+            if (missing) continue
+            for (const sellCity of sells) {
+              if (sellCity === buyCity) continue
+              const sellPrice = order(book, sellId, sellCity, quality, "buy")
+              if (sellPrice == null) continue
+              const net = stackSell(sellPrice, 1, sellCity === "Black Market" ? "notax" : "instant", premium).net
+              const cost = stackBuy(buyPrice, 1, "instant").cost + upgradeCost
+              const profit = net - cost
+              const weight = Math.max(item.weight, 0.1)
+              next.push({
+                key: `${item.id}|${level}|${buyCity}|${sellCity}`,
+                name: item.name,
+                enchant: level,
+                buyCity,
+                buyPrice,
+                sellCity,
+                sellPrice,
+                upgrade: level === 4 ? ".4 market" : level === 1 ? ".1 runes" : level === 2 ? ".2 runes + souls" : level === 3 ? ".3 runes + souls + relics" : "Direct",
+                profit,
+                per100: (profit / weight) * 100,
+                roi: cost > 0 ? profit / cost : 0,
+              })
+            }
           }
         }
       }
       next.sort((a, b) => b.profit - a.profit)
       setRows(next.slice(0, 80))
+      setStones(
+        [
+          { label: ".1 rune", id: `T${tier}_RUNE` },
+          { label: ".2 soul", id: `T${tier}_SOUL` },
+          { label: ".3 relic", id: `T${tier}_RELIC` },
+        ]
+          .map((stone) => {
+            const quote = cheapest(book, stone.id, buys.length ? buys : [...MARKETS])
+            return quote ? { ...quote, name: stone.label } : null
+          })
+          .filter((row): row is StoneQuote => row != null),
+      )
       setScanned(pool.length)
     } catch (err) {
       setError(err instanceof Error ? err.message : "Could not load flip prices")
@@ -156,14 +197,6 @@ export function FlipLab() {
             </select>
           </label>
           <label className="text-xs text-muted">
-            Enchant
-            <select className="mt-1 h-11 w-full rounded-lg border border-line bg-ink px-3 text-base text-parchment" value={enchant} onChange={(event) => setEnchant(Number(event.target.value))}>
-              {[0, 1, 2, 3].map((value) => (
-                <option key={value} value={value}>.{value}</option>
-              ))}
-            </select>
-          </label>
-          <label className="text-xs text-muted">
             Quality
             <select className="mt-1 h-11 w-full rounded-lg border border-line bg-ink px-3 text-base text-parchment" value={quality} onChange={(event) => setQuality(Number(event.target.value))}>
               <option value={1}>Normal</option>
@@ -173,6 +206,35 @@ export function FlipLab() {
               <option value={5}>Masterpiece</option>
             </select>
           </label>
+        </div>
+        <div className="mt-4">
+          <p className="text-xs font-semibold tracking-wide text-brass uppercase">Enchantment</p>
+          <div className="mt-2 flex flex-wrap gap-2">
+            {ENCHANTS.map((entry) => (
+              <button
+                key={entry.level}
+                type="button"
+                onClick={() =>
+                  setEnchants((current) =>
+                    current.includes(entry.level) ? current.filter((level) => level !== entry.level) : [...current, entry.level].sort(),
+                  )
+                }
+                className={"h-11 rounded-full border px-3 text-sm " + (enchants.includes(entry.level) ? "border-brass text-brass" : "border-line text-muted")}
+              >
+                {entry.label}
+              </button>
+            ))}
+          </div>
+          <p className="mt-2 text-xs text-muted">.1, .2, and .3 buy the flat item plus the stones. .4 uses the enchanted item's market price.</p>
+          {stones.length ? (
+            <ul className="mt-2 flex flex-wrap gap-3 text-sm">
+              {stones.map((stone) => (
+                <li key={stone.name} className="tabular-nums text-parchment">
+                  {stone.name} {silver(stone.price)} <span className="text-muted">{stone.city}</span>
+                </li>
+              ))}
+            </ul>
+          ) : null}
         </div>
         <p className="mt-4 text-xs font-semibold tracking-wide text-brass uppercase">Buy location</p>
         <div className="mt-2 flex flex-wrap gap-2">
