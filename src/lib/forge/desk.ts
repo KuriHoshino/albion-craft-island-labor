@@ -34,6 +34,7 @@ export const DeskSchema = z.object({
         siblings: z.number().min(0).max(100),
         journal: z.boolean(),
         journalTier: z.number().int().min(2).max(8).optional(),
+        journalTiers: z.array(z.number().int().min(2).max(8)).max(7).optional(),
         productOverride: z.number().nullable(),
         matOverrides: z.record(z.string().max(80), z.number()),
         focusOverride: z.number().nullable(),

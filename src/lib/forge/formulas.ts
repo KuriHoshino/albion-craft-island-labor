@@ -215,6 +215,7 @@ export type CraftMath = {
   revenue: number | null
   journalProfit: number | null
   journals: number
+  journalRows: { tier: number; count: number; profit: number | null }[]
   silverCost: number
   profit: number | null
   margin: number | null
@@ -249,10 +250,7 @@ export function craftMath(opts: {
   productUnit: number | null
   matUnit: (id: string) => number | null
   matSellUnit: (id: string) => number | null
-  journalFame: number | null
-  journalEmpty: number | null
-  journalFull: number | null
-  useJournal: boolean
+  journalFills: { tier: number; fame: number; empty: number | null; full: number | null }[]
 }): CraftMath {
   const runs = Math.max(0, opts.runs)
   const bonus = productionBonus(opts)
@@ -311,16 +309,28 @@ export function craftMath(opts: {
 
   let journalProfit: number | null = null
   let journals = 0
-  if (opts.useJournal && opts.journalFame && opts.journalFame > 0) {
-    journals = fameTotal / opts.journalFame
-    if (opts.journalEmpty == null || opts.journalFull == null) {
-      journalProfit = null
-      missing.push("journal")
-    } else {
-      const full = stackSell(opts.journalFull, journals, opts.sellMode, opts.premium).net
-      const empty = stackBuy(opts.journalEmpty, journals, opts.buyMode).cost
-      journalProfit = full - empty
+  const journalRows: CraftMath["journalRows"] = []
+  const fills = opts.journalFills.filter((fill) => fill.fame > 0)
+  if (fills.length) {
+    const share = fameTotal / fills.length
+    let profit = 0
+    let known = true
+    for (const fill of fills) {
+      const count = share / fill.fame
+      journals += count
+      if (fill.empty == null || fill.full == null) {
+        known = false
+        journalRows.push({ tier: fill.tier, count, profit: null })
+        continue
+      }
+      const full = stackSell(fill.full, count, opts.sellMode, opts.premium).net
+      const empty = stackBuy(fill.empty, count, opts.buyMode).cost
+      const row = full - empty
+      profit += row
+      journalRows.push({ tier: fill.tier, count, profit: row })
     }
+    journalProfit = known ? profit : null
+    if (!known) missing.push("journal")
   }
 
   const profit =
@@ -354,6 +364,7 @@ export function craftMath(opts: {
     revenue,
     journalProfit,
     journals,
+    journalRows,
     silverCost,
     profit,
     margin,

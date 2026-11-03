@@ -5,7 +5,7 @@ import { fetchMarketPrices } from "./prices"
 import type { BuyMode, Place, SellMode } from "./formulas"
 import type { ServerId, HoBiome, HoRegion } from "./rules"
 import { MARKETS } from "./rules"
-import { getItem, journalFor, marketId, setNameBook, variantOf } from "./lookup"
+import { getItem, journalTiers, marketId, setNameBook, variantOf } from "./lookup"
 import type { DeskSnapshot } from "./desk"
 
 export type Quote = PriceQuote
@@ -31,6 +31,7 @@ export type Line = {
   siblings: number
   journal: boolean
   journalTier: number
+  journalTiers: number[]
   productOverride: number | null
   matOverrides: Record<string, number>
   focusOverride: number | null
@@ -126,6 +127,7 @@ export function blankLine(itemId = "T4_MAIN_SWORD"): Line {
     siblings: 0,
     journal: false,
     journalTier: 4,
+    journalTiers: [],
     productOverride: null,
     matOverrides: {},
     focusOverride: null,
@@ -143,9 +145,15 @@ function collectIds(lines: Line[]): string[] {
     const variant = variantOf(item, line.enchant, line.route)
     ids.add(marketId(item.id, variant.enchant))
     for (const mat of variant.mats) ids.add(mat.id)
-    if (line.journal && item.journal) {
-      const journal = journalFor(item.journal, line.journalTier || item.tier)
-      if (journal) {
+    if (line.route === "upgrade") {
+      for (const enchant of [1, 2, 3]) {
+        const upgrade = item.variants.find((entry) => entry.enchant === enchant && entry.route === "upgrade")
+        if (!upgrade) continue
+        for (const mat of upgrade.mats) ids.add(mat.id)
+      }
+    }
+    if (item.journal) {
+      for (const journal of journalTiers(item.journal)) {
         ids.add(`${journal.id}_EMPTY`)
         ids.add(`${journal.id}_FULL`)
       }
