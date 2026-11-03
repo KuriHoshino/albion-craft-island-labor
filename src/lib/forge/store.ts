@@ -35,6 +35,8 @@ export type Line = {
   productOverride: number | null
   matOverrides: Record<string, number>
   focusOverride: number | null
+  /** Buy the item in one city and sell it in another. No resources or journals. */
+  flip?: boolean
   /** City stamped onto this recipe's shopping rows. */
   shopCity?: string
   /** Sell city for this item. Falls back to the desk sell city. */

@@ -38,6 +38,7 @@ export const DeskSchema = z.object({
         productOverride: z.number().nullable(),
         matOverrides: z.record(z.string().max(80), z.number()),
         focusOverride: z.number().nullable(),
+        flip: z.boolean().optional(),
         shopCity: z.string().min(1).max(40).optional(),
         sellAt: z.string().min(1).max(40).optional(),
         matCities: z.record(z.string().max(80), z.string().max(40)).optional(),

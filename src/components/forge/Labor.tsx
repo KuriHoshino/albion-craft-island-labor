@@ -114,7 +114,7 @@ export function LaborLab() {
                 />
               </div>
               <p className="mt-2 text-muted">
-                {exact(hallAmount)} {job.returns} · {pct(hallRate)}
+                {exact(hallAmount)} {job.returns} · {exact(hallHappy)} happiness
               </p>
               {job.id === "mercenary" ? null : <Chances amount={hallAmount} />}
             </li>
@@ -142,7 +142,7 @@ export function LaborLab() {
                 />
               </div>
               <p className="mt-2 text-muted">
-                {exact(row.amount)} {job.returns} · {pct(row.rate)}
+                {exact(row.amount)} {job.returns} · {exact(happy[row.tier] ?? 0)} happiness
               </p>
               {job.id === "mercenary" ? null : <Chances amount={row.amount} />}
             </li>
@@ -164,7 +164,7 @@ export function LaborLab() {
             />
             <Result label="Laborers" value={exact(mix.people)} note="A house holds 1, then 2, then 3 from T5." />
             <Result label="Journals" value={exact(mix.journals)} note="One filled journal per laborer, the laborer's tier." />
-            <Result label="Return" value="22 hours" note="100% with a matching bed and table. Trophy happiness stacks on that. A hall uses the same rate." />
+            <Result label="Return" value="22 hours" note="Bed and table return the base amount. Trophy happiness starts at 0 and stacks up to 100." />
             <Result
               label={job.family === "Mercenary" ? "Silver" : "Materials"}
               value={exact(mix.amount)}
@@ -189,7 +189,7 @@ export function LaborLab() {
               note={`${exact(hallPeople)} in the hall. 15 is the hall maximum. ${exact(mix.people)} in houses.`}
             />
             <Result label="Journals" value={exact(hallJournals + mix.journals)} note={`${exact(hallJournals)} for the hall. ${exact(mix.journals)} for the houses.`} />
-            <Result label="Return" value="22 hours" note="100% with a matching bed and table. Trophy happiness stacks on that. A hall uses the same rate." />
+            <Result label="Return" value="22 hours" note="Bed and table return the base amount. Trophy happiness starts at 0 and stacks up to 100." />
             <Result
               label={job.family === "Mercenary" ? "Silver" : "Materials"}
               value={exact(hallAmount + mix.amount)}

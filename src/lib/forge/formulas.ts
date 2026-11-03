@@ -250,6 +250,9 @@ export function craftMath(opts: {
   matUnit: (id: string) => number | null
   matSellUnit: (id: string) => number | null
   journalFills: { tier: number; fame: number; empty: number | null; full: number | null }[]
+  flip?: boolean
+  flipUnit?: number | null
+  flipItemId?: string
 }): CraftMath {
   const runs = Math.max(0, opts.runs)
   const bonus = productionBonus(opts)
@@ -259,7 +262,7 @@ export function craftMath(opts: {
   const items = (opts.variant.output || 1) * runs
   const fameEach = opts.variant.fame * (opts.premium ? PREMIUM_FAME : 1)
   const fameTotal = fameEach * items
-  const fee = stationFee(opts.variant.value, items, opts.tier, opts.stationRate)
+  const fee = opts.flip ? 0 : stationFee(opts.variant.value, items, opts.tier, opts.stationRate)
   const nut = nutrition(opts.variant.value, items, opts.tier)
   const baseFocus = opts.focusOverride != null && opts.focusOverride >= 0 ? opts.focusOverride : opts.variant.focus
   const spec = focusFromSpecs(baseFocus, opts.mastery, opts.specialist, opts.siblings)
@@ -275,7 +278,18 @@ export function craftMath(opts: {
   const consumed: CraftMath["consumed"] = []
   const leftovers: CraftMath["leftovers"] = []
 
-  for (const mat of opts.variant.mats) {
+  if (opts.flip) {
+    const unit = opts.flipUnit ?? null
+    if (unit == null) {
+      materialKnown = false
+      missing.push(opts.flipItemId || "product")
+    }
+    const priced = unit == null ? null : stackBuy(unit, items, opts.buyMode).cost
+    if (priced != null) materialCost += priced
+    if (opts.flipItemId) consumed.push({ id: opts.flipItemId, qty: items, unit, cost: priced })
+  }
+
+  for (const mat of opts.flip ? [] : opts.variant.mats) {
     const rate = mat.ret ? rrr : 0
     const returns = rate > 0
     const lots = returns ? materialLots(runs, mat.qty, rate) : { buy: mat.qty * Math.floor(Math.max(0, runs)), leftover: 0 }
@@ -298,7 +312,7 @@ export function craftMath(opts: {
     }
   }
 
-  const silverCost = (opts.variant.silver || 0) * runs
+  const silverCost = opts.flip ? 0 : (opts.variant.silver || 0) * runs
   let revenue: number | null = null
   if (opts.productUnit == null) {
     missing.push("product")
@@ -309,7 +323,7 @@ export function craftMath(opts: {
   let journalProfit: number | null = null
   let journals = 0
   const journalRows: CraftMath["journalRows"] = []
-  const fills = opts.journalFills.filter((fill) => fill.fame > 0)
+  const fills = opts.flip ? [] : opts.journalFills.filter((fill) => fill.fame > 0)
   if (fills.length) {
     const share = fameTotal / fills.length
     let profit = 0
