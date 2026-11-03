@@ -14,7 +14,7 @@ export function LaborLab() {
   const [journalTier, setJournalTier] = useState<Record<number, number>>({})
   const [happy, setHappy] = useState<Record<number, number>>({})
   const [hallJournal, setHallJournal] = useState(8)
-  const [hallHappy, setHallHappy] = useState(100)
+  const [hallHappy, setHallHappy] = useState(0)
   const [upgradeKind, setUpgradeKind] = useState<"house" | "hall">("house")
   const [upgradeFrom, setUpgradeFrom] = useState(1)
   const [upgradeTo, setUpgradeTo] = useState(8)
@@ -23,7 +23,7 @@ export function LaborLab() {
   const guild = guildHousePlots(islandTier)
   const mix = scoreHouses(job, counts, journalTier, happy)
   const hallLabor = Math.min(hallTier, Math.max(2, hallJournal))
-  const hallRate = yieldRate(hallHappy)
+  const hallRate = yieldRate(hallLabor, hallHappy)
   const hallPeople = guildSlots(hallTier)
   const hallBase = job.loot[hallLabor]
   const hallJournals = hallPeople
@@ -107,10 +107,10 @@ export function LaborLab() {
                   options={TIERS.filter((tier) => tier <= hallTier).map((tier) => ({ value: String(tier), label: `T${tier}` }))}
                 />
                 <Num
-                  label="Happiness %"
-                  min={100}
+                  label="Trophy happiness"
+                  min={0}
                   value={hallHappy}
-                  onChange={(value) => setHallHappy(Math.min(150, Math.max(100, value)))}
+                  onChange={(value) => setHallHappy(Math.min(100, Math.max(0, value)))}
                 />
               </div>
               <p className="mt-2 text-muted">
@@ -135,10 +135,10 @@ export function LaborLab() {
                   options={TIERS.filter((tier) => tier <= row.tier).map((tier) => ({ value: String(tier), label: `T${tier}` }))}
                 />
                 <Num
-                  label="Happiness %"
-                  min={100}
-                  value={Math.round(happy[row.tier] ?? 100)}
-                  onChange={(value) => setHappy((current) => ({ ...current, [row.tier]: Math.min(150, Math.max(100, value)) }))}
+                  label="Trophy happiness"
+                  min={0}
+                  value={happy[row.tier] ?? 0}
+                  onChange={(value) => setHappy((current) => ({ ...current, [row.tier]: Math.min(100, Math.max(0, value)) }))}
                 />
               </div>
               <p className="mt-2 text-muted">
@@ -163,8 +163,8 @@ export function LaborLab() {
               }
             />
             <Result label="Laborers" value={exact(mix.people)} note="A house holds 1, then 2, then 3 from T5." />
-            <Result label="Journals" value={exact(mix.journals)} note="One filled journal per laborer, same tier as the house." />
-            <Result label="Return" value="22 hours" note="Happiness raises the amount, not the enchant chance." />
+            <Result label="Journals" value={exact(mix.journals)} note="One filled journal per laborer, the laborer's tier." />
+            <Result label="Return" value="22 hours" note="100% with a matching bed and table. Trophy happiness stacks on that. A hall uses the same rate." />
             <Result
               label={job.family === "Mercenary" ? "Silver" : "Materials"}
               value={exact(mix.amount)}
@@ -189,7 +189,7 @@ export function LaborLab() {
               note={`${exact(hallPeople)} in the hall. 15 is the hall maximum. ${exact(mix.people)} in houses.`}
             />
             <Result label="Journals" value={exact(hallJournals + mix.journals)} note={`${exact(hallJournals)} for the hall. ${exact(mix.journals)} for the houses.`} />
-            <Result label="Return" value="22 hours" note="Happiness raises the amount, not the enchant chance." />
+            <Result label="Return" value="22 hours" note="100% with a matching bed and table. Trophy happiness stacks on that. A hall uses the same rate." />
             <Result
               label={job.family === "Mercenary" ? "Silver" : "Materials"}
               value={exact(hallAmount + mix.amount)}

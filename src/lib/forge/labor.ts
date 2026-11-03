@@ -72,8 +72,11 @@ export const ENCHANT = [
   { label: ".3", weight: 1 },
 ]
 
-export function yieldRate(percent: number) {
-  return Math.min(150, Math.max(100, percent)) / 100
+/** Bed and table of the laborer tier are 100%. Trophy happiness stacks on that, and only 100 points count. */
+export function yieldRate(laborTier: number, trophy: number) {
+  const tier = Math.min(8, Math.max(2, Math.floor(laborTier) || 2))
+  const bonus = Math.min(100, Math.max(0, trophy))
+  return Math.min(1.5, (tier * 100 + bonus) / (tier * 100))
 }
 
 export function scoreHouses(
@@ -87,7 +90,7 @@ export function scoreHouses(
     const houses = Math.max(0, Math.floor(counts[tier] ?? 0))
     if (!houses) continue
     const labor = Math.min(tier, Math.max(2, Math.floor(journals[tier] ?? tier)))
-    const rate = yieldRate(happy[tier] ?? 100)
+    const rate = yieldRate(labor, happy[tier] ?? 0)
     const people = houses * houseSlots(tier)
     const base = job.loot[labor]
     rows.push({
