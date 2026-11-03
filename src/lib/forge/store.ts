@@ -158,6 +158,7 @@ function collectIds(lines: Line[]): string[] {
 
 let loadingFlag = false
 let loadAgain = false
+let retryTimer = 0
 
 export function priceWatchKey(state: { server: string; lines: Line[] }) {
   return `${state.server}|${collectIds(state.lines).slice().sort().join(",")}`
@@ -319,12 +320,28 @@ export const useForge = create<ForgeState>()(
           })
         } catch (error) {
           const message = error instanceof Error ? error.message : "Could not load market prices"
-          set({ loading: false, priceError: message })
+          const busy = /busy|throttl/i.test(message)
+          if (busy) {
+            set({
+              loading: false,
+              priceError: get().priceAt ? null : "Prices are waiting on the market. They retry in a minute.",
+            })
+            if (!retryTimer) {
+              retryTimer = window.setTimeout(() => {
+                retryTimer = 0
+                void get().loadPrices()
+              }, 60_000)
+            }
+          } else {
+            set({ loading: false, priceError: message })
+          }
         } finally {
           loadingFlag = false
-          if (loadAgain) {
+          if (loadAgain && !retryTimer) {
             loadAgain = false
             void get().loadPrices()
+          } else {
+            loadAgain = false
           }
         }
       },

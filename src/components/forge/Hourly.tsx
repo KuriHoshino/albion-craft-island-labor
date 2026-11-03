@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from "react"
+import { useEffect, useMemo, useRef, useState } from "react"
 import { CartesianGrid, Line, LineChart, ResponsiveContainer, Tooltip, XAxis, YAxis } from "recharts"
 import { fetchHourlyPrices, type HourSeries } from "@/lib/forge/prices"
 import { MARKETS, type ServerId } from "@/lib/forge/rules"
@@ -39,32 +39,36 @@ export function HourlyChart({
   const [at, setAt] = useState<number | null>(null)
   const book = useForge((s) => s.prices)
 
+  const filled = useRef(false)
+
   useEffect(() => {
     if (!itemId) return
     let cancel = false
     const load = () => {
       setLoading(true)
-      setError("")
       void fetchHourlyPrices({
         data: { server, itemId, locations: [...MARKETS], quality },
       })
         .then((result) => {
           if (cancel) return
+          filled.current = result.series.length > 0
           setSeries(result.series)
           setAt(result.fetchedAt)
+          setError("")
         })
         .catch((err: unknown) => {
-          if (cancel) return
+          if (cancel || filled.current) return
           setError(err instanceof Error ? err.message : "Could not load hourly prices")
         })
         .finally(() => {
           if (!cancel) setLoading(false)
         })
     }
-    load()
+    const start = window.setTimeout(load, 4_000)
     const timer = window.setInterval(load, 60_000)
     return () => {
       cancel = true
+      window.clearTimeout(start)
       window.clearInterval(timer)
     }
   }, [server, itemId, quality])

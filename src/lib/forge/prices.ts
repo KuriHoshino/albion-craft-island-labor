@@ -43,7 +43,7 @@ function bestLevel(levels: BookLevel[] | undefined) {
 
 async function pullJson(url: string): Promise<unknown> {
   const res = await fetch(url, {
-    headers: { Accept: "application/json" },
+    headers: { Accept: "application/json", "Accept-Encoding": "gzip, deflate" },
     signal: AbortSignal.timeout(20000),
   })
   if (res.status === 429) throw new Error("The data project is busy. Prices retry in a minute.")
@@ -63,11 +63,7 @@ async function pullPrices(host: string, ids: string[], locations: string[], qual
 async function pullBook(host: string, ids: string[], locations: string[], qualities: number[]) {
   const loc = locations.map((name) => encodeURIComponent(name)).join(",")
   const url = `${host}/api/v2/stats/orderbook/${ids.join(",")}.json?locations=${loc}&qualities=${qualities.join(",")}`
-  try {
-    return (await pullJson(url)) as BookRow[]
-  } catch {
-    return [] as BookRow[]
-  }
+  return (await pullJson(url)) as BookRow[]
 }
 
 export const fetchMarketPrices = createServerFn({ method: "POST" })
@@ -80,8 +76,8 @@ export const fetchMarketPrices = createServerFn({ method: "POST" })
       const chunk = ids.slice(i, i + 40)
       const locations = [...data.locations]
       const qualities = data.qualities
-      const listed = await pullPrices(host, chunk, locations, qualities)
       const book = await pullBook(host, chunk, locations, qualities)
+      const listed = book.length ? [] : await pullPrices(host, chunk, locations, qualities)
       for (const row of listed) {
         const item = (quotes[row.item_id] ??= {})
         const city = (item[row.city] ??= {})
@@ -189,29 +185,10 @@ export const fetchHourlyPrices = createServerFn({ method: "POST" })
     const loc = [...new Set(data.locations)].map((name) => encodeURIComponent(name)).join(",")
     const host = HOST[data.server]
     const historyUrl = `${host}/api/v2/stats/history/${data.itemId}.json?locations=${loc}&qualities=${data.quality}&time-scale=1`
-    const chartUrl = `${host}/api/v2/stats/charts/${data.itemId}.json?locations=${loc}&qualities=${data.quality}&time-scale=1`
-    const [historyRes, chartRes] = await Promise.all([
-      readJson(historyUrl).catch(() => ({ status: 0, body: null })),
-      readJson(chartUrl).catch(() => ({ status: 0, body: null })),
-    ])
-    if (historyRes.status === 429 && chartRes.status === 429) {
-      throw new Error("The data project is busy. Wait a moment, then refresh.")
-    }
+    const historyRes = await readJson(historyUrl).catch(() => ({ status: 0, body: null }))
+    if (historyRes.status === 429) throw new Error("The data project is busy. The chart retries in a minute.")
     const bucket = new Map<string, HourPoint[]>()
     if (historyRes.status === 200 && Array.isArray(historyRes.body)) readHistory(historyRes.body as HistRow[], bucket)
-    if (chartRes.status === 200 && Array.isArray(chartRes.body)) readHistory(chartRes.body as HistRow[], bucket)
-    const listed = await pullPrices(host, [data.itemId], [...data.locations], [data.quality])
-    const book = await pullBook(host, [data.itemId], [...data.locations], [data.quality])
-    for (const row of listed) {
-      if ((row.quality ?? data.quality) !== data.quality) continue
-      const stamp = hourStamp(row.sell_price_min_date || "")
-      addHour(bucket, row.city, stamp, row.sell_price_min || 0, 0)
-    }
-    for (const row of book) {
-      if (row.quality !== data.quality) continue
-      const ask = bestLevel(row.sell)
-      addHour(bucket, row.city, hourStamp(ask.at || new Date().toISOString()), ask.price, 0)
-    }
     const series: HourSeries[] = []
     for (const [city, points] of bucket) {
       points.sort((a, b) => a.time.localeCompare(b.time))
