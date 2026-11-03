@@ -158,7 +158,7 @@ function useBootScreen() {
     const close = () => {
       if (closed) return
       closed = true
-      const wait = Math.max(0, 700 - (performance.now() - started))
+      const wait = Math.max(0, 250 - (performance.now() - started))
       window.setTimeout(() => setPhase("out"), wait)
     }
     const cap = window.setTimeout(close, 2800)
@@ -177,7 +177,7 @@ function useBootScreen() {
 
   useEffect(() => {
     if (phase !== "out") return
-    const timer = window.setTimeout(() => setPhase("off"), 500)
+    const timer = window.setTimeout(() => setPhase("off"), 200)
     return () => window.clearTimeout(timer)
   }, [phase])
 
@@ -185,7 +185,7 @@ function useBootScreen() {
   return (
     <div
       className={
-        "fixed inset-0 z-50 flex flex-col items-center justify-center bg-ink transition-opacity duration-500 " +
+        "fixed inset-0 z-50 flex flex-col items-center justify-center bg-ink transition-opacity duration-200 " +
         (phase === "out" ? "pointer-events-none opacity-0" : "opacity-100")
       }
     >
