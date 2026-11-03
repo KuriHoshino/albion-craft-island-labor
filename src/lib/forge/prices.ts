@@ -36,6 +36,66 @@ type PriceRow = {
   buy_price_max_date?: string
 }
 
+const AFM_SERVER: Record<(typeof SERVERS)[number]["id"], string> = {
+  americas: "west",
+  europe: "europe",
+  asia: "east",
+}
+
+const AFM_CITY: Record<string, (typeof MARKETS)[number]> = {
+  "Black Market": "Black Market",
+  "Brecilien Market": "Brecilien",
+  "Bridgewatch Market": "Bridgewatch",
+  "Caerleon Market": "Caerleon",
+  "Fort Sterling Market": "Fort Sterling",
+  "Lymhurst Market": "Lymhurst",
+  "Martlock Market": "Martlock",
+  "Thetford Market": "Thetford",
+}
+
+function silverCell(cell: string) {
+  const match = cell.replace(/<[^>]+>/g, " ").match(/[0-9][0-9,]*/)
+  return match ? Number(match[0].replace(/,/g, "")) : 0
+}
+
+function parseAfm(html: string) {
+  const start = html.indexOf('class="summary-table"')
+  if (start < 0) return []
+  const end = html.indexOf("</table>", start)
+  const table = html.slice(start, end)
+  const rows: { city: (typeof MARKETS)[number]; sell: number; buy: number }[] = []
+  for (const row of table.split("</tr>").slice(1)) {
+    const name = row.match(/>((?:Black Market)|(?:[A-Za-z ]+ Market))</)
+    const city = name ? AFM_CITY[name[1]] : undefined
+    if (!city) continue
+    const cells = [...row.matchAll(/class="numeric">([\s\S]*?)<\/td>/g)]
+    if (cells.length < 2) continue
+    rows.push({ city, sell: silverCell(cells[0][1]), buy: silverCell(cells[1][1]) })
+  }
+  return rows
+}
+
+function hasLivePrice(quotes: Record<string, Record<string, Record<string, PriceQuote>>>, id: string) {
+  const item = quotes[id]
+  if (!item) return false
+  for (const cities of Object.values(item)) {
+    for (const quote of Object.values(cities)) {
+      if (quote.sell > 0 || quote.buy > 0) return true
+    }
+  }
+  return false
+}
+
+async function pullAfm(server: (typeof SERVERS)[number]["id"], itemId: string) {
+  const url = `https://albionfreemarket.com/pricecheck/${encodeURIComponent(itemId)}?s=${AFM_SERVER[server]}`
+  const res = await fetch(url, {
+    headers: { Accept: "text/html" },
+    signal: AbortSignal.timeout(15000),
+  })
+  if (!res.ok) return []
+  return parseAfm(await res.text())
+}
+
 function bestLevel(levels: BookLevel[] | undefined) {
   const level = levels?.find((row) => row.price > 0)
   return { price: level?.price || 0, at: level?.updated_at || "" }
@@ -116,6 +176,31 @@ export async function loadMarketPrices(data: z.infer<typeof Input>) {
       }
     }
     if (i + 40 < ids.length) await new Promise((r) => setTimeout(r, 250))
+  }
+  const missing = ids.filter((id) => !hasLivePrice(quotes, id)).slice(0, 12)
+  for (const id of missing) {
+    try {
+      const rows = await pullAfm(data.server, id)
+      if (!rows.length) continue
+      const item = (quotes[id] ??= {})
+      for (const row of rows) {
+        if (!row.sell && !row.buy) continue
+        if (!data.locations.includes(row.city)) continue
+        const city = (item[row.city] ??= {})
+        for (const quality of data.qualities) {
+          const prev = city[String(quality)]
+          if (prev && (prev.sell > 0 || prev.buy > 0)) continue
+          city[String(quality)] = {
+            sell: row.sell,
+            buy: row.buy,
+            sellDate: row.sell ? "afm" : "",
+            buyDate: row.buy ? "afm" : "",
+          }
+        }
+      }
+    } catch {
+      continue
+    }
   }
   return { quotes, fetchedAt: Date.now() }
 }

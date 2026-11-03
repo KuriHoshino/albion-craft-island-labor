@@ -24,6 +24,7 @@ export function exact(value: number): string {
 /** How old a market timestamp is, such as "2h ago". */
 export function priceAge(stamp: string | undefined): string {
   if (!stamp) return ""
+  if (stamp === "afm") return "AFM"
   const time = Date.parse(stamp.endsWith("Z") || stamp.includes("+") ? stamp : `${stamp}Z`)
   if (Number.isNaN(time)) return ""
   const mins = Math.max(0, Math.floor((Date.now() - time) / 60000))
@@ -37,6 +38,7 @@ export function priceAge(stamp: string | undefined): string {
 /** Age written the way a market order is aged, such as "11.9h old". */
 export function orderAge(stamp: string | undefined): string {
   if (!stamp) return ""
+  if (stamp === "afm") return "AFM"
   const time = Date.parse(stamp.endsWith("Z") || stamp.includes("+") ? stamp : `${stamp}Z`)
   if (Number.isNaN(time)) return ""
   const hours = Math.max(0, (Date.now() - time) / 3_600_000)
