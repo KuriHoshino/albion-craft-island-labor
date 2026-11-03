@@ -1,4 +1,5 @@
-import { useMemo, useState } from "react"
+import { useEffect, useMemo, useState } from "react"
+import { Check } from "lucide-react"
 import { items } from "@/lib/forge/catalog"
 import { enchantStones, marketId } from "@/lib/forge/lookup"
 import { fetchMarketPrices, loadMarketPrices } from "@/lib/forge/prices"
@@ -54,6 +55,8 @@ export function FlipLab() {
   const [buys, setBuys] = useState<string[]>(["Thetford", "Lymhurst", "Bridgewatch", "Martlock", "Fort Sterling", "Caerleon", "Brecilien"])
   const [sells, setSells] = useState<string[]>(["Black Market"])
   const [book, setBook] = useState<PriceBook | null>(null)
+  const [stoneBook, setStoneBook] = useState<PriceBook>({})
+  const [stoneCities, setStoneCities] = useState<Record<string, string>>({})
   const [stoneSide, setStoneSide] = useState<"sell" | "buy">("sell")
   const [stoneOverrides, setStoneOverrides] = useState<Record<string, number | null>>({})
   const [loading, setLoading] = useState(false)
@@ -67,13 +70,8 @@ export function FlipLab() {
     const stoneUnit = (id: string) => {
       const typed = stoneOverrides[id]
       if (typed != null && Number.isFinite(typed) && typed > 0) return typed
-      let best: number | null = null
-      for (const city of buys) {
-        const price = order(book, id, city, 1, stoneSide)
-        if (price == null) continue
-        if (best == null || (stoneSide === "sell" ? price < best : price > best)) best = price
-      }
-      return best
+      const city = stoneCities[id] || buys[0] || "Thetford"
+      return order(stoneBook, id, city, 1, stoneSide) ?? (book ? order(book, id, city, 1, stoneSide) : null)
     }
     const next: FlipRow[] = []
     for (const item of pool) {
@@ -123,8 +121,32 @@ export function FlipLab() {
       }
     }
     return next.sort((a, b) => b.profit - a.profit).slice(0, 80)
-  }, [book, group, tier, enchants, quality, buys, sells, premium, stoneSide, stoneOverrides])
+  }, [book, stoneBook, stoneCities, group, tier, enchants, quality, buys, sells, premium, stoneSide, stoneOverrides])
   const visible = shown.filter((row) => row.profit >= minProfit)
+
+  useEffect(() => {
+    let cancel = false
+    const load = () => {
+      const request = {
+        server,
+        itemIds: [`T${tier}_RUNE`, `T${tier}_SOUL`, `T${tier}_RELIC`],
+        locations: [...MARKETS],
+        qualities: [1],
+      }
+      const pending = import.meta.env.VITE_PAGES === "1" ? loadMarketPrices(request) : fetchMarketPrices({ data: request })
+      void pending
+        .then((result) => {
+          if (!cancel) setStoneBook(result.quotes)
+        })
+        .catch(() => undefined)
+    }
+    load()
+    const timer = window.setInterval(load, 60_000)
+    return () => {
+      cancel = true
+      window.clearInterval(timer)
+    }
+  }, [server, tier])
 
   function toggle(list: string[], city: string, set: (next: string[]) => void) {
     set(list.includes(city) ? list.filter((entry) => entry !== city) : [...list, city])
@@ -243,25 +265,45 @@ export function FlipLab() {
                 { id: `T${tier}_SOUL`, name: `T${tier} soul · .2` },
                 { id: `T${tier}_RELIC`, name: `T${tier} relic · .3` },
               ].map((stone) => {
-                let live: number | null = null
-                let city = ""
-                if (book) {
-                  for (const place of buys) {
-                    const price = order(book, stone.id, place, 1, stoneSide)
-                    if (price == null) continue
-                    if (live == null || (stoneSide === "sell" ? price < live : price > live)) {
-                      live = price
-                      city = place
-                    }
-                  }
-                }
+                const city = stoneCities[stone.id] || buys[0] || "Thetford"
+                const market = order(stoneBook, stone.id, city, 1, stoneSide)
+                const locked = stoneOverrides[stone.id] != null && market != null && stoneOverrides[stone.id] === market
                 return (
-                  <label key={stone.id} className="text-xs text-muted">
-                    {stone.name}
+                  <div key={stone.id} className="text-xs text-muted">
+                    <p>{stone.name}</p>
+                    <label className="mt-2 block">
+                      Buy in
+                      <select
+                        className="mt-1 h-11 w-full rounded-lg border border-line bg-ink px-3 text-base text-parchment"
+                        value={city}
+                        onChange={(event) => setStoneCities((current) => ({ ...current, [stone.id]: event.target.value }))}
+                      >
+                        {MARKETS.map((place) => {
+                          const price = order(stoneBook, stone.id, place, 1, stoneSide)
+                          return (
+                            <option key={place} value={place}>
+                              {price == null ? place : `${place} · ${silver(price)}`}
+                            </option>
+                          )
+                        })}
+                      </select>
+                    </label>
+                    <span className="mt-2 flex items-center gap-2">
+                      <span className="tabular-nums text-base text-parchment">{market == null ? "No live order" : silver(market)}</span>
+                      <button
+                        type="button"
+                        disabled={market == null}
+                        onClick={() => market != null && setStoneOverrides((current) => ({ ...current, [stone.id]: market }))}
+                        aria-label={`Use ${city} price`}
+                        className={"grid size-8 shrink-0 place-items-center rounded-md border " + (locked ? "border-brass text-brass" : "border-line text-muted")}
+                      >
+                        <Check className="size-4" />
+                      </button>
+                    </span>
                     <input
-                      className="mt-1 h-11 w-full rounded-lg border border-line bg-ink px-3 text-base text-parchment"
+                      className="mt-2 h-11 w-full rounded-lg border border-line bg-ink px-3 text-base text-parchment"
                       inputMode="decimal"
-                      placeholder={live == null ? "No market price" : String(Math.round(live))}
+                      placeholder="Type a price to override"
                       value={stoneOverrides[stone.id] ?? ""}
                       onChange={(event) =>
                         setStoneOverrides((current) => ({
@@ -270,10 +312,7 @@ export function FlipLab() {
                         }))
                       }
                     />
-                    <span className="mt-1 block">
-                      {live == null ? "No data" : `${stoneSide === "sell" ? "Sell order" : "Buy order"} ${silver(live)} · ${city}`}
-                    </span>
-                  </label>
+                  </div>
                 )
               })}
             </div>
