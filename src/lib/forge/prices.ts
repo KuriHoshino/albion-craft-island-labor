@@ -74,14 +74,29 @@ export async function loadMarketPrices(data: z.infer<typeof Input>) {
     const chunk = ids.slice(i, i + 40)
     const locations = [...data.locations]
     const qualities = data.qualities
-    const book = await pullBook(host, chunk, locations, qualities)
-    const listed = book.length ? [] : await pullPrices(host, chunk, locations, qualities)
+    let book: BookRow[] = []
+    let listed: PriceRow[] = []
+    let failure: Error | null = null
+    try {
+      book = await pullBook(host, chunk, locations, qualities)
+    } catch (err) {
+      failure = err instanceof Error ? err : new Error("Order book failed")
+    }
+    try {
+      listed = await pullPrices(host, chunk, locations, qualities)
+    } catch (err) {
+      failure = failure ?? (err instanceof Error ? err : new Error("Price list failed"))
+    }
+    if (!book.length && !listed.length && failure) throw failure
     for (const row of listed) {
+      const sell = row.sell_price_min || 0
+      const buy = row.buy_price_max || 0
+      if (!sell && !buy) continue
       const item = (quotes[row.item_id] ??= {})
       const city = (item[row.city] ??= {})
       city[String(row.quality)] = {
-        sell: row.sell_price_min || 0,
-        buy: row.buy_price_max || 0,
+        sell,
+        buy,
         sellDate: row.sell_price_min_date || "",
         buyDate: row.buy_price_max_date || "",
       }
