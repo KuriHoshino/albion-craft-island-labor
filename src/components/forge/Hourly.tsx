@@ -161,27 +161,40 @@ function CityGrid({
       buyAge: priceAge(quote?.buyDate),
     }
   })
+  const lowestSell = rows.reduce<number | null>((best, row) => {
+    if (row.sell == null) return best
+    if (best == null || row.sell < best) return row.sell
+    return best
+  }, null)
   const highestSell = rows.reduce<number | null>((best, row) => {
     if (row.sell == null) return best
     if (best == null || row.sell > best) return row.sell
     return best
   }, null)
+  const split = lowestSell != null && highestSell != null && lowestSell !== highestSell
   return (
     <ul className="mt-3 grid grid-cols-2 gap-2">
       {rows.map((row) => {
         const last = lastByCity.get(row.city)
         const sold = soldInDay(series.find((entry) => entry.city === row.city)?.points ?? [])
         const using = usedCity === row.city
-        const bestSell = row.sell != null && row.sell === highestSell
+        const cheap = split && row.sell === lowestSell
+        const rich = split && row.sell === highestSell
         return (
           <li key={row.city} className="flex items-start gap-2 rounded-lg border border-line px-2 py-1.5 text-xs">
             <button
               type="button"
               onClick={() => onUse(row.city, row.price)}
-              aria-label={bestSell ? `Highest sell price is ${row.city}` : `Use ${row.city}`}
+              aria-label={cheap ? `Lowest price is ${row.city}` : rich ? `Highest price is ${row.city}` : `Use ${row.city}`}
               className={
                 "mt-0.5 grid size-8 shrink-0 place-items-center rounded-md border " +
-                (bestSell ? "border-ember text-ember " : using ? "border-brass text-brass " : "border-line text-muted ")
+                (cheap
+                  ? "border-sage text-sage "
+                  : rich
+                    ? "border-ember text-ember "
+                    : using
+                      ? "border-brass text-brass "
+                      : "border-line text-muted ")
               }
             >
               <Check className="size-4" />
@@ -190,7 +203,8 @@ function CityGrid({
               <p className="inline-flex items-center gap-1.5 text-parchment">
                 <span className="inline-block size-2 shrink-0 rounded-full" style={{ background: STROKE[row.city] }} />
                 <span className="truncate">{row.city}</span>
-                {bestSell ? <span className="text-ember">highest sell</span> : null}
+                {cheap ? <span className="text-sage">lowest</span> : null}
+                {rich ? <span className="text-ember">highest</span> : null}
               </p>
               <p className="tabular-nums text-muted">
                 {row.sell != null ? `sell ${silver(row.sell)}${row.sellAge ? ` · ${row.sellAge}` : ""}` : "sell —"}

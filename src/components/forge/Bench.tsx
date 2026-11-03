@@ -1,4 +1,4 @@
-import { useMemo, useState } from "react"
+import { useEffect, useMemo, useRef, useState } from "react"
 import { RefreshCw, Trash2, Check } from "lucide-react"
 import { craftMath } from "@/lib/forge/formulas"
 import { enchantsOf, getItem, journalFor, marketId, matName, matWeight, variantOf } from "@/lib/forge/lookup"
@@ -115,6 +115,35 @@ export function Bench() {
   const fullJournal = journal && line ? lookup(state.prices, `${journal.id}_FULL`, line.matCities?.[`${journal.id}_FULL`] || sellAt, 1, sellSide, line.matOverrides[`${journal.id}_FULL`] ?? null) : { price: null, from: null }
   const routes = item && line ? item.variants.filter((entry) => entry.enchant === (variant?.enchant ?? line.enchant)) : []
   const hasUpgrade = routes.some((entry) => entry.route === "upgrade")
+  const autoCities = useRef("")
+
+  useEffect(() => {
+    if (!item || !line || !variant) return
+    const productId = marketId(item.id, variant.enchant)
+    const key = `${line.uid}|${productId}|${state.quality}`
+    if (autoCities.current === key) return
+    const priced = (id: string, quality: number) => {
+      let low: { city: string; price: number } | null = null
+      let high: { city: string; price: number } | null = null
+      for (const city of MARKETS) {
+        const sell = moneySide(readQuote(state.prices, id, city, quality), "sell")
+        if (sell == null) continue
+        if (!low || sell < low.price) low = { city, price: sell }
+        if (!high || sell > high.price) high = { city, price: sell }
+      }
+      return { low, high }
+    }
+    const product = priced(productId, state.quality)
+    if (!product.low || !product.high) return
+    const matCities = { ...line.matCities }
+    for (const mat of variant.mats) {
+      const row = priced(mat.id, 1)
+      if (row.low) matCities[mat.id] = row.low.city
+    }
+    autoCities.current = key
+    state.patch({ buyCity: product.low.city, sellCity: product.high.city })
+    state.patchLine(line.uid, { shopCity: product.low.city, sellAt: product.high.city, matCities })
+  }, [item, line, variant, state])
 
   const cities = useMemo(() => {
     if (!item || !line || !variant) return []
