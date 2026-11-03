@@ -43,9 +43,11 @@ export type Line = {
   sellAt?: string
   /** Buy city for one resource or journal. Falls back to the shopping city. */
   matCities?: Record<string, string>
+  /** Sell order or buy order for one resource. Falls back to the desk buy mode. */
+  matModes?: Record<string, "sell" | "buy">
 }
 
-export type View = "bench" | "returns" | "study" | "reroll" | "codex" | "farm" | "labor" | "recent"
+export type View = "bench" | "returns" | "study" | "reroll" | "codex" | "farm" | "labor" | "recent" | "flip"
 
 export type RecentSearch = {
   id: string

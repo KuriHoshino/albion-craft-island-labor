@@ -34,6 +34,17 @@ export function priceAge(stamp: string | undefined): string {
   return `${Math.floor(hours / 24)}d ago`
 }
 
+/** Age written the way a market order is aged, such as "11.9h old". */
+export function orderAge(stamp: string | undefined): string {
+  if (!stamp) return ""
+  const time = Date.parse(stamp.endsWith("Z") || stamp.includes("+") ? stamp : `${stamp}Z`)
+  if (Number.isNaN(time)) return ""
+  const hours = Math.max(0, (Date.now() - time) / 3_600_000)
+  if (hours < 1) return `${Math.max(1, Math.round(hours * 60))}m old`
+  if (hours < 48) return `${hours.toFixed(1)}h old`
+  return `${Math.floor(hours / 24)}d old`
+}
+
 export function pct(value: number): string {
   return `${(value * 100).toFixed(2)}%`
 }

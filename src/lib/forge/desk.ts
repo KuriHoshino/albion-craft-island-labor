@@ -42,6 +42,7 @@ export const DeskSchema = z.object({
         shopCity: z.string().min(1).max(40).optional(),
         sellAt: z.string().min(1).max(40).optional(),
         matCities: z.record(z.string().max(80), z.string().max(40)).optional(),
+        matModes: z.record(z.string().max(80), z.enum(["sell", "buy"])).optional(),
       }),
     )
     .min(1)

@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react"
-import { BookOpen, Clock, Dices, GraduationCap, Hammer, Percent, Sprout, Users } from "lucide-react"
+import { BookOpen, Clock, Dices, GraduationCap, Hammer, Percent, Repeat, Sprout, Users } from "lucide-react"
 import { signIn } from "@/lib/auth/client"
 import { SignedIn, SignedOut, UserButton } from "@/lib/auth/gates"
 import { useCurrentUserState } from "@/lib/auth/use-current-user"
@@ -9,6 +9,7 @@ import { priceWatchKey, useForge, type RecentSearch, type View } from "@/lib/for
 import { syncCatalogFromGitHub } from "@/lib/forge/remote"
 import { Bench } from "./Bench"
 import { FarmLab } from "./Farm"
+import { FlipLab } from "./Flipper"
 import { LaborLab } from "./Labor"
 import { RecentLab } from "./Recent"
 import { Codex, RerollLab, ReturnFocusLab, StudyLab } from "./Labs"
@@ -16,6 +17,7 @@ import { Codex, RerollLab, ReturnFocusLab, StudyLab } from "./Labs"
 const NAV: { id: View; label: string; icon: typeof Hammer }[] = [
   { id: "codex", label: "Codex", icon: BookOpen },
   { id: "bench", label: "Add Craft", icon: Hammer },
+  { id: "flip", label: "Flipping", icon: Repeat },
   { id: "recent", label: "Recent", icon: Clock },
   { id: "farm", label: "Farming and Breeding", icon: Sprout },
   { id: "labor", label: "Laborers", icon: Users },
@@ -134,6 +136,7 @@ export function ForgeApp() {
       </header>
       <main className="mx-auto max-w-6xl px-4 py-4 pb-10">
         {view === "bench" ? <Bench /> : null}
+        {view === "flip" ? <FlipLab /> : null}
         {view === "farm" ? <FarmLab /> : null}
         {view === "labor" ? <LaborLab /> : null}
         {view === "returns" ? <ReturnFocusLab /> : null}
