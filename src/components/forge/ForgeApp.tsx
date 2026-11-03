@@ -1,4 +1,4 @@
-import { useEffect } from "react"
+import { useEffect, useState } from "react"
 import { BookOpen, Clock, Dices, GraduationCap, Hammer, Percent, Sprout, Users } from "lucide-react"
 import { signIn } from "@/lib/auth/client"
 import { SignedIn, SignedOut, UserButton } from "@/lib/auth/gates"
@@ -28,6 +28,7 @@ export function ForgeApp() {
   const setView = useForge((s) => s.setView)
   const server = useForge((s) => s.server)
   const patch = useForge((s) => s.patch)
+  const boot = useBootScreen()
 
   useEffect(() => {
     void syncCatalogFromGitHub().catch(() => undefined)
@@ -141,6 +142,60 @@ export function ForgeApp() {
           once a minute. Not affiliated with Sandbox Interactive.
         </p>
       </main>
+      {boot}
+    </div>
+  )
+}
+
+function useBootScreen() {
+  const [phase, setPhase] = useState<"on" | "out" | "off">("on")
+  const loading = useForge((s) => s.loading)
+
+  useEffect(() => {
+    const started = performance.now()
+    let sawLoad = false
+    let closed = false
+    const close = () => {
+      if (closed) return
+      closed = true
+      const wait = Math.max(0, 700 - (performance.now() - started))
+      window.setTimeout(() => setPhase("out"), wait)
+    }
+    const cap = window.setTimeout(close, 2800)
+    const unsub = useForge.subscribe((state) => {
+      if (state.loading) sawLoad = true
+      if (!useForge.persist.hasHydrated()) return
+      if (state.priceAt != null || state.priceError || (sawLoad && !state.loading)) close()
+    })
+    const state = useForge.getState()
+    if (useForge.persist.hasHydrated() && (state.priceAt != null || state.priceError)) close()
+    return () => {
+      unsub()
+      window.clearTimeout(cap)
+    }
+  }, [])
+
+  useEffect(() => {
+    if (phase !== "out") return
+    const timer = window.setTimeout(() => setPhase("off"), 500)
+    return () => window.clearTimeout(timer)
+  }, [phase])
+
+  if (phase === "off") return null
+  return (
+    <div
+      className={
+        "fixed inset-0 z-50 flex flex-col items-center justify-center bg-ink transition-opacity duration-500 " +
+        (phase === "out" ? "pointer-events-none opacity-0" : "opacity-100")
+      }
+    >
+      <div className="relative flex size-16 items-center justify-center">
+        <span className="absolute inset-0 rounded-full border border-line" />
+        <span className="absolute inset-0 animate-spin rounded-full border-2 border-transparent border-t-brass" />
+        <Hammer className="size-6 text-brass" />
+      </div>
+      <p className="mt-6 font-display text-4xl text-parchment">Hearthforge</p>
+      <p className="mt-2 text-sm text-muted">{loading ? "Reading the order book" : "Opening the desk"}</p>
     </div>
   )
 }
