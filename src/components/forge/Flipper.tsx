@@ -15,13 +15,20 @@ const GROUPS = [
   { id: "tool", label: "Tools" },
 ]
 
-const ENCHANTS = [
-  { level: 0, label: ".0 direct" },
-  { level: 1, label: ".1 runes" },
-  { level: 2, label: ".2 souls" },
-  { level: 3, label: ".3 relics" },
-  { level: 4, label: ".4 market" },
+const UPGRADES = [
+  { level: 1, label: ".1" },
+  { level: 2, label: ".2" },
+  { level: 3, label: ".3" },
 ]
+
+function activeLevels(upgrade: boolean, upgradeLevels: number[], market4: boolean) {
+  const levels = [0]
+  if (upgrade) {
+    for (const level of upgradeLevels) if (level >= 1 && level <= 3) levels.push(level)
+  }
+  if (market4) levels.push(4)
+  return levels
+}
 
 type FlipRow = {
   key: string
@@ -49,7 +56,9 @@ export function FlipLab() {
   const patch = useForge((s) => s.patch)
   const [group, setGroup] = useState("weapon")
   const [tier, setTier] = useState(6)
-  const [enchants, setEnchants] = useState<number[]>([0, 1, 2, 3, 4])
+  const [upgrade, setUpgrade] = useState(false)
+  const [upgradeLevels, setUpgradeLevels] = useState<number[]>([1, 2, 3])
+  const [market4, setMarket4] = useState(false)
   const [quality, setQuality] = useState(1)
   const [minProfit, setMinProfit] = useState(0)
   const [buys, setBuys] = useState<string[]>(["Thetford", "Lymhurst", "Bridgewatch", "Martlock", "Fort Sterling", "Caerleon", "Brecilien"])
@@ -66,7 +75,7 @@ export function FlipLab() {
   const shown = useMemo(() => {
     if (!book) return []
     const pool = items.filter((item) => item.group === group && item.tier === tier)
-    const levels = enchants.length ? enchants : [0]
+    const levels = activeLevels(upgrade, upgradeLevels, market4)
     const stoneUnit = (id: string) => {
       const typed = stoneOverrides[id]
       if (typed != null && Number.isFinite(typed) && typed > 0) return typed
@@ -122,7 +131,7 @@ export function FlipLab() {
       }
     }
     return next.sort((a, b) => b.profit - a.profit).slice(0, 80)
-  }, [book, stoneBook, stoneCities, group, tier, enchants, quality, buys, sells, premium, stoneSide, stoneOverrides])
+  }, [book, stoneBook, stoneCities, group, tier, upgrade, upgradeLevels, market4, quality, buys, sells, premium, stoneSide, stoneOverrides])
   const visible = shown.filter((row) => row.profit >= minProfit)
 
   useEffect(() => {
@@ -155,7 +164,7 @@ export function FlipLab() {
 
   async function scan() {
     const pool = items.filter((item) => item.group === group && item.tier === tier)
-    const levels = enchants.length ? enchants : [1]
+    const levels = activeLevels(upgrade, upgradeLevels, market4)
     const ids = new Set<string>([`T${tier}_RUNE`, `T${tier}_SOUL`, `T${tier}_RELIC`])
     for (const item of pool) {
       for (const level of levels) {
@@ -227,25 +236,49 @@ export function FlipLab() {
         <div className="mt-4">
           <p className="text-xs font-semibold tracking-wide text-brass uppercase">Enchantment</p>
           <div className="mt-2 flex flex-wrap gap-2">
-            {ENCHANTS.map((entry) => (
-              <button
-                key={entry.level}
-                type="button"
-                onClick={() =>
-                  setEnchants((current) =>
-                    current.includes(entry.level) ? current.filter((level) => level !== entry.level) : [...current, entry.level].sort(),
-                  )
-                }
-                className={"h-11 rounded-full border px-3 text-sm " + (enchants.includes(entry.level) ? "border-brass text-brass" : "border-line text-muted")}
-              >
-                {entry.label}
-              </button>
-            ))}
+            <span className="inline-flex h-11 items-center rounded-full border border-brass px-3 text-sm text-brass">
+              {tier}.0
+            </span>
+            <button
+              type="button"
+              onClick={() => setUpgrade((on) => !on)}
+              className={"h-11 rounded-full border px-3 text-sm " + (upgrade ? "border-brass text-brass" : "border-line text-muted")}
+            >
+              Upgrade {tier}.0 to {tier}.1–{tier}.3
+            </button>
+            <button
+              type="button"
+              onClick={() => setMarket4((on) => !on)}
+              className={"h-11 rounded-full border px-3 text-sm " + (market4 ? "border-brass text-brass" : "border-line text-muted")}
+            >
+              {tier}.4 market
+            </button>
           </div>
+          {upgrade ? (
+            <div className="mt-2 flex flex-wrap gap-2">
+              {UPGRADES.map((entry) => (
+                <button
+                  key={entry.level}
+                  type="button"
+                  onClick={() =>
+                    setUpgradeLevels((current) =>
+                      current.includes(entry.level) ? current.filter((level) => level !== entry.level) : [...current, entry.level].sort(),
+                    )
+                  }
+                  className={"h-11 rounded-full border px-3 text-sm " + (upgradeLevels.includes(entry.level) ? "border-brass text-brass" : "border-line text-muted")}
+                >
+                  {tier}{entry.label}
+                </button>
+              ))}
+            </div>
+          ) : null}
           <p className="mt-2 max-w-2xl text-xs text-muted">
-            Same as the Albion Free Market flipper. .1 to .3 buy the .0 item, then runes, souls, and relics. .0 and .4 use that enchantment's own market price. .4 cannot be upgraded into.
+            {upgrade
+              ? `Buying the ${tier}.0, adding the stones, then selling the enchanted item.`
+              : `Showing ${tier}.0 only. Turn on upgrade to price ${tier}.1, ${tier}.2, and ${tier}.3.`}
           </p>
-          <div className="mt-3 rounded-lg border border-line p-3">
+          {upgrade ? (
+            <div className="mt-3 rounded-lg border border-line p-3">
             <div className="flex flex-wrap items-end justify-between gap-3">
               <p className="text-xs font-semibold tracking-wide text-brass uppercase">Upgrade material prices</p>
               <label className="text-xs text-muted">
@@ -320,7 +353,8 @@ export function FlipLab() {
                 )
               })}
             </div>
-          </div>
+            </div>
+          ) : null}
         </div>
         <p className="mt-4 text-xs font-semibold tracking-wide text-brass uppercase">Buy location</p>
         <div className="mt-2 flex flex-wrap gap-2">
