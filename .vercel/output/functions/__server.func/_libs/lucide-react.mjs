@@ -142,16 +142,6 @@ var Dices = createLucideIcon("dices", [
 * This source code is licensed under the ISC license.
 * See the LICENSE file in the root directory of this source tree.
 */
-var Flame = createLucideIcon("flame", [["path", {
-	d: "M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z",
-	key: "96xj49"
-}]]);
-/**
-* @license lucide-react v0.510.0 - ISC
-*
-* This source code is licensed under the ISC license.
-* See the LICENSE file in the root directory of this source tree.
-*/
 var GraduationCap = createLucideIcon("graduation-cap", [
 	["path", {
 		d: "M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z",
@@ -312,4 +302,4 @@ var TriangleAlert = createLucideIcon("triangle-alert", [
 	}]
 ]);
 //#endregion
-export { Map as a, Flame as c, BookOpen as d, Percent as i, Dices as l, Trash2 as n, Hammer as o, RefreshCw as r, GraduationCap as s, TriangleAlert as t, Bookmark as u };
+export { Map as a, Dices as c, Percent as i, Bookmark as l, Trash2 as n, Hammer as o, RefreshCw as r, GraduationCap as s, TriangleAlert as t, BookOpen as u };

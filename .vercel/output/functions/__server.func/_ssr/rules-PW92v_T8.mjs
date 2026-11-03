@@ -1,4 +1,4 @@
-//#region node_modules/.nitro/vite/services/ssr/assets/rules-Cs28H3-y.js
+//#region node_modules/.nitro/vite/services/ssr/assets/rules-PW92v_T8.js
 var SERVERS = [
 	{
 		id: "asia",
@@ -258,7 +258,8 @@ var GROUP_LABEL = {
 	tool: "Tools",
 	gather: "Gathering gear",
 	food: "Food",
-	potion: "Potions"
+	potion: "Potions",
+	mount: "Mounts"
 };
 var FORGE_STATIONS = [
 	"Warrior's Forge",
@@ -336,44 +337,116 @@ var WEAPON_LINE = {
 	}
 };
 var ARMOR_LINE = {
-	plate: {
-		label: "Plate",
-		station: "Warrior's Forge",
-		categories: [
-			"plate_helmet",
-			"plate_armor",
-			"plate_shoes"
-		]
+	plate_helmet: {
+		label: "Plate Helmets",
+		station: "Warrior's Forge"
 	},
-	leather: {
-		label: "Leather",
-		station: "Hunter's Lodge",
-		categories: [
-			"leather_helmet",
-			"leather_armor",
-			"leather_shoes"
-		]
+	plate_armor: {
+		label: "Plate Armor",
+		station: "Warrior's Forge"
 	},
-	cloth: {
-		label: "Cloth",
-		station: "Mage's Tower",
-		categories: [
-			"cloth_helmet",
-			"cloth_armor",
-			"cloth_shoes"
-		]
+	plate_shoes: {
+		label: "Plate Boots",
+		station: "Warrior's Forge"
+	},
+	leather_helmet: {
+		label: "Leather Helmets",
+		station: "Hunter's Lodge"
+	},
+	leather_armor: {
+		label: "Leather Armor",
+		station: "Hunter's Lodge"
+	},
+	leather_shoes: {
+		label: "Leather Boots",
+		station: "Hunter's Lodge"
+	},
+	cloth_helmet: {
+		label: "Cloth Helmets",
+		station: "Mage's Tower"
+	},
+	cloth_armor: {
+		label: "Cloth Armor",
+		station: "Mage's Tower"
+	},
+	cloth_shoes: {
+		label: "Cloth Boots",
+		station: "Mage's Tower"
 	}
 };
+var OFFHAND_LINE = {
+	shield: { label: "Shields" },
+	torch: { label: "Torches" },
+	tome: { label: "Tomes" }
+};
+var TOOL_LINE = {
+	axe: { label: "Axes" },
+	pick: { label: "Pickaxes" },
+	sickle: { label: "Sickles" },
+	knife: { label: "Skinning Knives" },
+	hammer: { label: "Stone Hammers" },
+	fishingrod: { label: "Fishing Rods" },
+	siegehammer: { label: "Siege Hammers" }
+};
+var MOUNT_LINE = {
+	horse: { label: "Riding Horses" },
+	armored: { label: "Armored Horses" },
+	ox: { label: "Transport Oxen" },
+	rare: { label: "Rare mounts" },
+	faction: { label: "Faction mounts" },
+	battle: { label: "Battle mounts" }
+};
+var GATHER_LINE = {
+	fiber: { label: "Harvester" },
+	wood: { label: "Lumberjack" },
+	ore: { label: "Miner" },
+	hide: { label: "Skinner" },
+	rock: { label: "Quarrier" },
+	fish: { label: "Fisherman" }
+};
+var OFFHAND_STEM = {
+	OFF_SHIELD: "shield",
+	OFF_SHIELD_AVALON: "shield",
+	OFF_SHIELD_CRYSTAL: "shield",
+	OFF_SHIELD_HELL: "shield",
+	OFF_SPIKEDSHIELD_MORGANA: "shield",
+	OFF_TOWERSHIELD_UNDEAD: "shield",
+	OFF_TORCH: "torch",
+	OFF_TORCH_CRYSTAL: "torch",
+	OFF_LAMP_UNDEAD: "torch",
+	OFF_CENSER_AVALON: "torch",
+	OFF_HORN_KEEPER: "torch",
+	OFF_JESTERCANE_HELL: "torch",
+	OFF_TALISMAN_AVALON: "torch",
+	OFF_BOOK: "tome",
+	OFF_ORB_MORGANA: "tome",
+	OFF_DEMONSKULL_HELL: "tome",
+	OFF_TOTEM_KEEPER: "tome",
+	OFF_TOME_CRYSTAL: "tome"
+};
+function itemStem(id) {
+	return id.split("@")[0].replace(/^T\d+_/, "");
+}
 function gearLine(item) {
 	if (item.group === "weapon") return WEAPON_LINE[item.category] ? item.category : null;
-	if (item.group !== "armor") return null;
-	for (const [id, line] of Object.entries(ARMOR_LINE)) if (line.categories.includes(item.category)) return id;
+	if (item.group === "armor") return ARMOR_LINE[item.category] ? item.category : null;
+	if (item.group === "mount") return MOUNT_LINE[item.category] ? item.category : null;
+	if (!item.id) return null;
+	if (item.group === "offhand") return OFFHAND_STEM[itemStem(item.id)] ?? null;
+	if (item.group === "gather") {
+		const kind = item.id.match(/GATHERER_([A-Z]+)/)?.[1].toLowerCase();
+		return kind && GATHER_LINE[kind] ? kind : null;
+	}
+	if (item.group === "tool") {
+		const kind = item.id.match(/_TOOL_([A-Z]+)/)?.[1].toLowerCase();
+		return kind && TOOL_LINE[kind] ? kind : null;
+	}
 	return null;
 }
 function gearLineLabel(item) {
 	const id = gearLine(item);
 	if (!id) return null;
-	return WEAPON_LINE[id]?.label ?? ARMOR_LINE[id]?.label ?? null;
+	return WEAPON_LINE[id]?.label ?? ARMOR_LINE[id]?.label ?? OFFHAND_LINE[id]?.label ?? TOOL_LINE[id]?.label ?? GATHER_LINE[id]?.label ?? MOUNT_LINE[id]?.label ?? null;
 }
 var SETUP_FEE = .025;
 var TAX_PREMIUM = .04;
@@ -384,4 +457,4 @@ var STUDY_FACTOR = 2.75;
 var STUDY_FOCUS = 1.59;
 var PREMIUM_FAME = 1.5;
 //#endregion
-export { gearLineLabel as C, gearLine as S, specialtyBonus as T, TAX_STANDARD as _, HIDEOUT_CRAFT as a, biomeFavors as b, MARKETS as c, REPAIR_SILVER as d, SERVERS as f, TAX_PREMIUM as g, STUDY_FOCUS as h, GROUP_LABEL as i, NUTRITION_FACTOR as l, STUDY_FACTOR as m, CRAFT_CITIES as n, HO_BIOMES as o, SETUP_FEE as p, FORGE_STATIONS as r, HO_QUALITY_BASE as s, ARMOR_LINE as t, PREMIUM_FAME as u, WEAPON_LINE as v, hideoutSpecPower as w, clampStep as x, biomeById as y };
+export { biomeById as C, gearLineLabel as D, gearLine as E, hideoutSpecPower as O, WEAPON_LINE as S, clampStep as T, STUDY_FACTOR as _, GROUP_LABEL as a, TAX_STANDARD as b, HO_QUALITY_BASE as c, NUTRITION_FACTOR as d, OFFHAND_LINE as f, SETUP_FEE as g, SERVERS as h, GATHER_LINE as i, specialtyBonus as k, MARKETS as l, REPAIR_SILVER as m, CRAFT_CITIES as n, HIDEOUT_CRAFT as o, PREMIUM_FAME as p, FORGE_STATIONS as r, HO_BIOMES as s, ARMOR_LINE as t, MOUNT_LINE as u, STUDY_FOCUS as v, biomeFavors as w, TOOL_LINE as x, TAX_PREMIUM as y };

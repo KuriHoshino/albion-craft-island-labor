@@ -122,7 +122,7 @@ var HEADERS = { TSS_SHELL: "X-TSS_SHELL" };
 * the dev styles URL for route-scoped CSS collection.
 */
 async function getStartManifest(matchedRoutes) {
-	const { tsrStartManifest } = await import("../_tanstack-start-manifest_v-TDB_dM9W.mjs");
+	const { tsrStartManifest } = await import("../_tanstack-start-manifest_v-DWG28KKy.mjs");
 	const startManifest = tsrStartManifest();
 	let routes = startManifest.routes;
 	routes[rootRouteId];
@@ -142,9 +142,13 @@ async function getStartManifest(matchedRoutes) {
 	};
 }
 var manifest = {
+	"0a31263371f71b39edf22cba1c62c98ca7292577ab4adbbbb38d999d9f4086cd": {
+		functionName: "fetchHourlyPrices_createServerFn_handler",
+		importer: () => import("./prices-BXT30GhJ.mjs")
+	},
 	"42f59d9d4471ffd5477b3a5b6a4ae02e4546bc795ce9cc1866e55a2aa79c129a": {
 		functionName: "fetchMarketPrices_createServerFn_handler",
-		importer: () => import("./prices-BtUPgtQl.mjs")
+		importer: () => import("./prices-BXT30GhJ.mjs")
 	},
 	"4bb74e2c1562f8eecf2090806bb0bbcd1875d93afd00c7d2d609699c92a58f56": {
 		functionName: "saveCraftGroup_createServerFn_handler",
@@ -1565,7 +1569,7 @@ var getBaseManifest = getProdBaseManifest;
 var createEarlyHintsForRequest = createEarlyHintsCollector;
 async function loadEntries() {
 	const [routerEntry, startEntry, pluginAdapters] = await Promise.all([
-		import("./router-CCyvdiuH.mjs").then((n) => n.t),
+		import("./router-BTkTzUWG.mjs").then((n) => n.t),
 		import("./start-5Z2QO8AU.mjs"),
 		import("./empty-plugin-adapters-D9UWiqvJ.mjs")
 	]);
