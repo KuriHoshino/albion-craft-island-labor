@@ -1,7 +1,7 @@
 import { useMemo, useState } from "react"
 import { RefreshCw, Trash2 } from "lucide-react"
 import { craftMath } from "@/lib/forge/formulas"
-import { enchantsOf, getItem, journalFor, journalTiers, marketId, matName, matWeight, variantOf } from "@/lib/forge/lookup"
+import { enchantsOf, getItem, journalTiers, marketId, matName, matWeight, variantOf } from "@/lib/forge/lookup"
 import { CRAFT_CITIES, HO_BIOMES, MARKETS, biomeById, biomeFavors } from "@/lib/forge/rules"
 import { moneySide, readQuote, useForge, type Line, type PriceBook } from "@/lib/forge/store"
 import { Num, Select, Toggle, exact, fieldClass, pct, silver } from "./fields"
@@ -30,6 +30,12 @@ function lookup(
   return best ? { price: best.price, from: best.city } : { price: null, from: null }
 }
 
+function journalChoice(kind: string | null, tier: number, itemTier: number) {
+  const options = journalTiers(kind)
+  const picked = options.find((entry) => entry.tier === tier) ?? options.find((entry) => entry.tier === itemTier) ?? options[0]
+  return { options, picked }
+}
+
 function evaluateLine(line: Line, state: ReturnType<typeof useForge.getState>) {
   const item = getItem(line.itemId)
   if (!item) return null
@@ -45,8 +51,8 @@ function evaluateLine(line: Line, state: ReturnType<typeof useForge.getState>) {
     if (found.from) notes.push(`${id} from ${found.from}`)
     return found.price
   }
-  const journalTier = Math.min(8, Math.max(2, line.journalTier || item.tier))
-  const journal = line.journal ? journalFor(item.journal, journalTier) : undefined
+  const choice = journalChoice(item.journal, line.journalTier, item.tier)
+  const journal = line.journal ? choice.picked : undefined
   const math = craftMath({
     variant,
     tier: item.tier,
@@ -91,6 +97,7 @@ export function Bench() {
   const evaluated = useMemo(() => (line ? evaluateLine(line, state) : null), [line, state])
   const math = evaluated?.math ?? null
   const variant = item && line ? variantOf(item, line.enchant, line.route) : undefined
+  const choice = item && line ? journalChoice(item.journal, line.journalTier, item.tier) : { options: [], picked: undefined }
   const routes = item && line ? item.variants.filter((entry) => entry.enchant === (variant?.enchant ?? line.enchant)) : []
   const hasUpgrade = routes.some((entry) => entry.route === "upgrade")
 
@@ -336,6 +343,17 @@ export function Bench() {
               value={line.focusOverride ?? variant.focus}
               onChange={(focusOverride) => state.patchLine(line.uid, { focusOverride })}
             />
+            {item.journal && choice.options.length > 0 ? (
+              <Select
+                label="Journal"
+                value={String(choice.picked?.tier ?? item.tier)}
+                onChange={(value) => state.patchLine(line.uid, { journalTier: Number(value), journal: true })}
+                options={choice.options.map((entry) => ({
+                  value: String(entry.tier),
+                  label: `T${entry.tier} ${entry.name}`,
+                }))}
+              />
+            ) : null}
           </div>
           {line.place === "hideout" ? (
             <p className="mt-3 text-xs text-muted">
@@ -365,19 +383,6 @@ export function Bench() {
               <Toggle on={line.journal} onClick={() => state.patchLine(line.uid, { journal: !line.journal })}>
                 Fill journals
               </Toggle>
-            ) : null}
-            {item.journal && line.journal ? (
-              <div className="min-w-36 flex-1">
-                <Select
-                  label="Journal"
-                  value={String(Math.min(8, Math.max(2, line.journalTier || item.tier)))}
-                  onChange={(value) => state.patchLine(line.uid, { journalTier: Number(value) })}
-                  options={journalTiers(item.journal).map((entry) => ({
-                    value: String(entry.tier),
-                    label: `T${entry.tier}`,
-                  }))}
-                />
-              </div>
             ) : null}
             <Toggle on={state.premium} onClick={() => state.patch({ premium: !state.premium })}>
               Premium
@@ -562,7 +567,7 @@ export function Bench() {
             <Stat label="Focus for batch" value={focusBatch > 0 ? exact(focusBatch) : "—"} />
             <Stat label="Silver / focus" value={silver(perFocus)} />
             <Stat label="Study fame / item" value={item.study ? exact(math.studyEach) : "—"} />
-            <Stat label="Journals" value={line.journal && item.journal ? `${exact(math.journals)} · T${Math.min(8, Math.max(2, line.journalTier || item.tier))}` : "Off"} />
+            <Stat label="Journals" value={line.journal && choice.picked ? `${exact(math.journals)} · T${choice.picked.tier}` : "Off"} />
           </dl>
           <p className="mt-3 text-xs text-muted">
             {focusEach <= 0
